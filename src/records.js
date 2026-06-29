@@ -16,12 +16,17 @@ export function createSubmission(question, userAnswer, confidence, startedAt) {
     level: question.level,
     section: question.section,
     questionType: question.type,
+    prompt: question.prompt,
+    choices: { ...question.choices },
     userAnswer,
     correctAnswer: question.correctAnswer,
     isCorrect,
     confidence,
     timeSpent: Math.max(0, Math.round((now.getTime() - startedAt.getTime()) / 1000)),
-    answeredAt: now.toISOString()
+    answeredAt: now.toISOString(),
+    knowledgePointIds: [...question.knowledgePointIds],
+    knowledgePointTitles: [...question.knowledgePointTitles],
+    explanation: question.explanation
   };
 
   const weakPoint = reasons.length

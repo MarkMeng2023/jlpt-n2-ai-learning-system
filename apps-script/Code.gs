@@ -16,12 +16,20 @@ const ANSWER_HEADERS = [
   "level",
   "section",
   "questionType",
+  "prompt",
+  "choiceA",
+  "choiceB",
+  "choiceC",
+  "choiceD",
   "userAnswer",
   "correctAnswer",
   "isCorrect",
   "confidence",
   "timeSpent",
   "answeredAt",
+  "knowledgePointIds",
+  "knowledgePointTitles",
+  "explanation",
   "receivedAt"
 ];
 
@@ -120,12 +128,20 @@ function upsertAnswerRecord_(sheet, record, receivedAt) {
     record.level,
     record.section,
     record.questionType,
+    record.prompt,
+    record.choices.A,
+    record.choices.B,
+    record.choices.C,
+    record.choices.D,
     record.userAnswer,
     record.correctAnswer,
     record.isCorrect,
     record.confidence,
     record.timeSpent,
     record.answeredAt,
+    JSON.stringify(record.knowledgePointIds),
+    JSON.stringify(record.knowledgePointTitles),
+    record.explanation,
     receivedAt
   ].map(safeCell_);
 
@@ -170,6 +186,8 @@ function validatePayload_(payload) {
   assertString_(record.level, "answerRecord.level", 10);
   assertString_(record.section, "answerRecord.section", 100);
   assertString_(record.questionType, "answerRecord.questionType", 100);
+  assertString_(record.prompt, "answerRecord.prompt", 5000);
+  assertChoices_(record.choices, "answerRecord.choices");
   assertChoice_(record.userAnswer, "answerRecord.userAnswer");
   assertChoice_(record.correctAnswer, "answerRecord.correctAnswer");
   if (typeof record.isCorrect !== "boolean") throw new Error("answerRecord.isCorrect must be boolean");
@@ -183,6 +201,12 @@ function validatePayload_(payload) {
     throw new Error("answerRecord.timeSpent is invalid");
   }
   assertIsoDate_(record.answeredAt, "answerRecord.answeredAt");
+  assertStringArray_(record.knowledgePointIds, "answerRecord.knowledgePointIds", 50);
+  assertStringArray_(record.knowledgePointTitles, "answerRecord.knowledgePointTitles", 50);
+  if (record.knowledgePointIds.length !== record.knowledgePointTitles.length) {
+    throw new Error("answerRecord knowledge point IDs and titles must have the same length");
+  }
+  assertString_(record.explanation, "answerRecord.explanation", 5000);
 
   const expectedReasons = [];
   if (!record.isCorrect) expectedReasons.push("wrong_answer");
@@ -233,6 +257,15 @@ function assertString_(value, name, maxLength) {
 
 function assertChoice_(value, name) {
   if (["A", "B", "C", "D"].indexOf(value) === -1) throw new Error(name + " is invalid");
+}
+
+function assertChoices_(choices, name) {
+  if (!choices || typeof choices !== "object" || Array.isArray(choices)) {
+    throw new Error(name + " is invalid");
+  }
+  ["A", "B", "C", "D"].forEach(function (key) {
+    assertString_(choices[key], name + "." + key, 1000);
+  });
 }
 
 function assertIsoDate_(value, name) {
@@ -288,8 +321,38 @@ function ensureHeaders_(sheet, headers) {
   }
   const actual = sheet.getRange(1, 1, 1, headers.length).getValues()[0];
   if (JSON.stringify(actual) !== JSON.stringify(headers)) {
-    throw new Error("Unexpected headers in sheet: " + sheet.getName());
+    const actualHeaders = readActualHeaders_(sheet);
+    const mismatchIndex = findHeaderMismatchIndex_(headers, actualHeaders);
+    const details = {
+      spreadsheetId: sheet.getParent().getId(),
+      sheetName: sheet.getName(),
+      expectedHeaders: headers,
+      actualHeaders: actualHeaders,
+      expectedLength: headers.length,
+      actualLength: actualHeaders.length,
+      mismatchIndex: mismatchIndex,
+      expectedAtMismatch: mismatchIndex === -1 ? null : headers[mismatchIndex] ?? null,
+      actualAtMismatch: mismatchIndex === -1 ? null : actualHeaders[mismatchIndex] ?? null
+    };
+    throw new Error("Header mismatch diagnostics:\n" + JSON.stringify(details, null, 2));
   }
+}
+
+function readActualHeaders_(sheet) {
+  const lastColumn = Math.max(sheet.getLastColumn(), 1);
+  const actualHeaders = sheet.getRange(1, 1, 1, lastColumn).getValues()[0];
+  while (actualHeaders.length > 0 && actualHeaders[actualHeaders.length - 1] === "") {
+    actualHeaders.pop();
+  }
+  return actualHeaders;
+}
+
+function findHeaderMismatchIndex_(expectedHeaders, actualHeaders) {
+  const maxLength = Math.max(expectedHeaders.length, actualHeaders.length);
+  for (let index = 0; index < maxLength; index += 1) {
+    if (expectedHeaders[index] !== actualHeaders[index]) return index;
+  }
+  return -1;
 }
 
 function safeCell_(value) {

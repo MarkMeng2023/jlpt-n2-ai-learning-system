@@ -15,6 +15,7 @@
     "correctAnswer": "A",
     "explanation": "「疲れがたまる」是固定搭配，表示疲劳逐渐积累。",
     "knowledgePointIds": ["KP-VOC-TAMARU-001"],
+    "knowledgePointTitles": ["疲れがたまる"],
     "difficulty": 2,
     "sourceType": "ai_generated"
   },
@@ -34,6 +35,7 @@
     "correctAnswer": "C",
     "explanation": "「たちまち」表示在很短时间内发生变化，此处意为头痛很快会好。",
     "knowledgePointIds": ["KP-ADV-TACHIMACHI-001"],
+    "knowledgePointTitles": ["たちまち"],
     "difficulty": 2,
     "sourceType": "ai_generated"
   },
@@ -53,6 +55,7 @@
     "correctAnswer": "A",
     "explanation": "「ことにしている」表示说话人自己决定并持续执行的习惯。",
     "knowledgePointIds": ["KP-GRA-KOTONISHITEIRU-001"],
+    "knowledgePointTitles": ["ことにしている"],
     "difficulty": 2,
     "sourceType": "ai_generated"
   }

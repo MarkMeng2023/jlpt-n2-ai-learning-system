@@ -13,8 +13,22 @@ const question = {
   prompt: "疲れが（　　　）。",
   choices: { A: "たまった", B: "集まった", C: "増えた", D: "積んだ" },
   correctAnswer: "A",
-  knowledgePointIds: ["KP-TEST-001"]
+  explanation: "「疲れがたまる」是固定搭配。",
+  knowledgePointIds: ["KP-TEST-001"],
+  knowledgePointTitles: ["疲れがたまる"]
 };
+
+test("AnswerRecord 保存完整题目快照", () => {
+  const operation = createSubmission(question, "B", "uncertain", new Date());
+  const record = operation.answerRecord;
+
+  assert.equal(record.prompt, question.prompt);
+  assert.deepEqual(record.choices, question.choices);
+  assert.notEqual(record.choices, question.choices);
+  assert.deepEqual(record.knowledgePointIds, question.knowledgePointIds);
+  assert.deepEqual(record.knowledgePointTitles, question.knowledgePointTitles);
+  assert.equal(record.explanation, question.explanation);
+});
 
 test("答错且蒙题时保留两个弱点原因和必要快照", () => {
   const operation = createSubmission(question, "D", "guessed", new Date());
