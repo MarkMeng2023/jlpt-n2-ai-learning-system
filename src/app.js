@@ -63,6 +63,7 @@ function renderQuestion() {
         <span>${escapeHtml(value)}</span>
       </label>`)
     .join("");
+  enableAnswerInputs();
   elements.submitButton.disabled = false;
   elements.submitButton.classList.remove("hidden");
   elements.nextButton.classList.add("hidden");
