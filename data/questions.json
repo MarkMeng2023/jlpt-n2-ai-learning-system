@@ -1,0 +1,59 @@
+[
+  {
+    "questionId": "Q-N2-VOC-0001",
+    "level": "N2",
+    "section": "language_knowledge",
+    "type": "vocabulary_collocation",
+    "typeLabel": "词汇・固定搭配",
+    "prompt": "最近は仕事が忙しく、毎日残業が続いているので、疲れが（　　　）。",
+    "choices": {
+      "A": "たまってきた",
+      "B": "集まってきた",
+      "C": "増えてきた",
+      "D": "積んできた"
+    },
+    "correctAnswer": "A",
+    "explanation": "「疲れがたまる」是固定搭配，表示疲劳逐渐积累。",
+    "knowledgePointIds": ["KP-VOC-TAMARU-001"],
+    "difficulty": 2,
+    "sourceType": "ai_generated"
+  },
+  {
+    "questionId": "Q-N2-ADV-0001",
+    "level": "N2",
+    "section": "language_knowledge",
+    "type": "adverb_usage",
+    "typeLabel": "词汇・副词",
+    "prompt": "この薬を飲めば、頭痛は（　　　）よくなるでしょう。",
+    "choices": {
+      "A": "じっと",
+      "B": "しばらく",
+      "C": "たちまち",
+      "D": "せっかく"
+    },
+    "correctAnswer": "C",
+    "explanation": "「たちまち」表示在很短时间内发生变化，此处意为头痛很快会好。",
+    "knowledgePointIds": ["KP-ADV-TACHIMACHI-001"],
+    "difficulty": 2,
+    "sourceType": "ai_generated"
+  },
+  {
+    "questionId": "Q-N2-GRA-0001",
+    "level": "N2",
+    "section": "language_knowledge",
+    "type": "grammar_distinction",
+    "typeLabel": "文法・基础辨析",
+    "prompt": "日本に来て以来、毎日欠かさず日本語を勉強する（　　　）。",
+    "choices": {
+      "A": "ことにしている",
+      "B": "ことになっている",
+      "C": "ようになっている",
+      "D": "わけになっている"
+    },
+    "correctAnswer": "A",
+    "explanation": "「ことにしている」表示说话人自己决定并持续执行的习惯。",
+    "knowledgePointIds": ["KP-GRA-KOTONISHITEIRU-001"],
+    "difficulty": 2,
+    "sourceType": "ai_generated"
+  }
+]
