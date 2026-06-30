@@ -31,7 +31,7 @@ try {
     readJson("data/knowledge-point-sources.json"),
     readJson("knowledge/grammar/grammar-points.json")
   ]);
-  const structural = validateQuestionBank(questions, knowledgePoints);
+  const structural = validateQuestionBank(questions, knowledgePoints, grammarPoints);
   if (!structural.valid) {
     structural.errors.forEach((error) => console.error(error));
     throw new Error(`structural validation failed with ${structural.errors.length} error(s)`);

@@ -10,6 +10,8 @@
     "report:factory": "node scripts/generate-question-factory-reports.js",
     "generate:sprint9": "node scripts/generate-sprint9-questions.js",
     "pipeline:sprint9": "node scripts/generate-sprint9-questions.js && node scripts/validate-question-bank.js && node scripts/validate-grammar-map.js && node scripts/generate-question-factory-reports.js && node scripts/report-question-bank-quality.js --output reports/question-bank-quality.md",
+    "generate:sprint10": "node scripts/generate-sprint10-questions.js",
+    "pipeline:sprint10": "node scripts/generate-sprint10-questions.js && node scripts/validate-question-bank.js && node scripts/validate-grammar-map.js && node scripts/generate-question-factory-reports.js && node scripts/report-question-bank-quality.js --output reports/question-bank-quality.md",
     "report:quality": "node scripts/report-question-bank-quality.js --output reports/question-bank-quality.md",
     "validate:quality": "node scripts/report-question-bank-quality.js --strict",
     "test": "node scripts/validate-question-bank.js && node scripts/validate-grammar-map.js && node --test tests/*.test.js"

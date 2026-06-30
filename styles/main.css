@@ -37,6 +37,16 @@ button, input, textarea { font: inherit; }
 .subtitle, .muted { color: var(--muted); }
 .subtitle { margin: 0; }
 
+.card.project-status { margin: 0 0 18px; overflow: hidden; border-color: #315947; background: linear-gradient(135deg, #244b3d, #3f6b58); color: #fff; }
+.project-status-title { display: flex; align-items: flex-start; justify-content: space-between; gap: 20px; }
+.project-status-title h2 { margin: 1px 0 0; font-size: 1.3rem; }
+.status-kicker { margin: 0; color: #c9ddd2; font-size: .68rem; font-weight: 850; letter-spacing: .16em; }
+.status-version { padding: 5px 11px; border: 1px solid rgb(255 255 255 / 28%); border-radius: 999px; background: rgb(255 255 255 / 10%); font-size: .78rem; font-weight: 800; }
+.project-status-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; margin-top: 22px; overflow: hidden; border: 1px solid rgb(255 255 255 / 16%); border-radius: 12px; background: rgb(255 255 255 / 16%); }
+.project-status-grid div { min-width: 0; padding: 13px 15px; background: rgb(28 61 49 / 76%); }
+.project-status-grid span { display: block; color: #c9ddd2; font-size: .72rem; }
+.project-status-grid strong { display: block; margin-top: 2px; overflow-wrap: anywhere; font-size: 1rem; }
+
 .progress-summary, .daily-summary {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -195,6 +205,7 @@ textarea { width: 100%; margin-top: 16px; padding: 14px; resize: vertical; borde
   .progress-summary div { align-items: flex-start; flex-direction: column; gap: 0; }
   .daily-summary { grid-template-columns: repeat(2, 1fr); }
   .daily-summary div { align-items: flex-start; flex-direction: column; gap: 0; }
+  .project-status-grid { grid-template-columns: repeat(2, 1fr); }
   .mode-grid { grid-template-columns: 1fr; }
   .weakness-lists { grid-template-columns: 1fr; gap: 18px; }
 }

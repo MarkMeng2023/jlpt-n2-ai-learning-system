@@ -5,12 +5,12 @@
 ## Summary
 
 - Knowledge Point 总数：**100**
-- 当前题目数：**125**
-- 当前题目—知识点关联数：**125**
+- 当前题目数：**165**
+- 当前题目—知识点关联数：**165**
 - 理论目标关联数：**845**
-- 总缺口：**720**
-- 目标完成率：**14.79%**
-- 至少有 1 题的知识点：**30/100（30.00%）**
+- 总缺口：**680**
+- 目标完成率：**19.53%**
+- 至少有 1 题的知识点：**40/100（40.00%）**
 
 ## Coverage Rules
 
@@ -27,16 +27,6 @@
 
 | Knowledge Point | 标题 | 类型 | 当前 | 目标 | 缺口 | 完成率 |
 | --- | --- | --- | ---: | ---: | ---: | ---: |
-| KP-GRA-AGEKU-001 | ～あげく | grammar | 0 | 8 | 8 | 0.00% |
-| KP-GRA-IJOUWA-001 | ～以上（は） | grammar | 0 | 8 | 8 | 0.00% |
-| KP-GRA-KAGIRI-001 | ～限り | grammar | 0 | 8 | 8 | 0.00% |
-| KP-GRA-NAIKOTONIWA-001 | ～ないことには | grammar | 0 | 8 | 8 | 0.00% |
-| KP-GRA-NIMOKAKAWARAZU-001 | ～にもかかわらず | grammar | 0 | 8 | 8 | 0.00% |
-| KP-GRA-NISUGINAI-001 | ～にすぎない | grammar | 0 | 8 | 8 | 0.00% |
-| KP-GRA-OSOREGAARU-001 | ～おそれがある | grammar | 0 | 8 | 8 | 0.00% |
-| KP-GRA-TEIRAI-001 | ～て以来 | grammar | 0 | 8 | 8 | 0.00% |
-| KP-GRA-BAKARIDA-001 | ～ばかりだ | grammar | 0 | 8 | 8 | 0.00% |
-| KP-GRA-BAKARINI-001 | ～ばかりに | grammar | 0 | 8 | 8 | 0.00% |
 | KP-GRA-DOKORODEWANAI-001 | ～どころではない | grammar | 0 | 8 | 8 | 0.00% |
 | KP-GRA-HANMEN-001 | ～反面 | grammar | 0 | 8 | 8 | 0.00% |
 | KP-GRA-KOTODA-001 | ～ことだ | grammar | 0 | 8 | 8 | 0.00% |
@@ -117,9 +107,19 @@
 | KP-SYN-METTANI-001 | めったに～ない＝ほとんど～ない | vocabulary | 5 | 10 | 5 | 50.00% |
 | KP-SYN-OOYOSO-001 | おおよそ＝だいたい | vocabulary | 5 | 10 | 5 | 50.00% |
 | KP-SYN-TADACHINI-001 | 直ちに＝すぐに | vocabulary | 5 | 10 | 5 | 50.00% |
+| KP-GRA-AGEKU-001 | ～あげく | grammar | 4 | 8 | 4 | 50.00% |
+| KP-GRA-IJOUWA-001 | ～以上（は） | grammar | 4 | 8 | 4 | 50.00% |
+| KP-GRA-KAGIRI-001 | ～限り | grammar | 4 | 8 | 4 | 50.00% |
 | KP-GRA-KANENAI-001 | ～かねない | grammar | 4 | 8 | 4 | 50.00% |
 | KP-GRA-MONONO-001 | ～ものの | grammar | 4 | 8 | 4 | 50.00% |
+| KP-GRA-NAIKOTONIWA-001 | ～ないことには | grammar | 4 | 8 | 4 | 50.00% |
+| KP-GRA-NIMOKAKAWARAZU-001 | ～にもかかわらず | grammar | 4 | 8 | 4 | 50.00% |
+| KP-GRA-NISUGINAI-001 | ～にすぎない | grammar | 4 | 8 | 4 | 50.00% |
 | KP-GRA-NITOMONATTE-001 | ～に伴って | grammar | 4 | 8 | 4 | 50.00% |
+| KP-GRA-OSOREGAARU-001 | ～おそれがある | grammar | 4 | 8 | 4 | 50.00% |
+| KP-GRA-TEIRAI-001 | ～て以来 | grammar | 4 | 8 | 4 | 50.00% |
+| KP-GRA-BAKARIDA-001 | ～ばかりだ | grammar | 4 | 8 | 4 | 50.00% |
+| KP-GRA-BAKARINI-001 | ～ばかりに | grammar | 4 | 8 | 4 | 50.00% |
 | KP-GRA-KOTOKARA-001 | ～ことから | grammar | 4 | 8 | 4 | 50.00% |
 | KP-GRA-NICHIGAINAI-001 | ～に違いない | grammar | 4 | 8 | 4 | 50.00% |
 | KP-VOC-HATASU-001 | 約束を果たす | fixed_expression | 4 | 8 | 4 | 50.00% |

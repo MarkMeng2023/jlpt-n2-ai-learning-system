@@ -1,6 +1,6 @@
 # Question Bank Quality Report
 
-Generated: 2026-06-30T16:51:19.521Z
+Generated: 2026-06-30T17:18:02.678Z
 
 Expansion gate: **HOLD**
 
@@ -8,7 +8,7 @@ Expansion gate: **HOLD**
 
 | Metric | Count |
 | --- | ---: |
-| Questions | 125 |
+| Questions | 165 |
 | Knowledge points | 30 |
 | Verified knowledge points | 5 |
 | Knowledge points with only AI sources | 25 |
@@ -185,6 +185,46 @@ The obvious-option and multiple-answer checks are heuristics. PASS still require
 | Q-N2-SYN-0023 | ai_generated | JLPT N2 AI Learning System Question Factory |
 | Q-N2-SYN-0024 | ai_generated | JLPT N2 AI Learning System Question Factory |
 | Q-N2-SYN-0025 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-GRA-0001 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-GRA-0002 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-GRA-0003 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-GRA-0004 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-GRA-0005 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-GRA-0006 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-GRA-0007 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-GRA-0008 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-GRA-0009 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-GRA-0010 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-GRA-0011 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-GRA-0012 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-GRA-0013 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-GRA-0014 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-GRA-0015 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-GRA-0016 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-GRA-0017 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-GRA-0018 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-GRA-0019 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-GRA-0020 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-GRA-0021 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-GRA-0022 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-GRA-0023 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-GRA-0024 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-GRA-0025 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-GRA-0026 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-GRA-0027 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-GRA-0028 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-GRA-0029 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-GRA-0030 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-GRA-0031 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-GRA-0032 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-GRA-0033 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-GRA-0034 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-GRA-0035 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-GRA-0036 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-GRA-0037 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-GRA-0038 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-GRA-0039 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-GRA-0040 | ai_generated | JLPT N2 AI Learning System Question Factory |
 
 ## Knowledge Points With Only AI Sources
 

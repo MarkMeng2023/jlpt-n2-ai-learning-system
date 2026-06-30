@@ -3,6 +3,7 @@ import { buildChatGptPrompt } from "./prompt-builder.js";
 import { createSubmission } from "./records.js";
 import { ProgressStore, mergeAnsweredQuestionIds } from "./progress.js";
 import { loadQuestionBank } from "./question-bank.js";
+import { loadProjectStatusData } from "./project-status.js";
 import {
   KNOWLEDGE_STATUS,
   buildKnowledgeProfiles,
@@ -22,6 +23,8 @@ const elements = Object.fromEntries([
   "submit-button", "next-button", "feedback", "feedback-title", "correct-answer", "explanation",
   "sync-status", "sync-detail", "pending-count", "prompt-section", "chatgpt-prompt",
   "copy-button", "copy-status"
+  , "project-eyebrow", "project-status-sprint", "project-version", "project-question-count",
+  "project-knowledge-count", "project-coverage", "project-question-target", "project-last-updated"
 ].map((id) => [id.replaceAll("-", "_"), document.querySelector(`#${id}`)]));
 
 const queue = new SyncQueue(APP_CONFIG.queueStorageKey);
@@ -62,6 +65,8 @@ async function init() {
   try {
     const bank = await loadQuestionBank();
     questions = bank.questions;
+    const projectStatus = await loadProjectStatusData(questions, bank.knowledgePoints, undefined, bank.grammarPoints);
+    renderProjectStatus(projectStatus);
 
     const pendingRecords = queue.getAll().map((operation) => operation.answerRecord).filter(Boolean);
     answerRecords = pendingRecords;
@@ -89,6 +94,19 @@ async function init() {
     showAppError(`${error.message}。请通过本地 HTTP 服务器打开本项目。`);
     document.querySelectorAll(".mode-card").forEach((button) => { button.disabled = true; });
   }
+}
+
+function renderProjectStatus(status) {
+  elements.project_eyebrow.textContent = `JLPT N2 · ${status.sprint}`;
+  elements.project_status_sprint.textContent = status.sprint;
+  elements.project_version.textContent = status.version;
+  elements.project_question_count.textContent = `${status.questionCount} Questions`;
+  elements.project_knowledge_count.textContent = String(status.knowledgePointCount);
+  elements.project_coverage.textContent = `${status.coverage.toFixed(2)}%`;
+  elements.project_question_target.textContent = `${status.questionCount} / ${status.questionTarget}`;
+  elements.project_last_updated.textContent = new Intl.DateTimeFormat("zh-CN", {
+    year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit"
+  }).format(new Date(status.lastUpdated));
 }
 
 function refreshEngine() {

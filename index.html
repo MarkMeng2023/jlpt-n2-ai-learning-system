@@ -10,7 +10,7 @@
   <body>
     <main class="app-shell">
       <header class="page-header">
-        <p class="eyebrow">JLPT N2 · Sprint 9</p>
+        <p id="project-eyebrow" class="eyebrow">JLPT N2 · Loading</p>
         <h1>今天学什么，交给复习引擎。</h1>
         <p class="subtitle">系统根据历史作答、确定度与复习间隔，安排今天最值得练的内容。</p>
       </header>
@@ -18,6 +18,24 @@
       <section id="app-message" class="notice hidden" role="alert"></section>
 
       <section id="home-view">
+        <section class="project-status card" aria-labelledby="project-status-heading">
+          <div class="project-status-title">
+            <div>
+              <p class="status-kicker">PROJECT STATUS</p>
+              <h2 id="project-status-heading">Build overview</h2>
+            </div>
+            <span id="project-status-sprint" class="status-version">—</span>
+          </div>
+          <div class="project-status-grid">
+            <div><span>Version</span><strong id="project-version">—</strong></div>
+            <div><span>Question Bank</span><strong id="project-question-count">—</strong></div>
+            <div><span>Knowledge Points</span><strong id="project-knowledge-count">—</strong></div>
+            <div><span>Coverage</span><strong id="project-coverage">—</strong></div>
+            <div><span>Question Target</span><strong id="project-question-target">—</strong></div>
+            <div><span>Last Updated</span><strong id="project-last-updated">—</strong></div>
+          </div>
+        </section>
+
         <section id="learning-stats-content" class="daily-summary" aria-label="今日学习概况">
           <div><span>新题</span><strong id="new-question-count">—</strong></div>
           <div class="accent"><span>今日复习</span><strong id="today-review-count">—</strong></div>

@@ -21,13 +21,13 @@ test("Sprint 6 暂停扩题并为每个知识点建立来源登记项", () => {
 
 test("质量报告输出知识点覆盖、题目来源和当前扩题门禁", () => {
   const report = analyzeQuestionBankQuality(questions, knowledgePoints, sourceRegistry, { additionalKnowledgePoints: grammarPoints });
-  assert.equal(report.summary.questionCount, 125);
+  assert.equal(report.summary.questionCount, 165);
   assert.equal(report.summary.knowledgePointCount, 30);
   assert.equal(report.summary.onlyAiKnowledgePointCount, 25);
   assert.equal(report.summary.missingValidationSourceCount, 25);
   assert.equal(report.summary.expansionGate, "HOLD");
   assert.equal(report.knowledgePointCoverage.length, 30);
-  assert.equal(report.questionSources.length, 125);
+  assert.equal(report.questionSources.length, 165);
   assert.equal(report.shortExplanations.length, 0);
   assert.equal(report.missingDistractorAnalysis.length, 0);
 

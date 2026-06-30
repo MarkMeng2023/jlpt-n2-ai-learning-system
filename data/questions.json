@@ -4338,5 +4338,1485 @@
       "近义词"
     ],
     "estimatedTime": 45
+  },
+  {
+    "questionId": "Q-N2-FAC-GRA-0001",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_basic",
+    "prompt": "三時間も話し合った（　　）、結論は出なかった。",
+    "choices": {
+      "A": "以上は",
+      "B": "あげく",
+      "C": "限り",
+      "D": "ばかりに"
+    },
+    "correctAnswer": "B",
+    "explanation": "知识点：～あげく（经过……最终……）。正确答案：B。正确理由：長時間の話し合いという過程の末に、望ましくない結果になったため「あげく」が合う。 选项分析：A「以上は」：错误。～あげく所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 B「あげく」：正确。長時間の話し合いという過程の末に、望ましくない結果になったため「あげく」が合う。 C「限り」：错误。～あげく所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 D「ばかりに」：错误。～あげく所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 类似例句：長く話し合ったあげく、結論は出なかった。",
+    "knowledgePointIds": [
+      "KP-GRA-AGEKU-001"
+    ],
+    "knowledgePointTitles": [
+      "～あげく"
+    ],
+    "difficulty": 2,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-AGEKU-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-06-30T17:16:07.989Z",
+    "updatedAt": "2026-06-30T17:16:07.989Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "basic",
+      "原因/结果"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-GRA-0002",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_distinction",
+    "prompt": "彼は何度も店を回ったあげく、（　　）。",
+    "choices": {
+      "A": "何も買わずに帰った",
+      "B": "明日から店を回る",
+      "C": "店に着いたばかりだ",
+      "D": "買う予定にしている"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～あげく（经过……最终……）。正确答案：A。正确理由：長い経過の末の残念な結果「何も買わずに帰った」が「あげく」と自然につながる。 选项分析：A「何も買わずに帰った」：正确。長い経過の末の残念な結果「何も買わずに帰った」が「あげく」と自然につながる。 B「明日から店を回る」：错误。～あげく所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 C「店に着いたばかりだ」：错误。～あげく所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 D「買う予定にしている」：错误。～あげく所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 类似例句：長く話し合ったあげく、結論は出なかった。",
+    "knowledgePointIds": [
+      "KP-GRA-AGEKU-001"
+    ],
+    "knowledgePointTitles": [
+      "～あげく"
+    ],
+    "difficulty": 3,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-AGEKU-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-06-30T17:16:07.989Z",
+    "updatedAt": "2026-06-30T17:16:07.989Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "distinction",
+      "原因/结果"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-GRA-0003",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_context",
+    "prompt": "道に迷ったあげく、約束の時間に一時間も遅れて（　　）。",
+    "choices": {
+      "A": "しまった",
+      "B": "以来だ",
+      "C": "いる限りだ",
+      "D": "すぎなかった"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～あげく（经过……最终……）。正确答案：A。正确理由：迷い続けた末の好ましくない結果なので「あげく～てしまった」が自然である。 选项分析：A「しまった」：正确。迷い続けた末の好ましくない結果なので「あげく～てしまった」が自然である。 B「以来だ」：错误。～あげく所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 C「いる限りだ」：错误。～あげく所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 D「すぎなかった」：错误。～あげく所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 类似例句：長く話し合ったあげく、結論は出なかった。",
+    "knowledgePointIds": [
+      "KP-GRA-AGEKU-001"
+    ],
+    "knowledgePointTitles": [
+      "～あげく"
+    ],
+    "difficulty": 3,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-AGEKU-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-06-30T17:16:07.989Z",
+    "updatedAt": "2026-06-30T17:16:07.989Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "context",
+      "原因/结果"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-GRA-0004",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_integrated",
+    "prompt": "「あげく」の使い方として最も自然なものはどれか。",
+    "choices": {
+      "A": "朝起きたあげく、顔を洗った",
+      "B": "よく考えたあげく、計画を中止した",
+      "C": "日本にいるあげく、日本語を学ぶ",
+      "D": "明日出発するあげく、準備する"
+    },
+    "correctAnswer": "B",
+    "explanation": "知识点：～あげく（经过……最终……）。正确答案：B。正确理由：十分に考えた長い過程と、計画中止という結果を結ぶ用法が適切である。 选项分析：A「朝起きたあげく、顔を洗った」：错误。～あげく所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 B「よく考えたあげく、計画を中止した」：正确。十分に考えた長い過程と、計画中止という結果を結ぶ用法が適切である。 C「日本にいるあげく、日本語を学ぶ」：错误。～あげく所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 D「明日出発するあげく、準備する」：错误。～あげく所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 类似例句：長く話し合ったあげく、結論は出なかった。",
+    "knowledgePointIds": [
+      "KP-GRA-AGEKU-001"
+    ],
+    "knowledgePointTitles": [
+      "～あげく"
+    ],
+    "difficulty": 4,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-AGEKU-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-06-30T17:16:07.989Z",
+    "updatedAt": "2026-06-30T17:16:07.989Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "integrated",
+      "原因/结果"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-GRA-0005",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_basic",
+    "prompt": "この仕事を引き受けた（　　）、最後まで責任を持つつもりだ。",
+    "choices": {
+      "A": "ものの",
+      "B": "ばかりに",
+      "C": "以上は",
+      "D": "以来"
+    },
+    "correctAnswer": "C",
+    "explanation": "知识点：～以上（は）（既然……就……）。正确答案：C。正确理由：仕事を引き受けた事実を前提に責任や決意を述べるため「以上は」が合う。 选项分析：A「ものの」：错误。～以上（は）所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 B「ばかりに」：错误。～以上（は）所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 C「以上は」：正确。仕事を引き受けた事実を前提に責任や決意を述べるため「以上は」が合う。 D「以来」：错误。～以上（は）所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 类似例句：約束した以上、最後まで責任を持つべきだ。",
+    "knowledgePointIds": [
+      "KP-GRA-IJOUWA-001"
+    ],
+    "knowledgePointTitles": [
+      "～以上（は）"
+    ],
+    "difficulty": 2,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-IJOUWA-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-06-30T17:16:07.989Z",
+    "updatedAt": "2026-06-30T17:16:07.989Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "basic",
+      "原因/结果"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-GRA-0006",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_distinction",
+    "prompt": "約束した以上は、（　　）。",
+    "choices": {
+      "A": "守らなければならない",
+      "B": "守ったことがない",
+      "C": "守ったばかりだ",
+      "D": "守るおそれがある"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～以上（は）（既然……就……）。正确答案：A。正确理由：「以上は」は確定した前提から当然の義務を導くので「守らなければならない」が自然である。 选项分析：A「守らなければならない」：正确。「以上は」は確定した前提から当然の義務を導くので「守らなければならない」が自然である。 B「守ったことがない」：错误。～以上（は）所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 C「守ったばかりだ」：错误。～以上（は）所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 D「守るおそれがある」：错误。～以上（は）所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 类似例句：約束した以上、最後まで責任を持つべきだ。",
+    "knowledgePointIds": [
+      "KP-GRA-IJOUWA-001"
+    ],
+    "knowledgePointTitles": [
+      "～以上（は）"
+    ],
+    "difficulty": 3,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-IJOUWA-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-06-30T17:16:07.989Z",
+    "updatedAt": "2026-06-30T17:16:07.989Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "distinction",
+      "原因/结果"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-GRA-0007",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_context",
+    "prompt": "代表に選ばれた以上、途中で（　　）わけにはいかない。",
+    "choices": {
+      "A": "あきらめる",
+      "B": "あきらめた",
+      "C": "あきらめて",
+      "D": "あきらめない"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～以上（は）（既然……就……）。正确答案：A。正确理由：代表に選ばれた以上は責任が生じるため、「途中であきらめるわけにはいかない」となる。 选项分析：A「あきらめる」：正确。代表に選ばれた以上は責任が生じるため、「途中であきらめるわけにはいかない」となる。 B「あきらめた」：错误。～以上（は）所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 C「あきらめて」：错误。～以上（は）所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 D「あきらめない」：错误。～以上（は）所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 类似例句：約束した以上、最後まで責任を持つべきだ。",
+    "knowledgePointIds": [
+      "KP-GRA-IJOUWA-001"
+    ],
+    "knowledgePointTitles": [
+      "～以上（は）"
+    ],
+    "difficulty": 3,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-IJOUWA-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-06-30T17:16:07.989Z",
+    "updatedAt": "2026-06-30T17:16:07.989Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "context",
+      "原因/结果"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-GRA-0008",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_integrated",
+    "prompt": "「以上は」が最も自然に使われている文はどれか。",
+    "choices": {
+      "A": "雨が降った以上は、道がぬれているらしい",
+      "B": "参加すると決めた以上は、全力を尽くしたい",
+      "C": "駅に着いた以上は、電車が出たばかりだ",
+      "D": "春になった以上は、花が好きではない"
+    },
+    "correctAnswer": "B",
+    "explanation": "知识点：～以上（は）（既然……就……）。正确答案：B。正确理由：参加を決めたという前提から決意を述べる文が「以上は」の用法に合う。 选项分析：A「雨が降った以上は、道がぬれているらしい」：错误。～以上（は）所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 B「参加すると決めた以上は、全力を尽くしたい」：正确。参加を決めたという前提から決意を述べる文が「以上は」の用法に合う。 C「駅に着いた以上は、電車が出たばかりだ」：错误。～以上（は）所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 D「春になった以上は、花が好きではない」：错误。～以上（は）所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 类似例句：約束した以上、最後まで責任を持つべきだ。",
+    "knowledgePointIds": [
+      "KP-GRA-IJOUWA-001"
+    ],
+    "knowledgePointTitles": [
+      "～以上（は）"
+    ],
+    "difficulty": 4,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-IJOUWA-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-06-30T17:16:07.989Z",
+    "updatedAt": "2026-06-30T17:16:07.989Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "integrated",
+      "原因/结果"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-GRA-0009",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_basic",
+    "prompt": "体力が続く（　　）、この仕事を続けたい。",
+    "choices": {
+      "A": "あげく",
+      "B": "ばかりに",
+      "C": "限り",
+      "D": "以来"
+    },
+    "correctAnswer": "C",
+    "explanation": "知识点：～限り（只要……就……；在……范围内）。正确答案：C。正确理由：体力が続いている間という条件範囲を表すため「限り」が合う。 选项分析：A「あげく」：错误。～限り所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 B「ばかりに」：错误。～限り所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 C「限り」：正确。体力が続いている間という条件範囲を表すため「限り」が合う。 D「以来」：错误。～限り所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 类似例句：元気である限り、仕事を続けたい。",
+    "knowledgePointIds": [
+      "KP-GRA-KAGIRI-001"
+    ],
+    "knowledgePointTitles": [
+      "～限り"
+    ],
+    "difficulty": 2,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-KAGIRI-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-06-30T17:16:07.989Z",
+    "updatedAt": "2026-06-30T17:16:07.989Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "basic",
+      "条件"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-GRA-0010",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_distinction",
+    "prompt": "この町に住んでいる限り、（　　）。",
+    "choices": {
+      "A": "地域の規則を守る必要がある",
+      "B": "昨日引っ越してきた",
+      "C": "来年引っ越したばかりだ",
+      "D": "町を見たことがない"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～限り（只要……就……；在……范围内）。正确答案：A。正确理由：住んでいる期間・条件が続く間の義務を述べる文が自然である。 选项分析：A「地域の規則を守る必要がある」：正确。住んでいる期間・条件が続く間の義務を述べる文が自然である。 B「昨日引っ越してきた」：错误。～限り所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 C「来年引っ越したばかりだ」：错误。～限り所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 D「町を見たことがない」：错误。～限り所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 类似例句：元気である限り、仕事を続けたい。",
+    "knowledgePointIds": [
+      "KP-GRA-KAGIRI-001"
+    ],
+    "knowledgePointTitles": [
+      "～限り"
+    ],
+    "difficulty": 3,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-KAGIRI-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-06-30T17:16:07.989Z",
+    "updatedAt": "2026-06-30T17:16:07.989Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "distinction",
+      "条件"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-GRA-0011",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_context",
+    "prompt": "私が知っている限り、その店は日曜日も（　　）。",
+    "choices": {
+      "A": "営業している",
+      "B": "営業したあげくだ",
+      "C": "営業するばかりに",
+      "D": "営業して以来だ"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～限り（只要……就……；在……范围内）。正确答案：A。正确理由：「知っている限り」は自分の知識の範囲内で判断を述べる表現である。 选项分析：A「営業している」：正确。「知っている限り」は自分の知識の範囲内で判断を述べる表現である。 B「営業したあげくだ」：错误。～限り所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 C「営業するばかりに」：错误。～限り所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 D「営業して以来だ」：错误。～限り所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 类似例句：元気である限り、仕事を続けたい。",
+    "knowledgePointIds": [
+      "KP-GRA-KAGIRI-001"
+    ],
+    "knowledgePointTitles": [
+      "～限り"
+    ],
+    "difficulty": 3,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-KAGIRI-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-06-30T17:16:07.989Z",
+    "updatedAt": "2026-06-30T17:16:07.989Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "context",
+      "条件"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-GRA-0012",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_integrated",
+    "prompt": "「限り」の使い方として適切なものはどれか。",
+    "choices": {
+      "A": "元気な限り、働き続けたい",
+      "B": "失敗した限り、成功した",
+      "C": "到着した限り、出発する",
+      "D": "一度読んだ限り、まだ読んでいない"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～限り（只要……就……；在……范围内）。正确答案：A。正确理由：元気である状態が続く間という条件を示しており、後件との関係が自然である。 选项分析：A「元気な限り、働き続けたい」：正确。元気である状態が続く間という条件を示しており、後件との関係が自然である。 B「失敗した限り、成功した」：错误。～限り所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 C「到着した限り、出発する」：错误。～限り所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 D「一度読んだ限り、まだ読んでいない」：错误。～限り所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 类似例句：元気である限り、仕事を続けたい。",
+    "knowledgePointIds": [
+      "KP-GRA-KAGIRI-001"
+    ],
+    "knowledgePointTitles": [
+      "～限り"
+    ],
+    "difficulty": 4,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-KAGIRI-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-06-30T17:16:07.989Z",
+    "updatedAt": "2026-06-30T17:16:07.989Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "integrated",
+      "条件"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-GRA-0013",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_basic",
+    "prompt": "実際に使ってみ（　　）、この道具の便利さは分からない。",
+    "choices": {
+      "A": "ないことには",
+      "B": "たあげく",
+      "C": "た以上は",
+      "D": "て以来"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～ないことには（如果不……就不能……）。正确答案：A。正确理由：実際に使うことを必要条件としているため「使ってみないことには」が合う。 选项分析：A「ないことには」：正确。実際に使うことを必要条件としているため「使ってみないことには」が合う。 B「たあげく」：错误。～ないことには所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 C「た以上は」：错误。～ないことには所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 D「て以来」：错误。～ないことには所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 类似例句：実物を見ないことには、買うか決められない。",
+    "knowledgePointIds": [
+      "KP-GRA-NAIKOTONIWA-001"
+    ],
+    "knowledgePointTitles": [
+      "～ないことには"
+    ],
+    "difficulty": 2,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-NAIKOTONIWA-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-06-30T17:16:07.989Z",
+    "updatedAt": "2026-06-30T17:16:07.989Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "basic",
+      "条件"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-GRA-0014",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_distinction",
+    "prompt": "本人に確認しないことには、（　　）。",
+    "choices": {
+      "A": "本当の理由は判断できない",
+      "B": "理由がすぐ分かった",
+      "C": "昨日確認したばかりだ",
+      "D": "確認するおそれがある"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～ないことには（如果不……就不能……）。正确答案：A。正确理由：本人への確認なしには判断できないという必要条件を表している。 选项分析：A「本当の理由は判断できない」：正确。本人への確認なしには判断できないという必要条件を表している。 B「理由がすぐ分かった」：错误。～ないことには所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 C「昨日確認したばかりだ」：错误。～ないことには所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 D「確認するおそれがある」：错误。～ないことには所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 类似例句：実物を見ないことには、買うか決められない。",
+    "knowledgePointIds": [
+      "KP-GRA-NAIKOTONIWA-001"
+    ],
+    "knowledgePointTitles": [
+      "～ないことには"
+    ],
+    "difficulty": 3,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-NAIKOTONIWA-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-06-30T17:16:07.989Z",
+    "updatedAt": "2026-06-30T17:16:07.989Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "distinction",
+      "条件"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-GRA-0015",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_context",
+    "prompt": "現物を見ないことには、購入するかどうか（　　）。",
+    "choices": {
+      "A": "決められない",
+      "B": "決めたあげくだ",
+      "C": "決めて以来だ",
+      "D": "決めるばかりだ"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～ないことには（如果不……就不能……）。正确答案：A。正确理由：現物を見ることが購入判断の前提なので、後件は不可能を表す「決められない」となる。 选项分析：A「決められない」：正确。現物を見ることが購入判断の前提なので、後件は不可能を表す「決められない」となる。 B「決めたあげくだ」：错误。～ないことには所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 C「決めて以来だ」：错误。～ないことには所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 D「決めるばかりだ」：错误。～ないことには所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 类似例句：実物を見ないことには、買うか決められない。",
+    "knowledgePointIds": [
+      "KP-GRA-NAIKOTONIWA-001"
+    ],
+    "knowledgePointTitles": [
+      "～ないことには"
+    ],
+    "difficulty": 3,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-NAIKOTONIWA-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-06-30T17:16:07.989Z",
+    "updatedAt": "2026-06-30T17:16:07.989Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "context",
+      "条件"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-GRA-0016",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_integrated",
+    "prompt": "「ないことには」が自然に使われている文はどれか。",
+    "choices": {
+      "A": "説明を聞かないことには、内容を理解できない",
+      "B": "説明を聞かないことには、全部理解した",
+      "C": "昨日聞かないことには、明日聞いた",
+      "D": "簡単なことには、説明が長い"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～ないことには（如果不……就不能……）。正确答案：A。正确理由：説明を聞くことが理解の必要条件となり、否定的な後件につながっている。 选项分析：A「説明を聞かないことには、内容を理解できない」：正确。説明を聞くことが理解の必要条件となり、否定的な後件につながっている。 B「説明を聞かないことには、全部理解した」：错误。～ないことには所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 C「昨日聞かないことには、明日聞いた」：错误。～ないことには所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 D「簡単なことには、説明が長い」：错误。～ないことには所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 类似例句：実物を見ないことには、買うか決められない。",
+    "knowledgePointIds": [
+      "KP-GRA-NAIKOTONIWA-001"
+    ],
+    "knowledgePointTitles": [
+      "～ないことには"
+    ],
+    "difficulty": 4,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-NAIKOTONIWA-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-06-30T17:16:07.989Z",
+    "updatedAt": "2026-06-30T17:16:07.989Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "integrated",
+      "条件"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-GRA-0017",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_basic",
+    "prompt": "激しい雨（　　）、試合は予定どおり行われた。",
+    "choices": {
+      "A": "にすぎず",
+      "B": "にもかかわらず",
+      "C": "て以来",
+      "D": "ばかりに"
+    },
+    "correctAnswer": "B",
+    "explanation": "知识点：～にもかかわらず（尽管……仍然……）。正确答案：B。正确理由：激しい雨という条件に反して試合が行われたため「にもかかわらず」が合う。 选项分析：A「にすぎず」：错误。～にもかかわらず所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 B「にもかかわらず」：正确。激しい雨という条件に反して試合が行われたため「にもかかわらず」が合う。 C「て以来」：错误。～にもかかわらず所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 D「ばかりに」：错误。～にもかかわらず所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 类似例句：大雨にもかかわらず、多くの人が集まった。",
+    "knowledgePointIds": [
+      "KP-GRA-NIMOKAKAWARAZU-001"
+    ],
+    "knowledgePointTitles": [
+      "～にもかかわらず"
+    ],
+    "difficulty": 2,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-NIMOKAKAWARAZU-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-06-30T17:16:07.989Z",
+    "updatedAt": "2026-06-30T17:16:07.989Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "basic",
+      "逆接/让步"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-GRA-0018",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_distinction",
+    "prompt": "十分に準備したにもかかわらず、（　　）。",
+    "choices": {
+      "A": "本番では力を出せなかった",
+      "B": "予定どおり成功するはずだ",
+      "C": "準備を始めるところだ",
+      "D": "毎日準備することにした"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～にもかかわらず（尽管……仍然……）。正确答案：A。正确理由：十分な準備から期待される結果と反対の失敗を述べるため自然である。 选项分析：A「本番では力を出せなかった」：正确。十分な準備から期待される結果と反対の失敗を述べるため自然である。 B「予定どおり成功するはずだ」：错误。～にもかかわらず所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 C「準備を始めるところだ」：错误。～にもかかわらず所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 D「毎日準備することにした」：错误。～にもかかわらず所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 类似例句：大雨にもかかわらず、多くの人が集まった。",
+    "knowledgePointIds": [
+      "KP-GRA-NIMOKAKAWARAZU-001"
+    ],
+    "knowledgePointTitles": [
+      "～にもかかわらず"
+    ],
+    "difficulty": 3,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-NIMOKAKAWARAZU-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-06-30T17:16:07.989Z",
+    "updatedAt": "2026-06-30T17:16:07.989Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "distinction",
+      "逆接/让步"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-GRA-0019",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_context",
+    "prompt": "彼は医者に止められたにもかかわらず、無理な運動を（　　）。",
+    "choices": {
+      "A": "続けた",
+      "B": "続ける限りだ",
+      "C": "続けて以来だ",
+      "D": "続けるにすぎない"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～にもかかわらず（尽管……仍然……）。正确答案：A。正确理由：医者の制止に反する行動を実際にしたことを表す「続けた」が合う。 选项分析：A「続けた」：正确。医者の制止に反する行動を実際にしたことを表す「続けた」が合う。 B「続ける限りだ」：错误。～にもかかわらず所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 C「続けて以来だ」：错误。～にもかかわらず所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 D「続けるにすぎない」：错误。～にもかかわらず所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 类似例句：大雨にもかかわらず、多くの人が集まった。",
+    "knowledgePointIds": [
+      "KP-GRA-NIMOKAKAWARAZU-001"
+    ],
+    "knowledgePointTitles": [
+      "～にもかかわらず"
+    ],
+    "difficulty": 3,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-NIMOKAKAWARAZU-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-06-30T17:16:07.989Z",
+    "updatedAt": "2026-06-30T17:16:07.989Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "context",
+      "逆接/让步"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-GRA-0020",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_integrated",
+    "prompt": "「にもかかわらず」の用法として正しいものはどれか。",
+    "choices": {
+      "A": "休日にもかかわらず、会社には多くの人がいた",
+      "B": "休日にもかかわらず、休日になる予定だ",
+      "C": "休日にもかかわらず、昨日は平日だった",
+      "D": "休日にもかかわらず、休みたいと思った"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～にもかかわらず（尽管……仍然……）。正确答案：A。正确理由：休日なら人が少ないという予想に反して多くの人がいた、という逆接が成立する。 选项分析：A「休日にもかかわらず、会社には多くの人がいた」：正确。休日なら人が少ないという予想に反して多くの人がいた、という逆接が成立する。 B「休日にもかかわらず、休日になる予定だ」：错误。～にもかかわらず所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 C「休日にもかかわらず、昨日は平日だった」：错误。～にもかかわらず所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 D「休日にもかかわらず、休みたいと思った」：错误。～にもかかわらず所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 类似例句：大雨にもかかわらず、多くの人が集まった。",
+    "knowledgePointIds": [
+      "KP-GRA-NIMOKAKAWARAZU-001"
+    ],
+    "knowledgePointTitles": [
+      "～にもかかわらず"
+    ],
+    "difficulty": 4,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-NIMOKAKAWARAZU-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-06-30T17:16:07.989Z",
+    "updatedAt": "2026-06-30T17:16:07.989Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "integrated",
+      "逆接/让步"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-GRA-0021",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_basic",
+    "prompt": "これは私個人の意見（　　）。",
+    "choices": {
+      "A": "にすぎない",
+      "B": "にもかかわらず",
+      "C": "て以来だ",
+      "D": "ばかりに"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～にすぎない（只不过……）。正确答案：A。正确理由：重要性や範囲を限定して「ただの個人意見だ」と述べるため「にすぎない」が合う。 选项分析：A「にすぎない」：正确。重要性や範囲を限定して「ただの個人意見だ」と述べるため「にすぎない」が合う。 B「にもかかわらず」：错误。～にすぎない所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 C「て以来だ」：错误。～にすぎない所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 D「ばかりに」：错误。～にすぎない所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 类似例句：これは一つの例にすぎない。",
+    "knowledgePointIds": [
+      "KP-GRA-NISUGINAI-001"
+    ],
+    "knowledgePointTitles": [
+      "～にすぎない"
+    ],
+    "difficulty": 2,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-NISUGINAI-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-06-30T17:16:07.989Z",
+    "updatedAt": "2026-06-30T17:16:07.989Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "basic",
+      "限定/强调"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-GRA-0022",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_distinction",
+    "prompt": "彼は責任者ではなく、単なる担当者にすぎない。最も近い意味はどれか。",
+    "choices": {
+      "A": "担当者以上の権限がある",
+      "B": "ただの担当者である",
+      "C": "担当者になるおそれがある",
+      "D": "担当者を辞めたばかりだ"
+    },
+    "correctAnswer": "B",
+    "explanation": "知识点：～にすぎない（只不过……）。正确答案：B。正确理由：「にすぎない」は範囲を限定するため、「ただの担当者である」が同じ意味になる。 选项分析：A「担当者以上の権限がある」：错误。～にすぎない所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 B「ただの担当者である」：正确。「にすぎない」は範囲を限定するため、「ただの担当者である」が同じ意味になる。 C「担当者になるおそれがある」：错误。～にすぎない所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 D「担当者を辞めたばかりだ」：错误。～にすぎない所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 类似例句：これは一つの例にすぎない。",
+    "knowledgePointIds": [
+      "KP-GRA-NISUGINAI-001"
+    ],
+    "knowledgePointTitles": [
+      "～にすぎない"
+    ],
+    "difficulty": 3,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-NISUGINAI-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-06-30T17:16:07.989Z",
+    "updatedAt": "2026-06-30T17:16:07.989Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "distinction",
+      "限定/强调"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-GRA-0023",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_context",
+    "prompt": "今回の成功は長い計画の第一歩に（　　）。",
+    "choices": {
+      "A": "すぎない",
+      "B": "かかわらない",
+      "C": "限らない",
+      "D": "伴わない"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～にすぎない（只不过……）。正确答案：A。正确理由：成功を過大評価せず「第一歩だけだ」と限定する表現になる。 选项分析：A「すぎない」：正确。成功を過大評価せず「第一歩だけだ」と限定する表現になる。 B「かかわらない」：错误。～にすぎない所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 C「限らない」：错误。～にすぎない所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 D「伴わない」：错误。～にすぎない所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 类似例句：これは一つの例にすぎない。",
+    "knowledgePointIds": [
+      "KP-GRA-NISUGINAI-001"
+    ],
+    "knowledgePointTitles": [
+      "～にすぎない"
+    ],
+    "difficulty": 3,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-NISUGINAI-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-06-30T17:16:07.989Z",
+    "updatedAt": "2026-06-30T17:16:07.989Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "context",
+      "限定/强调"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-GRA-0024",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_integrated",
+    "prompt": "「にすぎない」が適切な文はどれか。",
+    "choices": {
+      "A": "この数字は推測にすぎず、確定値ではない",
+      "B": "この数字は推測にすぎず、必ず正しい",
+      "C": "推測にすぎないから、事実そのものだ",
+      "D": "確定したにすぎないので、推測ではない"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～にすぎない（只不过……）。正确答案：A。正确理由：推測という限定的な情報で、確定値ではないという対比が自然である。 选项分析：A「この数字は推測にすぎず、確定値ではない」：正确。推測という限定的な情報で、確定値ではないという対比が自然である。 B「この数字は推測にすぎず、必ず正しい」：错误。～にすぎない所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 C「推測にすぎないから、事実そのものだ」：错误。～にすぎない所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 D「確定したにすぎないので、推測ではない」：错误。～にすぎない所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 类似例句：これは一つの例にすぎない。",
+    "knowledgePointIds": [
+      "KP-GRA-NISUGINAI-001"
+    ],
+    "knowledgePointTitles": [
+      "～にすぎない"
+    ],
+    "difficulty": 4,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-NISUGINAI-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-06-30T17:16:07.989Z",
+    "updatedAt": "2026-06-30T17:16:07.989Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "integrated",
+      "限定/强调"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-GRA-0025",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_basic",
+    "prompt": "このまま雨が続くと、川があふれる（　　）。",
+    "choices": {
+      "A": "以上は",
+      "B": "おそれがある",
+      "C": "にすぎない",
+      "D": "て以来だ"
+    },
+    "correctAnswer": "B",
+    "explanation": "知识点：～おそれがある（恐怕会……；有……风险）。正确答案：B。正确理由：雨による洪水という好ましくない可能性を述べるため「おそれがある」が合う。 选项分析：A「以上は」：错误。～おそれがある所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 B「おそれがある」：正确。雨による洪水という好ましくない可能性を述べるため「おそれがある」が合う。 C「にすぎない」：错误。～おそれがある所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 D「て以来だ」：错误。～おそれがある所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 类似例句：大雨で川があふれるおそれがある。",
+    "knowledgePointIds": [
+      "KP-GRA-OSOREGAARU-001"
+    ],
+    "knowledgePointTitles": [
+      "～おそれがある"
+    ],
+    "difficulty": 2,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-OSOREGAARU-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-06-30T17:16:07.989Z",
+    "updatedAt": "2026-06-30T17:16:07.989Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "basic",
+      "推量/判断"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-GRA-0026",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_distinction",
+    "prompt": "強い風のため、電車が遅れるおそれがある。最も近い意味はどれか。",
+    "choices": {
+      "A": "電車は必ず遅れる",
+      "B": "電車が遅れる可能性がある",
+      "C": "電車はすでに到着した",
+      "D": "電車は遅れないと決まった"
+    },
+    "correctAnswer": "B",
+    "explanation": "知识点：～おそれがある（恐怕会……；有……风险）。正确答案：B。正确理由：「おそれがある」は悪い事態が起こる可能性を表し、確定ではない。 选项分析：A「電車は必ず遅れる」：错误。～おそれがある所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 B「電車が遅れる可能性がある」：正确。「おそれがある」は悪い事態が起こる可能性を表し、確定ではない。 C「電車はすでに到着した」：错误。～おそれがある所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 D「電車は遅れないと決まった」：错误。～おそれがある所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 类似例句：大雨で川があふれるおそれがある。",
+    "knowledgePointIds": [
+      "KP-GRA-OSOREGAARU-001"
+    ],
+    "knowledgePointTitles": [
+      "～おそれがある"
+    ],
+    "difficulty": 3,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-OSOREGAARU-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-06-30T17:16:07.989Z",
+    "updatedAt": "2026-06-30T17:16:07.989Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "distinction",
+      "推量/判断"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-GRA-0027",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_context",
+    "prompt": "情報を公開すると、個人が特定されるおそれが（　　）。",
+    "choices": {
+      "A": "ある",
+      "B": "いる",
+      "C": "する",
+      "D": "なる"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～おそれがある（恐怕会……；有……风险）。正确答案：A。正确理由：定型表現は「おそれがある」であり、個人特定という望ましくない可能性を示す。 选项分析：A「ある」：正确。定型表現は「おそれがある」であり、個人特定という望ましくない可能性を示す。 B「いる」：错误。～おそれがある所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 C「する」：错误。～おそれがある所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 D「なる」：错误。～おそれがある所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 类似例句：大雨で川があふれるおそれがある。",
+    "knowledgePointIds": [
+      "KP-GRA-OSOREGAARU-001"
+    ],
+    "knowledgePointTitles": [
+      "～おそれがある"
+    ],
+    "difficulty": 3,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-OSOREGAARU-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-06-30T17:16:07.989Z",
+    "updatedAt": "2026-06-30T17:16:07.989Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "context",
+      "推量/判断"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-GRA-0028",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_integrated",
+    "prompt": "「おそれがある」の使い方として自然なものはどれか。",
+    "choices": {
+      "A": "対策が遅れると、被害が拡大するおそれがある",
+      "B": "努力すれば、目標を達成するおそれがある",
+      "C": "誕生日なので、祝われるおそれがある",
+      "D": "景色が美しくなるおそれがある"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～おそれがある（恐怕会……；有……风险）。正确答案：A。正确理由：被害拡大という好ましくない可能性に使われており、表現の性質に合う。 选项分析：A「対策が遅れると、被害が拡大するおそれがある」：正确。被害拡大という好ましくない可能性に使われており、表現の性質に合う。 B「努力すれば、目標を達成するおそれがある」：错误。～おそれがある所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 C「誕生日なので、祝われるおそれがある」：错误。～おそれがある所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 D「景色が美しくなるおそれがある」：错误。～おそれがある所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 类似例句：大雨で川があふれるおそれがある。",
+    "knowledgePointIds": [
+      "KP-GRA-OSOREGAARU-001"
+    ],
+    "knowledgePointTitles": [
+      "～おそれがある"
+    ],
+    "difficulty": 4,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-OSOREGAARU-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-06-30T17:16:07.989Z",
+    "updatedAt": "2026-06-30T17:16:07.989Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "integrated",
+      "推量/判断"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-GRA-0029",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_basic",
+    "prompt": "日本に来（　　）、毎日日本語で日記を書いている。",
+    "choices": {
+      "A": "た以上",
+      "B": "て以来",
+      "C": "たあげく",
+      "D": "る限り"
+    },
+    "correctAnswer": "B",
+    "explanation": "知识点：～て以来（自从……以来）。正确答案：B。正确理由：日本に来た時点から現在まで習慣が続いているため「て以来」が合う。 选项分析：A「た以上」：错误。～て以来所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 B「て以来」：正确。日本に来た時点から現在まで習慣が続いているため「て以来」が合う。 C「たあげく」：错误。～て以来所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 D「る限り」：错误。～て以来所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 类似例句：日本に来て以来、毎日日記を書いている。",
+    "knowledgePointIds": [
+      "KP-GRA-TEIRAI-001"
+    ],
+    "knowledgePointTitles": [
+      "～て以来"
+    ],
+    "difficulty": 2,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-TEIRAI-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-06-30T17:16:07.989Z",
+    "updatedAt": "2026-06-30T17:16:07.989Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "basic",
+      "时间关系"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-GRA-0030",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_distinction",
+    "prompt": "大学を卒業して以来、（　　）。",
+    "choices": {
+      "A": "一度も先生に会っていない",
+      "B": "来年卒業する予定だ",
+      "C": "卒業式が始まるところだ",
+      "D": "卒業するかもしれない"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～て以来（自从……以来）。正确答案：A。正确理由：卒業時から現在まで会っていない状態が継続している。 选项分析：A「一度も先生に会っていない」：正确。卒業時から現在まで会っていない状態が継続している。 B「来年卒業する予定だ」：错误。～て以来所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 C「卒業式が始まるところだ」：错误。～て以来所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 D「卒業するかもしれない」：错误。～て以来所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 类似例句：日本に来て以来、毎日日記を書いている。",
+    "knowledgePointIds": [
+      "KP-GRA-TEIRAI-001"
+    ],
+    "knowledgePointTitles": [
+      "～て以来"
+    ],
+    "difficulty": 3,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-TEIRAI-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-06-30T17:16:07.989Z",
+    "updatedAt": "2026-06-30T17:16:07.989Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "distinction",
+      "时间关系"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-GRA-0031",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_context",
+    "prompt": "その本を読んで以来、環境問題に関心を持つ（　　）。",
+    "choices": {
+      "A": "ようになった",
+      "B": "あげくになった",
+      "C": "限りになった",
+      "D": "おそれになった"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～て以来（自从……以来）。正确答案：A。正确理由：本を読んだことを起点に現在まで意識の変化が続いているため自然である。 选项分析：A「ようになった」：正确。本を読んだことを起点に現在まで意識の変化が続いているため自然である。 B「あげくになった」：错误。～て以来所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 C「限りになった」：错误。～て以来所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 D「おそれになった」：错误。～て以来所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 类似例句：日本に来て以来、毎日日記を書いている。",
+    "knowledgePointIds": [
+      "KP-GRA-TEIRAI-001"
+    ],
+    "knowledgePointTitles": [
+      "～て以来"
+    ],
+    "difficulty": 3,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-TEIRAI-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-06-30T17:16:07.989Z",
+    "updatedAt": "2026-06-30T17:16:07.989Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "context",
+      "时间关系"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-GRA-0032",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_integrated",
+    "prompt": "「て以来」が自然に使われている文はどれか。",
+    "choices": {
+      "A": "引っ越して以来、この町で暮らしている",
+      "B": "引っ越して以来、来月引っ越す予定だだけ",
+      "C": "引っ越す以来、荷物を準備した",
+      "D": "昨日以来に、明日出発した"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～て以来（自从……以来）。正确答案：A。正确理由：引っ越した時点から現在まで暮らしが続くことを正しく表している。 选项分析：A「引っ越して以来、この町で暮らしている」：正确。引っ越した時点から現在まで暮らしが続くことを正しく表している。 B「引っ越して以来、来月引っ越す予定だだけ」：错误。～て以来所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 C「引っ越す以来、荷物を準備した」：错误。～て以来所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 D「昨日以来に、明日出発した」：错误。～て以来所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 类似例句：日本に来て以来、毎日日記を書いている。",
+    "knowledgePointIds": [
+      "KP-GRA-TEIRAI-001"
+    ],
+    "knowledgePointTitles": [
+      "～て以来"
+    ],
+    "difficulty": 4,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-TEIRAI-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-06-30T17:16:07.989Z",
+    "updatedAt": "2026-06-30T17:16:07.989Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "integrated",
+      "时间关系"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-GRA-0033",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_basic",
+    "prompt": "物価は上がる（　　）で、生活は苦しくなっている。",
+    "choices": {
+      "A": "あげく",
+      "B": "ばかり",
+      "C": "以来",
+      "D": "以上"
+    },
+    "correctAnswer": "B",
+    "explanation": "知识点：～ばかりだ（一直……；越来越……）。正确答案：B。正确理由：物価上昇が一方向に進み続ける変化を表すため「上がるばかり」が合う。 选项分析：A「あげく」：错误。～ばかりだ所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 B「ばかり」：正确。物価上昇が一方向に進み続ける変化を表すため「上がるばかり」が合う。 C「以来」：错误。～ばかりだ所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 D「以上」：错误。～ばかりだ所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 类似例句：物価は上がるばかりだ。",
+    "knowledgePointIds": [
+      "KP-GRA-BAKARIDA-001"
+    ],
+    "knowledgePointTitles": [
+      "～ばかりだ"
+    ],
+    "difficulty": 2,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-BAKARIDA-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-06-30T17:16:07.989Z",
+    "updatedAt": "2026-06-30T17:16:07.989Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "basic",
+      "变化/结果"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-GRA-0034",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_distinction",
+    "prompt": "薬を飲まなければ、症状は悪くなるばかりだ。最も近い意味はどれか。",
+    "choices": {
+      "A": "症状は改善し続ける",
+      "B": "症状は悪化する一方だ",
+      "C": "症状はすでに治った",
+      "D": "症状は変化しない"
+    },
+    "correctAnswer": "B",
+    "explanation": "知识点：～ばかりだ（一直……；越来越……）。正确答案：B。正确理由：「ばかりだ」は一方向への変化の進行を示し、「悪化する一方だ」と近い。 选项分析：A「症状は改善し続ける」：错误。～ばかりだ所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 B「症状は悪化する一方だ」：正确。「ばかりだ」は一方向への変化の進行を示し、「悪化する一方だ」と近い。 C「症状はすでに治った」：错误。～ばかりだ所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 D「症状は変化しない」：错误。～ばかりだ所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 类似例句：物価は上がるばかりだ。",
+    "knowledgePointIds": [
+      "KP-GRA-BAKARIDA-001"
+    ],
+    "knowledgePointTitles": [
+      "～ばかりだ"
+    ],
+    "difficulty": 3,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-BAKARIDA-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-06-30T17:16:07.989Z",
+    "updatedAt": "2026-06-30T17:16:07.989Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "distinction",
+      "变化/结果"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-GRA-0035",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_context",
+    "prompt": "何も対策をしなければ、ごみは増える（　　）。",
+    "choices": {
+      "A": "ばかりだ",
+      "B": "て以来だ",
+      "C": "にすぎない",
+      "D": "にもかかわらず"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～ばかりだ（一直……；越来越……）。正确答案：A。正确理由：対策がない状態でごみが一方向に増え続けることを表す。 选项分析：A「ばかりだ」：正确。対策がない状態でごみが一方向に増え続けることを表す。 B「て以来だ」：错误。～ばかりだ所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 C「にすぎない」：错误。～ばかりだ所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 D「にもかかわらず」：错误。～ばかりだ所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 类似例句：物価は上がるばかりだ。",
+    "knowledgePointIds": [
+      "KP-GRA-BAKARIDA-001"
+    ],
+    "knowledgePointTitles": [
+      "～ばかりだ"
+    ],
+    "difficulty": 3,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-BAKARIDA-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-06-30T17:16:07.989Z",
+    "updatedAt": "2026-06-30T17:16:07.989Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "context",
+      "变化/结果"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-GRA-0036",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_integrated",
+    "prompt": "変化を表す「ばかりだ」が適切な文はどれか。",
+    "choices": {
+      "A": "練習しないので、成績は下がるばかりだ",
+      "B": "駅に着いたばかりだが、電車に乗る",
+      "C": "本を一冊ばかり買った",
+      "D": "彼ばかりが発表した"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～ばかりだ（一直……；越来越……）。正确答案：A。正确理由：成績が一方向に下がり続ける変化を表す用法である。 选项分析：A「練習しないので、成績は下がるばかりだ」：正确。成績が一方向に下がり続ける変化を表す用法である。 B「駅に着いたばかりだが、電車に乗る」：错误。～ばかりだ所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 C「本を一冊ばかり買った」：错误。～ばかりだ所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 D「彼ばかりが発表した」：错误。～ばかりだ所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 类似例句：物価は上がるばかりだ。",
+    "knowledgePointIds": [
+      "KP-GRA-BAKARIDA-001"
+    ],
+    "knowledgePointTitles": [
+      "～ばかりだ"
+    ],
+    "difficulty": 4,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-BAKARIDA-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-06-30T17:16:07.989Z",
+    "updatedAt": "2026-06-30T17:16:07.989Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "integrated",
+      "变化/结果"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-GRA-0037",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_basic",
+    "prompt": "少し油断した（　　）、大切な機会を逃してしまった。",
+    "choices": {
+      "A": "以上は",
+      "B": "ばかりに",
+      "C": "て以来",
+      "D": "限り"
+    },
+    "correctAnswer": "B",
+    "explanation": "知识点：～ばかりに（只因……而……）。正确答案：B。正确理由：油断という原因から重大で望ましくない結果が生じたため「ばかりに」が合う。 选项分析：A「以上は」：错误。～ばかりに所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 B「ばかりに」：正确。油断という原因から重大で望ましくない結果が生じたため「ばかりに」が合う。 C「て以来」：错误。～ばかりに所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 D「限り」：错误。～ばかりに所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 类似例句：一言多く言ったばかりに、相手を怒らせた。",
+    "knowledgePointIds": [
+      "KP-GRA-BAKARINI-001"
+    ],
+    "knowledgePointTitles": [
+      "～ばかりに"
+    ],
+    "difficulty": 2,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-BAKARINI-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-06-30T17:16:07.989Z",
+    "updatedAt": "2026-06-30T17:16:07.989Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "basic",
+      "原因/结果"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-GRA-0038",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_distinction",
+    "prompt": "正直に話したばかりに、（　　）。",
+    "choices": {
+      "A": "かえって相手を怒らせてしまった",
+      "B": "相手に話す予定を立てた",
+      "C": "今から話すところだ",
+      "D": "毎日話すことにしている"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～ばかりに（只因……而……）。正确答案：A。正确理由：正直に話したことが皮肉にも悪い結果を招いた関係が自然である。 选项分析：A「かえって相手を怒らせてしまった」：正确。正直に話したことが皮肉にも悪い結果を招いた関係が自然である。 B「相手に話す予定を立てた」：错误。～ばかりに所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 C「今から話すところだ」：错误。～ばかりに所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 D「毎日話すことにしている」：错误。～ばかりに所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 类似例句：一言多く言ったばかりに、相手を怒らせた。",
+    "knowledgePointIds": [
+      "KP-GRA-BAKARINI-001"
+    ],
+    "knowledgePointTitles": [
+      "～ばかりに"
+    ],
+    "difficulty": 3,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-BAKARINI-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-06-30T17:16:07.989Z",
+    "updatedAt": "2026-06-30T17:16:07.989Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "distinction",
+      "原因/结果"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-GRA-0039",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_context",
+    "prompt": "近道を選んだばかりに、道に迷って余計に時間が（　　）。",
+    "choices": {
+      "A": "かかった",
+      "B": "かかる限りだ",
+      "C": "かかって以来だ",
+      "D": "かかるにすぎない"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～ばかりに（只因……而……）。正确答案：A。正确理由：近道を選んだことが原因で、逆に時間がかかったという後悔を表している。 选项分析：A「かかった」：正确。近道を選んだことが原因で、逆に時間がかかったという後悔を表している。 B「かかる限りだ」：错误。～ばかりに所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 C「かかって以来だ」：错误。～ばかりに所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 D「かかるにすぎない」：错误。～ばかりに所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 类似例句：一言多く言ったばかりに、相手を怒らせた。",
+    "knowledgePointIds": [
+      "KP-GRA-BAKARINI-001"
+    ],
+    "knowledgePointTitles": [
+      "～ばかりに"
+    ],
+    "difficulty": 3,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-BAKARINI-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-06-30T17:16:07.989Z",
+    "updatedAt": "2026-06-30T17:16:07.989Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "context",
+      "原因/结果"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-GRA-0040",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_integrated",
+    "prompt": "「ばかりに」が最も自然な文はどれか。",
+    "choices": {
+      "A": "一言余計なことを言ったばかりに、関係が悪くなった",
+      "B": "朝起きたばかりに、顔を洗った",
+      "C": "本を読んだばかりに、内容を知っている",
+      "D": "駅に着いたばかりに、電車を待つ"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～ばかりに（只因……而……）。正确答案：A。正确理由：余計な一言だけが原因で悪い結果を招いた、という後悔の因果関係を表す。 选项分析：A「一言余計なことを言ったばかりに、関係が悪くなった」：正确。余計な一言だけが原因で悪い結果を招いた、という後悔の因果関係を表す。 B「朝起きたばかりに、顔を洗った」：错误。～ばかりに所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 C「本を読んだばかりに、内容を知っている」：错误。～ばかりに所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 D「駅に着いたばかりに、電車を待つ」：错误。～ばかりに所要求的接续、语义关系或语境功能不成立，不能表达本题的目标含义。 类似例句：一言多く言ったばかりに、相手を怒らせた。",
+    "knowledgePointIds": [
+      "KP-GRA-BAKARINI-001"
+    ],
+    "knowledgePointTitles": [
+      "～ばかりに"
+    ],
+    "difficulty": 4,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-BAKARINI-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-06-30T17:16:07.989Z",
+    "updatedAt": "2026-06-30T17:16:07.989Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "integrated",
+      "原因/结果"
+    ],
+    "estimatedTime": 60
   }
 ]

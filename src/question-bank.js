@@ -173,15 +173,22 @@ function validateQuestions(questions, knowledgePointIds, errors) {
   });
 }
 
-export function validateQuestionBank(questions, knowledgePoints) {
+export function validateQuestionBank(questions, knowledgePoints, additionalKnowledgePoints = []) {
   const errors = [];
   const knowledgePointIds = validateKnowledgePoints(knowledgePoints, errors);
+  additionalKnowledgePoints.forEach((point, index) => {
+    if (!isNonEmptyString(point?.knowledgePointId)) {
+      errors.push(`additional-knowledge-points[${index}].knowledgePointId: must be a non-empty string`);
+    } else {
+      knowledgePointIds.add(point.knowledgePointId);
+    }
+  });
   validateQuestions(questions, knowledgePointIds, errors);
   return { valid: errors.length === 0, errors };
 }
 
-export function assertValidQuestionBank(questions, knowledgePoints) {
-  const result = validateQuestionBank(questions, knowledgePoints);
+export function assertValidQuestionBank(questions, knowledgePoints, additionalKnowledgePoints = []) {
+  const result = validateQuestionBank(questions, knowledgePoints, additionalKnowledgePoints);
   if (!result.valid) {
     const preview = result.errors.slice(0, 5).join("；");
     const remaining = result.errors.length > 5 ? `；另有 ${result.errors.length - 5} 项错误` : "";
@@ -191,16 +198,19 @@ export function assertValidQuestionBank(questions, knowledgePoints) {
 }
 
 export async function loadQuestionBank(fetchImpl = globalThis.fetch) {
-  const [questionsResponse, pointsResponse] = await Promise.all([
+  const [questionsResponse, pointsResponse, grammarResponse] = await Promise.all([
     fetchImpl("data/questions.json"),
-    fetchImpl("data/knowledge-points.json")
+    fetchImpl("data/knowledge-points.json"),
+    fetchImpl("knowledge/grammar/grammar-points.json")
   ]);
   if (!questionsResponse.ok) throw new Error(`题库加载失败（HTTP ${questionsResponse.status}）`);
   if (!pointsResponse.ok) throw new Error(`知识点加载失败（HTTP ${pointsResponse.status}）`);
-  const [questions, knowledgePoints] = await Promise.all([
+  if (!grammarResponse.ok) throw new Error(`Grammar Map 加载失败（HTTP ${grammarResponse.status}）`);
+  const [questions, knowledgePoints, grammarPoints] = await Promise.all([
     questionsResponse.json(),
-    pointsResponse.json()
+    pointsResponse.json(),
+    grammarResponse.json()
   ]);
-  assertValidQuestionBank(questions, knowledgePoints);
-  return { questions, knowledgePoints };
+  assertValidQuestionBank(questions, knowledgePoints, grammarPoints);
+  return { questions, knowledgePoints, grammarPoints };
 }

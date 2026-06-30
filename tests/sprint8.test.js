@@ -15,12 +15,12 @@ const factory = buildQuestionFactoryPlan({ basePoints, grammarPoints, questions 
 
 test("Coverage Engine 按 ID 合并知识点并应用可配置目标", () => {
   assert.equal(factory.summary.knowledgePointCount, 100);
-  assert.equal(factory.summary.questionCount, 125);
-  assert.equal(factory.summary.currentAssociations, 125);
+  assert.equal(factory.summary.questionCount, 165);
+  assert.equal(factory.summary.currentAssociations, 165);
   assert.equal(factory.summary.totalTarget, 845);
-  assert.equal(factory.summary.totalGap, 720);
-  assert.equal(factory.summary.targetCoverageRate, 14.79);
-  assert.equal(factory.summary.coveredKnowledgePoints, 30);
+  assert.equal(factory.summary.totalGap, 680);
+  assert.equal(factory.summary.targetCoverageRate, 19.53);
+  assert.equal(factory.summary.coveredKnowledgePoints, 40);
   assert.deepEqual(DEFAULT_COVERAGE_RULES, {
     grammar: 8, vocabulary: 10, adverb: 8, reading_skill: 15, fixed_expression: 8, conjunction: 8
   });

@@ -1,5 +1,11 @@
 # Changelog
 
+## Sprint 10
+
+- Question Factory Phase 2 为第二批10个高优先级文法点各补充4题，并将题库扩展至165题。
+- 首页新增由 `version.json`、题库和知识点数据驱动的 Project Status，自动显示版本、Sprint、题量、知识点、Coverage、目标和更新时间。
+- 题库校验器和浏览器加载器统一支持基础知识点与 Grammar Master Map 的合并引用。
+
 ## Sprint 9
 
 - Question Factory Phase 1 为计划 Top 10 知识点自动补充首批题目，并以稳定 ID 保证重复运行幂等。

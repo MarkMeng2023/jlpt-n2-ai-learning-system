@@ -1,4 +1,4 @@
-# JLPT N2 AI Learning System — Sprint 9
+# JLPT N2 AI Learning System — Sprint 10
 
 Sprint 6 暂停扩题，建立题库来源、知识点证据和质量门禁。现有 80 道题与 30 个知识点保持不变；只有来源验证、解析质量与人工审核达标后，才进入 300 题扩充阶段。Sprint 5 的标准化题库与 Sprint 4 的 Review Engine 继续保留。
 
@@ -55,6 +55,12 @@ npm run report:quality
 ```
 
 也可以运行完整自动流水线：`npm run pipeline:sprint9`。
+
+Sprint 10 为最新计划中未参与上一批的10个高优先级文法点各补充4题，并新增首页 Project Status。版本、Sprint 和题目目标来自 `data/version.json`；题目数、知识点数与 Coverage 由页面加载时自动计算。完整流水线：
+
+```bash
+npm run pipeline:sprint10
+```
 
 ## Review Engine 规则
 

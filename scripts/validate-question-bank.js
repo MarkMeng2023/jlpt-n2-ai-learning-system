@@ -11,17 +11,18 @@ async function readJson(path, label) {
 }
 
 try {
-  const [questions, knowledgePoints] = await Promise.all([
+  const [questions, knowledgePoints, grammarPoints] = await Promise.all([
     readJson("../data/questions.json", "questions.json"),
-    readJson("../data/knowledge-points.json", "knowledge-points.json")
+    readJson("../data/knowledge-points.json", "knowledge-points.json"),
+    readJson("../knowledge/grammar/grammar-points.json", "grammar-points.json")
   ]);
-  const result = validateQuestionBank(questions, knowledgePoints);
+  const result = validateQuestionBank(questions, knowledgePoints, grammarPoints);
   if (!result.valid) {
     console.error(`Question bank validation failed with ${result.errors.length} error(s):`);
     result.errors.forEach((error, index) => console.error(`${index + 1}. ${error}`));
     process.exitCode = 1;
   } else {
-    console.log(`Question bank valid: ${questions.length} questions, ${knowledgePoints.length} knowledge points.`);
+    console.log(`Question bank valid: ${questions.length} questions, ${new Set([...knowledgePoints, ...grammarPoints].map((point) => point.knowledgePointId)).size} knowledge points.`);
   }
 } catch (error) {
   console.error(`Question bank validation failed: ${error.message}`);
