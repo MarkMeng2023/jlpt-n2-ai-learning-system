@@ -160,6 +160,13 @@ function validateQuestions(questions, knowledgePointIds, errors) {
     if (!Number.isInteger(question.version) || question.version < 1) {
       errors.push(`${path}.version: must be a positive integer`);
     }
+    if (Object.hasOwn(question, "generationType") && !isNonEmptyString(question.generationType)) {
+      errors.push(`${path}.generationType: must be a non-empty string when provided`);
+    }
+    if (Object.hasOwn(question, "knowledgePointId")
+      && (!isNonEmptyString(question.knowledgePointId) || !question.knowledgePointIds?.includes(question.knowledgePointId))) {
+      errors.push(`${path}.knowledgePointId: must match an item in knowledgePointIds`);
+    }
     ["createdAt", "updatedAt"].forEach((field) => {
       if (!isIsoDate(question[field])) errors.push(`${path}.${field}: must be an ISO date string`);
     });

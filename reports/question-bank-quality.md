@@ -1,6 +1,6 @@
 # Question Bank Quality Report
 
-Generated: 2026-06-30T15:53:59.033Z
+Generated: 2026-06-30T16:51:19.521Z
 
 Expansion gate: **HOLD**
 
@@ -8,7 +8,7 @@ Expansion gate: **HOLD**
 
 | Metric | Count |
 | --- | ---: |
-| Questions | 80 |
+| Questions | 125 |
 | Knowledge points | 30 |
 | Verified knowledge points | 5 |
 | Knowledge points with only AI sources | 25 |
@@ -35,11 +35,11 @@ The obvious-option and multiple-answer checks are heuristics. PASS still require
 | KP-ADV-ROKUNI-001 | ろくに～ない | 2 | unverified | 未登记 | ai_generated | YES |
 | KP-ADV-ISSO-001 | いっそう | 2 | unverified | 未登记 | ai_generated | YES |
 | KP-ADV-TAMATAMA-001 | たまたま | 2 | unverified | 未登记 | ai_generated | YES |
-| KP-SYN-OOYOSO-001 | おおよそ＝だいたい | 2 | unverified | 未登记 | ai_generated | YES |
-| KP-SYN-TADACHINI-001 | 直ちに＝すぐに | 2 | unverified | 未登记 | ai_generated | YES |
-| KP-SYN-METTANI-001 | めったに～ない＝ほとんど～ない | 2 | unverified | 未登记 | ai_generated | YES |
-| KP-SYN-DATO-001 | 妥当＝適切 | 2 | unverified | 未登记 | ai_generated | YES |
-| KP-SYN-HABUKU-001 | 省く＝取り除く | 2 | unverified | 未登记 | ai_generated | YES |
+| KP-SYN-OOYOSO-001 | おおよそ＝だいたい | 5 | unverified | 未登记 | ai_generated | YES |
+| KP-SYN-TADACHINI-001 | 直ちに＝すぐに | 5 | unverified | 未登记 | ai_generated | YES |
+| KP-SYN-METTANI-001 | めったに～ない＝ほとんど～ない | 5 | unverified | 未登记 | ai_generated | YES |
+| KP-SYN-DATO-001 | 妥当＝適切 | 5 | unverified | 未登记 | ai_generated | YES |
+| KP-SYN-HABUKU-001 | 省く＝取り除く | 5 | unverified | 未登记 | ai_generated | YES |
 | KP-GRA-MONONO-001 | ～ものの | 4 | verified | high_trust_material: JLPT Sensei N2 Grammar List; high_trust_material: JapaneseTest4You N2 Grammar List | ai_generated | NO |
 | KP-GRA-NICHIGAINAI-001 | ～に違いない | 4 | unverified | 未登记 | ai_generated | YES |
 | KP-GRA-KANENAI-001 | ～かねない | 4 | verified | high_trust_material: JLPT Sensei N2 Grammar List; high_trust_material: JapaneseTest4You N2 Grammar List | ai_generated | NO |
@@ -50,11 +50,11 @@ The obvious-option and multiple-answer checks are heuristics. PASS still require
 | KP-GRA-DOKOROKA-001 | ～どころか | 2 | unverified | 未登记 | ai_generated | YES |
 | KP-GRA-NIHOKANARANAI-001 | ～にほかならない | 2 | verified | high_trust_material: JLPT Sensei N2 Grammar List; high_trust_material: JapaneseTest4You N2 Grammar List | ai_generated | NO |
 | KP-GRA-ZARUOENAI-001 | ～ざるを得ない | 2 | verified | high_trust_material: JLPT Sensei N2 Grammar List; high_trust_material: JapaneseTest4You N2 Grammar List | ai_generated | NO |
-| KP-READ-NOTICE-001 | 通知文の条件整理 | 2 | unverified | 未登记 | ai_generated | YES |
-| KP-READ-MEMO-001 | 依頼内容の特定 | 2 | unverified | 未登记 | ai_generated | YES |
-| KP-READ-MAINIDEA-001 | 筆者の主張 | 2 | unverified | 未登记 | ai_generated | YES |
-| KP-READ-GUIDE-001 | 案内文の対象条件 | 2 | unverified | 未登记 | ai_generated | YES |
-| KP-READ-REASON-001 | 理由の特定 | 2 | unverified | 未登记 | ai_generated | YES |
+| KP-READ-NOTICE-001 | 通知文の条件整理 | 8 | unverified | 未登记 | ai_generated | YES |
+| KP-READ-MEMO-001 | 依頼内容の特定 | 8 | unverified | 未登记 | ai_generated | YES |
+| KP-READ-MAINIDEA-001 | 筆者の主張 | 8 | unverified | 未登记 | ai_generated | YES |
+| KP-READ-GUIDE-001 | 案内文の対象条件 | 8 | unverified | 未登记 | ai_generated | YES |
+| KP-READ-REASON-001 | 理由の特定 | 8 | unverified | 未登记 | ai_generated | YES |
 
 ## Question Sources
 
@@ -140,6 +140,51 @@ The obvious-option and multiple-answer checks are heuristics. PASS still require
 | Q-N2-READ-0008 | ai_generated | JLPT N2 AI Learning System |
 | Q-N2-READ-0009 | ai_generated | JLPT N2 AI Learning System |
 | Q-N2-READ-0010 | ai_generated | JLPT N2 AI Learning System |
+| Q-N2-READ-0011 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-READ-0012 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-READ-0013 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-READ-0014 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-READ-0015 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-READ-0016 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-READ-0017 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-READ-0018 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-READ-0019 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-READ-0020 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-READ-0021 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-READ-0022 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-READ-0023 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-READ-0024 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-READ-0025 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-READ-0026 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-READ-0027 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-READ-0028 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-READ-0029 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-READ-0030 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-READ-0031 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-READ-0032 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-READ-0033 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-READ-0034 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-READ-0035 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-READ-0036 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-READ-0037 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-READ-0038 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-READ-0039 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-READ-0040 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-SYN-0011 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-SYN-0012 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-SYN-0013 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-SYN-0014 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-SYN-0015 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-SYN-0016 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-SYN-0017 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-SYN-0018 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-SYN-0019 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-SYN-0020 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-SYN-0021 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-SYN-0022 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-SYN-0023 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-SYN-0024 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-SYN-0025 | ai_generated | JLPT N2 AI Learning System Question Factory |
 
 ## Knowledge Points With Only AI Sources
 

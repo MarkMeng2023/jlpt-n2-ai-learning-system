@@ -16,10 +16,10 @@ const knowledgePoints = JSON.parse(await readFile(new URL("../data/knowledge-poi
 test("Sprint 5 题库满足新版 schema 且校验通过", () => {
   const result = validateQuestionBank(questions, knowledgePoints);
   assert.deepEqual(result, { valid: true, errors: [] });
-  assert.equal(questions.length, 80);
+  assert.equal(questions.length, 125);
   assert.equal(knowledgePoints.length, 30);
   questions.forEach((question) => {
-    assert.deepEqual(Object.keys(question).sort(), [...QUESTION_REQUIRED_FIELDS].sort());
+    QUESTION_REQUIRED_FIELDS.forEach((field) => assert.ok(Object.hasOwn(question, field), `${question.questionId}.${field}`));
   });
 });
 
@@ -36,7 +36,7 @@ test("六种题型达到 Sprint 5 目标分布", () => {
     type,
     questions.filter((question) => question.type === type).length
   ]));
-  assert.deepEqual(actual, expected);
+  Object.entries(expected).forEach(([type, count]) => assert.ok(actual[type] >= count, type));
   knowledgePoints.forEach((point) => {
     const relatedCount = questions.filter((question) => question.knowledgePointIds.includes(point.knowledgePointId)).length;
     assert.ok(relatedCount >= 2, `${point.knowledgePointId} should have at least two questions`);
@@ -73,7 +73,7 @@ test("前端加载器可读取新版题库并拒绝缺少旧必需字段的数�
     json: async () => url.includes("knowledge-points") ? knowledgePoints : questions
   });
   const bank = await loadQuestionBank(fetchValid);
-  assert.equal(bank.questions.length, 80);
+  assert.equal(bank.questions.length, 125);
 
   const invalidQuestions = structuredClone(questions);
   delete invalidQuestions[0].prompt;
@@ -116,5 +116,5 @@ test("扩展题库保留旧 questionId，因此历史进度不会重置", () => 
   const oldIds = ["Q-N2-VOC-0001", "Q-N2-GRC-0005", "Q-N2-READ-0005"];
   oldIds.forEach((id) => assert.ok(questions.some((question) => question.questionId === id)));
   const counts = getProgressCounts(questions, oldIds);
-  assert.deepEqual(counts, { total: 80, completed: 3, remaining: 77 });
+  assert.deepEqual(counts, { total: 125, completed: 3, remaining: 122 });
 });

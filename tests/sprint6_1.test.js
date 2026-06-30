@@ -8,17 +8,18 @@ const knowledgePoints = JSON.parse(await readFile(new URL("../data/knowledge-poi
 const sourceRegistry = JSON.parse(await readFile(new URL("../data/knowledge-point-sources.json", import.meta.url), "utf8"));
 const grammarPoints = JSON.parse(await readFile(new URL("../knowledge/grammar/grammar-points.json", import.meta.url), "utf8"));
 const pointsById = new Map(knowledgePoints.map((point) => [point.knowledgePointId, point]));
+const sprint6Questions = questions.filter((question) => !question.generationType);
 
 test("Sprint 6.1 不新增题目并保留全部稳定 ID", () => {
-  assert.equal(questions.length, 80);
-  assert.equal(new Set(questions.map((question) => question.questionId)).size, 80);
+  assert.equal(sprint6Questions.length, 80);
+  assert.equal(new Set(questions.map((question) => question.questionId)).size, questions.length);
   ["Q-N2-VOC-0001", "Q-N2-GRC-0005", "Q-N2-READ-0010"].forEach((id) => {
     assert.ok(questions.some((question) => question.questionId === id));
   });
 });
 
 test("80 题解析均包含知识点、正确理由、逐项分析和类似例句", () => {
-  questions.forEach((question) => {
+  sprint6Questions.forEach((question) => {
     const point = pointsById.get(question.knowledgePointIds[0]);
     assert.match(question.explanation, new RegExp(`知识点：${point.title.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}`));
     assert.ok(question.explanation.includes(`正确答案：${question.correctAnswer}`));

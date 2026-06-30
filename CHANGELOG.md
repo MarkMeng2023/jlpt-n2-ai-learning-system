@@ -1,5 +1,10 @@
 # Changelog
 
+## Sprint 9
+
+- Question Factory Phase 1 为计划 Top 10 知识点自动补充首批题目，并以稳定 ID 保证重复运行幂等。
+- 新增题自动填写 Factory 元数据和完整选项解析，并刷新 Coverage、Generation Plan 与 Quality Report。
+
 ## Sprint 8
 
 - 新增可配置的 Knowledge Point Coverage Engine 与确定性 Question Factory。

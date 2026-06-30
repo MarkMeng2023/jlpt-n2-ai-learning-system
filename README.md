@@ -1,4 +1,4 @@
-# JLPT N2 AI Learning System — Sprint 6
+# JLPT N2 AI Learning System — Sprint 9
 
 Sprint 6 暂停扩题，建立题库来源、知识点证据和质量门禁。现有 80 道题与 30 个知识点保持不变；只有来源验证、解析质量与人工审核达标后，才进入 300 题扩充阶段。Sprint 5 的标准化题库与 Sprint 4 的 Review Engine 继续保留。
 
@@ -45,6 +45,16 @@ npm run report:factory
 ```
 
 输出位于 `knowledge/reports/question-coverage-report.md` 和 `reports/question-generation-plan.md`。候选题进入正式题库前仍须通过 Question Validation、Question Review 与 Question Bank Validation。
+
+Sprint 9 使用 Factory 当前 Top 10 进行第一批自动补题。流水线使用稳定 ID，重复运行会更新同一批题而不会重复追加：
+
+```bash
+npm run generate:sprint9
+npm run report:factory
+npm run report:quality
+```
+
+也可以运行完整自动流水线：`npm run pipeline:sprint9`。
 
 ## Review Engine 规则
 
