@@ -10,16 +10,23 @@
   <body>
     <main class="app-shell">
       <header class="page-header">
-        <p class="eyebrow">JLPT N2 · Sprint 1</p>
+        <p class="eyebrow">JLPT N2 · Sprint 2</p>
         <h1>一题一反馈，慢慢把盲点照亮。</h1>
         <p class="subtitle">完成作答后，系统会判题、记录弱点并同步到 Google Sheets。</p>
       </header>
 
+      <section class="progress-summary" aria-label="学习进度">
+        <div><span>题库总数</span><strong id="total-count">—</strong></div>
+        <div><span>已完成</span><strong id="completed-count">—</strong></div>
+        <div><span>剩余</span><strong id="remaining-count">—</strong></div>
+      </section>
+      <p id="progress-status" class="progress-status" aria-live="polite">正在读取学习进度...</p>
+
       <section id="app-message" class="notice hidden" role="alert"></section>
 
-      <section class="card" aria-labelledby="question-heading">
+      <section id="question-card" class="card" aria-labelledby="question-heading">
         <div class="question-meta">
-          <span id="question-number">第 1 / 3 题</span>
+          <span id="question-number">题目读取中</span>
           <span id="question-type" class="tag"></span>
         </div>
 

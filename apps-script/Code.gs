@@ -1,5 +1,5 @@
 /**
- * JLPT N2 AI Learning System — Sprint 1 Apps Script backend.
+ * JLPT N2 AI Learning System — Sprint 2 Apps Script backend.
  *
  * 部署前：
  * 1. 将此脚本绑定到目标 Google Spreadsheet。
@@ -51,7 +51,7 @@ const WEAK_POINT_HEADERS = [
 function doGet() {
   return jsonResponse_({
     success: true,
-    service: "jlpt-n2-sprint-1",
+    service: "jlpt-n2-sprint-2",
     message: "ready",
     serverTime: new Date().toISOString()
   });
@@ -61,11 +61,19 @@ function doPost(event) {
   let payload = {};
   try {
     payload = JSON.parse((event && event.postData && event.postData.contents) || "{}");
-    if (payload.action !== "submitAnswer") {
-      throw new Error("Unsupported action");
-    }
-    return jsonResponse_(submitAnswer_(payload));
+    if (payload.action === "submitAnswer") return jsonResponse_(submitAnswer_(payload));
+    if (payload.action === "getProgress") return jsonResponse_(getProgress_());
+    throw new Error("Unsupported action");
   } catch (error) {
+    if (payload.action === "getProgress") {
+      return jsonResponse_({
+        success: false,
+        answeredQuestionIds: [],
+        totalAnswered: 0,
+        serverTime: new Date().toISOString(),
+        error: { code: "PROGRESS_FAILED", message: error.message }
+      });
+    }
     return jsonResponse_({
       success: false,
       operationId: payload.operationId || null,
@@ -81,6 +89,25 @@ function doPost(event) {
       }
     });
   }
+}
+
+function getProgress_() {
+  const spreadsheet = getSpreadsheet_();
+  const answerSheet = getOrCreateSheet_(spreadsheet, ANSWER_SHEET, ANSWER_HEADERS);
+  const lastRow = answerSheet.getLastRow();
+  const questionIds = lastRow < 2
+    ? []
+    : answerSheet.getRange(2, 2, lastRow - 1, 1).getDisplayValues()
+      .map(function (row) { return row[0]; })
+      .filter(function (questionId) { return questionId !== ""; });
+  const answeredQuestionIds = Array.from(new Set(questionIds));
+
+  return {
+    success: true,
+    answeredQuestionIds: answeredQuestionIds,
+    totalAnswered: answeredQuestionIds.length,
+    serverTime: new Date().toISOString()
+  };
 }
 
 function submitAnswer_(payload) {

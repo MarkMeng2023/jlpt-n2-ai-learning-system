@@ -37,6 +37,26 @@ button, input, textarea { font: inherit; }
 .subtitle, .muted { color: var(--muted); }
 .subtitle { margin: 0; }
 
+.progress-summary {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+.progress-summary div {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 13px 16px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: rgb(255 253 248 / 70%);
+  color: var(--muted);
+  font-size: .85rem;
+}
+.progress-summary strong { color: var(--text); font-size: 1.25rem; }
+.progress-status { min-height: 1.5em; margin: 8px 2px 0; color: var(--muted); font-size: .88rem; }
+
 .card {
   margin-top: 18px;
   padding: 28px;
@@ -120,4 +140,5 @@ textarea { width: 100%; margin-top: 16px; padding: 14px; resize: vertical; borde
   .app-shell { width: min(100% - 20px, 760px); padding-top: 28px; }
   .card, .card.compact { padding: 20px; border-radius: 14px; }
   .section-heading { align-items: flex-start; }
+  .progress-summary div { align-items: flex-start; flex-direction: column; gap: 0; }
 }
