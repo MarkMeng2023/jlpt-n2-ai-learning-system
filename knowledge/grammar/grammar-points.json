@@ -1,0 +1,2249 @@
+[
+  {
+    "knowledgePointId": "KP-GRA-MONONO-001",
+    "level": "N2",
+    "category": "grammar",
+    "title": "～ものの",
+    "reading": "ものの",
+    "meaning": "虽然……但是……",
+    "structure": "V普通形／イA普通形／ナAな・である／Nである＋ものの",
+    "usage": "承认前项事实，同时说明后项结果与预期不一致，较常用于书面表达。",
+    "formality": "written",
+    "examples": [
+      "準備はしたものの、自信はまだない。",
+      "薬を飲んだものの、熱は下がらなかった。"
+    ],
+    "confusablePointIds": [
+      "KP-GRA-NIMOKAKAWARAZU-001"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-NIMOKAKAWARAZU-001",
+      "KP-GRA-NAGARAMO-001",
+      "KP-GRA-TOWAIE-001",
+      "KP-GRA-KUSENI-001"
+    ],
+    "tags": [
+      "逆接/让步",
+      "逆接",
+      "书面语"
+    ],
+    "examFrequency": 5,
+    "sourceNotes": "trusted_learning_site cross-check: JLPT Sensei N2 Grammar List + JapaneseTest4You N2 Grammar List; structured fields and original examples reviewed; not official JLPT certification",
+    "status": "verified"
+  },
+  {
+    "knowledgePointId": "KP-GRA-TOWAIE-001",
+    "level": "N2",
+    "category": "grammar",
+    "title": "～とはいえ",
+    "reading": "とはいえ",
+    "meaning": "虽说……但……",
+    "structure": "普通形＋とはいえ（ナA／N＋（だ）とはいえ）",
+    "usage": "先承认前项，再补充限制、例外或相反事实。",
+    "formality": "both",
+    "examples": [
+      "春とはいえ、朝晩はまだ寒い。",
+      "簡単だとはいえ、油断はできない。"
+    ],
+    "confusablePointIds": [],
+    "relatedPointIds": [
+      "KP-GRA-MONONO-001"
+    ],
+    "tags": [
+      "逆接/让步",
+      "让步"
+    ],
+    "examFrequency": 4,
+    "sourceNotes": "common_n2_material / ai_structured; original examples; pending point-level source verification",
+    "status": "draft"
+  },
+  {
+    "knowledgePointId": "KP-GRA-NAGARAMO-001",
+    "level": "N2",
+    "category": "grammar",
+    "title": "～ながらも",
+    "reading": "ながらも",
+    "meaning": "虽然……却……",
+    "structure": "Vます形去ます／イAい／ナA・N＋ながらも",
+    "usage": "在保持前项状态的同时，出现与其不一致的结果。",
+    "formality": "written",
+    "examples": [
+      "小さいながらも、設備の整ったホテルだ。",
+      "不便ながらも、この町での生活が好きだ。"
+    ],
+    "confusablePointIds": [
+      "KP-GRA-TSUTSUMO-001"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-MONONO-001",
+      "KP-GRA-TSUTSUMO-001"
+    ],
+    "tags": [
+      "逆接/让步",
+      "逆接"
+    ],
+    "examFrequency": 4,
+    "sourceNotes": "common_n2_material / ai_structured; original examples; pending point-level source verification",
+    "status": "draft"
+  },
+  {
+    "knowledgePointId": "KP-GRA-NIMOKAKAWARAZU-001",
+    "level": "N2",
+    "category": "grammar",
+    "title": "～にもかかわらず",
+    "reading": "にもかかわらず",
+    "meaning": "尽管……仍然……",
+    "structure": "普通形＋にもかかわらず（ナA／N＋であるにもかかわらず）",
+    "usage": "强调后项不受前项条件影响，常含意外或批评语气。",
+    "formality": "written",
+    "examples": [
+      "大雨にもかかわらず、多くの人が集まった。",
+      "何度も注意したにもかかわらず、同じミスが起きた。"
+    ],
+    "confusablePointIds": [
+      "KP-GRA-MONONO-001"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-MONONO-001",
+      "KP-GRA-NIHANSHITE-001"
+    ],
+    "tags": [
+      "逆接/让步",
+      "让步",
+      "正式"
+    ],
+    "examFrequency": 5,
+    "sourceNotes": "trusted_learning_site cross-check: JLPT Sensei N2 Grammar List + JapaneseTest4You N2 Grammar List; structured fields and original examples reviewed; not official JLPT certification",
+    "status": "verified"
+  },
+  {
+    "knowledgePointId": "KP-GRA-KUSENI-001",
+    "level": "N2",
+    "category": "grammar",
+    "title": "～くせに",
+    "reading": "くせに",
+    "meaning": "明明……却……",
+    "structure": "普通形＋くせに（ナAな／Nの＋くせに）",
+    "usage": "表达责备、不满或轻蔑，不宜对上级使用。",
+    "formality": "spoken",
+    "examples": [
+      "知っているくせに、教えてくれなかった。",
+      "子どものくせに、ずいぶん難しい言葉を使う。"
+    ],
+    "confusablePointIds": [],
+    "relatedPointIds": [
+      "KP-GRA-MONONO-001"
+    ],
+    "tags": [
+      "逆接/让步",
+      "责备"
+    ],
+    "examFrequency": 3,
+    "sourceNotes": "common_n2_material / ai_structured; original examples; pending point-level source verification",
+    "status": "draft"
+  },
+  {
+    "knowledgePointId": "KP-GRA-TSUTSUMO-001",
+    "level": "N2",
+    "category": "grammar",
+    "title": "～つつ（も）",
+    "reading": "つつも",
+    "meaning": "一边……却……；虽知……仍……",
+    "structure": "Vます形去ます＋つつ（も）",
+    "usage": "表示动作持续或明知某事，却出现矛盾行为。",
+    "formality": "written",
+    "examples": [
+      "体に悪いと知りつつも、夜更かししてしまう。",
+      "反省しつつ、同じ失敗を繰り返している。"
+    ],
+    "confusablePointIds": [
+      "KP-GRA-NAGARAMO-001"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-NAGARAMO-001"
+    ],
+    "tags": [
+      "逆接/让步",
+      "逆接",
+      "同时"
+    ],
+    "examFrequency": 4,
+    "sourceNotes": "trusted_learning_site cross-check: JLPT Sensei N2 Grammar List + JapaneseTest4You N2 Grammar List; structured fields and original examples reviewed; not official JLPT certification",
+    "status": "verified"
+  },
+  {
+    "knowledgePointId": "KP-GRA-HANMEN-001",
+    "level": "N2",
+    "category": "grammar",
+    "title": "～反面",
+    "reading": "はんめん",
+    "meaning": "另一方面；反面",
+    "structure": "普通形＋反面（ナAな／である・Nである＋反面）",
+    "usage": "说明同一事物同时具有正反两面。",
+    "formality": "both",
+    "examples": [
+      "都会は便利な反面、生活費が高い。",
+      "この仕事は自由な反面、責任も重い。"
+    ],
+    "confusablePointIds": [
+      "KP-GRA-IPPOUDE-001"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-IPPOUDE-001"
+    ],
+    "tags": [
+      "逆接/让步",
+      "两面性"
+    ],
+    "examFrequency": 4,
+    "sourceNotes": "trusted_learning_site cross-check: JLPT Sensei N2 Grammar List + JapaneseTest4You N2 Grammar List; structured fields and original examples reviewed; not official JLPT certification",
+    "status": "verified"
+  },
+  {
+    "knowledgePointId": "KP-GRA-IPPOUDE-001",
+    "level": "N2",
+    "category": "grammar",
+    "title": "～一方で",
+    "reading": "いっぽうで",
+    "meaning": "另一方面；同时",
+    "structure": "普通形＋一方で（ナA／N＋である一方で）",
+    "usage": "并列同一主题的两个侧面，或对照两种趋势。",
+    "formality": "both",
+    "examples": [
+      "オンライン授業は便利な一方で、集中しにくい面もある。",
+      "人口が減る地域がある一方で、都市部では増えている。"
+    ],
+    "confusablePointIds": [
+      "KP-GRA-HANMEN-001"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-HANMEN-001"
+    ],
+    "tags": [
+      "逆接/让步",
+      "对照"
+    ],
+    "examFrequency": 4,
+    "sourceNotes": "common_n2_material / ai_structured; original examples; pending point-level source verification",
+    "status": "draft"
+  },
+  {
+    "knowledgePointId": "KP-GRA-NIHANSHITE-001",
+    "level": "N2",
+    "category": "grammar",
+    "title": "～に反して",
+    "reading": "にはんして",
+    "meaning": "与……相反",
+    "structure": "N＋に反して／に反する＋N",
+    "usage": "表示结果、行动与预想、规则、意愿等相反。",
+    "formality": "written",
+    "examples": [
+      "予想に反して、試験はそれほど難しくなかった。",
+      "本人の意志に反して、計画が変更された。"
+    ],
+    "confusablePointIds": [],
+    "relatedPointIds": [
+      "KP-GRA-NIMOKAKAWARAZU-001"
+    ],
+    "tags": [
+      "逆接/让步",
+      "对照",
+      "正式"
+    ],
+    "examFrequency": 4,
+    "sourceNotes": "common_n2_material / ai_structured; original examples; pending point-level source verification",
+    "status": "draft"
+  },
+  {
+    "knowledgePointId": "KP-GRA-DOKOROKA-001",
+    "level": "N2",
+    "category": "grammar",
+    "title": "～どころか",
+    "reading": "どころか",
+    "meaning": "别说……；非但不……反而……",
+    "structure": "普通形／N＋どころか",
+    "usage": "否定前项预想，并说明实际情况更甚或完全相反。",
+    "formality": "both",
+    "examples": [
+      "静かどころか、外の工事でとても騒がしい。",
+      "彼は日本語どころか、中国語も話せる。"
+    ],
+    "confusablePointIds": [
+      "KP-GRA-BAKARIKA-001",
+      "KP-GRA-DOKORODEWANAI-001"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-BAKARIKA-001",
+      "KP-GRA-DOKORODEWANAI-001"
+    ],
+    "tags": [
+      "逆接/让步",
+      "反转",
+      "递进"
+    ],
+    "examFrequency": 5,
+    "sourceNotes": "trusted_learning_site cross-check: JLPT Sensei N2 Grammar List + JapaneseTest4You N2 Grammar List; structured fields and original examples reviewed; not official JLPT certification",
+    "status": "draft"
+  },
+  {
+    "knowledgePointId": "KP-GRA-KOTOKARA-001",
+    "level": "N2",
+    "category": "grammar",
+    "title": "～ことから",
+    "reading": "ことから",
+    "meaning": "由于……；从……来看",
+    "structure": "普通形＋ことから（ナA／N＋であることから）",
+    "usage": "说明命名、判断或结果的依据。",
+    "formality": "written",
+    "examples": [
+      "形が星に似ていることから、この名前が付いた。",
+      "足跡が残っていたことから、動物が来たと分かった。"
+    ],
+    "confusablePointIds": [
+      "KP-GRA-MONODAKARA-001"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-MONODAKARA-001"
+    ],
+    "tags": [
+      "原因/结果",
+      "原因",
+      "依据"
+    ],
+    "examFrequency": 5,
+    "sourceNotes": "common_n2_material / ai_structured; original examples; pending point-level source verification",
+    "status": "draft"
+  },
+  {
+    "knowledgePointId": "KP-GRA-MONODAKARA-001",
+    "level": "N2",
+    "category": "grammar",
+    "title": "～ものだから",
+    "reading": "ものだから",
+    "meaning": "因为……（解释、辩解）",
+    "structure": "普通形＋ものだから（ナAな／Nな＋ものだから）",
+    "usage": "带主观解释语气说明原因，常用于辩解。",
+    "formality": "spoken",
+    "examples": [
+      "道が混んでいたものだから、遅れてしまいました。",
+      "初めてなものだから、やり方が分かりません。"
+    ],
+    "confusablePointIds": [
+      "KP-GRA-KOTOKARA-001",
+      "KP-GRA-BAKARINI-001"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-KOTOKARA-001",
+      "KP-GRA-BAKARINI-001"
+    ],
+    "tags": [
+      "原因/结果",
+      "原因",
+      "辩解"
+    ],
+    "examFrequency": 4,
+    "sourceNotes": "trusted_learning_site cross-check: JLPT Sensei N2 Grammar List + JapaneseTest4You N2 Grammar List; structured fields and original examples reviewed; not official JLPT certification",
+    "status": "verified"
+  },
+  {
+    "knowledgePointId": "KP-GRA-BAKARINI-001",
+    "level": "N2",
+    "category": "grammar",
+    "title": "～ばかりに",
+    "reading": "ばかりに",
+    "meaning": "只因……而……",
+    "structure": "普通形＋ばかりに（ナAな／Nである＋ばかりに）",
+    "usage": "表示仅因某原因而产生不理想结果，常含后悔。",
+    "formality": "written",
+    "examples": [
+      "一言多く言ったばかりに、相手を怒らせた。",
+      "経験がないばかりに、採用されなかった。"
+    ],
+    "confusablePointIds": [
+      "KP-GRA-MONODAKARA-001"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-MONODAKARA-001",
+      "KP-GRA-AMARI-001",
+      "KP-GRA-AGEKU-001"
+    ],
+    "tags": [
+      "原因/结果",
+      "负面结果"
+    ],
+    "examFrequency": 4,
+    "sourceNotes": "trusted_learning_site cross-check: JLPT Sensei N2 Grammar List + JapaneseTest4You N2 Grammar List; structured fields and original examples reviewed; not official JLPT certification",
+    "status": "verified"
+  },
+  {
+    "knowledgePointId": "KP-GRA-OKAGEDE-001",
+    "level": "N2",
+    "category": "grammar",
+    "title": "～おかげで",
+    "reading": "おかげで",
+    "meaning": "多亏……；由于……",
+    "structure": "普通形＋おかげで（ナAな／Nの＋おかげで）",
+    "usage": "通常表示积极结果，也可反讽。",
+    "formality": "both",
+    "examples": [
+      "先生のおかげで、試験に合格できた。",
+      "電車が遅れたおかげで、会議に間に合わなかった。"
+    ],
+    "confusablePointIds": [],
+    "relatedPointIds": [
+      "KP-GRA-SEIDE-001"
+    ],
+    "tags": [
+      "原因/结果",
+      "原因",
+      "受益"
+    ],
+    "examFrequency": 4,
+    "sourceNotes": "common_n2_material / ai_structured; original examples; pending point-level source verification",
+    "status": "draft"
+  },
+  {
+    "knowledgePointId": "KP-GRA-SEIDE-001",
+    "level": "N2",
+    "category": "grammar",
+    "title": "～せいで",
+    "reading": "せいで",
+    "meaning": "都怪……；由于……",
+    "structure": "普通形＋せいで（ナAな／Nの＋せいで）",
+    "usage": "把不良结果归因于前项。",
+    "formality": "both",
+    "examples": [
+      "寝不足のせいで、今日は集中できない。",
+      "雨が続いたせいで、試合が延期された。"
+    ],
+    "confusablePointIds": [],
+    "relatedPointIds": [
+      "KP-GRA-OKAGEDE-001"
+    ],
+    "tags": [
+      "原因/结果",
+      "原因",
+      "负面结果"
+    ],
+    "examFrequency": 4,
+    "sourceNotes": "common_n2_material / ai_structured; original examples; pending point-level source verification",
+    "status": "draft"
+  },
+  {
+    "knowledgePointId": "KP-GRA-AMARI-001",
+    "level": "N2",
+    "category": "grammar",
+    "title": "～あまり",
+    "reading": "あまり",
+    "meaning": "由于过度……而……",
+    "structure": "V普通形／ナAな／Nの＋あまり",
+    "usage": "表示情感或状态程度过高，导致非正常结果。",
+    "formality": "written",
+    "examples": [
+      "緊張のあまり、名前を言い間違えた。",
+      "うれしさのあまり、涙が出た。"
+    ],
+    "confusablePointIds": [],
+    "relatedPointIds": [
+      "KP-GRA-BAKARINI-001"
+    ],
+    "tags": [
+      "原因/结果",
+      "程度",
+      "结果"
+    ],
+    "examFrequency": 3,
+    "sourceNotes": "common_n2_material / ai_structured; original examples; pending point-level source verification",
+    "status": "draft"
+  },
+  {
+    "knowledgePointId": "KP-GRA-AGEKU-001",
+    "level": "N2",
+    "category": "grammar",
+    "title": "～あげく",
+    "reading": "あげく",
+    "meaning": "经过……最终……",
+    "structure": "Vた形／Nの＋あげく",
+    "usage": "表示经历较长过程后得到通常不理想的结果。",
+    "formality": "written",
+    "examples": [
+      "長く話し合ったあげく、結論は出なかった。",
+      "迷ったあげく、申し込みをやめた。"
+    ],
+    "confusablePointIds": [],
+    "relatedPointIds": [
+      "KP-GRA-BAKARINI-001"
+    ],
+    "tags": [
+      "原因/结果",
+      "过程",
+      "结果"
+    ],
+    "examFrequency": 5,
+    "sourceNotes": "trusted_learning_site cross-check: JLPT Sensei N2 Grammar List + JapaneseTest4You N2 Grammar List; structured fields and original examples reviewed; not official JLPT certification",
+    "status": "verified"
+  },
+  {
+    "knowledgePointId": "KP-GRA-IJOUWA-001",
+    "level": "N2",
+    "category": "grammar",
+    "title": "～以上（は）",
+    "reading": "いじょうは",
+    "meaning": "既然……就……",
+    "structure": "V普通形／ナAである／Nである＋以上（は）",
+    "usage": "以前项既定事实为理由，引出责任、决心或理所当然的结论。",
+    "formality": "written",
+    "examples": [
+      "約束した以上、最後まで責任を持つべきだ。",
+      "参加する以上は、規則を守ってください。"
+    ],
+    "confusablePointIds": [],
+    "relatedPointIds": [
+      "KP-GRA-BEKIDA-001"
+    ],
+    "tags": [
+      "原因/结果",
+      "前提",
+      "责任"
+    ],
+    "examFrequency": 5,
+    "sourceNotes": "trusted_learning_site cross-check: JLPT Sensei N2 Grammar List + JapaneseTest4You N2 Grammar List; structured fields and original examples reviewed; not official JLPT certification",
+    "status": "verified"
+  },
+  {
+    "knowledgePointId": "KP-GRA-NICHIGAINAI-001",
+    "level": "N2",
+    "category": "grammar",
+    "title": "～に違いない",
+    "reading": "にちがいない",
+    "meaning": "一定……；肯定……",
+    "structure": "普通形＋に違いない（ナA／N＋に違いない）",
+    "usage": "根据证据作出确信度很高的判断。",
+    "formality": "both",
+    "examples": [
+      "電気がついているから、まだ誰かいるに違いない。",
+      "あの笑顔なら、結果は良かったに違いない。"
+    ],
+    "confusablePointIds": [],
+    "relatedPointIds": [
+      "KP-GRA-RASHII-001",
+      "KP-GRA-NIKIMATTEIRU-001"
+    ],
+    "tags": [
+      "推量/判断",
+      "推断"
+    ],
+    "examFrequency": 5,
+    "sourceNotes": "common_n2_material / ai_structured; original examples; pending point-level source verification",
+    "status": "draft"
+  },
+  {
+    "knowledgePointId": "KP-GRA-HAZUDA-001",
+    "level": "N2",
+    "category": "grammar",
+    "title": "～はずだ",
+    "reading": "はずだ",
+    "meaning": "按理应该……",
+    "structure": "普通形＋はずだ（ナAな／Nの＋はずだ）",
+    "usage": "根据事实、计划或逻辑作出合理预期。",
+    "formality": "both",
+    "examples": [
+      "地図では駅はこの近くにあるはずだ。",
+      "彼は今日帰国するはずです。"
+    ],
+    "confusablePointIds": [],
+    "relatedPointIds": [
+      "KP-GRA-WAKEGANAI-001"
+    ],
+    "tags": [
+      "推量/判断",
+      "预期"
+    ],
+    "examFrequency": 5,
+    "sourceNotes": "common_n2_material / ai_structured; original examples; pending point-level source verification",
+    "status": "draft"
+  },
+  {
+    "knowledgePointId": "KP-GRA-WAKEGANAI-001",
+    "level": "N2",
+    "category": "grammar",
+    "title": "～わけがない",
+    "reading": "わけがない",
+    "meaning": "不可能……",
+    "structure": "普通形＋わけがない（ナAな／Nの＋わけがない）",
+    "usage": "基于常识或事实强烈否定可能性。",
+    "formality": "both",
+    "examples": [
+      "こんな重い荷物を一人で運べるわけがない。",
+      "彼がその約束を忘れるわけがない。"
+    ],
+    "confusablePointIds": [],
+    "relatedPointIds": [
+      "KP-GRA-HAZUDA-001",
+      "KP-GRA-MAI-001"
+    ],
+    "tags": [
+      "推量/判断",
+      "否定推断"
+    ],
+    "examFrequency": 5,
+    "sourceNotes": "common_n2_material / ai_structured; original examples; pending point-level source verification",
+    "status": "draft"
+  },
+  {
+    "knowledgePointId": "KP-GRA-YOUDA-001",
+    "level": "N2",
+    "category": "grammar",
+    "title": "～ようだ",
+    "reading": "ようだ",
+    "meaning": "似乎……；好像……",
+    "structure": "普通形＋ようだ（ナAな／Nの＋ようだ）",
+    "usage": "根据观察作较客观的推测，也可表示比喻。",
+    "formality": "both",
+    "examples": [
+      "外は雨が降っているようだ。",
+      "彼は少し疲れているようです。"
+    ],
+    "confusablePointIds": [
+      "KP-GRA-RASHII-001"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-RASHII-001"
+    ],
+    "tags": [
+      "推量/判断",
+      "推测"
+    ],
+    "examFrequency": 4,
+    "sourceNotes": "common_n2_material / ai_structured; original examples; pending point-level source verification",
+    "status": "draft"
+  },
+  {
+    "knowledgePointId": "KP-GRA-RASHII-001",
+    "level": "N2",
+    "category": "grammar",
+    "title": "～らしい",
+    "reading": "らしい",
+    "meaning": "听说……；似乎……",
+    "structure": "普通形＋らしい（ナA／N＋らしい）",
+    "usage": "根据传闻或典型迹象作判断。",
+    "formality": "both",
+    "examples": [
+      "天気予報によると、明日は雪らしい。",
+      "彼は最近とても忙しいらしい。"
+    ],
+    "confusablePointIds": [
+      "KP-GRA-YOUDA-001"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-NICHIGAINAI-001",
+      "KP-GRA-YOUDA-001"
+    ],
+    "tags": [
+      "推量/判断",
+      "传闻",
+      "推测"
+    ],
+    "examFrequency": 4,
+    "sourceNotes": "common_n2_material / ai_structured; original examples; pending point-level source verification",
+    "status": "draft"
+  },
+  {
+    "knowledgePointId": "KP-GRA-OSOREGAARU-001",
+    "level": "N2",
+    "category": "grammar",
+    "title": "～おそれがある",
+    "reading": "おそれがある",
+    "meaning": "恐怕会……；有……风险",
+    "structure": "V辞书形／Nの＋おそれがある",
+    "usage": "正式说明可能发生不良事态或风险。",
+    "formality": "written",
+    "examples": [
+      "大雨で川があふれるおそれがある。",
+      "この薬には副作用のおそれがあります。"
+    ],
+    "confusablePointIds": [
+      "KP-GRA-KANENAI-001"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-KANENAI-001"
+    ],
+    "tags": [
+      "推量/判断",
+      "风险",
+      "正式"
+    ],
+    "examFrequency": 5,
+    "sourceNotes": "trusted_learning_site cross-check: JLPT Sensei N2 Grammar List + JapaneseTest4You N2 Grammar List; structured fields and original examples reviewed; not official JLPT certification",
+    "status": "verified"
+  },
+  {
+    "knowledgePointId": "KP-GRA-KANENAI-001",
+    "level": "N2",
+    "category": "grammar",
+    "title": "～かねない",
+    "reading": "かねない",
+    "meaning": "有可能发生……（坏事）",
+    "structure": "Vます形去ます＋かねない",
+    "usage": "指出某行为可能导致说话人不希望的结果。",
+    "formality": "written",
+    "examples": [
+      "無理を続けると、体を壊しかねない。",
+      "その発言は誤解を招きかねない。"
+    ],
+    "confusablePointIds": [
+      "KP-GRA-OSOREGAARU-001"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-OSOREGAARU-001"
+    ],
+    "tags": [
+      "推量/判断",
+      "风险",
+      "负面可能"
+    ],
+    "examFrequency": 5,
+    "sourceNotes": "trusted_learning_site cross-check: JLPT Sensei N2 Grammar List + JapaneseTest4You N2 Grammar List; structured fields and original examples reviewed; not official JLPT certification",
+    "status": "verified"
+  },
+  {
+    "knowledgePointId": "KP-GRA-MAI-001",
+    "level": "N2",
+    "category": "grammar",
+    "title": "～まい",
+    "reading": "まい",
+    "meaning": "不会……吧；绝不……",
+    "structure": "V辞书形＋まい（するまい／すまい）",
+    "usage": "表示否定推量，或说话人的否定意志。",
+    "formality": "written",
+    "examples": [
+      "彼はもう戻るまい。",
+      "二度と同じ失敗はするまいと決めた。"
+    ],
+    "confusablePointIds": [],
+    "relatedPointIds": [
+      "KP-GRA-WAKEGANAI-001"
+    ],
+    "tags": [
+      "推量/判断",
+      "否定推量",
+      "意志"
+    ],
+    "examFrequency": 3,
+    "sourceNotes": "trusted_learning_site cross-check: JLPT Sensei N2 Grammar List + JapaneseTest4You N2 Grammar List; structured fields and original examples reviewed; not official JLPT certification",
+    "status": "verified"
+  },
+  {
+    "knowledgePointId": "KP-GRA-NIKIMATTEIRU-001",
+    "level": "N2",
+    "category": "grammar",
+    "title": "～に決まっている",
+    "reading": "にきまっている",
+    "meaning": "肯定……；当然……",
+    "structure": "普通形＋に決まっている（ナA／N＋に決まっている）",
+    "usage": "表达说话人主观上十分确信，语气较强。",
+    "formality": "spoken",
+    "examples": [
+      "そんな話は冗談に決まっている。",
+      "毎日練習すれば上手になるに決まっている。"
+    ],
+    "confusablePointIds": [],
+    "relatedPointIds": [
+      "KP-GRA-NICHIGAINAI-001"
+    ],
+    "tags": [
+      "推量/判断",
+      "强烈判断"
+    ],
+    "examFrequency": 4,
+    "sourceNotes": "trusted_learning_site cross-check: JLPT Sensei N2 Grammar List + JapaneseTest4You N2 Grammar List; structured fields and original examples reviewed; not official JLPT certification",
+    "status": "verified"
+  },
+  {
+    "knowledgePointId": "KP-GRA-NIHOKANARANAI-001",
+    "level": "N2",
+    "category": "grammar",
+    "title": "～にほかならない",
+    "reading": "にほかならない",
+    "meaning": "正是……；无非是……",
+    "structure": "N＋にほかならない",
+    "usage": "正式强调原因、性质或结论正是某事。",
+    "formality": "written",
+    "examples": [
+      "成功は皆の協力の結果にほかならない。",
+      "この変化は努力の証にほかならない。"
+    ],
+    "confusablePointIds": [],
+    "relatedPointIds": [
+      "KP-GRA-NISUGINAI-001"
+    ],
+    "tags": [
+      "限定/强调",
+      "强调",
+      "正式"
+    ],
+    "examFrequency": 5,
+    "sourceNotes": "trusted_learning_site cross-check: JLPT Sensei N2 Grammar List + JapaneseTest4You N2 Grammar List; structured fields and original examples reviewed; not official JLPT certification",
+    "status": "verified"
+  },
+  {
+    "knowledgePointId": "KP-GRA-NISUGINAI-001",
+    "level": "N2",
+    "category": "grammar",
+    "title": "～にすぎない",
+    "reading": "にすぎない",
+    "meaning": "只不过……",
+    "structure": "V普通形／ナA・N＋にすぎない",
+    "usage": "限定程度或价值，表示并没有超过前项。",
+    "formality": "written",
+    "examples": [
+      "これは一つの例にすぎない。",
+      "彼は自分の意見を述べたにすぎない。"
+    ],
+    "confusablePointIds": [],
+    "relatedPointIds": [
+      "KP-GRA-NIHOKANARANAI-001"
+    ],
+    "tags": [
+      "限定/强调",
+      "限定"
+    ],
+    "examFrequency": 5,
+    "sourceNotes": "trusted_learning_site cross-check: JLPT Sensei N2 Grammar List + JapaneseTest4You N2 Grammar List; structured fields and original examples reviewed; not official JLPT certification",
+    "status": "verified"
+  },
+  {
+    "knowledgePointId": "KP-GRA-SHIKANAI-001",
+    "level": "N2",
+    "category": "grammar",
+    "title": "～しかない",
+    "reading": "しかない",
+    "meaning": "只有……；只好……",
+    "structure": "V辞书形＋しかない／N＋しかない",
+    "usage": "表示选择或数量受到严格限制。",
+    "formality": "both",
+    "examples": [
+      "電車がないので、歩くしかない。",
+      "残っている方法はこれしかない。"
+    ],
+    "confusablePointIds": [
+      "KP-GRA-ZARUOENAI-001"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-ZARUOENAI-001"
+    ],
+    "tags": [
+      "限定/强调",
+      "限定",
+      "不得已"
+    ],
+    "examFrequency": 5,
+    "sourceNotes": "common_n2_material / ai_structured; original examples; pending point-level source verification",
+    "status": "draft"
+  },
+  {
+    "knowledgePointId": "KP-GRA-SAE-001",
+    "level": "N2",
+    "category": "grammar",
+    "title": "～さえ",
+    "reading": "さえ",
+    "meaning": "连……都……；只要……",
+    "structure": "N／助词＋さえ；Vます形去ます＋さえする",
+    "usage": "举出极端例子强调范围，或与条件形式组合。",
+    "formality": "both",
+    "examples": [
+      "忙しくて昼ご飯を食べる時間さえなかった。",
+      "名前さえ分かれば、調べられます。"
+    ],
+    "confusablePointIds": [],
+    "relatedPointIds": [
+      "KP-GRA-BAKARIKA-001"
+    ],
+    "tags": [
+      "限定/强调",
+      "极端例"
+    ],
+    "examFrequency": 4,
+    "sourceNotes": "common_n2_material / ai_structured; original examples; pending point-level source verification",
+    "status": "draft"
+  },
+  {
+    "knowledgePointId": "KP-GRA-BAKARIKA-001",
+    "level": "N2",
+    "category": "grammar",
+    "title": "～ばかりか",
+    "reading": "ばかりか",
+    "meaning": "不但……而且……",
+    "structure": "普通形／N＋ばかりか",
+    "usage": "在前项基础上添加程度更高或意外的后项。",
+    "formality": "written",
+    "examples": [
+      "彼は英語ばかりか、中国語も話せる。",
+      "雨ばかりか、強い風まで吹いてきた。"
+    ],
+    "confusablePointIds": [
+      "KP-GRA-DOKOROKA-001"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-DOKOROKA-001",
+      "KP-GRA-SAE-001",
+      "KP-GRA-NOMINARAZU-001"
+    ],
+    "tags": [
+      "限定/强调",
+      "递进"
+    ],
+    "examFrequency": 5,
+    "sourceNotes": "common_n2_material / ai_structured; original examples; pending point-level source verification",
+    "status": "draft"
+  },
+  {
+    "knowledgePointId": "KP-GRA-NOMINARAZU-001",
+    "level": "N2",
+    "category": "grammar",
+    "title": "～のみならず",
+    "reading": "のみならず",
+    "meaning": "不仅……而且……",
+    "structure": "普通形／N＋のみならず",
+    "usage": "正式地扩展适用范围，后项常接「も」。",
+    "formality": "written",
+    "examples": [
+      "国内のみならず、海外でも注目されている。",
+      "彼女は研究のみならず、教育にも力を入れている。"
+    ],
+    "confusablePointIds": [],
+    "relatedPointIds": [
+      "KP-GRA-BAKARIKA-001"
+    ],
+    "tags": [
+      "限定/强调",
+      "递进",
+      "正式"
+    ],
+    "examFrequency": 4,
+    "sourceNotes": "trusted_learning_site cross-check: JLPT Sensei N2 Grammar List + JapaneseTest4You N2 Grammar List; structured fields and original examples reviewed; not official JLPT certification",
+    "status": "verified"
+  },
+  {
+    "knowledgePointId": "KP-GRA-NIKAGITTE-001",
+    "level": "N2",
+    "category": "grammar",
+    "title": "～に限って",
+    "reading": "にかぎって",
+    "meaning": "偏偏……；唯独……",
+    "structure": "N＋に限って",
+    "usage": "表示偏偏在特殊时刻发生意外，或说话人确信某对象不会如此。",
+    "formality": "both",
+    "examples": [
+      "急いでいる日に限って、電車が遅れる。",
+      "彼に限って、約束を破ることはない。"
+    ],
+    "confusablePointIds": [
+      "KP-GRA-NIKAGIRAZU-001"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-NIKAGIRAZU-001"
+    ],
+    "tags": [
+      "限定/强调",
+      "限定",
+      "意外"
+    ],
+    "examFrequency": 4,
+    "sourceNotes": "trusted_learning_site cross-check: JLPT Sensei N2 Grammar List + JapaneseTest4You N2 Grammar List; structured fields and original examples reviewed; not official JLPT certification",
+    "status": "verified"
+  },
+  {
+    "knowledgePointId": "KP-GRA-NIKAGIRAZU-001",
+    "level": "N2",
+    "category": "grammar",
+    "title": "～に限らず",
+    "reading": "にかぎらず",
+    "meaning": "不限于……",
+    "structure": "N＋に限らず",
+    "usage": "表示范围不只限于前项，还包括其他对象。",
+    "formality": "written",
+    "examples": [
+      "若者に限らず、多くの世代が利用している。",
+      "平日に限らず、週末も開館しています。"
+    ],
+    "confusablePointIds": [
+      "KP-GRA-NIKAGITTE-001"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-NIKAGITTE-001"
+    ],
+    "tags": [
+      "限定/强调",
+      "范围"
+    ],
+    "examFrequency": 4,
+    "sourceNotes": "trusted_learning_site cross-check: JLPT Sensei N2 Grammar List + JapaneseTest4You N2 Grammar List; structured fields and original examples reviewed; not official JLPT certification",
+    "status": "verified"
+  },
+  {
+    "knowledgePointId": "KP-GRA-WAKEDEWANAI-001",
+    "level": "N2",
+    "category": "grammar",
+    "title": "～わけではない",
+    "reading": "わけではない",
+    "meaning": "并非……；并不是说……",
+    "structure": "普通形＋わけではない（ナAな／Nの＋わけではない）",
+    "usage": "否定可能被推导出的整体结论，常用于部分否定。",
+    "formality": "both",
+    "examples": [
+      "甘い物が嫌いなわけではない。",
+      "値段が高ければ品質が良いわけではない。"
+    ],
+    "confusablePointIds": [
+      "KP-GRA-NAIKOTOWANAI-001"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-NAIKOTOWANAI-001"
+    ],
+    "tags": [
+      "限定/强调",
+      "部分否定"
+    ],
+    "examFrequency": 5,
+    "sourceNotes": "common_n2_material / ai_structured; original examples; pending point-level source verification",
+    "status": "draft"
+  },
+  {
+    "knowledgePointId": "KP-GRA-SAEBA-001",
+    "level": "N2",
+    "category": "grammar",
+    "title": "～さえ～ば",
+    "reading": "さえば",
+    "meaning": "只要……就……",
+    "structure": "Nさえ＋条件形／Vます形去ます＋さえすれば",
+    "usage": "提出实现后项所需的最低条件。",
+    "formality": "both",
+    "examples": [
+      "時間さえあれば、旅行に行きたい。",
+      "薬を飲みさえすれば、すぐ治るわけではない。"
+    ],
+    "confusablePointIds": [],
+    "relatedPointIds": [
+      "KP-GRA-NAIKAGIRI-001"
+    ],
+    "tags": [
+      "条件",
+      "最低条件"
+    ],
+    "examFrequency": 4,
+    "sourceNotes": "trusted_learning_site cross-check: JLPT Sensei N2 Grammar List + JapaneseTest4You N2 Grammar List; structured fields and original examples reviewed; not official JLPT certification",
+    "status": "draft"
+  },
+  {
+    "knowledgePointId": "KP-GRA-MONONARA-001",
+    "level": "N2",
+    "category": "grammar",
+    "title": "～ものなら",
+    "reading": "ものなら",
+    "meaning": "如果能……的话",
+    "structure": "V可能形＋ものなら",
+    "usage": "假设实现难度较高的事情，常表达愿望或挑战。",
+    "formality": "both",
+    "examples": [
+      "戻れるものなら、学生時代に戻りたい。",
+      "一人でできるものなら、やってみてください。"
+    ],
+    "confusablePointIds": [
+      "KP-GRA-YOUMONONARA-001"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-YOUMONONARA-001"
+    ],
+    "tags": [
+      "条件",
+      "假设"
+    ],
+    "examFrequency": 4,
+    "sourceNotes": "trusted_learning_site cross-check: JLPT Sensei N2 Grammar List + JapaneseTest4You N2 Grammar List; structured fields and original examples reviewed; not official JLPT certification",
+    "status": "verified"
+  },
+  {
+    "knowledgePointId": "KP-GRA-YOUMONONARA-001",
+    "level": "N2",
+    "category": "grammar",
+    "title": "～ようものなら",
+    "reading": "ようものなら",
+    "meaning": "万一要是……就……",
+    "structure": "V意向形＋ものなら",
+    "usage": "假设一旦发生前项，就会出现严重或不理想后果。",
+    "formality": "written",
+    "examples": [
+      "秘密を話そうものなら、皆に迷惑がかかる。",
+      "遅刻しようものなら、試合に出してもらえない。"
+    ],
+    "confusablePointIds": [
+      "KP-GRA-MONONARA-001"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-MONONARA-001"
+    ],
+    "tags": [
+      "条件",
+      "警告",
+      "假设"
+    ],
+    "examFrequency": 3,
+    "sourceNotes": "common_n2_material / ai_structured; original examples; pending point-level source verification",
+    "status": "draft"
+  },
+  {
+    "knowledgePointId": "KP-GRA-NAIKOTONIWA-001",
+    "level": "N2",
+    "category": "grammar",
+    "title": "～ないことには",
+    "reading": "ないことには",
+    "meaning": "如果不……就不能……",
+    "structure": "Vない形＋ことには",
+    "usage": "说明前项是判断或实现后项不可缺少的条件。",
+    "formality": "both",
+    "examples": [
+      "実物を見ないことには、買うか決められない。",
+      "本人に聞かないことには、理由は分からない。"
+    ],
+    "confusablePointIds": [],
+    "relatedPointIds": [
+      "KP-GRA-NAIKAGIRI-001"
+    ],
+    "tags": [
+      "条件",
+      "必要条件"
+    ],
+    "examFrequency": 5,
+    "sourceNotes": "trusted_learning_site cross-check: JLPT Sensei N2 Grammar List + JapaneseTest4You N2 Grammar List; structured fields and original examples reviewed; not official JLPT certification",
+    "status": "verified"
+  },
+  {
+    "knowledgePointId": "KP-GRA-TOSHITARA-001",
+    "level": "N2",
+    "category": "grammar",
+    "title": "～としたら",
+    "reading": "としたら",
+    "meaning": "如果……的话",
+    "structure": "普通形＋としたら",
+    "usage": "把未确定事实作为假设，讨论判断或行动。",
+    "formality": "both",
+    "examples": [
+      "来年留学するとしたら、今から準備が必要だ。",
+      "それが本当だとしたら、大きな問題だ。"
+    ],
+    "confusablePointIds": [],
+    "relatedPointIds": [
+      "KP-GRA-TOSUREBA-001"
+    ],
+    "tags": [
+      "条件",
+      "假设"
+    ],
+    "examFrequency": 4,
+    "sourceNotes": "common_n2_material / ai_structured; original examples; pending point-level source verification",
+    "status": "draft"
+  },
+  {
+    "knowledgePointId": "KP-GRA-TOSUREBA-001",
+    "level": "N2",
+    "category": "grammar",
+    "title": "～とすれば",
+    "reading": "とすれば",
+    "meaning": "假如……；若从……来看",
+    "structure": "普通形＋とすれば",
+    "usage": "较书面地提出假设并进行逻辑推论。",
+    "formality": "written",
+    "examples": [
+      "予算が足りないとすれば、計画を見直す必要がある。",
+      "彼が来ないとすれば、誰に頼むべきだろう。"
+    ],
+    "confusablePointIds": [],
+    "relatedPointIds": [
+      "KP-GRA-TOSHITARA-001"
+    ],
+    "tags": [
+      "条件",
+      "假设",
+      "推论"
+    ],
+    "examFrequency": 4,
+    "sourceNotes": "common_n2_material / ai_structured; original examples; pending point-level source verification",
+    "status": "draft"
+  },
+  {
+    "knowledgePointId": "KP-GRA-KAGIRI-001",
+    "level": "N2",
+    "category": "grammar",
+    "title": "～限り",
+    "reading": "かぎり",
+    "meaning": "只要……就……；在……范围内",
+    "structure": "V普通形／Nである＋限り",
+    "usage": "表示某状态持续期间，后项也成立。",
+    "formality": "written",
+    "examples": [
+      "元気である限り、仕事を続けたい。",
+      "約束を守る限り、あなたを信じます。"
+    ],
+    "confusablePointIds": [],
+    "relatedPointIds": [
+      "KP-GRA-NAIKAGIRI-001",
+      "KP-GRA-TABINI-001"
+    ],
+    "tags": [
+      "条件",
+      "范围",
+      "持续条件"
+    ],
+    "examFrequency": 5,
+    "sourceNotes": "trusted_learning_site cross-check: JLPT Sensei N2 Grammar List + JapaneseTest4You N2 Grammar List; structured fields and original examples reviewed; not official JLPT certification",
+    "status": "verified"
+  },
+  {
+    "knowledgePointId": "KP-GRA-NAIKAGIRI-001",
+    "level": "N2",
+    "category": "grammar",
+    "title": "～ない限り",
+    "reading": "ないかぎり",
+    "meaning": "除非……否则……",
+    "structure": "Vない形＋限り",
+    "usage": "表示如果前项不实现，后项就不会成立。",
+    "formality": "written",
+    "examples": [
+      "謝らない限り、彼は許してくれないだろう。",
+      "雨がやまない限り、試合は始められない。"
+    ],
+    "confusablePointIds": [],
+    "relatedPointIds": [
+      "KP-GRA-SAEBA-001",
+      "KP-GRA-KAGIRI-001",
+      "KP-GRA-NAIKOTONIWA-001"
+    ],
+    "tags": [
+      "条件",
+      "必要条件"
+    ],
+    "examFrequency": 5,
+    "sourceNotes": "common_n2_material / ai_structured; original examples; pending point-level source verification",
+    "status": "draft"
+  },
+  {
+    "knowledgePointId": "KP-GRA-NAIKOTOWANAI-001",
+    "level": "N2",
+    "category": "grammar",
+    "title": "～ないことはない",
+    "reading": "ないことはない",
+    "meaning": "并非不能……",
+    "structure": "Vない形＋ことはない",
+    "usage": "用双重否定表示存在可能，但常伴随保留条件。",
+    "formality": "both",
+    "examples": [
+      "高いが、買えないことはない。",
+      "時間をかければ、完成できないことはない。"
+    ],
+    "confusablePointIds": [
+      "KP-GRA-WAKEDEWANAI-001"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-WAKEDEWANAI-001"
+    ],
+    "tags": [
+      "条件",
+      "双重否定",
+      "可能"
+    ],
+    "examFrequency": 5,
+    "sourceNotes": "common_n2_material / ai_structured; original examples; pending point-level source verification",
+    "status": "draft"
+  },
+  {
+    "knowledgePointId": "KP-GRA-TAMENI-001",
+    "level": "N2",
+    "category": "grammar",
+    "title": "～ために",
+    "reading": "ために",
+    "meaning": "为了……",
+    "structure": "V辞书形／Nの＋ために",
+    "usage": "表示有意志行为的明确目的。",
+    "formality": "both",
+    "examples": [
+      "資格を取るために、毎日勉強している。",
+      "健康のために、朝歩くことにした。"
+    ],
+    "confusablePointIds": [
+      "KP-GRA-YOUNI-001"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-YOUNI-001",
+      "KP-GRA-BEKU-001",
+      "KP-GRA-NIMUKETE-001"
+    ],
+    "tags": [
+      "目的",
+      "目的"
+    ],
+    "examFrequency": 5,
+    "sourceNotes": "common_n2_material / ai_structured; original examples; pending point-level source verification",
+    "status": "draft"
+  },
+  {
+    "knowledgePointId": "KP-GRA-YOUNI-001",
+    "level": "N2",
+    "category": "grammar",
+    "title": "～ように",
+    "reading": "ように",
+    "meaning": "为了能够……；以免……",
+    "structure": "V辞书形／ない形＋ように",
+    "usage": "用于能力、状态或非意志结果的目标。",
+    "formality": "both",
+    "examples": [
+      "忘れないように、メモしておきます。",
+      "日本語が話せるように、毎日練習している。"
+    ],
+    "confusablePointIds": [
+      "KP-GRA-TAMENI-001"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-TAMENI-001"
+    ],
+    "tags": [
+      "目的",
+      "目的",
+      "目标状态"
+    ],
+    "examFrequency": 5,
+    "sourceNotes": "common_n2_material / ai_structured; original examples; pending point-level source verification",
+    "status": "draft"
+  },
+  {
+    "knowledgePointId": "KP-GRA-BEKU-001",
+    "level": "N2",
+    "category": "grammar",
+    "title": "～べく",
+    "reading": "べく",
+    "meaning": "为了……",
+    "structure": "V辞书形＋べく（する→するべく／すべく）",
+    "usage": "书面且正式地表示意图和目的。",
+    "formality": "written",
+    "examples": [
+      "問題を解決すべく、専門家が集まった。",
+      "目標を達成するべく、計画を立て直した。"
+    ],
+    "confusablePointIds": [],
+    "relatedPointIds": [
+      "KP-GRA-TAMENI-001"
+    ],
+    "tags": [
+      "目的",
+      "目的",
+      "正式"
+    ],
+    "examFrequency": 3,
+    "sourceNotes": "common_n2_material / ai_structured; original examples; pending point-level source verification",
+    "status": "draft"
+  },
+  {
+    "knowledgePointId": "KP-GRA-NIMUKETE-001",
+    "level": "N2",
+    "category": "grammar",
+    "title": "～に向けて",
+    "reading": "にむけて",
+    "meaning": "面向……；为……而",
+    "structure": "N＋に向けて／に向けた＋N",
+    "usage": "表示朝目标、对象或时间节点推进准备。",
+    "formality": "both",
+    "examples": [
+      "大会に向けて、毎日練習している。",
+      "発売に向けた準備が進んでいる。"
+    ],
+    "confusablePointIds": [],
+    "relatedPointIds": [
+      "KP-GRA-TAMENI-001",
+      "KP-GRA-NISONAETE-001"
+    ],
+    "tags": [
+      "目的",
+      "目标",
+      "方向"
+    ],
+    "examFrequency": 4,
+    "sourceNotes": "common_n2_material / ai_structured; original examples; pending point-level source verification",
+    "status": "draft"
+  },
+  {
+    "knowledgePointId": "KP-GRA-NISONAETE-001",
+    "level": "N2",
+    "category": "grammar",
+    "title": "～に備えて",
+    "reading": "にそなえて",
+    "meaning": "为……做准备",
+    "structure": "N＋に備えて／に備えた＋N",
+    "usage": "针对将来可能发生的情况预先准备。",
+    "formality": "both",
+    "examples": [
+      "地震に備えて、水を用意している。",
+      "試験に備えて、早めに復習を始めた。"
+    ],
+    "confusablePointIds": [],
+    "relatedPointIds": [
+      "KP-GRA-NIMUKETE-001"
+    ],
+    "tags": [
+      "目的",
+      "准备",
+      "目的"
+    ],
+    "examFrequency": 4,
+    "sourceNotes": "common_n2_material / ai_structured; original examples; pending point-level source verification",
+    "status": "draft"
+  },
+  {
+    "knowledgePointId": "KP-GRA-NITOMONATTE-001",
+    "level": "N2",
+    "category": "grammar",
+    "title": "～に伴って",
+    "reading": "にともなって",
+    "meaning": "伴随着……",
+    "structure": "N／V辞书形＋に伴って／に伴い",
+    "usage": "表示一个变化或事件伴随另一个变化发生。",
+    "formality": "written",
+    "examples": [
+      "人口の増加に伴って、住宅が不足してきた。",
+      "制度の変更に伴い、手続きも変わります。"
+    ],
+    "confusablePointIds": [
+      "KP-GRA-NITSURETE-001",
+      "KP-GRA-TOTOMONI-001"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-NITSURETE-001",
+      "KP-GRA-TOTOMONI-001"
+    ],
+    "tags": [
+      "变化/结果",
+      "伴随变化"
+    ],
+    "examFrequency": 5,
+    "sourceNotes": "trusted_learning_site cross-check: JLPT Sensei N2 Grammar List + JapaneseTest4You N2 Grammar List; structured fields and original examples reviewed; not official JLPT certification",
+    "status": "verified"
+  },
+  {
+    "knowledgePointId": "KP-GRA-NITSURETE-001",
+    "level": "N2",
+    "category": "grammar",
+    "title": "～につれて",
+    "reading": "につれて",
+    "meaning": "随着……逐渐……",
+    "structure": "N／V辞书形＋につれて",
+    "usage": "表示前项连续变化时，后项也自然变化。",
+    "formality": "both",
+    "examples": [
+      "年を取るにつれて、健康が気になってきた。",
+      "気温が上がるにつれて、雪が溶けていく。"
+    ],
+    "confusablePointIds": [
+      "KP-GRA-NITOMONATTE-001",
+      "KP-GRA-NISHITAGATTE-001"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-NITOMONATTE-001",
+      "KP-GRA-NISHITAGATTE-001",
+      "KP-GRA-BAKARIDA-001"
+    ],
+    "tags": [
+      "变化/结果",
+      "同步变化"
+    ],
+    "examFrequency": 5,
+    "sourceNotes": "common_n2_material / ai_structured; original examples; pending point-level source verification",
+    "status": "draft"
+  },
+  {
+    "knowledgePointId": "KP-GRA-NISHITAGATTE-001",
+    "level": "N2",
+    "category": "grammar",
+    "title": "～に従って",
+    "reading": "にしたがって",
+    "meaning": "随着……；按照……",
+    "structure": "N／V辞书形＋に従って",
+    "usage": "表示随趋势变化，或遵照规则行动。",
+    "formality": "written",
+    "examples": [
+      "技術が進歩するに従って、生活も変わった。",
+      "説明書に従って、機械を操作してください。"
+    ],
+    "confusablePointIds": [
+      "KP-GRA-NITSURETE-001"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-NITSURETE-001"
+    ],
+    "tags": [
+      "变化/结果",
+      "变化",
+      "依据"
+    ],
+    "examFrequency": 5,
+    "sourceNotes": "common_n2_material / ai_structured; original examples; pending point-level source verification",
+    "status": "draft"
+  },
+  {
+    "knowledgePointId": "KP-GRA-TOTOMONI-001",
+    "level": "N2",
+    "category": "grammar",
+    "title": "～とともに",
+    "reading": "とともに",
+    "meaning": "与……同时；随着……",
+    "structure": "N／V辞书形＋とともに",
+    "usage": "表示共同发生、共同主体或同步变化。",
+    "formality": "written",
+    "examples": [
+      "町の発展とともに、人口も増えた。",
+      "家族とともに、新しい町へ引っ越した。"
+    ],
+    "confusablePointIds": [
+      "KP-GRA-NITOMONATTE-001"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-NITOMONATTE-001"
+    ],
+    "tags": [
+      "变化/结果",
+      "同时",
+      "伴随"
+    ],
+    "examFrequency": 4,
+    "sourceNotes": "common_n2_material / ai_structured; original examples; pending point-level source verification",
+    "status": "draft"
+  },
+  {
+    "knowledgePointId": "KP-GRA-YOUNINARU-001",
+    "level": "N2",
+    "category": "grammar",
+    "title": "～ようになる",
+    "reading": "ようになる",
+    "meaning": "变得能够……；开始……",
+    "structure": "V辞书形／ない形＋ようになる",
+    "usage": "表示能力、习惯或状态经过变化后成立。",
+    "formality": "both",
+    "examples": [
+      "毎日練習して、速く読めるようになった。",
+      "最近は甘い物を食べないようになった。"
+    ],
+    "confusablePointIds": [],
+    "relatedPointIds": [
+      "KP-GRA-KOTONISURU-001"
+    ],
+    "tags": [
+      "变化/结果",
+      "状态变化"
+    ],
+    "examFrequency": 5,
+    "sourceNotes": "common_n2_material / ai_structured; original examples; pending point-level source verification",
+    "status": "draft"
+  },
+  {
+    "knowledgePointId": "KP-GRA-KOTONINARU-001",
+    "level": "N2",
+    "category": "grammar",
+    "title": "～ことになる",
+    "reading": "ことになる",
+    "meaning": "决定……；结果是……",
+    "structure": "V辞书形／ない形＋ことになる",
+    "usage": "表示外部决定、规则或逻辑推导出的结果。",
+    "formality": "both",
+    "examples": [
+      "来月から大阪で働くことになった。",
+      "規則では、再提出することになります。"
+    ],
+    "confusablePointIds": [
+      "KP-GRA-KOTONISURU-001"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-KOTONISURU-001"
+    ],
+    "tags": [
+      "变化/结果",
+      "外部决定",
+      "结果"
+    ],
+    "examFrequency": 5,
+    "sourceNotes": "common_n2_material / ai_structured; original examples; pending point-level source verification",
+    "status": "draft"
+  },
+  {
+    "knowledgePointId": "KP-GRA-KOTONISURU-001",
+    "level": "N2",
+    "category": "grammar",
+    "title": "～ことにする",
+    "reading": "ことにする",
+    "meaning": "决定……",
+    "structure": "V辞书形／ない形＋ことにする",
+    "usage": "表示说话人主动做出决定，也可表示习惯性规定。",
+    "formality": "both",
+    "examples": [
+      "今年は海外旅行をしないことにした。",
+      "毎朝三十分歩くことにしています。"
+    ],
+    "confusablePointIds": [
+      "KP-GRA-KOTONINARU-001"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-YOUNINARU-001",
+      "KP-GRA-KOTONINARU-001"
+    ],
+    "tags": [
+      "变化/结果",
+      "主动决定"
+    ],
+    "examFrequency": 5,
+    "sourceNotes": "common_n2_material / ai_structured; original examples; pending point-level source verification",
+    "status": "draft"
+  },
+  {
+    "knowledgePointId": "KP-GRA-BAKARIDA-001",
+    "level": "N2",
+    "category": "grammar",
+    "title": "～ばかりだ",
+    "reading": "ばかりだ",
+    "meaning": "一直……；越来越……",
+    "structure": "V辞书形＋ばかりだ",
+    "usage": "表示变化持续朝某一方向发展，常用于不理想趋势。",
+    "formality": "both",
+    "examples": [
+      "物価は上がるばかりだ。",
+      "状況は悪くなるばかりで、改善が見えない。"
+    ],
+    "confusablePointIds": [],
+    "relatedPointIds": [
+      "KP-GRA-NITSURETE-001"
+    ],
+    "tags": [
+      "变化/结果",
+      "持续变化"
+    ],
+    "examFrequency": 4,
+    "sourceNotes": "trusted_learning_site cross-check: JLPT Sensei N2 Grammar List + JapaneseTest4You N2 Grammar List; structured fields and original examples reviewed; not official JLPT certification",
+    "status": "verified"
+  },
+  {
+    "knowledgePointId": "KP-GRA-ZARUOENAI-001",
+    "level": "N2",
+    "category": "grammar",
+    "title": "～ざるを得ない",
+    "reading": "ざるをえない",
+    "meaning": "不得不……",
+    "structure": "Vない形去ない＋ざるを得ない（する→せざるを得ない）",
+    "usage": "表示虽不情愿，但受客观情况所迫必须行动。",
+    "formality": "written",
+    "examples": [
+      "終電がないので、タクシーを使わざるを得ない。",
+      "規則違反のため、計画を中止せざるを得なかった。"
+    ],
+    "confusablePointIds": [
+      "KP-GRA-SHIKANAI-001",
+      "KP-GRA-NAIWAKENIHAIKANAI-001"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-SHIKANAI-001",
+      "KP-GRA-NAIWAKENIHAIKANAI-001"
+    ],
+    "tags": [
+      "禁止/义务",
+      "不得已",
+      "正式"
+    ],
+    "examFrequency": 5,
+    "sourceNotes": "trusted_learning_site cross-check: JLPT Sensei N2 Grammar List + JapaneseTest4You N2 Grammar List; structured fields and original examples reviewed; not official JLPT certification",
+    "status": "verified"
+  },
+  {
+    "knowledgePointId": "KP-GRA-NAIWAKENIHAIKANAI-001",
+    "level": "N2",
+    "category": "grammar",
+    "title": "～ないわけにはいかない",
+    "reading": "ないわけにはいかない",
+    "meaning": "不能不……；必须……",
+    "structure": "Vない形＋わけにはいかない",
+    "usage": "因责任、常识或社会立场而不能选择不做。",
+    "formality": "both",
+    "examples": [
+      "世話になった人の頼みを断らないわけにはいかない。",
+      "明日は試験だから、勉強しないわけにはいかない。"
+    ],
+    "confusablePointIds": [
+      "KP-GRA-ZARUOENAI-001"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-ZARUOENAI-001"
+    ],
+    "tags": [
+      "禁止/义务",
+      "义务",
+      "社会责任"
+    ],
+    "examFrequency": 5,
+    "sourceNotes": "common_n2_material / ai_structured; original examples; pending point-level source verification",
+    "status": "draft"
+  },
+  {
+    "knowledgePointId": "KP-GRA-BEKIDA-001",
+    "level": "N2",
+    "category": "grammar",
+    "title": "～べきだ",
+    "reading": "べきだ",
+    "meaning": "应该……",
+    "structure": "V辞书形＋べきだ（する→するべき／すべき）",
+    "usage": "根据道德、常识或责任提出强建议。",
+    "formality": "both",
+    "examples": [
+      "約束は守るべきだ。",
+      "問題があれば、早めに相談すべきです。"
+    ],
+    "confusablePointIds": [],
+    "relatedPointIds": [
+      "KP-GRA-IJOUWA-001",
+      "KP-GRA-BEKIDEWANAI-001",
+      "KP-GRA-KOTODA-001"
+    ],
+    "tags": [
+      "禁止/义务",
+      "义务",
+      "建议"
+    ],
+    "examFrequency": 5,
+    "sourceNotes": "common_n2_material / ai_structured; original examples; pending point-level source verification",
+    "status": "draft"
+  },
+  {
+    "knowledgePointId": "KP-GRA-BEKIDEWANAI-001",
+    "level": "N2",
+    "category": "grammar",
+    "title": "～べきではない",
+    "reading": "べきではない",
+    "meaning": "不应该……",
+    "structure": "V辞书形＋べきではない",
+    "usage": "从道德、常识或责任角度提出禁止性建议。",
+    "formality": "both",
+    "examples": [
+      "人を外見だけで判断するべきではない。",
+      "無理をしてまで続けるべきではない。"
+    ],
+    "confusablePointIds": [],
+    "relatedPointIds": [
+      "KP-GRA-BEKIDA-001",
+      "KP-GRA-KOTOWANAI-001",
+      "KP-GRA-TEWANARANAI-001"
+    ],
+    "tags": [
+      "禁止/义务",
+      "禁止",
+      "建议"
+    ],
+    "examFrequency": 4,
+    "sourceNotes": "common_n2_material / ai_structured; original examples; pending point-level source verification",
+    "status": "draft"
+  },
+  {
+    "knowledgePointId": "KP-GRA-KOTODA-001",
+    "level": "N2",
+    "category": "grammar",
+    "title": "～ことだ",
+    "reading": "ことだ",
+    "meaning": "应该……；最好……",
+    "structure": "V辞书形／ない形＋ことだ",
+    "usage": "对具体对象提出忠告或建议，语气比命令缓和。",
+    "formality": "both",
+    "examples": [
+      "健康のためには、よく眠ることだ。",
+      "失敗しても、あきらめないことです。"
+    ],
+    "confusablePointIds": [],
+    "relatedPointIds": [
+      "KP-GRA-BEKIDA-001"
+    ],
+    "tags": [
+      "禁止/义务",
+      "忠告"
+    ],
+    "examFrequency": 4,
+    "sourceNotes": "trusted_learning_site cross-check: JLPT Sensei N2 Grammar List + JapaneseTest4You N2 Grammar List; structured fields and original examples reviewed; not official JLPT certification",
+    "status": "verified"
+  },
+  {
+    "knowledgePointId": "KP-GRA-KOTOWANAI-001",
+    "level": "N2",
+    "category": "grammar",
+    "title": "～ことはない",
+    "reading": "ことはない",
+    "meaning": "没必要……",
+    "structure": "V辞书形＋ことはない",
+    "usage": "表示没有必要采取某个行动，用于安慰或建议。",
+    "formality": "both",
+    "examples": [
+      "まだ時間があるから、急ぐことはない。",
+      "一度の失敗で落ち込むことはありません。"
+    ],
+    "confusablePointIds": [],
+    "relatedPointIds": [
+      "KP-GRA-BEKIDEWANAI-001"
+    ],
+    "tags": [
+      "禁止/义务",
+      "不必要"
+    ],
+    "examFrequency": 4,
+    "sourceNotes": "common_n2_material / ai_structured; original examples; pending point-level source verification",
+    "status": "draft"
+  },
+  {
+    "knowledgePointId": "KP-GRA-TEWANARANAI-001",
+    "level": "N2",
+    "category": "grammar",
+    "title": "～てはならない",
+    "reading": "てはならない",
+    "meaning": "不得……",
+    "structure": "Vて形＋はならない",
+    "usage": "正式表达规则、道德或制度上的禁止。",
+    "formality": "written",
+    "examples": [
+      "許可なく資料を持ち出してはならない。",
+      "同じ誤りを繰り返してはならない。"
+    ],
+    "confusablePointIds": [],
+    "relatedPointIds": [
+      "KP-GRA-BEKIDEWANAI-001",
+      "KP-GRA-KOTONINATTEIRU-001"
+    ],
+    "tags": [
+      "禁止/义务",
+      "禁止",
+      "正式"
+    ],
+    "examFrequency": 4,
+    "sourceNotes": "trusted_learning_site cross-check: JLPT Sensei N2 Grammar List + JapaneseTest4You N2 Grammar List; structured fields and original examples reviewed; not official JLPT certification",
+    "status": "verified"
+  },
+  {
+    "knowledgePointId": "KP-GRA-KOTONINATTEIRU-001",
+    "level": "N2",
+    "category": "grammar",
+    "title": "～ことになっている",
+    "reading": "ことになっている",
+    "meaning": "规定……；按计划……",
+    "structure": "V辞书形／ない形＋ことになっている",
+    "usage": "表示社会规定、组织安排或既定计划。",
+    "formality": "both",
+    "examples": [
+      "この建物では、入口で受付をすることになっている。",
+      "会議は毎月第一月曜日に開くことになっています。"
+    ],
+    "confusablePointIds": [],
+    "relatedPointIds": [
+      "KP-GRA-TEWANARANAI-001"
+    ],
+    "tags": [
+      "禁止/义务",
+      "规则",
+      "安排"
+    ],
+    "examFrequency": 5,
+    "sourceNotes": "common_n2_material / ai_structured; original examples; pending point-level source verification",
+    "status": "draft"
+  },
+  {
+    "knowledgePointId": "KP-GRA-HODO-001",
+    "level": "N2",
+    "category": "grammar",
+    "title": "～ほど",
+    "reading": "ほど",
+    "meaning": "达到……程度；越……越……",
+    "structure": "N／普通形＋ほど；～ば～ほど",
+    "usage": "表示程度、比较基准或随条件增强的变化。",
+    "formality": "both",
+    "examples": [
+      "立っていられないほど疲れた。",
+      "練習すればするほど上手になる。"
+    ],
+    "confusablePointIds": [
+      "KP-GRA-KURAI-001"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-KURAI-001"
+    ],
+    "tags": [
+      "比较/程度",
+      "程度",
+      "比例"
+    ],
+    "examFrequency": 5,
+    "sourceNotes": "common_n2_material / ai_structured; original examples; pending point-level source verification",
+    "status": "draft"
+  },
+  {
+    "knowledgePointId": "KP-GRA-KURAI-001",
+    "level": "N2",
+    "category": "grammar",
+    "title": "～くらい／ぐらい",
+    "reading": "くらい",
+    "meaning": "大约；达到……程度",
+    "structure": "N／普通形＋くらい",
+    "usage": "表示大概数量，或举例说明程度。",
+    "formality": "both",
+    "examples": [
+      "駅まで十分くらいかかります。",
+      "声が出ないくらい緊張した。"
+    ],
+    "confusablePointIds": [
+      "KP-GRA-HODO-001"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-HODO-001"
+    ],
+    "tags": [
+      "比较/程度",
+      "程度",
+      "概数"
+    ],
+    "examFrequency": 4,
+    "sourceNotes": "common_n2_material / ai_structured; original examples; pending point-level source verification",
+    "status": "draft"
+  },
+  {
+    "knowledgePointId": "KP-GRA-NIKURABETE-001",
+    "level": "N2",
+    "category": "grammar",
+    "title": "～に比べて",
+    "reading": "にくらべて",
+    "meaning": "与……相比",
+    "structure": "N＋に比べて／に比べると",
+    "usage": "以某对象为基准比较差异。",
+    "formality": "both",
+    "examples": [
+      "去年に比べて、今年は雨が少ない。",
+      "都会に比べると、この町は静かだ。"
+    ],
+    "confusablePointIds": [
+      "KP-GRA-NITAISHITE-001"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-NITAISHITE-001"
+    ],
+    "tags": [
+      "比较/程度",
+      "比较"
+    ],
+    "examFrequency": 5,
+    "sourceNotes": "common_n2_material / ai_structured; original examples; pending point-level source verification",
+    "status": "draft"
+  },
+  {
+    "knowledgePointId": "KP-GRA-NITAISHITE-001",
+    "level": "N2",
+    "category": "grammar",
+    "title": "～に対して",
+    "reading": "にたいして",
+    "meaning": "相对于……；针对……",
+    "structure": "N＋に対して／に対する＋N",
+    "usage": "表示对象，或把两种性质对照。",
+    "formality": "written",
+    "examples": [
+      "兄が活発なのに対して、弟はおとなしい。",
+      "質問に対して、丁寧に答えた。"
+    ],
+    "confusablePointIds": [
+      "KP-GRA-NIKURABETE-001"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-NIKURABETE-001"
+    ],
+    "tags": [
+      "比较/程度",
+      "对比",
+      "对象"
+    ],
+    "examFrequency": 5,
+    "sourceNotes": "common_n2_material / ai_structured; original examples; pending point-level source verification",
+    "status": "draft"
+  },
+  {
+    "knowledgePointId": "KP-GRA-WARINI-001",
+    "level": "N2",
+    "category": "grammar",
+    "title": "～わりに",
+    "reading": "わりに",
+    "meaning": "虽然……但出乎比例地……",
+    "structure": "普通形＋わりに（ナAな／Nの＋わりに）",
+    "usage": "表示结果与根据前项形成的标准不相称。",
+    "formality": "both",
+    "examples": [
+      "この店は安いわりに、料理がおいしい。",
+      "彼は経験が少ないわりに、仕事が速い。"
+    ],
+    "confusablePointIds": [
+      "KP-GRA-NISHITEWA-001"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-NISHITEWA-001"
+    ],
+    "tags": [
+      "比较/程度",
+      "不相称"
+    ],
+    "examFrequency": 4,
+    "sourceNotes": "common_n2_material / ai_structured; original examples; pending point-level source verification",
+    "status": "draft"
+  },
+  {
+    "knowledgePointId": "KP-GRA-NISHITEWA-001",
+    "level": "N2",
+    "category": "grammar",
+    "title": "～にしては",
+    "reading": "にしては",
+    "meaning": "以……来说却……",
+    "structure": "普通形／N＋にしては",
+    "usage": "根据前项身份、阶段或条件评价后项超出预想。",
+    "formality": "both",
+    "examples": [
+      "初めてにしては、よくできました。",
+      "子どもにしては、難しい本を読んでいる。"
+    ],
+    "confusablePointIds": [
+      "KP-GRA-WARINI-001"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-WARINI-001"
+    ],
+    "tags": [
+      "比较/程度",
+      "评价",
+      "不相称"
+    ],
+    "examFrequency": 4,
+    "sourceNotes": "common_n2_material / ai_structured; original examples; pending point-level source verification",
+    "status": "draft"
+  },
+  {
+    "knowledgePointId": "KP-GRA-DOKORODEWANAI-001",
+    "level": "N2",
+    "category": "grammar",
+    "title": "～どころではない",
+    "reading": "どころではない",
+    "meaning": "根本不是……的时候；谈不上……",
+    "structure": "V辞书形／N＋どころではない",
+    "usage": "表示因紧急情况或程度严重，无法进行前项。",
+    "formality": "both",
+    "examples": [
+      "仕事が忙しくて、旅行どころではない。",
+      "痛みがひどくて、歩くどころではなかった。"
+    ],
+    "confusablePointIds": [
+      "KP-GRA-DOKOROKA-001"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-DOKOROKA-001"
+    ],
+    "tags": [
+      "比较/程度",
+      "程度",
+      "否定"
+    ],
+    "examFrequency": 4,
+    "sourceNotes": "trusted_learning_site cross-check: JLPT Sensei N2 Grammar List + JapaneseTest4You N2 Grammar List; structured fields and original examples reviewed; not official JLPT certification",
+    "status": "verified"
+  },
+  {
+    "knowledgePointId": "KP-GRA-UCHINI-001",
+    "level": "N2",
+    "category": "grammar",
+    "title": "～うちに",
+    "reading": "うちに",
+    "meaning": "趁着……；在……过程中",
+    "structure": "V辞书形／ている／ない形・イAい・ナAな・Nの＋うちに",
+    "usage": "表示状态改变前完成动作，或过程中自然发生变化。",
+    "formality": "both",
+    "examples": [
+      "温かいうちに、どうぞ食べてください。",
+      "日本にいるうちに、各地を旅行したい。"
+    ],
+    "confusablePointIds": [],
+    "relatedPointIds": [
+      "KP-GRA-TEIRAI-001"
+    ],
+    "tags": [
+      "时间关系",
+      "期间",
+      "时机"
+    ],
+    "examFrequency": 5,
+    "sourceNotes": "common_n2_material / ai_structured; original examples; pending point-level source verification",
+    "status": "draft"
+  },
+  {
+    "knowledgePointId": "KP-GRA-SAICHUUNI-001",
+    "level": "N2",
+    "category": "grammar",
+    "title": "～最中に",
+    "reading": "さいちゅうに",
+    "meaning": "正在……的时候",
+    "structure": "Vている／Nの＋最中に",
+    "usage": "强调动作正处于最紧要或进行中的时刻。",
+    "formality": "both",
+    "examples": [
+      "会議の最中に、電話が鳴った。",
+      "食事をしている最中に、客が来た。"
+    ],
+    "confusablePointIds": [
+      "KP-GRA-TOKORONI-001"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-TOKORONI-001"
+    ],
+    "tags": [
+      "时间关系",
+      "进行中"
+    ],
+    "examFrequency": 4,
+    "sourceNotes": "common_n2_material / ai_structured; original examples; pending point-level source verification",
+    "status": "draft"
+  },
+  {
+    "knowledgePointId": "KP-GRA-TABINI-001",
+    "level": "N2",
+    "category": "grammar",
+    "title": "～たびに",
+    "reading": "たびに",
+    "meaning": "每当……就……",
+    "structure": "V辞书形／Nの＋たびに",
+    "usage": "表示每次前项发生，后项也反复发生。",
+    "formality": "both",
+    "examples": [
+      "この写真を見るたびに、旅行を思い出す。",
+      "出張のたびに、家族へ土産を買う。"
+    ],
+    "confusablePointIds": [],
+    "relatedPointIds": [
+      "KP-GRA-KAGIRI-001"
+    ],
+    "tags": [
+      "时间关系",
+      "反复"
+    ],
+    "examFrequency": 5,
+    "sourceNotes": "common_n2_material / ai_structured; original examples; pending point-level source verification",
+    "status": "draft"
+  },
+  {
+    "knowledgePointId": "KP-GRA-TOKORONI-001",
+    "level": "N2",
+    "category": "grammar",
+    "title": "～ところに／へ／を",
+    "reading": "ところに",
+    "meaning": "正当……时；在……场合",
+    "structure": "V辞书形／ている／た形＋ところに・へ・を",
+    "usage": "表示某动作阶段恰好出现另一事件，助词由后项决定。",
+    "formality": "both",
+    "examples": [
+      "出かけようとしたところに、友人が来た。",
+      "困っているところを、先生に助けてもらった。"
+    ],
+    "confusablePointIds": [
+      "KP-GRA-SAICHUUNI-001"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-SAICHUUNI-001"
+    ],
+    "tags": [
+      "时间关系",
+      "时点"
+    ],
+    "examFrequency": 4,
+    "sourceNotes": "trusted_learning_site cross-check: JLPT Sensei N2 Grammar List + JapaneseTest4You N2 Grammar List; structured fields and original examples reviewed; not official JLPT certification",
+    "status": "verified"
+  },
+  {
+    "knowledgePointId": "KP-GRA-TEIRAI-001",
+    "level": "N2",
+    "category": "grammar",
+    "title": "～て以来",
+    "reading": "ていらい",
+    "meaning": "自从……以来",
+    "structure": "Vて形＋以来",
+    "usage": "表示从过去某时点开始，状态持续到现在。",
+    "formality": "written",
+    "examples": [
+      "日本に来て以来、毎日日記を書いている。",
+      "彼とは卒業して以来、会っていない。"
+    ],
+    "confusablePointIds": [],
+    "relatedPointIds": [
+      "KP-GRA-UCHINI-001"
+    ],
+    "tags": [
+      "时间关系",
+      "起点",
+      "持续"
+    ],
+    "examFrequency": 5,
+    "sourceNotes": "trusted_learning_site cross-check: JLPT Sensei N2 Grammar List + JapaneseTest4You N2 Grammar List; structured fields and original examples reviewed; not official JLPT certification",
+    "status": "verified"
+  },
+  {
+    "knowledgePointId": "KP-GRA-NISAKIDATTE-001",
+    "level": "N2",
+    "category": "grammar",
+    "title": "～に先立って",
+    "reading": "にさきだって",
+    "meaning": "在……之前",
+    "structure": "N／V辞书形＋に先立って／に先立ち",
+    "usage": "表示在重要事件前先进行准备，较正式。",
+    "formality": "written",
+    "examples": [
+      "開会に先立って、会長が挨拶した。",
+      "工事を始めるに先立ち、住民へ説明を行った。"
+    ],
+    "confusablePointIds": [
+      "KP-GRA-NISAISHITE-001"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-NISAISHITE-001"
+    ],
+    "tags": [
+      "时间关系",
+      "先后",
+      "正式"
+    ],
+    "examFrequency": 4,
+    "sourceNotes": "trusted_learning_site cross-check: JLPT Sensei N2 Grammar List + JapaneseTest4You N2 Grammar List; structured fields and original examples reviewed; not official JLPT certification",
+    "status": "verified"
+  },
+  {
+    "knowledgePointId": "KP-GRA-NISAISHITE-001",
+    "level": "N2",
+    "category": "grammar",
+    "title": "～に際して",
+    "reading": "にさいして",
+    "meaning": "值此……之际；在……时",
+    "structure": "N／V辞书形＋に際して／に際し",
+    "usage": "用于特殊、正式场合，说明当时采取的行动。",
+    "formality": "written",
+    "examples": [
+      "入学に際して、必要な書類を提出した。",
+      "契約するに際し、条件を確認してください。"
+    ],
+    "confusablePointIds": [
+      "KP-GRA-NISAKIDATTE-001"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-NISAKIDATTE-001"
+    ],
+    "tags": [
+      "时间关系",
+      "时机",
+      "正式"
+    ],
+    "examFrequency": 4,
+    "sourceNotes": "trusted_learning_site cross-check: JLPT Sensei N2 Grammar List + JapaneseTest4You N2 Grammar List; structured fields and original examples reviewed; not official JLPT certification",
+    "status": "verified"
+  }
+]

@@ -2,451 +2,2721 @@
   {
     "questionId": "Q-N2-VOC-0001",
     "level": "N2",
-    "section": "language_knowledge",
+    "section": "vocabulary",
     "type": "vocabulary_collocation",
-    "typeLabel": "词汇・固定搭配",
+    "subType": "noun_verb_collocation",
     "prompt": "一度した約束は、最後まで（　　　）べきだ。",
-    "choices": { "A": "果たす", "B": "済ませる", "C": "終える", "D": "達する" },
+    "choices": {
+      "A": "果たす",
+      "B": "済ませる",
+      "C": "終える",
+      "D": "達する"
+    },
     "correctAnswer": "A",
-    "explanation": "「約束を果たす」是固定搭配，表示履行约定。",
-    "knowledgePointIds": ["KP-VOC-HATASU-001"],
-    "knowledgePointTitles": ["約束を果たす"],
+    "explanation": "知识点：約束を果たす（履行；完成）。正确答案：A。正确理由：「約束を果たす」是固定搭配，表示履行约定。 选项分析：A「果たす」：正确。「約束を果たす」是固定搭配，表示履行约定。 B「済ませる」：错误。「済ませる」不能与题干中的中心词构成本题所需的自然固定搭配；换成它会改变搭配关系或句意。 C「終える」：错误。「終える」不能与题干中的中心词构成本题所需的自然固定搭配；换成它会改变搭配关系或句意。 D「達する」：错误。「達する」不能与题干中的中心词构成本题所需的自然固定搭配；换成它会改变搭配关系或句意。 类似例句：約束を果たす。",
+    "knowledgePointIds": [
+      "KP-VOC-HATASU-001"
+    ],
+    "knowledgePointTitles": [
+      "約束を果たす"
+    ],
     "difficulty": 2,
-    "sourceType": "ai_generated"
+    "sourceType": "ai_generated",
+    "sourceName": "JLPT N2 AI Learning System",
+    "tags": [
+      "固定搭配",
+      "语境选择"
+    ],
+    "estimatedTime": 45,
+    "reviewWeight": 1,
+    "version": 2,
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T08:00:00.000Z"
   },
   {
     "questionId": "Q-N2-VOC-0002",
     "level": "N2",
-    "section": "language_knowledge",
+    "section": "vocabulary",
     "type": "vocabulary_collocation",
-    "typeLabel": "词汇・固定搭配",
+    "subType": "noun_verb_collocation",
     "prompt": "事故を起こした以上、その責任を（　　　）必要がある。",
-    "choices": { "A": "持つ", "B": "負う", "C": "受ける", "D": "引く" },
+    "choices": {
+      "A": "持つ",
+      "B": "負う",
+      "C": "受ける",
+      "D": "引く"
+    },
     "correctAnswer": "B",
-    "explanation": "「責任を負う」表示承担责任；此处是最自然、正式的搭配。",
-    "knowledgePointIds": ["KP-VOC-OU-001"],
-    "knowledgePointTitles": ["責任を負う"],
+    "explanation": "知识点：責任を負う（承担；背负）。正确答案：B。正确理由：「責任を負う」表示承担责任；此处是最自然、正式的搭配。 选项分析：A「持つ」：错误。「持つ」不能与题干中的中心词构成本题所需的自然固定搭配；换成它会改变搭配关系或句意。 B「負う」：正确。「責任を負う」表示承担责任；此处是最自然、正式的搭配。 C「受ける」：错误。「受ける」不能与题干中的中心词构成本题所需的自然固定搭配；换成它会改变搭配关系或句意。 D「引く」：错误。「引く」不能与题干中的中心词构成本题所需的自然固定搭配；换成它会改变搭配关系或句意。 类似例句：責任を負う。",
+    "knowledgePointIds": [
+      "KP-VOC-OU-001"
+    ],
+    "knowledgePointTitles": [
+      "責任を負う"
+    ],
     "difficulty": 2,
-    "sourceType": "ai_generated"
+    "sourceType": "ai_generated",
+    "sourceName": "JLPT N2 AI Learning System",
+    "tags": [
+      "固定搭配",
+      "语境选择"
+    ],
+    "estimatedTime": 45,
+    "reviewWeight": 1,
+    "version": 2,
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T08:00:00.000Z"
   },
   {
     "questionId": "Q-N2-VOC-0003",
     "level": "N2",
-    "section": "language_knowledge",
+    "section": "vocabulary",
     "type": "vocabulary_collocation",
-    "typeLabel": "词汇・固定搭配",
+    "subType": "noun_verb_collocation",
     "prompt": "環境問題にもっと関心を（　　　）ほしい。",
-    "choices": { "A": "近づけて", "B": "集めて", "C": "寄せて", "D": "合わせて" },
+    "choices": {
+      "A": "近づけて",
+      "B": "集めて",
+      "C": "寄せて",
+      "D": "合わせて"
+    },
     "correctAnswer": "C",
-    "explanation": "「関心を寄せる」表示对某事给予关注。",
-    "knowledgePointIds": ["KP-VOC-YOSERU-001"],
-    "knowledgePointTitles": ["関心を寄せる"],
+    "explanation": "知识点：関心を寄せる（寄予；给予）。正确答案：C。正确理由：「関心を寄せる」表示对某事给予关注。 选项分析：A「近づけて」：错误。「近づけて」不能与题干中的中心词构成本题所需的自然固定搭配；换成它会改变搭配关系或句意。 B「集めて」：错误。「集めて」不能与题干中的中心词构成本题所需的自然固定搭配；换成它会改变搭配关系或句意。 C「寄せて」：正确。「関心を寄せる」表示对某事给予关注。 D「合わせて」：错误。「合わせて」不能与题干中的中心词构成本题所需的自然固定搭配；换成它会改变搭配关系或句意。 类似例句：期待を寄せる。",
+    "knowledgePointIds": [
+      "KP-VOC-YOSERU-001"
+    ],
+    "knowledgePointTitles": [
+      "関心を寄せる"
+    ],
     "difficulty": 2,
-    "sourceType": "ai_generated"
+    "sourceType": "ai_generated",
+    "sourceName": "JLPT N2 AI Learning System",
+    "tags": [
+      "固定搭配",
+      "语境选择"
+    ],
+    "estimatedTime": 45,
+    "reviewWeight": 1,
+    "version": 2,
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T08:00:00.000Z"
   },
   {
     "questionId": "Q-N2-VOC-0004",
     "level": "N2",
-    "section": "language_knowledge",
+    "section": "vocabulary",
     "type": "vocabulary_collocation",
-    "typeLabel": "词汇・固定搭配",
+    "subType": "noun_verb_collocation",
     "prompt": "長時間の話し合いの末、ようやく結論に（　　　）。",
-    "choices": { "A": "届いた", "B": "着いた", "C": "及んだ", "D": "達した" },
+    "choices": {
+      "A": "届いた",
+      "B": "着いた",
+      "C": "及んだ",
+      "D": "達した"
+    },
     "correctAnswer": "D",
-    "explanation": "「結論に達する」表示经过思考或讨论后得出结论。",
-    "knowledgePointIds": ["KP-VOC-TASSURU-001"],
-    "knowledgePointTitles": ["結論に達する"],
+    "explanation": "知识点：結論に達する（达到；抵达）。正确答案：D。正确理由：「結論に達する」表示经过思考或讨论后得出结论。 选项分析：A「届いた」：错误。「届いた」不能与题干中的中心词构成本题所需的自然固定搭配；换成它会改变搭配关系或句意。 B「着いた」：错误。「着いた」不能与题干中的中心词构成本题所需的自然固定搭配；换成它会改变搭配关系或句意。 C「及んだ」：错误。「及んだ」不能与题干中的中心词构成本题所需的自然固定搭配；换成它会改变搭配关系或句意。 D「達した」：正确。「結論に達する」表示经过思考或讨论后得出结论。 类似例句：合意に達する。",
+    "knowledgePointIds": [
+      "KP-VOC-TASSURU-001"
+    ],
+    "knowledgePointTitles": [
+      "結論に達する"
+    ],
     "difficulty": 2,
-    "sourceType": "ai_generated"
+    "sourceType": "ai_generated",
+    "sourceName": "JLPT N2 AI Learning System",
+    "tags": [
+      "固定搭配",
+      "语境选择"
+    ],
+    "estimatedTime": 45,
+    "reviewWeight": 1,
+    "version": 2,
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T08:00:00.000Z"
   },
   {
     "questionId": "Q-N2-VOC-0005",
     "level": "N2",
-    "section": "language_knowledge",
+    "section": "vocabulary",
     "type": "vocabulary_collocation",
-    "typeLabel": "词汇・固定搭配",
+    "subType": "noun_verb_collocation",
     "prompt": "電車の遅れが業務に支障を（　　　）おそれがある。",
-    "choices": { "A": "起こす", "B": "きたす", "C": "生じる", "D": "届ける" },
+    "choices": {
+      "A": "起こす",
+      "B": "きたす",
+      "C": "生じる",
+      "D": "届ける"
+    },
     "correctAnswer": "B",
-    "explanation": "「支障をきたす」是固定搭配，表示给事情的正常进行带来障碍。",
-    "knowledgePointIds": ["KP-VOC-KITASU-001"],
-    "knowledgePointTitles": ["支障をきたす"],
+    "explanation": "知识点：支障をきたす（导致；招致）。正确答案：B。正确理由：「支障をきたす」是固定搭配，表示给事情的正常进行带来障碍。 选项分析：A「起こす」：错误。「起こす」不能与题干中的中心词构成本题所需的自然固定搭配；换成它会改变搭配关系或句意。 B「きたす」：正确。「支障をきたす」是固定搭配，表示给事情的正常进行带来障碍。 C「生じる」：错误。「生じる」不能与题干中的中心词构成本题所需的自然固定搭配；换成它会改变搭配关系或句意。 D「届ける」：错误。「届ける」不能与题干中的中心词构成本题所需的自然固定搭配；换成它会改变搭配关系或句意。 类似例句：支障をきたす。",
+    "knowledgePointIds": [
+      "KP-VOC-KITASU-001"
+    ],
+    "knowledgePointTitles": [
+      "支障をきたす"
+    ],
     "difficulty": 3,
-    "sourceType": "ai_generated"
+    "sourceType": "ai_generated",
+    "sourceName": "JLPT N2 AI Learning System",
+    "tags": [
+      "固定搭配",
+      "语境选择"
+    ],
+    "estimatedTime": 45,
+    "reviewWeight": 1,
+    "version": 2,
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T08:00:00.000Z"
   },
   {
     "questionId": "Q-N2-ADV-0001",
     "level": "N2",
-    "section": "language_knowledge",
+    "section": "vocabulary",
     "type": "adverb",
-    "typeLabel": "词汇・副词",
+    "subType": "adverb_sentence_completion",
     "prompt": "会議の資料は（　　　）メールでお送りしますので、目を通しておいてください。",
-    "choices": { "A": "あらかじめ", "B": "いきなり", "C": "たちまち", "D": "わざわざ" },
+    "choices": {
+      "A": "あらかじめ",
+      "B": "いきなり",
+      "C": "たちまち",
+      "D": "わざわざ"
+    },
     "correctAnswer": "A",
-    "explanation": "「あらかじめ」表示事先、预先，与「目を通しておく」呼应。",
-    "knowledgePointIds": ["KP-ADV-ARAKAJIME-001"],
-    "knowledgePointTitles": ["あらかじめ"],
+    "explanation": "知识点：あらかじめ（预先；事先）。正确答案：A。正确理由：「あらかじめ」表示事先、预先，与「目を通しておく」呼应。 选项分析：A「あらかじめ」：正确。「あらかじめ」表示事先、预先，与「目を通しておく」呼应。 B「いきなり」：错误。「いきなり」表示“毫无铺垫地突然发生”，与本句时间、程度或语气条件不一致。 C「たちまち」：错误。「たちまち」表示“在很短时间内迅速变化”，与本句时间、程度或语气条件不一致。 D「わざわざ」：错误。「わざわざ」表示“特意花费时间或精力”，与本句时间、程度或语气条件不一致。 类似例句：あらかじめ連絡する。",
+    "knowledgePointIds": [
+      "KP-ADV-ARAKAJIME-001"
+    ],
+    "knowledgePointTitles": [
+      "あらかじめ"
+    ],
     "difficulty": 2,
-    "sourceType": "ai_generated"
+    "sourceType": "ai_generated",
+    "sourceName": "JLPT N2 AI Learning System",
+    "tags": [
+      "副词",
+      "语境选择"
+    ],
+    "estimatedTime": 45,
+    "reviewWeight": 1,
+    "version": 2,
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T08:00:00.000Z"
   },
   {
     "questionId": "Q-N2-ADV-0002",
     "level": "N2",
-    "section": "language_knowledge",
+    "section": "vocabulary",
     "type": "adverb",
-    "typeLabel": "词汇・副词",
+    "subType": "adverb_sentence_completion",
     "prompt": "朝から鳥が（　　　）鳴いている。何かあったのだろうか。",
-    "choices": { "A": "ぐっすり", "B": "しきりに", "C": "うっかり", "D": "すっきり" },
+    "choices": {
+      "A": "ぐっすり",
+      "B": "しきりに",
+      "C": "うっかり",
+      "D": "すっきり"
+    },
     "correctAnswer": "B",
-    "explanation": "「しきりに」表示某动作频繁、反复地发生。",
-    "knowledgePointIds": ["KP-ADV-SHIKIRINI-001"],
-    "knowledgePointTitles": ["しきりに"],
+    "explanation": "知识点：しきりに（频繁地；不断地）。正确答案：B。正确理由：「しきりに」表示某动作频繁、反复地发生。 选项分析：A「ぐっすり」：错误。「ぐっすり」表示“熟睡的状态”，与本句时间、程度或语气条件不一致。 B「しきりに」：正确。「しきりに」表示某动作频繁、反复地发生。 C「うっかり」：错误。「うっかり」表示“因疏忽而不小心”，与本句时间、程度或语气条件不一致。 D「すっきり」：错误。「すっきり」表示“清爽、彻底且没有残留”，与本句时间、程度或语气条件不一致。 类似例句：しきりに時計を見る。",
+    "knowledgePointIds": [
+      "KP-ADV-SHIKIRINI-001"
+    ],
+    "knowledgePointTitles": [
+      "しきりに"
+    ],
     "difficulty": 2,
-    "sourceType": "ai_generated"
+    "sourceType": "ai_generated",
+    "sourceName": "JLPT N2 AI Learning System",
+    "tags": [
+      "副词",
+      "语境选择"
+    ],
+    "estimatedTime": 45,
+    "reviewWeight": 1,
+    "version": 2,
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T08:00:00.000Z"
   },
   {
     "questionId": "Q-N2-ADV-0003",
     "level": "N2",
-    "section": "language_knowledge",
+    "section": "vocabulary",
     "type": "adverb",
-    "typeLabel": "词汇・副词",
+    "subType": "adverb_sentence_completion",
     "prompt": "昨日は忙しくて、昼ご飯も（　　　）食べられなかった。",
-    "choices": { "A": "ろくに", "B": "めったに", "C": "むやみに", "D": "とうとう" },
+    "choices": {
+      "A": "ろくに",
+      "B": "めったに",
+      "C": "むやみに",
+      "D": "とうとう"
+    },
     "correctAnswer": "A",
-    "explanation": "「ろくに～ない」表示没有充分地、像样地做某事。",
-    "knowledgePointIds": ["KP-ADV-ROKUNI-001"],
-    "knowledgePointTitles": ["ろくに～ない"],
+    "explanation": "知识点：ろくに～ない（充分地（常接否定））。正确答案：A。正确理由：「ろくに～ない」表示没有充分地、像样地做某事。 选项分析：A「ろくに」：正确。「ろくに～ない」表示没有充分地、像样地做某事。 B「めったに」：错误。「めったに」表示“与否定呼应，表示极少发生”，与本句时间、程度或语气条件不一致。 C「むやみに」：错误。「むやみに」表示“没有充分考虑而随便或过度地”，与本句时间、程度或语气条件不一致。 D「とうとう」：错误。「とうとう」表示“经过过程后终于出现结果”，与本句时间、程度或语气条件不一致。 类似例句：ろくに寝ていない。",
+    "knowledgePointIds": [
+      "KP-ADV-ROKUNI-001"
+    ],
+    "knowledgePointTitles": [
+      "ろくに～ない"
+    ],
     "difficulty": 2,
-    "sourceType": "ai_generated"
+    "sourceType": "ai_generated",
+    "sourceName": "JLPT N2 AI Learning System",
+    "tags": [
+      "副词",
+      "语境选择"
+    ],
+    "estimatedTime": 45,
+    "reviewWeight": 1,
+    "version": 2,
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T08:00:00.000Z"
   },
   {
     "questionId": "Q-N2-ADV-0004",
     "level": "N2",
-    "section": "language_knowledge",
+    "section": "vocabulary",
     "type": "adverb",
-    "typeLabel": "词汇・副词",
+    "subType": "adverb_sentence_completion",
     "prompt": "新しい駅ができれば、この町は（　　　）便利になるだろう。",
-    "choices": { "A": "いっそう", "B": "一応", "C": "相当", "D": "少々" },
+    "choices": {
+      "A": "いっそう",
+      "B": "一応",
+      "C": "相当",
+      "D": "少々"
+    },
     "correctAnswer": "A",
-    "explanation": "「いっそう」表示程度比现在更进一步，相当于“更加”。",
-    "knowledgePointIds": ["KP-ADV-ISSO-001"],
-    "knowledgePointTitles": ["いっそう"],
+    "explanation": "知识点：いっそう（更加；越发）。正确答案：A。正确理由：「いっそう」表示程度比现在更进一步，相当于“更加”。 选项分析：A「いっそう」：正确。「いっそう」表示程度比现在更进一步，相当于“更加”。 B「一応」：错误。「一応」表示“姑且、暂且达到最低程度”，与本句时间、程度或语气条件不一致。 C「相当」：错误。「相当」表示“程度相当高”，与本句时间、程度或语气条件不一致。 D「少々」：错误。「少々」表示“数量或程度少许”，与本句时间、程度或语气条件不一致。 类似例句：いっそう便利になる。",
+    "knowledgePointIds": [
+      "KP-ADV-ISSO-001"
+    ],
+    "knowledgePointTitles": [
+      "いっそう"
+    ],
     "difficulty": 2,
-    "sourceType": "ai_generated"
+    "sourceType": "ai_generated",
+    "sourceName": "JLPT N2 AI Learning System",
+    "tags": [
+      "副词",
+      "语境选择"
+    ],
+    "estimatedTime": 45,
+    "reviewWeight": 1,
+    "version": 2,
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T08:00:00.000Z"
   },
   {
     "questionId": "Q-N2-ADV-0005",
     "level": "N2",
-    "section": "language_knowledge",
+    "section": "vocabulary",
     "type": "adverb",
-    "typeLabel": "词汇・副词",
+    "subType": "adverb_sentence_completion",
     "prompt": "駅で（　　　）高校時代の友人に会った。",
-    "choices": { "A": "わざと", "B": "せめて", "C": "たまたま", "D": "いよいよ" },
+    "choices": {
+      "A": "わざと",
+      "B": "せめて",
+      "C": "たまたま",
+      "D": "いよいよ"
+    },
     "correctAnswer": "C",
-    "explanation": "「たまたま」表示偶然发生，并非有意安排。",
-    "knowledgePointIds": ["KP-ADV-TAMATAMA-001"],
-    "knowledgePointTitles": ["たまたま"],
+    "explanation": "知识点：たまたま（偶然；碰巧）。正确答案：C。正确理由：「たまたま」表示偶然发生，并非有意安排。 选项分析：A「わざと」：错误。「わざと」表示“有意识地故意去做”，与本句时间、程度或语气条件不一致。 B「せめて」：错误。「せめて」表示“退而求其次，至少希望达到”，与本句时间、程度或语气条件不一致。 C「たまたま」：正确。「たまたま」表示偶然发生，并非有意安排。 D「いよいよ」：错误。「いよいよ」表示“关键时刻临近或程度越发明显”，与本句时间、程度或语气条件不一致。 类似例句：たまたま友人に会う。",
+    "knowledgePointIds": [
+      "KP-ADV-TAMATAMA-001"
+    ],
+    "knowledgePointTitles": [
+      "たまたま"
+    ],
     "difficulty": 1,
-    "sourceType": "ai_generated"
+    "sourceType": "ai_generated",
+    "sourceName": "JLPT N2 AI Learning System",
+    "tags": [
+      "副词",
+      "语境选择"
+    ],
+    "estimatedTime": 45,
+    "reviewWeight": 1,
+    "version": 2,
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T08:00:00.000Z"
   },
   {
     "questionId": "Q-N2-SYN-0001",
     "level": "N2",
-    "section": "language_knowledge",
+    "section": "vocabulary",
     "type": "synonym",
-    "typeLabel": "词汇・近义替换",
+    "subType": "contextual_synonym",
     "prompt": "工事はおおよそ予定どおりに進んでいる。「おおよそ」に最も近い意味はどれか。",
-    "choices": { "A": "だいたい", "B": "わずかに", "C": "意外に", "D": "完全に" },
+    "choices": {
+      "A": "だいたい",
+      "B": "わずかに",
+      "C": "意外に",
+      "D": "完全に"
+    },
     "correctAnswer": "A",
-    "explanation": "「おおよそ」在此表示大体、大致，与「だいたい」最接近。",
-    "knowledgePointIds": ["KP-SYN-OOYOSO-001"],
-    "knowledgePointTitles": ["おおよそ＝だいたい"],
+    "explanation": "知识点：おおよそ＝だいたい（大约；大体）。正确答案：A。正确理由：「おおよそ」在此表示大体、大致，与「だいたい」最接近。 选项分析：A「だいたい」：正确。「おおよそ」在此表示大体、大致，与「だいたい」最接近。 B「わずかに」：错误。「わずかに」表示“仅仅、少量地”，与题干中目标词的语境意义不相同。 C「意外に」：错误。「意外に」表示“出乎意料地”，与题干中目标词的语境意义不相同。 D「完全に」：错误。「完全に」表示“完全地”，与题干中目标词的语境意义不相同。 类似例句：おおよそ百人。",
+    "knowledgePointIds": [
+      "KP-SYN-OOYOSO-001"
+    ],
+    "knowledgePointTitles": [
+      "おおよそ＝だいたい"
+    ],
     "difficulty": 2,
-    "sourceType": "ai_generated"
+    "sourceType": "ai_generated",
+    "sourceName": "JLPT N2 AI Learning System",
+    "tags": [
+      "近义词",
+      "语境理解"
+    ],
+    "estimatedTime": 45,
+    "reviewWeight": 1,
+    "version": 2,
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T08:00:00.000Z"
   },
   {
     "questionId": "Q-N2-SYN-0002",
     "level": "N2",
-    "section": "language_knowledge",
+    "section": "vocabulary",
     "type": "synonym",
-    "typeLabel": "词汇・近义替换",
+    "subType": "contextual_synonym",
     "prompt": "異常を発見した場合は、直ちに係員へ知らせてください。「直ちに」に最も近い意味はどれか。",
-    "choices": { "A": "必ず", "B": "すぐに", "C": "直接", "D": "正確に" },
+    "choices": {
+      "A": "必ず",
+      "B": "すぐに",
+      "C": "直接",
+      "D": "正確に"
+    },
     "correctAnswer": "B",
-    "explanation": "「直ちに」表示不拖延、马上做，近义词是「すぐに」。",
-    "knowledgePointIds": ["KP-SYN-TADACHINI-001"],
-    "knowledgePointTitles": ["直ちに＝すぐに"],
+    "explanation": "知识点：直ちに＝すぐに（立即；马上）。正确答案：B。正确理由：「直ちに」表示不拖延、马上做，近义词是「すぐに」。 选项分析：A「必ず」：错误。「必ず」表示“必定、无例外地”，与题干中目标词的语境意义不相同。 B「すぐに」：正确。「直ちに」表示不拖延、马上做，近义词是「すぐに」。 C「直接」：错误。「直接」表示“不经中间环节”，与题干中目标词的语境意义不相同。 D「正確に」：错误。「正確に」表示“准确地”，与题干中目标词的语境意义不相同。 类似例句：直ちに連絡する。",
+    "knowledgePointIds": [
+      "KP-SYN-TADACHINI-001"
+    ],
+    "knowledgePointTitles": [
+      "直ちに＝すぐに"
+    ],
     "difficulty": 1,
-    "sourceType": "ai_generated"
+    "sourceType": "ai_generated",
+    "sourceName": "JLPT N2 AI Learning System",
+    "tags": [
+      "近义词",
+      "语境理解"
+    ],
+    "estimatedTime": 45,
+    "reviewWeight": 1,
+    "version": 2,
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T08:00:00.000Z"
   },
   {
     "questionId": "Q-N2-SYN-0003",
     "level": "N2",
-    "section": "language_knowledge",
+    "section": "vocabulary",
     "type": "synonym",
-    "typeLabel": "词汇・近义替换",
+    "subType": "contextual_synonym",
     "prompt": "この地域では雪が降ることはめったにない。「めったにない」に最も近い意味はどれか。",
-    "choices": { "A": "まったくない", "B": "ほとんどない", "C": "時々ある", "D": "必ずある" },
+    "choices": {
+      "A": "まったくない",
+      "B": "ほとんどない",
+      "C": "時々ある",
+      "D": "必ずある"
+    },
     "correctAnswer": "B",
-    "explanation": "「めったに～ない」表示发生频率极低，即“几乎不”。",
-    "knowledgePointIds": ["KP-SYN-METTANI-001"],
-    "knowledgePointTitles": ["めったに～ない＝ほとんど～ない"],
+    "explanation": "知识点：めったに～ない＝ほとんど～ない（很少（接否定））。正确答案：B。正确理由：「めったに～ない」表示发生频率极低，即“几乎不”。 选项分析：A「まったくない」：错误。「まったくない」表示“完全没有”，与题干中目标词的语境意义不相同。 B「ほとんどない」：正确。「めったに～ない」表示发生频率极低，即“几乎不”。 C「時々ある」：错误。「時々ある」表示“有时发生”，与题干中目标词的语境意义不相同。 D「必ずある」：错误。「必ずある」表示“必定发生”，与题干中目标词的语境意义不相同。 类似例句：めったに雪が降らない。",
+    "knowledgePointIds": [
+      "KP-SYN-METTANI-001"
+    ],
+    "knowledgePointTitles": [
+      "めったに～ない＝ほとんど～ない"
+    ],
     "difficulty": 2,
-    "sourceType": "ai_generated"
+    "sourceType": "ai_generated",
+    "sourceName": "JLPT N2 AI Learning System",
+    "tags": [
+      "近义词",
+      "语境理解"
+    ],
+    "estimatedTime": 45,
+    "reviewWeight": 1,
+    "version": 2,
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T08:00:00.000Z"
   },
   {
     "questionId": "Q-N2-SYN-0004",
     "level": "N2",
-    "section": "language_knowledge",
+    "section": "vocabulary",
     "type": "synonym",
-    "typeLabel": "词汇・近义替换",
+    "subType": "contextual_synonym",
     "prompt": "専門家は、その判断は妥当だと述べた。「妥当」に最も近い意味はどれか。",
-    "choices": { "A": "新しい", "B": "慎重な", "C": "適切な", "D": "複雑な" },
+    "choices": {
+      "A": "新しい",
+      "B": "慎重な",
+      "C": "適切な",
+      "D": "複雑な"
+    },
     "correctAnswer": "C",
-    "explanation": "「妥当」表示合乎情理、适当，与「適切」最接近。",
-    "knowledgePointIds": ["KP-SYN-DATO-001"],
-    "knowledgePointTitles": ["妥当＝適切"],
+    "explanation": "知识点：妥当＝適切（妥当；合理）。正确答案：C。正确理由：「妥当」表示合乎情理、适当，与「適切」最接近。 选项分析：A「新しい」：错误。「新しい」表示“新的”，与题干中目标词的语境意义不相同。 B「慎重な」：错误。「慎重な」表示“谨慎的”，与题干中目标词的语境意义不相同。 C「適切な」：正确。「妥当」表示合乎情理、适当，与「適切」最接近。 D「複雑な」：错误。「複雑な」表示“复杂的”，与题干中目标词的语境意义不相同。 类似例句：妥当な判断だ。",
+    "knowledgePointIds": [
+      "KP-SYN-DATO-001"
+    ],
+    "knowledgePointTitles": [
+      "妥当＝適切"
+    ],
     "difficulty": 2,
-    "sourceType": "ai_generated"
+    "sourceType": "ai_generated",
+    "sourceName": "JLPT N2 AI Learning System",
+    "tags": [
+      "近义词",
+      "语境理解"
+    ],
+    "estimatedTime": 45,
+    "reviewWeight": 1,
+    "version": 2,
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T08:00:00.000Z"
   },
   {
     "questionId": "Q-N2-SYN-0005",
     "level": "N2",
-    "section": "language_knowledge",
+    "section": "vocabulary",
     "type": "synonym",
-    "typeLabel": "词汇・近义替换",
+    "subType": "contextual_synonym",
     "prompt": "時間がないので、詳しい説明は省きます。「省く」に最も近い意味はどれか。",
-    "choices": { "A": "加える", "B": "繰り返す", "C": "短くする", "D": "取り除く" },
+    "choices": {
+      "A": "加える",
+      "B": "繰り返す",
+      "C": "短くする",
+      "D": "取り除く"
+    },
     "correctAnswer": "D",
-    "explanation": "「省く」表示把不需要的部分去掉，此处与「取り除く」最接近。",
-    "knowledgePointIds": ["KP-SYN-HABUKU-001"],
-    "knowledgePointTitles": ["省く＝取り除く"],
+    "explanation": "知识点：省く＝取り除く（省略；去除）。正确答案：D。正确理由：「省く」表示把不需要的部分去掉，此处与「取り除く」最接近。 选项分析：A「加える」：错误。「加える」表示“添加”，与题干中目标词的语境意义不相同。 B「繰り返す」：错误。「繰り返す」表示“重复”，与题干中目标词的语境意义不相同。 C「短くする」：错误。「短くする」表示“缩短”，与题干中目标词的语境意义不相同。 D「取り除く」：正确。「省く」表示把不需要的部分去掉，此处与「取り除く」最接近。 类似例句：説明を省く。",
+    "knowledgePointIds": [
+      "KP-SYN-HABUKU-001"
+    ],
+    "knowledgePointTitles": [
+      "省く＝取り除く"
+    ],
     "difficulty": 2,
-    "sourceType": "ai_generated"
+    "sourceType": "ai_generated",
+    "sourceName": "JLPT N2 AI Learning System",
+    "tags": [
+      "近义词",
+      "语境理解"
+    ],
+    "estimatedTime": 45,
+    "reviewWeight": 1,
+    "version": 2,
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T08:00:00.000Z"
   },
   {
     "questionId": "Q-N2-GRC-0001",
     "level": "N2",
-    "section": "language_knowledge",
+    "section": "grammar",
     "type": "grammar_choice",
-    "typeLabel": "文法・形式选择",
+    "subType": "grammar_sentence_completion",
     "prompt": "新しい仕事は大変ではある（　　　）、やりがいも感じている。",
-    "choices": { "A": "ものの", "B": "ところで", "C": "ばかりに", "D": "おかげで" },
+    "choices": {
+      "A": "ものの",
+      "B": "ところで",
+      "C": "ばかりに",
+      "D": "おかげで"
+    },
     "correctAnswer": "A",
-    "explanation": "「～ものの」表示承认前项事实后转折，相当于“虽然……但是……”。",
-    "knowledgePointIds": ["KP-GRA-MONONO-001"],
-    "knowledgePointTitles": ["～ものの"],
+    "explanation": "知识点：～ものの（虽然……但是……）。正确答案：A。正确理由：「～ものの」表示承认前项事实后转折，相当于“虽然……但是……”。 选项分析：A「ものの」：正确。「～ものの」表示承认前项事实后转折，相当于“虽然……但是……”。 B「ところで」：错误。「ところで」表示转换话题，或接在过去式后表示即使做也无效，不符合本句要求的接续、因果、推断或转折关系。 C「ばかりに」：错误。「ばかりに」表示仅因某原因导致不良结果，不符合本句要求的接续、因果、推断或转折关系。 D「おかげで」：错误。「おかげで」表示受益原因，不符合本句要求的接续、因果、推断或转折关系。 类似例句：買ったものの、使っていない。",
+    "knowledgePointIds": [
+      "KP-GRA-MONONO-001"
+    ],
+    "knowledgePointTitles": [
+      "～ものの"
+    ],
     "difficulty": 2,
-    "sourceType": "ai_generated"
+    "sourceType": "ai_generated",
+    "sourceName": "JLPT N2 AI Learning System",
+    "tags": [
+      "文法",
+      "接续"
+    ],
+    "estimatedTime": 60,
+    "reviewWeight": 1,
+    "version": 2,
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T08:00:00.000Z"
   },
   {
     "questionId": "Q-N2-GRC-0002",
     "level": "N2",
-    "section": "language_knowledge",
+    "section": "grammar",
     "type": "grammar_choice",
-    "typeLabel": "文法・形式选择",
+    "subType": "grammar_sentence_completion",
     "prompt": "電気がついているから、田中さんはまだ会社にいる（　　　）。",
-    "choices": { "A": "にすぎない", "B": "に違いない", "C": "とは限らない", "D": "わけがない" },
+    "choices": {
+      "A": "にすぎない",
+      "B": "に違いない",
+      "C": "とは限らない",
+      "D": "わけがない"
+    },
     "correctAnswer": "B",
-    "explanation": "「～に違いない」表示根据迹象作出确信程度很高的判断。",
-    "knowledgePointIds": ["KP-GRA-NICHIGAINAI-001"],
-    "knowledgePointTitles": ["～に違いない"],
+    "explanation": "知识点：～に違いない（一定；肯定）。正确答案：B。正确理由：「～に違いない」表示根据迹象作出确信程度很高的判断。 选项分析：A「にすぎない」：错误。「にすぎない」表示只不过是，不符合本句要求的接续、因果、推断或转折关系。 B「に違いない」：正确。「～に違いない」表示根据迹象作出确信程度很高的判断。 C「とは限らない」：错误。「とは限らない」表示不一定，不符合本句要求的接续、因果、推断或转折关系。 D「わけがない」：错误。「わけがない」表示不可能，不符合本句要求的接续、因果、推断或转折关系。 类似例句：彼に違いない。",
+    "knowledgePointIds": [
+      "KP-GRA-NICHIGAINAI-001"
+    ],
+    "knowledgePointTitles": [
+      "～に違いない"
+    ],
     "difficulty": 2,
-    "sourceType": "ai_generated"
+    "sourceType": "ai_generated",
+    "sourceName": "JLPT N2 AI Learning System",
+    "tags": [
+      "文法",
+      "接续"
+    ],
+    "estimatedTime": 60,
+    "reviewWeight": 1,
+    "version": 2,
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T08:00:00.000Z"
   },
   {
     "questionId": "Q-N2-GRC-0003",
     "level": "N2",
-    "section": "language_knowledge",
+    "section": "grammar",
     "type": "grammar_choice",
-    "typeLabel": "文法・形式选择",
+    "subType": "grammar_sentence_completion",
     "prompt": "そんな乱暴な運転を続けていたら、大きな事故を起こし（　　　）。",
-    "choices": { "A": "かねない", "B": "かけない", "C": "きれない", "D": "ようがない" },
+    "choices": {
+      "A": "かねない",
+      "B": "かけない",
+      "C": "きれない",
+      "D": "ようがない"
+    },
     "correctAnswer": "A",
-    "explanation": "「～かねない」表示有发生某种负面结果的可能性。",
-    "knowledgePointIds": ["KP-GRA-KANENAI-001"],
-    "knowledgePointTitles": ["～かねない"],
+    "explanation": "知识点：～かねない（有可能（发生坏事））。正确答案：A。正确理由：「～かねない」表示有发生某种负面结果的可能性。 选项分析：A「かねない」：正确。「～かねない」表示有发生某种负面结果的可能性。 B「かけない」：错误。「かけない」不是本题所需的完整文法形式，不符合本句要求的接续、因果、推断或转折关系。 C「きれない」：错误。「きれない」表示无法彻底完成，不符合本句要求的接续、因果、推断或转折关系。 D「ようがない」：错误。「ようがない」表示没有办法，不符合本句要求的接续、因果、推断或转折关系。 类似例句：事故になりかねない。",
+    "knowledgePointIds": [
+      "KP-GRA-KANENAI-001"
+    ],
+    "knowledgePointTitles": [
+      "～かねない"
+    ],
     "difficulty": 2,
-    "sourceType": "ai_generated"
+    "sourceType": "ai_generated",
+    "sourceName": "JLPT N2 AI Learning System",
+    "tags": [
+      "文法",
+      "接续"
+    ],
+    "estimatedTime": 60,
+    "reviewWeight": 1,
+    "version": 2,
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T08:00:00.000Z"
   },
   {
     "questionId": "Q-N2-GRC-0004",
     "level": "N2",
-    "section": "language_knowledge",
+    "section": "grammar",
     "type": "grammar_choice",
-    "typeLabel": "文法・形式选择",
+    "subType": "grammar_sentence_completion",
     "prompt": "人口の増加（　　　）、住宅不足が深刻になってきた。",
-    "choices": { "A": "に反して", "B": "に先立って", "C": "に伴って", "D": "に基づいて" },
+    "choices": {
+      "A": "に反して",
+      "B": "に先立って",
+      "C": "に伴って",
+      "D": "に基づいて"
+    },
     "correctAnswer": "C",
-    "explanation": "「～に伴って」表示随着前项变化，后项也发生相应变化。",
-    "knowledgePointIds": ["KP-GRA-NITOMONATTE-001"],
-    "knowledgePointTitles": ["～に伴って"],
+    "explanation": "知识点：～に伴って（随着；伴随）。正确答案：C。正确理由：「～に伴って」表示随着前项变化，后项也发生相应变化。 选项分析：A「に反して」：错误。「に反して」表示与预期、命令或意愿相反，不符合本句要求的接续、因果、推断或转折关系。 B「に先立って」：错误。「に先立って」表示在某事之前，不符合本句要求的接续、因果、推断或转折关系。 C「に伴って」：正确。「～に伴って」表示随着前项变化，后项也发生相应变化。 D「に基づいて」：错误。「に基づいて」表示以某事为依据，不符合本句要求的接续、因果、推断或转折关系。 类似例句：人口増加にともなって変化する。",
+    "knowledgePointIds": [
+      "KP-GRA-NITOMONATTE-001"
+    ],
+    "knowledgePointTitles": [
+      "～に伴って"
+    ],
     "difficulty": 2,
-    "sourceType": "ai_generated"
+    "sourceType": "ai_generated",
+    "sourceName": "JLPT N2 AI Learning System",
+    "tags": [
+      "文法",
+      "接续"
+    ],
+    "estimatedTime": 60,
+    "reviewWeight": 1,
+    "version": 2,
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T08:00:00.000Z"
   },
   {
     "questionId": "Q-N2-GRC-0005",
     "level": "N2",
-    "section": "language_knowledge",
+    "section": "grammar",
     "type": "grammar_choice",
-    "typeLabel": "文法・形式选择",
+    "subType": "grammar_sentence_completion",
     "prompt": "この町は桜の名所として知られている（　　　）、春には多くの観光客が訪れる。",
-    "choices": { "A": "ことから", "B": "ことなく", "C": "ことには", "D": "ことだから" },
+    "choices": {
+      "A": "ことから",
+      "B": "ことなく",
+      "C": "ことには",
+      "D": "ことだから"
+    },
     "correctAnswer": "A",
-    "explanation": "「～ことから」在此表示后项判断或现象的原因、依据。",
-    "knowledgePointIds": ["KP-GRA-KOTOKARA-001"],
-    "knowledgePointTitles": ["～ことから"],
+    "explanation": "知识点：～ことから（由于；从……来看）。正确答案：A。正确理由：「～ことから」在此表示后项判断或现象的原因、依据。 选项分析：A「ことから」：正确。「～ことから」在此表示后项判断或现象的原因、依据。 B「ことなく」：错误。「ことなく」表示没有做某事而进行后项，不符合本句要求的接续、因果、推断或转折关系。 C「ことには」：错误。「ことには」常用于评价性表达或条件结构，不符合本句要求的接续、因果、推断或转折关系。 D「ことだから」：错误。「ことだから」根据人物一贯特征作判断，不符合本句要求的接续、因果、推断或转折关系。 类似例句：形が似ていることから名付けられた。",
+    "knowledgePointIds": [
+      "KP-GRA-KOTOKARA-001"
+    ],
+    "knowledgePointTitles": [
+      "～ことから"
+    ],
     "difficulty": 3,
-    "sourceType": "ai_generated"
+    "sourceType": "ai_generated",
+    "sourceName": "JLPT N2 AI Learning System",
+    "tags": [
+      "文法",
+      "接续"
+    ],
+    "estimatedTime": 60,
+    "reviewWeight": 1,
+    "version": 2,
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T08:00:00.000Z"
   },
   {
     "questionId": "Q-N2-GRM-0001",
     "level": "N2",
-    "section": "language_knowledge",
+    "section": "grammar",
     "type": "grammar_meaning",
-    "typeLabel": "文法・句意理解",
+    "subType": "grammar_paraphrase",
     "prompt": "「甘い物が嫌いなわけではないが、健康のために控えている。」と意味が最も近いものはどれか。",
-    "choices": { "A": "甘い物が嫌いなので食べない", "B": "甘い物は好きだが食べすぎないようにしている", "C": "健康のためなら甘い物をたくさん食べる", "D": "甘い物を食べる理由が分からない" },
+    "choices": {
+      "A": "甘い物が嫌いなので食べない",
+      "B": "甘い物は好きだが食べすぎないようにしている",
+      "C": "健康のためなら甘い物をたくさん食べる",
+      "D": "甘い物を食べる理由が分からない"
+    },
     "correctAnswer": "B",
-    "explanation": "「～わけではない」是否定由表面信息可能得出的整体判断；并非讨厌，只是控制摄入。",
-    "knowledgePointIds": ["KP-GRA-WAKEDEWANAI-001"],
-    "knowledgePointTitles": ["～わけではない"],
+    "explanation": "知识点：～わけではない（并非；并不是说）。正确答案：B。正确理由：「～わけではない」是否定由表面信息可能得出的整体判断；并非讨厌，只是控制摄入。 选项分析：A「甘い物が嫌いなので食べない」：错误。该项把原句改写为“甘い物が嫌いなので食べない”，与目标文法所表达的范围、语气或逻辑关系不一致。 B「甘い物は好きだが食べすぎないようにしている」：正确。「～わけではない」是否定由表面信息可能得出的整体判断；并非讨厌，只是控制摄入。 C「健康のためなら甘い物をたくさん食べる」：错误。该项把原句改写为“健康のためなら甘い物をたくさん食べる”，与目标文法所表达的范围、语气或逻辑关系不一致。 D「甘い物を食べる理由が分からない」：错误。该项把原句改写为“甘い物を食べる理由が分からない”，与目标文法所表达的范围、语气或逻辑关系不一致。 类似例句：嫌いなわけではない。",
+    "knowledgePointIds": [
+      "KP-GRA-WAKEDEWANAI-001"
+    ],
+    "knowledgePointTitles": [
+      "～わけではない"
+    ],
     "difficulty": 2,
-    "sourceType": "ai_generated"
+    "sourceType": "ai_generated",
+    "sourceName": "JLPT N2 AI Learning System",
+    "tags": [
+      "文法",
+      "句意理解"
+    ],
+    "estimatedTime": 75,
+    "reviewWeight": 1,
+    "version": 2,
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T08:00:00.000Z"
   },
   {
     "questionId": "Q-N2-GRM-0002",
     "level": "N2",
-    "section": "language_knowledge",
+    "section": "grammar",
     "type": "grammar_meaning",
-    "typeLabel": "文法・句意理解",
+    "subType": "grammar_paraphrase",
     "prompt": "「この料理は食べられないことはないが、少し辛すぎる。」と意味が最も近いものはどれか。",
-    "choices": { "A": "辛くて絶対に食べられない", "B": "辛くないので問題なく食べられる", "C": "食べることは可能だが、あまり好ましくない", "D": "食べたことがないので味が分からない" },
+    "choices": {
+      "A": "辛くて絶対に食べられない",
+      "B": "辛くないので問題なく食べられる",
+      "C": "食べることは可能だが、あまり好ましくない",
+      "D": "食べたことがないので味が分からない"
+    },
     "correctAnswer": "C",
-    "explanation": "「～ないことはない」表示并非完全不能，但含有保留或消极评价。",
-    "knowledgePointIds": ["KP-GRA-NAIKOTOWANAI-001"],
-    "knowledgePointTitles": ["～ないことはない"],
+    "explanation": "知识点：～ないことはない（并非不能；也不是不）。正确答案：C。正确理由：「～ないことはない」表示并非完全不能，但含有保留或消极评价。 选项分析：A「辛くて絶対に食べられない」：错误。该项把原句改写为“辛くて絶対に食べられない”，与目标文法所表达的范围、语气或逻辑关系不一致。 B「辛くないので問題なく食べられる」：错误。该项把原句改写为“辛くないので問題なく食べられる”，与目标文法所表达的范围、语气或逻辑关系不一致。 C「食べることは可能だが、あまり好ましくない」：正确。「～ないことはない」表示并非完全不能，但含有保留或消极评价。 D「食べたことがないので味が分からない」：错误。该项把原句改写为“食べたことがないので味が分からない”，与目标文法所表达的范围、语气或逻辑关系不一致。 类似例句：食べられないことはない。",
+    "knowledgePointIds": [
+      "KP-GRA-NAIKOTOWANAI-001"
+    ],
+    "knowledgePointTitles": [
+      "～ないことはない"
+    ],
     "difficulty": 2,
-    "sourceType": "ai_generated"
+    "sourceType": "ai_generated",
+    "sourceName": "JLPT N2 AI Learning System",
+    "tags": [
+      "文法",
+      "句意理解"
+    ],
+    "estimatedTime": 75,
+    "reviewWeight": 1,
+    "version": 2,
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T08:00:00.000Z"
   },
   {
     "questionId": "Q-N2-GRM-0003",
     "level": "N2",
-    "section": "language_knowledge",
+    "section": "grammar",
     "type": "grammar_meaning",
-    "typeLabel": "文法・句意理解",
+    "subType": "grammar_paraphrase",
     "prompt": "「彼は日本語が話せないどころか、三か国語を自由に使える。」と意味が最も近いものはどれか。",
-    "choices": { "A": "日本語だけ少し話せる", "B": "日本語は話せず、他の言語も話せない", "C": "日本語が話せないという予想に反して、多言語を使える", "D": "三か国語のうち日本語だけが苦手だ" },
+    "choices": {
+      "A": "日本語だけ少し話せる",
+      "B": "日本語は話せず、他の言語も話せない",
+      "C": "日本語が話せないという予想に反して、多言語を使える",
+      "D": "三か国語のうち日本語だけが苦手だ"
+    },
     "correctAnswer": "C",
-    "explanation": "「～どころか」用于否定前面的预想，并提出程度更强或相反的事实。",
-    "knowledgePointIds": ["KP-GRA-DOKOROKA-001"],
-    "knowledgePointTitles": ["～どころか"],
+    "explanation": "知识点：～どころか（别说……；岂止……）。正确答案：C。正确理由：「～どころか」用于否定前面的预想，并提出程度更强或相反的事实。 选项分析：A「日本語だけ少し話せる」：错误。该项把原句改写为“日本語だけ少し話せる”，与目标文法所表达的范围、语气或逻辑关系不一致。 B「日本語は話せず、他の言語も話せない」：错误。该项把原句改写为“日本語は話せず、他の言語も話せない”，与目标文法所表达的范围、语气或逻辑关系不一致。 C「日本語が話せないという予想に反して、多言語を使える」：正确。「～どころか」用于否定前面的预想，并提出程度更强或相反的事实。 D「三か国語のうち日本語だけが苦手だ」：错误。该项把原句改写为“三か国語のうち日本語だけが苦手だ”，与目标文法所表达的范围、语气或逻辑关系不一致。 类似例句：苦手どころか、プロだ。",
+    "knowledgePointIds": [
+      "KP-GRA-DOKOROKA-001"
+    ],
+    "knowledgePointTitles": [
+      "～どころか"
+    ],
     "difficulty": 3,
-    "sourceType": "ai_generated"
+    "sourceType": "ai_generated",
+    "sourceName": "JLPT N2 AI Learning System",
+    "tags": [
+      "文法",
+      "句意理解"
+    ],
+    "estimatedTime": 75,
+    "reviewWeight": 1,
+    "version": 2,
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T08:00:00.000Z"
   },
   {
     "questionId": "Q-N2-GRM-0004",
     "level": "N2",
-    "section": "language_knowledge",
+    "section": "grammar",
     "type": "grammar_meaning",
-    "typeLabel": "文法・句意理解",
+    "subType": "grammar_paraphrase",
     "prompt": "「今回の成功は、全員が努力した結果にほかならない。」と意味が最も近いものはどれか。",
-    "choices": { "A": "成功の原因は全員の努力そのものだ", "B": "努力以外にも多くの原因がありそうだ", "C": "全員が努力したのに成功しなかった", "D": "成功したかどうかはまだ分からない" },
+    "choices": {
+      "A": "成功の原因は全員の努力そのものだ",
+      "B": "努力以外にも多くの原因がありそうだ",
+      "C": "全員が努力したのに成功しなかった",
+      "D": "成功したかどうかはまだ分からない"
+    },
     "correctAnswer": "A",
-    "explanation": "「～にほかならない」表示断定“正是……、无非是……”。",
-    "knowledgePointIds": ["KP-GRA-NIHOKANARANAI-001"],
-    "knowledgePointTitles": ["～にほかならない"],
+    "explanation": "知识点：～にほかならない（正是；无非是）。正确答案：A。正确理由：「～にほかならない」表示断定“正是……、无非是……”。 选项分析：A「成功の原因は全員の努力そのものだ」：正确。「～にほかならない」表示断定“正是……、无非是……”。 B「努力以外にも多くの原因がありそうだ」：错误。该项把原句改写为“努力以外にも多くの原因がありそうだ”，与目标文法所表达的范围、语气或逻辑关系不一致。 C「全員が努力したのに成功しなかった」：错误。该项把原句改写为“全員が努力したのに成功しなかった”，与目标文法所表达的范围、语气或逻辑关系不一致。 D「成功したかどうかはまだ分からない」：错误。该项把原句改写为“成功したかどうかはまだ分からない”，与目标文法所表达的范围、语气或逻辑关系不一致。 类似例句：努力の結果にほかならない。",
+    "knowledgePointIds": [
+      "KP-GRA-NIHOKANARANAI-001"
+    ],
+    "knowledgePointTitles": [
+      "～にほかならない"
+    ],
     "difficulty": 3,
-    "sourceType": "ai_generated"
+    "sourceType": "ai_generated",
+    "sourceName": "JLPT N2 AI Learning System",
+    "tags": [
+      "文法",
+      "句意理解"
+    ],
+    "estimatedTime": 75,
+    "reviewWeight": 1,
+    "version": 2,
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T08:00:00.000Z"
   },
   {
     "questionId": "Q-N2-GRM-0005",
     "level": "N2",
-    "section": "language_knowledge",
+    "section": "grammar",
     "type": "grammar_meaning",
-    "typeLabel": "文法・句意理解",
+    "subType": "grammar_paraphrase",
     "prompt": "「終電がなくなったので、タクシーで帰らざるを得なかった。」と意味が最も近いものはどれか。",
-    "choices": { "A": "タクシーで帰りたくて終電を逃した", "B": "ほかに方法がなく、仕方なくタクシーを使った", "C": "終電にもタクシーにも乗れなかった", "D": "歩いて帰ることに決めた" },
+    "choices": {
+      "A": "タクシーで帰りたくて終電を逃した",
+      "B": "ほかに方法がなく、仕方なくタクシーを使った",
+      "C": "終電にもタクシーにも乗れなかった",
+      "D": "歩いて帰ることに決めた"
+    },
     "correctAnswer": "B",
-    "explanation": "「～ざるを得ない」表示没有其他选择，只好做某事。",
-    "knowledgePointIds": ["KP-GRA-ZARUOENAI-001"],
-    "knowledgePointTitles": ["～ざるを得ない"],
+    "explanation": "知识点：～ざるを得ない（不得不）。正确答案：B。正确理由：「～ざるを得ない」表示没有其他选择，只好做某事。 选项分析：A「タクシーで帰りたくて終電を逃した」：错误。该项把原句改写为“タクシーで帰りたくて終電を逃した”，与目标文法所表达的范围、语气或逻辑关系不一致。 B「ほかに方法がなく、仕方なくタクシーを使った」：正确。「～ざるを得ない」表示没有其他选择，只好做某事。 C「終電にもタクシーにも乗れなかった」：错误。该项把原句改写为“終電にもタクシーにも乗れなかった”，与目标文法所表达的范围、语气或逻辑关系不一致。 D「歩いて帰ることに決めた」：错误。该项把原句改写为“歩いて帰ることに決めた”，与目标文法所表达的范围、语气或逻辑关系不一致。 类似例句：中止せざるを得ない。",
+    "knowledgePointIds": [
+      "KP-GRA-ZARUOENAI-001"
+    ],
+    "knowledgePointTitles": [
+      "～ざるを得ない"
+    ],
     "difficulty": 2,
-    "sourceType": "ai_generated"
+    "sourceType": "ai_generated",
+    "sourceName": "JLPT N2 AI Learning System",
+    "tags": [
+      "文法",
+      "句意理解"
+    ],
+    "estimatedTime": 75,
+    "reviewWeight": 1,
+    "version": 2,
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T08:00:00.000Z"
   },
   {
     "questionId": "Q-N2-READ-0001",
     "level": "N2",
     "section": "reading",
     "type": "short_reading",
-    "typeLabel": "读解・短文",
+    "subType": "short_text_comprehension",
     "prompt": "【通知】図書館は設備点検のため、7月10日は午後5時に閉館します。返却ポストは閉館後も利用できます。ただし、DVDは破損のおそれがあるため、開館時間内にカウンターへ返してください。\n\n7月10日について正しいものはどれか。",
-    "choices": { "A": "午後5時以降、本を返すことはできない", "B": "DVDは閉館後に返却ポストへ入れてよい", "C": "図書館は通常より早く閉まる", "D": "設備点検中もカウンターは開いている" },
+    "choices": {
+      "A": "午後5時以降、本を返すことはできない",
+      "B": "DVDは閉館後に返却ポストへ入れてよい",
+      "C": "図書館は通常より早く閉まる",
+      "D": "設備点検中もカウンターは開いている"
+    },
     "correctAnswer": "C",
-    "explanation": "当日は午後5时闭馆，说明比平常提前；书可用返却箱，但 DVD 必须在开馆时间交柜台。",
-    "knowledgePointIds": ["KP-READ-NOTICE-001"],
-    "knowledgePointTitles": ["通知文の条件整理"],
+    "explanation": "知识点：通知文の条件整理（通知信息定位）。正确答案：C。正确理由：当日は午後5时闭馆，说明比平常提前；书可用返却箱，但 DVD 必须在开馆时间交柜台。 选项分析：A「午後5時以降、本を返すことはできない」：错误。该项声称“午後5時以降、本を返すことはできない”，但原文没有给出这一信息，或与原文明确的时间、条件、行动和结论相反。 B「DVDは閉館後に返却ポストへ入れてよい」：错误。该项声称“DVDは閉館後に返却ポストへ入れてよい”，但原文没有给出这一信息，或与原文明确的时间、条件、行动和结论相反。 C「図書館は通常より早く閉まる」：正确。当日は午後5时闭馆，说明比平常提前；书可用返却箱，但 DVD 必须在开馆时间交柜台。 D「設備点検中もカウンターは開いている」：错误。该项声称“設備点検中もカウンターは開いている”，但原文没有给出这一信息，或与原文明确的时间、条件、行动和结论相反。 类似例句：休馆时间与例外条件を確認する。",
+    "knowledgePointIds": [
+      "KP-READ-NOTICE-001"
+    ],
+    "knowledgePointTitles": [
+      "通知文の条件整理"
+    ],
     "difficulty": 2,
-    "sourceType": "ai_generated"
+    "sourceType": "ai_generated",
+    "sourceName": "JLPT N2 AI Learning System",
+    "tags": [
+      "短篇阅读",
+      "信息理解"
+    ],
+    "estimatedTime": 180,
+    "reviewWeight": 1,
+    "version": 2,
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T08:00:00.000Z"
   },
   {
     "questionId": "Q-N2-READ-0002",
     "level": "N2",
     "section": "reading",
     "type": "short_reading",
-    "typeLabel": "读解・短文",
+    "subType": "short_text_comprehension",
     "prompt": "田中さんへ\n明日の打ち合わせですが、先方の都合で開始が30分遅くなり、10時半からになりました。場所は変更ありません。私は別の会議があるため、先に会議室へ行って資料を配っておいてもらえますか。\n山田\n\n田中さんがすべきことは何か。",
-    "choices": { "A": "10時に別の会議へ出る", "B": "会議室を変更する", "C": "先方に開始時刻を聞く", "D": "打ち合わせ前に資料を配る" },
+    "choices": {
+      "A": "10時に別の会議へ出る",
+      "B": "会議室を変更する",
+      "C": "先方に開始時刻を聞く",
+      "D": "打ち合わせ前に資料を配る"
+    },
     "correctAnswer": "D",
-    "explanation": "山田请田中先去同一间会议室，把资料发好；会议改为 10:30 开始。",
-    "knowledgePointIds": ["KP-READ-MEMO-001"],
-    "knowledgePointTitles": ["依頼内容の特定"],
+    "explanation": "知识点：依頼内容の特定（便条任务理解）。正确答案：D。正确理由：山田请田中先去同一间会议室，把资料发好；会议改为 10:30 开始。 选项分析：A「10時に別の会議へ出る」：错误。该项声称“10時に別の会議へ出る”，但原文没有给出这一信息，或与原文明确的时间、条件、行动和结论相反。 B「会議室を変更する」：错误。该项声称“会議室を変更する”，但原文没有给出这一信息，或与原文明确的时间、条件、行动和结论相反。 C「先方に開始時刻を聞く」：错误。该项声称“先方に開始時刻を聞く”，但原文没有给出这一信息，或与原文明确的时间、条件、行动和结论相反。 D「打ち合わせ前に資料を配る」：正确。山田请田中先去同一间会议室，把资料发好；会议改为 10:30 开始。 类似例句：誰が何をするか確認する。",
+    "knowledgePointIds": [
+      "KP-READ-MEMO-001"
+    ],
+    "knowledgePointTitles": [
+      "依頼内容の特定"
+    ],
     "difficulty": 2,
-    "sourceType": "ai_generated"
+    "sourceType": "ai_generated",
+    "sourceName": "JLPT N2 AI Learning System",
+    "tags": [
+      "短篇阅读",
+      "信息理解"
+    ],
+    "estimatedTime": 180,
+    "reviewWeight": 1,
+    "version": 2,
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T08:00:00.000Z"
   },
   {
     "questionId": "Q-N2-READ-0003",
     "level": "N2",
     "section": "reading",
     "type": "short_reading",
-    "typeLabel": "读解・短文",
+    "subType": "short_text_comprehension",
     "prompt": "新しいことを学ぶとき、最初から間違えないようにしようとすると、なかなか始められない。間違いは、自分が何を理解していないかを教えてくれる。大切なのは、間違いを避けることではなく、そこから何を学ぶかである。\n\n筆者が最も言いたいことは何か。",
-    "choices": { "A": "学び始める前に十分準備すべきだ", "B": "間違いを学びに生かすことが重要だ", "C": "理解できないことは避けたほうがよい", "D": "新しいことは一人で学ぶべきだ" },
+    "choices": {
+      "A": "学び始める前に十分準備すべきだ",
+      "B": "間違いを学びに生かすことが重要だ",
+      "C": "理解できないことは避けたほうがよい",
+      "D": "新しいことは一人で学ぶべきだ"
+    },
     "correctAnswer": "B",
-    "explanation": "末句明确指出重点不是避免错误，而是从错误中学到什么。",
-    "knowledgePointIds": ["KP-READ-MAINIDEA-001"],
-    "knowledgePointTitles": ["筆者の主張"],
+    "explanation": "知识点：筆者の主張（主旨理解）。正确答案：B。正确理由：末句明确指出重点不是避免错误，而是从错误中学到什么。 选项分析：A「学び始める前に十分準備すべきだ」：错误。该项声称“学び始める前に十分準備すべきだ”，但原文没有给出这一信息，或与原文明确的时间、条件、行动和结论相反。 B「間違いを学びに生かすことが重要だ」：正确。末句明确指出重点不是避免错误，而是从错误中学到什么。 C「理解できないことは避けたほうがよい」：错误。该项声称“理解できないことは避けたほうがよい”，但原文没有给出这一信息，或与原文明确的时间、条件、行动和结论相反。 D「新しいことは一人で学ぶべきだ」：错误。该项声称“新しいことは一人で学ぶべきだ”，但原文没有给出这一信息，或与原文明确的时间、条件、行动和结论相反。 类似例句：筆者の主張を一文でまとめる。",
+    "knowledgePointIds": [
+      "KP-READ-MAINIDEA-001"
+    ],
+    "knowledgePointTitles": [
+      "筆者の主張"
+    ],
     "difficulty": 2,
-    "sourceType": "ai_generated"
+    "sourceType": "ai_generated",
+    "sourceName": "JLPT N2 AI Learning System",
+    "tags": [
+      "短篇阅读",
+      "信息理解"
+    ],
+    "estimatedTime": 180,
+    "reviewWeight": 1,
+    "version": 2,
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T08:00:00.000Z"
   },
   {
     "questionId": "Q-N2-READ-0004",
     "level": "N2",
     "section": "reading",
     "type": "short_reading",
-    "typeLabel": "读解・短文",
+    "subType": "short_text_comprehension",
     "prompt": "市民講座「写真の楽しみ方」\n日時：8月3日（土）14時～16時\n対象：市内在住または在勤の方\n定員：20名（申し込み多数の場合は抽選）\n申し込み：7月20日までにウェブサイトから\n※カメラの貸し出しはありません。\n\n講座への参加について正しいものはどれか。",
-    "choices": { "A": "申し込みが早い20名が参加できる", "B": "市外に住み市内で働く人も申し込める", "C": "7月20日に会場で申し込む", "D": "カメラを持っていなくても借りられる" },
+    "choices": {
+      "A": "申し込みが早い20名が参加できる",
+      "B": "市外に住み市内で働く人も申し込める",
+      "C": "7月20日に会場で申し込む",
+      "D": "カメラを持っていなくても借りられる"
+    },
     "correctAnswer": "B",
-    "explanation": "对象包括市内居住“或”在职者；超过名额抽签，并非先到先得，也不提供相机。",
-    "knowledgePointIds": ["KP-READ-GUIDE-001"],
-    "knowledgePointTitles": ["案内文の対象条件"],
+    "explanation": "知识点：案内文の対象条件（指南条件理解）。正确答案：B。正确理由：对象包括市内居住“或”在职者；超过名额抽签，并非先到先得，也不提供相机。 选项分析：A「申し込みが早い20名が参加できる」：错误。该项声称“申し込みが早い20名が参加できる”，但原文没有给出这一信息，或与原文明确的时间、条件、行动和结论相反。 B「市外に住み市内で働く人も申し込める」：正确。对象包括市内居住“或”在职者；超过名额抽签，并非先到先得，也不提供相机。 C「7月20日に会場で申し込む」：错误。该项声称“7月20日に会場で申し込む”，但原文没有给出这一信息，或与原文明确的时间、条件、行动和结论相反。 D「カメラを持っていなくても借りられる」：错误。该项声称“カメラを持っていなくても借りられる”，但原文没有给出这一信息，或与原文明确的时间、条件、行动和结论相反。 类似例句：申込条件を整理する。",
+    "knowledgePointIds": [
+      "KP-READ-GUIDE-001"
+    ],
+    "knowledgePointTitles": [
+      "案内文の対象条件"
+    ],
     "difficulty": 2,
-    "sourceType": "ai_generated"
+    "sourceType": "ai_generated",
+    "sourceName": "JLPT N2 AI Learning System",
+    "tags": [
+      "短篇阅读",
+      "信息理解"
+    ],
+    "estimatedTime": 180,
+    "reviewWeight": 1,
+    "version": 2,
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T08:00:00.000Z"
   },
   {
     "questionId": "Q-N2-READ-0005",
     "level": "N2",
     "section": "reading",
     "type": "short_reading",
-    "typeLabel": "读解・短文",
+    "subType": "short_text_comprehension",
     "prompt": "私は以前、予定を細かく立てれば仕事が速く進むと思っていた。しかし、予定外の依頼が入るたびに計画を作り直すことになり、かえって時間がかかった。今は一日の予定に少し余裕を持たせている。そのほうが急な仕事にも落ち着いて対応できる。\n\n筆者が予定の立て方を変えたのはなぜか。",
-    "choices": { "A": "予定を立てる必要がなくなったから", "B": "仕事の依頼が減ったから", "C": "細かい計画は予定外の仕事に対応しにくかったから", "D": "一日の仕事をすべて断ることにしたから" },
+    "choices": {
+      "A": "予定を立てる必要がなくなったから",
+      "B": "仕事の依頼が減ったから",
+      "C": "細かい計画は予定外の仕事に対応しにくかったから",
+      "D": "一日の仕事をすべて断ることにしたから"
+    },
     "correctAnswer": "C",
-    "explanation": "细密计划每逢临时任务就需重做，反而费时，因此改为留出余量。",
-    "knowledgePointIds": ["KP-READ-REASON-001"],
-    "knowledgePointTitles": ["理由の特定"],
+    "explanation": "知识点：理由の特定（原因理解）。正确答案：C。正确理由：细密计划每逢临时任务就需重做，反而费时，因此改为留出余量。 选项分析：A「予定を立てる必要がなくなったから」：错误。该项声称“予定を立てる必要がなくなったから”，但原文没有给出这一信息，或与原文明确的时间、条件、行动和结论相反。 B「仕事の依頼が減ったから」：错误。该项声称“仕事の依頼が減ったから”，但原文没有给出这一信息，或与原文明确的时间、条件、行动和结论相反。 C「細かい計画は予定外の仕事に対応しにくかったから」：正确。细密计划每逢临时任务就需重做，反而费时，因此改为留出余量。 D「一日の仕事をすべて断ることにしたから」：错误。该项声称“一日の仕事をすべて断ることにしたから”，但原文没有给出这一信息，或与原文明确的时间、条件、行动和结论相反。 类似例句：行動を変えた理由を探す。",
+    "knowledgePointIds": [
+      "KP-READ-REASON-001"
+    ],
+    "knowledgePointTitles": [
+      "理由の特定"
+    ],
     "difficulty": 3,
-    "sourceType": "ai_generated"
+    "sourceType": "ai_generated",
+    "sourceName": "JLPT N2 AI Learning System",
+    "tags": [
+      "短篇阅读",
+      "信息理解"
+    ],
+    "estimatedTime": 180,
+    "reviewWeight": 1,
+    "version": 2,
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T08:00:00.000Z"
+  },
+  {
+    "questionId": "Q-N2-VOC-0006",
+    "level": "N2",
+    "section": "vocabulary",
+    "type": "vocabulary_collocation",
+    "subType": "noun_verb_collocation",
+    "prompt": "彼はチームの代表として、最後まで自分の役割を（　　　）。",
+    "choices": {
+      "A": "果たした",
+      "B": "済ませた",
+      "C": "達した",
+      "D": "収めた"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：約束を果たす（履行；完成）。正确答案：A。正确理由：「役割を果たす」表示履行职责。 选项分析：A「果たした」：正确。「役割を果たす」表示履行职责。 B「済ませた」：错误。「済ませた」不能与题干中的中心词构成本题所需的自然固定搭配；换成它会改变搭配关系或句意。 C「達した」：错误。「達した」不能与题干中的中心词构成本题所需的自然固定搭配；换成它会改变搭配关系或句意。 D「収めた」：错误。「収めた」不能与题干中的中心词构成本题所需的自然固定搭配；换成它会改变搭配关系或句意。 类似例句：約束を果たす。",
+    "knowledgePointIds": [
+      "KP-VOC-HATASU-001"
+    ],
+    "knowledgePointTitles": [
+      "約束を果たす"
+    ],
+    "difficulty": 2,
+    "sourceType": "ai_generated",
+    "sourceName": "JLPT N2 AI Learning System",
+    "tags": [
+      "固定搭配",
+      "语境选择"
+    ],
+    "estimatedTime": 45,
+    "reviewWeight": 1,
+    "version": 2,
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T08:00:00.000Z"
+  },
+  {
+    "questionId": "Q-N2-VOC-0007",
+    "level": "N2",
+    "section": "vocabulary",
+    "type": "vocabulary_collocation",
+    "subType": "noun_verb_collocation",
+    "prompt": "困難な状況でも、与えられた任務を（　　　）ことが求められる。",
+    "choices": {
+      "A": "終わる",
+      "B": "果たす",
+      "C": "届く",
+      "D": "済む"
+    },
+    "correctAnswer": "B",
+    "explanation": "知识点：約束を果たす（履行；完成）。正确答案：B。正确理由：「任務を果たす」是表示完成使命的固定搭配。 选项分析：A「終わる」：错误。「終わる」不能与题干中的中心词构成本题所需的自然固定搭配；换成它会改变搭配关系或句意。 B「果たす」：正确。「任務を果たす」是表示完成使命的固定搭配。 C「届く」：错误。「届く」不能与题干中的中心词构成本题所需的自然固定搭配；换成它会改变搭配关系或句意。 D「済む」：错误。「済む」不能与题干中的中心词构成本题所需的自然固定搭配；换成它会改变搭配关系或句意。 类似例句：約束を果たす。",
+    "knowledgePointIds": [
+      "KP-VOC-HATASU-001"
+    ],
+    "knowledgePointTitles": [
+      "約束を果たす"
+    ],
+    "difficulty": 3,
+    "sourceType": "ai_generated",
+    "sourceName": "JLPT N2 AI Learning System",
+    "tags": [
+      "固定搭配",
+      "语境选择"
+    ],
+    "estimatedTime": 45,
+    "reviewWeight": 1,
+    "version": 2,
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T08:00:00.000Z"
+  },
+  {
+    "questionId": "Q-N2-VOC-0008",
+    "level": "N2",
+    "section": "vocabulary",
+    "type": "vocabulary_collocation",
+    "subType": "noun_verb_collocation",
+    "prompt": "企業には、消費者に正しい情報を伝える責任を（　　　）義務がある。",
+    "choices": {
+      "A": "越える",
+      "B": "迎える",
+      "C": "果たす",
+      "D": "結ぶ"
+    },
+    "correctAnswer": "C",
+    "explanation": "知识点：約束を果たす（履行；完成）。正确答案：C。正确理由：责任、职责、作用等常与「果たす」搭配。 选项分析：A「越える」：错误。「越える」不能与题干中的中心词构成本题所需的自然固定搭配；换成它会改变搭配关系或句意。 B「迎える」：错误。「迎える」不能与题干中的中心词构成本题所需的自然固定搭配；换成它会改变搭配关系或句意。 C「果たす」：正确。责任、职责、作用等常与「果たす」搭配。 D「結ぶ」：错误。「結ぶ」不能与题干中的中心词构成本题所需的自然固定搭配；换成它会改变搭配关系或句意。 类似例句：約束を果たす。",
+    "knowledgePointIds": [
+      "KP-VOC-HATASU-001"
+    ],
+    "knowledgePointTitles": [
+      "約束を果たす"
+    ],
+    "difficulty": 3,
+    "sourceType": "ai_generated",
+    "sourceName": "JLPT N2 AI Learning System",
+    "tags": [
+      "固定搭配",
+      "语境选择"
+    ],
+    "estimatedTime": 45,
+    "reviewWeight": 1,
+    "version": 2,
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T08:00:00.000Z"
+  },
+  {
+    "questionId": "Q-N2-VOC-0009",
+    "level": "N2",
+    "section": "vocabulary",
+    "type": "vocabulary_collocation",
+    "subType": "noun_verb_collocation",
+    "prompt": "保証人になると、場合によっては多額の借金を（　　　）ことになる。",
+    "choices": {
+      "A": "背く",
+      "B": "抱く",
+      "C": "保つ",
+      "D": "負う"
+    },
+    "correctAnswer": "D",
+    "explanation": "知识点：責任を負う（承担；背负）。正确答案：D。正确理由：「借金を負う」表示背负债务。 选项分析：A「背く」：错误。「背く」不能与题干中的中心词构成本题所需的自然固定搭配；换成它会改变搭配关系或句意。 B「抱く」：错误。「抱く」不能与题干中的中心词构成本题所需的自然固定搭配；换成它会改变搭配关系或句意。 C「保つ」：错误。「保つ」不能与题干中的中心词构成本题所需的自然固定搭配；换成它会改变搭配关系或句意。 D「負う」：正确。「借金を負う」表示背负债务。 类似例句：責任を負う。",
+    "knowledgePointIds": [
+      "KP-VOC-OU-001"
+    ],
+    "knowledgePointTitles": [
+      "責任を負う"
+    ],
+    "difficulty": 2,
+    "sourceType": "ai_generated",
+    "sourceName": "JLPT N2 AI Learning System",
+    "tags": [
+      "固定搭配",
+      "语境选择"
+    ],
+    "estimatedTime": 45,
+    "reviewWeight": 1,
+    "version": 2,
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T08:00:00.000Z"
+  },
+  {
+    "questionId": "Q-N2-VOC-0010",
+    "level": "N2",
+    "section": "vocabulary",
+    "type": "vocabulary_collocation",
+    "subType": "noun_verb_collocation",
+    "prompt": "この仕事を引き受ける以上、結果についても責任を（　　　）覚悟が必要だ。",
+    "choices": {
+      "A": "負う",
+      "B": "取る",
+      "C": "運ぶ",
+      "D": "置く"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：責任を負う（承担；背负）。正确答案：A。正确理由：「責任を負う」强调承担责任。 选项分析：A「負う」：正确。「責任を負う」强调承担责任。 B「取る」：错误。「取る」不能与题干中的中心词构成本题所需的自然固定搭配；换成它会改变搭配关系或句意。 C「運ぶ」：错误。「運ぶ」不能与题干中的中心词构成本题所需的自然固定搭配；换成它会改变搭配关系或句意。 D「置く」：错误。「置く」不能与题干中的中心词构成本题所需的自然固定搭配；换成它会改变搭配关系或句意。 类似例句：責任を負う。",
+    "knowledgePointIds": [
+      "KP-VOC-OU-001"
+    ],
+    "knowledgePointTitles": [
+      "責任を負う"
+    ],
+    "difficulty": 2,
+    "sourceType": "ai_generated",
+    "sourceName": "JLPT N2 AI Learning System",
+    "tags": [
+      "固定搭配",
+      "语境选择"
+    ],
+    "estimatedTime": 45,
+    "reviewWeight": 1,
+    "version": 2,
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T08:00:00.000Z"
+  },
+  {
+    "questionId": "Q-N2-VOC-0011",
+    "level": "N2",
+    "section": "vocabulary",
+    "type": "vocabulary_collocation",
+    "subType": "noun_verb_collocation",
+    "prompt": "医師は患者の命に関わる重い責任を（　　　）ている。",
+    "choices": {
+      "A": "抱い",
+      "B": "負っ",
+      "C": "持っ",
+      "D": "背い"
+    },
+    "correctAnswer": "B",
+    "explanation": "知识点：責任を負う（承担；背负）。正确答案：B。正确理由：此处使用「責任を負っている」。 选项分析：A「抱い」：错误。「抱い」不能与题干中的中心词构成本题所需的自然固定搭配；换成它会改变搭配关系或句意。 B「負っ」：正确。此处使用「責任を負っている」。 C「持っ」：错误。「持っ」不能与题干中的中心词构成本题所需的自然固定搭配；换成它会改变搭配关系或句意。 D「背い」：错误。「背い」不能与题干中的中心词构成本题所需的自然固定搭配；换成它会改变搭配关系或句意。 类似例句：責任を負う。",
+    "knowledgePointIds": [
+      "KP-VOC-OU-001"
+    ],
+    "knowledgePointTitles": [
+      "責任を負う"
+    ],
+    "difficulty": 3,
+    "sourceType": "ai_generated",
+    "sourceName": "JLPT N2 AI Learning System",
+    "tags": [
+      "固定搭配",
+      "语境选择"
+    ],
+    "estimatedTime": 45,
+    "reviewWeight": 1,
+    "version": 2,
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T08:00:00.000Z"
+  },
+  {
+    "questionId": "Q-N2-VOC-0012",
+    "level": "N2",
+    "section": "vocabulary",
+    "type": "vocabulary_collocation",
+    "subType": "noun_verb_collocation",
+    "prompt": "多くの市民が新しい市長の改革に期待を（　　　）ている。",
+    "choices": {
+      "A": "集め",
+      "B": "合わせ",
+      "C": "寄せ",
+      "D": "近づけ"
+    },
+    "correctAnswer": "C",
+    "explanation": "知识点：関心を寄せる（寄予；给予）。正确答案：C。正确理由：「期待を寄せる」表示寄予期待。 选项分析：A「集め」：错误。「集め」不能与题干中的中心词构成本题所需的自然固定搭配；换成它会改变搭配关系或句意。 B「合わせ」：错误。「合わせ」不能与题干中的中心词构成本题所需的自然固定搭配；换成它会改变搭配关系或句意。 C「寄せ」：正确。「期待を寄せる」表示寄予期待。 D「近づけ」：错误。「近づけ」不能与题干中的中心词构成本题所需的自然固定搭配；换成它会改变搭配关系或句意。 类似例句：期待を寄せる。",
+    "knowledgePointIds": [
+      "KP-VOC-YOSERU-001"
+    ],
+    "knowledgePointTitles": [
+      "関心を寄せる"
+    ],
+    "difficulty": 2,
+    "sourceType": "ai_generated",
+    "sourceName": "JLPT N2 AI Learning System",
+    "tags": [
+      "固定搭配",
+      "语境选择"
+    ],
+    "estimatedTime": 45,
+    "reviewWeight": 1,
+    "version": 2,
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T08:00:00.000Z"
+  },
+  {
+    "questionId": "Q-N2-VOC-0013",
+    "level": "N2",
+    "section": "vocabulary",
+    "type": "vocabulary_collocation",
+    "subType": "noun_verb_collocation",
+    "prompt": "被災した人々に世界中から温かい同情が（　　　）られた。",
+    "choices": {
+      "A": "寄り",
+      "B": "集まり",
+      "C": "近づけ",
+      "D": "寄せ"
+    },
+    "correctAnswer": "D",
+    "explanation": "知识点：関心を寄せる（寄予；给予）。正确答案：D。正确理由：被动态「同情が寄せられる」表示收到同情与关切。 选项分析：A「寄り」：错误。「寄り」不能与题干中的中心词构成本题所需的自然固定搭配；换成它会改变搭配关系或句意。 B「集まり」：错误。「集まり」不能与题干中的中心词构成本题所需的自然固定搭配；换成它会改变搭配关系或句意。 C「近づけ」：错误。「近づけ」不能与题干中的中心词构成本题所需的自然固定搭配；换成它会改变搭配关系或句意。 D「寄せ」：正确。被动态「同情が寄せられる」表示收到同情与关切。 类似例句：期待を寄せる。",
+    "knowledgePointIds": [
+      "KP-VOC-YOSERU-001"
+    ],
+    "knowledgePointTitles": [
+      "関心を寄せる"
+    ],
+    "difficulty": 3,
+    "sourceType": "ai_generated",
+    "sourceName": "JLPT N2 AI Learning System",
+    "tags": [
+      "固定搭配",
+      "语境选择"
+    ],
+    "estimatedTime": 45,
+    "reviewWeight": 1,
+    "version": 2,
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T08:00:00.000Z"
+  },
+  {
+    "questionId": "Q-N2-VOC-0014",
+    "level": "N2",
+    "section": "vocabulary",
+    "type": "vocabulary_collocation",
+    "subType": "noun_verb_collocation",
+    "prompt": "長年の実績によって、彼は地域の人々から厚い信頼を（　　　）られている。",
+    "choices": {
+      "A": "寄せ",
+      "B": "渡し",
+      "C": "加え",
+      "D": "届け"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：関心を寄せる（寄予；给予）。正确答案：A。正确理由：「信頼を寄せる」表示给予信任。 选项分析：A「寄せ」：正确。「信頼を寄せる」表示给予信任。 B「渡し」：错误。「渡し」不能与题干中的中心词构成本题所需的自然固定搭配；换成它会改变搭配关系或句意。 C「加え」：错误。「加え」不能与题干中的中心词构成本题所需的自然固定搭配；换成它会改变搭配关系或句意。 D「届け」：错误。「届け」不能与题干中的中心词构成本题所需的自然固定搭配；换成它会改变搭配关系或句意。 类似例句：期待を寄せる。",
+    "knowledgePointIds": [
+      "KP-VOC-YOSERU-001"
+    ],
+    "knowledgePointTitles": [
+      "関心を寄せる"
+    ],
+    "difficulty": 3,
+    "sourceType": "ai_generated",
+    "sourceName": "JLPT N2 AI Learning System",
+    "tags": [
+      "固定搭配",
+      "语境选择"
+    ],
+    "estimatedTime": 45,
+    "reviewWeight": 1,
+    "version": 2,
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T08:00:00.000Z"
+  },
+  {
+    "questionId": "Q-N2-VOC-0015",
+    "level": "N2",
+    "section": "vocabulary",
+    "type": "vocabulary_collocation",
+    "subType": "noun_verb_collocation",
+    "prompt": "両社は何度も交渉を重ね、ようやく合意に（　　　）。",
+    "choices": {
+      "A": "届いた",
+      "B": "達した",
+      "C": "着いた",
+      "D": "及んだ"
+    },
+    "correctAnswer": "B",
+    "explanation": "知识点：結論に達する（达到；抵达）。正确答案：B。正确理由：「合意に達する」表示达成协议。 选项分析：A「届いた」：错误。「届いた」不能与题干中的中心词构成本题所需的自然固定搭配；换成它会改变搭配关系或句意。 B「達した」：正确。「合意に達する」表示达成协议。 C「着いた」：错误。「着いた」不能与题干中的中心词构成本题所需的自然固定搭配；换成它会改变搭配关系或句意。 D「及んだ」：错误。「及んだ」不能与题干中的中心词构成本题所需的自然固定搭配；换成它会改变搭配关系或句意。 类似例句：合意に達する。",
+    "knowledgePointIds": [
+      "KP-VOC-TASSURU-001"
+    ],
+    "knowledgePointTitles": [
+      "結論に達する"
+    ],
+    "difficulty": 2,
+    "sourceType": "ai_generated",
+    "sourceName": "JLPT N2 AI Learning System",
+    "tags": [
+      "固定搭配",
+      "语境选择"
+    ],
+    "estimatedTime": 45,
+    "reviewWeight": 1,
+    "version": 2,
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T08:00:00.000Z"
+  },
+  {
+    "questionId": "Q-N2-VOC-0016",
+    "level": "N2",
+    "section": "vocabulary",
+    "type": "vocabulary_collocation",
+    "subType": "noun_verb_collocation",
+    "prompt": "この町の人口は、今年ついに十万人に（　　　）。",
+    "choices": {
+      "A": "届いた",
+      "B": "上った",
+      "C": "達した",
+      "D": "満ちた"
+    },
+    "correctAnswer": "C",
+    "explanation": "知识点：結論に達する（达到；抵达）。正确答案：C。正确理由：数量达到某一规模可用「～に達する」。 选项分析：A「届いた」：错误。「届いた」不能与题干中的中心词构成本题所需的自然固定搭配；换成它会改变搭配关系或句意。 B「上った」：错误。「上った」不能与题干中的中心词构成本题所需的自然固定搭配；换成它会改变搭配关系或句意。 C「達した」：正确。数量达到某一规模可用「～に達する」。 D「満ちた」：错误。「満ちた」不能与题干中的中心词构成本题所需的自然固定搭配；换成它会改变搭配关系或句意。 类似例句：合意に達する。",
+    "knowledgePointIds": [
+      "KP-VOC-TASSURU-001"
+    ],
+    "knowledgePointTitles": [
+      "結論に達する"
+    ],
+    "difficulty": 2,
+    "sourceType": "ai_generated",
+    "sourceName": "JLPT N2 AI Learning System",
+    "tags": [
+      "固定搭配",
+      "语境选择"
+    ],
+    "estimatedTime": 45,
+    "reviewWeight": 1,
+    "version": 2,
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T08:00:00.000Z"
+  },
+  {
+    "questionId": "Q-N2-VOC-0017",
+    "level": "N2",
+    "section": "vocabulary",
+    "type": "vocabulary_collocation",
+    "subType": "noun_verb_collocation",
+    "prompt": "登山隊は予定より二時間遅れて山頂に（　　　）。",
+    "choices": {
+      "A": "触れた",
+      "B": "及んだ",
+      "C": "向いた",
+      "D": "達した"
+    },
+    "correctAnswer": "D",
+    "explanation": "知识点：結論に達する（达到；抵达）。正确答案：D。正确理由：「山頂に達する」表示抵达山顶。 选项分析：A「触れた」：错误。「触れた」不能与题干中的中心词构成本题所需的自然固定搭配；换成它会改变搭配关系或句意。 B「及んだ」：错误。「及んだ」不能与题干中的中心词构成本题所需的自然固定搭配；换成它会改变搭配关系或句意。 C「向いた」：错误。「向いた」不能与题干中的中心词构成本题所需的自然固定搭配；换成它会改变搭配关系或句意。 D「達した」：正确。「山頂に達する」表示抵达山顶。 类似例句：合意に達する。",
+    "knowledgePointIds": [
+      "KP-VOC-TASSURU-001"
+    ],
+    "knowledgePointTitles": [
+      "結論に達する"
+    ],
+    "difficulty": 2,
+    "sourceType": "ai_generated",
+    "sourceName": "JLPT N2 AI Learning System",
+    "tags": [
+      "固定搭配",
+      "语境选择"
+    ],
+    "estimatedTime": 45,
+    "reviewWeight": 1,
+    "version": 2,
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T08:00:00.000Z"
+  },
+  {
+    "questionId": "Q-N2-VOC-0018",
+    "level": "N2",
+    "section": "vocabulary",
+    "type": "vocabulary_collocation",
+    "subType": "noun_verb_collocation",
+    "prompt": "システムの停止は利用者に大きな混乱を（　　　）。",
+    "choices": {
+      "A": "きたした",
+      "B": "起きた",
+      "C": "生じた",
+      "D": "与えた"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：支障をきたす（导致；招致）。正确答案：A。正确理由：「混乱をきたす」表示导致混乱。 选项分析：A「きたした」：正确。「混乱をきたす」表示导致混乱。 B「起きた」：错误。「起きた」不能与题干中的中心词构成本题所需的自然固定搭配；换成它会改变搭配关系或句意。 C「生じた」：错误。「生じた」不能与题干中的中心词构成本题所需的自然固定搭配；换成它会改变搭配关系或句意。 D「与えた」：错误。「与えた」不能与题干中的中心词构成本题所需的自然固定搭配；换成它会改变搭配关系或句意。 类似例句：支障をきたす。",
+    "knowledgePointIds": [
+      "KP-VOC-KITASU-001"
+    ],
+    "knowledgePointTitles": [
+      "支障をきたす"
+    ],
+    "difficulty": 3,
+    "sourceType": "ai_generated",
+    "sourceName": "JLPT N2 AI Learning System",
+    "tags": [
+      "固定搭配",
+      "语境选择"
+    ],
+    "estimatedTime": 45,
+    "reviewWeight": 1,
+    "version": 2,
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T08:00:00.000Z"
+  },
+  {
+    "questionId": "Q-N2-VOC-0019",
+    "level": "N2",
+    "section": "vocabulary",
+    "type": "vocabulary_collocation",
+    "subType": "noun_verb_collocation",
+    "prompt": "睡眠不足は健康に悪影響を（　　　）おそれがある。",
+    "choices": {
+      "A": "与える",
+      "B": "きたす",
+      "C": "受ける",
+      "D": "起きる"
+    },
+    "correctAnswer": "B",
+    "explanation": "知识点：支障をきたす（导致；招致）。正确答案：B。正确理由：「悪影響をきたす」表示招致不良影响。 选项分析：A「与える」：错误。「与える」不能与题干中的中心词构成本题所需的自然固定搭配；换成它会改变搭配关系或句意。 B「きたす」：正确。「悪影響をきたす」表示招致不良影响。 C「受ける」：错误。「受ける」不能与题干中的中心词构成本题所需的自然固定搭配；换成它会改变搭配关系或句意。 D「起きる」：错误。「起きる」不能与题干中的中心词构成本题所需的自然固定搭配；换成它会改变搭配关系或句意。 类似例句：支障をきたす。",
+    "knowledgePointIds": [
+      "KP-VOC-KITASU-001"
+    ],
+    "knowledgePointTitles": [
+      "支障をきたす"
+    ],
+    "difficulty": 3,
+    "sourceType": "ai_generated",
+    "sourceName": "JLPT N2 AI Learning System",
+    "tags": [
+      "固定搭配",
+      "语境选择"
+    ],
+    "estimatedTime": 45,
+    "reviewWeight": 1,
+    "version": 2,
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T08:00:00.000Z"
+  },
+  {
+    "questionId": "Q-N2-VOC-0020",
+    "level": "N2",
+    "section": "vocabulary",
+    "type": "vocabulary_collocation",
+    "subType": "noun_verb_collocation",
+    "prompt": "道路工事が周辺の住民に不便を（　　　）ている。",
+    "choices": {
+      "A": "起こし",
+      "B": "生じ",
+      "C": "きたし",
+      "D": "受け"
+    },
+    "correctAnswer": "C",
+    "explanation": "知识点：支障をきたす（导致；招致）。正确答案：C。正确理由：「不便をきたす」表示造成不便。 选项分析：A「起こし」：错误。「起こし」不能与题干中的中心词构成本题所需的自然固定搭配；换成它会改变搭配关系或句意。 B「生じ」：错误。「生じ」不能与题干中的中心词构成本题所需的自然固定搭配；换成它会改变搭配关系或句意。 C「きたし」：正确。「不便をきたす」表示造成不便。 D「受け」：错误。「受け」不能与题干中的中心词构成本题所需的自然固定搭配；换成它会改变搭配关系或句意。 类似例句：支障をきたす。",
+    "knowledgePointIds": [
+      "KP-VOC-KITASU-001"
+    ],
+    "knowledgePointTitles": [
+      "支障をきたす"
+    ],
+    "difficulty": 3,
+    "sourceType": "ai_generated",
+    "sourceName": "JLPT N2 AI Learning System",
+    "tags": [
+      "固定搭配",
+      "语境选择"
+    ],
+    "estimatedTime": 45,
+    "reviewWeight": 1,
+    "version": 2,
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T08:00:00.000Z"
+  },
+  {
+    "questionId": "Q-N2-ADV-0006",
+    "level": "N2",
+    "section": "vocabulary",
+    "type": "adverb",
+    "subType": "adverb_sentence_completion",
+    "prompt": "事故を防ぐため、作業の手順を（　　　）確認しておきましょう。",
+    "choices": {
+      "A": "たちまち",
+      "B": "いきなり",
+      "C": "うっかり",
+      "D": "あらかじめ"
+    },
+    "correctAnswer": "D",
+    "explanation": "知识点：あらかじめ（预先；事先）。正确答案：D。正确理由：「あらかじめ」表示事先完成准备。 选项分析：A「たちまち」：错误。「たちまち」表示“在很短时间内迅速变化”，与本句时间、程度或语气条件不一致。 B「いきなり」：错误。「いきなり」表示“毫无铺垫地突然发生”，与本句时间、程度或语气条件不一致。 C「うっかり」：错误。「うっかり」表示“因疏忽而不小心”，与本句时间、程度或语气条件不一致。 D「あらかじめ」：正确。「あらかじめ」表示事先完成准备。 类似例句：あらかじめ連絡する。",
+    "knowledgePointIds": [
+      "KP-ADV-ARAKAJIME-001"
+    ],
+    "knowledgePointTitles": [
+      "あらかじめ"
+    ],
+    "difficulty": 2,
+    "sourceType": "ai_generated",
+    "sourceName": "JLPT N2 AI Learning System",
+    "tags": [
+      "副词",
+      "语境选择"
+    ],
+    "estimatedTime": 45,
+    "reviewWeight": 1,
+    "version": 2,
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T08:00:00.000Z"
+  },
+  {
+    "questionId": "Q-N2-ADV-0007",
+    "level": "N2",
+    "section": "vocabulary",
+    "type": "adverb",
+    "subType": "adverb_sentence_completion",
+    "prompt": "彼はさっきから時計を（　　　）気にしている。",
+    "choices": {
+      "A": "しきりに",
+      "B": "めったに",
+      "C": "たまたま",
+      "D": "ろくに"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：しきりに（频繁地；不断地）。正确答案：A。正确理由：「しきりに」表示反复、频繁地。 选项分析：A「しきりに」：正确。「しきりに」表示反复、频繁地。 B「めったに」：错误。「めったに」表示“与否定呼应，表示极少发生”，与本句时间、程度或语气条件不一致。 C「たまたま」：错误。「たまたま」表示“没有计划而偶然发生”，与本句时间、程度或语气条件不一致。 D「ろくに」：错误。「ろくに」表示“与否定呼应，表示没有充分做到”，与本句时间、程度或语气条件不一致。 类似例句：しきりに時計を見る。",
+    "knowledgePointIds": [
+      "KP-ADV-SHIKIRINI-001"
+    ],
+    "knowledgePointTitles": [
+      "しきりに"
+    ],
+    "difficulty": 2,
+    "sourceType": "ai_generated",
+    "sourceName": "JLPT N2 AI Learning System",
+    "tags": [
+      "副词",
+      "语境选择"
+    ],
+    "estimatedTime": 45,
+    "reviewWeight": 1,
+    "version": 2,
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T08:00:00.000Z"
+  },
+  {
+    "questionId": "Q-N2-ADV-0008",
+    "level": "N2",
+    "section": "vocabulary",
+    "type": "adverb",
+    "subType": "adverb_sentence_completion",
+    "prompt": "説明書を（　　　）読まずに使ったので、操作を間違えてしまった。",
+    "choices": {
+      "A": "じきに",
+      "B": "ろくに",
+      "C": "さらに",
+      "D": "すでに"
+    },
+    "correctAnswer": "B",
+    "explanation": "知识点：ろくに～ない（充分地（常接否定））。正确答案：B。正确理由：「ろくに～ない」表示没有充分地做某事。 选项分析：A「じきに」：错误。「じきに」表示“不久之后”，与本句时间、程度或语气条件不一致。 B「ろくに」：正确。「ろくに～ない」表示没有充分地做某事。 C「さらに」：错误。「さらに」表示“在现有基础上进一步”，与本句时间、程度或语气条件不一致。 D「すでに」：错误。「すでに」表示“在说话时点以前已经完成”，与本句时间、程度或语气条件不一致。 类似例句：ろくに寝ていない。",
+    "knowledgePointIds": [
+      "KP-ADV-ROKUNI-001"
+    ],
+    "knowledgePointTitles": [
+      "ろくに～ない"
+    ],
+    "difficulty": 2,
+    "sourceType": "ai_generated",
+    "sourceName": "JLPT N2 AI Learning System",
+    "tags": [
+      "副词",
+      "语境选择"
+    ],
+    "estimatedTime": 45,
+    "reviewWeight": 1,
+    "version": 2,
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T08:00:00.000Z"
+  },
+  {
+    "questionId": "Q-N2-ADV-0009",
+    "level": "N2",
+    "section": "vocabulary",
+    "type": "adverb",
+    "subType": "adverb_sentence_completion",
+    "prompt": "経験を積めば、この仕事は（　　　）面白く感じられるはずだ。",
+    "choices": {
+      "A": "いきなり",
+      "B": "たまたま",
+      "C": "いっそう",
+      "D": "めったに"
+    },
+    "correctAnswer": "C",
+    "explanation": "知识点：いっそう（更加；越发）。正确答案：C。正确理由：「いっそう」表示程度进一步加深。 选项分析：A「いきなり」：错误。「いきなり」表示“毫无铺垫地突然发生”，与本句时间、程度或语气条件不一致。 B「たまたま」：错误。「たまたま」表示“没有计划而偶然发生”，与本句时间、程度或语气条件不一致。 C「いっそう」：正确。「いっそう」表示程度进一步加深。 D「めったに」：错误。「めったに」表示“与否定呼应，表示极少发生”，与本句时间、程度或语气条件不一致。 类似例句：いっそう便利になる。",
+    "knowledgePointIds": [
+      "KP-ADV-ISSO-001"
+    ],
+    "knowledgePointTitles": [
+      "いっそう"
+    ],
+    "difficulty": 2,
+    "sourceType": "ai_generated",
+    "sourceName": "JLPT N2 AI Learning System",
+    "tags": [
+      "副词",
+      "语境选择"
+    ],
+    "estimatedTime": 45,
+    "reviewWeight": 1,
+    "version": 2,
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T08:00:00.000Z"
+  },
+  {
+    "questionId": "Q-N2-ADV-0010",
+    "level": "N2",
+    "section": "vocabulary",
+    "type": "adverb",
+    "subType": "adverb_sentence_completion",
+    "prompt": "旅行先の小さな店で、（　　　）大学の先生と出会った。",
+    "choices": {
+      "A": "あらかじめ",
+      "B": "しきりに",
+      "C": "いっそう",
+      "D": "たまたま"
+    },
+    "correctAnswer": "D",
+    "explanation": "知识点：たまたま（偶然；碰巧）。正确答案：D。正确理由：「たまたま」表示偶然发生。 选项分析：A「あらかじめ」：错误。「あらかじめ」表示“事先做好准备”，与本句时间、程度或语气条件不一致。 B「しきりに」：错误。「しきりに」表示“动作频繁反复”，与本句时间、程度或语气条件不一致。 C「いっそう」：错误。「いっそう」表示“程度比此前更加提高”，与本句时间、程度或语气条件不一致。 D「たまたま」：正确。「たまたま」表示偶然发生。 类似例句：たまたま友人に会う。",
+    "knowledgePointIds": [
+      "KP-ADV-TAMATAMA-001"
+    ],
+    "knowledgePointTitles": [
+      "たまたま"
+    ],
+    "difficulty": 2,
+    "sourceType": "ai_generated",
+    "sourceName": "JLPT N2 AI Learning System",
+    "tags": [
+      "副词",
+      "语境选择"
+    ],
+    "estimatedTime": 45,
+    "reviewWeight": 1,
+    "version": 2,
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T08:00:00.000Z"
+  },
+  {
+    "questionId": "Q-N2-SYN-0006",
+    "level": "N2",
+    "section": "vocabulary",
+    "type": "synonym",
+    "subType": "contextual_synonym",
+    "prompt": "参加者はおおよそ百人だった。「おおよそ」に最も近い意味はどれか。",
+    "choices": {
+      "A": "だいたい",
+      "B": "せいぜい",
+      "C": "必ず",
+      "D": "わずかに"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：おおよそ＝だいたい（大约；大体）。正确答案：A。正确理由：「おおよそ」在数量语境中相当于「だいたい」。 选项分析：A「だいたい」：正确。「おおよそ」在数量语境中相当于「だいたい」。 B「せいぜい」：错误。「せいぜい」表示“充其量、最多”，与题干中目标词的语境意义不相同。 C「必ず」：错误。「必ず」表示“必定、无例外地”，与题干中目标词的语境意义不相同。 D「わずかに」：错误。「わずかに」表示“仅仅、少量地”，与题干中目标词的语境意义不相同。 类似例句：おおよそ百人。",
+    "knowledgePointIds": [
+      "KP-SYN-OOYOSO-001"
+    ],
+    "knowledgePointTitles": [
+      "おおよそ＝だいたい"
+    ],
+    "difficulty": 2,
+    "sourceType": "ai_generated",
+    "sourceName": "JLPT N2 AI Learning System",
+    "tags": [
+      "近义词",
+      "语境理解"
+    ],
+    "estimatedTime": 45,
+    "reviewWeight": 1,
+    "version": 2,
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T08:00:00.000Z"
+  },
+  {
+    "questionId": "Q-N2-SYN-0007",
+    "level": "N2",
+    "section": "vocabulary",
+    "type": "synonym",
+    "subType": "contextual_synonym",
+    "prompt": "結果が分かり次第、直ちにご連絡します。「直ちに」に最も近い意味はどれか。",
+    "choices": {
+      "A": "徐々に",
+      "B": "すぐに",
+      "C": "改めて",
+      "D": "偶然に"
+    },
+    "correctAnswer": "B",
+    "explanation": "知识点：直ちに＝すぐに（立即；马上）。正确答案：B。正确理由：「直ちに」意为立即、马上。 选项分析：A「徐々に」：错误。「徐々に」表示“逐渐地”，与题干中目标词的语境意义不相同。 B「すぐに」：正确。「直ちに」意为立即、马上。 C「改めて」：错误。「改めて」表示“重新、另行”，与题干中目标词的语境意义不相同。 D「偶然に」：错误。「偶然に」表示“偶然地”，与题干中目标词的语境意义不相同。 类似例句：直ちに連絡する。",
+    "knowledgePointIds": [
+      "KP-SYN-TADACHINI-001"
+    ],
+    "knowledgePointTitles": [
+      "直ちに＝すぐに"
+    ],
+    "difficulty": 2,
+    "sourceType": "ai_generated",
+    "sourceName": "JLPT N2 AI Learning System",
+    "tags": [
+      "近义词",
+      "语境理解"
+    ],
+    "estimatedTime": 45,
+    "reviewWeight": 1,
+    "version": 2,
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T08:00:00.000Z"
+  },
+  {
+    "questionId": "Q-N2-SYN-0008",
+    "level": "N2",
+    "section": "vocabulary",
+    "type": "synonym",
+    "subType": "contextual_synonym",
+    "prompt": "彼は忙しくて、映画館にはめったに行かない。「めったに行かない」に最も近い意味はどれか。",
+    "choices": {
+      "A": "必ず行く",
+      "B": "時々行く",
+      "C": "ほとんど行かない",
+      "D": "すぐ行く"
+    },
+    "correctAnswer": "C",
+    "explanation": "知识点：めったに～ない＝ほとんど～ない（很少（接否定））。正确答案：C。正确理由：「めったに～ない」表示极少发生。 选项分析：A「必ず行く」：错误。「必ず行く」表示“每次都去”，与题干中目标词的语境意义不相同。 B「時々行く」：错误。「時々行く」表示“有时去”，与题干中目标词的语境意义不相同。 C「ほとんど行かない」：正确。「めったに～ない」表示极少发生。 D「すぐ行く」：错误。「すぐ行く」表示“马上去”，与题干中目标词的语境意义不相同。 类似例句：めったに雪が降らない。",
+    "knowledgePointIds": [
+      "KP-SYN-METTANI-001"
+    ],
+    "knowledgePointTitles": [
+      "めったに～ない＝ほとんど～ない"
+    ],
+    "difficulty": 2,
+    "sourceType": "ai_generated",
+    "sourceName": "JLPT N2 AI Learning System",
+    "tags": [
+      "近义词",
+      "语境理解"
+    ],
+    "estimatedTime": 45,
+    "reviewWeight": 1,
+    "version": 2,
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T08:00:00.000Z"
+  },
+  {
+    "questionId": "Q-N2-SYN-0009",
+    "level": "N2",
+    "section": "vocabulary",
+    "type": "synonym",
+    "subType": "contextual_synonym",
+    "prompt": "この金額はサービスの内容から考えて妥当だ。「妥当」に最も近い意味はどれか。",
+    "choices": {
+      "A": "複雑だ",
+      "B": "不十分だ",
+      "C": "意外だ",
+      "D": "適切だ"
+    },
+    "correctAnswer": "D",
+    "explanation": "知识点：妥当＝適切（妥当；合理）。正确答案：D。正确理由：「妥当」表示合理、适当。 选项分析：A「複雑だ」：错误。「複雑だ」表示“复杂”，与题干中目标词的语境意义不相同。 B「不十分だ」：错误。「不十分だ」表示“不充分”，与题干中目标词的语境意义不相同。 C「意外だ」：错误。「意外だ」表示“意外”，与题干中目标词的语境意义不相同。 D「適切だ」：正确。「妥当」表示合理、适当。 类似例句：妥当な判断だ。",
+    "knowledgePointIds": [
+      "KP-SYN-DATO-001"
+    ],
+    "knowledgePointTitles": [
+      "妥当＝適切"
+    ],
+    "difficulty": 2,
+    "sourceType": "ai_generated",
+    "sourceName": "JLPT N2 AI Learning System",
+    "tags": [
+      "近义词",
+      "语境理解"
+    ],
+    "estimatedTime": 45,
+    "reviewWeight": 1,
+    "version": 2,
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T08:00:00.000Z"
+  },
+  {
+    "questionId": "Q-N2-SYN-0010",
+    "level": "N2",
+    "section": "vocabulary",
+    "type": "synonym",
+    "subType": "contextual_synonym",
+    "prompt": "申込書では不要な項目を省いてください。「省く」に最も近い意味はどれか。",
+    "choices": {
+      "A": "取り除く",
+      "B": "付け加える",
+      "C": "繰り返す",
+      "D": "比べる"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：省く＝取り除く（省略；去除）。正确答案：A。正确理由：「省く」表示去掉不需要的部分。 选项分析：A「取り除く」：正确。「省く」表示去掉不需要的部分。 B「付け加える」：错误。「付け加える」表示“追加”，与题干中目标词的语境意义不相同。 C「繰り返す」：错误。「繰り返す」表示“重复”，与题干中目标词的语境意义不相同。 D「比べる」：错误。「比べる」表示“比较”，与题干中目标词的语境意义不相同。 类似例句：説明を省く。",
+    "knowledgePointIds": [
+      "KP-SYN-HABUKU-001"
+    ],
+    "knowledgePointTitles": [
+      "省く＝取り除く"
+    ],
+    "difficulty": 2,
+    "sourceType": "ai_generated",
+    "sourceName": "JLPT N2 AI Learning System",
+    "tags": [
+      "近义词",
+      "语境理解"
+    ],
+    "estimatedTime": 45,
+    "reviewWeight": 1,
+    "version": 2,
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T08:00:00.000Z"
+  },
+  {
+    "questionId": "Q-N2-GRC-0006",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "grammar_sentence_completion",
+    "prompt": "このかばんは買った（　　　）、まだ一度も使っていない。",
+    "choices": {
+      "A": "ものなら",
+      "B": "ものの",
+      "C": "ものだから",
+      "D": "ものを"
+    },
+    "correctAnswer": "B",
+    "explanation": "知识点：～ものの（虽然……但是……）。正确答案：B。正确理由：「～ものの」表示承认前项但后项与预期相反。 选项分析：A「ものなら」：错误。「ものなら」表示假设能够做到某事，不符合本句要求的接续、因果、推断或转折关系。 B「ものの」：正确。「～ものの」表示承认前项但后项与预期相反。 C「ものだから」：错误。「ものだから」带解释语气说明原因，不符合本句要求的接续、因果、推断或转折关系。 D「ものを」：错误。「ものを」表示遗憾或责备的逆接，不符合本句要求的接续、因果、推断或转折关系。 类似例句：買ったものの、使っていない。",
+    "knowledgePointIds": [
+      "KP-GRA-MONONO-001"
+    ],
+    "knowledgePointTitles": [
+      "～ものの"
+    ],
+    "difficulty": 2,
+    "sourceType": "ai_generated",
+    "sourceName": "JLPT N2 AI Learning System",
+    "tags": [
+      "文法",
+      "接续"
+    ],
+    "estimatedTime": 60,
+    "reviewWeight": 1,
+    "version": 2,
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T08:00:00.000Z"
+  },
+  {
+    "questionId": "Q-N2-GRC-0007",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "grammar_sentence_completion",
+    "prompt": "準備はした（　　　）、本番では緊張して力を出せなかった。",
+    "choices": {
+      "A": "ところで",
+      "B": "ばかりに",
+      "C": "ものの",
+      "D": "ながらも"
+    },
+    "correctAnswer": "C",
+    "explanation": "知识点：～ものの（虽然……但是……）。正确答案：C。正确理由：前后形成转折，使用「ものの」。 选项分析：A「ところで」：错误。「ところで」表示转换话题，或接在过去式后表示即使做也无效，不符合本句要求的接续、因果、推断或转折关系。 B「ばかりに」：错误。「ばかりに」表示仅因某原因导致不良结果，不符合本句要求的接续、因果、推断或转折关系。 C「ものの」：正确。前后形成转折，使用「ものの」。 D「ながらも」：错误。「ながらも」表示虽保持前项状态但出现转折，不符合本句要求的接续、因果、推断或转折关系。 类似例句：買ったものの、使っていない。",
+    "knowledgePointIds": [
+      "KP-GRA-MONONO-001"
+    ],
+    "knowledgePointTitles": [
+      "～ものの"
+    ],
+    "difficulty": 3,
+    "sourceType": "ai_generated",
+    "sourceName": "JLPT N2 AI Learning System",
+    "tags": [
+      "文法",
+      "接续"
+    ],
+    "estimatedTime": 60,
+    "reviewWeight": 1,
+    "version": 2,
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T08:00:00.000Z"
+  },
+  {
+    "questionId": "Q-N2-GRC-0008",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "grammar_sentence_completion",
+    "prompt": "説明を聞いて理解した（　　　）、実際にやるのは難しい。",
+    "choices": {
+      "A": "あげく",
+      "B": "うえで",
+      "C": "最中に",
+      "D": "ものの"
+    },
+    "correctAnswer": "D",
+    "explanation": "知识点：～ものの（虽然……但是……）。正确答案：D。正确理由：「理解したものの」表示虽然理解但仍有困难。 选项分析：A「あげく」：错误。「あげく」表示经过长期过程后得到通常不理想的结果，不符合本句要求的接续、因果、推断或转折关系。 B「うえで」：错误。「うえで」表示在做前项之后或在某方面，不符合本句要求的接续、因果、推断或转折关系。 C「最中に」：错误。「最中に」表示正处于某动作进行中，不符合本句要求的接续、因果、推断或转折关系。 D「ものの」：正确。「理解したものの」表示虽然理解但仍有困难。 类似例句：買ったものの、使っていない。",
+    "knowledgePointIds": [
+      "KP-GRA-MONONO-001"
+    ],
+    "knowledgePointTitles": [
+      "～ものの"
+    ],
+    "difficulty": 3,
+    "sourceType": "ai_generated",
+    "sourceName": "JLPT N2 AI Learning System",
+    "tags": [
+      "文法",
+      "接续"
+    ],
+    "estimatedTime": 60,
+    "reviewWeight": 1,
+    "version": 2,
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T08:00:00.000Z"
+  },
+  {
+    "questionId": "Q-N2-GRC-0009",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "grammar_sentence_completion",
+    "prompt": "これだけ多くの証拠があるのだから、彼が犯人に（　　　）。",
+    "choices": {
+      "A": "違いない",
+      "B": "すぎない",
+      "C": "決まらない",
+      "D": "ほかない"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～に違いない（一定；肯定）。正确答案：A。正确理由：「～に違いない」表示有根据的强烈判断。 选项分析：A「違いない」：正确。「～に違いない」表示有根据的强烈判断。 B「すぎない」：错误。「すぎない」与「に」组合后表示只不过，不符合本句要求的接续、因果、推断或转折关系。 C「決まらない」：错误。「決まらない」不是表示确信推断的固定形式，不符合本句要求的接续、因果、推断或转折关系。 D「ほかない」：错误。「ほかない」表示除此之外别无办法，不符合本句要求的接续、因果、推断或转折关系。 类似例句：彼に違いない。",
+    "knowledgePointIds": [
+      "KP-GRA-NICHIGAINAI-001"
+    ],
+    "knowledgePointTitles": [
+      "～に違いない"
+    ],
+    "difficulty": 2,
+    "sourceType": "ai_generated",
+    "sourceName": "JLPT N2 AI Learning System",
+    "tags": [
+      "文法",
+      "接续"
+    ],
+    "estimatedTime": 60,
+    "reviewWeight": 1,
+    "version": 2,
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T08:00:00.000Z"
+  },
+  {
+    "questionId": "Q-N2-GRC-0010",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "grammar_sentence_completion",
+    "prompt": "あの表情を見ると、何か心配事があるに（　　　）。",
+    "choices": {
+      "A": "限らない",
+      "B": "違いない",
+      "C": "すぎない",
+      "D": "ならない"
+    },
+    "correctAnswer": "B",
+    "explanation": "知识点：～に違いない（一定；肯定）。正确答案：B。正确理由：根据表情作强烈推断，使用「に違いない」。 选项分析：A「限らない」：错误。「限らない」与「とは」组合表示不一定，不符合本句要求的接续、因果、推断或转折关系。 B「違いない」：正确。根据表情作强烈推断，使用「に違いない」。 C「すぎない」：错误。「すぎない」与「に」组合后表示只不过，不符合本句要求的接续、因果、推断或转折关系。 D「ならない」：错误。「ならない」用于义务或自然感情等表达，不符合本句要求的接续、因果、推断或转折关系。 类似例句：彼に違いない。",
+    "knowledgePointIds": [
+      "KP-GRA-NICHIGAINAI-001"
+    ],
+    "knowledgePointTitles": [
+      "～に違いない"
+    ],
+    "difficulty": 2,
+    "sourceType": "ai_generated",
+    "sourceName": "JLPT N2 AI Learning System",
+    "tags": [
+      "文法",
+      "接续"
+    ],
+    "estimatedTime": 60,
+    "reviewWeight": 1,
+    "version": 2,
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T08:00:00.000Z"
+  },
+  {
+    "questionId": "Q-N2-GRC-0011",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "grammar_sentence_completion",
+    "prompt": "十年も海外で働いていたのだから、英語が上手な（　　　）。",
+    "choices": {
+      "A": "わけがない",
+      "B": "ことはない",
+      "C": "に違いない",
+      "D": "ほかならない"
+    },
+    "correctAnswer": "C",
+    "explanation": "知识点：～に違いない（一定；肯定）。正确答案：C。正确理由：前项是推断依据，后项用「に違いない」。 选项分析：A「わけがない」：错误。「わけがない」表示不可能，不符合本句要求的接续、因果、推断或转折关系。 B「ことはない」：错误。「ことはない」表示没有必要或不会发生，不符合本句要求的接续、因果、推断或转折关系。 C「に違いない」：正确。前项是推断依据，后项用「に違いない」。 D「ほかならない」：错误。「ほかならない」与「に」组合强调正是某事，不符合本句要求的接续、因果、推断或转折关系。 类似例句：彼に違いない。",
+    "knowledgePointIds": [
+      "KP-GRA-NICHIGAINAI-001"
+    ],
+    "knowledgePointTitles": [
+      "～に違いない"
+    ],
+    "difficulty": 2,
+    "sourceType": "ai_generated",
+    "sourceName": "JLPT N2 AI Learning System",
+    "tags": [
+      "文法",
+      "接续"
+    ],
+    "estimatedTime": 60,
+    "reviewWeight": 1,
+    "version": 2,
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T08:00:00.000Z"
+  },
+  {
+    "questionId": "Q-N2-GRC-0012",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "grammar_sentence_completion",
+    "prompt": "個人情報を不用意に公開すると、悪用され（　　　）。",
+    "choices": {
+      "A": "きれない",
+      "B": "すぎない",
+      "C": "はじめない",
+      "D": "かねない"
+    },
+    "correctAnswer": "D",
+    "explanation": "知识点：～かねない（有可能（发生坏事））。正确答案：D。正确理由：「～かねない」表示可能发生不良结果。 选项分析：A「きれない」：错误。「きれない」表示无法彻底完成，不符合本句要求的接续、因果、推断或转折关系。 B「すぎない」：错误。「すぎない」与「に」组合后表示只不过，不符合本句要求的接续、因果、推断或转折关系。 C「はじめない」：错误。「はじめない」表示没有开始，不表示负面可能性，不符合本句要求的接续、因果、推断或转折关系。 D「かねない」：正确。「～かねない」表示可能发生不良结果。 类似例句：事故になりかねない。",
+    "knowledgePointIds": [
+      "KP-GRA-KANENAI-001"
+    ],
+    "knowledgePointTitles": [
+      "～かねない"
+    ],
+    "difficulty": 2,
+    "sourceType": "ai_generated",
+    "sourceName": "JLPT N2 AI Learning System",
+    "tags": [
+      "文法",
+      "接续"
+    ],
+    "estimatedTime": 60,
+    "reviewWeight": 1,
+    "version": 2,
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T08:00:00.000Z"
+  },
+  {
+    "questionId": "Q-N2-GRC-0013",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "grammar_sentence_completion",
+    "prompt": "無理な計画を続ければ、会社の信用を失い（　　　）。",
+    "choices": {
+      "A": "かねない",
+      "B": "かねる",
+      "C": "ようがない",
+      "D": "にくい"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～かねない（有可能（发生坏事））。正确答案：A。正确理由：负面可能性用「～かねない」。 选项分析：A「かねない」：正确。负面可能性用「～かねない」。 B「かねる」：错误。「かねる」表示难以做到或婉拒，不符合本句要求的接续、因果、推断或转折关系。 C「ようがない」：错误。「ようがない」表示没有办法，不符合本句要求的接续、因果、推断或转折关系。 D「にくい」：错误。「にくい」表示动作难以进行，不符合本句要求的接续、因果、推断或转折关系。 类似例句：事故になりかねない。",
+    "knowledgePointIds": [
+      "KP-GRA-KANENAI-001"
+    ],
+    "knowledgePointTitles": [
+      "～かねない"
+    ],
+    "difficulty": 3,
+    "sourceType": "ai_generated",
+    "sourceName": "JLPT N2 AI Learning System",
+    "tags": [
+      "文法",
+      "接续"
+    ],
+    "estimatedTime": 60,
+    "reviewWeight": 1,
+    "version": 2,
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T08:00:00.000Z"
+  },
+  {
+    "questionId": "Q-N2-GRC-0014",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "grammar_sentence_completion",
+    "prompt": "このまま雨が降り続けば、川があふれ（　　　）。",
+    "choices": {
+      "A": "っこない",
+      "B": "かねない",
+      "C": "ざるを得ない",
+      "D": "てならない"
+    },
+    "correctAnswer": "B",
+    "explanation": "知识点：～かねない（有可能（发生坏事））。正确答案：B。正确理由：洪水是不希望发生的可能结果。 选项分析：A「っこない」：错误。「っこない」口语中表示绝不可能，不符合本句要求的接续、因果、推断或转折关系。 B「かねない」：正确。洪水是不希望发生的可能结果。 C「ざるを得ない」：错误。「ざるを得ない」表示不得不做，不符合本句要求的接续、因果、推断或转折关系。 D「てならない」：错误。「てならない」表示某种感情或感觉强烈得无法控制，不符合本句要求的接续、因果、推断或转折关系。 类似例句：事故になりかねない。",
+    "knowledgePointIds": [
+      "KP-GRA-KANENAI-001"
+    ],
+    "knowledgePointTitles": [
+      "～かねない"
+    ],
+    "difficulty": 2,
+    "sourceType": "ai_generated",
+    "sourceName": "JLPT N2 AI Learning System",
+    "tags": [
+      "文法",
+      "接续"
+    ],
+    "estimatedTime": 60,
+    "reviewWeight": 1,
+    "version": 2,
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T08:00:00.000Z"
+  },
+  {
+    "questionId": "Q-N2-GRC-0015",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "grammar_sentence_completion",
+    "prompt": "技術の進歩に（　　　）、私たちの働き方も変化している。",
+    "choices": {
+      "A": "ついて",
+      "B": "対して",
+      "C": "ともなって",
+      "D": "わたって"
+    },
+    "correctAnswer": "C",
+    "explanation": "知识点：～に伴って（随着；伴随）。正确答案：C。正确理由：「～にともなって」表示伴随变化。 选项分析：A「ついて」：错误。「ついて」与「に」组合表示关于，不符合本句要求的接续、因果、推断或转折关系。 B「対して」：错误。「対して」表示对象或对比，不符合本句要求的接续、因果、推断或转折关系。 C「ともなって」：正确。「～にともなって」表示伴随变化。 D「わたって」：错误。「わたって」与「に」组合表示跨越范围或期间，不符合本句要求的接续、因果、推断或转折关系。 类似例句：人口増加にともなって変化する。",
+    "knowledgePointIds": [
+      "KP-GRA-NITOMONATTE-001"
+    ],
+    "knowledgePointTitles": [
+      "～に伴って"
+    ],
+    "difficulty": 2,
+    "sourceType": "ai_generated",
+    "sourceName": "JLPT N2 AI Learning System",
+    "tags": [
+      "文法",
+      "接续"
+    ],
+    "estimatedTime": 60,
+    "reviewWeight": 1,
+    "version": 2,
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T08:00:00.000Z"
+  },
+  {
+    "questionId": "Q-N2-GRC-0016",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "grammar_sentence_completion",
+    "prompt": "年齢を重ねるに（　　　）、健康への関心が高くなった。",
+    "choices": {
+      "A": "かかわらず",
+      "B": "先立って",
+      "C": "応じて",
+      "D": "ともなって"
+    },
+    "correctAnswer": "D",
+    "explanation": "知识点：～に伴って（随着；伴随）。正确答案：D。正确理由：年龄增长与关注健康同步变化。 选项分析：A「かかわらず」：错误。「かかわらず」表示不受前项条件影响，不符合本句要求的接续、因果、推断或转折关系。 B「先立って」：错误。「先立って」与「に」组合表示在某事之前，不符合本句要求的接续、因果、推断或转折关系。 C「応じて」：错误。「応じて」与「に」组合表示根据情况相应变化，不符合本句要求的接续、因果、推断或转折关系。 D「ともなって」：正确。年龄增长与关注健康同步变化。 类似例句：人口増加にともなって変化する。",
+    "knowledgePointIds": [
+      "KP-GRA-NITOMONATTE-001"
+    ],
+    "knowledgePointTitles": [
+      "～に伴って"
+    ],
+    "difficulty": 2,
+    "sourceType": "ai_generated",
+    "sourceName": "JLPT N2 AI Learning System",
+    "tags": [
+      "文法",
+      "接续"
+    ],
+    "estimatedTime": 60,
+    "reviewWeight": 1,
+    "version": 2,
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T08:00:00.000Z"
+  },
+  {
+    "questionId": "Q-N2-GRC-0017",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "grammar_sentence_completion",
+    "prompt": "利用者の増加に（　　　）、サーバーを増設することになった。",
+    "choices": {
+      "A": "ともなって",
+      "B": "比べて",
+      "C": "限って",
+      "D": "反して"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～に伴って（随着；伴随）。正确答案：A。正确理由：伴随使用人数增加而扩充服务器。 选项分析：A「ともなって」：正确。伴随使用人数增加而扩充服务器。 B「比べて」：错误。「比べて」与「に」组合表示比较，不符合本句要求的接续、因果、推断或转折关系。 C「限って」：错误。「限って」与「に」组合表示限定或偏偏，不符合本句要求的接续、因果、推断或转折关系。 D「反して」：错误。「反して」与「に」组合表示相反，不符合本句要求的接续、因果、推断或转折关系。 类似例句：人口増加にともなって変化する。",
+    "knowledgePointIds": [
+      "KP-GRA-NITOMONATTE-001"
+    ],
+    "knowledgePointTitles": [
+      "～に伴って"
+    ],
+    "difficulty": 2,
+    "sourceType": "ai_generated",
+    "sourceName": "JLPT N2 AI Learning System",
+    "tags": [
+      "文法",
+      "接续"
+    ],
+    "estimatedTime": 60,
+    "reviewWeight": 1,
+    "version": 2,
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T08:00:00.000Z"
+  },
+  {
+    "questionId": "Q-N2-GRC-0018",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "grammar_sentence_completion",
+    "prompt": "道路が凍っている（　　　）、今朝のバスは運休となった。",
+    "choices": {
+      "A": "ことなく",
+      "B": "ことから",
+      "C": "ことには",
+      "D": "こととて"
+    },
+    "correctAnswer": "B",
+    "explanation": "知识点：～ことから（由于；从……来看）。正确答案：B。正确理由：「～ことから」在此说明判断或结果的原因。 选项分析：A「ことなく」：错误。「ことなく」表示没有做某事而进行后项，不符合本句要求的接续、因果、推断或转折关系。 B「ことから」：正确。「～ことから」在此说明判断或结果的原因。 C「ことには」：错误。「ことには」常用于评价性表达或条件结构，不符合本句要求的接续、因果、推断或转折关系。 D「こととて」：错误。「こととて」表示因特殊情况而请求谅解，不符合本句要求的接续、因果、推断或转折关系。 类似例句：形が似ていることから名付けられた。",
+    "knowledgePointIds": [
+      "KP-GRA-KOTOKARA-001"
+    ],
+    "knowledgePointTitles": [
+      "～ことから"
+    ],
+    "difficulty": 2,
+    "sourceType": "ai_generated",
+    "sourceName": "JLPT N2 AI Learning System",
+    "tags": [
+      "文法",
+      "接续"
+    ],
+    "estimatedTime": 60,
+    "reviewWeight": 1,
+    "version": 2,
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T08:00:00.000Z"
+  },
+  {
+    "questionId": "Q-N2-GRC-0019",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "grammar_sentence_completion",
+    "prompt": "この鳥は羽の色が美しい（　　　）、『森の宝石』と呼ばれている。",
+    "choices": {
+      "A": "ことなく",
+      "B": "ことには",
+      "C": "ことから",
+      "D": "ことだし"
+    },
+    "correctAnswer": "C",
+    "explanation": "知识点：～ことから（由于；从……来看）。正确答案：C。正确理由：因羽毛美丽而得到称呼，使用「ことから」。 选项分析：A「ことなく」：错误。「ことなく」表示没有做某事而进行后项，不符合本句要求的接续、因果、推断或转折关系。 B「ことには」：错误。「ことには」常用于评价性表达或条件结构，不符合本句要求的接续、因果、推断或转折关系。 C「ことから」：正确。因羽毛美丽而得到称呼，使用「ことから」。 D「ことだし」：错误。「ことだし」列举理由并暗示还有其他理由，不符合本句要求的接续、因果、推断或转折关系。 类似例句：形が似ていることから名付けられた。",
+    "knowledgePointIds": [
+      "KP-GRA-KOTOKARA-001"
+    ],
+    "knowledgePointTitles": [
+      "～ことから"
+    ],
+    "difficulty": 2,
+    "sourceType": "ai_generated",
+    "sourceName": "JLPT N2 AI Learning System",
+    "tags": [
+      "文法",
+      "接续"
+    ],
+    "estimatedTime": 60,
+    "reviewWeight": 1,
+    "version": 2,
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T08:00:00.000Z"
+  },
+  {
+    "questionId": "Q-N2-GRC-0020",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "grammar_sentence_completion",
+    "prompt": "古い文書が見つかった（　　　）、この建物の年代が明らかになった。",
+    "choices": {
+      "A": "ことまで",
+      "B": "ことなしに",
+      "C": "ことには",
+      "D": "ことから"
+    },
+    "correctAnswer": "D",
+    "explanation": "知识点：～ことから（由于；从……来看）。正确答案：D。正确理由：前项是得出后项结论的依据。 选项分析：A「ことまで」：错误。「ことまで」表示程度扩展到某事，不符合本句要求的接续、因果、推断或转折关系。 B「ことなしに」：错误。「ことなしに」表示不做前项就无法或不会发生后项，不符合本句要求的接续、因果、推断或转折关系。 C「ことには」：错误。「ことには」常用于评价性表达或条件结构，不符合本句要求的接续、因果、推断或转折关系。 D「ことから」：正确。前项是得出后项结论的依据。 类似例句：形が似ていることから名付けられた。",
+    "knowledgePointIds": [
+      "KP-GRA-KOTOKARA-001"
+    ],
+    "knowledgePointTitles": [
+      "～ことから"
+    ],
+    "difficulty": 3,
+    "sourceType": "ai_generated",
+    "sourceName": "JLPT N2 AI Learning System",
+    "tags": [
+      "文法",
+      "接续"
+    ],
+    "estimatedTime": 60,
+    "reviewWeight": 1,
+    "version": 2,
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T08:00:00.000Z"
+  },
+  {
+    "questionId": "Q-N2-GRM-0006",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_meaning",
+    "subType": "grammar_paraphrase",
+    "prompt": "「彼の意見に反対しているわけではない。」と意味が最も近いものはどれか。",
+    "choices": {
+      "A": "彼の意見を全面的に否定しているのではない",
+      "B": "彼の意見には必ず反対する",
+      "C": "彼は意見を言っていない",
+      "D": "彼の意見を理解できない"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～わけではない（并非；并不是说）。正确答案：A。正确理由：「～わけではない」表示并非完全如此。 选项分析：A「彼の意見を全面的に否定しているのではない」：正确。「～わけではない」表示并非完全如此。 B「彼の意見には必ず反対する」：错误。该项把原句改写为“彼の意見には必ず反対する”，与目标文法所表达的范围、语气或逻辑关系不一致。 C「彼は意見を言っていない」：错误。该项把原句改写为“彼は意見を言っていない”，与目标文法所表达的范围、语气或逻辑关系不一致。 D「彼の意見を理解できない」：错误。该项把原句改写为“彼の意見を理解できない”，与目标文法所表达的范围、语气或逻辑关系不一致。 类似例句：嫌いなわけではない。",
+    "knowledgePointIds": [
+      "KP-GRA-WAKEDEWANAI-001"
+    ],
+    "knowledgePointTitles": [
+      "～わけではない"
+    ],
+    "difficulty": 2,
+    "sourceType": "ai_generated",
+    "sourceName": "JLPT N2 AI Learning System",
+    "tags": [
+      "文法",
+      "句意理解"
+    ],
+    "estimatedTime": 75,
+    "reviewWeight": 1,
+    "version": 2,
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T08:00:00.000Z"
+  },
+  {
+    "questionId": "Q-N2-GRM-0007",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_meaning",
+    "subType": "grammar_paraphrase",
+    "prompt": "「値段は高いが、買えないことはない。」と意味が最も近いものはどれか。",
+    "choices": {
+      "A": "高すぎて絶対に買えない",
+      "B": "高いが買うことは可能だ",
+      "C": "安いので買うつもりだ",
+      "D": "買う必要はまったくない"
+    },
+    "correctAnswer": "B",
+    "explanation": "知识点：～ないことはない（并非不能；也不是不）。正确答案：B。正确理由：「～ないことはない」表示并非不可能。 选项分析：A「高すぎて絶対に買えない」：错误。该项把原句改写为“高すぎて絶対に買えない”，与目标文法所表达的范围、语气或逻辑关系不一致。 B「高いが買うことは可能だ」：正确。「～ないことはない」表示并非不可能。 C「安いので買うつもりだ」：错误。该项把原句改写为“安いので買うつもりだ”，与目标文法所表达的范围、语气或逻辑关系不一致。 D「買う必要はまったくない」：错误。该项把原句改写为“買う必要はまったくない”，与目标文法所表达的范围、语气或逻辑关系不一致。 类似例句：食べられないことはない。",
+    "knowledgePointIds": [
+      "KP-GRA-NAIKOTOWANAI-001"
+    ],
+    "knowledgePointTitles": [
+      "～ないことはない"
+    ],
+    "difficulty": 2,
+    "sourceType": "ai_generated",
+    "sourceName": "JLPT N2 AI Learning System",
+    "tags": [
+      "文法",
+      "句意理解"
+    ],
+    "estimatedTime": 75,
+    "reviewWeight": 1,
+    "version": 2,
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T08:00:00.000Z"
+  },
+  {
+    "questionId": "Q-N2-GRM-0008",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_meaning",
+    "subType": "grammar_paraphrase",
+    "prompt": "「彼女は料理が苦手どころか、プロとして店を開いている。」と意味が最も近いものはどれか。",
+    "choices": {
+      "A": "料理が苦手なので店を閉めた",
+      "B": "料理はできるが仕事にはしていない",
+      "C": "料理が苦手なのではなく非常に上手だ",
+      "D": "店では料理を作っていない"
+    },
+    "correctAnswer": "C",
+    "explanation": "知识点：～どころか（别说……；岂止……）。正确答案：C。正确理由：「～どころか」表示实际情况远超或完全相反。 选项分析：A「料理が苦手なので店を閉めた」：错误。该项把原句改写为“料理が苦手なので店を閉めた”，与目标文法所表达的范围、语气或逻辑关系不一致。 B「料理はできるが仕事にはしていない」：错误。该项把原句改写为“料理はできるが仕事にはしていない”，与目标文法所表达的范围、语气或逻辑关系不一致。 C「料理が苦手なのではなく非常に上手だ」：正确。「～どころか」表示实际情况远超或完全相反。 D「店では料理を作っていない」：错误。该项把原句改写为“店では料理を作っていない”，与目标文法所表达的范围、语气或逻辑关系不一致。 类似例句：苦手どころか、プロだ。",
+    "knowledgePointIds": [
+      "KP-GRA-DOKOROKA-001"
+    ],
+    "knowledgePointTitles": [
+      "～どころか"
+    ],
+    "difficulty": 2,
+    "sourceType": "ai_generated",
+    "sourceName": "JLPT N2 AI Learning System",
+    "tags": [
+      "文法",
+      "句意理解"
+    ],
+    "estimatedTime": 75,
+    "reviewWeight": 1,
+    "version": 2,
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T08:00:00.000Z"
+  },
+  {
+    "questionId": "Q-N2-GRM-0009",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_meaning",
+    "subType": "grammar_paraphrase",
+    "prompt": "「この事故は、確認不足が原因にほかならない。」と意味が最も近いものはどれか。",
+    "choices": {
+      "A": "確認不足とは関係がない",
+      "B": "事故の原因はまだ不明だ",
+      "C": "確認する必要はなかった",
+      "D": "事故の原因はまさに確認不足だ"
+    },
+    "correctAnswer": "D",
+    "explanation": "知识点：～にほかならない（正是；无非是）。正确答案：D。正确理由：「～にほかならない」强调正是、无非是。 选项分析：A「確認不足とは関係がない」：错误。该项把原句改写为“確認不足とは関係がない”，与目标文法所表达的范围、语气或逻辑关系不一致。 B「事故の原因はまだ不明だ」：错误。该项把原句改写为“事故の原因はまだ不明だ”，与目标文法所表达的范围、语气或逻辑关系不一致。 C「確認する必要はなかった」：错误。该项把原句改写为“確認する必要はなかった”，与目标文法所表达的范围、语气或逻辑关系不一致。 D「事故の原因はまさに確認不足だ」：正确。「～にほかならない」强调正是、无非是。 类似例句：努力の結果にほかならない。",
+    "knowledgePointIds": [
+      "KP-GRA-NIHOKANARANAI-001"
+    ],
+    "knowledgePointTitles": [
+      "～にほかならない"
+    ],
+    "difficulty": 2,
+    "sourceType": "ai_generated",
+    "sourceName": "JLPT N2 AI Learning System",
+    "tags": [
+      "文法",
+      "句意理解"
+    ],
+    "estimatedTime": 75,
+    "reviewWeight": 1,
+    "version": 2,
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T08:00:00.000Z"
+  },
+  {
+    "questionId": "Q-N2-GRM-0010",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_meaning",
+    "subType": "grammar_paraphrase",
+    "prompt": "「規則なので、申請をやり直さざるを得ない。」と意味が最も近いものはどれか。",
+    "choices": {
+      "A": "望んではいないが申請をやり直す必要がある",
+      "B": "申請をやり直してはいけない",
+      "C": "申請をやり直すかどうか自由だ",
+      "D": "規則を変えることにした"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～ざるを得ない（不得不）。正确答案：A。正确理由：「～ざるを得ない」表示虽不情愿但不得不做。 选项分析：A「望んではいないが申請をやり直す必要がある」：正确。「～ざるを得ない」表示虽不情愿但不得不做。 B「申請をやり直してはいけない」：错误。该项把原句改写为“申請をやり直してはいけない”，与目标文法所表达的范围、语气或逻辑关系不一致。 C「申請をやり直すかどうか自由だ」：错误。该项把原句改写为“申請をやり直すかどうか自由だ”，与目标文法所表达的范围、语气或逻辑关系不一致。 D「規則を変えることにした」：错误。该项把原句改写为“規則を変えることにした”，与目标文法所表达的范围、语气或逻辑关系不一致。 类似例句：中止せざるを得ない。",
+    "knowledgePointIds": [
+      "KP-GRA-ZARUOENAI-001"
+    ],
+    "knowledgePointTitles": [
+      "～ざるを得ない"
+    ],
+    "difficulty": 2,
+    "sourceType": "ai_generated",
+    "sourceName": "JLPT N2 AI Learning System",
+    "tags": [
+      "文法",
+      "句意理解"
+    ],
+    "estimatedTime": 75,
+    "reviewWeight": 1,
+    "version": 2,
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T08:00:00.000Z"
+  },
+  {
+    "questionId": "Q-N2-READ-0006",
+    "level": "N2",
+    "section": "reading",
+    "type": "short_reading",
+    "subType": "short_text_comprehension",
+    "prompt": "【施設からのお知らせ】\n温水プールは清掃作業のため、9月2日（月）の午前中は利用できません。午後1時から通常どおり開館します。トレーニング室は終日利用できます。\n\n9月2日について正しいものはどれか。",
+    "choices": {
+      "A": "施設全体が一日中休みだ",
+      "B": "プールは午後1時から利用できる",
+      "C": "トレーニング室は午前中休みだ",
+      "D": "プールは午前中だけ利用できる"
+    },
+    "correctAnswer": "B",
+    "explanation": "知识点：通知文の条件整理（通知信息定位）。正确答案：B。正确理由：通知说明泳池上午关闭、下午1点恢复，训练室全天开放。 选项分析：A「施設全体が一日中休みだ」：错误。该项声称“施設全体が一日中休みだ”，但原文没有给出这一信息，或与原文明确的时间、条件、行动和结论相反。 B「プールは午後1時から利用できる」：正确。通知说明泳池上午关闭、下午1点恢复，训练室全天开放。 C「トレーニング室は午前中休みだ」：错误。该项声称“トレーニング室は午前中休みだ”，但原文没有给出这一信息，或与原文明确的时间、条件、行动和结论相反。 D「プールは午前中だけ利用できる」：错误。该项声称“プールは午前中だけ利用できる”，但原文没有给出这一信息，或与原文明确的时间、条件、行动和结论相反。 类似例句：休馆时间与例外条件を確認する。",
+    "knowledgePointIds": [
+      "KP-READ-NOTICE-001"
+    ],
+    "knowledgePointTitles": [
+      "通知文の条件整理"
+    ],
+    "difficulty": 2,
+    "sourceType": "ai_generated",
+    "sourceName": "JLPT N2 AI Learning System",
+    "tags": [
+      "短篇阅读",
+      "信息理解"
+    ],
+    "estimatedTime": 180,
+    "reviewWeight": 1,
+    "version": 2,
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T08:00:00.000Z"
+  },
+  {
+    "questionId": "Q-N2-READ-0007",
+    "level": "N2",
+    "section": "reading",
+    "type": "short_reading",
+    "subType": "short_text_comprehension",
+    "prompt": "佐藤さんへ\n注文していた資料が届きました。会議で使う分は机の上に置いてあります。残りは資料室の棚に入れておいてください。私は午後から外出するので、急ぎの連絡は携帯電話にお願いします。\n鈴木\n\n佐藤さんがすることは何か。",
+    "choices": {
+      "A": "会議用の資料を注文する",
+      "B": "午後に資料を受け取りに行く",
+      "C": "残りの資料を資料室に置く",
+      "D": "鈴木さんの机を片づける"
+    },
+    "correctAnswer": "C",
+    "explanation": "知识点：依頼内容の特定（便条任务理解）。正确答案：C。正确理由：便条要求佐藤把剩余资料放入资料室。 选项分析：A「会議用の資料を注文する」：错误。该项声称“会議用の資料を注文する”，但原文没有给出这一信息，或与原文明确的时间、条件、行动和结论相反。 B「午後に資料を受け取りに行く」：错误。该项声称“午後に資料を受け取りに行く”，但原文没有给出这一信息，或与原文明确的时间、条件、行动和结论相反。 C「残りの資料を資料室に置く」：正确。便条要求佐藤把剩余资料放入资料室。 D「鈴木さんの机を片づける」：错误。该项声称“鈴木さんの机を片づける”，但原文没有给出这一信息，或与原文明确的时间、条件、行动和结论相反。 类似例句：誰が何をするか確認する。",
+    "knowledgePointIds": [
+      "KP-READ-MEMO-001"
+    ],
+    "knowledgePointTitles": [
+      "依頼内容の特定"
+    ],
+    "difficulty": 2,
+    "sourceType": "ai_generated",
+    "sourceName": "JLPT N2 AI Learning System",
+    "tags": [
+      "短篇阅读",
+      "信息理解"
+    ],
+    "estimatedTime": 180,
+    "reviewWeight": 1,
+    "version": 2,
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T08:00:00.000Z"
+  },
+  {
+    "questionId": "Q-N2-READ-0008",
+    "level": "N2",
+    "section": "reading",
+    "type": "short_reading",
+    "subType": "short_text_comprehension",
+    "prompt": "便利な道具が増えると、私たちは時間を節約できる。しかし、空いた時間にさらに予定を入れれば、結局忙しさは変わらない。大切なのは、道具で生まれた時間を何に使うかを自分で決めることだ。\n\n筆者が最も言いたいことは何か。",
+    "choices": {
+      "A": "便利な道具は使わないほうがよい",
+      "B": "予定は多いほど生活が充実する",
+      "C": "忙しさは道具だけで完全になくなる",
+      "D": "節約した時間の使い方を意識すべきだ"
+    },
+    "correctAnswer": "D",
+    "explanation": "知识点：筆者の主張（主旨理解）。正确答案：D。正确理由：重点不是工具本身，而是主动决定节省出的时间如何使用。 选项分析：A「便利な道具は使わないほうがよい」：错误。该项声称“便利な道具は使わないほうがよい”，但原文没有给出这一信息，或与原文明确的时间、条件、行动和结论相反。 B「予定は多いほど生活が充実する」：错误。该项声称“予定は多いほど生活が充実する”，但原文没有给出这一信息，或与原文明确的时间、条件、行动和结论相反。 C「忙しさは道具だけで完全になくなる」：错误。该项声称“忙しさは道具だけで完全になくなる”，但原文没有给出这一信息，或与原文明确的时间、条件、行动和结论相反。 D「節約した時間の使い方を意識すべきだ」：正确。重点不是工具本身，而是主动决定节省出的时间如何使用。 类似例句：筆者の主張を一文でまとめる。",
+    "knowledgePointIds": [
+      "KP-READ-MAINIDEA-001"
+    ],
+    "knowledgePointTitles": [
+      "筆者の主張"
+    ],
+    "difficulty": 3,
+    "sourceType": "ai_generated",
+    "sourceName": "JLPT N2 AI Learning System",
+    "tags": [
+      "短篇阅读",
+      "信息理解"
+    ],
+    "estimatedTime": 180,
+    "reviewWeight": 1,
+    "version": 2,
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T08:00:00.000Z"
+  },
+  {
+    "questionId": "Q-N2-READ-0009",
+    "level": "N2",
+    "section": "reading",
+    "type": "short_reading",
+    "subType": "short_text_comprehension",
+    "prompt": "地域交流会\n日時：10月12日（土）午前10時～正午\n会場：中央公民館\n参加費：無料\n申込：10月5日までに電話で\n※小学生以下は保護者と一緒に参加してください。\n\n交流会への参加について正しいものはどれか。",
+    "choices": {
+      "A": "小学生以下は保護者の同伴が必要だ",
+      "B": "参加するには料金が必要だ",
+      "C": "当日会場で申し込めばよい",
+      "D": "交流会は午後に行われる"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：案内文の対象条件（指南条件理解）。正确答案：A。正确理由：指南明确规定小学生及以下需与监护人一起参加。 选项分析：A「小学生以下は保護者の同伴が必要だ」：正确。指南明确规定小学生及以下需与监护人一起参加。 B「参加するには料金が必要だ」：错误。该项声称“参加するには料金が必要だ”，但原文没有给出这一信息，或与原文明确的时间、条件、行动和结论相反。 C「当日会場で申し込めばよい」：错误。该项声称“当日会場で申し込めばよい”，但原文没有给出这一信息，或与原文明确的时间、条件、行动和结论相反。 D「交流会は午後に行われる」：错误。该项声称“交流会は午後に行われる”，但原文没有给出这一信息，或与原文明确的时间、条件、行动和结论相反。 类似例句：申込条件を整理する。",
+    "knowledgePointIds": [
+      "KP-READ-GUIDE-001"
+    ],
+    "knowledgePointTitles": [
+      "案内文の対象条件"
+    ],
+    "difficulty": 2,
+    "sourceType": "ai_generated",
+    "sourceName": "JLPT N2 AI Learning System",
+    "tags": [
+      "短篇阅读",
+      "信息理解"
+    ],
+    "estimatedTime": 180,
+    "reviewWeight": 1,
+    "version": 2,
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T08:00:00.000Z"
+  },
+  {
+    "questionId": "Q-N2-READ-0010",
+    "level": "N2",
+    "section": "reading",
+    "type": "short_reading",
+    "subType": "short_text_comprehension",
+    "prompt": "私は通勤時間を短くするため、会社の近くへ引っ越した。ところが、帰宅が早くなった分、つい遅くまで仕事を引き受けるようになり、自由な時間は増えなかった。そこで最近は、帰る時間を先に決めてから一日の仕事を組み立てている。\n\n筆者が帰る時間を先に決めるようになったのはなぜか。",
+    "choices": {
+      "A": "会社から遠い場所へ引っ越したから",
+      "B": "通勤時間が減っても自由時間が増えなかったから",
+      "C": "朝の仕事を減らしたかったから",
+      "D": "通勤に以前より時間がかかるから"
+    },
+    "correctAnswer": "B",
+    "explanation": "知识点：理由の特定（原因理解）。正确答案：B。正确理由：搬家虽缩短通勤，但因加班自由时间未增加，因此先规定下班时间。 选项分析：A「会社から遠い場所へ引っ越したから」：错误。该项声称“会社から遠い場所へ引っ越したから”，但原文没有给出这一信息，或与原文明确的时间、条件、行动和结论相反。 B「通勤時間が減っても自由時間が増えなかったから」：正确。搬家虽缩短通勤，但因加班自由时间未增加，因此先规定下班时间。 C「朝の仕事を減らしたかったから」：错误。该项声称“朝の仕事を減らしたかったから”，但原文没有给出这一信息，或与原文明确的时间、条件、行动和结论相反。 D「通勤に以前より時間がかかるから」：错误。该项声称“通勤に以前より時間がかかるから”，但原文没有给出这一信息，或与原文明确的时间、条件、行动和结论相反。 类似例句：行動を変えた理由を探す。",
+    "knowledgePointIds": [
+      "KP-READ-REASON-001"
+    ],
+    "knowledgePointTitles": [
+      "理由の特定"
+    ],
+    "difficulty": 3,
+    "sourceType": "ai_generated",
+    "sourceName": "JLPT N2 AI Learning System",
+    "tags": [
+      "短篇阅读",
+      "信息理解"
+    ],
+    "estimatedTime": 180,
+    "reviewWeight": 1,
+    "version": 2,
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T08:00:00.000Z"
   }
 ]

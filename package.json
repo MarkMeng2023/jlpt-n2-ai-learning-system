@@ -4,6 +4,12 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "test": "node --test tests/*.test.js"
+    "validate:bank": "node scripts/validate-question-bank.js",
+    "validate:grammar": "node scripts/validate-grammar-map.js",
+    "report:grammar": "node scripts/generate-grammar-reports.js",
+    "report:factory": "node scripts/generate-question-factory-reports.js",
+    "report:quality": "node scripts/report-question-bank-quality.js --output reports/question-bank-quality.md",
+    "validate:quality": "node scripts/report-question-bank-quality.js --strict",
+    "test": "node scripts/validate-question-bank.js && node scripts/validate-grammar-map.js && node --test tests/*.test.js"
   }
 }

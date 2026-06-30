@@ -1,6 +1,6 @@
-# JLPT N2 AI Learning System — Sprint 4
+# JLPT N2 AI Learning System — Sprint 6
 
-Sprint 4 新增 Review Engine。首页根据 `answer_records` 自动生成今日计划，提供继续学习、今日复习、错题重做和随机练习四种模式；不包含 Dashboard、图表、AI 自动总结、知识图谱、登录。
+Sprint 6 暂停扩题，建立题库来源、知识点证据和质量门禁。现有 80 道题与 30 个知识点保持不变；只有来源验证、解析质量与人工审核达标后，才进入 300 题扩充阶段。Sprint 5 的标准化题库与 Sprint 4 的 Review Engine 继续保留。
 
 ## 本地启动与测试
 
@@ -13,8 +13,38 @@ python3 -m http.server 8000
 访问 `http://localhost:8000`。运行测试：
 
 ```bash
+npm run validate:bank
 npm test
 ```
+
+题库维护规范见 [`docs/question-bank-standard.md`](docs/question-bank-standard.md)。
+
+来源验证与扩题门禁见 [`docs/question-bank-source-strategy.md`](docs/question-bank-source-strategy.md)。生成当前质量基线：
+
+```bash
+npm run report:quality
+```
+
+Sprint 6.1 已补全全部 80 题解析：解析过短与未说明干扰项均降为 0。当前扩题门禁仍为 `HOLD`，剩余原因仅为 30 个知识点尚未登记独立验证来源；在来源验证完成前继续暂停扩题。
+
+Sprint 7.1 新增独立的 N2 Grammar Master Map，不修改题库或学习界面：
+
+```bash
+npm run validate:grammar
+npm run report:grammar
+```
+
+主数据库位于 `knowledge/grammar/`，覆盖报告位于 `knowledge/reports/grammar-coverage-report.md`。条目只有在独立来源证据完整后才能从 `draft` 改为 `verified`。
+
+Sprint 7.2 已按两个独立 N2 学习资料目录交叉验证首批30个文法点；其余50个继续保持 `draft`。验证详情见 `knowledge/reports/grammar-verification-report.md`。来源验证不等于JLPT官方认证，且在剩余条目完成前 Expansion gate 继续保持 `HOLD`。
+
+Sprint 8 新增 Knowledge Point Driven Question Factory。它按可配置的知识点目标题数生成覆盖报告与待补计划，不直接生成题目：
+
+```bash
+npm run report:factory
+```
+
+输出位于 `knowledge/reports/question-coverage-report.md` 和 `reports/question-generation-plan.md`。候选题进入正式题库前仍须通过 Question Validation、Question Review 与 Question Bank Validation。
 
 ## Review Engine 规则
 
@@ -27,11 +57,13 @@ Knowledge Status：
 
 今日复习先按 `weaknessScore` 降序，再依次比较最近答错、最近不确定、最近蒙对、距上次练习时间和知识点 ID。知识点内的题目同样使用固定排序，只有随机练习会打乱。
 
-默认选择最优先的 5 个非 NEW、非 MASTERED 知识点，每个知识点最多抽取 5 道关联题。题目必须在题库的 `knowledgePointIds` 中明确关联该知识点，且同一队列不重复题目。当前题库每个知识点只有 1 道关联题，因此会使用全部可用关联题；如需达到每点 2–5 题，需要继续补充同知识点题目。
+默认选择最优先的 5 个非 NEW、非 MASTERED 知识点，每个知识点最多抽取 5 道关联题。题目必须在题库的 `knowledgePointIds` 中明确关联该知识点，且同一队列不重复题目。Sprint 5 扩充后，每个现有知识点均有至少 2 道关联题。
 
 错题重做只收录存在 `isCorrect = false` 记录的题目。同一题只出现一次，按其最近一次错误时间倒序。
 
 ## Google Sheets 部署
+
+Sprint 5 没有修改 Apps Script 或 Google Sheets 表结构，因此从 Sprint 4 升级到 Sprint 5 不需要重新部署 Apps Script，也不需要重新运行 `setupSheets()`。以下步骤仅用于全新部署：
 
 1. 打开目标 Google Spreadsheet 的 Apps Script。
 2. 用 `apps-script/Code.gs` 替换脚本内容。

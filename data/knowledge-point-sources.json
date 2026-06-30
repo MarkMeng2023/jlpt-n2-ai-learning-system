@@ -1,0 +1,1752 @@
+[
+  {
+    "knowledgePointId": "KP-ADV-ARAKAJIME-001",
+    "validationStatus": "unverified",
+    "evidence": [],
+    "reviewNotes": "Sprint 6 baseline: pending independent source verification.",
+    "lastReviewedAt": null
+  },
+  {
+    "knowledgePointId": "KP-ADV-ISSO-001",
+    "validationStatus": "unverified",
+    "evidence": [],
+    "reviewNotes": "Sprint 6 baseline: pending independent source verification.",
+    "lastReviewedAt": null
+  },
+  {
+    "knowledgePointId": "KP-ADV-ROKUNI-001",
+    "validationStatus": "unverified",
+    "evidence": [],
+    "reviewNotes": "Sprint 6 baseline: pending independent source verification.",
+    "lastReviewedAt": null
+  },
+  {
+    "knowledgePointId": "KP-ADV-SHIKIRINI-001",
+    "validationStatus": "unverified",
+    "evidence": [],
+    "reviewNotes": "Sprint 6 baseline: pending independent source verification.",
+    "lastReviewedAt": null
+  },
+  {
+    "knowledgePointId": "KP-ADV-TAMATAMA-001",
+    "validationStatus": "unverified",
+    "evidence": [],
+    "reviewNotes": "Sprint 6 baseline: pending independent source verification.",
+    "lastReviewedAt": null
+  },
+  {
+    "knowledgePointId": "KP-GRA-AGEKU-001",
+    "title": "～あげく",
+    "sourceType": "trusted_learning_site",
+    "sourceName": "JLPT Sensei N2 Grammar List; JapaneseTest4You N2 Grammar List",
+    "verificationStatus": "verified",
+    "evidenceNote": "Cross-listed in two independent N2 grammar catalogs; meaning, structure, usage, relations, and original examples checked. Learning-resource verification only; not an official JLPT designation.",
+    "verifiedAt": "2026-06-30T09:00:00.000Z",
+    "validationStatus": "verified",
+    "evidence": [
+      {
+        "evidenceType": "high_trust_material",
+        "sourceName": "JLPT Sensei N2 Grammar List",
+        "sourceUrl": "https://jlptsensei.com/jlpt-n2-grammar-list/",
+        "citation": "N2 grammar catalog entry for ～あげく",
+        "usagePermission": "reference_only",
+        "verifiedBy": "Sprint 7.2 source review",
+        "verifiedAt": "2026-06-30T09:00:00.000Z"
+      },
+      {
+        "evidenceType": "high_trust_material",
+        "sourceName": "JapaneseTest4You N2 Grammar List",
+        "sourceUrl": "https://japanesetest4you.com/jlpt-n2-grammar-list/",
+        "citation": "N2 grammar catalog entry for ～あげく",
+        "usagePermission": "reference_only",
+        "verifiedBy": "Sprint 7.2 source review",
+        "verifiedAt": "2026-06-30T09:00:00.000Z"
+      }
+    ],
+    "reviewNotes": "Verified against two learning-resource catalogs; examples remain project-original.",
+    "lastReviewedAt": "2026-06-30T09:00:00.000Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-AMARI-001",
+    "title": "～あまり",
+    "sourceType": "ai_structured",
+    "sourceName": "Sprint 7.1 Grammar Master Map",
+    "verificationStatus": "unverified",
+    "evidenceNote": "Independent point-level source cross-check not completed; retain draft status.",
+    "verifiedAt": null,
+    "validationStatus": "unverified",
+    "evidence": [],
+    "reviewNotes": "Pending independent source verification.",
+    "lastReviewedAt": null
+  },
+  {
+    "knowledgePointId": "KP-GRA-BAKARIDA-001",
+    "title": "～ばかりだ",
+    "sourceType": "trusted_learning_site",
+    "sourceName": "JLPT Sensei N2 Grammar List; JapaneseTest4You N2 Grammar List",
+    "verificationStatus": "verified",
+    "evidenceNote": "Cross-listed in two independent N2 grammar catalogs; meaning, structure, usage, relations, and original examples checked. Learning-resource verification only; not an official JLPT designation.",
+    "verifiedAt": "2026-06-30T09:00:00.000Z",
+    "validationStatus": "verified",
+    "evidence": [
+      {
+        "evidenceType": "high_trust_material",
+        "sourceName": "JLPT Sensei N2 Grammar List",
+        "sourceUrl": "https://jlptsensei.com/jlpt-n2-grammar-list/",
+        "citation": "N2 grammar catalog entry for ～ばかりだ",
+        "usagePermission": "reference_only",
+        "verifiedBy": "Sprint 7.2 source review",
+        "verifiedAt": "2026-06-30T09:00:00.000Z"
+      },
+      {
+        "evidenceType": "high_trust_material",
+        "sourceName": "JapaneseTest4You N2 Grammar List",
+        "sourceUrl": "https://japanesetest4you.com/jlpt-n2-grammar-list/",
+        "citation": "N2 grammar catalog entry for ～ばかりだ",
+        "usagePermission": "reference_only",
+        "verifiedBy": "Sprint 7.2 source review",
+        "verifiedAt": "2026-06-30T09:00:00.000Z"
+      }
+    ],
+    "reviewNotes": "Verified against two learning-resource catalogs; examples remain project-original.",
+    "lastReviewedAt": "2026-06-30T09:00:00.000Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-BAKARIKA-001",
+    "title": "～ばかりか",
+    "sourceType": "ai_structured",
+    "sourceName": "Sprint 7.1 Grammar Master Map",
+    "verificationStatus": "unverified",
+    "evidenceNote": "Independent point-level source cross-check not completed; retain draft status.",
+    "verifiedAt": null,
+    "validationStatus": "unverified",
+    "evidence": [],
+    "reviewNotes": "Pending independent source verification.",
+    "lastReviewedAt": null
+  },
+  {
+    "knowledgePointId": "KP-GRA-BAKARINI-001",
+    "title": "～ばかりに",
+    "sourceType": "trusted_learning_site",
+    "sourceName": "JLPT Sensei N2 Grammar List; JapaneseTest4You N2 Grammar List",
+    "verificationStatus": "verified",
+    "evidenceNote": "Cross-listed in two independent N2 grammar catalogs; meaning, structure, usage, relations, and original examples checked. Learning-resource verification only; not an official JLPT designation.",
+    "verifiedAt": "2026-06-30T09:00:00.000Z",
+    "validationStatus": "verified",
+    "evidence": [
+      {
+        "evidenceType": "high_trust_material",
+        "sourceName": "JLPT Sensei N2 Grammar List",
+        "sourceUrl": "https://jlptsensei.com/jlpt-n2-grammar-list/",
+        "citation": "N2 grammar catalog entry for ～ばかりに",
+        "usagePermission": "reference_only",
+        "verifiedBy": "Sprint 7.2 source review",
+        "verifiedAt": "2026-06-30T09:00:00.000Z"
+      },
+      {
+        "evidenceType": "high_trust_material",
+        "sourceName": "JapaneseTest4You N2 Grammar List",
+        "sourceUrl": "https://japanesetest4you.com/jlpt-n2-grammar-list/",
+        "citation": "N2 grammar catalog entry for ～ばかりに",
+        "usagePermission": "reference_only",
+        "verifiedBy": "Sprint 7.2 source review",
+        "verifiedAt": "2026-06-30T09:00:00.000Z"
+      }
+    ],
+    "reviewNotes": "Verified against two learning-resource catalogs; examples remain project-original.",
+    "lastReviewedAt": "2026-06-30T09:00:00.000Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-BEKIDA-001",
+    "title": "～べきだ",
+    "sourceType": "ai_structured",
+    "sourceName": "Sprint 7.1 Grammar Master Map",
+    "verificationStatus": "unverified",
+    "evidenceNote": "Independent point-level source cross-check not completed; retain draft status.",
+    "verifiedAt": null,
+    "validationStatus": "unverified",
+    "evidence": [],
+    "reviewNotes": "Pending independent source verification.",
+    "lastReviewedAt": null
+  },
+  {
+    "knowledgePointId": "KP-GRA-BEKIDEWANAI-001",
+    "title": "～べきではない",
+    "sourceType": "ai_structured",
+    "sourceName": "Sprint 7.1 Grammar Master Map",
+    "verificationStatus": "unverified",
+    "evidenceNote": "Independent point-level source cross-check not completed; retain draft status.",
+    "verifiedAt": null,
+    "validationStatus": "unverified",
+    "evidence": [],
+    "reviewNotes": "Pending independent source verification.",
+    "lastReviewedAt": null
+  },
+  {
+    "knowledgePointId": "KP-GRA-BEKU-001",
+    "title": "～べく",
+    "sourceType": "ai_structured",
+    "sourceName": "Sprint 7.1 Grammar Master Map",
+    "verificationStatus": "unverified",
+    "evidenceNote": "Independent point-level source cross-check not completed; retain draft status.",
+    "verifiedAt": null,
+    "validationStatus": "unverified",
+    "evidence": [],
+    "reviewNotes": "Pending independent source verification.",
+    "lastReviewedAt": null
+  },
+  {
+    "knowledgePointId": "KP-GRA-DOKORODEWANAI-001",
+    "title": "～どころではない",
+    "sourceType": "trusted_learning_site",
+    "sourceName": "JLPT Sensei N2 Grammar List; JapaneseTest4You N2 Grammar List",
+    "verificationStatus": "verified",
+    "evidenceNote": "Cross-listed in two independent N2 grammar catalogs; meaning, structure, usage, relations, and original examples checked. Learning-resource verification only; not an official JLPT designation.",
+    "verifiedAt": "2026-06-30T09:00:00.000Z",
+    "validationStatus": "verified",
+    "evidence": [
+      {
+        "evidenceType": "high_trust_material",
+        "sourceName": "JLPT Sensei N2 Grammar List",
+        "sourceUrl": "https://jlptsensei.com/jlpt-n2-grammar-list/",
+        "citation": "N2 grammar catalog entry for ～どころではない",
+        "usagePermission": "reference_only",
+        "verifiedBy": "Sprint 7.2 source review",
+        "verifiedAt": "2026-06-30T09:00:00.000Z"
+      },
+      {
+        "evidenceType": "high_trust_material",
+        "sourceName": "JapaneseTest4You N2 Grammar List",
+        "sourceUrl": "https://japanesetest4you.com/jlpt-n2-grammar-list/",
+        "citation": "N2 grammar catalog entry for ～どころではない",
+        "usagePermission": "reference_only",
+        "verifiedBy": "Sprint 7.2 source review",
+        "verifiedAt": "2026-06-30T09:00:00.000Z"
+      }
+    ],
+    "reviewNotes": "Verified against two learning-resource catalogs; examples remain project-original.",
+    "lastReviewedAt": "2026-06-30T09:00:00.000Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-DOKOROKA-001",
+    "title": "～どころか",
+    "sourceType": "ai_structured",
+    "sourceName": "Sprint 7.1 Grammar Master Map",
+    "verificationStatus": "unverified",
+    "evidenceNote": "Independent point-level source cross-check not completed; retain draft status.",
+    "verifiedAt": null,
+    "validationStatus": "unverified",
+    "evidence": [],
+    "reviewNotes": "Pending independent source verification.",
+    "lastReviewedAt": null
+  },
+  {
+    "knowledgePointId": "KP-GRA-HANMEN-001",
+    "title": "～反面",
+    "sourceType": "trusted_learning_site",
+    "sourceName": "JLPT Sensei N2 Grammar List; JapaneseTest4You N2 Grammar List",
+    "verificationStatus": "verified",
+    "evidenceNote": "Cross-listed in two independent N2 grammar catalogs; meaning, structure, usage, relations, and original examples checked. Learning-resource verification only; not an official JLPT designation.",
+    "verifiedAt": "2026-06-30T09:00:00.000Z",
+    "validationStatus": "verified",
+    "evidence": [
+      {
+        "evidenceType": "high_trust_material",
+        "sourceName": "JLPT Sensei N2 Grammar List",
+        "sourceUrl": "https://jlptsensei.com/jlpt-n2-grammar-list/",
+        "citation": "N2 grammar catalog entry for ～反面",
+        "usagePermission": "reference_only",
+        "verifiedBy": "Sprint 7.2 source review",
+        "verifiedAt": "2026-06-30T09:00:00.000Z"
+      },
+      {
+        "evidenceType": "high_trust_material",
+        "sourceName": "JapaneseTest4You N2 Grammar List",
+        "sourceUrl": "https://japanesetest4you.com/jlpt-n2-grammar-list/",
+        "citation": "N2 grammar catalog entry for ～反面",
+        "usagePermission": "reference_only",
+        "verifiedBy": "Sprint 7.2 source review",
+        "verifiedAt": "2026-06-30T09:00:00.000Z"
+      }
+    ],
+    "reviewNotes": "Verified against two learning-resource catalogs; examples remain project-original.",
+    "lastReviewedAt": "2026-06-30T09:00:00.000Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-HAZUDA-001",
+    "title": "～はずだ",
+    "sourceType": "ai_structured",
+    "sourceName": "Sprint 7.1 Grammar Master Map",
+    "verificationStatus": "unverified",
+    "evidenceNote": "Independent point-level source cross-check not completed; retain draft status.",
+    "verifiedAt": null,
+    "validationStatus": "unverified",
+    "evidence": [],
+    "reviewNotes": "Pending independent source verification.",
+    "lastReviewedAt": null
+  },
+  {
+    "knowledgePointId": "KP-GRA-HODO-001",
+    "title": "～ほど",
+    "sourceType": "ai_structured",
+    "sourceName": "Sprint 7.1 Grammar Master Map",
+    "verificationStatus": "unverified",
+    "evidenceNote": "Independent point-level source cross-check not completed; retain draft status.",
+    "verifiedAt": null,
+    "validationStatus": "unverified",
+    "evidence": [],
+    "reviewNotes": "Pending independent source verification.",
+    "lastReviewedAt": null
+  },
+  {
+    "knowledgePointId": "KP-GRA-IJOUWA-001",
+    "title": "～以上（は）",
+    "sourceType": "trusted_learning_site",
+    "sourceName": "JLPT Sensei N2 Grammar List; JapaneseTest4You N2 Grammar List",
+    "verificationStatus": "verified",
+    "evidenceNote": "Cross-listed in two independent N2 grammar catalogs; meaning, structure, usage, relations, and original examples checked. Learning-resource verification only; not an official JLPT designation.",
+    "verifiedAt": "2026-06-30T09:00:00.000Z",
+    "validationStatus": "verified",
+    "evidence": [
+      {
+        "evidenceType": "high_trust_material",
+        "sourceName": "JLPT Sensei N2 Grammar List",
+        "sourceUrl": "https://jlptsensei.com/jlpt-n2-grammar-list/",
+        "citation": "N2 grammar catalog entry for ～以上（は）",
+        "usagePermission": "reference_only",
+        "verifiedBy": "Sprint 7.2 source review",
+        "verifiedAt": "2026-06-30T09:00:00.000Z"
+      },
+      {
+        "evidenceType": "high_trust_material",
+        "sourceName": "JapaneseTest4You N2 Grammar List",
+        "sourceUrl": "https://japanesetest4you.com/jlpt-n2-grammar-list/",
+        "citation": "N2 grammar catalog entry for ～以上（は）",
+        "usagePermission": "reference_only",
+        "verifiedBy": "Sprint 7.2 source review",
+        "verifiedAt": "2026-06-30T09:00:00.000Z"
+      }
+    ],
+    "reviewNotes": "Verified against two learning-resource catalogs; examples remain project-original.",
+    "lastReviewedAt": "2026-06-30T09:00:00.000Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-IPPOUDE-001",
+    "title": "～一方で",
+    "sourceType": "ai_structured",
+    "sourceName": "Sprint 7.1 Grammar Master Map",
+    "verificationStatus": "unverified",
+    "evidenceNote": "Independent point-level source cross-check not completed; retain draft status.",
+    "verifiedAt": null,
+    "validationStatus": "unverified",
+    "evidence": [],
+    "reviewNotes": "Pending independent source verification.",
+    "lastReviewedAt": null
+  },
+  {
+    "knowledgePointId": "KP-GRA-KAGIRI-001",
+    "title": "～限り",
+    "sourceType": "trusted_learning_site",
+    "sourceName": "JLPT Sensei N2 Grammar List; JapaneseTest4You N2 Grammar List",
+    "verificationStatus": "verified",
+    "evidenceNote": "Cross-listed in two independent N2 grammar catalogs; meaning, structure, usage, relations, and original examples checked. Learning-resource verification only; not an official JLPT designation.",
+    "verifiedAt": "2026-06-30T09:00:00.000Z",
+    "validationStatus": "verified",
+    "evidence": [
+      {
+        "evidenceType": "high_trust_material",
+        "sourceName": "JLPT Sensei N2 Grammar List",
+        "sourceUrl": "https://jlptsensei.com/jlpt-n2-grammar-list/",
+        "citation": "N2 grammar catalog entry for ～限り",
+        "usagePermission": "reference_only",
+        "verifiedBy": "Sprint 7.2 source review",
+        "verifiedAt": "2026-06-30T09:00:00.000Z"
+      },
+      {
+        "evidenceType": "high_trust_material",
+        "sourceName": "JapaneseTest4You N2 Grammar List",
+        "sourceUrl": "https://japanesetest4you.com/jlpt-n2-grammar-list/",
+        "citation": "N2 grammar catalog entry for ～限り",
+        "usagePermission": "reference_only",
+        "verifiedBy": "Sprint 7.2 source review",
+        "verifiedAt": "2026-06-30T09:00:00.000Z"
+      }
+    ],
+    "reviewNotes": "Verified against two learning-resource catalogs; examples remain project-original.",
+    "lastReviewedAt": "2026-06-30T09:00:00.000Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-KANENAI-001",
+    "title": "～かねない",
+    "sourceType": "trusted_learning_site",
+    "sourceName": "JLPT Sensei N2 Grammar List; JapaneseTest4You N2 Grammar List",
+    "verificationStatus": "verified",
+    "evidenceNote": "Cross-listed in two independent N2 grammar catalogs; meaning, structure, usage, relations, and original examples checked. Learning-resource verification only; not an official JLPT designation.",
+    "verifiedAt": "2026-06-30T09:00:00.000Z",
+    "validationStatus": "verified",
+    "evidence": [
+      {
+        "evidenceType": "high_trust_material",
+        "sourceName": "JLPT Sensei N2 Grammar List",
+        "sourceUrl": "https://jlptsensei.com/jlpt-n2-grammar-list/",
+        "citation": "N2 grammar catalog entry for ～かねない",
+        "usagePermission": "reference_only",
+        "verifiedBy": "Sprint 7.2 source review",
+        "verifiedAt": "2026-06-30T09:00:00.000Z"
+      },
+      {
+        "evidenceType": "high_trust_material",
+        "sourceName": "JapaneseTest4You N2 Grammar List",
+        "sourceUrl": "https://japanesetest4you.com/jlpt-n2-grammar-list/",
+        "citation": "N2 grammar catalog entry for ～かねない",
+        "usagePermission": "reference_only",
+        "verifiedBy": "Sprint 7.2 source review",
+        "verifiedAt": "2026-06-30T09:00:00.000Z"
+      }
+    ],
+    "reviewNotes": "Verified against two learning-resource catalogs; examples remain project-original.",
+    "lastReviewedAt": "2026-06-30T09:00:00.000Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-KOTODA-001",
+    "title": "～ことだ",
+    "sourceType": "trusted_learning_site",
+    "sourceName": "JLPT Sensei N2 Grammar List; JapaneseTest4You N2 Grammar List",
+    "verificationStatus": "verified",
+    "evidenceNote": "Cross-listed in two independent N2 grammar catalogs; meaning, structure, usage, relations, and original examples checked. Learning-resource verification only; not an official JLPT designation.",
+    "verifiedAt": "2026-06-30T09:00:00.000Z",
+    "validationStatus": "verified",
+    "evidence": [
+      {
+        "evidenceType": "high_trust_material",
+        "sourceName": "JLPT Sensei N2 Grammar List",
+        "sourceUrl": "https://jlptsensei.com/jlpt-n2-grammar-list/",
+        "citation": "N2 grammar catalog entry for ～ことだ",
+        "usagePermission": "reference_only",
+        "verifiedBy": "Sprint 7.2 source review",
+        "verifiedAt": "2026-06-30T09:00:00.000Z"
+      },
+      {
+        "evidenceType": "high_trust_material",
+        "sourceName": "JapaneseTest4You N2 Grammar List",
+        "sourceUrl": "https://japanesetest4you.com/jlpt-n2-grammar-list/",
+        "citation": "N2 grammar catalog entry for ～ことだ",
+        "usagePermission": "reference_only",
+        "verifiedBy": "Sprint 7.2 source review",
+        "verifiedAt": "2026-06-30T09:00:00.000Z"
+      }
+    ],
+    "reviewNotes": "Verified against two learning-resource catalogs; examples remain project-original.",
+    "lastReviewedAt": "2026-06-30T09:00:00.000Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-KOTOKARA-001",
+    "title": "～ことから",
+    "sourceType": "ai_structured",
+    "sourceName": "Sprint 7.1 Grammar Master Map",
+    "verificationStatus": "unverified",
+    "evidenceNote": "Independent point-level source cross-check not completed; retain draft status.",
+    "verifiedAt": null,
+    "validationStatus": "unverified",
+    "evidence": [],
+    "reviewNotes": "Pending independent source verification.",
+    "lastReviewedAt": null
+  },
+  {
+    "knowledgePointId": "KP-GRA-KOTONINARU-001",
+    "title": "～ことになる",
+    "sourceType": "ai_structured",
+    "sourceName": "Sprint 7.1 Grammar Master Map",
+    "verificationStatus": "unverified",
+    "evidenceNote": "Independent point-level source cross-check not completed; retain draft status.",
+    "verifiedAt": null,
+    "validationStatus": "unverified",
+    "evidence": [],
+    "reviewNotes": "Pending independent source verification.",
+    "lastReviewedAt": null
+  },
+  {
+    "knowledgePointId": "KP-GRA-KOTONINATTEIRU-001",
+    "title": "～ことになっている",
+    "sourceType": "ai_structured",
+    "sourceName": "Sprint 7.1 Grammar Master Map",
+    "verificationStatus": "unverified",
+    "evidenceNote": "Independent point-level source cross-check not completed; retain draft status.",
+    "verifiedAt": null,
+    "validationStatus": "unverified",
+    "evidence": [],
+    "reviewNotes": "Pending independent source verification.",
+    "lastReviewedAt": null
+  },
+  {
+    "knowledgePointId": "KP-GRA-KOTONISURU-001",
+    "title": "～ことにする",
+    "sourceType": "ai_structured",
+    "sourceName": "Sprint 7.1 Grammar Master Map",
+    "verificationStatus": "unverified",
+    "evidenceNote": "Independent point-level source cross-check not completed; retain draft status.",
+    "verifiedAt": null,
+    "validationStatus": "unverified",
+    "evidence": [],
+    "reviewNotes": "Pending independent source verification.",
+    "lastReviewedAt": null
+  },
+  {
+    "knowledgePointId": "KP-GRA-KOTOWANAI-001",
+    "title": "～ことはない",
+    "sourceType": "ai_structured",
+    "sourceName": "Sprint 7.1 Grammar Master Map",
+    "verificationStatus": "unverified",
+    "evidenceNote": "Independent point-level source cross-check not completed; retain draft status.",
+    "verifiedAt": null,
+    "validationStatus": "unverified",
+    "evidence": [],
+    "reviewNotes": "Pending independent source verification.",
+    "lastReviewedAt": null
+  },
+  {
+    "knowledgePointId": "KP-GRA-KURAI-001",
+    "title": "～くらい／ぐらい",
+    "sourceType": "ai_structured",
+    "sourceName": "Sprint 7.1 Grammar Master Map",
+    "verificationStatus": "unverified",
+    "evidenceNote": "Independent point-level source cross-check not completed; retain draft status.",
+    "verifiedAt": null,
+    "validationStatus": "unverified",
+    "evidence": [],
+    "reviewNotes": "Pending independent source verification.",
+    "lastReviewedAt": null
+  },
+  {
+    "knowledgePointId": "KP-GRA-KUSENI-001",
+    "title": "～くせに",
+    "sourceType": "ai_structured",
+    "sourceName": "Sprint 7.1 Grammar Master Map",
+    "verificationStatus": "unverified",
+    "evidenceNote": "Independent point-level source cross-check not completed; retain draft status.",
+    "verifiedAt": null,
+    "validationStatus": "unverified",
+    "evidence": [],
+    "reviewNotes": "Pending independent source verification.",
+    "lastReviewedAt": null
+  },
+  {
+    "knowledgePointId": "KP-GRA-MAI-001",
+    "title": "～まい",
+    "sourceType": "trusted_learning_site",
+    "sourceName": "JLPT Sensei N2 Grammar List; JapaneseTest4You N2 Grammar List",
+    "verificationStatus": "verified",
+    "evidenceNote": "Cross-listed in two independent N2 grammar catalogs; meaning, structure, usage, relations, and original examples checked. Learning-resource verification only; not an official JLPT designation.",
+    "verifiedAt": "2026-06-30T09:00:00.000Z",
+    "validationStatus": "verified",
+    "evidence": [
+      {
+        "evidenceType": "high_trust_material",
+        "sourceName": "JLPT Sensei N2 Grammar List",
+        "sourceUrl": "https://jlptsensei.com/jlpt-n2-grammar-list/",
+        "citation": "N2 grammar catalog entry for ～まい",
+        "usagePermission": "reference_only",
+        "verifiedBy": "Sprint 7.2 source review",
+        "verifiedAt": "2026-06-30T09:00:00.000Z"
+      },
+      {
+        "evidenceType": "high_trust_material",
+        "sourceName": "JapaneseTest4You N2 Grammar List",
+        "sourceUrl": "https://japanesetest4you.com/jlpt-n2-grammar-list/",
+        "citation": "N2 grammar catalog entry for ～まい",
+        "usagePermission": "reference_only",
+        "verifiedBy": "Sprint 7.2 source review",
+        "verifiedAt": "2026-06-30T09:00:00.000Z"
+      }
+    ],
+    "reviewNotes": "Verified against two learning-resource catalogs; examples remain project-original.",
+    "lastReviewedAt": "2026-06-30T09:00:00.000Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-MONODAKARA-001",
+    "title": "～ものだから",
+    "sourceType": "trusted_learning_site",
+    "sourceName": "JLPT Sensei N2 Grammar List; JapaneseTest4You N2 Grammar List",
+    "verificationStatus": "verified",
+    "evidenceNote": "Cross-listed in two independent N2 grammar catalogs; meaning, structure, usage, relations, and original examples checked. Learning-resource verification only; not an official JLPT designation.",
+    "verifiedAt": "2026-06-30T09:00:00.000Z",
+    "validationStatus": "verified",
+    "evidence": [
+      {
+        "evidenceType": "high_trust_material",
+        "sourceName": "JLPT Sensei N2 Grammar List",
+        "sourceUrl": "https://jlptsensei.com/jlpt-n2-grammar-list/",
+        "citation": "N2 grammar catalog entry for ～ものだから",
+        "usagePermission": "reference_only",
+        "verifiedBy": "Sprint 7.2 source review",
+        "verifiedAt": "2026-06-30T09:00:00.000Z"
+      },
+      {
+        "evidenceType": "high_trust_material",
+        "sourceName": "JapaneseTest4You N2 Grammar List",
+        "sourceUrl": "https://japanesetest4you.com/jlpt-n2-grammar-list/",
+        "citation": "N2 grammar catalog entry for ～ものだから",
+        "usagePermission": "reference_only",
+        "verifiedBy": "Sprint 7.2 source review",
+        "verifiedAt": "2026-06-30T09:00:00.000Z"
+      }
+    ],
+    "reviewNotes": "Verified against two learning-resource catalogs; examples remain project-original.",
+    "lastReviewedAt": "2026-06-30T09:00:00.000Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-MONONARA-001",
+    "title": "～ものなら",
+    "sourceType": "trusted_learning_site",
+    "sourceName": "JLPT Sensei N2 Grammar List; JapaneseTest4You N2 Grammar List",
+    "verificationStatus": "verified",
+    "evidenceNote": "Cross-listed in two independent N2 grammar catalogs; meaning, structure, usage, relations, and original examples checked. Learning-resource verification only; not an official JLPT designation.",
+    "verifiedAt": "2026-06-30T09:00:00.000Z",
+    "validationStatus": "verified",
+    "evidence": [
+      {
+        "evidenceType": "high_trust_material",
+        "sourceName": "JLPT Sensei N2 Grammar List",
+        "sourceUrl": "https://jlptsensei.com/jlpt-n2-grammar-list/",
+        "citation": "N2 grammar catalog entry for ～ものなら",
+        "usagePermission": "reference_only",
+        "verifiedBy": "Sprint 7.2 source review",
+        "verifiedAt": "2026-06-30T09:00:00.000Z"
+      },
+      {
+        "evidenceType": "high_trust_material",
+        "sourceName": "JapaneseTest4You N2 Grammar List",
+        "sourceUrl": "https://japanesetest4you.com/jlpt-n2-grammar-list/",
+        "citation": "N2 grammar catalog entry for ～ものなら",
+        "usagePermission": "reference_only",
+        "verifiedBy": "Sprint 7.2 source review",
+        "verifiedAt": "2026-06-30T09:00:00.000Z"
+      }
+    ],
+    "reviewNotes": "Verified against two learning-resource catalogs; examples remain project-original.",
+    "lastReviewedAt": "2026-06-30T09:00:00.000Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-MONONO-001",
+    "title": "～ものの",
+    "sourceType": "trusted_learning_site",
+    "sourceName": "JLPT Sensei N2 Grammar List; JapaneseTest4You N2 Grammar List",
+    "verificationStatus": "verified",
+    "evidenceNote": "Cross-listed in two independent N2 grammar catalogs; meaning, structure, usage, relations, and original examples checked. Learning-resource verification only; not an official JLPT designation.",
+    "verifiedAt": "2026-06-30T09:00:00.000Z",
+    "validationStatus": "verified",
+    "evidence": [
+      {
+        "evidenceType": "high_trust_material",
+        "sourceName": "JLPT Sensei N2 Grammar List",
+        "sourceUrl": "https://jlptsensei.com/jlpt-n2-grammar-list/",
+        "citation": "N2 grammar catalog entry for ～ものの",
+        "usagePermission": "reference_only",
+        "verifiedBy": "Sprint 7.2 source review",
+        "verifiedAt": "2026-06-30T09:00:00.000Z"
+      },
+      {
+        "evidenceType": "high_trust_material",
+        "sourceName": "JapaneseTest4You N2 Grammar List",
+        "sourceUrl": "https://japanesetest4you.com/jlpt-n2-grammar-list/",
+        "citation": "N2 grammar catalog entry for ～ものの",
+        "usagePermission": "reference_only",
+        "verifiedBy": "Sprint 7.2 source review",
+        "verifiedAt": "2026-06-30T09:00:00.000Z"
+      }
+    ],
+    "reviewNotes": "Verified against two learning-resource catalogs; examples remain project-original.",
+    "lastReviewedAt": "2026-06-30T09:00:00.000Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-NAGARAMO-001",
+    "title": "～ながらも",
+    "sourceType": "ai_structured",
+    "sourceName": "Sprint 7.1 Grammar Master Map",
+    "verificationStatus": "unverified",
+    "evidenceNote": "Independent point-level source cross-check not completed; retain draft status.",
+    "verifiedAt": null,
+    "validationStatus": "unverified",
+    "evidence": [],
+    "reviewNotes": "Pending independent source verification.",
+    "lastReviewedAt": null
+  },
+  {
+    "knowledgePointId": "KP-GRA-NAIKAGIRI-001",
+    "title": "～ない限り",
+    "sourceType": "ai_structured",
+    "sourceName": "Sprint 7.1 Grammar Master Map",
+    "verificationStatus": "unverified",
+    "evidenceNote": "Independent point-level source cross-check not completed; retain draft status.",
+    "verifiedAt": null,
+    "validationStatus": "unverified",
+    "evidence": [],
+    "reviewNotes": "Pending independent source verification.",
+    "lastReviewedAt": null
+  },
+  {
+    "knowledgePointId": "KP-GRA-NAIKOTONIWA-001",
+    "title": "～ないことには",
+    "sourceType": "trusted_learning_site",
+    "sourceName": "JLPT Sensei N2 Grammar List; JapaneseTest4You N2 Grammar List",
+    "verificationStatus": "verified",
+    "evidenceNote": "Cross-listed in two independent N2 grammar catalogs; meaning, structure, usage, relations, and original examples checked. Learning-resource verification only; not an official JLPT designation.",
+    "verifiedAt": "2026-06-30T09:00:00.000Z",
+    "validationStatus": "verified",
+    "evidence": [
+      {
+        "evidenceType": "high_trust_material",
+        "sourceName": "JLPT Sensei N2 Grammar List",
+        "sourceUrl": "https://jlptsensei.com/jlpt-n2-grammar-list/",
+        "citation": "N2 grammar catalog entry for ～ないことには",
+        "usagePermission": "reference_only",
+        "verifiedBy": "Sprint 7.2 source review",
+        "verifiedAt": "2026-06-30T09:00:00.000Z"
+      },
+      {
+        "evidenceType": "high_trust_material",
+        "sourceName": "JapaneseTest4You N2 Grammar List",
+        "sourceUrl": "https://japanesetest4you.com/jlpt-n2-grammar-list/",
+        "citation": "N2 grammar catalog entry for ～ないことには",
+        "usagePermission": "reference_only",
+        "verifiedBy": "Sprint 7.2 source review",
+        "verifiedAt": "2026-06-30T09:00:00.000Z"
+      }
+    ],
+    "reviewNotes": "Verified against two learning-resource catalogs; examples remain project-original.",
+    "lastReviewedAt": "2026-06-30T09:00:00.000Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-NAIKOTOWANAI-001",
+    "title": "～ないことはない",
+    "sourceType": "ai_structured",
+    "sourceName": "Sprint 7.1 Grammar Master Map",
+    "verificationStatus": "unverified",
+    "evidenceNote": "Independent point-level source cross-check not completed; retain draft status.",
+    "verifiedAt": null,
+    "validationStatus": "unverified",
+    "evidence": [],
+    "reviewNotes": "Pending independent source verification.",
+    "lastReviewedAt": null
+  },
+  {
+    "knowledgePointId": "KP-GRA-NAIWAKENIHAIKANAI-001",
+    "title": "～ないわけにはいかない",
+    "sourceType": "ai_structured",
+    "sourceName": "Sprint 7.1 Grammar Master Map",
+    "verificationStatus": "unverified",
+    "evidenceNote": "Independent point-level source cross-check not completed; retain draft status.",
+    "verifiedAt": null,
+    "validationStatus": "unverified",
+    "evidence": [],
+    "reviewNotes": "Pending independent source verification.",
+    "lastReviewedAt": null
+  },
+  {
+    "knowledgePointId": "KP-GRA-NICHIGAINAI-001",
+    "title": "～に違いない",
+    "sourceType": "ai_structured",
+    "sourceName": "Sprint 7.1 Grammar Master Map",
+    "verificationStatus": "unverified",
+    "evidenceNote": "Independent point-level source cross-check not completed; retain draft status.",
+    "verifiedAt": null,
+    "validationStatus": "unverified",
+    "evidence": [],
+    "reviewNotes": "Pending independent source verification.",
+    "lastReviewedAt": null
+  },
+  {
+    "knowledgePointId": "KP-GRA-NIHANSHITE-001",
+    "title": "～に反して",
+    "sourceType": "ai_structured",
+    "sourceName": "Sprint 7.1 Grammar Master Map",
+    "verificationStatus": "unverified",
+    "evidenceNote": "Independent point-level source cross-check not completed; retain draft status.",
+    "verifiedAt": null,
+    "validationStatus": "unverified",
+    "evidence": [],
+    "reviewNotes": "Pending independent source verification.",
+    "lastReviewedAt": null
+  },
+  {
+    "knowledgePointId": "KP-GRA-NIHOKANARANAI-001",
+    "title": "～にほかならない",
+    "sourceType": "trusted_learning_site",
+    "sourceName": "JLPT Sensei N2 Grammar List; JapaneseTest4You N2 Grammar List",
+    "verificationStatus": "verified",
+    "evidenceNote": "Cross-listed in two independent N2 grammar catalogs; meaning, structure, usage, relations, and original examples checked. Learning-resource verification only; not an official JLPT designation.",
+    "verifiedAt": "2026-06-30T09:00:00.000Z",
+    "validationStatus": "verified",
+    "evidence": [
+      {
+        "evidenceType": "high_trust_material",
+        "sourceName": "JLPT Sensei N2 Grammar List",
+        "sourceUrl": "https://jlptsensei.com/jlpt-n2-grammar-list/",
+        "citation": "N2 grammar catalog entry for ～にほかならない",
+        "usagePermission": "reference_only",
+        "verifiedBy": "Sprint 7.2 source review",
+        "verifiedAt": "2026-06-30T09:00:00.000Z"
+      },
+      {
+        "evidenceType": "high_trust_material",
+        "sourceName": "JapaneseTest4You N2 Grammar List",
+        "sourceUrl": "https://japanesetest4you.com/jlpt-n2-grammar-list/",
+        "citation": "N2 grammar catalog entry for ～にほかならない",
+        "usagePermission": "reference_only",
+        "verifiedBy": "Sprint 7.2 source review",
+        "verifiedAt": "2026-06-30T09:00:00.000Z"
+      }
+    ],
+    "reviewNotes": "Verified against two learning-resource catalogs; examples remain project-original.",
+    "lastReviewedAt": "2026-06-30T09:00:00.000Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-NIKAGIRAZU-001",
+    "title": "～に限らず",
+    "sourceType": "trusted_learning_site",
+    "sourceName": "JLPT Sensei N2 Grammar List; JapaneseTest4You N2 Grammar List",
+    "verificationStatus": "verified",
+    "evidenceNote": "Cross-listed in two independent N2 grammar catalogs; meaning, structure, usage, relations, and original examples checked. Learning-resource verification only; not an official JLPT designation.",
+    "verifiedAt": "2026-06-30T09:00:00.000Z",
+    "validationStatus": "verified",
+    "evidence": [
+      {
+        "evidenceType": "high_trust_material",
+        "sourceName": "JLPT Sensei N2 Grammar List",
+        "sourceUrl": "https://jlptsensei.com/jlpt-n2-grammar-list/",
+        "citation": "N2 grammar catalog entry for ～に限らず",
+        "usagePermission": "reference_only",
+        "verifiedBy": "Sprint 7.2 source review",
+        "verifiedAt": "2026-06-30T09:00:00.000Z"
+      },
+      {
+        "evidenceType": "high_trust_material",
+        "sourceName": "JapaneseTest4You N2 Grammar List",
+        "sourceUrl": "https://japanesetest4you.com/jlpt-n2-grammar-list/",
+        "citation": "N2 grammar catalog entry for ～に限らず",
+        "usagePermission": "reference_only",
+        "verifiedBy": "Sprint 7.2 source review",
+        "verifiedAt": "2026-06-30T09:00:00.000Z"
+      }
+    ],
+    "reviewNotes": "Verified against two learning-resource catalogs; examples remain project-original.",
+    "lastReviewedAt": "2026-06-30T09:00:00.000Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-NIKAGITTE-001",
+    "title": "～に限って",
+    "sourceType": "trusted_learning_site",
+    "sourceName": "JLPT Sensei N2 Grammar List; JapaneseTest4You N2 Grammar List",
+    "verificationStatus": "verified",
+    "evidenceNote": "Cross-listed in two independent N2 grammar catalogs; meaning, structure, usage, relations, and original examples checked. Learning-resource verification only; not an official JLPT designation.",
+    "verifiedAt": "2026-06-30T09:00:00.000Z",
+    "validationStatus": "verified",
+    "evidence": [
+      {
+        "evidenceType": "high_trust_material",
+        "sourceName": "JLPT Sensei N2 Grammar List",
+        "sourceUrl": "https://jlptsensei.com/jlpt-n2-grammar-list/",
+        "citation": "N2 grammar catalog entry for ～に限って",
+        "usagePermission": "reference_only",
+        "verifiedBy": "Sprint 7.2 source review",
+        "verifiedAt": "2026-06-30T09:00:00.000Z"
+      },
+      {
+        "evidenceType": "high_trust_material",
+        "sourceName": "JapaneseTest4You N2 Grammar List",
+        "sourceUrl": "https://japanesetest4you.com/jlpt-n2-grammar-list/",
+        "citation": "N2 grammar catalog entry for ～に限って",
+        "usagePermission": "reference_only",
+        "verifiedBy": "Sprint 7.2 source review",
+        "verifiedAt": "2026-06-30T09:00:00.000Z"
+      }
+    ],
+    "reviewNotes": "Verified against two learning-resource catalogs; examples remain project-original.",
+    "lastReviewedAt": "2026-06-30T09:00:00.000Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-NIKIMATTEIRU-001",
+    "title": "～に決まっている",
+    "sourceType": "trusted_learning_site",
+    "sourceName": "JLPT Sensei N2 Grammar List; JapaneseTest4You N2 Grammar List",
+    "verificationStatus": "verified",
+    "evidenceNote": "Cross-listed in two independent N2 grammar catalogs; meaning, structure, usage, relations, and original examples checked. Learning-resource verification only; not an official JLPT designation.",
+    "verifiedAt": "2026-06-30T09:00:00.000Z",
+    "validationStatus": "verified",
+    "evidence": [
+      {
+        "evidenceType": "high_trust_material",
+        "sourceName": "JLPT Sensei N2 Grammar List",
+        "sourceUrl": "https://jlptsensei.com/jlpt-n2-grammar-list/",
+        "citation": "N2 grammar catalog entry for ～に決まっている",
+        "usagePermission": "reference_only",
+        "verifiedBy": "Sprint 7.2 source review",
+        "verifiedAt": "2026-06-30T09:00:00.000Z"
+      },
+      {
+        "evidenceType": "high_trust_material",
+        "sourceName": "JapaneseTest4You N2 Grammar List",
+        "sourceUrl": "https://japanesetest4you.com/jlpt-n2-grammar-list/",
+        "citation": "N2 grammar catalog entry for ～に決まっている",
+        "usagePermission": "reference_only",
+        "verifiedBy": "Sprint 7.2 source review",
+        "verifiedAt": "2026-06-30T09:00:00.000Z"
+      }
+    ],
+    "reviewNotes": "Verified against two learning-resource catalogs; examples remain project-original.",
+    "lastReviewedAt": "2026-06-30T09:00:00.000Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-NIKURABETE-001",
+    "title": "～に比べて",
+    "sourceType": "ai_structured",
+    "sourceName": "Sprint 7.1 Grammar Master Map",
+    "verificationStatus": "unverified",
+    "evidenceNote": "Independent point-level source cross-check not completed; retain draft status.",
+    "verifiedAt": null,
+    "validationStatus": "unverified",
+    "evidence": [],
+    "reviewNotes": "Pending independent source verification.",
+    "lastReviewedAt": null
+  },
+  {
+    "knowledgePointId": "KP-GRA-NIMOKAKAWARAZU-001",
+    "title": "～にもかかわらず",
+    "sourceType": "trusted_learning_site",
+    "sourceName": "JLPT Sensei N2 Grammar List; JapaneseTest4You N2 Grammar List",
+    "verificationStatus": "verified",
+    "evidenceNote": "Cross-listed in two independent N2 grammar catalogs; meaning, structure, usage, relations, and original examples checked. Learning-resource verification only; not an official JLPT designation.",
+    "verifiedAt": "2026-06-30T09:00:00.000Z",
+    "validationStatus": "verified",
+    "evidence": [
+      {
+        "evidenceType": "high_trust_material",
+        "sourceName": "JLPT Sensei N2 Grammar List",
+        "sourceUrl": "https://jlptsensei.com/jlpt-n2-grammar-list/",
+        "citation": "N2 grammar catalog entry for ～にもかかわらず",
+        "usagePermission": "reference_only",
+        "verifiedBy": "Sprint 7.2 source review",
+        "verifiedAt": "2026-06-30T09:00:00.000Z"
+      },
+      {
+        "evidenceType": "high_trust_material",
+        "sourceName": "JapaneseTest4You N2 Grammar List",
+        "sourceUrl": "https://japanesetest4you.com/jlpt-n2-grammar-list/",
+        "citation": "N2 grammar catalog entry for ～にもかかわらず",
+        "usagePermission": "reference_only",
+        "verifiedBy": "Sprint 7.2 source review",
+        "verifiedAt": "2026-06-30T09:00:00.000Z"
+      }
+    ],
+    "reviewNotes": "Verified against two learning-resource catalogs; examples remain project-original.",
+    "lastReviewedAt": "2026-06-30T09:00:00.000Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-NIMUKETE-001",
+    "title": "～に向けて",
+    "sourceType": "ai_structured",
+    "sourceName": "Sprint 7.1 Grammar Master Map",
+    "verificationStatus": "unverified",
+    "evidenceNote": "Independent point-level source cross-check not completed; retain draft status.",
+    "verifiedAt": null,
+    "validationStatus": "unverified",
+    "evidence": [],
+    "reviewNotes": "Pending independent source verification.",
+    "lastReviewedAt": null
+  },
+  {
+    "knowledgePointId": "KP-GRA-NISAISHITE-001",
+    "title": "～に際して",
+    "sourceType": "trusted_learning_site",
+    "sourceName": "JLPT Sensei N2 Grammar List; JapaneseTest4You N2 Grammar List",
+    "verificationStatus": "verified",
+    "evidenceNote": "Cross-listed in two independent N2 grammar catalogs; meaning, structure, usage, relations, and original examples checked. Learning-resource verification only; not an official JLPT designation.",
+    "verifiedAt": "2026-06-30T09:00:00.000Z",
+    "validationStatus": "verified",
+    "evidence": [
+      {
+        "evidenceType": "high_trust_material",
+        "sourceName": "JLPT Sensei N2 Grammar List",
+        "sourceUrl": "https://jlptsensei.com/jlpt-n2-grammar-list/",
+        "citation": "N2 grammar catalog entry for ～に際して",
+        "usagePermission": "reference_only",
+        "verifiedBy": "Sprint 7.2 source review",
+        "verifiedAt": "2026-06-30T09:00:00.000Z"
+      },
+      {
+        "evidenceType": "high_trust_material",
+        "sourceName": "JapaneseTest4You N2 Grammar List",
+        "sourceUrl": "https://japanesetest4you.com/jlpt-n2-grammar-list/",
+        "citation": "N2 grammar catalog entry for ～に際して",
+        "usagePermission": "reference_only",
+        "verifiedBy": "Sprint 7.2 source review",
+        "verifiedAt": "2026-06-30T09:00:00.000Z"
+      }
+    ],
+    "reviewNotes": "Verified against two learning-resource catalogs; examples remain project-original.",
+    "lastReviewedAt": "2026-06-30T09:00:00.000Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-NISAKIDATTE-001",
+    "title": "～に先立って",
+    "sourceType": "trusted_learning_site",
+    "sourceName": "JLPT Sensei N2 Grammar List; JapaneseTest4You N2 Grammar List",
+    "verificationStatus": "verified",
+    "evidenceNote": "Cross-listed in two independent N2 grammar catalogs; meaning, structure, usage, relations, and original examples checked. Learning-resource verification only; not an official JLPT designation.",
+    "verifiedAt": "2026-06-30T09:00:00.000Z",
+    "validationStatus": "verified",
+    "evidence": [
+      {
+        "evidenceType": "high_trust_material",
+        "sourceName": "JLPT Sensei N2 Grammar List",
+        "sourceUrl": "https://jlptsensei.com/jlpt-n2-grammar-list/",
+        "citation": "N2 grammar catalog entry for ～に先立って",
+        "usagePermission": "reference_only",
+        "verifiedBy": "Sprint 7.2 source review",
+        "verifiedAt": "2026-06-30T09:00:00.000Z"
+      },
+      {
+        "evidenceType": "high_trust_material",
+        "sourceName": "JapaneseTest4You N2 Grammar List",
+        "sourceUrl": "https://japanesetest4you.com/jlpt-n2-grammar-list/",
+        "citation": "N2 grammar catalog entry for ～に先立って",
+        "usagePermission": "reference_only",
+        "verifiedBy": "Sprint 7.2 source review",
+        "verifiedAt": "2026-06-30T09:00:00.000Z"
+      }
+    ],
+    "reviewNotes": "Verified against two learning-resource catalogs; examples remain project-original.",
+    "lastReviewedAt": "2026-06-30T09:00:00.000Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-NISHITAGATTE-001",
+    "title": "～に従って",
+    "sourceType": "ai_structured",
+    "sourceName": "Sprint 7.1 Grammar Master Map",
+    "verificationStatus": "unverified",
+    "evidenceNote": "Independent point-level source cross-check not completed; retain draft status.",
+    "verifiedAt": null,
+    "validationStatus": "unverified",
+    "evidence": [],
+    "reviewNotes": "Pending independent source verification.",
+    "lastReviewedAt": null
+  },
+  {
+    "knowledgePointId": "KP-GRA-NISHITEWA-001",
+    "title": "～にしては",
+    "sourceType": "ai_structured",
+    "sourceName": "Sprint 7.1 Grammar Master Map",
+    "verificationStatus": "unverified",
+    "evidenceNote": "Independent point-level source cross-check not completed; retain draft status.",
+    "verifiedAt": null,
+    "validationStatus": "unverified",
+    "evidence": [],
+    "reviewNotes": "Pending independent source verification.",
+    "lastReviewedAt": null
+  },
+  {
+    "knowledgePointId": "KP-GRA-NISONAETE-001",
+    "title": "～に備えて",
+    "sourceType": "ai_structured",
+    "sourceName": "Sprint 7.1 Grammar Master Map",
+    "verificationStatus": "unverified",
+    "evidenceNote": "Independent point-level source cross-check not completed; retain draft status.",
+    "verifiedAt": null,
+    "validationStatus": "unverified",
+    "evidence": [],
+    "reviewNotes": "Pending independent source verification.",
+    "lastReviewedAt": null
+  },
+  {
+    "knowledgePointId": "KP-GRA-NISUGINAI-001",
+    "title": "～にすぎない",
+    "sourceType": "trusted_learning_site",
+    "sourceName": "JLPT Sensei N2 Grammar List; JapaneseTest4You N2 Grammar List",
+    "verificationStatus": "verified",
+    "evidenceNote": "Cross-listed in two independent N2 grammar catalogs; meaning, structure, usage, relations, and original examples checked. Learning-resource verification only; not an official JLPT designation.",
+    "verifiedAt": "2026-06-30T09:00:00.000Z",
+    "validationStatus": "verified",
+    "evidence": [
+      {
+        "evidenceType": "high_trust_material",
+        "sourceName": "JLPT Sensei N2 Grammar List",
+        "sourceUrl": "https://jlptsensei.com/jlpt-n2-grammar-list/",
+        "citation": "N2 grammar catalog entry for ～にすぎない",
+        "usagePermission": "reference_only",
+        "verifiedBy": "Sprint 7.2 source review",
+        "verifiedAt": "2026-06-30T09:00:00.000Z"
+      },
+      {
+        "evidenceType": "high_trust_material",
+        "sourceName": "JapaneseTest4You N2 Grammar List",
+        "sourceUrl": "https://japanesetest4you.com/jlpt-n2-grammar-list/",
+        "citation": "N2 grammar catalog entry for ～にすぎない",
+        "usagePermission": "reference_only",
+        "verifiedBy": "Sprint 7.2 source review",
+        "verifiedAt": "2026-06-30T09:00:00.000Z"
+      }
+    ],
+    "reviewNotes": "Verified against two learning-resource catalogs; examples remain project-original.",
+    "lastReviewedAt": "2026-06-30T09:00:00.000Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-NITAISHITE-001",
+    "title": "～に対して",
+    "sourceType": "ai_structured",
+    "sourceName": "Sprint 7.1 Grammar Master Map",
+    "verificationStatus": "unverified",
+    "evidenceNote": "Independent point-level source cross-check not completed; retain draft status.",
+    "verifiedAt": null,
+    "validationStatus": "unverified",
+    "evidence": [],
+    "reviewNotes": "Pending independent source verification.",
+    "lastReviewedAt": null
+  },
+  {
+    "knowledgePointId": "KP-GRA-NITOMONATTE-001",
+    "title": "～に伴って",
+    "sourceType": "trusted_learning_site",
+    "sourceName": "JLPT Sensei N2 Grammar List; JapaneseTest4You N2 Grammar List",
+    "verificationStatus": "verified",
+    "evidenceNote": "Cross-listed in two independent N2 grammar catalogs; meaning, structure, usage, relations, and original examples checked. Learning-resource verification only; not an official JLPT designation.",
+    "verifiedAt": "2026-06-30T09:00:00.000Z",
+    "validationStatus": "verified",
+    "evidence": [
+      {
+        "evidenceType": "high_trust_material",
+        "sourceName": "JLPT Sensei N2 Grammar List",
+        "sourceUrl": "https://jlptsensei.com/jlpt-n2-grammar-list/",
+        "citation": "N2 grammar catalog entry for ～に伴って",
+        "usagePermission": "reference_only",
+        "verifiedBy": "Sprint 7.2 source review",
+        "verifiedAt": "2026-06-30T09:00:00.000Z"
+      },
+      {
+        "evidenceType": "high_trust_material",
+        "sourceName": "JapaneseTest4You N2 Grammar List",
+        "sourceUrl": "https://japanesetest4you.com/jlpt-n2-grammar-list/",
+        "citation": "N2 grammar catalog entry for ～に伴って",
+        "usagePermission": "reference_only",
+        "verifiedBy": "Sprint 7.2 source review",
+        "verifiedAt": "2026-06-30T09:00:00.000Z"
+      }
+    ],
+    "reviewNotes": "Verified against two learning-resource catalogs; examples remain project-original.",
+    "lastReviewedAt": "2026-06-30T09:00:00.000Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-NITSURETE-001",
+    "title": "～につれて",
+    "sourceType": "ai_structured",
+    "sourceName": "Sprint 7.1 Grammar Master Map",
+    "verificationStatus": "unverified",
+    "evidenceNote": "Independent point-level source cross-check not completed; retain draft status.",
+    "verifiedAt": null,
+    "validationStatus": "unverified",
+    "evidence": [],
+    "reviewNotes": "Pending independent source verification.",
+    "lastReviewedAt": null
+  },
+  {
+    "knowledgePointId": "KP-GRA-NOMINARAZU-001",
+    "title": "～のみならず",
+    "sourceType": "trusted_learning_site",
+    "sourceName": "JLPT Sensei N2 Grammar List; JapaneseTest4You N2 Grammar List",
+    "verificationStatus": "verified",
+    "evidenceNote": "Cross-listed in two independent N2 grammar catalogs; meaning, structure, usage, relations, and original examples checked. Learning-resource verification only; not an official JLPT designation.",
+    "verifiedAt": "2026-06-30T09:00:00.000Z",
+    "validationStatus": "verified",
+    "evidence": [
+      {
+        "evidenceType": "high_trust_material",
+        "sourceName": "JLPT Sensei N2 Grammar List",
+        "sourceUrl": "https://jlptsensei.com/jlpt-n2-grammar-list/",
+        "citation": "N2 grammar catalog entry for ～のみならず",
+        "usagePermission": "reference_only",
+        "verifiedBy": "Sprint 7.2 source review",
+        "verifiedAt": "2026-06-30T09:00:00.000Z"
+      },
+      {
+        "evidenceType": "high_trust_material",
+        "sourceName": "JapaneseTest4You N2 Grammar List",
+        "sourceUrl": "https://japanesetest4you.com/jlpt-n2-grammar-list/",
+        "citation": "N2 grammar catalog entry for ～のみならず",
+        "usagePermission": "reference_only",
+        "verifiedBy": "Sprint 7.2 source review",
+        "verifiedAt": "2026-06-30T09:00:00.000Z"
+      }
+    ],
+    "reviewNotes": "Verified against two learning-resource catalogs; examples remain project-original.",
+    "lastReviewedAt": "2026-06-30T09:00:00.000Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-OKAGEDE-001",
+    "title": "～おかげで",
+    "sourceType": "ai_structured",
+    "sourceName": "Sprint 7.1 Grammar Master Map",
+    "verificationStatus": "unverified",
+    "evidenceNote": "Independent point-level source cross-check not completed; retain draft status.",
+    "verifiedAt": null,
+    "validationStatus": "unverified",
+    "evidence": [],
+    "reviewNotes": "Pending independent source verification.",
+    "lastReviewedAt": null
+  },
+  {
+    "knowledgePointId": "KP-GRA-OSOREGAARU-001",
+    "title": "～おそれがある",
+    "sourceType": "trusted_learning_site",
+    "sourceName": "JLPT Sensei N2 Grammar List; JapaneseTest4You N2 Grammar List",
+    "verificationStatus": "verified",
+    "evidenceNote": "Cross-listed in two independent N2 grammar catalogs; meaning, structure, usage, relations, and original examples checked. Learning-resource verification only; not an official JLPT designation.",
+    "verifiedAt": "2026-06-30T09:00:00.000Z",
+    "validationStatus": "verified",
+    "evidence": [
+      {
+        "evidenceType": "high_trust_material",
+        "sourceName": "JLPT Sensei N2 Grammar List",
+        "sourceUrl": "https://jlptsensei.com/jlpt-n2-grammar-list/",
+        "citation": "N2 grammar catalog entry for ～おそれがある",
+        "usagePermission": "reference_only",
+        "verifiedBy": "Sprint 7.2 source review",
+        "verifiedAt": "2026-06-30T09:00:00.000Z"
+      },
+      {
+        "evidenceType": "high_trust_material",
+        "sourceName": "JapaneseTest4You N2 Grammar List",
+        "sourceUrl": "https://japanesetest4you.com/jlpt-n2-grammar-list/",
+        "citation": "N2 grammar catalog entry for ～おそれがある",
+        "usagePermission": "reference_only",
+        "verifiedBy": "Sprint 7.2 source review",
+        "verifiedAt": "2026-06-30T09:00:00.000Z"
+      }
+    ],
+    "reviewNotes": "Verified against two learning-resource catalogs; examples remain project-original.",
+    "lastReviewedAt": "2026-06-30T09:00:00.000Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-RASHII-001",
+    "title": "～らしい",
+    "sourceType": "ai_structured",
+    "sourceName": "Sprint 7.1 Grammar Master Map",
+    "verificationStatus": "unverified",
+    "evidenceNote": "Independent point-level source cross-check not completed; retain draft status.",
+    "verifiedAt": null,
+    "validationStatus": "unverified",
+    "evidence": [],
+    "reviewNotes": "Pending independent source verification.",
+    "lastReviewedAt": null
+  },
+  {
+    "knowledgePointId": "KP-GRA-SAE-001",
+    "title": "～さえ",
+    "sourceType": "ai_structured",
+    "sourceName": "Sprint 7.1 Grammar Master Map",
+    "verificationStatus": "unverified",
+    "evidenceNote": "Independent point-level source cross-check not completed; retain draft status.",
+    "verifiedAt": null,
+    "validationStatus": "unverified",
+    "evidence": [],
+    "reviewNotes": "Pending independent source verification.",
+    "lastReviewedAt": null
+  },
+  {
+    "knowledgePointId": "KP-GRA-SAEBA-001",
+    "title": "～さえ～ば",
+    "sourceType": "ai_structured",
+    "sourceName": "Sprint 7.1 Grammar Master Map",
+    "verificationStatus": "unverified",
+    "evidenceNote": "Independent point-level source cross-check not completed; retain draft status.",
+    "verifiedAt": null,
+    "validationStatus": "unverified",
+    "evidence": [],
+    "reviewNotes": "Pending independent source verification.",
+    "lastReviewedAt": null
+  },
+  {
+    "knowledgePointId": "KP-GRA-SAICHUUNI-001",
+    "title": "～最中に",
+    "sourceType": "ai_structured",
+    "sourceName": "Sprint 7.1 Grammar Master Map",
+    "verificationStatus": "unverified",
+    "evidenceNote": "Independent point-level source cross-check not completed; retain draft status.",
+    "verifiedAt": null,
+    "validationStatus": "unverified",
+    "evidence": [],
+    "reviewNotes": "Pending independent source verification.",
+    "lastReviewedAt": null
+  },
+  {
+    "knowledgePointId": "KP-GRA-SEIDE-001",
+    "title": "～せいで",
+    "sourceType": "ai_structured",
+    "sourceName": "Sprint 7.1 Grammar Master Map",
+    "verificationStatus": "unverified",
+    "evidenceNote": "Independent point-level source cross-check not completed; retain draft status.",
+    "verifiedAt": null,
+    "validationStatus": "unverified",
+    "evidence": [],
+    "reviewNotes": "Pending independent source verification.",
+    "lastReviewedAt": null
+  },
+  {
+    "knowledgePointId": "KP-GRA-SHIKANAI-001",
+    "title": "～しかない",
+    "sourceType": "ai_structured",
+    "sourceName": "Sprint 7.1 Grammar Master Map",
+    "verificationStatus": "unverified",
+    "evidenceNote": "Independent point-level source cross-check not completed; retain draft status.",
+    "verifiedAt": null,
+    "validationStatus": "unverified",
+    "evidence": [],
+    "reviewNotes": "Pending independent source verification.",
+    "lastReviewedAt": null
+  },
+  {
+    "knowledgePointId": "KP-GRA-TABINI-001",
+    "title": "～たびに",
+    "sourceType": "ai_structured",
+    "sourceName": "Sprint 7.1 Grammar Master Map",
+    "verificationStatus": "unverified",
+    "evidenceNote": "Independent point-level source cross-check not completed; retain draft status.",
+    "verifiedAt": null,
+    "validationStatus": "unverified",
+    "evidence": [],
+    "reviewNotes": "Pending independent source verification.",
+    "lastReviewedAt": null
+  },
+  {
+    "knowledgePointId": "KP-GRA-TAMENI-001",
+    "title": "～ために",
+    "sourceType": "ai_structured",
+    "sourceName": "Sprint 7.1 Grammar Master Map",
+    "verificationStatus": "unverified",
+    "evidenceNote": "Independent point-level source cross-check not completed; retain draft status.",
+    "verifiedAt": null,
+    "validationStatus": "unverified",
+    "evidence": [],
+    "reviewNotes": "Pending independent source verification.",
+    "lastReviewedAt": null
+  },
+  {
+    "knowledgePointId": "KP-GRA-TEIRAI-001",
+    "title": "～て以来",
+    "sourceType": "trusted_learning_site",
+    "sourceName": "JLPT Sensei N2 Grammar List; JapaneseTest4You N2 Grammar List",
+    "verificationStatus": "verified",
+    "evidenceNote": "Cross-listed in two independent N2 grammar catalogs; meaning, structure, usage, relations, and original examples checked. Learning-resource verification only; not an official JLPT designation.",
+    "verifiedAt": "2026-06-30T09:00:00.000Z",
+    "validationStatus": "verified",
+    "evidence": [
+      {
+        "evidenceType": "high_trust_material",
+        "sourceName": "JLPT Sensei N2 Grammar List",
+        "sourceUrl": "https://jlptsensei.com/jlpt-n2-grammar-list/",
+        "citation": "N2 grammar catalog entry for ～て以来",
+        "usagePermission": "reference_only",
+        "verifiedBy": "Sprint 7.2 source review",
+        "verifiedAt": "2026-06-30T09:00:00.000Z"
+      },
+      {
+        "evidenceType": "high_trust_material",
+        "sourceName": "JapaneseTest4You N2 Grammar List",
+        "sourceUrl": "https://japanesetest4you.com/jlpt-n2-grammar-list/",
+        "citation": "N2 grammar catalog entry for ～て以来",
+        "usagePermission": "reference_only",
+        "verifiedBy": "Sprint 7.2 source review",
+        "verifiedAt": "2026-06-30T09:00:00.000Z"
+      }
+    ],
+    "reviewNotes": "Verified against two learning-resource catalogs; examples remain project-original.",
+    "lastReviewedAt": "2026-06-30T09:00:00.000Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-TEWANARANAI-001",
+    "title": "～てはならない",
+    "sourceType": "trusted_learning_site",
+    "sourceName": "JLPT Sensei N2 Grammar List; JapaneseTest4You N2 Grammar List",
+    "verificationStatus": "verified",
+    "evidenceNote": "Cross-listed in two independent N2 grammar catalogs; meaning, structure, usage, relations, and original examples checked. Learning-resource verification only; not an official JLPT designation.",
+    "verifiedAt": "2026-06-30T09:00:00.000Z",
+    "validationStatus": "verified",
+    "evidence": [
+      {
+        "evidenceType": "high_trust_material",
+        "sourceName": "JLPT Sensei N2 Grammar List",
+        "sourceUrl": "https://jlptsensei.com/jlpt-n2-grammar-list/",
+        "citation": "N2 grammar catalog entry for ～てはならない",
+        "usagePermission": "reference_only",
+        "verifiedBy": "Sprint 7.2 source review",
+        "verifiedAt": "2026-06-30T09:00:00.000Z"
+      },
+      {
+        "evidenceType": "high_trust_material",
+        "sourceName": "JapaneseTest4You N2 Grammar List",
+        "sourceUrl": "https://japanesetest4you.com/jlpt-n2-grammar-list/",
+        "citation": "N2 grammar catalog entry for ～てはならない",
+        "usagePermission": "reference_only",
+        "verifiedBy": "Sprint 7.2 source review",
+        "verifiedAt": "2026-06-30T09:00:00.000Z"
+      }
+    ],
+    "reviewNotes": "Verified against two learning-resource catalogs; examples remain project-original.",
+    "lastReviewedAt": "2026-06-30T09:00:00.000Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-TOKORONI-001",
+    "title": "～ところに／へ／を",
+    "sourceType": "trusted_learning_site",
+    "sourceName": "JLPT Sensei N2 Grammar List; JapaneseTest4You N2 Grammar List",
+    "verificationStatus": "verified",
+    "evidenceNote": "Cross-listed in two independent N2 grammar catalogs; meaning, structure, usage, relations, and original examples checked. Learning-resource verification only; not an official JLPT designation.",
+    "verifiedAt": "2026-06-30T09:00:00.000Z",
+    "validationStatus": "verified",
+    "evidence": [
+      {
+        "evidenceType": "high_trust_material",
+        "sourceName": "JLPT Sensei N2 Grammar List",
+        "sourceUrl": "https://jlptsensei.com/jlpt-n2-grammar-list/",
+        "citation": "N2 grammar catalog entry for ～ところに／へ／を",
+        "usagePermission": "reference_only",
+        "verifiedBy": "Sprint 7.2 source review",
+        "verifiedAt": "2026-06-30T09:00:00.000Z"
+      },
+      {
+        "evidenceType": "high_trust_material",
+        "sourceName": "JapaneseTest4You N2 Grammar List",
+        "sourceUrl": "https://japanesetest4you.com/jlpt-n2-grammar-list/",
+        "citation": "N2 grammar catalog entry for ～ところに／へ／を",
+        "usagePermission": "reference_only",
+        "verifiedBy": "Sprint 7.2 source review",
+        "verifiedAt": "2026-06-30T09:00:00.000Z"
+      }
+    ],
+    "reviewNotes": "Verified against two learning-resource catalogs; examples remain project-original.",
+    "lastReviewedAt": "2026-06-30T09:00:00.000Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-TOSHITARA-001",
+    "title": "～としたら",
+    "sourceType": "ai_structured",
+    "sourceName": "Sprint 7.1 Grammar Master Map",
+    "verificationStatus": "unverified",
+    "evidenceNote": "Independent point-level source cross-check not completed; retain draft status.",
+    "verifiedAt": null,
+    "validationStatus": "unverified",
+    "evidence": [],
+    "reviewNotes": "Pending independent source verification.",
+    "lastReviewedAt": null
+  },
+  {
+    "knowledgePointId": "KP-GRA-TOSUREBA-001",
+    "title": "～とすれば",
+    "sourceType": "ai_structured",
+    "sourceName": "Sprint 7.1 Grammar Master Map",
+    "verificationStatus": "unverified",
+    "evidenceNote": "Independent point-level source cross-check not completed; retain draft status.",
+    "verifiedAt": null,
+    "validationStatus": "unverified",
+    "evidence": [],
+    "reviewNotes": "Pending independent source verification.",
+    "lastReviewedAt": null
+  },
+  {
+    "knowledgePointId": "KP-GRA-TOTOMONI-001",
+    "title": "～とともに",
+    "sourceType": "ai_structured",
+    "sourceName": "Sprint 7.1 Grammar Master Map",
+    "verificationStatus": "unverified",
+    "evidenceNote": "Independent point-level source cross-check not completed; retain draft status.",
+    "verifiedAt": null,
+    "validationStatus": "unverified",
+    "evidence": [],
+    "reviewNotes": "Pending independent source verification.",
+    "lastReviewedAt": null
+  },
+  {
+    "knowledgePointId": "KP-GRA-TOWAIE-001",
+    "title": "～とはいえ",
+    "sourceType": "ai_structured",
+    "sourceName": "Sprint 7.1 Grammar Master Map",
+    "verificationStatus": "unverified",
+    "evidenceNote": "Independent point-level source cross-check not completed; retain draft status.",
+    "verifiedAt": null,
+    "validationStatus": "unverified",
+    "evidence": [],
+    "reviewNotes": "Pending independent source verification.",
+    "lastReviewedAt": null
+  },
+  {
+    "knowledgePointId": "KP-GRA-TSUTSUMO-001",
+    "title": "～つつ（も）",
+    "sourceType": "trusted_learning_site",
+    "sourceName": "JLPT Sensei N2 Grammar List; JapaneseTest4You N2 Grammar List",
+    "verificationStatus": "verified",
+    "evidenceNote": "Cross-listed in two independent N2 grammar catalogs; meaning, structure, usage, relations, and original examples checked. Learning-resource verification only; not an official JLPT designation.",
+    "verifiedAt": "2026-06-30T09:00:00.000Z",
+    "validationStatus": "verified",
+    "evidence": [
+      {
+        "evidenceType": "high_trust_material",
+        "sourceName": "JLPT Sensei N2 Grammar List",
+        "sourceUrl": "https://jlptsensei.com/jlpt-n2-grammar-list/",
+        "citation": "N2 grammar catalog entry for ～つつ（も）",
+        "usagePermission": "reference_only",
+        "verifiedBy": "Sprint 7.2 source review",
+        "verifiedAt": "2026-06-30T09:00:00.000Z"
+      },
+      {
+        "evidenceType": "high_trust_material",
+        "sourceName": "JapaneseTest4You N2 Grammar List",
+        "sourceUrl": "https://japanesetest4you.com/jlpt-n2-grammar-list/",
+        "citation": "N2 grammar catalog entry for ～つつ（も）",
+        "usagePermission": "reference_only",
+        "verifiedBy": "Sprint 7.2 source review",
+        "verifiedAt": "2026-06-30T09:00:00.000Z"
+      }
+    ],
+    "reviewNotes": "Verified against two learning-resource catalogs; examples remain project-original.",
+    "lastReviewedAt": "2026-06-30T09:00:00.000Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-UCHINI-001",
+    "title": "～うちに",
+    "sourceType": "ai_structured",
+    "sourceName": "Sprint 7.1 Grammar Master Map",
+    "verificationStatus": "unverified",
+    "evidenceNote": "Independent point-level source cross-check not completed; retain draft status.",
+    "verifiedAt": null,
+    "validationStatus": "unverified",
+    "evidence": [],
+    "reviewNotes": "Pending independent source verification.",
+    "lastReviewedAt": null
+  },
+  {
+    "knowledgePointId": "KP-GRA-WAKEDEWANAI-001",
+    "title": "～わけではない",
+    "sourceType": "ai_structured",
+    "sourceName": "Sprint 7.1 Grammar Master Map",
+    "verificationStatus": "unverified",
+    "evidenceNote": "Independent point-level source cross-check not completed; retain draft status.",
+    "verifiedAt": null,
+    "validationStatus": "unverified",
+    "evidence": [],
+    "reviewNotes": "Pending independent source verification.",
+    "lastReviewedAt": null
+  },
+  {
+    "knowledgePointId": "KP-GRA-WAKEGANAI-001",
+    "title": "～わけがない",
+    "sourceType": "ai_structured",
+    "sourceName": "Sprint 7.1 Grammar Master Map",
+    "verificationStatus": "unverified",
+    "evidenceNote": "Independent point-level source cross-check not completed; retain draft status.",
+    "verifiedAt": null,
+    "validationStatus": "unverified",
+    "evidence": [],
+    "reviewNotes": "Pending independent source verification.",
+    "lastReviewedAt": null
+  },
+  {
+    "knowledgePointId": "KP-GRA-WARINI-001",
+    "title": "～わりに",
+    "sourceType": "ai_structured",
+    "sourceName": "Sprint 7.1 Grammar Master Map",
+    "verificationStatus": "unverified",
+    "evidenceNote": "Independent point-level source cross-check not completed; retain draft status.",
+    "verifiedAt": null,
+    "validationStatus": "unverified",
+    "evidence": [],
+    "reviewNotes": "Pending independent source verification.",
+    "lastReviewedAt": null
+  },
+  {
+    "knowledgePointId": "KP-GRA-YOUDA-001",
+    "title": "～ようだ",
+    "sourceType": "ai_structured",
+    "sourceName": "Sprint 7.1 Grammar Master Map",
+    "verificationStatus": "unverified",
+    "evidenceNote": "Independent point-level source cross-check not completed; retain draft status.",
+    "verifiedAt": null,
+    "validationStatus": "unverified",
+    "evidence": [],
+    "reviewNotes": "Pending independent source verification.",
+    "lastReviewedAt": null
+  },
+  {
+    "knowledgePointId": "KP-GRA-YOUMONONARA-001",
+    "title": "～ようものなら",
+    "sourceType": "ai_structured",
+    "sourceName": "Sprint 7.1 Grammar Master Map",
+    "verificationStatus": "unverified",
+    "evidenceNote": "Independent point-level source cross-check not completed; retain draft status.",
+    "verifiedAt": null,
+    "validationStatus": "unverified",
+    "evidence": [],
+    "reviewNotes": "Pending independent source verification.",
+    "lastReviewedAt": null
+  },
+  {
+    "knowledgePointId": "KP-GRA-YOUNI-001",
+    "title": "～ように",
+    "sourceType": "ai_structured",
+    "sourceName": "Sprint 7.1 Grammar Master Map",
+    "verificationStatus": "unverified",
+    "evidenceNote": "Independent point-level source cross-check not completed; retain draft status.",
+    "verifiedAt": null,
+    "validationStatus": "unverified",
+    "evidence": [],
+    "reviewNotes": "Pending independent source verification.",
+    "lastReviewedAt": null
+  },
+  {
+    "knowledgePointId": "KP-GRA-YOUNINARU-001",
+    "title": "～ようになる",
+    "sourceType": "ai_structured",
+    "sourceName": "Sprint 7.1 Grammar Master Map",
+    "verificationStatus": "unverified",
+    "evidenceNote": "Independent point-level source cross-check not completed; retain draft status.",
+    "verifiedAt": null,
+    "validationStatus": "unverified",
+    "evidence": [],
+    "reviewNotes": "Pending independent source verification.",
+    "lastReviewedAt": null
+  },
+  {
+    "knowledgePointId": "KP-GRA-ZARUOENAI-001",
+    "title": "～ざるを得ない",
+    "sourceType": "trusted_learning_site",
+    "sourceName": "JLPT Sensei N2 Grammar List; JapaneseTest4You N2 Grammar List",
+    "verificationStatus": "verified",
+    "evidenceNote": "Cross-listed in two independent N2 grammar catalogs; meaning, structure, usage, relations, and original examples checked. Learning-resource verification only; not an official JLPT designation.",
+    "verifiedAt": "2026-06-30T09:00:00.000Z",
+    "validationStatus": "verified",
+    "evidence": [
+      {
+        "evidenceType": "high_trust_material",
+        "sourceName": "JLPT Sensei N2 Grammar List",
+        "sourceUrl": "https://jlptsensei.com/jlpt-n2-grammar-list/",
+        "citation": "N2 grammar catalog entry for ～ざるを得ない",
+        "usagePermission": "reference_only",
+        "verifiedBy": "Sprint 7.2 source review",
+        "verifiedAt": "2026-06-30T09:00:00.000Z"
+      },
+      {
+        "evidenceType": "high_trust_material",
+        "sourceName": "JapaneseTest4You N2 Grammar List",
+        "sourceUrl": "https://japanesetest4you.com/jlpt-n2-grammar-list/",
+        "citation": "N2 grammar catalog entry for ～ざるを得ない",
+        "usagePermission": "reference_only",
+        "verifiedBy": "Sprint 7.2 source review",
+        "verifiedAt": "2026-06-30T09:00:00.000Z"
+      }
+    ],
+    "reviewNotes": "Verified against two learning-resource catalogs; examples remain project-original.",
+    "lastReviewedAt": "2026-06-30T09:00:00.000Z"
+  },
+  {
+    "knowledgePointId": "KP-READ-GUIDE-001",
+    "validationStatus": "unverified",
+    "evidence": [],
+    "reviewNotes": "Sprint 6 baseline: pending independent source verification.",
+    "lastReviewedAt": null
+  },
+  {
+    "knowledgePointId": "KP-READ-MAINIDEA-001",
+    "validationStatus": "unverified",
+    "evidence": [],
+    "reviewNotes": "Sprint 6 baseline: pending independent source verification.",
+    "lastReviewedAt": null
+  },
+  {
+    "knowledgePointId": "KP-READ-MEMO-001",
+    "validationStatus": "unverified",
+    "evidence": [],
+    "reviewNotes": "Sprint 6 baseline: pending independent source verification.",
+    "lastReviewedAt": null
+  },
+  {
+    "knowledgePointId": "KP-READ-NOTICE-001",
+    "validationStatus": "unverified",
+    "evidence": [],
+    "reviewNotes": "Sprint 6 baseline: pending independent source verification.",
+    "lastReviewedAt": null
+  },
+  {
+    "knowledgePointId": "KP-READ-REASON-001",
+    "validationStatus": "unverified",
+    "evidence": [],
+    "reviewNotes": "Sprint 6 baseline: pending independent source verification.",
+    "lastReviewedAt": null
+  },
+  {
+    "knowledgePointId": "KP-SYN-DATO-001",
+    "validationStatus": "unverified",
+    "evidence": [],
+    "reviewNotes": "Sprint 6 baseline: pending independent source verification.",
+    "lastReviewedAt": null
+  },
+  {
+    "knowledgePointId": "KP-SYN-HABUKU-001",
+    "validationStatus": "unverified",
+    "evidence": [],
+    "reviewNotes": "Sprint 6 baseline: pending independent source verification.",
+    "lastReviewedAt": null
+  },
+  {
+    "knowledgePointId": "KP-SYN-METTANI-001",
+    "validationStatus": "unverified",
+    "evidence": [],
+    "reviewNotes": "Sprint 6 baseline: pending independent source verification.",
+    "lastReviewedAt": null
+  },
+  {
+    "knowledgePointId": "KP-SYN-OOYOSO-001",
+    "validationStatus": "unverified",
+    "evidence": [],
+    "reviewNotes": "Sprint 6 baseline: pending independent source verification.",
+    "lastReviewedAt": null
+  },
+  {
+    "knowledgePointId": "KP-SYN-TADACHINI-001",
+    "validationStatus": "unverified",
+    "evidence": [],
+    "reviewNotes": "Sprint 6 baseline: pending independent source verification.",
+    "lastReviewedAt": null
+  },
+  {
+    "knowledgePointId": "KP-VOC-HATASU-001",
+    "validationStatus": "unverified",
+    "evidence": [],
+    "reviewNotes": "Sprint 6 baseline: pending independent source verification.",
+    "lastReviewedAt": null
+  },
+  {
+    "knowledgePointId": "KP-VOC-KITASU-001",
+    "validationStatus": "unverified",
+    "evidence": [],
+    "reviewNotes": "Sprint 6 baseline: pending independent source verification.",
+    "lastReviewedAt": null
+  },
+  {
+    "knowledgePointId": "KP-VOC-OU-001",
+    "validationStatus": "unverified",
+    "evidence": [],
+    "reviewNotes": "Sprint 6 baseline: pending independent source verification.",
+    "lastReviewedAt": null
+  },
+  {
+    "knowledgePointId": "KP-VOC-TASSURU-001",
+    "validationStatus": "unverified",
+    "evidence": [],
+    "reviewNotes": "Sprint 6 baseline: pending independent source verification.",
+    "lastReviewedAt": null
+  },
+  {
+    "knowledgePointId": "KP-VOC-YOSERU-001",
+    "validationStatus": "unverified",
+    "evidence": [],
+    "reviewNotes": "Sprint 6 baseline: pending independent source verification.",
+    "lastReviewedAt": null
+  }
+]

@@ -1,0 +1,332 @@
+[
+  {
+    "from": "KP-GRA-MONONO-001",
+    "to": "KP-GRA-NIMOKAKAWARAZU-001",
+    "relationType": "confusable",
+    "note": "两者均表示让步；后者更强调不受条件影响。"
+  },
+  {
+    "from": "KP-GRA-MONONO-001",
+    "to": "KP-GRA-NAGARAMO-001",
+    "relationType": "similar",
+    "note": "都可表示虽然，但ながらも还可保留状态并行感。"
+  },
+  {
+    "from": "KP-GRA-NAGARAMO-001",
+    "to": "KP-GRA-TSUTSUMO-001",
+    "relationType": "confusable",
+    "note": "つつも通常接动词ます形并带持续或明知故犯语感。"
+  },
+  {
+    "from": "KP-GRA-TOWAIE-001",
+    "to": "KP-GRA-MONONO-001",
+    "relationType": "similar",
+    "note": "都先承认前项再转折，とはいえ更常补充限制。"
+  },
+  {
+    "from": "KP-GRA-KUSENI-001",
+    "to": "KP-GRA-MONONO-001",
+    "relationType": "stronger_than",
+    "note": "くせに比ものの更强烈地表达责备。"
+  },
+  {
+    "from": "KP-GRA-HANMEN-001",
+    "to": "KP-GRA-IPPOUDE-001",
+    "relationType": "confusable",
+    "note": "反面强调同一事物两面，一方で也可对照不同主体。"
+  },
+  {
+    "from": "KP-GRA-DOKOROKA-001",
+    "to": "KP-GRA-BAKARIKA-001",
+    "relationType": "confusable",
+    "note": "どころか可推翻前项，ばかりか是在前项上递进。"
+  },
+  {
+    "from": "KP-GRA-NIHANSHITE-001",
+    "to": "KP-GRA-NIMOKAKAWARAZU-001",
+    "relationType": "similar",
+    "note": "均涉及预期与结果不一致，但接续和焦点不同。"
+  },
+  {
+    "from": "KP-GRA-KOTOKARA-001",
+    "to": "KP-GRA-MONODAKARA-001",
+    "relationType": "confusable",
+    "note": "ことから说明客观依据，ものだから常带主观解释或辩解。"
+  },
+  {
+    "from": "KP-GRA-MONODAKARA-001",
+    "to": "KP-GRA-BAKARINI-001",
+    "relationType": "confusable",
+    "note": "ばかりに强调单一原因带来不良结果。"
+  },
+  {
+    "from": "KP-GRA-OKAGEDE-001",
+    "to": "KP-GRA-SEIDE-001",
+    "relationType": "contrast",
+    "note": "おかげで通常导向积极结果，せいで导向消极结果。"
+  },
+  {
+    "from": "KP-GRA-AMARI-001",
+    "to": "KP-GRA-BAKARINI-001",
+    "relationType": "similar",
+    "note": "两者都可说明不正常结果，但あまり强调程度过高。"
+  },
+  {
+    "from": "KP-GRA-AGEKU-001",
+    "to": "KP-GRA-BAKARINI-001",
+    "relationType": "similar",
+    "note": "あげく强调长期过程后的结果，ばかりに强调原因。"
+  },
+  {
+    "from": "KP-GRA-IJOUWA-001",
+    "to": "KP-GRA-BEKIDA-001",
+    "relationType": "similar",
+    "note": "以上は常引出责任或べきだ等当然结论。"
+  },
+  {
+    "from": "KP-GRA-NICHIGAINAI-001",
+    "to": "KP-GRA-RASHII-001",
+    "relationType": "stronger_than",
+    "note": "に違いない确信度通常高于らしい。"
+  },
+  {
+    "from": "KP-GRA-NIKIMATTEIRU-001",
+    "to": "KP-GRA-NICHIGAINAI-001",
+    "relationType": "casual_variant",
+    "note": "に決まっている更主观且较口语。"
+  },
+  {
+    "from": "KP-GRA-HAZUDA-001",
+    "to": "KP-GRA-WAKEGANAI-001",
+    "relationType": "contrast",
+    "note": "はずだ表示合理预期，わけがない强烈否定可能。"
+  },
+  {
+    "from": "KP-GRA-YOUDA-001",
+    "to": "KP-GRA-RASHII-001",
+    "relationType": "confusable",
+    "note": "ようだ偏观察判断，らしい也可来自传闻。"
+  },
+  {
+    "from": "KP-GRA-OSOREGAARU-001",
+    "to": "KP-GRA-KANENAI-001",
+    "relationType": "confusable",
+    "note": "两者都表示风险；おそれがある更客观正式。"
+  },
+  {
+    "from": "KP-GRA-MAI-001",
+    "to": "KP-GRA-WAKEGANAI-001",
+    "relationType": "similar",
+    "note": "两者可表达否定判断，但まい还可表示否定意志。"
+  },
+  {
+    "from": "KP-GRA-NIHOKANARANAI-001",
+    "to": "KP-GRA-NISUGINAI-001",
+    "relationType": "contrast",
+    "note": "前者强调正是，后者限制为不过是。"
+  },
+  {
+    "from": "KP-GRA-SHIKANAI-001",
+    "to": "KP-GRA-ZARUOENAI-001",
+    "relationType": "confusable",
+    "note": "均可译为只好；ざるを得ない更正式且强调被迫。"
+  },
+  {
+    "from": "KP-GRA-SAE-001",
+    "to": "KP-GRA-BAKARIKA-001",
+    "relationType": "similar",
+    "note": "さえ举极端例，ばかりか连接递进的两项。"
+  },
+  {
+    "from": "KP-GRA-BAKARIKA-001",
+    "to": "KP-GRA-NOMINARAZU-001",
+    "relationType": "formal_variant",
+    "note": "のみならず是更正式的书面递进形式。"
+  },
+  {
+    "from": "KP-GRA-NIKAGITTE-001",
+    "to": "KP-GRA-NIKAGIRAZU-001",
+    "relationType": "confusable",
+    "note": "に限って表示唯独或偏偏，に限らず表示不限于。"
+  },
+  {
+    "from": "KP-GRA-WAKEDEWANAI-001",
+    "to": "KP-GRA-NAIKOTOWANAI-001",
+    "relationType": "confusable",
+    "note": "前者部分否定结论，后者双重否定表示并非不可能。"
+  },
+  {
+    "from": "KP-GRA-SAEBA-001",
+    "to": "KP-GRA-NAIKAGIRI-001",
+    "relationType": "contrast",
+    "note": "さえ～ば提出最低充分条件，ない限り提出必要条件。"
+  },
+  {
+    "from": "KP-GRA-MONONARA-001",
+    "to": "KP-GRA-YOUMONONARA-001",
+    "relationType": "confusable",
+    "note": "可能形ものなら多为难实现愿望，意向形ようものなら多为严重后果。"
+  },
+  {
+    "from": "KP-GRA-TOSHITARA-001",
+    "to": "KP-GRA-TOSUREBA-001",
+    "relationType": "similar",
+    "note": "均表示假设，とすれば更书面且偏逻辑推论。"
+  },
+  {
+    "from": "KP-GRA-KAGIRI-001",
+    "to": "KP-GRA-NAIKAGIRI-001",
+    "relationType": "contrast",
+    "note": "前者表示只要状态持续，后者表示除非条件实现。"
+  },
+  {
+    "from": "KP-GRA-NAIKOTONIWA-001",
+    "to": "KP-GRA-NAIKAGIRI-001",
+    "relationType": "similar",
+    "note": "都表示前项是后项成立的必要条件。"
+  },
+  {
+    "from": "KP-GRA-TAMENI-001",
+    "to": "KP-GRA-YOUNI-001",
+    "relationType": "confusable",
+    "note": "ために常接意志目标，ように常用于能力或非意志状态。"
+  },
+  {
+    "from": "KP-GRA-BEKU-001",
+    "to": "KP-GRA-TAMENI-001",
+    "relationType": "formal_variant",
+    "note": "べく是表示目的的正式书面形式。"
+  },
+  {
+    "from": "KP-GRA-NIMUKETE-001",
+    "to": "KP-GRA-TAMENI-001",
+    "relationType": "similar",
+    "note": "に向けて强调朝目标推进准备。"
+  },
+  {
+    "from": "KP-GRA-NISONAETE-001",
+    "to": "KP-GRA-NIMUKETE-001",
+    "relationType": "similar",
+    "note": "に備えて专指为未来情况预先准备。"
+  },
+  {
+    "from": "KP-GRA-NITOMONATTE-001",
+    "to": "KP-GRA-NITSURETE-001",
+    "relationType": "confusable",
+    "note": "均表示伴随变化；につれて更强调连续自然变化。"
+  },
+  {
+    "from": "KP-GRA-NITSURETE-001",
+    "to": "KP-GRA-NISHITAGATTE-001",
+    "relationType": "confusable",
+    "note": "に従って还可表示遵照规则。"
+  },
+  {
+    "from": "KP-GRA-TOTOMONI-001",
+    "to": "KP-GRA-NITOMONATTE-001",
+    "relationType": "confusable",
+    "note": "とともに还可表示共同主体或同时发生。"
+  },
+  {
+    "from": "KP-GRA-YOUNINARU-001",
+    "to": "KP-GRA-KOTONISURU-001",
+    "relationType": "contrast",
+    "note": "ようになる是状态变化，ことにする是主动决定。"
+  },
+  {
+    "from": "KP-GRA-KOTONINARU-001",
+    "to": "KP-GRA-KOTONISURU-001",
+    "relationType": "confusable",
+    "note": "ことになる偏外部决定，ことにする偏个人决定。"
+  },
+  {
+    "from": "KP-GRA-BAKARIDA-001",
+    "to": "KP-GRA-NITSURETE-001",
+    "relationType": "similar",
+    "note": "ばかりだ强调单向持续趋势，につれて强调两项同步变化。"
+  },
+  {
+    "from": "KP-GRA-ZARUOENAI-001",
+    "to": "KP-GRA-NAIWAKENIHAIKANAI-001",
+    "relationType": "confusable",
+    "note": "前者受客观情况所迫，后者常因责任或社会常识。"
+  },
+  {
+    "from": "KP-GRA-BEKIDA-001",
+    "to": "KP-GRA-BEKIDEWANAI-001",
+    "relationType": "contrast",
+    "note": "分别表示应该与不应该。"
+  },
+  {
+    "from": "KP-GRA-KOTODA-001",
+    "to": "KP-GRA-BEKIDA-001",
+    "relationType": "weaker_than",
+    "note": "ことだ通常是较柔和的忠告，べきだ规范性更强。"
+  },
+  {
+    "from": "KP-GRA-KOTOWANAI-001",
+    "to": "KP-GRA-BEKIDEWANAI-001",
+    "relationType": "contrast",
+    "note": "ことはない表示没必要，べきではない表示不应该。"
+  },
+  {
+    "from": "KP-GRA-TEWANARANAI-001",
+    "to": "KP-GRA-BEKIDEWANAI-001",
+    "relationType": "stronger_than",
+    "note": "てはならない是正式禁止，强于建议性的べきではない。"
+  },
+  {
+    "from": "KP-GRA-KOTONINATTEIRU-001",
+    "to": "KP-GRA-TEWANARANAI-001",
+    "relationType": "similar",
+    "note": "制度规定常与正式禁止表达共同出现。"
+  },
+  {
+    "from": "KP-GRA-HODO-001",
+    "to": "KP-GRA-KURAI-001",
+    "relationType": "confusable",
+    "note": "都可表示程度；ほど还用于比较和越……越……。"
+  },
+  {
+    "from": "KP-GRA-NIKURABETE-001",
+    "to": "KP-GRA-NITAISHITE-001",
+    "relationType": "confusable",
+    "note": "に比べて强调比较，に対して也可表示对象或对照。"
+  },
+  {
+    "from": "KP-GRA-WARINI-001",
+    "to": "KP-GRA-NISHITEWA-001",
+    "relationType": "confusable",
+    "note": "均表示不符合预期；にしては以身份或阶段为评价基准。"
+  },
+  {
+    "from": "KP-GRA-DOKORODEWANAI-001",
+    "to": "KP-GRA-DOKOROKA-001",
+    "relationType": "confusable",
+    "note": "どころではない表示无暇做，どころか表示反转或递进。"
+  },
+  {
+    "from": "KP-GRA-SAICHUUNI-001",
+    "to": "KP-GRA-TOKORONI-001",
+    "relationType": "confusable",
+    "note": "最中に强调动作正进行，ところに可对应开始、进行或完成阶段。"
+  },
+  {
+    "from": "KP-GRA-UCHINI-001",
+    "to": "KP-GRA-TEIRAI-001",
+    "relationType": "contrast",
+    "note": "うちに限定一段期间，て以来表示从起点持续至今。"
+  },
+  {
+    "from": "KP-GRA-NISAKIDATTE-001",
+    "to": "KP-GRA-NISAISHITE-001",
+    "relationType": "confusable",
+    "note": "に先立って明确在前，に際して表示在特殊时机。"
+  },
+  {
+    "from": "KP-GRA-TABINI-001",
+    "to": "KP-GRA-KAGIRI-001",
+    "relationType": "contrast",
+    "note": "たびに表示每次重复，限り表示条件持续期间。"
+  }
+]

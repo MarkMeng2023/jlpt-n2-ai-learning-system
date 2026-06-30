@@ -2,6 +2,7 @@ import { APP_CONFIG } from "./config.js";
 import { buildChatGptPrompt } from "./prompt-builder.js";
 import { createSubmission } from "./records.js";
 import { ProgressStore, mergeAnsweredQuestionIds } from "./progress.js";
+import { loadQuestionBank } from "./question-bank.js";
 import {
   KNOWLEDGE_STATUS,
   buildKnowledgeProfiles,
@@ -27,6 +28,14 @@ const queue = new SyncQueue(APP_CONFIG.queueStorageKey);
 const progressStore = new ProgressStore(APP_CONFIG.progressStorageKey);
 const syncClient = new SyncClient(APP_CONFIG.appsScriptUrl, APP_CONFIG.requestTimeoutMs);
 const modeNames = { continue: "继续学习", review: "今日复习", mistakes: "错题重做", random: "随机练习" };
+const questionTypeNames = {
+  vocabulary_collocation: "词汇・固定搭配",
+  adverb: "词汇・副词",
+  synonym: "词汇・近义词",
+  grammar_choice: "文法・选择",
+  grammar_meaning: "文法・句意",
+  short_reading: "阅读・短篇"
+};
 
 let questions = [];
 let answerRecords = [];
@@ -51,10 +60,8 @@ function mergeRecords(...collections) {
 async function init() {
   updatePendingCount();
   try {
-    const response = await fetch("data/questions.json");
-    if (!response.ok) throw new Error(`题库加载失败（HTTP ${response.status}）`);
-    questions = await response.json();
-    if (!Array.isArray(questions) || questions.length === 0) throw new Error("题库为空");
+    const bank = await loadQuestionBank();
+    questions = bank.questions;
 
     const pendingRecords = queue.getAll().map((operation) => operation.answerRecord).filter(Boolean);
     answerRecords = pendingRecords;
@@ -177,7 +184,7 @@ function renderQuestion() {
   elements.answer_form.classList.remove("hidden");
   elements.answer_form.reset();
   elements.question_number.textContent = `${modeNames[activeMode]} · 第 ${activePosition + 1} / ${activeQuestions.length} 题`;
-  elements.question_type.textContent = question.typeLabel || question.type;
+  elements.question_type.textContent = questionTypeNames[question.type] || question.type;
   elements.question_heading.textContent = question.prompt;
   elements.choices.innerHTML = Object.entries(question.choices).map(([key, value]) => `
     <label class="choice"><input type="radio" name="answer" value="${key}" />

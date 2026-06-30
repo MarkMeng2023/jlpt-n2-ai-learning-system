@@ -1,8 +1,32 @@
 # Changelog
 
+## Sprint 8
+
+- 新增可配置的 Knowledge Point Coverage Engine 与确定性 Question Factory。
+- 新增知识点覆盖报告、题目生成计划及未来候选题元数据模板；Factory 只规划缺口，不直接生成题目。
+
 本项目的主要版本变更记录于此。
 
 ## [Unreleased]
+
+### Added
+
+- Added an 80-point N2 Grammar Master Map, 55 typed grammar relations, validation, and coverage reporting.
+- Added a knowledge-point source registry and automated question-bank quality report.
+- Added source, copyright, AI-generation, human-review, and staged expansion policies for Sprint 6.
+- Standardized Question Schema and Knowledge Point Schema for long-term N1/N2/N3 expansion.
+- Expanded the N2 question bank from 30 to 80 original JLPT-style questions.
+- Added `knowledge-points.json` with 30 structured knowledge points.
+- Added a shared browser/CLI question-bank validator and maintenance documentation.
+
+### Changed
+
+- Verified 30 Grammar Master Map entries against two independent N2 learning-resource catalogs; retained 50 entries as draft.
+- Expanded the knowledge-point source registry with auditable grammar evidence and verification status.
+- Expanded all 80 explanations with the tested knowledge point, correct-answer rationale, A/B/C/D analysis, and a similar example.
+- Incremented all question versions to 2 without changing question IDs, answers, or question count.
+- Frontend now validates both data files before starting and reports actionable schema errors.
+- Existing 30 question IDs remain stable so stored learning progress is preserved.
 
 ## [1.4.0] - 2026-06-30
 

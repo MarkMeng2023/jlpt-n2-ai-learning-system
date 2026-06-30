@@ -1,0 +1,734 @@
+[
+  {
+    "knowledgePointId": "KP-VOC-HATASU-001",
+    "level": "N2",
+    "category": "vocabulary",
+    "title": "約束を果たす",
+    "reading": "はたす",
+    "meaning": "履行；完成",
+    "description": "与责任、任务、作用等搭配，表示切实完成。",
+    "examples": [
+      "約束を果たす。",
+      "役割を果たす。"
+    ],
+    "relatedPointIds": [],
+    "confusablePointIds": [],
+    "tags": [
+      "固定搭配"
+    ],
+    "masteryRule": {
+      "minAccuracy": 90,
+      "minCorrectStreak": 5,
+      "minAttempts": 10
+    },
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T00:00:00.000Z"
+  },
+  {
+    "knowledgePointId": "KP-VOC-OU-001",
+    "level": "N2",
+    "category": "vocabulary",
+    "title": "責任を負う",
+    "reading": "おう",
+    "meaning": "承担；背负",
+    "description": "常与责任、义务、债务等搭配。",
+    "examples": [
+      "責任を負う。",
+      "借金を負う。"
+    ],
+    "relatedPointIds": [],
+    "confusablePointIds": [],
+    "tags": [
+      "固定搭配"
+    ],
+    "masteryRule": {
+      "minAccuracy": 90,
+      "minCorrectStreak": 5,
+      "minAttempts": 10
+    },
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T00:00:00.000Z"
+  },
+  {
+    "knowledgePointId": "KP-VOC-YOSERU-001",
+    "level": "N2",
+    "category": "vocabulary",
+    "title": "関心を寄せる",
+    "reading": "よせる",
+    "meaning": "寄予；给予",
+    "description": "用于表达关注、期待、信任或同情的集中。",
+    "examples": [
+      "期待を寄せる。",
+      "関心を寄せる。"
+    ],
+    "relatedPointIds": [],
+    "confusablePointIds": [],
+    "tags": [
+      "固定搭配"
+    ],
+    "masteryRule": {
+      "minAccuracy": 90,
+      "minCorrectStreak": 5,
+      "minAttempts": 10
+    },
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T00:00:00.000Z"
+  },
+  {
+    "knowledgePointId": "KP-VOC-TASSURU-001",
+    "level": "N2",
+    "category": "vocabulary",
+    "title": "結論に達する",
+    "reading": "たっする",
+    "meaning": "达到；抵达",
+    "description": "表示到达数值、地点、结论或协议。",
+    "examples": [
+      "合意に達する。",
+      "山頂に達する。"
+    ],
+    "relatedPointIds": [],
+    "confusablePointIds": [],
+    "tags": [
+      "固定搭配"
+    ],
+    "masteryRule": {
+      "minAccuracy": 90,
+      "minCorrectStreak": 5,
+      "minAttempts": 10
+    },
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T00:00:00.000Z"
+  },
+  {
+    "knowledgePointId": "KP-VOC-KITASU-001",
+    "level": "N2",
+    "category": "vocabulary",
+    "title": "支障をきたす",
+    "reading": "きたす",
+    "meaning": "导致；招致",
+    "description": "多与不良影响、混乱、障碍等搭配。",
+    "examples": [
+      "支障をきたす。",
+      "混乱をきたす。"
+    ],
+    "relatedPointIds": [],
+    "confusablePointIds": [],
+    "tags": [
+      "固定搭配"
+    ],
+    "masteryRule": {
+      "minAccuracy": 90,
+      "minCorrectStreak": 5,
+      "minAttempts": 10
+    },
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T00:00:00.000Z"
+  },
+  {
+    "knowledgePointId": "KP-ADV-ARAKAJIME-001",
+    "level": "N2",
+    "category": "vocabulary",
+    "title": "あらかじめ",
+    "reading": "あらかじめ",
+    "meaning": "预先；事先",
+    "description": "表示在事情发生前先做好准备。",
+    "examples": [
+      "あらかじめ連絡する。"
+    ],
+    "relatedPointIds": [],
+    "confusablePointIds": [],
+    "tags": [
+      "副词"
+    ],
+    "masteryRule": {
+      "minAccuracy": 90,
+      "minCorrectStreak": 5,
+      "minAttempts": 10
+    },
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T00:00:00.000Z"
+  },
+  {
+    "knowledgePointId": "KP-ADV-SHIKIRINI-001",
+    "level": "N2",
+    "category": "vocabulary",
+    "title": "しきりに",
+    "reading": "しきりに",
+    "meaning": "频繁地；不断地",
+    "description": "表示某动作或状态反复出现。",
+    "examples": [
+      "しきりに時計を見る。"
+    ],
+    "relatedPointIds": [],
+    "confusablePointIds": [],
+    "tags": [
+      "副词"
+    ],
+    "masteryRule": {
+      "minAccuracy": 90,
+      "minCorrectStreak": 5,
+      "minAttempts": 10
+    },
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T00:00:00.000Z"
+  },
+  {
+    "knowledgePointId": "KP-ADV-ROKUNI-001",
+    "level": "N2",
+    "category": "vocabulary",
+    "title": "ろくに～ない",
+    "reading": "ろくに",
+    "meaning": "充分地（常接否定）",
+    "description": "通常用于「ろくに～ない」，表示没有充分做到。",
+    "examples": [
+      "ろくに寝ていない。"
+    ],
+    "relatedPointIds": [],
+    "confusablePointIds": [],
+    "tags": [
+      "副词",
+      "否定呼应"
+    ],
+    "masteryRule": {
+      "minAccuracy": 90,
+      "minCorrectStreak": 5,
+      "minAttempts": 10
+    },
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T00:00:00.000Z"
+  },
+  {
+    "knowledgePointId": "KP-ADV-ISSO-001",
+    "level": "N2",
+    "category": "vocabulary",
+    "title": "いっそう",
+    "reading": "いっそう",
+    "meaning": "更加；越发",
+    "description": "表示程度比此前进一步提高。",
+    "examples": [
+      "いっそう便利になる。"
+    ],
+    "relatedPointIds": [],
+    "confusablePointIds": [],
+    "tags": [
+      "副词"
+    ],
+    "masteryRule": {
+      "minAccuracy": 90,
+      "minCorrectStreak": 5,
+      "minAttempts": 10
+    },
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T00:00:00.000Z"
+  },
+  {
+    "knowledgePointId": "KP-ADV-TAMATAMA-001",
+    "level": "N2",
+    "category": "vocabulary",
+    "title": "たまたま",
+    "reading": "たまたま",
+    "meaning": "偶然；碰巧",
+    "description": "表示没有计划而偶然发生。",
+    "examples": [
+      "たまたま友人に会う。"
+    ],
+    "relatedPointIds": [],
+    "confusablePointIds": [],
+    "tags": [
+      "副词"
+    ],
+    "masteryRule": {
+      "minAccuracy": 90,
+      "minCorrectStreak": 5,
+      "minAttempts": 10
+    },
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T00:00:00.000Z"
+  },
+  {
+    "knowledgePointId": "KP-SYN-OOYOSO-001",
+    "level": "N2",
+    "category": "vocabulary",
+    "title": "おおよそ＝だいたい",
+    "reading": "おおよそ",
+    "meaning": "大约；大体",
+    "description": "用于概括数量或整体情况。",
+    "examples": [
+      "おおよそ百人。"
+    ],
+    "relatedPointIds": [],
+    "confusablePointIds": [],
+    "tags": [
+      "近义词"
+    ],
+    "masteryRule": {
+      "minAccuracy": 90,
+      "minCorrectStreak": 5,
+      "minAttempts": 10
+    },
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T00:00:00.000Z"
+  },
+  {
+    "knowledgePointId": "KP-SYN-TADACHINI-001",
+    "level": "N2",
+    "category": "vocabulary",
+    "title": "直ちに＝すぐに",
+    "reading": "ただちに",
+    "meaning": "立即；马上",
+    "description": "较正式地表示不耽搁、立刻行动。",
+    "examples": [
+      "直ちに連絡する。"
+    ],
+    "relatedPointIds": [],
+    "confusablePointIds": [],
+    "tags": [
+      "近义词"
+    ],
+    "masteryRule": {
+      "minAccuracy": 90,
+      "minCorrectStreak": 5,
+      "minAttempts": 10
+    },
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T00:00:00.000Z"
+  },
+  {
+    "knowledgePointId": "KP-SYN-METTANI-001",
+    "level": "N2",
+    "category": "vocabulary",
+    "title": "めったに～ない＝ほとんど～ない",
+    "reading": "めったに",
+    "meaning": "很少（接否定）",
+    "description": "用于「めったに～ない」，表示发生频率极低。",
+    "examples": [
+      "めったに雪が降らない。"
+    ],
+    "relatedPointIds": [],
+    "confusablePointIds": [],
+    "tags": [
+      "近义词",
+      "否定呼应"
+    ],
+    "masteryRule": {
+      "minAccuracy": 90,
+      "minCorrectStreak": 5,
+      "minAttempts": 10
+    },
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T00:00:00.000Z"
+  },
+  {
+    "knowledgePointId": "KP-SYN-DATO-001",
+    "level": "N2",
+    "category": "vocabulary",
+    "title": "妥当＝適切",
+    "reading": "だとう",
+    "meaning": "妥当；合理",
+    "description": "表示判断、方法或金额适当合理。",
+    "examples": [
+      "妥当な判断だ。"
+    ],
+    "relatedPointIds": [],
+    "confusablePointIds": [],
+    "tags": [
+      "近义词"
+    ],
+    "masteryRule": {
+      "minAccuracy": 90,
+      "minCorrectStreak": 5,
+      "minAttempts": 10
+    },
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T00:00:00.000Z"
+  },
+  {
+    "knowledgePointId": "KP-SYN-HABUKU-001",
+    "level": "N2",
+    "category": "vocabulary",
+    "title": "省く＝取り除く",
+    "reading": "はぶく",
+    "meaning": "省略；去除",
+    "description": "表示删除不必要的部分或步骤。",
+    "examples": [
+      "説明を省く。"
+    ],
+    "relatedPointIds": [],
+    "confusablePointIds": [],
+    "tags": [
+      "近义词"
+    ],
+    "masteryRule": {
+      "minAccuracy": 90,
+      "minCorrectStreak": 5,
+      "minAttempts": 10
+    },
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T00:00:00.000Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-MONONO-001",
+    "level": "N2",
+    "category": "grammar",
+    "title": "～ものの",
+    "reading": "ものの",
+    "meaning": "虽然……但是……",
+    "description": "承认前项事实，同时说明后项与预期不一致。",
+    "examples": [
+      "買ったものの、使っていない。"
+    ],
+    "relatedPointIds": [],
+    "confusablePointIds": [],
+    "tags": [
+      "逆接"
+    ],
+    "masteryRule": {
+      "minAccuracy": 90,
+      "minCorrectStreak": 5,
+      "minAttempts": 10
+    },
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T00:00:00.000Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-NICHIGAINAI-001",
+    "level": "N2",
+    "category": "grammar",
+    "title": "～に違いない",
+    "reading": "にちがいない",
+    "meaning": "一定；肯定",
+    "description": "基于依据作出说话人确信度很高的判断。",
+    "examples": [
+      "彼に違いない。"
+    ],
+    "relatedPointIds": [],
+    "confusablePointIds": [],
+    "tags": [
+      "推量"
+    ],
+    "masteryRule": {
+      "minAccuracy": 90,
+      "minCorrectStreak": 5,
+      "minAttempts": 10
+    },
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T00:00:00.000Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-KANENAI-001",
+    "level": "N2",
+    "category": "grammar",
+    "title": "～かねない",
+    "reading": "かねない",
+    "meaning": "有可能（发生坏事）",
+    "description": "表示可能出现说话人不希望的结果。",
+    "examples": [
+      "事故になりかねない。"
+    ],
+    "relatedPointIds": [],
+    "confusablePointIds": [],
+    "tags": [
+      "可能性",
+      "负面结果"
+    ],
+    "masteryRule": {
+      "minAccuracy": 90,
+      "minCorrectStreak": 5,
+      "minAttempts": 10
+    },
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T00:00:00.000Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-NITOMONATTE-001",
+    "level": "N2",
+    "category": "grammar",
+    "title": "～に伴って",
+    "reading": "にともなって",
+    "meaning": "随着；伴随",
+    "description": "表示一个变化伴随另一个变化发生。",
+    "examples": [
+      "人口増加にともなって変化する。"
+    ],
+    "relatedPointIds": [],
+    "confusablePointIds": [],
+    "tags": [
+      "变化"
+    ],
+    "masteryRule": {
+      "minAccuracy": 90,
+      "minCorrectStreak": 5,
+      "minAttempts": 10
+    },
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T00:00:00.000Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-KOTOKARA-001",
+    "level": "N2",
+    "category": "grammar",
+    "title": "～ことから",
+    "reading": "ことから",
+    "meaning": "由于；从……来看",
+    "description": "说明命名、判断或结果的理由与依据。",
+    "examples": [
+      "形が似ていることから名付けられた。"
+    ],
+    "relatedPointIds": [],
+    "confusablePointIds": [],
+    "tags": [
+      "原因",
+      "依据"
+    ],
+    "masteryRule": {
+      "minAccuracy": 90,
+      "minCorrectStreak": 5,
+      "minAttempts": 10
+    },
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T00:00:00.000Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-WAKEDEWANAI-001",
+    "level": "N2",
+    "category": "grammar",
+    "title": "～わけではない",
+    "reading": "わけではない",
+    "meaning": "并非；并不是说",
+    "description": "否定从前文可能推导出的整体结论。",
+    "examples": [
+      "嫌いなわけではない。"
+    ],
+    "relatedPointIds": [],
+    "confusablePointIds": [],
+    "tags": [
+      "部分否定"
+    ],
+    "masteryRule": {
+      "minAccuracy": 90,
+      "minCorrectStreak": 5,
+      "minAttempts": 10
+    },
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T00:00:00.000Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-NAIKOTOWANAI-001",
+    "level": "N2",
+    "category": "grammar",
+    "title": "～ないことはない",
+    "reading": "ないことはない",
+    "meaning": "并非不能；也不是不",
+    "description": "以双重否定表示存在可能，但常带保留。",
+    "examples": [
+      "食べられないことはない。"
+    ],
+    "relatedPointIds": [],
+    "confusablePointIds": [],
+    "tags": [
+      "双重否定"
+    ],
+    "masteryRule": {
+      "minAccuracy": 90,
+      "minCorrectStreak": 5,
+      "minAttempts": 10
+    },
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T00:00:00.000Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-DOKOROKA-001",
+    "level": "N2",
+    "category": "grammar",
+    "title": "～どころか",
+    "reading": "どころか",
+    "meaning": "别说……；岂止……",
+    "description": "表示实际情况与前项相反或远超前项。",
+    "examples": [
+      "苦手どころか、プロだ。"
+    ],
+    "relatedPointIds": [],
+    "confusablePointIds": [],
+    "tags": [
+      "递进",
+      "反转"
+    ],
+    "masteryRule": {
+      "minAccuracy": 90,
+      "minCorrectStreak": 5,
+      "minAttempts": 10
+    },
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T00:00:00.000Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-NIHOKANARANAI-001",
+    "level": "N2",
+    "category": "grammar",
+    "title": "～にほかならない",
+    "reading": "にほかならない",
+    "meaning": "正是；无非是",
+    "description": "用于强调原因、性质或结论正是某事。",
+    "examples": [
+      "努力の結果にほかならない。"
+    ],
+    "relatedPointIds": [],
+    "confusablePointIds": [],
+    "tags": [
+      "强调"
+    ],
+    "masteryRule": {
+      "minAccuracy": 90,
+      "minCorrectStreak": 5,
+      "minAttempts": 10
+    },
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T00:00:00.000Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-ZARUOENAI-001",
+    "level": "N2",
+    "category": "grammar",
+    "title": "～ざるを得ない",
+    "reading": "ざるをえない",
+    "meaning": "不得不",
+    "description": "表示虽不情愿，但受情况所迫必须行动。",
+    "examples": [
+      "中止せざるを得ない。"
+    ],
+    "relatedPointIds": [],
+    "confusablePointIds": [],
+    "tags": [
+      "不得已"
+    ],
+    "masteryRule": {
+      "minAccuracy": 90,
+      "minCorrectStreak": 5,
+      "minAttempts": 10
+    },
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T00:00:00.000Z"
+  },
+  {
+    "knowledgePointId": "KP-READ-NOTICE-001",
+    "level": "N2",
+    "category": "reading",
+    "title": "通知文の条件整理",
+    "reading": "つうち",
+    "meaning": "通知信息定位",
+    "description": "从通知中准确定位日期、时间、对象和例外。",
+    "examples": [
+      "休馆时间与例外条件を確認する。"
+    ],
+    "relatedPointIds": [],
+    "confusablePointIds": [],
+    "tags": [
+      "短篇阅读"
+    ],
+    "masteryRule": {
+      "minAccuracy": 90,
+      "minCorrectStreak": 5,
+      "minAttempts": 10
+    },
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T00:00:00.000Z"
+  },
+  {
+    "knowledgePointId": "KP-READ-MEMO-001",
+    "level": "N2",
+    "category": "reading",
+    "title": "依頼内容の特定",
+    "reading": "メモ",
+    "meaning": "便条任务理解",
+    "description": "识别留言中的人物、变更信息和具体行动要求。",
+    "examples": [
+      "誰が何をするか確認する。"
+    ],
+    "relatedPointIds": [],
+    "confusablePointIds": [],
+    "tags": [
+      "短篇阅读"
+    ],
+    "masteryRule": {
+      "minAccuracy": 90,
+      "minCorrectStreak": 5,
+      "minAttempts": 10
+    },
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T00:00:00.000Z"
+  },
+  {
+    "knowledgePointId": "KP-READ-MAINIDEA-001",
+    "level": "N2",
+    "category": "reading",
+    "title": "筆者の主張",
+    "reading": "しゅし",
+    "meaning": "主旨理解",
+    "description": "区分例子和作者最想表达的核心观点。",
+    "examples": [
+      "筆者の主張を一文でまとめる。"
+    ],
+    "relatedPointIds": [],
+    "confusablePointIds": [],
+    "tags": [
+      "短篇阅读",
+      "主旨"
+    ],
+    "masteryRule": {
+      "minAccuracy": 90,
+      "minCorrectStreak": 5,
+      "minAttempts": 10
+    },
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T00:00:00.000Z"
+  },
+  {
+    "knowledgePointId": "KP-READ-GUIDE-001",
+    "level": "N2",
+    "category": "reading",
+    "title": "案内文の対象条件",
+    "reading": "あんない",
+    "meaning": "指南条件理解",
+    "description": "理解活动指南中的对象、期限、费用和附加条件。",
+    "examples": [
+      "申込条件を整理する。"
+    ],
+    "relatedPointIds": [],
+    "confusablePointIds": [],
+    "tags": [
+      "短篇阅读"
+    ],
+    "masteryRule": {
+      "minAccuracy": 90,
+      "minCorrectStreak": 5,
+      "minAttempts": 10
+    },
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T00:00:00.000Z"
+  },
+  {
+    "knowledgePointId": "KP-READ-REASON-001",
+    "level": "N2",
+    "category": "reading",
+    "title": "理由の特定",
+    "reading": "りゆう",
+    "meaning": "原因理解",
+    "description": "根据前后变化找出人物采取行动的原因。",
+    "examples": [
+      "行動を変えた理由を探す。"
+    ],
+    "relatedPointIds": [],
+    "confusablePointIds": [],
+    "tags": [
+      "短篇阅读",
+      "原因"
+    ],
+    "masteryRule": {
+      "minAccuracy": 90,
+      "minCorrectStreak": 5,
+      "minAttempts": 10
+    },
+    "createdAt": "2026-06-30T00:00:00.000Z",
+    "updatedAt": "2026-06-30T00:00:00.000Z"
+  }
+]
