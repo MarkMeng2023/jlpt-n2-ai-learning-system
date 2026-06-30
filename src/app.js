@@ -35,7 +35,13 @@ const elements = {
   totalCount: document.querySelector("#total-count"),
   completedCount: document.querySelector("#completed-count"),
   remainingCount: document.querySelector("#remaining-count"),
-  progressStatus: document.querySelector("#progress-status")
+  progressStatus: document.querySelector("#progress-status"),
+  learningStatsStatus: document.querySelector("#learning-stats-status"),
+  learningStatsContent: document.querySelector("#learning-stats-content"),
+  statsTotalAnswered: document.querySelector("#stats-total-answered"),
+  statsAccuracy: document.querySelector("#stats-accuracy"),
+  weakKnowledgePoints: document.querySelector("#weak-knowledge-points"),
+  weakQuestionTypes: document.querySelector("#weak-question-types")
 };
 
 const queue = new SyncQueue(APP_CONFIG.queueStorageKey);
@@ -49,6 +55,7 @@ let submitted = false;
 
 async function init() {
   updatePendingCount();
+  loadLearningStats();
   try {
     const response = await fetch("data/questions.json");
     if (!response.ok) throw new Error(`题库加载失败（HTTP ${response.status}）`);
@@ -82,6 +89,62 @@ async function init() {
     showAppError(`${error.message}。请通过本地 HTTP 服务器打开本项目。`);
     elements.submitButton.disabled = true;
   }
+}
+
+async function loadLearningStats() {
+  try {
+    const stats = await syncClient.getLearningStats();
+    renderLearningStats(stats);
+  } catch (error) {
+    elements.learningStatsStatus.textContent = "暂时无法读取学习统计，但不影响继续做题。";
+    elements.learningStatsStatus.title = error.message;
+  }
+}
+
+function renderLearningStats(stats) {
+  elements.statsTotalAnswered.textContent = String(stats.totalAnswered);
+  elements.statsAccuracy.textContent = `${formatPercentage(stats.accuracy)}%`;
+  renderRankedList(
+    elements.weakKnowledgePoints,
+    stats.byKnowledgePoint.slice(0, 5),
+    (item) => item.knowledgePointTitle || item.knowledgePointId,
+    (item) => `弱点分 ${item.weaknessScore} · 正确率 ${formatPercentage(item.accuracy)}%`
+  );
+  const weakestTypes = [...stats.byQuestionType]
+    .sort((a, b) => a.accuracy - b.accuracy || b.wrong - a.wrong || b.total - a.total || a.type.localeCompare(b.type))
+    .slice(0, 3);
+  renderRankedList(
+    elements.weakQuestionTypes,
+    weakestTypes,
+    (item) => item.type,
+    (item) => `正确率 ${formatPercentage(item.accuracy)}% · ${item.total} 题`
+  );
+  elements.learningStatsStatus.textContent = stats.totalAnswered === 0 ? "暂无作答记录" : "已更新";
+  elements.learningStatsContent.classList.remove("hidden");
+}
+
+function renderRankedList(container, items, getLabel, getDetail) {
+  container.replaceChildren();
+  if (items.length === 0) {
+    const item = document.createElement("li");
+    item.className = "empty-stat";
+    item.textContent = "暂无数据";
+    container.append(item);
+    return;
+  }
+  items.forEach((entry) => {
+    const item = document.createElement("li");
+    const label = document.createElement("div");
+    const detail = document.createElement("span");
+    label.textContent = getLabel(entry);
+    detail.textContent = getDetail(entry);
+    item.append(label, detail);
+    container.append(item);
+  });
+}
+
+function formatPercentage(value) {
+  return Number(value).toLocaleString("zh-CN", { maximumFractionDigits: 2 });
 }
 
 function renderQuestion() {
@@ -170,6 +233,7 @@ async function handleSubmit(event) {
     updatePendingCount();
     elements.syncStatus.textContent = "✅ 已更新完成";
     elements.syncDetail.textContent = formatSyncResult(result);
+    loadLearningStats();
   } catch (error) {
     elements.syncStatus.textContent = "⚠️ 同步失败，已保存到本地待同步队列";
     elements.syncDetail.textContent = error.message;

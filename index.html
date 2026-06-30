@@ -10,7 +10,7 @@
   <body>
     <main class="app-shell">
       <header class="page-header">
-        <p class="eyebrow">JLPT N2 · Sprint 2</p>
+        <p class="eyebrow">JLPT N2 · Sprint 3</p>
         <h1>一题一反馈，慢慢把盲点照亮。</h1>
         <p class="subtitle">完成作答后，系统会判题、记录弱点并同步到 Google Sheets。</p>
       </header>
@@ -72,6 +72,29 @@
         </div>
         <textarea id="chatgpt-prompt" rows="18" readonly></textarea>
         <p id="copy-status" class="muted" aria-live="polite"></p>
+      </section>
+
+      <section class="card" aria-labelledby="learning-stats-heading">
+        <div class="section-heading">
+          <h2 id="learning-stats-heading">学习统计</h2>
+          <span id="learning-stats-status" class="muted" aria-live="polite">正在读取…</span>
+        </div>
+        <div id="learning-stats-content" class="hidden">
+          <div class="stats-overview">
+            <div><span>总做题数</span><strong id="stats-total-answered">0</strong></div>
+            <div><span>正确率</span><strong id="stats-accuracy">0%</strong></div>
+          </div>
+          <div class="weakness-lists">
+            <div>
+              <h3>最弱 5 个知识点</h3>
+              <ol id="weak-knowledge-points" class="ranked-list"></ol>
+            </div>
+            <div>
+              <h3>最弱 3 个题型</h3>
+              <ol id="weak-question-types" class="ranked-list"></ol>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
 

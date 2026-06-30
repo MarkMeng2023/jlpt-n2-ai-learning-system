@@ -1,6 +1,6 @@
-# JLPT N2 AI Learning System — Sprint 2
+# JLPT N2 AI Learning System — Sprint 3
 
-Sprint 2 在原有“作答 → 判题 → Google Sheets”闭环上增加了 30 道本地题库和学习进度记忆。当前只实现顺序学习，不包含 Dashboard、知识图谱、登录或复习模式。
+Sprint 3 在“作答 → 判题 → Google Sheets”闭环上增加了学习统计和弱点分析。页面仍保持单题学习的简单结构，不包含图表、知识图谱、登录、复习模式或 AI 自动总结。
 
 ## 本地启动与测试
 
@@ -41,10 +41,11 @@ npm test
 5. 把 `/exec` URL 填入 `src/config.js` 的 `appsScriptUrl`。
 6. Apps Script 每次修改后，都要在“管理部署”中创建新版本。
 
-`doPost` 支持两个 action：
+`doPost` 支持三个 action：
 
 - `submitAnswer`：保持 Sprint 1 的完整快照写入与幂等逻辑。
-- `getProgress`：只读取 `answer_records` 的 `questionId` 数据列，返回：
+- `getProgress`：只读取 `answer_records` 的 `questionId` 数据列，返回下方结构。
+- `getLearningStats`：读取 `answer_records`，返回总做题数、正确/错误数、总正确率、题型聚合、知识点聚合和最后作答时间。
 
 ```json
 {
@@ -55,6 +56,18 @@ npm test
 }
 ```
 
+## Sprint 3 学习统计
+
+页面加载时会独立请求 `getLearningStats`。统计读取失败只会显示“暂时无法读取学习统计，但不影响继续做题。”，不会中断题库加载、作答或同步。一次答案同步成功后，页面也会刷新统计。
+
+正确率使用 0–100 的百分数，保留最多两位小数。知识点弱点分按以下规则计算：
+
+```text
+wrong * 3 + uncertainCount * 2 + guessedCount * 2 + (accuracy < 70 ? 5 : 0)
+```
+
+知识点先按弱点分从高到低显示；题型按正确率从低到高显示。空表会返回全零统计和空列表。`answer_records` 已有全部所需列，因此无需修改 Google Sheets 表结构。
+
 ## 验证清单
 
 - 页面顶部显示题库总数、已完成数和剩余数。
@@ -63,3 +76,21 @@ npm test
 - 提交后的题不会再次出现；全部 30 题完成后显示完成状态。
 - `answer_records` 仍保存完整题目快照，错题、不确定题或蒙题仍写入 `weak_points`。
 - 同一个 operation 重发时仍返回 `duplicate`，不会新增重复行。
+
+## Sprint 3 测试与手动验证
+
+运行自动测试：
+
+```bash
+npm test
+```
+
+自动测试覆盖空 `answer_records`、多条记录正确率、同一知识点跨记录聚合，以及 `guessed` / `uncertain` 对弱点分的影响。部署后可按以下步骤验证完整链路：
+
+1. 备份后暂时清空 `answer_records` 的数据行（保留表头），刷新页面，确认统计显示 0 且做题区域正常。
+2. 连续提交至少三题，包含正确和错误答案，并选择一次“不确定”和一次“蒙的”。
+3. 刷新页面，核对总数、正确率、最弱知识点及题型与 Sheet 数据一致。
+4. 检查 `answer_records` 和 `weak_points` 新增记录，确认“下一题”、本地进度和远端同步仍正常。
+5. 临时填写无效的 Apps Script URL，刷新后确认统计显示降级提示，同时本地题目仍能加载和作答；验证后恢复 URL。
+
+Apps Script 代码有改动：需要重新复制 `apps-script/Code.gs`，并在“管理部署”中创建新版本。现有部署已经运行过 `setupSheets` 时无需再次运行，也无需新增或调整列。

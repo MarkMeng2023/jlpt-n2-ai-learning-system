@@ -20,6 +20,17 @@ export class SyncClient {
     return result;
   }
 
+  async getLearningStats() {
+    const result = await this.#post({ action: "getLearningStats" }, "读取学习统计");
+    if (!Number.isFinite(result.totalAnswered)
+      || !Number.isFinite(result.accuracy)
+      || !Array.isArray(result.byQuestionType)
+      || !Array.isArray(result.byKnowledgePoint)) {
+      throw new Error("服务端返回的学习统计格式无效");
+    }
+    return result;
+  }
+
   async #post(payload, requestLabel) {
     if (!this.url) {
       throw new Error("尚未配置 Apps Script Web App URL");

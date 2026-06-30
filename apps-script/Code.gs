@@ -1,5 +1,5 @@
 /**
- * JLPT N2 AI Learning System — Sprint 2 Apps Script backend.
+ * JLPT N2 AI Learning System — Sprint 3 Apps Script backend.
  *
  * 部署前：
  * 1. 将此脚本绑定到目标 Google Spreadsheet。
@@ -51,7 +51,7 @@ const WEAK_POINT_HEADERS = [
 function doGet() {
   return jsonResponse_({
     success: true,
-    service: "jlpt-n2-sprint-2",
+    service: "jlpt-n2-sprint-3",
     message: "ready",
     serverTime: new Date().toISOString()
   });
@@ -63,6 +63,7 @@ function doPost(event) {
     payload = JSON.parse((event && event.postData && event.postData.contents) || "{}");
     if (payload.action === "submitAnswer") return jsonResponse_(submitAnswer_(payload));
     if (payload.action === "getProgress") return jsonResponse_(getProgress_());
+    if (payload.action === "getLearningStats") return jsonResponse_(getLearningStats_());
     throw new Error("Unsupported action");
   } catch (error) {
     if (payload.action === "getProgress") {
@@ -72,6 +73,13 @@ function doPost(event) {
         totalAnswered: 0,
         serverTime: new Date().toISOString(),
         error: { code: "PROGRESS_FAILED", message: error.message }
+      });
+    }
+    if (payload.action === "getLearningStats") {
+      return jsonResponse_({
+        success: false,
+        serverTime: new Date().toISOString(),
+        error: { code: "LEARNING_STATS_FAILED", message: error.message }
       });
     }
     return jsonResponse_({
@@ -89,6 +97,139 @@ function doPost(event) {
       }
     });
   }
+}
+
+function getLearningStats_() {
+  const spreadsheet = getSpreadsheet_();
+  const answerSheet = getOrCreateSheet_(spreadsheet, ANSWER_SHEET, ANSWER_HEADERS);
+  const lastRow = answerSheet.getLastRow();
+  const records = lastRow < 2
+    ? []
+    : answerRowsToRecords_(
+      answerSheet.getRange(2, 1, lastRow - 1, ANSWER_HEADERS.length).getValues()
+    );
+  const stats = calculateLearningStats_(records);
+  stats.success = true;
+  stats.serverTime = new Date().toISOString();
+  return stats;
+}
+
+/** Pure calculation kept separate so the aggregation rules can be tested locally. */
+function calculateLearningStats_(records) {
+  const validRecords = (records || []).filter(function (record) {
+    return record && record.recordId;
+  });
+  const questionTypes = Object.create(null);
+  const knowledgePoints = Object.create(null);
+  let correctCount = 0;
+  let lastAnsweredAt = null;
+  let lastAnsweredTime = -Infinity;
+
+  validRecords.forEach(function (record) {
+    const isCorrect = parseBoolean_(record.isCorrect);
+    if (isCorrect) correctCount += 1;
+
+    const questionType = String(record.questionType || "unknown");
+    if (!questionTypes[questionType]) {
+      questionTypes[questionType] = { type: questionType, total: 0, correct: 0, wrong: 0 };
+    }
+    questionTypes[questionType].total += 1;
+    questionTypes[questionType][isCorrect ? "correct" : "wrong"] += 1;
+
+    const knowledgePointIds = parseStringArray_(record.knowledgePointIds);
+    const knowledgePointTitles = parseStringArray_(record.knowledgePointTitles);
+    knowledgePointIds.forEach(function (knowledgePointId, index) {
+      if (!knowledgePoints[knowledgePointId]) {
+        knowledgePoints[knowledgePointId] = {
+          knowledgePointId: knowledgePointId,
+          knowledgePointTitle: knowledgePointTitles[index] || "",
+          total: 0,
+          correct: 0,
+          wrong: 0,
+          uncertainCount: 0,
+          guessedCount: 0
+        };
+      }
+      const point = knowledgePoints[knowledgePointId];
+      if (!point.knowledgePointTitle && knowledgePointTitles[index]) {
+        point.knowledgePointTitle = knowledgePointTitles[index];
+      }
+      point.total += 1;
+      point[isCorrect ? "correct" : "wrong"] += 1;
+      if (record.confidence === "uncertain") point.uncertainCount += 1;
+      if (record.confidence === "guessed") point.guessedCount += 1;
+    });
+
+    const answeredTime = Date.parse(record.answeredAt);
+    if (!isNaN(answeredTime) && answeredTime > lastAnsweredTime) {
+      lastAnsweredTime = answeredTime;
+      lastAnsweredAt = record.answeredAt instanceof Date
+        ? record.answeredAt.toISOString()
+        : String(record.answeredAt);
+    }
+  });
+
+  const byQuestionType = Object.keys(questionTypes).map(function (type) {
+    const item = questionTypes[type];
+    item.accuracy = percentage_(item.correct, item.total);
+    return item;
+  }).sort(function (a, b) {
+    return a.type.localeCompare(b.type);
+  });
+
+  const byKnowledgePoint = Object.keys(knowledgePoints).map(function (id) {
+    const item = knowledgePoints[id];
+    if (!item.knowledgePointTitle) item.knowledgePointTitle = item.knowledgePointId;
+    item.accuracy = percentage_(item.correct, item.total);
+    item.weaknessScore = item.wrong * 3
+      + item.uncertainCount * 2
+      + item.guessedCount * 2
+      + (item.accuracy < 70 ? 5 : 0);
+    return item;
+  }).sort(function (a, b) {
+    return b.weaknessScore - a.weaknessScore
+      || a.accuracy - b.accuracy
+      || b.total - a.total
+      || a.knowledgePointId.localeCompare(b.knowledgePointId);
+  });
+
+  const totalAnswered = validRecords.length;
+  return {
+    totalAnswered: totalAnswered,
+    correctCount: correctCount,
+    wrongCount: totalAnswered - correctCount,
+    accuracy: percentage_(correctCount, totalAnswered),
+    byQuestionType: byQuestionType,
+    byKnowledgePoint: byKnowledgePoint,
+    lastAnsweredAt: lastAnsweredAt
+  };
+}
+
+function answerRowsToRecords_(rows) {
+  return rows.map(function (row) {
+    const record = {};
+    ANSWER_HEADERS.forEach(function (header, index) { record[header] = row[index]; });
+    return record;
+  });
+}
+
+function parseBoolean_(value) {
+  return value === true || String(value).toLowerCase() === "true";
+}
+
+function parseStringArray_(value) {
+  if (Array.isArray(value)) return value.map(String);
+  if (typeof value !== "string" || value === "") return [];
+  try {
+    const parsed = JSON.parse(value);
+    return Array.isArray(parsed) ? parsed.map(String) : [];
+  } catch (error) {
+    return [];
+  }
+}
+
+function percentage_(correct, total) {
+  return total === 0 ? 0 : Math.round(correct / total * 10000) / 100;
 }
 
 function getProgress_() {
