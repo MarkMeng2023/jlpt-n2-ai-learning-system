@@ -1,5 +1,5 @@
 /**
- * JLPT N2 AI Learning System — Sprint 3 Apps Script backend.
+ * JLPT N2 AI Learning System — Sprint 4 Apps Script backend.
  *
  * 部署前：
  * 1. 将此脚本绑定到目标 Google Spreadsheet。
@@ -9,6 +9,7 @@
 
 const ANSWER_SHEET = "answer_records";
 const WEAK_POINT_SHEET = "weak_points";
+const LEARNING_PROFILE_SHEET = "learning_profile";
 
 const ANSWER_HEADERS = [
   "recordId",
@@ -48,10 +49,23 @@ const WEAK_POINT_HEADERS = [
   "receivedAt"
 ];
 
+const LEARNING_PROFILE_HEADERS = [
+  "lastStudyDate",
+  "totalAnswered",
+  "totalCorrect",
+  "accuracy",
+  "masteredCount",
+  "learningCount",
+  "reviewCount",
+  "newCount",
+  "todayReviewCount",
+  "lastUpdated"
+];
+
 function doGet() {
   return jsonResponse_({
     success: true,
-    service: "jlpt-n2-sprint-3",
+    service: "jlpt-n2-sprint-4",
     message: "ready",
     serverTime: new Date().toISOString()
   });
@@ -64,6 +78,8 @@ function doPost(event) {
     if (payload.action === "submitAnswer") return jsonResponse_(submitAnswer_(payload));
     if (payload.action === "getProgress") return jsonResponse_(getProgress_());
     if (payload.action === "getLearningStats") return jsonResponse_(getLearningStats_());
+    if (payload.action === "getReviewData") return jsonResponse_(getReviewData_());
+    if (payload.action === "saveLearningProfile") return jsonResponse_(saveLearningProfile_(payload.profile));
     throw new Error("Unsupported action");
   } catch (error) {
     if (payload.action === "getProgress") {
@@ -82,6 +98,13 @@ function doPost(event) {
         error: { code: "LEARNING_STATS_FAILED", message: error.message }
       });
     }
+    if (payload.action === "getReviewData" || payload.action === "saveLearningProfile") {
+      return jsonResponse_({
+        success: false,
+        serverTime: new Date().toISOString(),
+        error: { code: "REVIEW_ENGINE_FAILED", message: error.message }
+      });
+    }
     return jsonResponse_({
       success: false,
       operationId: payload.operationId || null,
@@ -97,6 +120,67 @@ function doPost(event) {
       }
     });
   }
+}
+
+function getReviewData_() {
+  const spreadsheet = getSpreadsheet_();
+  const answerSheet = getOrCreateSheet_(spreadsheet, ANSWER_SHEET, ANSWER_HEADERS);
+  const lastRow = answerSheet.getLastRow();
+  const records = lastRow < 2
+    ? []
+    : answerRowsToRecords_(
+      answerSheet.getRange(2, 1, lastRow - 1, ANSWER_HEADERS.length).getValues()
+    );
+  return {
+    success: true,
+    answerRecords: records,
+    serverTime: new Date().toISOString()
+  };
+}
+
+function saveLearningProfile_(profile) {
+  validateLearningProfile_(profile);
+  const lock = LockService.getScriptLock();
+  lock.waitLock(20000);
+  try {
+    const spreadsheet = getSpreadsheet_();
+    const sheet = getOrCreateSheet_(spreadsheet, LEARNING_PROFILE_SHEET, LEARNING_PROFILE_HEADERS);
+    const row = LEARNING_PROFILE_HEADERS.map(function (header) {
+      return safeCell_(profile[header]);
+    });
+    sheet.getRange(2, 1, 1, LEARNING_PROFILE_HEADERS.length).setValues([row]);
+    return {
+      success: true,
+      status: "updated",
+      serverTime: new Date().toISOString()
+    };
+  } finally {
+    lock.releaseLock();
+  }
+}
+
+function validateLearningProfile_(profile) {
+  if (!profile || typeof profile !== "object" || Array.isArray(profile)) {
+    throw new Error("profile is required");
+  }
+  if (profile.lastStudyDate !== "") {
+    assertString_(profile.lastStudyDate, "profile.lastStudyDate", 10);
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(profile.lastStudyDate)) {
+      throw new Error("profile.lastStudyDate is invalid");
+    }
+  }
+  [
+    "totalAnswered", "totalCorrect", "accuracy", "masteredCount", "learningCount",
+    "reviewCount", "newCount", "todayReviewCount"
+  ].forEach(function (field) {
+    if (!Number.isFinite(profile[field]) || profile[field] < 0) {
+      throw new Error("profile." + field + " is invalid");
+    }
+  });
+  if (profile.totalCorrect > profile.totalAnswered || profile.accuracy > 100) {
+    throw new Error("profile totals are invalid");
+  }
+  assertIsoDate_(profile.lastUpdated, "profile.lastUpdated");
 }
 
 function getLearningStats_() {
@@ -541,4 +625,5 @@ function setupSheets() {
   PropertiesService.getScriptProperties().setProperty("SPREADSHEET_ID", spreadsheet.getId());
   getOrCreateSheet_(spreadsheet, ANSWER_SHEET, ANSWER_HEADERS);
   getOrCreateSheet_(spreadsheet, WEAK_POINT_SHEET, WEAK_POINT_HEADERS);
+  getOrCreateSheet_(spreadsheet, LEARNING_PROFILE_SHEET, LEARNING_PROFILE_HEADERS);
 }

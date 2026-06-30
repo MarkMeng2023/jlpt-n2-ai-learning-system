@@ -1,10 +1,10 @@
-# JLPT N2 AI Learning System — Sprint 3
+# JLPT N2 AI Learning System — Sprint 4
 
-Sprint 3 在“作答 → 判题 → Google Sheets”闭环上增加了学习统计和弱点分析。页面仍保持单题学习的简单结构，不包含图表、知识图谱、登录、复习模式或 AI 自动总结。
+Sprint 4 新增 Review Engine。首页根据 `answer_records` 自动生成今日计划，提供继续学习、今日复习、错题重做和随机练习四种模式；不包含 Dashboard、图表、AI 自动总结、知识图谱、登录。
 
 ## 本地启动与测试
 
-本项目没有构建步骤。请通过 HTTP 服务器运行，以便浏览器读取 JSON：
+项目无构建步骤，通过 HTTP 服务器运行：
 
 ```bash
 python3 -m http.server 8000
@@ -16,81 +16,49 @@ python3 -m http.server 8000
 npm test
 ```
 
-题库位于 `data/questions.json`，包含 30 道 N2 风格题，覆盖固定搭配、副词、近义替换、文法选择、文法句意和短篇阅读六种题型。
+## Review Engine 规则
 
-## Sprint 2 进度记忆逻辑
+Knowledge Status：
 
-页面加载时按以下顺序恢复学习位置：
+- `NEW`：从未作答。
+- `LEARNING`：正确率低于 70%。
+- `REVIEW`：正确率至少 70%，但尚未达到掌握标准。
+- `MASTERED`：正确率至少 90%、最近连续正确至少 5 次、累计练习至少 10 次。
 
-1. 读取 localStorage 中的 `jlpt-n2.answered-question-ids.v1`，并合并待同步队列中的 questionId。
-2. 向 Apps Script 发送 `{ "action": "getProgress" }`，读取 `answer_records` 的 `questionId` 列。
-3. 将远端与本地的 questionId 取并集，避免尚未同步的本地答案被远端旧进度覆盖。
-4. 从题库开头寻找第一道未完成题；之后点击“下一题”也会跳过所有已完成题。
-5. 全部完成后显示“本轮题库已完成”，不会自动重新显示旧题。
+今日复习先按 `weaknessScore` 降序，再依次比较最近答错、最近不确定、最近蒙对、距上次练习时间和知识点 ID。知识点内的题目同样使用固定排序，只有随机练习会打乱。
 
-提交答案时，记录会先写入本地待同步队列，再立即加入本地完成列表。因此即使 Google 请求失败，本机刷新页面也不会重复显示该题。如果 `getProgress` 失败，页面显示“使用本地进度继续学习”；远端可用时显示“学习进度已同步”。
+默认选择最优先的 5 个非 NEW、非 MASTERED 知识点，每个知识点最多抽取 5 道关联题。题目必须在题库的 `knowledgePointIds` 中明确关联该知识点，且同一队列不重复题目。当前题库每个知识点只有 1 道关联题，因此会使用全部可用关联题；如需达到每点 2–5 题，需要继续补充同知识点题目。
 
-> 当前没有用户登录。Apps Script 返回的是该 Spreadsheet 内所有 `answer_records` 的唯一 questionId，适用于单人学习原型。
+错题重做只收录存在 `isCorrect = false` 记录的题目。同一题只出现一次，按其最近一次错误时间倒序。
 
-## 部署 Google Apps Script
+## Google Sheets 部署
 
-1. 新建或打开目标 Google Spreadsheet。
-2. 选择“扩展程序”→“Apps Script”，用 `apps-script/Code.gs` 替换编辑器内容。
-3. 在函数列表运行一次 `setupSheets` 并授权；确认生成 `answer_records` 和 `weak_points`。
-4. 部署为 Web 应用，执行身份选择“我”，按个人使用场景设置访问权限。
-5. 把 `/exec` URL 填入 `src/config.js` 的 `appsScriptUrl`。
-6. Apps Script 每次修改后，都要在“管理部署”中创建新版本。
+1. 打开目标 Google Spreadsheet 的 Apps Script。
+2. 用 `apps-script/Code.gs` 替换脚本内容。
+3. 手动运行一次 `setupSheets()` 并授权。
+4. 创建新的 Web App 部署版本。
+5. 将 `/exec` URL 配置到 `src/config.js`。
 
-`doPost` 支持三个 action：
-
-- `submitAnswer`：保持 Sprint 1 的完整快照写入与幂等逻辑。
-- `getProgress`：只读取 `answer_records` 的 `questionId` 数据列，返回下方结构。
-- `getLearningStats`：读取 `answer_records`，返回总做题数、正确/错误数、总正确率、题型聚合、知识点聚合和最后作答时间。
-
-```json
-{
-  "success": true,
-  "answeredQuestionIds": ["Q-N2-VOC-0001"],
-  "totalAnswered": 1,
-  "serverTime": "2026-06-30T00:00:00.000Z"
-}
-```
-
-## Sprint 3 学习统计
-
-页面加载时会独立请求 `getLearningStats`。统计读取失败只会显示“暂时无法读取学习统计，但不影响继续做题。”，不会中断题库加载、作答或同步。一次答案同步成功后，页面也会刷新统计。
-
-正确率使用 0–100 的百分数，保留最多两位小数。知识点弱点分按以下规则计算：
+Sprint 4 仅新增 `learning_profile`，不会修改 `answer_records` 或 `weak_points` 的表头。`learning_profile` 是一行当前快照，字段为：
 
 ```text
-wrong * 3 + uncertainCount * 2 + guessedCount * 2 + (accuracy < 70 ? 5 : 0)
+lastStudyDate, totalAnswered, totalCorrect, accuracy, masteredCount,
+learningCount, reviewCount, newCount, todayReviewCount, lastUpdated
 ```
 
-知识点先按弱点分从高到低显示；题型按正确率从低到高显示。空表会返回全零统计和空列表。`answer_records` 已有全部所需列，因此无需修改 Google Sheets 表结构。
+新增接口：
 
-## 验证清单
+- `getReviewData`：返回 `answer_records` 历史，供浏览器生成复习队列。
+- `saveLearningProfile`：写入当前学习档案快照。
 
-- 页面顶部显示题库总数、已完成数和剩余数。
-- 刷新页面后自动进入第一道未完成题。
-- Google Progress 请求失败时仍能按本地进度继续。
-- 提交后的题不会再次出现；全部 30 题完成后显示完成状态。
-- `answer_records` 仍保存完整题目快照，错题、不确定题或蒙题仍写入 `weak_points`。
-- 同一个 operation 重发时仍返回 `duplicate`，不会新增重复行。
+原有 `submitAnswer`、`getProgress`、`getLearningStats` 保持可用。
 
-## Sprint 3 测试与手动验证
+## 验证要点
 
-运行自动测试：
-
-```bash
-npm test
-```
-
-自动测试覆盖空 `answer_records`、多条记录正确率、同一知识点跨记录聚合，以及 `guessed` / `uncertain` 对弱点分的影响。部署后可按以下步骤验证完整链路：
-
-1. 备份后暂时清空 `answer_records` 的数据行（保留表头），刷新页面，确认统计显示 0 且做题区域正常。
-2. 连续提交至少三题，包含正确和错误答案，并选择一次“不确定”和一次“蒙的”。
-3. 刷新页面，核对总数、正确率、最弱知识点及题型与 Sheet 数据一致。
-4. 检查 `answer_records` 和 `weak_points` 新增记录，确认“下一题”、本地进度和远端同步仍正常。
-5. 临时填写无效的 Apps Script URL，刷新后确认统计显示降级提示，同时本地题目仍能加载和作答；验证后恢复 URL。
-
-Apps Script 代码有改动：需要重新复制 `apps-script/Code.gs`，并在“管理部署”中创建新版本。现有部署已经运行过 `setupSheets` 时无需再次运行，也无需新增或调整列。
+- 首页显示新题、今日复习、错题、已掌握、学习中、待巩固数量。
+- 继续学习进入下一道未完成题。
+- 今日复习顺序重复刷新后保持一致，且每题属于显示的知识点。
+- 错题重做按最近错误时间倒序。
+- 随机练习可包含已完成或未完成题。
+- 每次作答仍先进入本地待同步队列；Google Sheets 不可用时不会丢记录。
+- Apps Script 更新后运行 `setupSheets()` 可创建 `learning_profile`，已有两张表不变。

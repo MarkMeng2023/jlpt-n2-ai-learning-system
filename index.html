@@ -3,101 +3,113 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="JLPT N2 单题学习与弱点记录工具" />
+    <meta name="description" content="JLPT N2 每日复习与练习系统" />
     <title>JLPT N2 AI Learning System</title>
     <link rel="stylesheet" href="styles/main.css" />
   </head>
   <body>
     <main class="app-shell">
       <header class="page-header">
-        <p class="eyebrow">JLPT N2 · Sprint 3</p>
-        <h1>一题一反馈，慢慢把盲点照亮。</h1>
-        <p class="subtitle">完成作答后，系统会判题、记录弱点并同步到 Google Sheets。</p>
+        <p class="eyebrow">JLPT N2 · Sprint 4</p>
+        <h1>今天学什么，交给复习引擎。</h1>
+        <p class="subtitle">系统根据历史作答、确定度与复习间隔，安排今天最值得练的内容。</p>
       </header>
-
-      <section class="progress-summary" aria-label="学习进度">
-        <div><span>题库总数</span><strong id="total-count">—</strong></div>
-        <div><span>已完成</span><strong id="completed-count">—</strong></div>
-        <div><span>剩余</span><strong id="remaining-count">—</strong></div>
-      </section>
-      <p id="progress-status" class="progress-status" aria-live="polite">正在读取学习进度...</p>
 
       <section id="app-message" class="notice hidden" role="alert"></section>
 
-      <section id="question-card" class="card" aria-labelledby="question-heading">
-        <div class="question-meta">
-          <span id="question-number">题目读取中</span>
-          <span id="question-type" class="tag"></span>
-        </div>
+      <section id="home-view">
+        <section id="learning-stats-content" class="daily-summary" aria-label="今日学习概况">
+          <div><span>新题</span><strong id="new-question-count">—</strong></div>
+          <div class="accent"><span>今日复习</span><strong id="today-review-count">—</strong></div>
+          <div><span>错题</span><strong id="mistake-count">—</strong></div>
+          <div><span>已掌握知识点</span><strong id="mastered-count">—</strong></div>
+          <div><span>学习中</span><strong id="learning-count">—</strong></div>
+          <div><span>待巩固</span><strong id="review-count">—</strong></div>
+        </section>
+        <p id="progress-status" class="progress-status" aria-live="polite">正在生成今日计划…</p>
 
-        <h2 id="question-heading" class="question-prompt">题目加载中…</h2>
-        <form id="answer-form">
-          <fieldset id="choices" class="choices">
-            <legend class="sr-only">请选择答案</legend>
-          </fieldset>
+        <section class="mode-grid" aria-label="学习模式">
+          <button type="button" class="mode-card" data-mode="continue">
+            <span class="mode-icon">→</span><strong>继续学习</strong>
+            <small>下一道未完成新题 · <span id="continue-count">—</span> 题</small>
+          </button>
+          <button type="button" class="mode-card recommended" data-mode="review">
+            <span class="recommendation">今日推荐</span>
+            <span class="mode-icon">↻</span><strong>今日复习</strong>
+            <small>按弱点优先级生成，不随机</small>
+          </button>
+          <button type="button" class="mode-card" data-mode="mistakes">
+            <span class="mode-icon">!</span><strong>错题重做</strong>
+            <small>按最近错误时间倒序</small>
+          </button>
+          <button type="button" class="mode-card" data-mode="random">
+            <span class="mode-icon">⌁</span><strong>随机练习</strong>
+            <small>从全部题目随机抽取</small>
+          </button>
+        </section>
 
-          <fieldset id="confidence" class="confidence-group">
-            <legend>作答确定度</legend>
-            <label><input type="radio" name="confidence" value="sure" /> 确定</label>
-            <label><input type="radio" name="confidence" value="uncertain" /> 不确定</label>
-            <label><input type="radio" name="confidence" value="guessed" /> 蒙的</label>
-          </fieldset>
-
-          <div class="actions">
-            <button id="submit-button" type="submit" class="button button-primary">提交答案</button>
-            <button id="next-button" type="button" class="button hidden">下一题</button>
+        <section class="card" aria-labelledby="review-queue-heading">
+          <div class="section-heading">
+            <h2 id="review-queue-heading">Today's Review Queue</h2>
+            <span id="queue-point-count" class="pending-badge">—</span>
           </div>
-        </form>
+          <div id="review-queue" class="review-queue" aria-label="最弱 5 个知识点生成的复习队列"></div>
+        </section>
 
-        <div id="feedback" class="feedback hidden" aria-live="polite">
-          <h3 id="feedback-title"></h3>
-          <p id="correct-answer"></p>
-          <p id="explanation"></p>
-        </div>
-      </section>
-
-      <section class="card compact" aria-labelledby="sync-heading">
-        <div class="section-heading">
-          <h2 id="sync-heading">同步状态</h2>
-          <span id="pending-count" class="pending-badge">待同步：0 条</span>
-        </div>
-        <p id="sync-status" class="status-text" aria-live="polite">尚未提交答案</p>
-        <p id="sync-detail" class="muted"></p>
-      </section>
-
-      <section id="prompt-section" class="card hidden" aria-labelledby="prompt-heading">
-        <div class="section-heading">
-          <h2 id="prompt-heading">给 ChatGPT 的讲解请求</h2>
-          <button id="copy-button" type="button" class="button button-small">复制文本</button>
-        </div>
-        <textarea id="chatgpt-prompt" rows="18" readonly></textarea>
-        <p id="copy-status" class="muted" aria-live="polite"></p>
-      </section>
-
-      <section class="card" aria-labelledby="learning-stats-heading">
-        <div class="section-heading">
-          <h2 id="learning-stats-heading">学习统计</h2>
-          <span id="learning-stats-status" class="muted" aria-live="polite">正在读取…</span>
-        </div>
-        <div id="learning-stats-content" class="hidden">
-          <div class="stats-overview">
-            <div><span>总做题数</span><strong id="stats-total-answered">0</strong></div>
-            <div><span>正确率</span><strong id="stats-accuracy">0%</strong></div>
+        <section class="card compact" aria-labelledby="knowledge-status-heading">
+          <div class="section-heading">
+            <h2 id="knowledge-status-heading">Knowledge Status</h2>
+            <span class="muted">NEW · LEARNING · REVIEW · MASTERED</span>
           </div>
-          <div class="weakness-lists">
-            <div>
-              <h3>最弱 5 个知识点</h3>
-              <ol id="weak-knowledge-points" class="ranked-list"></ol>
+          <p id="knowledge-status-detail" class="muted status-detail">正在分析…</p>
+        </section>
+      </section>
+
+      <section id="study-view" class="hidden">
+        <button id="home-button" type="button" class="text-button">← 返回今日计划</button>
+        <section id="question-card" class="card" aria-labelledby="question-heading">
+          <div class="question-meta">
+            <span id="question-number">题目读取中</span>
+            <span id="question-type" class="tag"></span>
+          </div>
+          <h2 id="question-heading" class="question-prompt">题目加载中…</h2>
+          <form id="answer-form">
+            <fieldset id="choices" class="choices"><legend class="sr-only">请选择答案</legend></fieldset>
+            <fieldset id="confidence" class="confidence-group">
+              <legend>作答确定度</legend>
+              <label><input type="radio" name="confidence" value="sure" /> 确定</label>
+              <label><input type="radio" name="confidence" value="uncertain" /> 不确定</label>
+              <label><input type="radio" name="confidence" value="guessed" /> 蒙的</label>
+            </fieldset>
+            <div class="actions">
+              <button id="submit-button" type="submit" class="button button-primary">提交答案</button>
+              <button id="next-button" type="button" class="button hidden">下一题</button>
             </div>
-            <div>
-              <h3>最弱 3 个题型</h3>
-              <ol id="weak-question-types" class="ranked-list"></ol>
-            </div>
+          </form>
+          <div id="feedback" class="feedback hidden" aria-live="polite">
+            <h3 id="feedback-title"></h3><p id="correct-answer"></p><p id="explanation"></p>
           </div>
-        </div>
+        </section>
+
+        <section class="card compact" aria-labelledby="sync-heading">
+          <div class="section-heading">
+            <h2 id="sync-heading">同步状态</h2>
+            <span id="pending-count" class="pending-badge">待同步：0 条</span>
+          </div>
+          <p id="sync-status" class="status-text" aria-live="polite">尚未提交答案</p>
+          <p id="sync-detail" class="muted"></p>
+        </section>
+
+        <section id="prompt-section" class="card hidden" aria-labelledby="prompt-heading">
+          <div class="section-heading">
+            <h2 id="prompt-heading">给 ChatGPT 的讲解请求</h2>
+            <button id="copy-button" type="button" class="button button-small">复制文本</button>
+          </div>
+          <textarea id="chatgpt-prompt" rows="18" readonly></textarea>
+          <p id="copy-status" class="muted" aria-live="polite"></p>
+        </section>
       </section>
     </main>
-
     <script type="module" src="src/app.js"></script>
   </body>
 </html>

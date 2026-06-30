@@ -31,6 +31,18 @@ export class SyncClient {
     return result;
   }
 
+  async getReviewData() {
+    const result = await this.#post({ action: "getReviewData" }, "读取复习记录");
+    if (!Array.isArray(result.answerRecords)) {
+      throw new Error("服务端返回的复习记录格式无效");
+    }
+    return result;
+  }
+
+  async saveLearningProfile(profile) {
+    return this.#post({ action: "saveLearningProfile", profile }, "更新学习档案");
+  }
+
   async #post(payload, requestLabel) {
     if (!this.url) {
       throw new Error("尚未配置 Apps Script Web App URL");

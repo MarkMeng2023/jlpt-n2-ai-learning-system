@@ -1,314 +1,324 @@
 import { APP_CONFIG } from "./config.js";
 import { buildChatGptPrompt } from "./prompt-builder.js";
 import { createSubmission } from "./records.js";
+import { ProgressStore, mergeAnsweredQuestionIds } from "./progress.js";
 import {
-  COMPLETION_MESSAGE,
-  ProgressStore,
-  findFirstUnansweredIndex,
-  getProgressCounts,
-  loadAnsweredProgress,
-  mergeAnsweredQuestionIds
-} from "./progress.js";
+  KNOWLEDGE_STATUS,
+  buildKnowledgeProfiles,
+  buildLearningProfile,
+  buildMistakeQuestionIds,
+  buildReviewQueue,
+  shuffleQuestions
+} from "./review-engine.js";
 import { SyncClient } from "./sync-client.js";
 import { SyncQueue } from "./sync-queue.js";
 
-const elements = {
-  appMessage: document.querySelector("#app-message"),
-  form: document.querySelector("#answer-form"),
-  choices: document.querySelector("#choices"),
-  questionNumber: document.querySelector("#question-number"),
-  questionType: document.querySelector("#question-type"),
-  questionHeading: document.querySelector("#question-heading"),
-  submitButton: document.querySelector("#submit-button"),
-  nextButton: document.querySelector("#next-button"),
-  feedback: document.querySelector("#feedback"),
-  feedbackTitle: document.querySelector("#feedback-title"),
-  correctAnswer: document.querySelector("#correct-answer"),
-  explanation: document.querySelector("#explanation"),
-  syncStatus: document.querySelector("#sync-status"),
-  syncDetail: document.querySelector("#sync-detail"),
-  pendingCount: document.querySelector("#pending-count"),
-  promptSection: document.querySelector("#prompt-section"),
-  prompt: document.querySelector("#chatgpt-prompt"),
-  copyButton: document.querySelector("#copy-button"),
-  copyStatus: document.querySelector("#copy-status"),
-  totalCount: document.querySelector("#total-count"),
-  completedCount: document.querySelector("#completed-count"),
-  remainingCount: document.querySelector("#remaining-count"),
-  progressStatus: document.querySelector("#progress-status"),
-  learningStatsStatus: document.querySelector("#learning-stats-status"),
-  learningStatsContent: document.querySelector("#learning-stats-content"),
-  statsTotalAnswered: document.querySelector("#stats-total-answered"),
-  statsAccuracy: document.querySelector("#stats-accuracy"),
-  weakKnowledgePoints: document.querySelector("#weak-knowledge-points"),
-  weakQuestionTypes: document.querySelector("#weak-question-types")
-};
+const elements = Object.fromEntries([
+  "app-message", "home-view", "study-view", "new-question-count", "today-review-count",
+  "mistake-count", "mastered-count", "learning-count", "review-count", "continue-count",
+  "progress-status", "queue-point-count", "review-queue", "knowledge-status-detail",
+  "home-button", "answer-form", "choices", "question-number", "question-type", "question-heading",
+  "submit-button", "next-button", "feedback", "feedback-title", "correct-answer", "explanation",
+  "sync-status", "sync-detail", "pending-count", "prompt-section", "chatgpt-prompt",
+  "copy-button", "copy-status"
+].map((id) => [id.replaceAll("-", "_"), document.querySelector(`#${id}`)]));
 
 const queue = new SyncQueue(APP_CONFIG.queueStorageKey);
 const progressStore = new ProgressStore(APP_CONFIG.progressStorageKey);
 const syncClient = new SyncClient(APP_CONFIG.appsScriptUrl, APP_CONFIG.requestTimeoutMs);
+const modeNames = { continue: "继续学习", review: "今日复习", mistakes: "错题重做", random: "随机练习" };
+
 let questions = [];
+let answerRecords = [];
 let answeredQuestionIds = [];
-let currentIndex = 0;
+let reviewGroups = [];
+let mistakeQuestionIds = [];
+let activeQuestions = [];
+let activePosition = 0;
+let activeMode = "continue";
 let questionStartedAt = new Date();
 let submitted = false;
 
+function mergeRecords(...collections) {
+  const merged = new Map();
+  collections.flat().filter(Boolean).forEach((record) => {
+    const key = record.recordId || `${record.questionId}:${record.answeredAt}`;
+    merged.set(key, record);
+  });
+  return [...merged.values()];
+}
+
 async function init() {
   updatePendingCount();
-  loadLearningStats();
   try {
     const response = await fetch("data/questions.json");
     if (!response.ok) throw new Error(`题库加载失败（HTTP ${response.status}）`);
     questions = await response.json();
     if (!Array.isArray(questions) || questions.length === 0) throw new Error("题库为空");
+
+    const pendingRecords = queue.getAll().map((operation) => operation.answerRecord).filter(Boolean);
+    answerRecords = pendingRecords;
     answeredQuestionIds = mergeAnsweredQuestionIds(
       progressStore.getAnsweredQuestionIds(),
-      queue.getAll().map((operation) => operation.answerRecord?.questionId)
+      pendingRecords.map((record) => record.questionId)
     );
-    progressStore.save(answeredQuestionIds);
-    updateProgressSummary();
 
-    const progress = await loadAnsweredProgress(
-      answeredQuestionIds,
-      () => syncClient.getProgress()
-    );
-    answeredQuestionIds = progress.answeredQuestionIds;
-    if (progress.source === "remote") {
-      progressStore.save(answeredQuestionIds);
-      elements.progressStatus.textContent = "学习进度已同步";
-    } else {
-      elements.progressStatus.textContent = "使用本地进度继续学习";
-      elements.progressStatus.title = progress.error?.message || "";
+    try {
+      const reviewData = await syncClient.getReviewData();
+      answerRecords = mergeRecords(reviewData.answerRecords, pendingRecords);
+      answeredQuestionIds = mergeAnsweredQuestionIds(
+        answeredQuestionIds,
+        answerRecords.map((record) => record.questionId)
+      );
+      elements.progress_status.textContent = "今日计划已根据 Google Sheets 最新记录生成";
+    } catch (error) {
+      elements.progress_status.textContent = "暂时使用本地记录生成计划";
+      elements.progress_status.title = error.message;
     }
-
-    updateProgressSummary();
-    currentIndex = findFirstUnansweredIndex(questions, answeredQuestionIds);
-    if (currentIndex === -1) renderCompletion();
-    else renderQuestion();
+    progressStore.save(answeredQuestionIds);
+    refreshEngine();
+    persistLearningProfile();
   } catch (error) {
     showAppError(`${error.message}。请通过本地 HTTP 服务器打开本项目。`);
-    elements.submitButton.disabled = true;
+    document.querySelectorAll(".mode-card").forEach((button) => { button.disabled = true; });
   }
 }
 
-async function loadLearningStats() {
-  try {
-    const stats = await syncClient.getLearningStats();
-    renderLearningStats(stats);
-  } catch (error) {
-    elements.learningStatsStatus.textContent = "暂时无法读取学习统计，但不影响继续做题。";
-    elements.learningStatsStatus.title = error.message;
-  }
+function refreshEngine() {
+  reviewGroups = buildReviewQueue(questions, answerRecords);
+  mistakeQuestionIds = buildMistakeQuestionIds(answerRecords, questions.map((question) => question.questionId));
+  renderHome();
 }
 
-function renderLearningStats(stats) {
-  elements.statsTotalAnswered.textContent = String(stats.totalAnswered);
-  elements.statsAccuracy.textContent = `${formatPercentage(stats.accuracy)}%`;
-  renderRankedList(
-    elements.weakKnowledgePoints,
-    stats.byKnowledgePoint.slice(0, 5),
-    (item) => item.knowledgePointTitle || item.knowledgePointId,
-    (item) => `弱点分 ${item.weaknessScore} · 正确率 ${formatPercentage(item.accuracy)}%`
-  );
-  const weakestTypes = [...stats.byQuestionType]
-    .sort((a, b) => a.accuracy - b.accuracy || b.wrong - a.wrong || b.total - a.total || a.type.localeCompare(b.type))
-    .slice(0, 3);
-  renderRankedList(
-    elements.weakQuestionTypes,
-    weakestTypes,
-    (item) => item.type,
-    (item) => `正确率 ${formatPercentage(item.accuracy)}% · ${item.total} 题`
-  );
-  elements.learningStatsStatus.textContent = stats.totalAnswered === 0 ? "暂无作答记录" : "已更新";
-  elements.learningStatsContent.classList.remove("hidden");
+function renderHome() {
+  const profiles = buildKnowledgeProfiles(questions, answerRecords);
+  const reviewQuestionIds = reviewGroups.flatMap((group) => group.questionIds);
+  const profile = buildLearningProfile(questions, answerRecords, reviewQuestionIds.length);
+  const unanswered = questions.filter((question) => !answeredQuestionIds.includes(question.questionId));
+
+  elements.new_question_count.textContent = String(unanswered.length);
+  elements.today_review_count.textContent = String(reviewQuestionIds.length);
+  elements.mistake_count.textContent = String(mistakeQuestionIds.length);
+  elements.mastered_count.textContent = String(profile.masteredCount);
+  elements.learning_count.textContent = String(profile.learningCount);
+  elements.review_count.textContent = String(profile.reviewCount);
+  elements.continue_count.textContent = String(unanswered.length);
+  elements.queue_point_count.textContent = `${reviewGroups.length} 个知识点`;
+  renderReviewQueue();
+
+  const mastered = profiles.filter((point) => point.status === KNOWLEDGE_STATUS.MASTERED)
+    .map((point) => point.knowledgePointTitle);
+  const needsReview = profiles.filter((point) => point.status === KNOWLEDGE_STATUS.REVIEW)
+    .map((point) => point.knowledgePointTitle);
+  const learning = profiles.filter((point) => point.status === KNOWLEDGE_STATUS.LEARNING)
+    .map((point) => point.knowledgePointTitle);
+  elements.knowledge_status_detail.textContent = [
+    `已掌握：${formatNames(mastered)}`,
+    `待巩固（有遗忘风险）：${formatNames(needsReview)}`,
+    `学习中：${formatNames(learning)}`
+  ].join("　·　");
 }
 
-function renderRankedList(container, items, getLabel, getDetail) {
-  container.replaceChildren();
-  if (items.length === 0) {
-    const item = document.createElement("li");
-    item.className = "empty-stat";
-    item.textContent = "暂无数据";
-    container.append(item);
+function formatNames(names) {
+  if (names.length === 0) return "暂无";
+  return names.length > 4 ? `${names.slice(0, 4).join("、")} 等 ${names.length} 个` : names.join("、");
+}
+
+function renderReviewQueue() {
+  elements.review_queue.replaceChildren();
+  if (reviewGroups.length === 0) {
+    const empty = document.createElement("p");
+    empty.className = "empty-queue";
+    empty.textContent = answerRecords.length === 0 ? "完成几道新题后，这里会自动生成复习队列。" : "今天没有需要优先复习的知识点。";
+    elements.review_queue.append(empty);
     return;
   }
-  items.forEach((entry) => {
-    const item = document.createElement("li");
-    const label = document.createElement("div");
-    const detail = document.createElement("span");
-    label.textContent = getLabel(entry);
-    detail.textContent = getDetail(entry);
-    item.append(label, detail);
-    container.append(item);
+  reviewGroups.forEach((group) => {
+    const wrapper = document.createElement("article");
+    wrapper.className = "queue-group";
+    const header = document.createElement("header");
+    const title = document.createElement("strong");
+    const status = document.createElement("span");
+    const questionsLine = document.createElement("p");
+    title.textContent = `${group.knowledgePointId} · ${group.knowledgePointTitle}`;
+    status.className = "status-pill";
+    status.textContent = `${group.status} · 弱点分 ${group.weaknessScore}`;
+    questionsLine.textContent = group.questionIds.join("  →  ");
+    header.append(title, status);
+    wrapper.append(header, questionsLine);
+    elements.review_queue.append(wrapper);
   });
 }
 
-function formatPercentage(value) {
-  return Number(value).toLocaleString("zh-CN", { maximumFractionDigits: 2 });
+function startMode(mode) {
+  activeMode = mode;
+  const byId = new Map(questions.map((question) => [question.questionId, question]));
+  if (mode === "continue") {
+    activeQuestions = questions.filter((question) => !answeredQuestionIds.includes(question.questionId));
+  } else if (mode === "review") {
+    activeQuestions = reviewGroups.flatMap((group) => group.questionIds).map((id) => byId.get(id)).filter(Boolean);
+  } else if (mode === "mistakes") {
+    activeQuestions = mistakeQuestionIds.map((id) => byId.get(id)).filter(Boolean);
+  } else {
+    activeQuestions = shuffleQuestions(questions);
+  }
+  activePosition = 0;
+  elements.home_view.classList.add("hidden");
+  elements.study_view.classList.remove("hidden");
+  if (activeQuestions.length === 0) renderSessionCompletion(true);
+  else renderQuestion();
+  window.scrollTo({ top: 0, behavior: "smooth" });
 }
 
 function renderQuestion() {
-  const question = questions[currentIndex];
+  const question = activeQuestions[activePosition];
   submitted = false;
   questionStartedAt = new Date();
-  elements.form.classList.remove("hidden");
-  elements.form.reset();
-  elements.questionNumber.textContent = `第 ${currentIndex + 1} / ${questions.length} 题`;
-  elements.questionType.textContent = question.typeLabel || question.type;
-  elements.questionHeading.textContent = question.prompt;
-  elements.choices.innerHTML = Object.entries(question.choices)
-    .map(([key, value]) => `
-      <label class="choice">
-        <input type="radio" name="answer" value="${key}" />
-        <span class="choice-key">${key}</span>
-        <span>${escapeHtml(value)}</span>
-      </label>`)
-    .join("");
-  enableAnswerInputs();
-  elements.submitButton.disabled = false;
-  elements.submitButton.classList.remove("hidden");
-  elements.nextButton.classList.add("hidden");
+  elements.answer_form.classList.remove("hidden");
+  elements.answer_form.reset();
+  elements.question_number.textContent = `${modeNames[activeMode]} · 第 ${activePosition + 1} / ${activeQuestions.length} 题`;
+  elements.question_type.textContent = question.typeLabel || question.type;
+  elements.question_heading.textContent = question.prompt;
+  elements.choices.innerHTML = Object.entries(question.choices).map(([key, value]) => `
+    <label class="choice"><input type="radio" name="answer" value="${key}" />
+      <span class="choice-key">${key}</span><span>${escapeHtml(value)}</span></label>`).join("");
+  setAnswerInputsDisabled(false);
+  elements.submit_button.disabled = false;
+  elements.submit_button.classList.remove("hidden");
+  elements.next_button.classList.add("hidden");
   elements.feedback.className = "feedback hidden";
-  elements.promptSection.classList.add("hidden");
-  elements.copyStatus.textContent = "";
-  elements.syncStatus.textContent = "尚未提交答案";
-  elements.syncDetail.textContent = "";
+  elements.prompt_section.classList.add("hidden");
+  elements.copy_status.textContent = "";
+  elements.sync_status.textContent = "尚未提交答案";
+  elements.sync_detail.textContent = "";
 }
 
-function renderCompletion() {
+function renderSessionCompletion(empty = false) {
   submitted = true;
-  elements.questionNumber.textContent = `${questions.length} / ${questions.length}`;
-  elements.questionType.textContent = "完成";
-  elements.questionHeading.textContent = COMPLETION_MESSAGE;
-  elements.form.classList.add("hidden");
+  elements.question_number.textContent = modeNames[activeMode];
+  elements.question_type.textContent = "完成";
+  elements.question_heading.textContent = empty ? "当前没有可练习的题目" : `${modeNames[activeMode]}已完成`;
+  elements.answer_form.classList.add("hidden");
   elements.feedback.className = "feedback hidden";
-  elements.promptSection.classList.add("hidden");
-  elements.syncStatus.textContent = "全部题目均已有作答记录";
-  elements.syncDetail.textContent = "未来可在复习模式中重新练习，当前不会重复出题。";
+  elements.prompt_section.classList.add("hidden");
+  elements.sync_status.textContent = empty ? "可以返回今日计划选择其他模式" : "本轮记录已保存";
+  elements.sync_detail.textContent = "";
 }
 
 async function handleSubmit(event) {
   event.preventDefault();
   if (submitted) return;
-
-  const formData = new FormData(elements.form);
+  const formData = new FormData(elements.answer_form);
   const userAnswer = formData.get("answer");
   const confidence = formData.get("confidence");
   if (!userAnswer || !confidence) {
-    elements.syncStatus.textContent = "请先选择答案和确定度";
-    elements.syncDetail.textContent = "两项都是生成学习记录的必要信息。";
+    elements.sync_status.textContent = "请先选择答案和确定度";
+    elements.sync_detail.textContent = "两项都是生成学习记录的必要信息。";
     return;
   }
 
   submitted = true;
-  elements.submitButton.disabled = true;
-  disableAnswerInputs();
-  const question = questions[currentIndex];
+  elements.submit_button.disabled = true;
+  setAnswerInputsDisabled(true);
+  const question = activeQuestions[activePosition];
   const operation = createSubmission(question, userAnswer, confidence, questionStartedAt);
-
   showFeedback(question, operation.answerRecord);
   showPrompt(buildChatGptPrompt({ question, answerRecord: operation.answerRecord }));
 
   try {
-    // 写前日志：远端请求开始前，记录已经安全进入本地队列。
     queue.add(operation);
+    answerRecords = mergeRecords(answerRecords, [operation.answerRecord]);
     answeredQuestionIds = progressStore.add(question.questionId);
     updatePendingCount();
-    updateProgressSummary();
+    refreshEngine();
   } catch (error) {
     submitted = false;
-    elements.submitButton.disabled = false;
-    enableAnswerInputs();
-    elements.syncStatus.textContent = "⚠️ 无法保存本地待同步队列";
-    elements.syncDetail.textContent = `${error.message}。为避免丢失，本次不会发送远端请求。`;
+    elements.submit_button.disabled = false;
+    setAnswerInputsDisabled(false);
+    elements.sync_status.textContent = "⚠️ 无法保存本地待同步队列";
+    elements.sync_detail.textContent = `${error.message}。为避免丢失，本次不会发送远端请求。`;
     return;
   }
 
-  elements.syncStatus.textContent = "正在同步…";
-  elements.syncDetail.textContent = `记录ID：${operation.answerRecord.recordId}`;
-
+  elements.sync_status.textContent = "正在同步…";
+  elements.sync_detail.textContent = `记录ID：${operation.answerRecord.recordId}`;
   try {
     const result = await syncClient.submit(operation);
     queue.remove(operation.operationId);
     updatePendingCount();
-    elements.syncStatus.textContent = "✅ 已更新完成";
-    elements.syncDetail.textContent = formatSyncResult(result);
-    loadLearningStats();
+    elements.sync_status.textContent = "✅ 已更新完成";
+    elements.sync_detail.textContent = formatSyncResult(result);
+    persistLearningProfile();
   } catch (error) {
-    elements.syncStatus.textContent = "⚠️ 同步失败，已保存到本地待同步队列";
-    elements.syncDetail.textContent = error.message;
+    elements.sync_status.textContent = "⚠️ 同步失败，已保存到本地待同步队列";
+    elements.sync_detail.textContent = error.message;
   } finally {
-    elements.nextButton.textContent = findFirstUnansweredIndex(questions, answeredQuestionIds, currentIndex + 1) === -1
-      ? "查看完成状态"
-      : "下一题";
-    elements.nextButton.classList.remove("hidden");
+    elements.next_button.textContent = activePosition + 1 >= activeQuestions.length ? "完成本轮" : "下一题";
+    elements.next_button.classList.remove("hidden");
   }
+}
+
+function persistLearningProfile() {
+  const reviewCount = reviewGroups.reduce((sum, group) => sum + group.questionIds.length, 0);
+  const profile = buildLearningProfile(questions, answerRecords, reviewCount);
+  syncClient.saveLearningProfile(profile).catch(() => {});
 }
 
 function showFeedback(question, answerRecord) {
   elements.feedback.className = `feedback ${answerRecord.isCorrect ? "correct" : "incorrect"}`;
-  elements.feedbackTitle.textContent = answerRecord.isCorrect ? "回答正确" : "回答错误";
-  elements.correctAnswer.textContent = `正确答案：${question.correctAnswer}. ${question.choices[question.correctAnswer]}`;
+  elements.feedback_title.textContent = answerRecord.isCorrect ? "回答正确" : "回答错误";
+  elements.correct_answer.textContent = `正确答案：${question.correctAnswer}. ${question.choices[question.correctAnswer]}`;
   elements.explanation.textContent = `解析：${question.explanation}`;
 }
 
 function showPrompt(prompt) {
-  elements.prompt.value = prompt;
-  elements.promptSection.classList.remove("hidden");
+  elements.chatgpt_prompt.value = prompt;
+  elements.prompt_section.classList.remove("hidden");
 }
 
 function formatSyncResult(result) {
-  const answerStatus = result.results?.answerRecord?.status || "unknown";
-  const weakStatus = result.results?.weakPoint?.status || "unknown";
-  return `记录ID：${result.recordId} · 答题记录：${answerStatus} · 弱点记录：${weakStatus}`;
+  return `记录ID：${result.recordId} · 答题记录：${result.results?.answerRecord?.status || "unknown"} · 弱点记录：${result.results?.weakPoint?.status || "unknown"}`;
 }
 
 function updatePendingCount() {
-  elements.pendingCount.textContent = `待同步：${queue.getAll().length} 条`;
+  elements.pending_count.textContent = `待同步：${queue.getAll().length} 条`;
 }
 
-function updateProgressSummary() {
-  const counts = getProgressCounts(questions, answeredQuestionIds);
-  elements.totalCount.textContent = String(counts.total);
-  elements.completedCount.textContent = String(counts.completed);
-  elements.remainingCount.textContent = String(counts.remaining);
-}
-
-function disableAnswerInputs() {
-  elements.form.querySelectorAll("input").forEach((input) => { input.disabled = true; });
-}
-
-function enableAnswerInputs() {
-  elements.form.querySelectorAll("input").forEach((input) => { input.disabled = false; });
+function setAnswerInputsDisabled(disabled) {
+  elements.answer_form.querySelectorAll("input").forEach((input) => { input.disabled = disabled; });
 }
 
 function showAppError(message) {
-  elements.appMessage.textContent = message;
-  elements.appMessage.classList.remove("hidden");
+  elements.app_message.textContent = message;
+  elements.app_message.classList.remove("hidden");
 }
 
 function escapeHtml(value) {
-  return String(value)
-    .replaceAll("&", "&amp;")
-    .replaceAll("<", "&lt;")
-    .replaceAll(">", "&gt;")
-    .replaceAll('"', "&quot;")
-    .replaceAll("'", "&#039;");
+  return String(value).replaceAll("&", "&amp;").replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;").replaceAll('"', "&quot;").replaceAll("'", "&#039;");
 }
 
-elements.form.addEventListener("submit", handleSubmit);
-elements.nextButton.addEventListener("click", () => {
-  currentIndex = findFirstUnansweredIndex(questions, answeredQuestionIds, currentIndex + 1);
-  if (currentIndex === -1) renderCompletion();
+document.querySelectorAll(".mode-card").forEach((button) => {
+  button.addEventListener("click", () => startMode(button.dataset.mode));
+});
+elements.answer_form.addEventListener("submit", handleSubmit);
+elements.next_button.addEventListener("click", () => {
+  activePosition += 1;
+  if (activePosition >= activeQuestions.length) renderSessionCompletion();
   else renderQuestion();
 });
-elements.copyButton.addEventListener("click", async () => {
+elements.home_button.addEventListener("click", () => {
+  elements.study_view.classList.add("hidden");
+  elements.home_view.classList.remove("hidden");
+  refreshEngine();
+});
+elements.copy_button.addEventListener("click", async () => {
   try {
-    await navigator.clipboard.writeText(elements.prompt.value);
-    elements.copyStatus.textContent = "已复制，可以粘贴到 ChatGPT Project。";
+    await navigator.clipboard.writeText(elements.chatgpt_prompt.value);
+    elements.copy_status.textContent = "已复制，可以粘贴到 ChatGPT Project。";
   } catch {
-    elements.prompt.select();
-    elements.copyStatus.textContent = "自动复制失败，文本已选中，请手动复制。";
+    elements.chatgpt_prompt.select();
+    elements.copy_status.textContent = "自动复制失败，文本已选中，请手动复制。";
   }
 });
 
