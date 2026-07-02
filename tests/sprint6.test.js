@@ -21,21 +21,21 @@ test("Sprint 6 暂停扩题并为每个知识点建立来源登记项", () => {
 
 test("质量报告输出知识点覆盖、题目来源和当前扩题门禁", () => {
   const report = analyzeQuestionBankQuality(questions, knowledgePoints, sourceRegistry, { additionalKnowledgePoints: grammarPoints });
-  assert.equal(report.summary.questionCount, 165);
+  assert.equal(report.summary.questionCount, 205);
   assert.equal(report.summary.knowledgePointCount, 30);
   assert.equal(report.summary.onlyAiKnowledgePointCount, 25);
   assert.equal(report.summary.missingValidationSourceCount, 25);
   assert.equal(report.summary.expansionGate, "HOLD");
   assert.equal(report.knowledgePointCoverage.length, 30);
-  assert.equal(report.questionSources.length, 165);
+  assert.equal(report.questionSources.length, 205);
   assert.equal(report.shortExplanations.length, 0);
   assert.equal(report.missingDistractorAnalysis.length, 0);
 
   const markdown = renderQualityReportMarkdown(report);
-  assert.match(markdown, /Knowledge Point Coverage and Evidence/);
-  assert.match(markdown, /Question Sources/);
-  assert.match(markdown, /Obvious-Option Review Candidates/);
-  assert.match(markdown, /Possible Multiple-Answer Candidates/);
+  assert.match(markdown, /知识点覆盖与来源依据/);
+  assert.match(markdown, /题目来源/);
+  assert.match(markdown, /选项过于明显候选/);
+  assert.match(markdown, /可能存在多个正确答案的候选/);
 });
 
 test("登记可靠证据后，知识点可脱离 AI-only 与缺少来源列表", () => {

@@ -15,12 +15,12 @@ const factory = buildQuestionFactoryPlan({ basePoints, grammarPoints, questions 
 
 test("Coverage Engine 按 ID 合并知识点并应用可配置目标", () => {
   assert.equal(factory.summary.knowledgePointCount, 100);
-  assert.equal(factory.summary.questionCount, 165);
-  assert.equal(factory.summary.currentAssociations, 165);
+  assert.equal(factory.summary.questionCount, 205);
+  assert.equal(factory.summary.currentAssociations, 205);
   assert.equal(factory.summary.totalTarget, 845);
-  assert.equal(factory.summary.totalGap, 680);
-  assert.equal(factory.summary.targetCoverageRate, 19.53);
-  assert.equal(factory.summary.coveredKnowledgePoints, 40);
+  assert.equal(factory.summary.totalGap, 640);
+  assert.equal(factory.summary.targetCoverageRate, 24.26);
+  assert.equal(factory.summary.coveredKnowledgePoints, 50);
   assert.deepEqual(DEFAULT_COVERAGE_RULES, {
     grammar: 8, vocabulary: 10, adverb: 8, reading_skill: 15, fixed_expression: 8, conjunction: 8
   });
@@ -73,11 +73,11 @@ test("Coverage Report 与 Generation Plan 包含门禁和完整计划", async ()
     readFile(new URL("../knowledge/reports/question-coverage-report.md", import.meta.url), "utf8"),
     readFile(new URL("../reports/question-generation-plan.md", import.meta.url), "utf8")
   ]);
-  assert.match(coverage, /Knowledge Point 总数：\*\*100\*\*/);
+  assert.match(coverage, /知识点总数：\*\*100\*\*/);
   assert.match(coverage, /理论目标关联数：\*\*845\*\*/);
-  assert.match(plan, /Question Factory 生成待补计划/);
-  assert.match(plan, /Question Validation/);
-  assert.match(plan, /Question Review/);
-  assert.match(plan, /Question Bank Validation/);
+  assert.match(plan, /题库工厂生成待补计划/);
+  assert.match(plan, /题目校验/);
+  assert.match(plan, /人工题目复核/);
+  assert.match(plan, /题库校验/);
   assert.match(plan, /KP-GRA-MONONO-001/);
 });

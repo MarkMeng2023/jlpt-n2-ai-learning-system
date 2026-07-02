@@ -1,3 +1,5 @@
+import { validateKnowledgeCards } from "./knowledge-card.js";
+
 export const QUESTION_REQUIRED_FIELDS = Object.freeze([
   "questionId", "level", "section", "type", "subType", "prompt", "choices",
   "correctAnswer", "explanation", "knowledgePointIds", "knowledgePointTitles",
@@ -198,19 +200,24 @@ export function assertValidQuestionBank(questions, knowledgePoints, additionalKn
 }
 
 export async function loadQuestionBank(fetchImpl = globalThis.fetch) {
-  const [questionsResponse, pointsResponse, grammarResponse] = await Promise.all([
+  const [questionsResponse, pointsResponse, grammarResponse, cardsResponse] = await Promise.all([
     fetchImpl("data/questions.json"),
     fetchImpl("data/knowledge-points.json"),
-    fetchImpl("knowledge/grammar/grammar-points.json")
+    fetchImpl("knowledge/grammar/grammar-points.json"),
+    fetchImpl("data/knowledge-cards.json")
   ]);
   if (!questionsResponse.ok) throw new Error(`题库加载失败（HTTP ${questionsResponse.status}）`);
   if (!pointsResponse.ok) throw new Error(`知识点加载失败（HTTP ${pointsResponse.status}）`);
   if (!grammarResponse.ok) throw new Error(`Grammar Map 加载失败（HTTP ${grammarResponse.status}）`);
-  const [questions, knowledgePoints, grammarPoints] = await Promise.all([
+  if (!cardsResponse.ok) throw new Error(`知识卡加载失败（HTTP ${cardsResponse.status}）`);
+  const [questions, knowledgePoints, grammarPoints, knowledgeCards] = await Promise.all([
     questionsResponse.json(),
     pointsResponse.json(),
-    grammarResponse.json()
+    grammarResponse.json(),
+    cardsResponse.json()
   ]);
   assertValidQuestionBank(questions, knowledgePoints, grammarPoints);
-  return { questions, knowledgePoints, grammarPoints };
+  const cardValidation = validateKnowledgeCards(knowledgeCards, questions);
+  if (!cardValidation.valid) throw new Error(`知识卡格式无效：${cardValidation.errors.slice(0, 3).join("；")}`);
+  return { questions, knowledgePoints, grammarPoints, knowledgeCards };
 }

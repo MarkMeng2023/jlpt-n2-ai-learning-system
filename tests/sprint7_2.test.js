@@ -45,7 +45,7 @@ test("draft 文法点不会被 AI 来源伪标 verified", () => {
 test("Sprint 7.2 不新增题目且不改变覆盖关系", () => {
   assert.ok(questions.length >= 80);
   const grammarIds = new Set(grammarPoints.map((point) => point.knowledgePointId));
-  const sprint7Questions = questions.filter((question) => !question.questionId.startsWith("Q-N2-FAC-GRA-"));
+  const sprint7Questions = questions.filter((question) => !question.questionId.startsWith("Q-N2-FAC-GRA-") && !question.questionId.startsWith("Q-N2-FAC-S12-"));
   const covered = new Set(sprint7Questions.flatMap((question) => question.knowledgePointIds).filter((id) => grammarIds.has(id)));
   assert.equal(covered.size, 10);
 });

@@ -1,29 +1,29 @@
-# Question Bank Quality Report
+# 题库质量报告
 
-Generated: 2026-06-30T17:18:02.678Z
+Generated: 2026-07-01T16:29:39.982Z
 
-Expansion gate: **HOLD**
+扩题门禁：**HOLD**
 
-## Summary
+## 摘要
 
-| Metric | Count |
+| 指标 | 数量 |
 | --- | ---: |
-| Questions | 165 |
-| Knowledge points | 30 |
-| Verified knowledge points | 5 |
-| Knowledge points with only AI sources | 25 |
-| Knowledge points missing validation sources | 25 |
-| Explanations below length threshold | 0 |
-| Explanations missing distractor analysis | 0 |
-| Obvious-option review candidates | 0 |
-| Multiple-answer review candidates | 0 |
-| Publication blockers | 25 |
+| 题目数 | 205 |
+| 知识点数 | 30 |
+| 已验证知识点 | 5 |
+| 仅有 AI 来源的知识点 | 25 |
+| 缺少验证来源的知识点 | 25 |
+| 解析低于长度阈值 | 0 |
+| 解析缺少干扰项分析 | 0 |
+| 选项过于明显候选 | 0 |
+| 多正确答案候选 | 0 |
+| 发布阻断项 | 25 |
 
-The obvious-option and multiple-answer checks are heuristics. PASS still requires human Japanese-language review.
+选项明显度和多答案检查是启发式规则；即使通过，仍建议人工日语质量复核。
 
-## Knowledge Point Coverage and Evidence
+## 知识点覆盖与来源依据
 
-| Knowledge Point | Title | Questions | Status | Evidence | Question Sources | AI Only |
+| 知识点 | 标题 | 题数 | 状态 | 依据 | 题目来源 | 仅 AI |
 | --- | --- | ---: | --- | --- | --- | --- |
 | KP-VOC-HATASU-001 | 約束を果たす | 4 | unverified | 未登记 | ai_generated | YES |
 | KP-VOC-OU-001 | 責任を負う | 4 | unverified | 未登记 | ai_generated | YES |
@@ -56,9 +56,9 @@ The obvious-option and multiple-answer checks are heuristics. PASS still require
 | KP-READ-GUIDE-001 | 案内文の対象条件 | 8 | unverified | 未登记 | ai_generated | YES |
 | KP-READ-REASON-001 | 理由の特定 | 8 | unverified | 未登记 | ai_generated | YES |
 
-## Question Sources
+## 题目来源
 
-| Question | sourceType | sourceName |
+| 题目 | sourceType | sourceName |
 | --- | --- | --- |
 | Q-N2-VOC-0001 | ai_generated | JLPT N2 AI Learning System |
 | Q-N2-VOC-0002 | ai_generated | JLPT N2 AI Learning System |
@@ -225,8 +225,48 @@ The obvious-option and multiple-answer checks are heuristics. PASS still require
 | Q-N2-FAC-GRA-0038 | ai_generated | JLPT N2 AI Learning System Question Factory |
 | Q-N2-FAC-GRA-0039 | ai_generated | JLPT N2 AI Learning System Question Factory |
 | Q-N2-FAC-GRA-0040 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S12-0001 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S12-0002 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S12-0003 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S12-0004 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S12-0005 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S12-0006 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S12-0007 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S12-0008 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S12-0009 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S12-0010 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S12-0011 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S12-0012 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S12-0013 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S12-0014 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S12-0015 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S12-0016 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S12-0017 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S12-0018 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S12-0019 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S12-0020 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S12-0021 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S12-0022 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S12-0023 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S12-0024 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S12-0025 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S12-0026 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S12-0027 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S12-0028 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S12-0029 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S12-0030 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S12-0031 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S12-0032 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S12-0033 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S12-0034 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S12-0035 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S12-0036 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S12-0037 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S12-0038 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S12-0039 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S12-0040 | ai_generated | JLPT N2 AI Learning System Question Factory |
 
-## Knowledge Points With Only AI Sources
+## 仅有 AI 来源的知识点
 
 - KP-VOC-HATASU-001
 - KP-VOC-OU-001
@@ -254,7 +294,7 @@ The obvious-option and multiple-answer checks are heuristics. PASS still require
 - KP-READ-GUIDE-001
 - KP-READ-REASON-001
 
-## Knowledge Points Missing Validation Sources
+## 缺少验证来源的知识点
 
 - KP-VOC-HATASU-001
 - KP-VOC-OU-001
@@ -282,23 +322,23 @@ The obvious-option and multiple-answer checks are heuristics. PASS still require
 - KP-READ-GUIDE-001
 - KP-READ-REASON-001
 
-## Short Explanations
+## 解析过短
 
 - None
 
-## Explanations Missing Distractor Analysis
+## 缺少干扰项分析的解析
 
 - None
 
-## Obvious-Option Review Candidates
+## 选项过于明显候选
 
 - None
 
-## Possible Multiple-Answer Candidates
+## 可能存在多个正确答案的候选
 
 - None
 
-## Source Registry Errors
+## 来源登记错误
 
 - None
 

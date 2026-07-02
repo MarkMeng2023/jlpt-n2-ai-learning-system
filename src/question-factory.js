@@ -48,6 +48,7 @@ function includesTag(point, pattern) {
 export function classifyKnowledgePoint(point) {
   if (point.category === "grammar" || point.knowledgePointId?.startsWith("KP-GRA-")) return "grammar";
   if (point.category === "reading" || point.knowledgePointId?.startsWith("KP-READ-")) return "reading_skill";
+  if (["adverb", "reading_skill", "fixed_expression", "conjunction"].includes(point.category)) return point.category;
   if (point.knowledgePointId?.startsWith("KP-ADV-") || includesTag(point, /副词/)) return "adverb";
   if (includesTag(point, /接续词|连接词/) || point.knowledgePointId?.startsWith("KP-CONJ-")) return "conjunction";
   if (includesTag(point, /固定搭配|固定表达/) || point.knowledgePointId?.startsWith("KP-FIX-")) return "fixed_expression";
@@ -84,8 +85,8 @@ function distributeRecommendations(kind, gap) {
   return result.filter((plan) => plan.suggestedCount > 0);
 }
 
-export function buildQuestionFactoryPlan({ basePoints, grammarPoints, questions, coverageRules = DEFAULT_COVERAGE_RULES }) {
-  const knowledgePoints = mergeKnowledgePoints(basePoints, grammarPoints);
+export function buildQuestionFactoryPlan({ basePoints = [], grammarPoints = [], knowledgeCards = null, questions, coverageRules = DEFAULT_COVERAGE_RULES }) {
+  const knowledgePoints = knowledgeCards || mergeKnowledgePoints(basePoints, grammarPoints);
   const questionCounts = new Map(knowledgePoints.map((point) => [point.knowledgePointId, 0]));
   const sourceTypes = new Map(knowledgePoints.map((point) => [point.knowledgePointId, new Set()]));
 

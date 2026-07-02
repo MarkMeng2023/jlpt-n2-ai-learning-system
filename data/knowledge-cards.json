@@ -1,0 +1,3438 @@
+[
+  {
+    "knowledgePointId": "KP-VOC-HATASU-001",
+    "title": "約束を果たす",
+    "category": "fixed_expression",
+    "level": "N2",
+    "meaning": "履行；完成",
+    "usage": "与责任、任务、作用等搭配，表示切实完成。",
+    "grammarPattern": "固定搭配：約束を果たす",
+    "notes": "搭配作为整体记忆，动词或名词不能仅凭中文近义随意替换。",
+    "commonMistakes": [
+      "用中文意思相近的动词替换，形成不自然的日语搭配。"
+    ],
+    "memoryTips": "把「約束を果たす」作为一个不可拆的词块朗读和默写。",
+    "reviewTips": [
+      "遮住动词，根据名词补全固定搭配。",
+      "造一个与原例句场景不同的新句子。"
+    ],
+    "examples": [
+      "約束を果たす。",
+      "役割を果たす。"
+    ],
+    "relatedPointIds": [],
+    "confusablePointIds": [],
+    "linkedQuestionIds": [
+      "Q-N2-VOC-0001",
+      "Q-N2-VOC-0006",
+      "Q-N2-VOC-0007",
+      "Q-N2-VOC-0008"
+    ],
+    "verificationStatus": "unverified",
+    "sourceType": "ai_structured",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  },
+  {
+    "knowledgePointId": "KP-VOC-OU-001",
+    "title": "責任を負う",
+    "category": "fixed_expression",
+    "level": "N2",
+    "meaning": "承担；背负",
+    "usage": "常与责任、义务、债务等搭配。",
+    "grammarPattern": "固定搭配：責任を負う",
+    "notes": "搭配作为整体记忆，动词或名词不能仅凭中文近义随意替换。",
+    "commonMistakes": [
+      "用中文意思相近的动词替换，形成不自然的日语搭配。"
+    ],
+    "memoryTips": "把「責任を負う」作为一个不可拆的词块朗读和默写。",
+    "reviewTips": [
+      "遮住动词，根据名词补全固定搭配。",
+      "造一个与原例句场景不同的新句子。"
+    ],
+    "examples": [
+      "責任を負う。",
+      "借金を負う。"
+    ],
+    "relatedPointIds": [],
+    "confusablePointIds": [],
+    "linkedQuestionIds": [
+      "Q-N2-VOC-0002",
+      "Q-N2-VOC-0009",
+      "Q-N2-VOC-0010",
+      "Q-N2-VOC-0011"
+    ],
+    "verificationStatus": "unverified",
+    "sourceType": "ai_structured",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  },
+  {
+    "knowledgePointId": "KP-VOC-YOSERU-001",
+    "title": "関心を寄せる",
+    "category": "fixed_expression",
+    "level": "N2",
+    "meaning": "寄予；给予",
+    "usage": "用于表达关注、期待、信任或同情的集中。",
+    "grammarPattern": "固定搭配：関心を寄せる",
+    "notes": "搭配作为整体记忆，动词或名词不能仅凭中文近义随意替换。",
+    "commonMistakes": [
+      "用中文意思相近的动词替换，形成不自然的日语搭配。"
+    ],
+    "memoryTips": "把「関心を寄せる」作为一个不可拆的词块朗读和默写。",
+    "reviewTips": [
+      "遮住动词，根据名词补全固定搭配。",
+      "造一个与原例句场景不同的新句子。"
+    ],
+    "examples": [
+      "期待を寄せる。",
+      "関心を寄せる。"
+    ],
+    "relatedPointIds": [],
+    "confusablePointIds": [],
+    "linkedQuestionIds": [
+      "Q-N2-VOC-0003",
+      "Q-N2-VOC-0012",
+      "Q-N2-VOC-0013",
+      "Q-N2-VOC-0014"
+    ],
+    "verificationStatus": "unverified",
+    "sourceType": "ai_structured",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  },
+  {
+    "knowledgePointId": "KP-VOC-TASSURU-001",
+    "title": "結論に達する",
+    "category": "fixed_expression",
+    "level": "N2",
+    "meaning": "达到；抵达",
+    "usage": "表示到达数值、地点、结论或协议。",
+    "grammarPattern": "固定搭配：結論に達する",
+    "notes": "搭配作为整体记忆，动词或名词不能仅凭中文近义随意替换。",
+    "commonMistakes": [
+      "用中文意思相近的动词替换，形成不自然的日语搭配。"
+    ],
+    "memoryTips": "把「結論に達する」作为一个不可拆的词块朗读和默写。",
+    "reviewTips": [
+      "遮住动词，根据名词补全固定搭配。",
+      "造一个与原例句场景不同的新句子。"
+    ],
+    "examples": [
+      "合意に達する。",
+      "山頂に達する。"
+    ],
+    "relatedPointIds": [],
+    "confusablePointIds": [],
+    "linkedQuestionIds": [
+      "Q-N2-VOC-0004",
+      "Q-N2-VOC-0015",
+      "Q-N2-VOC-0016",
+      "Q-N2-VOC-0017"
+    ],
+    "verificationStatus": "unverified",
+    "sourceType": "ai_structured",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  },
+  {
+    "knowledgePointId": "KP-VOC-KITASU-001",
+    "title": "支障をきたす",
+    "category": "fixed_expression",
+    "level": "N2",
+    "meaning": "导致；招致",
+    "usage": "多与不良影响、混乱、障碍等搭配。",
+    "grammarPattern": "固定搭配：支障をきたす",
+    "notes": "搭配作为整体记忆，动词或名词不能仅凭中文近义随意替换。",
+    "commonMistakes": [
+      "用中文意思相近的动词替换，形成不自然的日语搭配。"
+    ],
+    "memoryTips": "把「支障をきたす」作为一个不可拆的词块朗读和默写。",
+    "reviewTips": [
+      "遮住动词，根据名词补全固定搭配。",
+      "造一个与原例句场景不同的新句子。"
+    ],
+    "examples": [
+      "支障をきたす。",
+      "混乱をきたす。"
+    ],
+    "relatedPointIds": [],
+    "confusablePointIds": [],
+    "linkedQuestionIds": [
+      "Q-N2-VOC-0005",
+      "Q-N2-VOC-0018",
+      "Q-N2-VOC-0019",
+      "Q-N2-VOC-0020"
+    ],
+    "verificationStatus": "unverified",
+    "sourceType": "ai_structured",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  },
+  {
+    "knowledgePointId": "KP-ADV-ARAKAJIME-001",
+    "title": "あらかじめ",
+    "category": "adverb",
+    "level": "N2",
+    "meaning": "预先；事先",
+    "usage": "表示在事情发生前先做好准备。",
+    "grammarPattern": "副词＋谓语；同时确认是否要求否定呼应或特定语气。",
+    "notes": "副词的自然度依赖语境、程度和肯定／否定形式。",
+    "commonMistakes": [
+      "只记中文意思，忽略与否定形式或特定谓语的呼应。"
+    ],
+    "memoryTips": "把「あらかじめ」放进一组肯定或否定的固定语境中记忆。",
+    "reviewTips": [
+      "判断该副词能否用于肯定句和否定句。",
+      "替换近义副词，比较程度与语气差异。"
+    ],
+    "examples": [
+      "あらかじめ連絡する。",
+      "会議の資料はあらかじめ読んでおいてください。"
+    ],
+    "relatedPointIds": [],
+    "confusablePointIds": [],
+    "linkedQuestionIds": [
+      "Q-N2-ADV-0001",
+      "Q-N2-ADV-0006"
+    ],
+    "verificationStatus": "unverified",
+    "sourceType": "ai_structured",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  },
+  {
+    "knowledgePointId": "KP-ADV-SHIKIRINI-001",
+    "title": "しきりに",
+    "category": "adverb",
+    "level": "N2",
+    "meaning": "频繁地；不断地",
+    "usage": "表示某动作或状态反复出现。",
+    "grammarPattern": "副词＋谓语；同时确认是否要求否定呼应或特定语气。",
+    "notes": "副词的自然度依赖语境、程度和肯定／否定形式。",
+    "commonMistakes": [
+      "只记中文意思，忽略与否定形式或特定谓语的呼应。"
+    ],
+    "memoryTips": "把「しきりに」放进一组肯定或否定的固定语境中记忆。",
+    "reviewTips": [
+      "判断该副词能否用于肯定句和否定句。",
+      "替换近义副词，比较程度与语气差异。"
+    ],
+    "examples": [
+      "しきりに時計を見る。",
+      "彼は窓の外をしきりに気にしていた。"
+    ],
+    "relatedPointIds": [],
+    "confusablePointIds": [],
+    "linkedQuestionIds": [
+      "Q-N2-ADV-0002",
+      "Q-N2-ADV-0007"
+    ],
+    "verificationStatus": "unverified",
+    "sourceType": "ai_structured",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  },
+  {
+    "knowledgePointId": "KP-ADV-ROKUNI-001",
+    "title": "ろくに～ない",
+    "category": "adverb",
+    "level": "N2",
+    "meaning": "充分地（常接否定）",
+    "usage": "通常用于「ろくに～ない」，表示没有充分做到。",
+    "grammarPattern": "副词＋谓语；同时确认是否要求否定呼应或特定语气。",
+    "notes": "副词的自然度依赖语境、程度和肯定／否定形式。",
+    "commonMistakes": [
+      "只记中文意思，忽略与否定形式或特定谓语的呼应。"
+    ],
+    "memoryTips": "把「ろくに～ない」放进一组肯定或否定的固定语境中记忆。",
+    "reviewTips": [
+      "判断该副词能否用于肯定句和否定句。",
+      "替换近义副词，比较程度与语气差异。"
+    ],
+    "examples": [
+      "ろくに寝ていない。",
+      "忙しくて昼食もろくに食べられなかった。"
+    ],
+    "relatedPointIds": [],
+    "confusablePointIds": [],
+    "linkedQuestionIds": [
+      "Q-N2-ADV-0003",
+      "Q-N2-ADV-0008"
+    ],
+    "verificationStatus": "unverified",
+    "sourceType": "ai_structured",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  },
+  {
+    "knowledgePointId": "KP-ADV-ISSO-001",
+    "title": "いっそう",
+    "category": "adverb",
+    "level": "N2",
+    "meaning": "更加；越发",
+    "usage": "表示程度比此前进一步提高。",
+    "grammarPattern": "副词＋谓语；同时确认是否要求否定呼应或特定语气。",
+    "notes": "副词的自然度依赖语境、程度和肯定／否定形式。",
+    "commonMistakes": [
+      "只记中文意思，忽略与否定形式或特定谓语的呼应。"
+    ],
+    "memoryTips": "把「いっそう」放进一组肯定或否定的固定语境中记忆。",
+    "reviewTips": [
+      "判断该副词能否用于肯定句和否定句。",
+      "替换近义副词，比较程度与语气差异。"
+    ],
+    "examples": [
+      "いっそう便利になる。",
+      "新しい制度で手続きがいっそう簡単になった。"
+    ],
+    "relatedPointIds": [],
+    "confusablePointIds": [],
+    "linkedQuestionIds": [
+      "Q-N2-ADV-0004",
+      "Q-N2-ADV-0009"
+    ],
+    "verificationStatus": "unverified",
+    "sourceType": "ai_structured",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  },
+  {
+    "knowledgePointId": "KP-ADV-TAMATAMA-001",
+    "title": "たまたま",
+    "category": "adverb",
+    "level": "N2",
+    "meaning": "偶然；碰巧",
+    "usage": "表示没有计划而偶然发生。",
+    "grammarPattern": "副词＋谓语；同时确认是否要求否定呼应或特定语气。",
+    "notes": "副词的自然度依赖语境、程度和肯定／否定形式。",
+    "commonMistakes": [
+      "只记中文意思，忽略与否定形式或特定谓语的呼应。"
+    ],
+    "memoryTips": "把「たまたま」放进一组肯定或否定的固定语境中记忆。",
+    "reviewTips": [
+      "判断该副词能否用于肯定句和否定句。",
+      "替换近义副词，比较程度与语气差异。"
+    ],
+    "examples": [
+      "たまたま友人に会う。",
+      "駅でたまたま大学時代の友人に会った。"
+    ],
+    "relatedPointIds": [],
+    "confusablePointIds": [],
+    "linkedQuestionIds": [
+      "Q-N2-ADV-0005",
+      "Q-N2-ADV-0010"
+    ],
+    "verificationStatus": "unverified",
+    "sourceType": "ai_structured",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  },
+  {
+    "knowledgePointId": "KP-SYN-OOYOSO-001",
+    "title": "おおよそ＝だいたい",
+    "category": "vocabulary",
+    "level": "N2",
+    "meaning": "大约；大体",
+    "usage": "用于概括数量或整体情况。",
+    "grammarPattern": "词汇表达：根据句中搭配、语体和语境选择最接近的表达。",
+    "notes": "近义不等于所有语境都可互换，需检查搭配和语体。",
+    "commonMistakes": [
+      "只比较中文释义，不检查日语搭配、语体和语境限制。"
+    ],
+    "memoryTips": "将「おおよそ＝だいたい」与典型搭配和反义／近义表达一起记忆。",
+    "reviewTips": [
+      "用自己的话解释目标词与近义词的差别。",
+      "在新语境中替换词语并检查句子是否自然。"
+    ],
+    "examples": [
+      "おおよそ百人。",
+      "作業はおおよそ予定どおりに進んでいる。"
+    ],
+    "relatedPointIds": [],
+    "confusablePointIds": [],
+    "linkedQuestionIds": [
+      "Q-N2-SYN-0001",
+      "Q-N2-SYN-0006",
+      "Q-N2-SYN-0020",
+      "Q-N2-SYN-0021",
+      "Q-N2-SYN-0022"
+    ],
+    "verificationStatus": "unverified",
+    "sourceType": "ai_structured",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  },
+  {
+    "knowledgePointId": "KP-SYN-TADACHINI-001",
+    "title": "直ちに＝すぐに",
+    "category": "vocabulary",
+    "level": "N2",
+    "meaning": "立即；马上",
+    "usage": "较正式地表示不耽搁、立刻行动。",
+    "grammarPattern": "词汇表达：根据句中搭配、语体和语境选择最接近的表达。",
+    "notes": "近义不等于所有语境都可互换，需检查搭配和语体。",
+    "commonMistakes": [
+      "只比较中文释义，不检查日语搭配、语体和语境限制。"
+    ],
+    "memoryTips": "将「直ちに＝すぐに」与典型搭配和反义／近义表达一起记忆。",
+    "reviewTips": [
+      "用自己的话解释目标词与近义词的差别。",
+      "在新语境中替换词语并检查句子是否自然。"
+    ],
+    "examples": [
+      "直ちに連絡する。",
+      "異常があれば直ちに責任者へ報告する。"
+    ],
+    "relatedPointIds": [],
+    "confusablePointIds": [],
+    "linkedQuestionIds": [
+      "Q-N2-SYN-0002",
+      "Q-N2-SYN-0007",
+      "Q-N2-SYN-0023",
+      "Q-N2-SYN-0024",
+      "Q-N2-SYN-0025"
+    ],
+    "verificationStatus": "unverified",
+    "sourceType": "ai_structured",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  },
+  {
+    "knowledgePointId": "KP-SYN-METTANI-001",
+    "title": "めったに～ない＝ほとんど～ない",
+    "category": "vocabulary",
+    "level": "N2",
+    "meaning": "很少（接否定）",
+    "usage": "用于「めったに～ない」，表示发生频率极低。",
+    "grammarPattern": "词汇表达：根据句中搭配、语体和语境选择最接近的表达。",
+    "notes": "近义不等于所有语境都可互换，需检查搭配和语体。",
+    "commonMistakes": [
+      "只比较中文释义，不检查日语搭配、语体和语境限制。"
+    ],
+    "memoryTips": "将「めったに～ない＝ほとんど～ない」与典型搭配和反义／近义表达一起记忆。",
+    "reviewTips": [
+      "用自己的话解释目标词与近义词的差别。",
+      "在新语境中替换词语并检查句子是否自然。"
+    ],
+    "examples": [
+      "めったに雪が降らない。",
+      "この地域では雪はめったに降らない。"
+    ],
+    "relatedPointIds": [],
+    "confusablePointIds": [],
+    "linkedQuestionIds": [
+      "Q-N2-SYN-0003",
+      "Q-N2-SYN-0008",
+      "Q-N2-SYN-0017",
+      "Q-N2-SYN-0018",
+      "Q-N2-SYN-0019"
+    ],
+    "verificationStatus": "unverified",
+    "sourceType": "ai_structured",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  },
+  {
+    "knowledgePointId": "KP-SYN-DATO-001",
+    "title": "妥当＝適切",
+    "category": "vocabulary",
+    "level": "N2",
+    "meaning": "妥当；合理",
+    "usage": "表示判断、方法或金额适当合理。",
+    "grammarPattern": "词汇表达：根据句中搭配、语体和语境选择最接近的表达。",
+    "notes": "近义不等于所有语境都可互换，需检查搭配和语体。",
+    "commonMistakes": [
+      "只比较中文释义，不检查日语搭配、语体和语境限制。"
+    ],
+    "memoryTips": "将「妥当＝適切」与典型搭配和反义／近义表达一起记忆。",
+    "reviewTips": [
+      "用自己的话解释目标词与近义词的差别。",
+      "在新语境中替换词语并检查句子是否自然。"
+    ],
+    "examples": [
+      "妥当な判断だ。",
+      "条件を考えると、その判断は妥当だ。"
+    ],
+    "relatedPointIds": [],
+    "confusablePointIds": [],
+    "linkedQuestionIds": [
+      "Q-N2-SYN-0004",
+      "Q-N2-SYN-0009",
+      "Q-N2-SYN-0011",
+      "Q-N2-SYN-0012",
+      "Q-N2-SYN-0013"
+    ],
+    "verificationStatus": "unverified",
+    "sourceType": "ai_structured",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  },
+  {
+    "knowledgePointId": "KP-SYN-HABUKU-001",
+    "title": "省く＝取り除く",
+    "category": "vocabulary",
+    "level": "N2",
+    "meaning": "省略；去除",
+    "usage": "表示删除不必要的部分或步骤。",
+    "grammarPattern": "词汇表达：根据句中搭配、语体和语境选择最接近的表达。",
+    "notes": "近义不等于所有语境都可互换，需检查搭配和语体。",
+    "commonMistakes": [
+      "只比较中文释义，不检查日语搭配、语体和语境限制。"
+    ],
+    "memoryTips": "将「省く＝取り除く」与典型搭配和反义／近义表达一起记忆。",
+    "reviewTips": [
+      "用自己的话解释目标词与近义词的差别。",
+      "在新语境中替换词语并检查句子是否自然。"
+    ],
+    "examples": [
+      "説明を省く。",
+      "時間がないので細かい説明を省いた。"
+    ],
+    "relatedPointIds": [],
+    "confusablePointIds": [],
+    "linkedQuestionIds": [
+      "Q-N2-SYN-0005",
+      "Q-N2-SYN-0010",
+      "Q-N2-SYN-0014",
+      "Q-N2-SYN-0015",
+      "Q-N2-SYN-0016"
+    ],
+    "verificationStatus": "unverified",
+    "sourceType": "ai_structured",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  },
+  {
+    "knowledgePointId": "KP-READ-NOTICE-001",
+    "title": "通知文の条件整理",
+    "category": "reading",
+    "level": "N2",
+    "meaning": "通知信息定位",
+    "usage": "从通知中准确定位日期、时间、对象和例外。",
+    "grammarPattern": "阅读技能：定位题干要求，再核对原文中的对象、条件、时间、否定与例外。",
+    "notes": "答案必须由原文信息支持，不凭常识补充未写出的条件。",
+    "commonMistakes": [
+      "只抓单个关键词，忽略否定、时间范围或例外条件。"
+    ],
+    "memoryTips": "看到「通知文の条件整理」题型时，先圈出题干要求，再回原文定位证据。",
+    "reviewTips": [
+      "答题后指出支持正确选项的原文句。",
+      "逐项说明三个干扰项与原文冲突的位置。"
+    ],
+    "examples": [
+      "休馆时间与例外条件を確認する。",
+      "休館日と利用できるサービスを通知文から整理する。"
+    ],
+    "relatedPointIds": [],
+    "confusablePointIds": [],
+    "linkedQuestionIds": [
+      "Q-N2-READ-0001",
+      "Q-N2-READ-0006",
+      "Q-N2-READ-0029",
+      "Q-N2-READ-0030",
+      "Q-N2-READ-0031",
+      "Q-N2-READ-0032",
+      "Q-N2-READ-0033",
+      "Q-N2-READ-0034"
+    ],
+    "verificationStatus": "unverified",
+    "sourceType": "ai_structured",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  },
+  {
+    "knowledgePointId": "KP-READ-MEMO-001",
+    "title": "依頼内容の特定",
+    "category": "reading",
+    "level": "N2",
+    "meaning": "便条任务理解",
+    "usage": "识别留言中的人物、变更信息和具体行动要求。",
+    "grammarPattern": "阅读技能：定位题干要求，再核对原文中的对象、条件、时间、否定与例外。",
+    "notes": "答案必须由原文信息支持，不凭常识补充未写出的条件。",
+    "commonMistakes": [
+      "只抓单个关键词，忽略否定、时间范围或例外条件。"
+    ],
+    "memoryTips": "看到「依頼内容の特定」题型时，先圈出题干要求，再回原文定位证据。",
+    "reviewTips": [
+      "答题后指出支持正确选项的原文句。",
+      "逐项说明三个干扰项与原文冲突的位置。"
+    ],
+    "examples": [
+      "誰が何をするか確認する。",
+      "メモを読み、誰が何をいつまでに行うかを特定する。"
+    ],
+    "relatedPointIds": [],
+    "confusablePointIds": [],
+    "linkedQuestionIds": [
+      "Q-N2-READ-0002",
+      "Q-N2-READ-0007",
+      "Q-N2-READ-0023",
+      "Q-N2-READ-0024",
+      "Q-N2-READ-0025",
+      "Q-N2-READ-0026",
+      "Q-N2-READ-0027",
+      "Q-N2-READ-0028"
+    ],
+    "verificationStatus": "unverified",
+    "sourceType": "ai_structured",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  },
+  {
+    "knowledgePointId": "KP-READ-MAINIDEA-001",
+    "title": "筆者の主張",
+    "category": "reading",
+    "level": "N2",
+    "meaning": "主旨理解",
+    "usage": "区分例子和作者最想表达的核心观点。",
+    "grammarPattern": "阅读技能：定位题干要求，再核对原文中的对象、条件、时间、否定与例外。",
+    "notes": "答案必须由原文信息支持，不凭常识补充未写出的条件。",
+    "commonMistakes": [
+      "只抓单个关键词，忽略否定、时间范围或例外条件。"
+    ],
+    "memoryTips": "看到「筆者の主張」题型时，先圈出题干要求，再回原文定位证据。",
+    "reviewTips": [
+      "答题后指出支持正确选项的原文句。",
+      "逐项说明三个干扰项与原文冲突的位置。"
+    ],
+    "examples": [
+      "筆者の主張を一文でまとめる。",
+      "対比の後に置かれた筆者の結論から主張を捉える。"
+    ],
+    "relatedPointIds": [],
+    "confusablePointIds": [],
+    "linkedQuestionIds": [
+      "Q-N2-READ-0003",
+      "Q-N2-READ-0008",
+      "Q-N2-READ-0017",
+      "Q-N2-READ-0018",
+      "Q-N2-READ-0019",
+      "Q-N2-READ-0020",
+      "Q-N2-READ-0021",
+      "Q-N2-READ-0022"
+    ],
+    "verificationStatus": "unverified",
+    "sourceType": "ai_structured",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  },
+  {
+    "knowledgePointId": "KP-READ-GUIDE-001",
+    "title": "案内文の対象条件",
+    "category": "reading",
+    "level": "N2",
+    "meaning": "指南条件理解",
+    "usage": "理解活动指南中的对象、期限、费用和附加条件。",
+    "grammarPattern": "阅读技能：定位题干要求，再核对原文中的对象、条件、时间、否定与例外。",
+    "notes": "答案必须由原文信息支持，不凭常识补充未写出的条件。",
+    "commonMistakes": [
+      "只抓单个关键词，忽略否定、时间范围或例外条件。"
+    ],
+    "memoryTips": "看到「案内文の対象条件」题型时，先圈出题干要求，再回原文定位证据。",
+    "reviewTips": [
+      "答题后指出支持正确选项的原文句。",
+      "逐项说明三个干扰项与原文冲突的位置。"
+    ],
+    "examples": [
+      "申込条件を整理する。",
+      "案内文の対象者、期限、持ち物、例外条件を照合する。"
+    ],
+    "relatedPointIds": [],
+    "confusablePointIds": [],
+    "linkedQuestionIds": [
+      "Q-N2-READ-0004",
+      "Q-N2-READ-0009",
+      "Q-N2-READ-0011",
+      "Q-N2-READ-0012",
+      "Q-N2-READ-0013",
+      "Q-N2-READ-0014",
+      "Q-N2-READ-0015",
+      "Q-N2-READ-0016"
+    ],
+    "verificationStatus": "unverified",
+    "sourceType": "ai_structured",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  },
+  {
+    "knowledgePointId": "KP-READ-REASON-001",
+    "title": "理由の特定",
+    "category": "reading",
+    "level": "N2",
+    "meaning": "原因理解",
+    "usage": "根据前后变化找出人物采取行动的原因。",
+    "grammarPattern": "阅读技能：定位题干要求，再核对原文中的对象、条件、时间、否定与例外。",
+    "notes": "答案必须由原文信息支持，不凭常识补充未写出的条件。",
+    "commonMistakes": [
+      "只抓单个关键词，忽略否定、时间范围或例外条件。"
+    ],
+    "memoryTips": "看到「理由の特定」题型时，先圈出题干要求，再回原文定位证据。",
+    "reviewTips": [
+      "答题后指出支持正确选项的原文句。",
+      "逐项说明三个干扰项与原文冲突的位置。"
+    ],
+    "examples": [
+      "行動を変えた理由を探す。",
+      "「ため」「ので」だけでなく、前後の因果関係から理由を確認する。"
+    ],
+    "relatedPointIds": [],
+    "confusablePointIds": [],
+    "linkedQuestionIds": [
+      "Q-N2-READ-0005",
+      "Q-N2-READ-0010",
+      "Q-N2-READ-0035",
+      "Q-N2-READ-0036",
+      "Q-N2-READ-0037",
+      "Q-N2-READ-0038",
+      "Q-N2-READ-0039",
+      "Q-N2-READ-0040"
+    ],
+    "verificationStatus": "unverified",
+    "sourceType": "ai_structured",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-MONONO-001",
+    "title": "～ものの",
+    "category": "grammar",
+    "level": "N2",
+    "meaning": "虽然……但是……",
+    "usage": "承认前项事实，同时说明后项结果与预期不一致，较常用于书面表达。",
+    "grammarPattern": "V普通形／イA普通形／ナAな・である／Nである＋ものの",
+    "notes": "语体：written。使用时需同时确认接续、前后句逻辑和语气。",
+    "commonMistakes": [
+      "只按中文含义选择，忽略与易混文法在语气和接续上的差别。"
+    ],
+    "memoryTips": "把「～ものの」与核心含义「虽然……但是……」及一个完整语境一起记忆。",
+    "reviewTips": [
+      "先遮住中文解释，口头说出接续和使用场景。",
+      "用易混表达改写例句，再比较语气是否发生变化。"
+    ],
+    "examples": [
+      "準備はしたものの、自信はまだない。",
+      "薬を飲んだものの、熱は下がらなかった。"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-NIMOKAKAWARAZU-001",
+      "KP-GRA-NAGARAMO-001",
+      "KP-GRA-TOWAIE-001",
+      "KP-GRA-KUSENI-001"
+    ],
+    "confusablePointIds": [
+      "KP-GRA-NIMOKAKAWARAZU-001"
+    ],
+    "linkedQuestionIds": [
+      "Q-N2-GRC-0001",
+      "Q-N2-GRC-0006",
+      "Q-N2-GRC-0007",
+      "Q-N2-GRC-0008"
+    ],
+    "verificationStatus": "verified",
+    "sourceType": "trusted_learning_site",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-TOWAIE-001",
+    "title": "～とはいえ",
+    "category": "grammar",
+    "level": "N2",
+    "meaning": "虽说……但……",
+    "usage": "先承认前项，再补充限制、例外或相反事实。",
+    "grammarPattern": "普通形＋とはいえ（ナA／N＋（だ）とはいえ）",
+    "notes": "语体：both。使用时需同时确认接续、前后句逻辑和语气。",
+    "commonMistakes": [
+      "只记中文翻译，忽略接续形式和前后句逻辑。"
+    ],
+    "memoryTips": "把「～とはいえ」与核心含义「虽说……但……」及一个完整语境一起记忆。",
+    "reviewTips": [
+      "先遮住中文解释，口头说出接续和使用场景。",
+      "用易混表达改写例句，再比较语气是否发生变化。"
+    ],
+    "examples": [
+      "春とはいえ、朝晩はまだ寒い。",
+      "簡単だとはいえ、油断はできない。"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-MONONO-001"
+    ],
+    "confusablePointIds": [],
+    "linkedQuestionIds": [],
+    "verificationStatus": "unverified",
+    "sourceType": "ai_structured",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-NAGARAMO-001",
+    "title": "～ながらも",
+    "category": "grammar",
+    "level": "N2",
+    "meaning": "虽然……却……",
+    "usage": "在保持前项状态的同时，出现与其不一致的结果。",
+    "grammarPattern": "Vます形去ます／イAい／ナA・N＋ながらも",
+    "notes": "语体：written。使用时需同时确认接续、前后句逻辑和语气。",
+    "commonMistakes": [
+      "只按中文含义选择，忽略与易混文法在语气和接续上的差别。"
+    ],
+    "memoryTips": "把「～ながらも」与核心含义「虽然……却……」及一个完整语境一起记忆。",
+    "reviewTips": [
+      "先遮住中文解释，口头说出接续和使用场景。",
+      "用易混表达改写例句，再比较语气是否发生变化。"
+    ],
+    "examples": [
+      "小さいながらも、設備の整ったホテルだ。",
+      "不便ながらも、この町での生活が好きだ。"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-MONONO-001",
+      "KP-GRA-TSUTSUMO-001"
+    ],
+    "confusablePointIds": [
+      "KP-GRA-TSUTSUMO-001"
+    ],
+    "linkedQuestionIds": [],
+    "verificationStatus": "unverified",
+    "sourceType": "ai_structured",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-NIMOKAKAWARAZU-001",
+    "title": "～にもかかわらず",
+    "category": "grammar",
+    "level": "N2",
+    "meaning": "尽管……仍然……",
+    "usage": "强调后项不受前项条件影响，常含意外或批评语气。",
+    "grammarPattern": "普通形＋にもかかわらず（ナA／N＋であるにもかかわらず）",
+    "notes": "语体：written。使用时需同时确认接续、前后句逻辑和语气。",
+    "commonMistakes": [
+      "只按中文含义选择，忽略与易混文法在语气和接续上的差别。"
+    ],
+    "memoryTips": "把「～にもかかわらず」与核心含义「尽管……仍然……」及一个完整语境一起记忆。",
+    "reviewTips": [
+      "先遮住中文解释，口头说出接续和使用场景。",
+      "用易混表达改写例句，再比较语气是否发生变化。"
+    ],
+    "examples": [
+      "大雨にもかかわらず、多くの人が集まった。",
+      "何度も注意したにもかかわらず、同じミスが起きた。"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-MONONO-001",
+      "KP-GRA-NIHANSHITE-001"
+    ],
+    "confusablePointIds": [
+      "KP-GRA-MONONO-001"
+    ],
+    "linkedQuestionIds": [
+      "Q-N2-FAC-GRA-0017",
+      "Q-N2-FAC-GRA-0018",
+      "Q-N2-FAC-GRA-0019",
+      "Q-N2-FAC-GRA-0020"
+    ],
+    "verificationStatus": "verified",
+    "sourceType": "trusted_learning_site",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-KUSENI-001",
+    "title": "～くせに",
+    "category": "grammar",
+    "level": "N2",
+    "meaning": "明明……却……",
+    "usage": "表达责备、不满或轻蔑，不宜对上级使用。",
+    "grammarPattern": "普通形＋くせに（ナAな／Nの＋くせに）",
+    "notes": "语体：spoken。使用时需同时确认接续、前后句逻辑和语气。",
+    "commonMistakes": [
+      "只记中文翻译，忽略接续形式和前后句逻辑。"
+    ],
+    "memoryTips": "把「～くせに」与核心含义「明明……却……」及一个完整语境一起记忆。",
+    "reviewTips": [
+      "先遮住中文解释，口头说出接续和使用场景。",
+      "用易混表达改写例句，再比较语气是否发生变化。"
+    ],
+    "examples": [
+      "知っているくせに、教えてくれなかった。",
+      "子どものくせに、ずいぶん難しい言葉を使う。"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-MONONO-001"
+    ],
+    "confusablePointIds": [],
+    "linkedQuestionIds": [],
+    "verificationStatus": "unverified",
+    "sourceType": "ai_structured",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-TSUTSUMO-001",
+    "title": "～つつ（も）",
+    "category": "grammar",
+    "level": "N2",
+    "meaning": "一边……却……；虽知……仍……",
+    "usage": "表示动作持续或明知某事，却出现矛盾行为。",
+    "grammarPattern": "Vます形去ます＋つつ（も）",
+    "notes": "语体：written。使用时需同时确认接续、前后句逻辑和语气。",
+    "commonMistakes": [
+      "只按中文含义选择，忽略与易混文法在语气和接续上的差别。"
+    ],
+    "memoryTips": "把「～つつ（も）」与核心含义「一边……却……；虽知……仍……」及一个完整语境一起记忆。",
+    "reviewTips": [
+      "先遮住中文解释，口头说出接续和使用场景。",
+      "用易混表达改写例句，再比较语气是否发生变化。"
+    ],
+    "examples": [
+      "体に悪いと知りつつも、夜更かししてしまう。",
+      "反省しつつ、同じ失敗を繰り返している。"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-NAGARAMO-001"
+    ],
+    "confusablePointIds": [
+      "KP-GRA-NAGARAMO-001"
+    ],
+    "linkedQuestionIds": [],
+    "verificationStatus": "verified",
+    "sourceType": "trusted_learning_site",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-HANMEN-001",
+    "title": "～反面",
+    "category": "grammar",
+    "level": "N2",
+    "meaning": "另一方面；反面",
+    "usage": "说明同一事物同时具有正反两面。",
+    "grammarPattern": "普通形＋反面（ナAな／である・Nである＋反面）",
+    "notes": "语体：both。使用时需同时确认接续、前后句逻辑和语气。",
+    "commonMistakes": [
+      "只按中文含义选择，忽略与易混文法在语气和接续上的差别。"
+    ],
+    "memoryTips": "把「～反面」与核心含义「另一方面；反面」及一个完整语境一起记忆。",
+    "reviewTips": [
+      "先遮住中文解释，口头说出接续和使用场景。",
+      "用易混表达改写例句，再比较语气是否发生变化。"
+    ],
+    "examples": [
+      "都会は便利な反面、生活費が高い。",
+      "この仕事は自由な反面、責任も重い。"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-IPPOUDE-001"
+    ],
+    "confusablePointIds": [
+      "KP-GRA-IPPOUDE-001"
+    ],
+    "linkedQuestionIds": [
+      "Q-N2-FAC-S12-0025",
+      "Q-N2-FAC-S12-0026",
+      "Q-N2-FAC-S12-0027",
+      "Q-N2-FAC-S12-0028"
+    ],
+    "verificationStatus": "verified",
+    "sourceType": "trusted_learning_site",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-IPPOUDE-001",
+    "title": "～一方で",
+    "category": "grammar",
+    "level": "N2",
+    "meaning": "另一方面；同时",
+    "usage": "并列同一主题的两个侧面，或对照两种趋势。",
+    "grammarPattern": "普通形＋一方で（ナA／N＋である一方で）",
+    "notes": "语体：both。使用时需同时确认接续、前后句逻辑和语气。",
+    "commonMistakes": [
+      "只按中文含义选择，忽略与易混文法在语气和接续上的差别。"
+    ],
+    "memoryTips": "把「～一方で」与核心含义「另一方面；同时」及一个完整语境一起记忆。",
+    "reviewTips": [
+      "先遮住中文解释，口头说出接续和使用场景。",
+      "用易混表达改写例句，再比较语气是否发生变化。"
+    ],
+    "examples": [
+      "オンライン授業は便利な一方で、集中しにくい面もある。",
+      "人口が減る地域がある一方で、都市部では増えている。"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-HANMEN-001"
+    ],
+    "confusablePointIds": [
+      "KP-GRA-HANMEN-001"
+    ],
+    "linkedQuestionIds": [
+      "Q-N2-FAC-S12-0037",
+      "Q-N2-FAC-S12-0038",
+      "Q-N2-FAC-S12-0039",
+      "Q-N2-FAC-S12-0040"
+    ],
+    "verificationStatus": "unverified",
+    "sourceType": "ai_structured",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-NIHANSHITE-001",
+    "title": "～に反して",
+    "category": "grammar",
+    "level": "N2",
+    "meaning": "与……相反",
+    "usage": "表示结果、行动与预想、规则、意愿等相反。",
+    "grammarPattern": "N＋に反して／に反する＋N",
+    "notes": "语体：written。使用时需同时确认接续、前后句逻辑和语气。",
+    "commonMistakes": [
+      "只记中文翻译，忽略接续形式和前后句逻辑。"
+    ],
+    "memoryTips": "把「～に反して」与核心含义「与……相反」及一个完整语境一起记忆。",
+    "reviewTips": [
+      "先遮住中文解释，口头说出接续和使用场景。",
+      "用易混表达改写例句，再比较语气是否发生变化。"
+    ],
+    "examples": [
+      "予想に反して、試験はそれほど難しくなかった。",
+      "本人の意志に反して、計画が変更された。"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-NIMOKAKAWARAZU-001"
+    ],
+    "confusablePointIds": [],
+    "linkedQuestionIds": [],
+    "verificationStatus": "unverified",
+    "sourceType": "ai_structured",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-DOKOROKA-001",
+    "title": "～どころか",
+    "category": "grammar",
+    "level": "N2",
+    "meaning": "别说……；非但不……反而……",
+    "usage": "否定前项预想，并说明实际情况更甚或完全相反。",
+    "grammarPattern": "普通形／N＋どころか",
+    "notes": "语体：both。使用时需同时确认接续、前后句逻辑和语气。",
+    "commonMistakes": [
+      "只按中文含义选择，忽略与易混文法在语气和接续上的差别。"
+    ],
+    "memoryTips": "把「～どころか」与核心含义「别说……；非但不……反而……」及一个完整语境一起记忆。",
+    "reviewTips": [
+      "先遮住中文解释，口头说出接续和使用场景。",
+      "用易混表达改写例句，再比较语气是否发生变化。"
+    ],
+    "examples": [
+      "静かどころか、外の工事でとても騒がしい。",
+      "彼は日本語どころか、中国語も話せる。"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-BAKARIKA-001",
+      "KP-GRA-DOKORODEWANAI-001"
+    ],
+    "confusablePointIds": [
+      "KP-GRA-BAKARIKA-001",
+      "KP-GRA-DOKORODEWANAI-001"
+    ],
+    "linkedQuestionIds": [
+      "Q-N2-GRM-0003",
+      "Q-N2-GRM-0008"
+    ],
+    "verificationStatus": "unverified",
+    "sourceType": "ai_structured",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-KOTOKARA-001",
+    "title": "～ことから",
+    "category": "grammar",
+    "level": "N2",
+    "meaning": "由于……；从……来看",
+    "usage": "说明命名、判断或结果的依据。",
+    "grammarPattern": "普通形＋ことから（ナA／N＋であることから）",
+    "notes": "语体：written。使用时需同时确认接续、前后句逻辑和语气。",
+    "commonMistakes": [
+      "只按中文含义选择，忽略与易混文法在语气和接续上的差别。"
+    ],
+    "memoryTips": "把「～ことから」与核心含义「由于……；从……来看」及一个完整语境一起记忆。",
+    "reviewTips": [
+      "先遮住中文解释，口头说出接续和使用场景。",
+      "用易混表达改写例句，再比较语气是否发生变化。"
+    ],
+    "examples": [
+      "形が星に似ていることから、この名前が付いた。",
+      "足跡が残っていたことから、動物が来たと分かった。"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-MONODAKARA-001"
+    ],
+    "confusablePointIds": [
+      "KP-GRA-MONODAKARA-001"
+    ],
+    "linkedQuestionIds": [
+      "Q-N2-GRC-0005",
+      "Q-N2-GRC-0018",
+      "Q-N2-GRC-0019",
+      "Q-N2-GRC-0020"
+    ],
+    "verificationStatus": "unverified",
+    "sourceType": "ai_structured",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-MONODAKARA-001",
+    "title": "～ものだから",
+    "category": "grammar",
+    "level": "N2",
+    "meaning": "因为……（解释、辩解）",
+    "usage": "带主观解释语气说明原因，常用于辩解。",
+    "grammarPattern": "普通形＋ものだから（ナAな／Nな＋ものだから）",
+    "notes": "语体：spoken。使用时需同时确认接续、前后句逻辑和语气。",
+    "commonMistakes": [
+      "只按中文含义选择，忽略与易混文法在语气和接续上的差别。"
+    ],
+    "memoryTips": "把「～ものだから」与核心含义「因为……（解释、辩解）」及一个完整语境一起记忆。",
+    "reviewTips": [
+      "先遮住中文解释，口头说出接续和使用场景。",
+      "用易混表达改写例句，再比较语气是否发生变化。"
+    ],
+    "examples": [
+      "道が混んでいたものだから、遅れてしまいました。",
+      "初めてなものだから、やり方が分かりません。"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-KOTOKARA-001",
+      "KP-GRA-BAKARINI-001"
+    ],
+    "confusablePointIds": [
+      "KP-GRA-KOTOKARA-001",
+      "KP-GRA-BAKARINI-001"
+    ],
+    "linkedQuestionIds": [],
+    "verificationStatus": "verified",
+    "sourceType": "trusted_learning_site",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-BAKARINI-001",
+    "title": "～ばかりに",
+    "category": "grammar",
+    "level": "N2",
+    "meaning": "只因……而……",
+    "usage": "表示仅因某原因而产生不理想结果，常含后悔。",
+    "grammarPattern": "普通形＋ばかりに（ナAな／Nである＋ばかりに）",
+    "notes": "语体：written。使用时需同时确认接续、前后句逻辑和语气。",
+    "commonMistakes": [
+      "只按中文含义选择，忽略与易混文法在语气和接续上的差别。"
+    ],
+    "memoryTips": "把「～ばかりに」与核心含义「只因……而……」及一个完整语境一起记忆。",
+    "reviewTips": [
+      "先遮住中文解释，口头说出接续和使用场景。",
+      "用易混表达改写例句，再比较语气是否发生变化。"
+    ],
+    "examples": [
+      "一言多く言ったばかりに、相手を怒らせた。",
+      "経験がないばかりに、採用されなかった。"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-MONODAKARA-001",
+      "KP-GRA-AMARI-001",
+      "KP-GRA-AGEKU-001"
+    ],
+    "confusablePointIds": [
+      "KP-GRA-MONODAKARA-001"
+    ],
+    "linkedQuestionIds": [
+      "Q-N2-FAC-GRA-0037",
+      "Q-N2-FAC-GRA-0038",
+      "Q-N2-FAC-GRA-0039",
+      "Q-N2-FAC-GRA-0040"
+    ],
+    "verificationStatus": "verified",
+    "sourceType": "trusted_learning_site",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-OKAGEDE-001",
+    "title": "～おかげで",
+    "category": "grammar",
+    "level": "N2",
+    "meaning": "多亏……；由于……",
+    "usage": "通常表示积极结果，也可反讽。",
+    "grammarPattern": "普通形＋おかげで（ナAな／Nの＋おかげで）",
+    "notes": "语体：both。使用时需同时确认接续、前后句逻辑和语气。",
+    "commonMistakes": [
+      "只记中文翻译，忽略接续形式和前后句逻辑。"
+    ],
+    "memoryTips": "把「～おかげで」与核心含义「多亏……；由于……」及一个完整语境一起记忆。",
+    "reviewTips": [
+      "先遮住中文解释，口头说出接续和使用场景。",
+      "用易混表达改写例句，再比较语气是否发生变化。"
+    ],
+    "examples": [
+      "先生のおかげで、試験に合格できた。",
+      "電車が遅れたおかげで、会議に間に合わなかった。"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-SEIDE-001"
+    ],
+    "confusablePointIds": [],
+    "linkedQuestionIds": [],
+    "verificationStatus": "unverified",
+    "sourceType": "ai_structured",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-SEIDE-001",
+    "title": "～せいで",
+    "category": "grammar",
+    "level": "N2",
+    "meaning": "都怪……；由于……",
+    "usage": "把不良结果归因于前项。",
+    "grammarPattern": "普通形＋せいで（ナAな／Nの＋せいで）",
+    "notes": "语体：both。使用时需同时确认接续、前后句逻辑和语气。",
+    "commonMistakes": [
+      "只记中文翻译，忽略接续形式和前后句逻辑。"
+    ],
+    "memoryTips": "把「～せいで」与核心含义「都怪……；由于……」及一个完整语境一起记忆。",
+    "reviewTips": [
+      "先遮住中文解释，口头说出接续和使用场景。",
+      "用易混表达改写例句，再比较语气是否发生变化。"
+    ],
+    "examples": [
+      "寝不足のせいで、今日は集中できない。",
+      "雨が続いたせいで、試合が延期された。"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-OKAGEDE-001"
+    ],
+    "confusablePointIds": [],
+    "linkedQuestionIds": [],
+    "verificationStatus": "unverified",
+    "sourceType": "ai_structured",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-AMARI-001",
+    "title": "～あまり",
+    "category": "grammar",
+    "level": "N2",
+    "meaning": "由于过度……而……",
+    "usage": "表示情感或状态程度过高，导致非正常结果。",
+    "grammarPattern": "V普通形／ナAな／Nの＋あまり",
+    "notes": "语体：written。使用时需同时确认接续、前后句逻辑和语气。",
+    "commonMistakes": [
+      "只记中文翻译，忽略接续形式和前后句逻辑。"
+    ],
+    "memoryTips": "把「～あまり」与核心含义「由于过度……而……」及一个完整语境一起记忆。",
+    "reviewTips": [
+      "先遮住中文解释，口头说出接续和使用场景。",
+      "用易混表达改写例句，再比较语气是否发生变化。"
+    ],
+    "examples": [
+      "緊張のあまり、名前を言い間違えた。",
+      "うれしさのあまり、涙が出た。"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-BAKARINI-001"
+    ],
+    "confusablePointIds": [],
+    "linkedQuestionIds": [
+      "Q-N2-FAC-S12-0001",
+      "Q-N2-FAC-S12-0002",
+      "Q-N2-FAC-S12-0003",
+      "Q-N2-FAC-S12-0004"
+    ],
+    "verificationStatus": "unverified",
+    "sourceType": "ai_structured",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-AGEKU-001",
+    "title": "～あげく",
+    "category": "grammar",
+    "level": "N2",
+    "meaning": "经过……最终……",
+    "usage": "表示经历较长过程后得到通常不理想的结果。",
+    "grammarPattern": "Vた形／Nの＋あげく",
+    "notes": "语体：written。使用时需同时确认接续、前后句逻辑和语气。",
+    "commonMistakes": [
+      "只记中文翻译，忽略接续形式和前后句逻辑。"
+    ],
+    "memoryTips": "把「～あげく」与核心含义「经过……最终……」及一个完整语境一起记忆。",
+    "reviewTips": [
+      "先遮住中文解释，口头说出接续和使用场景。",
+      "用易混表达改写例句，再比较语气是否发生变化。"
+    ],
+    "examples": [
+      "長く話し合ったあげく、結論は出なかった。",
+      "迷ったあげく、申し込みをやめた。"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-BAKARINI-001"
+    ],
+    "confusablePointIds": [],
+    "linkedQuestionIds": [
+      "Q-N2-FAC-GRA-0001",
+      "Q-N2-FAC-GRA-0002",
+      "Q-N2-FAC-GRA-0003",
+      "Q-N2-FAC-GRA-0004"
+    ],
+    "verificationStatus": "verified",
+    "sourceType": "trusted_learning_site",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-IJOUWA-001",
+    "title": "～以上（は）",
+    "category": "grammar",
+    "level": "N2",
+    "meaning": "既然……就……",
+    "usage": "以前项既定事实为理由，引出责任、决心或理所当然的结论。",
+    "grammarPattern": "V普通形／ナAである／Nである＋以上（は）",
+    "notes": "语体：written。使用时需同时确认接续、前后句逻辑和语气。",
+    "commonMistakes": [
+      "只记中文翻译，忽略接续形式和前后句逻辑。"
+    ],
+    "memoryTips": "把「～以上（は）」与核心含义「既然……就……」及一个完整语境一起记忆。",
+    "reviewTips": [
+      "先遮住中文解释，口头说出接续和使用场景。",
+      "用易混表达改写例句，再比较语气是否发生变化。"
+    ],
+    "examples": [
+      "約束した以上、最後まで責任を持つべきだ。",
+      "参加する以上は、規則を守ってください。"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-BEKIDA-001"
+    ],
+    "confusablePointIds": [],
+    "linkedQuestionIds": [
+      "Q-N2-FAC-GRA-0005",
+      "Q-N2-FAC-GRA-0006",
+      "Q-N2-FAC-GRA-0007",
+      "Q-N2-FAC-GRA-0008"
+    ],
+    "verificationStatus": "verified",
+    "sourceType": "trusted_learning_site",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-NICHIGAINAI-001",
+    "title": "～に違いない",
+    "category": "grammar",
+    "level": "N2",
+    "meaning": "一定……；肯定……",
+    "usage": "根据证据作出确信度很高的判断。",
+    "grammarPattern": "普通形＋に違いない（ナA／N＋に違いない）",
+    "notes": "语体：both。使用时需同时确认接续、前后句逻辑和语气。",
+    "commonMistakes": [
+      "只记中文翻译，忽略接续形式和前后句逻辑。"
+    ],
+    "memoryTips": "把「～に違いない」与核心含义「一定……；肯定……」及一个完整语境一起记忆。",
+    "reviewTips": [
+      "先遮住中文解释，口头说出接续和使用场景。",
+      "用易混表达改写例句，再比较语气是否发生变化。"
+    ],
+    "examples": [
+      "電気がついているから、まだ誰かいるに違いない。",
+      "あの笑顔なら、結果は良かったに違いない。"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-RASHII-001",
+      "KP-GRA-NIKIMATTEIRU-001"
+    ],
+    "confusablePointIds": [],
+    "linkedQuestionIds": [
+      "Q-N2-GRC-0002",
+      "Q-N2-GRC-0009",
+      "Q-N2-GRC-0010",
+      "Q-N2-GRC-0011"
+    ],
+    "verificationStatus": "unverified",
+    "sourceType": "ai_structured",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-HAZUDA-001",
+    "title": "～はずだ",
+    "category": "grammar",
+    "level": "N2",
+    "meaning": "按理应该……",
+    "usage": "根据事实、计划或逻辑作出合理预期。",
+    "grammarPattern": "普通形＋はずだ（ナAな／Nの＋はずだ）",
+    "notes": "语体：both。使用时需同时确认接续、前后句逻辑和语气。",
+    "commonMistakes": [
+      "只记中文翻译，忽略接续形式和前后句逻辑。"
+    ],
+    "memoryTips": "把「～はずだ」与核心含义「按理应该……」及一个完整语境一起记忆。",
+    "reviewTips": [
+      "先遮住中文解释，口头说出接续和使用场景。",
+      "用易混表达改写例句，再比较语气是否发生变化。"
+    ],
+    "examples": [
+      "地図では駅はこの近くにあるはずだ。",
+      "彼は今日帰国するはずです。"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-WAKEGANAI-001"
+    ],
+    "confusablePointIds": [],
+    "linkedQuestionIds": [
+      "Q-N2-FAC-S12-0029",
+      "Q-N2-FAC-S12-0030",
+      "Q-N2-FAC-S12-0031",
+      "Q-N2-FAC-S12-0032"
+    ],
+    "verificationStatus": "unverified",
+    "sourceType": "ai_structured",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-WAKEGANAI-001",
+    "title": "～わけがない",
+    "category": "grammar",
+    "level": "N2",
+    "meaning": "不可能……",
+    "usage": "基于常识或事实强烈否定可能性。",
+    "grammarPattern": "普通形＋わけがない（ナAな／Nの＋わけがない）",
+    "notes": "语体：both。使用时需同时确认接续、前后句逻辑和语气。",
+    "commonMistakes": [
+      "只记中文翻译，忽略接续形式和前后句逻辑。"
+    ],
+    "memoryTips": "把「～わけがない」与核心含义「不可能……」及一个完整语境一起记忆。",
+    "reviewTips": [
+      "先遮住中文解释，口头说出接续和使用场景。",
+      "用易混表达改写例句，再比较语气是否发生变化。"
+    ],
+    "examples": [
+      "こんな重い荷物を一人で運べるわけがない。",
+      "彼がその約束を忘れるわけがない。"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-HAZUDA-001",
+      "KP-GRA-MAI-001"
+    ],
+    "confusablePointIds": [],
+    "linkedQuestionIds": [],
+    "verificationStatus": "unverified",
+    "sourceType": "ai_structured",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-YOUDA-001",
+    "title": "～ようだ",
+    "category": "grammar",
+    "level": "N2",
+    "meaning": "似乎……；好像……",
+    "usage": "根据观察作较客观的推测，也可表示比喻。",
+    "grammarPattern": "普通形＋ようだ（ナAな／Nの＋ようだ）",
+    "notes": "语体：both。使用时需同时确认接续、前后句逻辑和语气。",
+    "commonMistakes": [
+      "只按中文含义选择，忽略与易混文法在语气和接续上的差别。"
+    ],
+    "memoryTips": "把「～ようだ」与核心含义「似乎……；好像……」及一个完整语境一起记忆。",
+    "reviewTips": [
+      "先遮住中文解释，口头说出接续和使用场景。",
+      "用易混表达改写例句，再比较语气是否发生变化。"
+    ],
+    "examples": [
+      "外は雨が降っているようだ。",
+      "彼は少し疲れているようです。"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-RASHII-001"
+    ],
+    "confusablePointIds": [
+      "KP-GRA-RASHII-001"
+    ],
+    "linkedQuestionIds": [],
+    "verificationStatus": "unverified",
+    "sourceType": "ai_structured",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-RASHII-001",
+    "title": "～らしい",
+    "category": "grammar",
+    "level": "N2",
+    "meaning": "听说……；似乎……",
+    "usage": "根据传闻或典型迹象作判断。",
+    "grammarPattern": "普通形＋らしい（ナA／N＋らしい）",
+    "notes": "语体：both。使用时需同时确认接续、前后句逻辑和语气。",
+    "commonMistakes": [
+      "只按中文含义选择，忽略与易混文法在语气和接续上的差别。"
+    ],
+    "memoryTips": "把「～らしい」与核心含义「听说……；似乎……」及一个完整语境一起记忆。",
+    "reviewTips": [
+      "先遮住中文解释，口头说出接续和使用场景。",
+      "用易混表达改写例句，再比较语气是否发生变化。"
+    ],
+    "examples": [
+      "天気予報によると、明日は雪らしい。",
+      "彼は最近とても忙しいらしい。"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-NICHIGAINAI-001",
+      "KP-GRA-YOUDA-001"
+    ],
+    "confusablePointIds": [
+      "KP-GRA-YOUDA-001"
+    ],
+    "linkedQuestionIds": [],
+    "verificationStatus": "unverified",
+    "sourceType": "ai_structured",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-OSOREGAARU-001",
+    "title": "～おそれがある",
+    "category": "grammar",
+    "level": "N2",
+    "meaning": "恐怕会……；有……风险",
+    "usage": "正式说明可能发生不良事态或风险。",
+    "grammarPattern": "V辞书形／Nの＋おそれがある",
+    "notes": "语体：written。使用时需同时确认接续、前后句逻辑和语气。",
+    "commonMistakes": [
+      "只按中文含义选择，忽略与易混文法在语气和接续上的差别。"
+    ],
+    "memoryTips": "把「～おそれがある」与核心含义「恐怕会……；有……风险」及一个完整语境一起记忆。",
+    "reviewTips": [
+      "先遮住中文解释，口头说出接续和使用场景。",
+      "用易混表达改写例句，再比较语气是否发生变化。"
+    ],
+    "examples": [
+      "大雨で川があふれるおそれがある。",
+      "この薬には副作用のおそれがあります。"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-KANENAI-001"
+    ],
+    "confusablePointIds": [
+      "KP-GRA-KANENAI-001"
+    ],
+    "linkedQuestionIds": [
+      "Q-N2-FAC-GRA-0025",
+      "Q-N2-FAC-GRA-0026",
+      "Q-N2-FAC-GRA-0027",
+      "Q-N2-FAC-GRA-0028"
+    ],
+    "verificationStatus": "verified",
+    "sourceType": "trusted_learning_site",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-KANENAI-001",
+    "title": "～かねない",
+    "category": "grammar",
+    "level": "N2",
+    "meaning": "有可能发生……（坏事）",
+    "usage": "指出某行为可能导致说话人不希望的结果。",
+    "grammarPattern": "Vます形去ます＋かねない",
+    "notes": "语体：written。使用时需同时确认接续、前后句逻辑和语气。",
+    "commonMistakes": [
+      "只按中文含义选择，忽略与易混文法在语气和接续上的差别。"
+    ],
+    "memoryTips": "把「～かねない」与核心含义「有可能发生……（坏事）」及一个完整语境一起记忆。",
+    "reviewTips": [
+      "先遮住中文解释，口头说出接续和使用场景。",
+      "用易混表达改写例句，再比较语气是否发生变化。"
+    ],
+    "examples": [
+      "無理を続けると、体を壊しかねない。",
+      "その発言は誤解を招きかねない。"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-OSOREGAARU-001"
+    ],
+    "confusablePointIds": [
+      "KP-GRA-OSOREGAARU-001"
+    ],
+    "linkedQuestionIds": [
+      "Q-N2-GRC-0003",
+      "Q-N2-GRC-0012",
+      "Q-N2-GRC-0013",
+      "Q-N2-GRC-0014"
+    ],
+    "verificationStatus": "verified",
+    "sourceType": "trusted_learning_site",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-MAI-001",
+    "title": "～まい",
+    "category": "grammar",
+    "level": "N2",
+    "meaning": "不会……吧；绝不……",
+    "usage": "表示否定推量，或说话人的否定意志。",
+    "grammarPattern": "V辞书形＋まい（するまい／すまい）",
+    "notes": "语体：written。使用时需同时确认接续、前后句逻辑和语气。",
+    "commonMistakes": [
+      "只记中文翻译，忽略接续形式和前后句逻辑。"
+    ],
+    "memoryTips": "把「～まい」与核心含义「不会……吧；绝不……」及一个完整语境一起记忆。",
+    "reviewTips": [
+      "先遮住中文解释，口头说出接续和使用场景。",
+      "用易混表达改写例句，再比较语气是否发生变化。"
+    ],
+    "examples": [
+      "彼はもう戻るまい。",
+      "二度と同じ失敗はするまいと決めた。"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-WAKEGANAI-001"
+    ],
+    "confusablePointIds": [],
+    "linkedQuestionIds": [],
+    "verificationStatus": "verified",
+    "sourceType": "trusted_learning_site",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-NIKIMATTEIRU-001",
+    "title": "～に決まっている",
+    "category": "grammar",
+    "level": "N2",
+    "meaning": "肯定……；当然……",
+    "usage": "表达说话人主观上十分确信，语气较强。",
+    "grammarPattern": "普通形＋に決まっている（ナA／N＋に決まっている）",
+    "notes": "语体：spoken。使用时需同时确认接续、前后句逻辑和语气。",
+    "commonMistakes": [
+      "只记中文翻译，忽略接续形式和前后句逻辑。"
+    ],
+    "memoryTips": "把「～に決まっている」与核心含义「肯定……；当然……」及一个完整语境一起记忆。",
+    "reviewTips": [
+      "先遮住中文解释，口头说出接续和使用场景。",
+      "用易混表达改写例句，再比较语气是否发生变化。"
+    ],
+    "examples": [
+      "そんな話は冗談に決まっている。",
+      "毎日練習すれば上手になるに決まっている。"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-NICHIGAINAI-001"
+    ],
+    "confusablePointIds": [],
+    "linkedQuestionIds": [],
+    "verificationStatus": "verified",
+    "sourceType": "trusted_learning_site",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-NIHOKANARANAI-001",
+    "title": "～にほかならない",
+    "category": "grammar",
+    "level": "N2",
+    "meaning": "正是……；无非是……",
+    "usage": "正式强调原因、性质或结论正是某事。",
+    "grammarPattern": "N＋にほかならない",
+    "notes": "语体：written。使用时需同时确认接续、前后句逻辑和语气。",
+    "commonMistakes": [
+      "只记中文翻译，忽略接续形式和前后句逻辑。"
+    ],
+    "memoryTips": "把「～にほかならない」与核心含义「正是……；无非是……」及一个完整语境一起记忆。",
+    "reviewTips": [
+      "先遮住中文解释，口头说出接续和使用场景。",
+      "用易混表达改写例句，再比较语气是否发生变化。"
+    ],
+    "examples": [
+      "成功は皆の協力の結果にほかならない。",
+      "この変化は努力の証にほかならない。"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-NISUGINAI-001"
+    ],
+    "confusablePointIds": [],
+    "linkedQuestionIds": [
+      "Q-N2-GRM-0004",
+      "Q-N2-GRM-0009"
+    ],
+    "verificationStatus": "verified",
+    "sourceType": "trusted_learning_site",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-NISUGINAI-001",
+    "title": "～にすぎない",
+    "category": "grammar",
+    "level": "N2",
+    "meaning": "只不过……",
+    "usage": "限定程度或价值，表示并没有超过前项。",
+    "grammarPattern": "V普通形／ナA・N＋にすぎない",
+    "notes": "语体：written。使用时需同时确认接续、前后句逻辑和语气。",
+    "commonMistakes": [
+      "只记中文翻译，忽略接续形式和前后句逻辑。"
+    ],
+    "memoryTips": "把「～にすぎない」与核心含义「只不过……」及一个完整语境一起记忆。",
+    "reviewTips": [
+      "先遮住中文解释，口头说出接续和使用场景。",
+      "用易混表达改写例句，再比较语气是否发生变化。"
+    ],
+    "examples": [
+      "これは一つの例にすぎない。",
+      "彼は自分の意見を述べたにすぎない。"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-NIHOKANARANAI-001"
+    ],
+    "confusablePointIds": [],
+    "linkedQuestionIds": [
+      "Q-N2-FAC-GRA-0021",
+      "Q-N2-FAC-GRA-0022",
+      "Q-N2-FAC-GRA-0023",
+      "Q-N2-FAC-GRA-0024"
+    ],
+    "verificationStatus": "verified",
+    "sourceType": "trusted_learning_site",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-SHIKANAI-001",
+    "title": "～しかない",
+    "category": "grammar",
+    "level": "N2",
+    "meaning": "只有……；只好……",
+    "usage": "表示选择或数量受到严格限制。",
+    "grammarPattern": "V辞书形＋しかない／N＋しかない",
+    "notes": "语体：both。使用时需同时确认接续、前后句逻辑和语气。",
+    "commonMistakes": [
+      "只按中文含义选择，忽略与易混文法在语气和接续上的差别。"
+    ],
+    "memoryTips": "把「～しかない」与核心含义「只有……；只好……」及一个完整语境一起记忆。",
+    "reviewTips": [
+      "先遮住中文解释，口头说出接续和使用场景。",
+      "用易混表达改写例句，再比较语气是否发生变化。"
+    ],
+    "examples": [
+      "電車がないので、歩くしかない。",
+      "残っている方法はこれしかない。"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-ZARUOENAI-001"
+    ],
+    "confusablePointIds": [
+      "KP-GRA-ZARUOENAI-001"
+    ],
+    "linkedQuestionIds": [],
+    "verificationStatus": "unverified",
+    "sourceType": "ai_structured",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-SAE-001",
+    "title": "～さえ",
+    "category": "grammar",
+    "level": "N2",
+    "meaning": "连……都……；只要……",
+    "usage": "举出极端例子强调范围，或与条件形式组合。",
+    "grammarPattern": "N／助词＋さえ；Vます形去ます＋さえする",
+    "notes": "语体：both。使用时需同时确认接续、前后句逻辑和语气。",
+    "commonMistakes": [
+      "只记中文翻译，忽略接续形式和前后句逻辑。"
+    ],
+    "memoryTips": "把「～さえ」与核心含义「连……都……；只要……」及一个完整语境一起记忆。",
+    "reviewTips": [
+      "先遮住中文解释，口头说出接续和使用场景。",
+      "用易混表达改写例句，再比较语气是否发生变化。"
+    ],
+    "examples": [
+      "忙しくて昼ご飯を食べる時間さえなかった。",
+      "名前さえ分かれば、調べられます。"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-BAKARIKA-001"
+    ],
+    "confusablePointIds": [],
+    "linkedQuestionIds": [],
+    "verificationStatus": "unverified",
+    "sourceType": "ai_structured",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-BAKARIKA-001",
+    "title": "～ばかりか",
+    "category": "grammar",
+    "level": "N2",
+    "meaning": "不但……而且……",
+    "usage": "在前项基础上添加程度更高或意外的后项。",
+    "grammarPattern": "普通形／N＋ばかりか",
+    "notes": "语体：written。使用时需同时确认接续、前后句逻辑和语气。",
+    "commonMistakes": [
+      "只按中文含义选择，忽略与易混文法在语气和接续上的差别。"
+    ],
+    "memoryTips": "把「～ばかりか」与核心含义「不但……而且……」及一个完整语境一起记忆。",
+    "reviewTips": [
+      "先遮住中文解释，口头说出接续和使用场景。",
+      "用易混表达改写例句，再比较语气是否发生变化。"
+    ],
+    "examples": [
+      "彼は英語ばかりか、中国語も話せる。",
+      "雨ばかりか、強い風まで吹いてきた。"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-DOKOROKA-001",
+      "KP-GRA-SAE-001",
+      "KP-GRA-NOMINARAZU-001"
+    ],
+    "confusablePointIds": [
+      "KP-GRA-DOKOROKA-001"
+    ],
+    "linkedQuestionIds": [
+      "Q-N2-FAC-S12-0005",
+      "Q-N2-FAC-S12-0006",
+      "Q-N2-FAC-S12-0007",
+      "Q-N2-FAC-S12-0008"
+    ],
+    "verificationStatus": "unverified",
+    "sourceType": "ai_structured",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-NOMINARAZU-001",
+    "title": "～のみならず",
+    "category": "grammar",
+    "level": "N2",
+    "meaning": "不仅……而且……",
+    "usage": "正式地扩展适用范围，后项常接「も」。",
+    "grammarPattern": "普通形／N＋のみならず",
+    "notes": "语体：written。使用时需同时确认接续、前后句逻辑和语气。",
+    "commonMistakes": [
+      "只记中文翻译，忽略接续形式和前后句逻辑。"
+    ],
+    "memoryTips": "把「～のみならず」与核心含义「不仅……而且……」及一个完整语境一起记忆。",
+    "reviewTips": [
+      "先遮住中文解释，口头说出接续和使用场景。",
+      "用易混表达改写例句，再比较语气是否发生变化。"
+    ],
+    "examples": [
+      "国内のみならず、海外でも注目されている。",
+      "彼女は研究のみならず、教育にも力を入れている。"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-BAKARIKA-001"
+    ],
+    "confusablePointIds": [],
+    "linkedQuestionIds": [],
+    "verificationStatus": "verified",
+    "sourceType": "trusted_learning_site",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-NIKAGITTE-001",
+    "title": "～に限って",
+    "category": "grammar",
+    "level": "N2",
+    "meaning": "偏偏……；唯独……",
+    "usage": "表示偏偏在特殊时刻发生意外，或说话人确信某对象不会如此。",
+    "grammarPattern": "N＋に限って",
+    "notes": "语体：both。使用时需同时确认接续、前后句逻辑和语气。",
+    "commonMistakes": [
+      "只按中文含义选择，忽略与易混文法在语气和接续上的差别。"
+    ],
+    "memoryTips": "把「～に限って」与核心含义「偏偏……；唯独……」及一个完整语境一起记忆。",
+    "reviewTips": [
+      "先遮住中文解释，口头说出接续和使用场景。",
+      "用易混表达改写例句，再比较语气是否发生变化。"
+    ],
+    "examples": [
+      "急いでいる日に限って、電車が遅れる。",
+      "彼に限って、約束を破ることはない。"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-NIKAGIRAZU-001"
+    ],
+    "confusablePointIds": [
+      "KP-GRA-NIKAGIRAZU-001"
+    ],
+    "linkedQuestionIds": [],
+    "verificationStatus": "verified",
+    "sourceType": "trusted_learning_site",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-NIKAGIRAZU-001",
+    "title": "～に限らず",
+    "category": "grammar",
+    "level": "N2",
+    "meaning": "不限于……",
+    "usage": "表示范围不只限于前项，还包括其他对象。",
+    "grammarPattern": "N＋に限らず",
+    "notes": "语体：written。使用时需同时确认接续、前后句逻辑和语气。",
+    "commonMistakes": [
+      "只按中文含义选择，忽略与易混文法在语气和接续上的差别。"
+    ],
+    "memoryTips": "把「～に限らず」与核心含义「不限于……」及一个完整语境一起记忆。",
+    "reviewTips": [
+      "先遮住中文解释，口头说出接续和使用场景。",
+      "用易混表达改写例句，再比较语气是否发生变化。"
+    ],
+    "examples": [
+      "若者に限らず、多くの世代が利用している。",
+      "平日に限らず、週末も開館しています。"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-NIKAGITTE-001"
+    ],
+    "confusablePointIds": [
+      "KP-GRA-NIKAGITTE-001"
+    ],
+    "linkedQuestionIds": [],
+    "verificationStatus": "verified",
+    "sourceType": "trusted_learning_site",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-WAKEDEWANAI-001",
+    "title": "～わけではない",
+    "category": "grammar",
+    "level": "N2",
+    "meaning": "并非……；并不是说……",
+    "usage": "否定可能被推导出的整体结论，常用于部分否定。",
+    "grammarPattern": "普通形＋わけではない（ナAな／Nの＋わけではない）",
+    "notes": "语体：both。使用时需同时确认接续、前后句逻辑和语气。",
+    "commonMistakes": [
+      "只按中文含义选择，忽略与易混文法在语气和接续上的差别。"
+    ],
+    "memoryTips": "把「～わけではない」与核心含义「并非……；并不是说……」及一个完整语境一起记忆。",
+    "reviewTips": [
+      "先遮住中文解释，口头说出接续和使用场景。",
+      "用易混表达改写例句，再比较语气是否发生变化。"
+    ],
+    "examples": [
+      "甘い物が嫌いなわけではない。",
+      "値段が高ければ品質が良いわけではない。"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-NAIKOTOWANAI-001"
+    ],
+    "confusablePointIds": [
+      "KP-GRA-NAIKOTOWANAI-001"
+    ],
+    "linkedQuestionIds": [
+      "Q-N2-GRM-0001",
+      "Q-N2-GRM-0006"
+    ],
+    "verificationStatus": "unverified",
+    "sourceType": "ai_structured",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-SAEBA-001",
+    "title": "～さえ～ば",
+    "category": "grammar",
+    "level": "N2",
+    "meaning": "只要……就……",
+    "usage": "提出实现后项所需的最低条件。",
+    "grammarPattern": "Nさえ＋条件形／Vます形去ます＋さえすれば",
+    "notes": "语体：both。使用时需同时确认接续、前后句逻辑和语气。",
+    "commonMistakes": [
+      "只记中文翻译，忽略接续形式和前后句逻辑。"
+    ],
+    "memoryTips": "把「～さえ～ば」与核心含义「只要……就……」及一个完整语境一起记忆。",
+    "reviewTips": [
+      "先遮住中文解释，口头说出接续和使用场景。",
+      "用易混表达改写例句，再比较语气是否发生变化。"
+    ],
+    "examples": [
+      "時間さえあれば、旅行に行きたい。",
+      "薬を飲みさえすれば、すぐ治るわけではない。"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-NAIKAGIRI-001"
+    ],
+    "confusablePointIds": [],
+    "linkedQuestionIds": [],
+    "verificationStatus": "unverified",
+    "sourceType": "ai_structured",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-MONONARA-001",
+    "title": "～ものなら",
+    "category": "grammar",
+    "level": "N2",
+    "meaning": "如果能……的话",
+    "usage": "假设实现难度较高的事情，常表达愿望或挑战。",
+    "grammarPattern": "V可能形＋ものなら",
+    "notes": "语体：both。使用时需同时确认接续、前后句逻辑和语气。",
+    "commonMistakes": [
+      "只按中文含义选择，忽略与易混文法在语气和接续上的差别。"
+    ],
+    "memoryTips": "把「～ものなら」与核心含义「如果能……的话」及一个完整语境一起记忆。",
+    "reviewTips": [
+      "先遮住中文解释，口头说出接续和使用场景。",
+      "用易混表达改写例句，再比较语气是否发生变化。"
+    ],
+    "examples": [
+      "戻れるものなら、学生時代に戻りたい。",
+      "一人でできるものなら、やってみてください。"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-YOUMONONARA-001"
+    ],
+    "confusablePointIds": [
+      "KP-GRA-YOUMONONARA-001"
+    ],
+    "linkedQuestionIds": [],
+    "verificationStatus": "verified",
+    "sourceType": "trusted_learning_site",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-YOUMONONARA-001",
+    "title": "～ようものなら",
+    "category": "grammar",
+    "level": "N2",
+    "meaning": "万一要是……就……",
+    "usage": "假设一旦发生前项，就会出现严重或不理想后果。",
+    "grammarPattern": "V意向形＋ものなら",
+    "notes": "语体：written。使用时需同时确认接续、前后句逻辑和语气。",
+    "commonMistakes": [
+      "只按中文含义选择，忽略与易混文法在语气和接续上的差别。"
+    ],
+    "memoryTips": "把「～ようものなら」与核心含义「万一要是……就……」及一个完整语境一起记忆。",
+    "reviewTips": [
+      "先遮住中文解释，口头说出接续和使用场景。",
+      "用易混表达改写例句，再比较语气是否发生变化。"
+    ],
+    "examples": [
+      "秘密を話そうものなら、皆に迷惑がかかる。",
+      "遅刻しようものなら、試合に出してもらえない。"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-MONONARA-001"
+    ],
+    "confusablePointIds": [
+      "KP-GRA-MONONARA-001"
+    ],
+    "linkedQuestionIds": [],
+    "verificationStatus": "unverified",
+    "sourceType": "ai_structured",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-NAIKOTONIWA-001",
+    "title": "～ないことには",
+    "category": "grammar",
+    "level": "N2",
+    "meaning": "如果不……就不能……",
+    "usage": "说明前项是判断或实现后项不可缺少的条件。",
+    "grammarPattern": "Vない形＋ことには",
+    "notes": "语体：both。使用时需同时确认接续、前后句逻辑和语气。",
+    "commonMistakes": [
+      "只记中文翻译，忽略接续形式和前后句逻辑。"
+    ],
+    "memoryTips": "把「～ないことには」与核心含义「如果不……就不能……」及一个完整语境一起记忆。",
+    "reviewTips": [
+      "先遮住中文解释，口头说出接续和使用场景。",
+      "用易混表达改写例句，再比较语气是否发生变化。"
+    ],
+    "examples": [
+      "実物を見ないことには、買うか決められない。",
+      "本人に聞かないことには、理由は分からない。"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-NAIKAGIRI-001"
+    ],
+    "confusablePointIds": [],
+    "linkedQuestionIds": [
+      "Q-N2-FAC-GRA-0013",
+      "Q-N2-FAC-GRA-0014",
+      "Q-N2-FAC-GRA-0015",
+      "Q-N2-FAC-GRA-0016"
+    ],
+    "verificationStatus": "verified",
+    "sourceType": "trusted_learning_site",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-TOSHITARA-001",
+    "title": "～としたら",
+    "category": "grammar",
+    "level": "N2",
+    "meaning": "如果……的话",
+    "usage": "把未确定事实作为假设，讨论判断或行动。",
+    "grammarPattern": "普通形＋としたら",
+    "notes": "语体：both。使用时需同时确认接续、前后句逻辑和语气。",
+    "commonMistakes": [
+      "只记中文翻译，忽略接续形式和前后句逻辑。"
+    ],
+    "memoryTips": "把「～としたら」与核心含义「如果……的话」及一个完整语境一起记忆。",
+    "reviewTips": [
+      "先遮住中文解释，口头说出接续和使用场景。",
+      "用易混表达改写例句，再比较语气是否发生变化。"
+    ],
+    "examples": [
+      "来年留学するとしたら、今から準備が必要だ。",
+      "それが本当だとしたら、大きな問題だ。"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-TOSUREBA-001"
+    ],
+    "confusablePointIds": [],
+    "linkedQuestionIds": [],
+    "verificationStatus": "unverified",
+    "sourceType": "ai_structured",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-TOSUREBA-001",
+    "title": "～とすれば",
+    "category": "grammar",
+    "level": "N2",
+    "meaning": "假如……；若从……来看",
+    "usage": "较书面地提出假设并进行逻辑推论。",
+    "grammarPattern": "普通形＋とすれば",
+    "notes": "语体：written。使用时需同时确认接续、前后句逻辑和语气。",
+    "commonMistakes": [
+      "只记中文翻译，忽略接续形式和前后句逻辑。"
+    ],
+    "memoryTips": "把「～とすれば」与核心含义「假如……；若从……来看」及一个完整语境一起记忆。",
+    "reviewTips": [
+      "先遮住中文解释，口头说出接续和使用场景。",
+      "用易混表达改写例句，再比较语气是否发生变化。"
+    ],
+    "examples": [
+      "予算が足りないとすれば、計画を見直す必要がある。",
+      "彼が来ないとすれば、誰に頼むべきだろう。"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-TOSHITARA-001"
+    ],
+    "confusablePointIds": [],
+    "linkedQuestionIds": [],
+    "verificationStatus": "unverified",
+    "sourceType": "ai_structured",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-KAGIRI-001",
+    "title": "～限り",
+    "category": "grammar",
+    "level": "N2",
+    "meaning": "只要……就……；在……范围内",
+    "usage": "表示某状态持续期间，后项也成立。",
+    "grammarPattern": "V普通形／Nである＋限り",
+    "notes": "语体：written。使用时需同时确认接续、前后句逻辑和语气。",
+    "commonMistakes": [
+      "只记中文翻译，忽略接续形式和前后句逻辑。"
+    ],
+    "memoryTips": "把「～限り」与核心含义「只要……就……；在……范围内」及一个完整语境一起记忆。",
+    "reviewTips": [
+      "先遮住中文解释，口头说出接续和使用场景。",
+      "用易混表达改写例句，再比较语气是否发生变化。"
+    ],
+    "examples": [
+      "元気である限り、仕事を続けたい。",
+      "約束を守る限り、あなたを信じます。"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-NAIKAGIRI-001",
+      "KP-GRA-TABINI-001"
+    ],
+    "confusablePointIds": [],
+    "linkedQuestionIds": [
+      "Q-N2-FAC-GRA-0009",
+      "Q-N2-FAC-GRA-0010",
+      "Q-N2-FAC-GRA-0011",
+      "Q-N2-FAC-GRA-0012"
+    ],
+    "verificationStatus": "verified",
+    "sourceType": "trusted_learning_site",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-NAIKAGIRI-001",
+    "title": "～ない限り",
+    "category": "grammar",
+    "level": "N2",
+    "meaning": "除非……否则……",
+    "usage": "表示如果前项不实现，后项就不会成立。",
+    "grammarPattern": "Vない形＋限り",
+    "notes": "语体：written。使用时需同时确认接续、前后句逻辑和语气。",
+    "commonMistakes": [
+      "只记中文翻译，忽略接续形式和前后句逻辑。"
+    ],
+    "memoryTips": "把「～ない限り」与核心含义「除非……否则……」及一个完整语境一起记忆。",
+    "reviewTips": [
+      "先遮住中文解释，口头说出接续和使用场景。",
+      "用易混表达改写例句，再比较语气是否发生变化。"
+    ],
+    "examples": [
+      "謝らない限り、彼は許してくれないだろう。",
+      "雨がやまない限り、試合は始められない。"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-SAEBA-001",
+      "KP-GRA-KAGIRI-001",
+      "KP-GRA-NAIKOTONIWA-001"
+    ],
+    "confusablePointIds": [],
+    "linkedQuestionIds": [],
+    "verificationStatus": "unverified",
+    "sourceType": "ai_structured",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-NAIKOTOWANAI-001",
+    "title": "～ないことはない",
+    "category": "grammar",
+    "level": "N2",
+    "meaning": "并非不能……",
+    "usage": "用双重否定表示存在可能，但常伴随保留条件。",
+    "grammarPattern": "Vない形＋ことはない",
+    "notes": "语体：both。使用时需同时确认接续、前后句逻辑和语气。",
+    "commonMistakes": [
+      "只按中文含义选择，忽略与易混文法在语气和接续上的差别。"
+    ],
+    "memoryTips": "把「～ないことはない」与核心含义「并非不能……」及一个完整语境一起记忆。",
+    "reviewTips": [
+      "先遮住中文解释，口头说出接续和使用场景。",
+      "用易混表达改写例句，再比较语气是否发生变化。"
+    ],
+    "examples": [
+      "高いが、買えないことはない。",
+      "時間をかければ、完成できないことはない。"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-WAKEDEWANAI-001"
+    ],
+    "confusablePointIds": [
+      "KP-GRA-WAKEDEWANAI-001"
+    ],
+    "linkedQuestionIds": [
+      "Q-N2-GRM-0002",
+      "Q-N2-GRM-0007"
+    ],
+    "verificationStatus": "unverified",
+    "sourceType": "ai_structured",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-TAMENI-001",
+    "title": "～ために",
+    "category": "grammar",
+    "level": "N2",
+    "meaning": "为了……",
+    "usage": "表示有意志行为的明确目的。",
+    "grammarPattern": "V辞书形／Nの＋ために",
+    "notes": "语体：both。使用时需同时确认接续、前后句逻辑和语气。",
+    "commonMistakes": [
+      "只按中文含义选择，忽略与易混文法在语气和接续上的差别。"
+    ],
+    "memoryTips": "把「～ために」与核心含义「为了……」及一个完整语境一起记忆。",
+    "reviewTips": [
+      "先遮住中文解释，口头说出接续和使用场景。",
+      "用易混表达改写例句，再比较语气是否发生变化。"
+    ],
+    "examples": [
+      "資格を取るために、毎日勉強している。",
+      "健康のために、朝歩くことにした。"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-YOUNI-001",
+      "KP-GRA-BEKU-001",
+      "KP-GRA-NIMUKETE-001"
+    ],
+    "confusablePointIds": [
+      "KP-GRA-YOUNI-001"
+    ],
+    "linkedQuestionIds": [],
+    "verificationStatus": "unverified",
+    "sourceType": "ai_structured",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-YOUNI-001",
+    "title": "～ように",
+    "category": "grammar",
+    "level": "N2",
+    "meaning": "为了能够……；以免……",
+    "usage": "用于能力、状态或非意志结果的目标。",
+    "grammarPattern": "V辞书形／ない形＋ように",
+    "notes": "语体：both。使用时需同时确认接续、前后句逻辑和语气。",
+    "commonMistakes": [
+      "只按中文含义选择，忽略与易混文法在语气和接续上的差别。"
+    ],
+    "memoryTips": "把「～ように」与核心含义「为了能够……；以免……」及一个完整语境一起记忆。",
+    "reviewTips": [
+      "先遮住中文解释，口头说出接续和使用场景。",
+      "用易混表达改写例句，再比较语气是否发生变化。"
+    ],
+    "examples": [
+      "忘れないように、メモしておきます。",
+      "日本語が話せるように、毎日練習している。"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-TAMENI-001"
+    ],
+    "confusablePointIds": [
+      "KP-GRA-TAMENI-001"
+    ],
+    "linkedQuestionIds": [],
+    "verificationStatus": "unverified",
+    "sourceType": "ai_structured",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-BEKU-001",
+    "title": "～べく",
+    "category": "grammar",
+    "level": "N2",
+    "meaning": "为了……",
+    "usage": "书面且正式地表示意图和目的。",
+    "grammarPattern": "V辞书形＋べく（する→するべく／すべく）",
+    "notes": "语体：written。使用时需同时确认接续、前后句逻辑和语气。",
+    "commonMistakes": [
+      "只记中文翻译，忽略接续形式和前后句逻辑。"
+    ],
+    "memoryTips": "把「～べく」与核心含义「为了……」及一个完整语境一起记忆。",
+    "reviewTips": [
+      "先遮住中文解释，口头说出接续和使用场景。",
+      "用易混表达改写例句，再比较语气是否发生变化。"
+    ],
+    "examples": [
+      "問題を解決すべく、専門家が集まった。",
+      "目標を達成するべく、計画を立て直した。"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-TAMENI-001"
+    ],
+    "confusablePointIds": [],
+    "linkedQuestionIds": [
+      "Q-N2-FAC-S12-0017",
+      "Q-N2-FAC-S12-0018",
+      "Q-N2-FAC-S12-0019",
+      "Q-N2-FAC-S12-0020"
+    ],
+    "verificationStatus": "unverified",
+    "sourceType": "ai_structured",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-NIMUKETE-001",
+    "title": "～に向けて",
+    "category": "grammar",
+    "level": "N2",
+    "meaning": "面向……；为……而",
+    "usage": "表示朝目标、对象或时间节点推进准备。",
+    "grammarPattern": "N＋に向けて／に向けた＋N",
+    "notes": "语体：both。使用时需同时确认接续、前后句逻辑和语气。",
+    "commonMistakes": [
+      "只记中文翻译，忽略接续形式和前后句逻辑。"
+    ],
+    "memoryTips": "把「～に向けて」与核心含义「面向……；为……而」及一个完整语境一起记忆。",
+    "reviewTips": [
+      "先遮住中文解释，口头说出接续和使用场景。",
+      "用易混表达改写例句，再比较语气是否发生变化。"
+    ],
+    "examples": [
+      "大会に向けて、毎日練習している。",
+      "発売に向けた準備が進んでいる。"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-TAMENI-001",
+      "KP-GRA-NISONAETE-001"
+    ],
+    "confusablePointIds": [],
+    "linkedQuestionIds": [],
+    "verificationStatus": "unverified",
+    "sourceType": "ai_structured",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-NISONAETE-001",
+    "title": "～に備えて",
+    "category": "grammar",
+    "level": "N2",
+    "meaning": "为……做准备",
+    "usage": "针对将来可能发生的情况预先准备。",
+    "grammarPattern": "N＋に備えて／に備えた＋N",
+    "notes": "语体：both。使用时需同时确认接续、前后句逻辑和语气。",
+    "commonMistakes": [
+      "只记中文翻译，忽略接续形式和前后句逻辑。"
+    ],
+    "memoryTips": "把「～に備えて」与核心含义「为……做准备」及一个完整语境一起记忆。",
+    "reviewTips": [
+      "先遮住中文解释，口头说出接续和使用场景。",
+      "用易混表达改写例句，再比较语气是否发生变化。"
+    ],
+    "examples": [
+      "地震に備えて、水を用意している。",
+      "試験に備えて、早めに復習を始めた。"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-NIMUKETE-001"
+    ],
+    "confusablePointIds": [],
+    "linkedQuestionIds": [],
+    "verificationStatus": "unverified",
+    "sourceType": "ai_structured",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-NITOMONATTE-001",
+    "title": "～に伴って",
+    "category": "grammar",
+    "level": "N2",
+    "meaning": "伴随着……",
+    "usage": "表示一个变化或事件伴随另一个变化发生。",
+    "grammarPattern": "N／V辞书形＋に伴って／に伴い",
+    "notes": "语体：written。使用时需同时确认接续、前后句逻辑和语气。",
+    "commonMistakes": [
+      "只按中文含义选择，忽略与易混文法在语气和接续上的差别。"
+    ],
+    "memoryTips": "把「～に伴って」与核心含义「伴随着……」及一个完整语境一起记忆。",
+    "reviewTips": [
+      "先遮住中文解释，口头说出接续和使用场景。",
+      "用易混表达改写例句，再比较语气是否发生变化。"
+    ],
+    "examples": [
+      "人口の増加に伴って、住宅が不足してきた。",
+      "制度の変更に伴い、手続きも変わります。"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-NITSURETE-001",
+      "KP-GRA-TOTOMONI-001"
+    ],
+    "confusablePointIds": [
+      "KP-GRA-NITSURETE-001",
+      "KP-GRA-TOTOMONI-001"
+    ],
+    "linkedQuestionIds": [
+      "Q-N2-GRC-0004",
+      "Q-N2-GRC-0015",
+      "Q-N2-GRC-0016",
+      "Q-N2-GRC-0017"
+    ],
+    "verificationStatus": "verified",
+    "sourceType": "trusted_learning_site",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-NITSURETE-001",
+    "title": "～につれて",
+    "category": "grammar",
+    "level": "N2",
+    "meaning": "随着……逐渐……",
+    "usage": "表示前项连续变化时，后项也自然变化。",
+    "grammarPattern": "N／V辞书形＋につれて",
+    "notes": "语体：both。使用时需同时确认接续、前后句逻辑和语气。",
+    "commonMistakes": [
+      "只按中文含义选择，忽略与易混文法在语气和接续上的差别。"
+    ],
+    "memoryTips": "把「～につれて」与核心含义「随着……逐渐……」及一个完整语境一起记忆。",
+    "reviewTips": [
+      "先遮住中文解释，口头说出接续和使用场景。",
+      "用易混表达改写例句，再比较语气是否发生变化。"
+    ],
+    "examples": [
+      "年を取るにつれて、健康が気になってきた。",
+      "気温が上がるにつれて、雪が溶けていく。"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-NITOMONATTE-001",
+      "KP-GRA-NISHITAGATTE-001",
+      "KP-GRA-BAKARIDA-001"
+    ],
+    "confusablePointIds": [
+      "KP-GRA-NITOMONATTE-001",
+      "KP-GRA-NISHITAGATTE-001"
+    ],
+    "linkedQuestionIds": [],
+    "verificationStatus": "unverified",
+    "sourceType": "ai_structured",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-NISHITAGATTE-001",
+    "title": "～に従って",
+    "category": "grammar",
+    "level": "N2",
+    "meaning": "随着……；按照……",
+    "usage": "表示随趋势变化，或遵照规则行动。",
+    "grammarPattern": "N／V辞书形＋に従って",
+    "notes": "语体：written。使用时需同时确认接续、前后句逻辑和语气。",
+    "commonMistakes": [
+      "只按中文含义选择，忽略与易混文法在语气和接续上的差别。"
+    ],
+    "memoryTips": "把「～に従って」与核心含义「随着……；按照……」及一个完整语境一起记忆。",
+    "reviewTips": [
+      "先遮住中文解释，口头说出接续和使用场景。",
+      "用易混表达改写例句，再比较语气是否发生变化。"
+    ],
+    "examples": [
+      "技術が進歩するに従って、生活も変わった。",
+      "説明書に従って、機械を操作してください。"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-NITSURETE-001"
+    ],
+    "confusablePointIds": [
+      "KP-GRA-NITSURETE-001"
+    ],
+    "linkedQuestionIds": [],
+    "verificationStatus": "unverified",
+    "sourceType": "ai_structured",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-TOTOMONI-001",
+    "title": "～とともに",
+    "category": "grammar",
+    "level": "N2",
+    "meaning": "与……同时；随着……",
+    "usage": "表示共同发生、共同主体或同步变化。",
+    "grammarPattern": "N／V辞书形＋とともに",
+    "notes": "语体：written。使用时需同时确认接续、前后句逻辑和语气。",
+    "commonMistakes": [
+      "只按中文含义选择，忽略与易混文法在语气和接续上的差别。"
+    ],
+    "memoryTips": "把「～とともに」与核心含义「与……同时；随着……」及一个完整语境一起记忆。",
+    "reviewTips": [
+      "先遮住中文解释，口头说出接续和使用场景。",
+      "用易混表达改写例句，再比较语气是否发生变化。"
+    ],
+    "examples": [
+      "町の発展とともに、人口も増えた。",
+      "家族とともに、新しい町へ引っ越した。"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-NITOMONATTE-001"
+    ],
+    "confusablePointIds": [
+      "KP-GRA-NITOMONATTE-001"
+    ],
+    "linkedQuestionIds": [],
+    "verificationStatus": "unverified",
+    "sourceType": "ai_structured",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-YOUNINARU-001",
+    "title": "～ようになる",
+    "category": "grammar",
+    "level": "N2",
+    "meaning": "变得能够……；开始……",
+    "usage": "表示能力、习惯或状态经过变化后成立。",
+    "grammarPattern": "V辞书形／ない形＋ようになる",
+    "notes": "语体：both。使用时需同时确认接续、前后句逻辑和语气。",
+    "commonMistakes": [
+      "只记中文翻译，忽略接续形式和前后句逻辑。"
+    ],
+    "memoryTips": "把「～ようになる」与核心含义「变得能够……；开始……」及一个完整语境一起记忆。",
+    "reviewTips": [
+      "先遮住中文解释，口头说出接续和使用场景。",
+      "用易混表达改写例句，再比较语气是否发生变化。"
+    ],
+    "examples": [
+      "毎日練習して、速く読めるようになった。",
+      "最近は甘い物を食べないようになった。"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-KOTONISURU-001"
+    ],
+    "confusablePointIds": [],
+    "linkedQuestionIds": [],
+    "verificationStatus": "unverified",
+    "sourceType": "ai_structured",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-KOTONINARU-001",
+    "title": "～ことになる",
+    "category": "grammar",
+    "level": "N2",
+    "meaning": "决定……；结果是……",
+    "usage": "表示外部决定、规则或逻辑推导出的结果。",
+    "grammarPattern": "V辞书形／ない形＋ことになる",
+    "notes": "语体：both。使用时需同时确认接续、前后句逻辑和语气。",
+    "commonMistakes": [
+      "只按中文含义选择，忽略与易混文法在语气和接续上的差别。"
+    ],
+    "memoryTips": "把「～ことになる」与核心含义「决定……；结果是……」及一个完整语境一起记忆。",
+    "reviewTips": [
+      "先遮住中文解释，口头说出接续和使用场景。",
+      "用易混表达改写例句，再比较语气是否发生变化。"
+    ],
+    "examples": [
+      "来月から大阪で働くことになった。",
+      "規則では、再提出することになります。"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-KOTONISURU-001"
+    ],
+    "confusablePointIds": [
+      "KP-GRA-KOTONISURU-001"
+    ],
+    "linkedQuestionIds": [],
+    "verificationStatus": "unverified",
+    "sourceType": "ai_structured",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-KOTONISURU-001",
+    "title": "～ことにする",
+    "category": "grammar",
+    "level": "N2",
+    "meaning": "决定……",
+    "usage": "表示说话人主动做出决定，也可表示习惯性规定。",
+    "grammarPattern": "V辞书形／ない形＋ことにする",
+    "notes": "语体：both。使用时需同时确认接续、前后句逻辑和语气。",
+    "commonMistakes": [
+      "只按中文含义选择，忽略与易混文法在语气和接续上的差别。"
+    ],
+    "memoryTips": "把「～ことにする」与核心含义「决定……」及一个完整语境一起记忆。",
+    "reviewTips": [
+      "先遮住中文解释，口头说出接续和使用场景。",
+      "用易混表达改写例句，再比较语气是否发生变化。"
+    ],
+    "examples": [
+      "今年は海外旅行をしないことにした。",
+      "毎朝三十分歩くことにしています。"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-YOUNINARU-001",
+      "KP-GRA-KOTONINARU-001"
+    ],
+    "confusablePointIds": [
+      "KP-GRA-KOTONINARU-001"
+    ],
+    "linkedQuestionIds": [],
+    "verificationStatus": "unverified",
+    "sourceType": "ai_structured",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-BAKARIDA-001",
+    "title": "～ばかりだ",
+    "category": "grammar",
+    "level": "N2",
+    "meaning": "一直……；越来越……",
+    "usage": "表示变化持续朝某一方向发展，常用于不理想趋势。",
+    "grammarPattern": "V辞书形＋ばかりだ",
+    "notes": "语体：both。使用时需同时确认接续、前后句逻辑和语气。",
+    "commonMistakes": [
+      "只记中文翻译，忽略接续形式和前后句逻辑。"
+    ],
+    "memoryTips": "把「～ばかりだ」与核心含义「一直……；越来越……」及一个完整语境一起记忆。",
+    "reviewTips": [
+      "先遮住中文解释，口头说出接续和使用场景。",
+      "用易混表达改写例句，再比较语气是否发生变化。"
+    ],
+    "examples": [
+      "物価は上がるばかりだ。",
+      "状況は悪くなるばかりで、改善が見えない。"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-NITSURETE-001"
+    ],
+    "confusablePointIds": [],
+    "linkedQuestionIds": [
+      "Q-N2-FAC-GRA-0033",
+      "Q-N2-FAC-GRA-0034",
+      "Q-N2-FAC-GRA-0035",
+      "Q-N2-FAC-GRA-0036"
+    ],
+    "verificationStatus": "verified",
+    "sourceType": "trusted_learning_site",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-ZARUOENAI-001",
+    "title": "～ざるを得ない",
+    "category": "grammar",
+    "level": "N2",
+    "meaning": "不得不……",
+    "usage": "表示虽不情愿，但受客观情况所迫必须行动。",
+    "grammarPattern": "Vない形去ない＋ざるを得ない（する→せざるを得ない）",
+    "notes": "语体：written。使用时需同时确认接续、前后句逻辑和语气。",
+    "commonMistakes": [
+      "只按中文含义选择，忽略与易混文法在语气和接续上的差别。"
+    ],
+    "memoryTips": "把「～ざるを得ない」与核心含义「不得不……」及一个完整语境一起记忆。",
+    "reviewTips": [
+      "先遮住中文解释，口头说出接续和使用场景。",
+      "用易混表达改写例句，再比较语气是否发生变化。"
+    ],
+    "examples": [
+      "終電がないので、タクシーを使わざるを得ない。",
+      "規則違反のため、計画を中止せざるを得なかった。"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-SHIKANAI-001",
+      "KP-GRA-NAIWAKENIHAIKANAI-001"
+    ],
+    "confusablePointIds": [
+      "KP-GRA-SHIKANAI-001",
+      "KP-GRA-NAIWAKENIHAIKANAI-001"
+    ],
+    "linkedQuestionIds": [
+      "Q-N2-GRM-0005",
+      "Q-N2-GRM-0010"
+    ],
+    "verificationStatus": "verified",
+    "sourceType": "trusted_learning_site",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-NAIWAKENIHAIKANAI-001",
+    "title": "～ないわけにはいかない",
+    "category": "grammar",
+    "level": "N2",
+    "meaning": "不能不……；必须……",
+    "usage": "因责任、常识或社会立场而不能选择不做。",
+    "grammarPattern": "Vない形＋わけにはいかない",
+    "notes": "语体：both。使用时需同时确认接续、前后句逻辑和语气。",
+    "commonMistakes": [
+      "只按中文含义选择，忽略与易混文法在语气和接续上的差别。"
+    ],
+    "memoryTips": "把「～ないわけにはいかない」与核心含义「不能不……；必须……」及一个完整语境一起记忆。",
+    "reviewTips": [
+      "先遮住中文解释，口头说出接续和使用场景。",
+      "用易混表达改写例句，再比较语气是否发生变化。"
+    ],
+    "examples": [
+      "世話になった人の頼みを断らないわけにはいかない。",
+      "明日は試験だから、勉強しないわけにはいかない。"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-ZARUOENAI-001"
+    ],
+    "confusablePointIds": [
+      "KP-GRA-ZARUOENAI-001"
+    ],
+    "linkedQuestionIds": [],
+    "verificationStatus": "unverified",
+    "sourceType": "ai_structured",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-BEKIDA-001",
+    "title": "～べきだ",
+    "category": "grammar",
+    "level": "N2",
+    "meaning": "应该……",
+    "usage": "根据道德、常识或责任提出强建议。",
+    "grammarPattern": "V辞书形＋べきだ（する→するべき／すべき）",
+    "notes": "语体：both。使用时需同时确认接续、前后句逻辑和语气。",
+    "commonMistakes": [
+      "只记中文翻译，忽略接续形式和前后句逻辑。"
+    ],
+    "memoryTips": "把「～べきだ」与核心含义「应该……」及一个完整语境一起记忆。",
+    "reviewTips": [
+      "先遮住中文解释，口头说出接续和使用场景。",
+      "用易混表达改写例句，再比较语气是否发生变化。"
+    ],
+    "examples": [
+      "約束は守るべきだ。",
+      "問題があれば、早めに相談すべきです。"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-IJOUWA-001",
+      "KP-GRA-BEKIDEWANAI-001",
+      "KP-GRA-KOTODA-001"
+    ],
+    "confusablePointIds": [],
+    "linkedQuestionIds": [
+      "Q-N2-FAC-S12-0009",
+      "Q-N2-FAC-S12-0010",
+      "Q-N2-FAC-S12-0011",
+      "Q-N2-FAC-S12-0012"
+    ],
+    "verificationStatus": "unverified",
+    "sourceType": "ai_structured",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-BEKIDEWANAI-001",
+    "title": "～べきではない",
+    "category": "grammar",
+    "level": "N2",
+    "meaning": "不应该……",
+    "usage": "从道德、常识或责任角度提出禁止性建议。",
+    "grammarPattern": "V辞书形＋べきではない",
+    "notes": "语体：both。使用时需同时确认接续、前后句逻辑和语气。",
+    "commonMistakes": [
+      "只记中文翻译，忽略接续形式和前后句逻辑。"
+    ],
+    "memoryTips": "把「～べきではない」与核心含义「不应该……」及一个完整语境一起记忆。",
+    "reviewTips": [
+      "先遮住中文解释，口头说出接续和使用场景。",
+      "用易混表达改写例句，再比较语气是否发生变化。"
+    ],
+    "examples": [
+      "人を外見だけで判断するべきではない。",
+      "無理をしてまで続けるべきではない。"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-BEKIDA-001",
+      "KP-GRA-KOTOWANAI-001",
+      "KP-GRA-TEWANARANAI-001"
+    ],
+    "confusablePointIds": [],
+    "linkedQuestionIds": [
+      "Q-N2-FAC-S12-0013",
+      "Q-N2-FAC-S12-0014",
+      "Q-N2-FAC-S12-0015",
+      "Q-N2-FAC-S12-0016"
+    ],
+    "verificationStatus": "unverified",
+    "sourceType": "ai_structured",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-KOTODA-001",
+    "title": "～ことだ",
+    "category": "grammar",
+    "level": "N2",
+    "meaning": "应该……；最好……",
+    "usage": "对具体对象提出忠告或建议，语气比命令缓和。",
+    "grammarPattern": "V辞书形／ない形＋ことだ",
+    "notes": "语体：both。使用时需同时确认接续、前后句逻辑和语气。",
+    "commonMistakes": [
+      "只记中文翻译，忽略接续形式和前后句逻辑。"
+    ],
+    "memoryTips": "把「～ことだ」与核心含义「应该……；最好……」及一个完整语境一起记忆。",
+    "reviewTips": [
+      "先遮住中文解释，口头说出接续和使用场景。",
+      "用易混表达改写例句，再比较语气是否发生变化。"
+    ],
+    "examples": [
+      "健康のためには、よく眠ることだ。",
+      "失敗しても、あきらめないことです。"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-BEKIDA-001"
+    ],
+    "confusablePointIds": [],
+    "linkedQuestionIds": [],
+    "verificationStatus": "verified",
+    "sourceType": "trusted_learning_site",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-KOTOWANAI-001",
+    "title": "～ことはない",
+    "category": "grammar",
+    "level": "N2",
+    "meaning": "没必要……",
+    "usage": "表示没有必要采取某个行动，用于安慰或建议。",
+    "grammarPattern": "V辞书形＋ことはない",
+    "notes": "语体：both。使用时需同时确认接续、前后句逻辑和语气。",
+    "commonMistakes": [
+      "只记中文翻译，忽略接续形式和前后句逻辑。"
+    ],
+    "memoryTips": "把「～ことはない」与核心含义「没必要……」及一个完整语境一起记忆。",
+    "reviewTips": [
+      "先遮住中文解释，口头说出接续和使用场景。",
+      "用易混表达改写例句，再比较语气是否发生变化。"
+    ],
+    "examples": [
+      "まだ時間があるから、急ぐことはない。",
+      "一度の失敗で落ち込むことはありません。"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-BEKIDEWANAI-001"
+    ],
+    "confusablePointIds": [],
+    "linkedQuestionIds": [],
+    "verificationStatus": "unverified",
+    "sourceType": "ai_structured",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-TEWANARANAI-001",
+    "title": "～てはならない",
+    "category": "grammar",
+    "level": "N2",
+    "meaning": "不得……",
+    "usage": "正式表达规则、道德或制度上的禁止。",
+    "grammarPattern": "Vて形＋はならない",
+    "notes": "语体：written。使用时需同时确认接续、前后句逻辑和语气。",
+    "commonMistakes": [
+      "只记中文翻译，忽略接续形式和前后句逻辑。"
+    ],
+    "memoryTips": "把「～てはならない」与核心含义「不得……」及一个完整语境一起记忆。",
+    "reviewTips": [
+      "先遮住中文解释，口头说出接续和使用场景。",
+      "用易混表达改写例句，再比较语气是否发生变化。"
+    ],
+    "examples": [
+      "許可なく資料を持ち出してはならない。",
+      "同じ誤りを繰り返してはならない。"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-BEKIDEWANAI-001",
+      "KP-GRA-KOTONINATTEIRU-001"
+    ],
+    "confusablePointIds": [],
+    "linkedQuestionIds": [],
+    "verificationStatus": "verified",
+    "sourceType": "trusted_learning_site",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-KOTONINATTEIRU-001",
+    "title": "～ことになっている",
+    "category": "grammar",
+    "level": "N2",
+    "meaning": "规定……；按计划……",
+    "usage": "表示社会规定、组织安排或既定计划。",
+    "grammarPattern": "V辞书形／ない形＋ことになっている",
+    "notes": "语体：both。使用时需同时确认接续、前后句逻辑和语气。",
+    "commonMistakes": [
+      "只记中文翻译，忽略接续形式和前后句逻辑。"
+    ],
+    "memoryTips": "把「～ことになっている」与核心含义「规定……；按计划……」及一个完整语境一起记忆。",
+    "reviewTips": [
+      "先遮住中文解释，口头说出接续和使用场景。",
+      "用易混表达改写例句，再比较语气是否发生变化。"
+    ],
+    "examples": [
+      "この建物では、入口で受付をすることになっている。",
+      "会議は毎月第一月曜日に開くことになっています。"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-TEWANARANAI-001"
+    ],
+    "confusablePointIds": [],
+    "linkedQuestionIds": [],
+    "verificationStatus": "unverified",
+    "sourceType": "ai_structured",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-HODO-001",
+    "title": "～ほど",
+    "category": "grammar",
+    "level": "N2",
+    "meaning": "达到……程度；越……越……",
+    "usage": "表示程度、比较基准或随条件增强的变化。",
+    "grammarPattern": "N／普通形＋ほど；～ば～ほど",
+    "notes": "语体：both。使用时需同时确认接续、前后句逻辑和语气。",
+    "commonMistakes": [
+      "只按中文含义选择，忽略与易混文法在语气和接续上的差别。"
+    ],
+    "memoryTips": "把「～ほど」与核心含义「达到……程度；越……越……」及一个完整语境一起记忆。",
+    "reviewTips": [
+      "先遮住中文解释，口头说出接续和使用场景。",
+      "用易混表达改写例句，再比较语气是否发生变化。"
+    ],
+    "examples": [
+      "立っていられないほど疲れた。",
+      "練習すればするほど上手になる。"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-KURAI-001"
+    ],
+    "confusablePointIds": [
+      "KP-GRA-KURAI-001"
+    ],
+    "linkedQuestionIds": [
+      "Q-N2-FAC-S12-0033",
+      "Q-N2-FAC-S12-0034",
+      "Q-N2-FAC-S12-0035",
+      "Q-N2-FAC-S12-0036"
+    ],
+    "verificationStatus": "unverified",
+    "sourceType": "ai_structured",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-KURAI-001",
+    "title": "～くらい／ぐらい",
+    "category": "grammar",
+    "level": "N2",
+    "meaning": "大约；达到……程度",
+    "usage": "表示大概数量，或举例说明程度。",
+    "grammarPattern": "N／普通形＋くらい",
+    "notes": "语体：both。使用时需同时确认接续、前后句逻辑和语气。",
+    "commonMistakes": [
+      "只按中文含义选择，忽略与易混文法在语气和接续上的差别。"
+    ],
+    "memoryTips": "把「～くらい／ぐらい」与核心含义「大约；达到……程度」及一个完整语境一起记忆。",
+    "reviewTips": [
+      "先遮住中文解释，口头说出接续和使用场景。",
+      "用易混表达改写例句，再比较语气是否发生变化。"
+    ],
+    "examples": [
+      "駅まで十分くらいかかります。",
+      "声が出ないくらい緊張した。"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-HODO-001"
+    ],
+    "confusablePointIds": [
+      "KP-GRA-HODO-001"
+    ],
+    "linkedQuestionIds": [],
+    "verificationStatus": "unverified",
+    "sourceType": "ai_structured",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-NIKURABETE-001",
+    "title": "～に比べて",
+    "category": "grammar",
+    "level": "N2",
+    "meaning": "与……相比",
+    "usage": "以某对象为基准比较差异。",
+    "grammarPattern": "N＋に比べて／に比べると",
+    "notes": "语体：both。使用时需同时确认接续、前后句逻辑和语气。",
+    "commonMistakes": [
+      "只按中文含义选择，忽略与易混文法在语气和接续上的差别。"
+    ],
+    "memoryTips": "把「～に比べて」与核心含义「与……相比」及一个完整语境一起记忆。",
+    "reviewTips": [
+      "先遮住中文解释，口头说出接续和使用场景。",
+      "用易混表达改写例句，再比较语气是否发生变化。"
+    ],
+    "examples": [
+      "去年に比べて、今年は雨が少ない。",
+      "都会に比べると、この町は静かだ。"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-NITAISHITE-001"
+    ],
+    "confusablePointIds": [
+      "KP-GRA-NITAISHITE-001"
+    ],
+    "linkedQuestionIds": [],
+    "verificationStatus": "unverified",
+    "sourceType": "ai_structured",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-NITAISHITE-001",
+    "title": "～に対して",
+    "category": "grammar",
+    "level": "N2",
+    "meaning": "相对于……；针对……",
+    "usage": "表示对象，或把两种性质对照。",
+    "grammarPattern": "N＋に対して／に対する＋N",
+    "notes": "语体：written。使用时需同时确认接续、前后句逻辑和语气。",
+    "commonMistakes": [
+      "只按中文含义选择，忽略与易混文法在语气和接续上的差别。"
+    ],
+    "memoryTips": "把「～に対して」与核心含义「相对于……；针对……」及一个完整语境一起记忆。",
+    "reviewTips": [
+      "先遮住中文解释，口头说出接续和使用场景。",
+      "用易混表达改写例句，再比较语气是否发生变化。"
+    ],
+    "examples": [
+      "兄が活発なのに対して、弟はおとなしい。",
+      "質問に対して、丁寧に答えた。"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-NIKURABETE-001"
+    ],
+    "confusablePointIds": [
+      "KP-GRA-NIKURABETE-001"
+    ],
+    "linkedQuestionIds": [],
+    "verificationStatus": "unverified",
+    "sourceType": "ai_structured",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-WARINI-001",
+    "title": "～わりに",
+    "category": "grammar",
+    "level": "N2",
+    "meaning": "虽然……但出乎比例地……",
+    "usage": "表示结果与根据前项形成的标准不相称。",
+    "grammarPattern": "普通形＋わりに（ナAな／Nの＋わりに）",
+    "notes": "语体：both。使用时需同时确认接续、前后句逻辑和语气。",
+    "commonMistakes": [
+      "只按中文含义选择，忽略与易混文法在语气和接续上的差别。"
+    ],
+    "memoryTips": "把「～わりに」与核心含义「虽然……但出乎比例地……」及一个完整语境一起记忆。",
+    "reviewTips": [
+      "先遮住中文解释，口头说出接续和使用场景。",
+      "用易混表达改写例句，再比较语气是否发生变化。"
+    ],
+    "examples": [
+      "この店は安いわりに、料理がおいしい。",
+      "彼は経験が少ないわりに、仕事が速い。"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-NISHITEWA-001"
+    ],
+    "confusablePointIds": [
+      "KP-GRA-NISHITEWA-001"
+    ],
+    "linkedQuestionIds": [],
+    "verificationStatus": "unverified",
+    "sourceType": "ai_structured",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-NISHITEWA-001",
+    "title": "～にしては",
+    "category": "grammar",
+    "level": "N2",
+    "meaning": "以……来说却……",
+    "usage": "根据前项身份、阶段或条件评价后项超出预想。",
+    "grammarPattern": "普通形／N＋にしては",
+    "notes": "语体：both。使用时需同时确认接续、前后句逻辑和语气。",
+    "commonMistakes": [
+      "只按中文含义选择，忽略与易混文法在语气和接续上的差别。"
+    ],
+    "memoryTips": "把「～にしては」与核心含义「以……来说却……」及一个完整语境一起记忆。",
+    "reviewTips": [
+      "先遮住中文解释，口头说出接续和使用场景。",
+      "用易混表达改写例句，再比较语气是否发生变化。"
+    ],
+    "examples": [
+      "初めてにしては、よくできました。",
+      "子どもにしては、難しい本を読んでいる。"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-WARINI-001"
+    ],
+    "confusablePointIds": [
+      "KP-GRA-WARINI-001"
+    ],
+    "linkedQuestionIds": [],
+    "verificationStatus": "unverified",
+    "sourceType": "ai_structured",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-DOKORODEWANAI-001",
+    "title": "～どころではない",
+    "category": "grammar",
+    "level": "N2",
+    "meaning": "根本不是……的时候；谈不上……",
+    "usage": "表示因紧急情况或程度严重，无法进行前项。",
+    "grammarPattern": "V辞书形／N＋どころではない",
+    "notes": "语体：both。使用时需同时确认接续、前后句逻辑和语气。",
+    "commonMistakes": [
+      "只按中文含义选择，忽略与易混文法在语气和接续上的差别。"
+    ],
+    "memoryTips": "把「～どころではない」与核心含义「根本不是……的时候；谈不上……」及一个完整语境一起记忆。",
+    "reviewTips": [
+      "先遮住中文解释，口头说出接续和使用场景。",
+      "用易混表达改写例句，再比较语气是否发生变化。"
+    ],
+    "examples": [
+      "仕事が忙しくて、旅行どころではない。",
+      "痛みがひどくて、歩くどころではなかった。"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-DOKOROKA-001"
+    ],
+    "confusablePointIds": [
+      "KP-GRA-DOKOROKA-001"
+    ],
+    "linkedQuestionIds": [
+      "Q-N2-FAC-S12-0021",
+      "Q-N2-FAC-S12-0022",
+      "Q-N2-FAC-S12-0023",
+      "Q-N2-FAC-S12-0024"
+    ],
+    "verificationStatus": "verified",
+    "sourceType": "trusted_learning_site",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-UCHINI-001",
+    "title": "～うちに",
+    "category": "grammar",
+    "level": "N2",
+    "meaning": "趁着……；在……过程中",
+    "usage": "表示状态改变前完成动作，或过程中自然发生变化。",
+    "grammarPattern": "V辞书形／ている／ない形・イAい・ナAな・Nの＋うちに",
+    "notes": "语体：both。使用时需同时确认接续、前后句逻辑和语气。",
+    "commonMistakes": [
+      "只记中文翻译，忽略接续形式和前后句逻辑。"
+    ],
+    "memoryTips": "把「～うちに」与核心含义「趁着……；在……过程中」及一个完整语境一起记忆。",
+    "reviewTips": [
+      "先遮住中文解释，口头说出接续和使用场景。",
+      "用易混表达改写例句，再比较语气是否发生变化。"
+    ],
+    "examples": [
+      "温かいうちに、どうぞ食べてください。",
+      "日本にいるうちに、各地を旅行したい。"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-TEIRAI-001"
+    ],
+    "confusablePointIds": [],
+    "linkedQuestionIds": [],
+    "verificationStatus": "unverified",
+    "sourceType": "ai_structured",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-SAICHUUNI-001",
+    "title": "～最中に",
+    "category": "grammar",
+    "level": "N2",
+    "meaning": "正在……的时候",
+    "usage": "强调动作正处于最紧要或进行中的时刻。",
+    "grammarPattern": "Vている／Nの＋最中に",
+    "notes": "语体：both。使用时需同时确认接续、前后句逻辑和语气。",
+    "commonMistakes": [
+      "只按中文含义选择，忽略与易混文法在语气和接续上的差别。"
+    ],
+    "memoryTips": "把「～最中に」与核心含义「正在……的时候」及一个完整语境一起记忆。",
+    "reviewTips": [
+      "先遮住中文解释，口头说出接续和使用场景。",
+      "用易混表达改写例句，再比较语气是否发生变化。"
+    ],
+    "examples": [
+      "会議の最中に、電話が鳴った。",
+      "食事をしている最中に、客が来た。"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-TOKORONI-001"
+    ],
+    "confusablePointIds": [
+      "KP-GRA-TOKORONI-001"
+    ],
+    "linkedQuestionIds": [],
+    "verificationStatus": "unverified",
+    "sourceType": "ai_structured",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-TABINI-001",
+    "title": "～たびに",
+    "category": "grammar",
+    "level": "N2",
+    "meaning": "每当……就……",
+    "usage": "表示每次前项发生，后项也反复发生。",
+    "grammarPattern": "V辞书形／Nの＋たびに",
+    "notes": "语体：both。使用时需同时确认接续、前后句逻辑和语气。",
+    "commonMistakes": [
+      "只记中文翻译，忽略接续形式和前后句逻辑。"
+    ],
+    "memoryTips": "把「～たびに」与核心含义「每当……就……」及一个完整语境一起记忆。",
+    "reviewTips": [
+      "先遮住中文解释，口头说出接续和使用场景。",
+      "用易混表达改写例句，再比较语气是否发生变化。"
+    ],
+    "examples": [
+      "この写真を見るたびに、旅行を思い出す。",
+      "出張のたびに、家族へ土産を買う。"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-KAGIRI-001"
+    ],
+    "confusablePointIds": [],
+    "linkedQuestionIds": [],
+    "verificationStatus": "unverified",
+    "sourceType": "ai_structured",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-TOKORONI-001",
+    "title": "～ところに／へ／を",
+    "category": "grammar",
+    "level": "N2",
+    "meaning": "正当……时；在……场合",
+    "usage": "表示某动作阶段恰好出现另一事件，助词由后项决定。",
+    "grammarPattern": "V辞书形／ている／た形＋ところに・へ・を",
+    "notes": "语体：both。使用时需同时确认接续、前后句逻辑和语气。",
+    "commonMistakes": [
+      "只按中文含义选择，忽略与易混文法在语气和接续上的差别。"
+    ],
+    "memoryTips": "把「～ところに／へ／を」与核心含义「正当……时；在……场合」及一个完整语境一起记忆。",
+    "reviewTips": [
+      "先遮住中文解释，口头说出接续和使用场景。",
+      "用易混表达改写例句，再比较语气是否发生变化。"
+    ],
+    "examples": [
+      "出かけようとしたところに、友人が来た。",
+      "困っているところを、先生に助けてもらった。"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-SAICHUUNI-001"
+    ],
+    "confusablePointIds": [
+      "KP-GRA-SAICHUUNI-001"
+    ],
+    "linkedQuestionIds": [],
+    "verificationStatus": "verified",
+    "sourceType": "trusted_learning_site",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-TEIRAI-001",
+    "title": "～て以来",
+    "category": "grammar",
+    "level": "N2",
+    "meaning": "自从……以来",
+    "usage": "表示从过去某时点开始，状态持续到现在。",
+    "grammarPattern": "Vて形＋以来",
+    "notes": "语体：written。使用时需同时确认接续、前后句逻辑和语气。",
+    "commonMistakes": [
+      "只记中文翻译，忽略接续形式和前后句逻辑。"
+    ],
+    "memoryTips": "把「～て以来」与核心含义「自从……以来」及一个完整语境一起记忆。",
+    "reviewTips": [
+      "先遮住中文解释，口头说出接续和使用场景。",
+      "用易混表达改写例句，再比较语气是否发生变化。"
+    ],
+    "examples": [
+      "日本に来て以来、毎日日記を書いている。",
+      "彼とは卒業して以来、会っていない。"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-UCHINI-001"
+    ],
+    "confusablePointIds": [],
+    "linkedQuestionIds": [
+      "Q-N2-FAC-GRA-0029",
+      "Q-N2-FAC-GRA-0030",
+      "Q-N2-FAC-GRA-0031",
+      "Q-N2-FAC-GRA-0032"
+    ],
+    "verificationStatus": "verified",
+    "sourceType": "trusted_learning_site",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-NISAKIDATTE-001",
+    "title": "～に先立って",
+    "category": "grammar",
+    "level": "N2",
+    "meaning": "在……之前",
+    "usage": "表示在重要事件前先进行准备，较正式。",
+    "grammarPattern": "N／V辞书形＋に先立って／に先立ち",
+    "notes": "语体：written。使用时需同时确认接续、前后句逻辑和语气。",
+    "commonMistakes": [
+      "只按中文含义选择，忽略与易混文法在语气和接续上的差别。"
+    ],
+    "memoryTips": "把「～に先立って」与核心含义「在……之前」及一个完整语境一起记忆。",
+    "reviewTips": [
+      "先遮住中文解释，口头说出接续和使用场景。",
+      "用易混表达改写例句，再比较语气是否发生变化。"
+    ],
+    "examples": [
+      "開会に先立って、会長が挨拶した。",
+      "工事を始めるに先立ち、住民へ説明を行った。"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-NISAISHITE-001"
+    ],
+    "confusablePointIds": [
+      "KP-GRA-NISAISHITE-001"
+    ],
+    "linkedQuestionIds": [],
+    "verificationStatus": "verified",
+    "sourceType": "trusted_learning_site",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  },
+  {
+    "knowledgePointId": "KP-GRA-NISAISHITE-001",
+    "title": "～に際して",
+    "category": "grammar",
+    "level": "N2",
+    "meaning": "值此……之际；在……时",
+    "usage": "用于特殊、正式场合，说明当时采取的行动。",
+    "grammarPattern": "N／V辞书形＋に際して／に際し",
+    "notes": "语体：written。使用时需同时确认接续、前后句逻辑和语气。",
+    "commonMistakes": [
+      "只按中文含义选择，忽略与易混文法在语气和接续上的差别。"
+    ],
+    "memoryTips": "把「～に際して」与核心含义「值此……之际；在……时」及一个完整语境一起记忆。",
+    "reviewTips": [
+      "先遮住中文解释，口头说出接续和使用场景。",
+      "用易混表达改写例句，再比较语气是否发生变化。"
+    ],
+    "examples": [
+      "入学に際して、必要な書類を提出した。",
+      "契約するに際し、条件を確認してください。"
+    ],
+    "relatedPointIds": [
+      "KP-GRA-NISAKIDATTE-001"
+    ],
+    "confusablePointIds": [
+      "KP-GRA-NISAKIDATTE-001"
+    ],
+    "linkedQuestionIds": [],
+    "verificationStatus": "verified",
+    "sourceType": "trusted_learning_site",
+    "version": 1,
+    "updatedAt": "2026-07-01T16:26:08.371Z"
+  }
+]

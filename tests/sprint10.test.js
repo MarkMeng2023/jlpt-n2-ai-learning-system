@@ -11,11 +11,13 @@ const points = JSON.parse(await readFile(new URL("../data/knowledge-points.json"
 const grammar = JSON.parse(await readFile(new URL("../knowledge/grammar/grammar-points.json", import.meta.url), "utf8"));
 const sources = JSON.parse(await readFile(new URL("../data/knowledge-point-sources.json", import.meta.url), "utf8"));
 const version = JSON.parse(await readFile(new URL("../data/version.json", import.meta.url), "utf8"));
+const sprint10Version = { ...version, version: "v1.10.0", sprint: "Sprint 10" };
+const sprint10Questions = questions.filter((question) => !question.questionId.startsWith("Q-N2-FAC-S12-"));
 const phase2 = questions.filter((question) => question.questionId.startsWith("Q-N2-FAC-GRA-"));
 const phase2Ids = ["KP-GRA-AGEKU-001","KP-GRA-IJOUWA-001","KP-GRA-KAGIRI-001","KP-GRA-NAIKOTONIWA-001","KP-GRA-NIMOKAKAWARAZU-001","KP-GRA-NISUGINAI-001","KP-GRA-OSOREGAARU-001","KP-GRA-TEIRAI-001","KP-GRA-BAKARIDA-001","KP-GRA-BAKARINI-001"];
 
 test("Phase 2 仅为未参与 Sprint 9 的 Top 10 新增40题", () => {
-  assert.equal(questions.length, 165);
+  assert.equal(sprint10Questions.length, 165);
   assert.equal(phase2.length, 40);
   assert.deepEqual(new Set(phase2.map((question) => question.knowledgePointId)), new Set(phase2Ids));
   phase2Ids.forEach((id) => assert.equal(questions.filter((question) => question.knowledgePointIds.includes(id)).length, 4));
@@ -41,7 +43,7 @@ test("Phase 2 元数据和完整解析符合约束", () => {
 });
 
 test("Sprint 10 Coverage 为165/845与19.53%", () => {
-  const factory = buildQuestionFactoryPlan({ basePoints: points, grammarPoints: grammar, questions });
+  const factory = buildQuestionFactoryPlan({ basePoints: points, grammarPoints: grammar, questions: sprint10Questions });
   assert.equal(factory.summary.knowledgePointCount, 100);
   assert.equal(factory.summary.currentAssociations, 165);
   assert.equal(factory.summary.totalTarget, 845);
@@ -51,7 +53,7 @@ test("Sprint 10 Coverage 为165/845与19.53%", () => {
 });
 
 test("Project Status 从版本和题库数据自动计算", async () => {
-  const status = buildProjectStatus({ questions, basePoints: points, grammarPoints: grammar, version });
+  const status = buildProjectStatus({ questions: sprint10Questions, basePoints: points, grammarPoints: grammar, version: sprint10Version });
   assert.equal(status.version, "v1.10.0");
   assert.equal(status.sprint, "Sprint 10");
   assert.equal(status.questionCount, 165);
@@ -60,8 +62,8 @@ test("Project Status 从版本和题库数据自动计算", async () => {
   assert.equal(status.questionTarget, 845);
   assert.ok(!Number.isNaN(Date.parse(status.lastUpdated)));
 
-  const fetchMock = async (url) => ({ ok: true, json: async () => url.includes("version") ? version : grammar });
-  assert.deepEqual(await loadProjectStatusData(questions, points, fetchMock), status);
+  const fetchMock = async (url) => ({ ok: true, json: async () => url.includes("version") ? sprint10Version : grammar });
+  assert.deepEqual(await loadProjectStatusData(sprint10Questions, points, fetchMock), status);
 });
 
 test("首页 Project Status 无硬编码统计值", async () => {
@@ -87,9 +89,9 @@ test("Sprint 10 报告与流水线命令已更新", async () => {
     readFile(new URL("../reports/question-bank-quality.md", import.meta.url), "utf8"),
     readFile(new URL("../package.json", import.meta.url), "utf8").then(JSON.parse)
   ]);
-  assert.match(coverage, /当前题目数：\*\*165\*\*/);
-  assert.match(coverage, /目标完成率：\*\*19\.53%\*\*/);
-  assert.match(plan, /建议新增关联数：\*\*680\*\*/);
-  assert.match(quality, /\| Questions \| 165 \|/);
+  assert.match(coverage, /当前题目数：\*\*205\*\*/);
+  assert.match(coverage, /目标完成率：\*\*24\.26%\*\*/);
+  assert.match(plan, /建议新增关联数：\*\*640\*\*/);
+  assert.match(quality, /\| 题目数 \| 205 \|/);
   assert.match(pkg.scripts["pipeline:sprint10"], /generate-sprint10-questions/);
 });

@@ -22,15 +22,15 @@ const elements = Object.fromEntries([
   "home-button", "answer-form", "choices", "question-number", "question-type", "question-heading",
   "submit-button", "next-button", "feedback", "feedback-title", "correct-answer", "explanation",
   "sync-status", "sync-detail", "pending-count", "prompt-section", "chatgpt-prompt",
-  "copy-button", "copy-status"
-  , "project-eyebrow", "project-status-sprint", "project-version", "project-question-count",
-  "project-knowledge-count", "project-coverage", "project-question-target", "project-last-updated"
+  "copy-button", "copy-status", "project-eyebrow", "project-status-sprint", "project-version", "project-question-count",
+  "project-knowledge-count", "project-coverage", "project-question-target", "project-last-updated",
+  "project-card-count", "project-card-coverage"
 ].map((id) => [id.replaceAll("-", "_"), document.querySelector(`#${id}`)]));
 
 const queue = new SyncQueue(APP_CONFIG.queueStorageKey);
 const progressStore = new ProgressStore(APP_CONFIG.progressStorageKey);
 const syncClient = new SyncClient(APP_CONFIG.appsScriptUrl, APP_CONFIG.requestTimeoutMs);
-const modeNames = { continue: "继续学习", review: "今日复习", mistakes: "错题重做", random: "随机练习" };
+const modeNames = { continue: "继续学习", review: "今日复习", mistakes: "错题重练", random: "随机练习" };
 const questionTypeNames = {
   vocabulary_collocation: "词汇・固定搭配",
   adverb: "词汇・副词",
@@ -65,7 +65,7 @@ async function init() {
   try {
     const bank = await loadQuestionBank();
     questions = bank.questions;
-    const projectStatus = await loadProjectStatusData(questions, bank.knowledgePoints, undefined, bank.grammarPoints);
+    const projectStatus = await loadProjectStatusData(questions, bank.knowledgePoints, undefined, bank.grammarPoints, bank.knowledgeCards);
     renderProjectStatus(projectStatus);
 
     const pendingRecords = queue.getAll().map((operation) => operation.answerRecord).filter(Boolean);
@@ -100,8 +100,10 @@ function renderProjectStatus(status) {
   elements.project_eyebrow.textContent = `JLPT N2 · ${status.sprint}`;
   elements.project_status_sprint.textContent = status.sprint;
   elements.project_version.textContent = status.version;
-  elements.project_question_count.textContent = `${status.questionCount} Questions`;
+  elements.project_question_count.textContent = `${status.questionCount} 题`;
   elements.project_knowledge_count.textContent = String(status.knowledgePointCount);
+  elements.project_card_count.textContent = `${status.knowledgeCardCount} / ${status.knowledgePointCount}`;
+  elements.project_card_coverage.textContent = `${status.knowledgeCardCoverage.toFixed(2)}%`;
   elements.project_coverage.textContent = `${status.coverage.toFixed(2)}%`;
   elements.project_question_target.textContent = `${status.questionCount} / ${status.questionTarget}`;
   elements.project_last_updated.textContent = new Intl.DateTimeFormat("zh-CN", {
@@ -271,7 +273,7 @@ async function handleSubmit(event) {
     const result = await syncClient.submit(operation);
     queue.remove(operation.operationId);
     updatePendingCount();
-    elements.sync_status.textContent = "✅ 已更新完成";
+  elements.sync_status.textContent = "同步成功";
     elements.sync_detail.textContent = formatSyncResult(result);
     persistLearningProfile();
   } catch (error) {

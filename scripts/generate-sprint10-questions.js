@@ -4,12 +4,12 @@ import { createQuestionMetadata } from "../src/question-factory.js";
 
 const questionsUrl = new URL("../data/questions.json", import.meta.url);
 const versionUrl = new URL("../data/version.json", import.meta.url);
-const [questions, grammarPoints, version] = await Promise.all([
+const [questions, knowledgeCards, version] = await Promise.all([
   readFile(questionsUrl, "utf8").then(JSON.parse),
-  readFile(new URL("../knowledge/grammar/grammar-points.json", import.meta.url), "utf8").then(JSON.parse),
+  readFile(new URL("../data/knowledge-cards.json", import.meta.url), "utf8").then(JSON.parse),
   readFile(versionUrl, "utf8").then(JSON.parse)
 ]);
-const pointById = new Map(grammarPoints.map((point) => [point.knowledgePointId, point]));
+const pointById = new Map(knowledgeCards.map((point) => [point.knowledgePointId, point]));
 const generatedAt = new Date();
 
 // [knowledgePointId, prompt, choices A/B/C/D, answer, correct reason, difficulty, generation stage]
@@ -81,7 +81,7 @@ const generated = specs.map(([pointId, prompt, values, answer, reason, difficult
     prompt, choices, correctAnswer: answer, explanation: explanation(point, choices, answer, reason),
     knowledgePointIds: [pointId], knowledgePointTitles: [point.title],
     ...createQuestionMetadata({ knowledgePointId: pointId, generationType: "question_factory", difficulty, now: generatedAt }),
-    sourceName: "JLPT N2 AI Learning System Question Factory", tags: ["question_factory", stage, ...point.tags.slice(0, 1)], estimatedTime: 60
+    sourceName: "JLPT N2 AI Learning System Question Factory", tags: ["question_factory", stage, ...((point.tags || [point.category]).slice(0, 1))], estimatedTime: 60
   };
 });
 

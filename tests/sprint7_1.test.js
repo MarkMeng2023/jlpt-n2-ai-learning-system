@@ -40,7 +40,7 @@ test("十个功能分类均有文法点且总数与报告一致", () => {
 
 test("现有题库覆盖的 10 个 grammar knowledgePoint 均映射到主数据库", () => {
   const pointIds = new Set(points.map((point) => point.knowledgePointId));
-  const sprint7Questions = questions.filter((question) => !question.questionId.startsWith("Q-N2-FAC-GRA-"));
+  const sprint7Questions = questions.filter((question) => !question.questionId.startsWith("Q-N2-FAC-GRA-") && !question.questionId.startsWith("Q-N2-FAC-S12-"));
   const covered = new Set(sprint7Questions.flatMap((question) => question.knowledgePointIds).filter((id) => pointIds.has(id)));
   assert.equal(covered.size, 10);
   covered.forEach((id) => assert.ok(pointIds.has(id)));

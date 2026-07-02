@@ -1,5 +1,18 @@
 # Changelog
 
+## Sprint 12
+
+- 首页用户可见文案完成简体中文化，Project Status 显示 `v1.12.0`、`Sprint 12`、题库总量、知识点、知识卡、覆盖率、目标题量和最后更新时间。
+- Question Factory Phase 3 按当前缺口 Top 10 文法知识点各补充4题，题库扩展至205题。
+- 新增题保持 `question_factory` / `ai_generated` 元数据、完整 A/B/C/D 干扰项分析和两个类似例句。
+- 自动报告标题中文化：题库覆盖率报告、出题计划、题库质量报告、知识卡覆盖率报告。
+
+## Sprint 11
+
+- 新增100张统一 Knowledge Card，包含用法、接续、注意事项、常见错误、记忆技巧、例句、复习建议和题目反向关联。
+- Question Bank运行时、Review上下文与Question Factory统一接入 Knowledge Card 数据源。
+- 新增 Knowledge Card Validation、覆盖报告、验证报告及首页 Knowledge Card 状态。
+
 ## Sprint 10
 
 - Question Factory Phase 2 为第二批10个高优先级文法点各补充4题，并将题库扩展至165题。

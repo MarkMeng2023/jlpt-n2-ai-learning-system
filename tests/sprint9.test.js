@@ -11,7 +11,7 @@ const grammar = JSON.parse(await readFile(new URL("../knowledge/grammar/grammar-
 const sources = JSON.parse(await readFile(new URL("../data/knowledge-point-sources.json", import.meta.url), "utf8"));
 const approved = new Set(["KP-READ-GUIDE-001","KP-READ-MAINIDEA-001","KP-READ-MEMO-001","KP-READ-NOTICE-001","KP-READ-REASON-001","KP-SYN-DATO-001","KP-SYN-HABUKU-001","KP-SYN-METTANI-001","KP-SYN-OOYOSO-001","KP-SYN-TADACHINI-001"]);
 const generated = questions.filter((question) => question.generationType === "question_factory" && approved.has(question.knowledgePointId));
-const sprint9Questions = questions.filter((question) => !question.questionId.startsWith("Q-N2-FAC-GRA-"));
+const sprint9Questions = questions.filter((question) => !question.questionId.startsWith("Q-N2-FAC-GRA-") && !question.questionId.startsWith("Q-N2-FAC-S12-"));
 
 test("Sprint 9 仅为 Factory Phase 1 Top 10 新增45题", () => {
   assert.equal(sprint9Questions.length, 125);

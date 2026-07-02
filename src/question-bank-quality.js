@@ -223,32 +223,32 @@ function listOrNone(items, formatter = (item) => item) {
 export function renderQualityReportMarkdown(report) {
   const s = report.summary;
   const lines = [
-    "# Question Bank Quality Report",
+    "# 题库质量报告",
     "",
     `Generated: ${report.generatedAt}`,
     "",
-    `Expansion gate: **${s.expansionGate}**`,
+    `扩题门禁：**${s.expansionGate === "PASS" ? "✅ 通过" : "HOLD"}**`,
     "",
-    "## Summary",
+    "## 摘要",
     "",
-    "| Metric | Count |",
+    "| 指标 | 数量 |",
     "| --- | ---: |",
-    `| Questions | ${s.questionCount} |`,
-    `| Knowledge points | ${s.knowledgePointCount} |`,
-    `| Verified knowledge points | ${s.verifiedKnowledgePointCount} |`,
-    `| Knowledge points with only AI sources | ${s.onlyAiKnowledgePointCount} |`,
-    `| Knowledge points missing validation sources | ${s.missingValidationSourceCount} |`,
-    `| Explanations below length threshold | ${s.shortExplanationCount} |`,
-    `| Explanations missing distractor analysis | ${s.missingDistractorAnalysisCount} |`,
-    `| Obvious-option review candidates | ${s.obviousOptionCandidateCount} |`,
-    `| Multiple-answer review candidates | ${s.multipleAnswerCandidateCount} |`,
-    `| Publication blockers | ${s.publicationBlockerCount} |`,
+    `| 题目数 | ${s.questionCount} |`,
+    `| 知识点数 | ${s.knowledgePointCount} |`,
+    `| 已验证知识点 | ${s.verifiedKnowledgePointCount} |`,
+    `| 仅有 AI 来源的知识点 | ${s.onlyAiKnowledgePointCount} |`,
+    `| 缺少验证来源的知识点 | ${s.missingValidationSourceCount} |`,
+    `| 解析低于长度阈值 | ${s.shortExplanationCount} |`,
+    `| 解析缺少干扰项分析 | ${s.missingDistractorAnalysisCount} |`,
+    `| 选项过于明显候选 | ${s.obviousOptionCandidateCount} |`,
+    `| 多正确答案候选 | ${s.multipleAnswerCandidateCount} |`,
+    `| 发布阻断项 | ${s.publicationBlockerCount} |`,
     "",
-    "The obvious-option and multiple-answer checks are heuristics. PASS still requires human Japanese-language review.",
+    "选项明显度和多答案检查是启发式规则；即使通过，仍建议人工日语质量复核。",
     "",
-    "## Knowledge Point Coverage and Evidence",
+    "## 知识点覆盖与来源依据",
     "",
-    "| Knowledge Point | Title | Questions | Status | Evidence | Question Sources | AI Only |",
+    "| 知识点 | 标题 | 题数 | 状态 | 依据 | 题目来源 | 仅 AI |",
     "| --- | --- | ---: | --- | --- | --- | --- |"
   ];
   report.knowledgePointCoverage.forEach((point) => {
@@ -257,24 +257,24 @@ export function renderQualityReportMarkdown(report) {
       : "未登记";
     lines.push(`| ${markdownCell(point.knowledgePointId)} | ${markdownCell(point.title)} | ${point.questionCount} | ${point.validationStatus} | ${markdownCell(evidence)} | ${markdownCell(point.sourceTypes.join(", "))} | ${point.onlyAiSource ? "YES" : "NO"} |`);
   });
-  lines.push("", "## Question Sources", "", "| Question | sourceType | sourceName |", "| --- | --- | --- |");
+  lines.push("", "## 题目来源", "", "| 题目 | sourceType | sourceName |", "| --- | --- | --- |");
   report.questionSources.forEach((question) => {
     lines.push(`| ${markdownCell(question.questionId)} | ${markdownCell(question.sourceType)} | ${markdownCell(question.sourceName)} |`);
   });
   lines.push(
-    "", "## Knowledge Points With Only AI Sources", "",
+    "", "## 仅有 AI 来源的知识点", "",
     listOrNone(report.onlyAiKnowledgePoints),
-    "", "## Knowledge Points Missing Validation Sources", "",
+    "", "## 缺少验证来源的知识点", "",
     listOrNone(report.missingValidationSources),
-    "", "## Short Explanations", "",
-    listOrNone(report.shortExplanations, (item) => `${item.questionId} (${item.length} chars)`),
-    "", "## Explanations Missing Distractor Analysis", "",
+    "", "## 解析过短", "",
+    listOrNone(report.shortExplanations, (item) => `${item.questionId}（${item.length} 字符）`),
+    "", "## 缺少干扰项分析的解析", "",
     listOrNone(report.missingDistractorAnalysis),
-    "", "## Obvious-Option Review Candidates", "",
+    "", "## 选项过于明显候选", "",
     listOrNone(report.obviousOptionCandidates, (item) => `${item.questionId}: ${item.reasons.join("; ")}`),
-    "", "## Possible Multiple-Answer Candidates", "",
+    "", "## 可能存在多个正确答案的候选", "",
     listOrNone(report.multipleAnswerCandidates, (item) => `${item.questionId}: ${item.reasons.join("; ")}`),
-    "", "## Source Registry Errors", "",
+    "", "## 来源登记错误", "",
     listOrNone(report.sourceErrors),
     ""
   );

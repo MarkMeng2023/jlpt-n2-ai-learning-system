@@ -2,12 +2,11 @@
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { buildQuestionFactoryPlan, DEFAULT_COVERAGE_RULES } from "../src/question-factory.js";
 
-const [basePoints, grammarPoints, questions] = await Promise.all([
-  readFile(new URL("../data/knowledge-points.json", import.meta.url), "utf8").then(JSON.parse),
-  readFile(new URL("../knowledge/grammar/grammar-points.json", import.meta.url), "utf8").then(JSON.parse),
+const [knowledgeCards, questions] = await Promise.all([
+  readFile(new URL("../data/knowledge-cards.json", import.meta.url), "utf8").then(JSON.parse),
   readFile(new URL("../data/questions.json", import.meta.url), "utf8").then(JSON.parse)
 ]);
-const result = buildQuestionFactoryPlan({ basePoints, grammarPoints, questions });
+const result = buildQuestionFactoryPlan({ knowledgeCards, questions });
 const { summary, coverage, generationPlan } = result;
 const percent = (value) => `${value.toFixed(2)}%`;
 const yesNo = (value) => value ? "YES" : "NO";
@@ -16,13 +15,13 @@ const recommendations = (entry) => entry.recommendations
   .join("；");
 
 const coverageReport = [
-  "# Question Coverage Report",
+  "# 题库覆盖率报告",
   "",
-  "由 Knowledge Point Driven Question Factory 确定性生成。本报告统计题目与知识点的关联数；一题绑定多个知识点时，每个关联分别计数。",
+  "由知识点驱动题库工厂确定性生成。本报告统计题目与知识点的关联数；一题绑定多个知识点时，每个关联分别计数。",
   "",
-  "## Summary",
+  "## 摘要",
   "",
-  `- Knowledge Point 总数：**${summary.knowledgePointCount}**`,
+  `- 知识点总数：**${summary.knowledgePointCount}**`,
   `- 当前题目数：**${summary.questionCount}**`,
   `- 当前题目—知识点关联数：**${summary.currentAssociations}**`,
   `- 理论目标关联数：**${summary.totalTarget}**`,
@@ -30,13 +29,13 @@ const coverageReport = [
   `- 目标完成率：**${percent(summary.targetCoverageRate)}**`,
   `- 至少有 1 题的知识点：**${summary.coveredKnowledgePoints}/${summary.knowledgePointCount}（${percent(summary.pointCoverageRate)}）**`,
   "",
-  "## Coverage Rules",
+  "## 覆盖规则",
   "",
   "| 类型 | 目标题数 |",
   "| --- | ---: |",
   ...Object.entries(DEFAULT_COVERAGE_RULES).map(([kind, target]) => `| ${kind} | ${target} |`),
   "",
-  "## Knowledge Point Coverage",
+  "## 知识点覆盖明细",
   "",
   "| Knowledge Point | 标题 | 类型 | 当前 | 目标 | 缺口 | 完成率 |",
   "| --- | --- | --- | ---: | ---: | ---: | ---: |",
@@ -45,33 +44,33 @@ const coverageReport = [
 ];
 
 const planReport = [
-  "# Question Generation Plan",
+  "# 出题计划",
   "",
-  "Factory 只生成待补计划，不直接生成或写入题目。任何新增题仍须依次通过 Question Validation、Question Review 和 Question Bank Validation。",
+  "题库工厂只生成待补计划，不直接生成或写入题目。任何新增题仍须依次通过题目校验、人工题目复核和题库校验。",
   "",
-  "## Summary",
+  "## 摘要",
   "",
-  `- 待补 Knowledge Points：**${generationPlan.length}**`,
+  `- 待补知识点：**${generationPlan.length}**`,
   `- 建议新增关联数：**${summary.totalGap}**`,
   `- 当前目标完成率：**${percent(summary.targetCoverageRate)}**`,
   "",
-  "## Required Metadata",
+  "## 必需元数据",
   "",
   "未来工厂生成的题目元数据必须包含：`difficulty`、`reviewWeight`、`knowledgePointId`、`generationType`、`sourceType`、`version`、`createdAt`。",
   "",
-  "## Plan",
+  "## 计划",
   "",
-  "| Priority | Knowledge Point | 标题 | 建议新增 | 题型与难度建议 | 已有真题 | 已有 AI 题 |",
+  "| 优先级 | 知识点 | 标题 | 建议新增 | 题型与难度建议 | 已有真题 | 已有 AI 题 |",
   "| --- | --- | --- | ---: | --- | --- | --- |",
   ...generationPlan.map((entry) => `| ${entry.priority} | ${entry.knowledgePointId} | ${entry.title} | ${entry.gap} | ${recommendations(entry)} | ${yesNo(entry.hasOfficialQuestion)} | ${yesNo(entry.hasAiQuestion)} |`),
   "",
-  "## Quality Gate",
+  "## 质量门禁",
   "",
-  "1. Question Factory 生成待补计划。",
+  "1. 题库工厂生成待补计划。",
   "2. 人工或后续生成流程依据计划制作候选题。",
-  "3. 候选题通过 Question Validation。",
-  "4. 候选题通过 Question Review。",
-  "5. 合并后运行 Question Bank Validation，全部通过才可进入正式题库。",
+  "3. 候选题通过题目校验。",
+  "4. 候选题通过人工题目复核。",
+  "5. 合并后运行题库校验，全部通过才可进入正式题库。",
   ""
 ];
 

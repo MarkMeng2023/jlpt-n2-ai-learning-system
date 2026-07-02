@@ -5818,5 +5818,1525 @@
       "原因/结果"
     ],
     "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-S12-0001",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_basic",
+    "prompt": "緊張の（　　）、面接で名前を言い間違えてしまった。",
+    "choices": {
+      "A": "あまり",
+      "B": "ばかりか",
+      "C": "反面",
+      "D": "一方で"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～あまり（由于过度……而……）。接续：V普通形／ナAな／Nの＋あまり。正确答案：A。正确理由：感情や状態が強すぎた結果、思わぬ行動が起きたので「あまり」が自然である。 选项分析：A「あまり」：正确。感情や状態が強すぎた結果、思わぬ行動が起きたので「あまり」が自然である。 B「ばかりか」：错误。它不能满足「～あまり」要求的接续、语义关系或语境功能，因此不适合本题。 C「反面」：错误。它不能满足「～あまり」要求的接续、语义关系或语境功能，因此不适合本题。 D「一方で」：错误。它不能满足「～あまり」要求的接续、语义关系或语境功能，因此不适合本题。 涉及知识点：～あまり。类似例句1：緊張のあまり、名前を言い間違えた。 类似例句2：うれしさのあまり、涙が出た。",
+    "knowledgePointIds": [
+      "KP-GRA-AMARI-001"
+    ],
+    "knowledgePointTitles": [
+      "～あまり"
+    ],
+    "difficulty": 2,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-AMARI-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-01T16:26:08.326Z",
+    "updatedAt": "2026-07-01T16:26:08.326Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint12",
+      "basic",
+      "grammar"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-S12-0002",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_distinction",
+    "prompt": "うれしさのあまり、彼女は（　　）。",
+    "choices": {
+      "A": "涙を流した",
+      "B": "予定を立てるべきだ",
+      "C": "静かな反面だ",
+      "D": "帰るはずだった"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～あまり（由于过度……而……）。接续：V普通形／ナAな／Nの＋あまり。正确答案：A。正确理由：喜びが強すぎた結果として涙が出た、という因果関係が「あまり」に合う。 选项分析：A「涙を流した」：正确。喜びが強すぎた結果として涙が出た、という因果関係が「あまり」に合う。 B「予定を立てるべきだ」：错误。它不能满足「～あまり」要求的接续、语义关系或语境功能，因此不适合本题。 C「静かな反面だ」：错误。它不能满足「～あまり」要求的接续、语义关系或语境功能，因此不适合本题。 D「帰るはずだった」：错误。它不能满足「～あまり」要求的接续、语义关系或语境功能，因此不适合本题。 涉及知识点：～あまり。类似例句1：緊張のあまり、名前を言い間違えた。 类似例句2：うれしさのあまり、涙が出た。",
+    "knowledgePointIds": [
+      "KP-GRA-AMARI-001"
+    ],
+    "knowledgePointTitles": [
+      "～あまり"
+    ],
+    "difficulty": 3,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-AMARI-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-01T16:26:08.326Z",
+    "updatedAt": "2026-07-01T16:26:08.326Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint12",
+      "distinction",
+      "grammar"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-S12-0003",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_context",
+    "prompt": "仕事に集中するあまり、昼食を（　　）。",
+    "choices": {
+      "A": "忘れてしまった",
+      "B": "食べるばかりか",
+      "C": "食べるべく",
+      "D": "食べる一方で"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～あまり（由于过度……而……）。接续：V普通形／ナAな／Nの＋あまり。正确答案：A。正确理由：集中しすぎた結果の失敗・不注意を表すため「忘れてしまった」が自然である。 选项分析：A「忘れてしまった」：正确。集中しすぎた結果の失敗・不注意を表すため「忘れてしまった」が自然である。 B「食べるばかりか」：错误。它不能满足「～あまり」要求的接续、语义关系或语境功能，因此不适合本题。 C「食べるべく」：错误。它不能满足「～あまり」要求的接续、语义关系或语境功能，因此不适合本题。 D「食べる一方で」：错误。它不能满足「～あまり」要求的接续、语义关系或语境功能，因此不适合本题。 涉及知识点：～あまり。类似例句1：緊張のあまり、名前を言い間違えた。 类似例句2：うれしさのあまり、涙が出た。",
+    "knowledgePointIds": [
+      "KP-GRA-AMARI-001"
+    ],
+    "knowledgePointTitles": [
+      "～あまり"
+    ],
+    "difficulty": 3,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-AMARI-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-01T16:26:08.326Z",
+    "updatedAt": "2026-07-01T16:26:08.326Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint12",
+      "context",
+      "grammar"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-S12-0004",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_integrated",
+    "prompt": "「～あまり」が最も自然な文はどれか。",
+    "choices": {
+      "A": "心配のあまり、眠れなかった",
+      "B": "心配のあまり、明日は晴れる",
+      "C": "心配のあまり、駅は近い",
+      "D": "心配のあまり、資料を配るべく"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～あまり（由于过度……而……）。接续：V普通形／ナAな／Nの＋あまり。正确答案：A。正确理由：心配が強すぎて眠れないという結果を表している。 选项分析：A「心配のあまり、眠れなかった」：正确。心配が強すぎて眠れないという結果を表している。 B「心配のあまり、明日は晴れる」：错误。它不能满足「～あまり」要求的接续、语义关系或语境功能，因此不适合本题。 C「心配のあまり、駅は近い」：错误。它不能满足「～あまり」要求的接续、语义关系或语境功能，因此不适合本题。 D「心配のあまり、資料を配るべく」：错误。它不能满足「～あまり」要求的接续、语义关系或语境功能，因此不适合本题。 涉及知识点：～あまり。类似例句1：緊張のあまり、名前を言い間違えた。 类似例句2：うれしさのあまり、涙が出た。",
+    "knowledgePointIds": [
+      "KP-GRA-AMARI-001"
+    ],
+    "knowledgePointTitles": [
+      "～あまり"
+    ],
+    "difficulty": 4,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-AMARI-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-01T16:26:08.326Z",
+    "updatedAt": "2026-07-01T16:26:08.326Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint12",
+      "integrated",
+      "grammar"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-S12-0005",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_basic",
+    "prompt": "彼は英語（　　）、中国語も話せる。",
+    "choices": {
+      "A": "ばかりか",
+      "B": "あまり",
+      "C": "べく",
+      "D": "ほど"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～ばかりか（不但……而且……）。接续：普通形／N＋ばかりか。正确答案：A。正确理由：一つだけでなく、さらに別の能力もあることを追加するため「ばかりか」が合う。 选项分析：A「ばかりか」：正确。一つだけでなく、さらに別の能力もあることを追加するため「ばかりか」が合う。 B「あまり」：错误。它不能满足「～ばかりか」要求的接续、语义关系或语境功能，因此不适合本题。 C「べく」：错误。它不能满足「～ばかりか」要求的接续、语义关系或语境功能，因此不适合本题。 D「ほど」：错误。它不能满足「～ばかりか」要求的接续、语义关系或语境功能，因此不适合本题。 涉及知识点：～ばかりか。类似例句1：彼は英語ばかりか、中国語も話せる。 类似例句2：雨ばかりか、強い風まで吹いてきた。",
+    "knowledgePointIds": [
+      "KP-GRA-BAKARIKA-001"
+    ],
+    "knowledgePointTitles": [
+      "～ばかりか"
+    ],
+    "difficulty": 2,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-BAKARIKA-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-01T16:26:08.326Z",
+    "updatedAt": "2026-07-01T16:26:08.326Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint12",
+      "basic",
+      "grammar"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-S12-0006",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_distinction",
+    "prompt": "その店は値段が高いばかりか、（　　）。",
+    "choices": {
+      "A": "サービスもよくない",
+      "B": "値段が高いはずだ",
+      "C": "安くするべきだ",
+      "D": "店を開くべく"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～ばかりか（不但……而且……）。接续：普通形／N＋ばかりか。正确答案：A。正确理由：悪い特徴をさらに追加して述べており、「ばかりか」の累加用法に合う。 选项分析：A「サービスもよくない」：正确。悪い特徴をさらに追加して述べており、「ばかりか」の累加用法に合う。 B「値段が高いはずだ」：错误。它不能满足「～ばかりか」要求的接续、语义关系或语境功能，因此不适合本题。 C「安くするべきだ」：错误。它不能满足「～ばかりか」要求的接续、语义关系或语境功能，因此不适合本题。 D「店を開くべく」：错误。它不能满足「～ばかりか」要求的接续、语义关系或语境功能，因此不适合本题。 涉及知识点：～ばかりか。类似例句1：彼は英語ばかりか、中国語も話せる。 类似例句2：雨ばかりか、強い風まで吹いてきた。",
+    "knowledgePointIds": [
+      "KP-GRA-BAKARIKA-001"
+    ],
+    "knowledgePointTitles": [
+      "～ばかりか"
+    ],
+    "difficulty": 3,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-BAKARIKA-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-01T16:26:08.326Z",
+    "updatedAt": "2026-07-01T16:26:08.326Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint12",
+      "distinction",
+      "grammar"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-S12-0007",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_context",
+    "prompt": "このアプリは便利なばかりか、操作も（　　）。",
+    "choices": {
+      "A": "とても簡単だ",
+      "B": "簡単なあまりだ",
+      "C": "簡単であるどころではない",
+      "D": "簡単するべきではない"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～ばかりか（不但……而且……）。接续：普通形／N＋ばかりか。正确答案：A。正确理由：便利さに加えて操作性の良さを追加しているので自然である。 选项分析：A「とても簡単だ」：正确。便利さに加えて操作性の良さを追加しているので自然である。 B「簡単なあまりだ」：错误。它不能满足「～ばかりか」要求的接续、语义关系或语境功能，因此不适合本题。 C「簡単であるどころではない」：错误。它不能满足「～ばかりか」要求的接续、语义关系或语境功能，因此不适合本题。 D「簡単するべきではない」：错误。它不能满足「～ばかりか」要求的接续、语义关系或语境功能，因此不适合本题。 涉及知识点：～ばかりか。类似例句1：彼は英語ばかりか、中国語も話せる。 类似例句2：雨ばかりか、強い風まで吹いてきた。",
+    "knowledgePointIds": [
+      "KP-GRA-BAKARIKA-001"
+    ],
+    "knowledgePointTitles": [
+      "～ばかりか"
+    ],
+    "difficulty": 3,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-BAKARIKA-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-01T16:26:08.326Z",
+    "updatedAt": "2026-07-01T16:26:08.326Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint12",
+      "context",
+      "grammar"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-S12-0008",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_integrated",
+    "prompt": "「ばかりか」の用法として正しいものはどれか。",
+    "choices": {
+      "A": "彼は遅刻したばかりか、宿題も忘れた",
+      "B": "彼は遅刻したばかりか、もう到着するはずだ",
+      "C": "遅刻のばかりか、早く出た",
+      "D": "遅刻するべく、早く起きた"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～ばかりか（不但……而且……）。接续：普通形／N＋ばかりか。正确答案：A。正确理由：遅刻に加えて宿題忘れという別の問題を追加している。 选项分析：A「彼は遅刻したばかりか、宿題も忘れた」：正确。遅刻に加えて宿題忘れという別の問題を追加している。 B「彼は遅刻したばかりか、もう到着するはずだ」：错误。它不能满足「～ばかりか」要求的接续、语义关系或语境功能，因此不适合本题。 C「遅刻のばかりか、早く出た」：错误。它不能满足「～ばかりか」要求的接续、语义关系或语境功能，因此不适合本题。 D「遅刻するべく、早く起きた」：错误。它不能满足「～ばかりか」要求的接续、语义关系或语境功能，因此不适合本题。 涉及知识点：～ばかりか。类似例句1：彼は英語ばかりか、中国語も話せる。 类似例句2：雨ばかりか、強い風まで吹いてきた。",
+    "knowledgePointIds": [
+      "KP-GRA-BAKARIKA-001"
+    ],
+    "knowledgePointTitles": [
+      "～ばかりか"
+    ],
+    "difficulty": 4,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-BAKARIKA-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-01T16:26:08.326Z",
+    "updatedAt": "2026-07-01T16:26:08.326Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint12",
+      "integrated",
+      "grammar"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-S12-0009",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_basic",
+    "prompt": "約束は最後まで守る（　　）。",
+    "choices": {
+      "A": "べきだ",
+      "B": "べく",
+      "C": "どころではない",
+      "D": "一方で"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～べきだ（应该……）。接续：V辞书形＋べきだ（する→するべき／すべき）。正确答案：A。正确理由：一般的な義務・当然の判断を述べるため「べきだ」が合う。 选项分析：A「べきだ」：正确。一般的な義務・当然の判断を述べるため「べきだ」が合う。 B「べく」：错误。它不能满足「～べきだ」要求的接续、语义关系或语境功能，因此不适合本题。 C「どころではない」：错误。它不能满足「～べきだ」要求的接续、语义关系或语境功能，因此不适合本题。 D「一方で」：错误。它不能满足「～べきだ」要求的接续、语义关系或语境功能，因此不适合本题。 涉及知识点：～べきだ。类似例句1：約束は守るべきだ。 类似例句2：問題があれば、早めに相談すべきです。",
+    "knowledgePointIds": [
+      "KP-GRA-BEKIDA-001"
+    ],
+    "knowledgePointTitles": [
+      "～べきだ"
+    ],
+    "difficulty": 2,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-BEKIDA-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-01T16:26:08.326Z",
+    "updatedAt": "2026-07-01T16:26:08.326Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint12",
+      "basic",
+      "grammar"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-S12-0010",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_distinction",
+    "prompt": "困ったときは、一人で抱え込まずに（　　）。",
+    "choices": {
+      "A": "相談すべきだ",
+      "B": "相談したあまりだ",
+      "C": "相談どころではない",
+      "D": "相談ばかりか"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～べきだ（应该……）。接续：V辞书形＋べきだ（する→するべき／すべき）。正确答案：A。正确理由：望ましい行動として助言しているため「相談すべきだ」が自然である。 选项分析：A「相談すべきだ」：正确。望ましい行動として助言しているため「相談すべきだ」が自然である。 B「相談したあまりだ」：错误。它不能满足「～べきだ」要求的接续、语义关系或语境功能，因此不适合本题。 C「相談どころではない」：错误。它不能满足「～べきだ」要求的接续、语义关系或语境功能，因此不适合本题。 D「相談ばかりか」：错误。它不能满足「～べきだ」要求的接续、语义关系或语境功能，因此不适合本题。 涉及知识点：～べきだ。类似例句1：約束は守るべきだ。 类似例句2：問題があれば、早めに相談すべきです。",
+    "knowledgePointIds": [
+      "KP-GRA-BEKIDA-001"
+    ],
+    "knowledgePointTitles": [
+      "～べきだ"
+    ],
+    "difficulty": 3,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-BEKIDA-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-01T16:26:08.326Z",
+    "updatedAt": "2026-07-01T16:26:08.326Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint12",
+      "distinction",
+      "grammar"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-S12-0011",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_context",
+    "prompt": "資料に誤りがあれば、すぐに担当者へ知らせる（　　）。",
+    "choices": {
+      "A": "べきだ",
+      "B": "はずだ",
+      "C": "ほどだ",
+      "D": "反面だ"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～べきだ（应该……）。接续：V辞书形＋べきだ（する→するべき／すべき）。正确答案：A。正确理由：誤りを見つけた時の適切な対応・義務を述べている。 选项分析：A「べきだ」：正确。誤りを見つけた時の適切な対応・義務を述べている。 B「はずだ」：错误。它不能满足「～べきだ」要求的接续、语义关系或语境功能，因此不适合本题。 C「ほどだ」：错误。它不能满足「～べきだ」要求的接续、语义关系或语境功能，因此不适合本题。 D「反面だ」：错误。它不能满足「～べきだ」要求的接续、语义关系或语境功能，因此不适合本题。 涉及知识点：～べきだ。类似例句1：約束は守るべきだ。 类似例句2：問題があれば、早めに相談すべきです。",
+    "knowledgePointIds": [
+      "KP-GRA-BEKIDA-001"
+    ],
+    "knowledgePointTitles": [
+      "～べきだ"
+    ],
+    "difficulty": 3,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-BEKIDA-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-01T16:26:08.326Z",
+    "updatedAt": "2026-07-01T16:26:08.326Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint12",
+      "context",
+      "grammar"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-S12-0012",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_integrated",
+    "prompt": "「べきだ」が最も自然な文はどれか。",
+    "choices": {
+      "A": "安全のため、決められた手順を守るべきだ",
+      "B": "安全のため、手順を守るあまりだ",
+      "C": "安全のため、手順どころではない",
+      "D": "安全のため、手順ばかりか"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～べきだ（应该……）。接续：V辞书形＋べきだ（する→するべき／すべき）。正确答案：A。正确理由：話者が当然取るべき行動として助言している。 选项分析：A「安全のため、決められた手順を守るべきだ」：正确。話者が当然取るべき行動として助言している。 B「安全のため、手順を守るあまりだ」：错误。它不能满足「～べきだ」要求的接续、语义关系或语境功能，因此不适合本题。 C「安全のため、手順どころではない」：错误。它不能满足「～べきだ」要求的接续、语义关系或语境功能，因此不适合本题。 D「安全のため、手順ばかりか」：错误。它不能满足「～べきだ」要求的接续、语义关系或语境功能，因此不适合本题。 涉及知识点：～べきだ。类似例句1：約束は守るべきだ。 类似例句2：問題があれば、早めに相談すべきです。",
+    "knowledgePointIds": [
+      "KP-GRA-BEKIDA-001"
+    ],
+    "knowledgePointTitles": [
+      "～べきだ"
+    ],
+    "difficulty": 4,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-BEKIDA-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-01T16:26:08.326Z",
+    "updatedAt": "2026-07-01T16:26:08.326Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint12",
+      "integrated",
+      "grammar"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-S12-0013",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_basic",
+    "prompt": "人を見た目だけで判断する（　　）。",
+    "choices": {
+      "A": "べきではない",
+      "B": "はずではない",
+      "C": "どころではない",
+      "D": "一方ではない"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～べきではない（不应该……）。接续：V辞书形＋べきではない。正确答案：A。正确理由：望ましくない行為を禁止・忠告する表現なので「べきではない」が合う。 选项分析：A「べきではない」：正确。望ましくない行為を禁止・忠告する表現なので「べきではない」が合う。 B「はずではない」：错误。它不能满足「～べきではない」要求的接续、语义关系或语境功能，因此不适合本题。 C「どころではない」：错误。它不能满足「～べきではない」要求的接续、语义关系或语境功能，因此不适合本题。 D「一方ではない」：错误。它不能满足「～べきではない」要求的接续、语义关系或语境功能，因此不适合本题。 涉及知识点：～べきではない。类似例句1：人を外見だけで判断するべきではない。 类似例句2：無理をしてまで続けるべきではない。",
+    "knowledgePointIds": [
+      "KP-GRA-BEKIDEWANAI-001"
+    ],
+    "knowledgePointTitles": [
+      "～べきではない"
+    ],
+    "difficulty": 2,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-BEKIDEWANAI-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-01T16:26:08.326Z",
+    "updatedAt": "2026-07-01T16:26:08.326Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint12",
+      "basic",
+      "grammar"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-S12-0014",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_distinction",
+    "prompt": "体調が悪いのに、無理をして働き続けるべきではない。近い意味はどれか。",
+    "choices": {
+      "A": "働き続けないほうがよい",
+      "B": "働き続けるはずだ",
+      "C": "働き続けるほど元気だ",
+      "D": "働き続ける反面だ"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～べきではない（不应该……）。接续：V辞书形＋べきではない。正确答案：A。正确理由：「べきではない」は避けるべき行動を述べる助言である。 选项分析：A「働き続けないほうがよい」：正确。「べきではない」は避けるべき行動を述べる助言である。 B「働き続けるはずだ」：错误。它不能满足「～べきではない」要求的接续、语义关系或语境功能，因此不适合本题。 C「働き続けるほど元気だ」：错误。它不能满足「～べきではない」要求的接续、语义关系或语境功能，因此不适合本题。 D「働き続ける反面だ」：错误。它不能满足「～べきではない」要求的接续、语义关系或语境功能，因此不适合本题。 涉及知识点：～べきではない。类似例句1：人を外見だけで判断するべきではない。 类似例句2：無理をしてまで続けるべきではない。",
+    "knowledgePointIds": [
+      "KP-GRA-BEKIDEWANAI-001"
+    ],
+    "knowledgePointTitles": [
+      "～べきではない"
+    ],
+    "difficulty": 3,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-BEKIDEWANAI-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-01T16:26:08.326Z",
+    "updatedAt": "2026-07-01T16:26:08.326Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint12",
+      "distinction",
+      "grammar"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-S12-0015",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_context",
+    "prompt": "個人情報を、本人の許可なく外部に（　　）。",
+    "choices": {
+      "A": "出すべきではない",
+      "B": "出すべく",
+      "C": "出すばかりか",
+      "D": "出すはずだ"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～べきではない（不应该……）。接续：V辞书形＋べきではない。正确答案：A。正确理由：してはいけない行為として強く忠告しているため自然である。 选项分析：A「出すべきではない」：正确。してはいけない行為として強く忠告しているため自然である。 B「出すべく」：错误。它不能满足「～べきではない」要求的接续、语义关系或语境功能，因此不适合本题。 C「出すばかりか」：错误。它不能满足「～べきではない」要求的接续、语义关系或语境功能，因此不适合本题。 D「出すはずだ」：错误。它不能满足「～べきではない」要求的接续、语义关系或语境功能，因此不适合本题。 涉及知识点：～べきではない。类似例句1：人を外見だけで判断するべきではない。 类似例句2：無理をしてまで続けるべきではない。",
+    "knowledgePointIds": [
+      "KP-GRA-BEKIDEWANAI-001"
+    ],
+    "knowledgePointTitles": [
+      "～べきではない"
+    ],
+    "difficulty": 3,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-BEKIDEWANAI-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-01T16:26:08.326Z",
+    "updatedAt": "2026-07-01T16:26:08.326Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint12",
+      "context",
+      "grammar"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-S12-0016",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_integrated",
+    "prompt": "「べきではない」の用法として適切なものはどれか。",
+    "choices": {
+      "A": "失敗した人を必要以上に責めるべきではない",
+      "B": "失敗した人を責めるべく、助けた",
+      "C": "失敗した人を責める反面、責めた",
+      "D": "失敗した人を責めるほど、責めない"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～べきではない（不应该……）。接续：V辞书形＋べきではない。正确答案：A。正确理由：相手を責める行為を避けるべきだと述べている。 选项分析：A「失敗した人を必要以上に責めるべきではない」：正确。相手を責める行為を避けるべきだと述べている。 B「失敗した人を責めるべく、助けた」：错误。它不能满足「～べきではない」要求的接续、语义关系或语境功能，因此不适合本题。 C「失敗した人を責める反面、責めた」：错误。它不能满足「～べきではない」要求的接续、语义关系或语境功能，因此不适合本题。 D「失敗した人を責めるほど、責めない」：错误。它不能满足「～べきではない」要求的接续、语义关系或语境功能，因此不适合本题。 涉及知识点：～べきではない。类似例句1：人を外見だけで判断するべきではない。 类似例句2：無理をしてまで続けるべきではない。",
+    "knowledgePointIds": [
+      "KP-GRA-BEKIDEWANAI-001"
+    ],
+    "knowledgePointTitles": [
+      "～べきではない"
+    ],
+    "difficulty": 4,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-BEKIDEWANAI-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-01T16:26:08.326Z",
+    "updatedAt": "2026-07-01T16:26:08.326Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint12",
+      "integrated",
+      "grammar"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-S12-0017",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_basic",
+    "prompt": "問題を解決す（　　）、専門家チームが作られた。",
+    "choices": {
+      "A": "べく",
+      "B": "べきだ",
+      "C": "ばかりか",
+      "D": "あまり"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～べく（为了……）。接续：V辞书形＋べく（する→するべく／すべく）。正确答案：A。正确理由：目的を表す硬めの表現で、「解決するために」の意味になる。 选项分析：A「べく」：正确。目的を表す硬めの表現で、「解決するために」の意味になる。 B「べきだ」：错误。它不能满足「～べく」要求的接续、语义关系或语境功能，因此不适合本题。 C「ばかりか」：错误。它不能满足「～べく」要求的接续、语义关系或语境功能，因此不适合本题。 D「あまり」：错误。它不能满足「～べく」要求的接续、语义关系或语境功能，因此不适合本题。 涉及知识点：～べく。类似例句1：問題を解決すべく、専門家が集まった。 类似例句2：目標を達成するべく、計画を立て直した。",
+    "knowledgePointIds": [
+      "KP-GRA-BEKU-001"
+    ],
+    "knowledgePointTitles": [
+      "～べく"
+    ],
+    "difficulty": 3,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-BEKU-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-01T16:26:08.326Z",
+    "updatedAt": "2026-07-01T16:26:08.326Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint12",
+      "basic",
+      "grammar"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-S12-0018",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_distinction",
+    "prompt": "目標を達成するべく、（　　）。",
+    "choices": {
+      "A": "計画を立て直した",
+      "B": "達成するべきではない",
+      "C": "達成したあまりだ",
+      "D": "達成どころではない"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～べく（为了……）。接续：V辞书形＋べく（する→するべく／すべく）。正确答案：A。正确理由：目標達成を目的として具体的な行動をした文が自然である。 选项分析：A「計画を立て直した」：正确。目標達成を目的として具体的な行動をした文が自然である。 B「達成するべきではない」：错误。它不能满足「～べく」要求的接续、语义关系或语境功能，因此不适合本题。 C「達成したあまりだ」：错误。它不能满足「～べく」要求的接续、语义关系或语境功能，因此不适合本题。 D「達成どころではない」：错误。它不能满足「～べく」要求的接续、语义关系或语境功能，因此不适合本题。 涉及知识点：～べく。类似例句1：問題を解決すべく、専門家が集まった。 类似例句2：目標を達成するべく、計画を立て直した。",
+    "knowledgePointIds": [
+      "KP-GRA-BEKU-001"
+    ],
+    "knowledgePointTitles": [
+      "～べく"
+    ],
+    "difficulty": 3,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-BEKU-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-01T16:26:08.326Z",
+    "updatedAt": "2026-07-01T16:26:08.326Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint12",
+      "distinction",
+      "grammar"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-S12-0019",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_context",
+    "prompt": "新制度を周知すべく、説明会が各地で（　　）。",
+    "choices": {
+      "A": "開かれた",
+      "B": "開くべきではない",
+      "C": "開く反面だ",
+      "D": "開くばかりか"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～べく（为了……）。接续：V辞书形＋べく（する→するべく／すべく）。正确答案：A。正确理由：周知する目的で説明会を開催したという関係が成立する。 选项分析：A「開かれた」：正确。周知する目的で説明会を開催したという関係が成立する。 B「開くべきではない」：错误。它不能满足「～べく」要求的接续、语义关系或语境功能，因此不适合本题。 C「開く反面だ」：错误。它不能满足「～べく」要求的接续、语义关系或语境功能，因此不适合本题。 D「開くばかりか」：错误。它不能满足「～べく」要求的接续、语义关系或语境功能，因此不适合本题。 涉及知识点：～べく。类似例句1：問題を解決すべく、専門家が集まった。 类似例句2：目標を達成するべく、計画を立て直した。",
+    "knowledgePointIds": [
+      "KP-GRA-BEKU-001"
+    ],
+    "knowledgePointTitles": [
+      "～べく"
+    ],
+    "difficulty": 4,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-BEKU-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-01T16:26:08.326Z",
+    "updatedAt": "2026-07-01T16:26:08.326Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint12",
+      "context",
+      "grammar"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-S12-0020",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_integrated",
+    "prompt": "「べく」が自然に使われている文はどれか。",
+    "choices": {
+      "A": "原因を明らかにすべく、調査を始めた",
+      "B": "原因を明らかにすべく、何もしなかった",
+      "C": "原因を明らかにすべく、原因がない",
+      "D": "原因を明らかにすべく、昨日は休みだった"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～べく（为了……）。接续：V辞书形＋べく（する→するべく／すべく）。正确答案：A。正确理由：原因解明を目的として調査を始めるという目的関係が明確である。 选项分析：A「原因を明らかにすべく、調査を始めた」：正确。原因解明を目的として調査を始めるという目的関係が明確である。 B「原因を明らかにすべく、何もしなかった」：错误。它不能满足「～べく」要求的接续、语义关系或语境功能，因此不适合本题。 C「原因を明らかにすべく、原因がない」：错误。它不能满足「～べく」要求的接续、语义关系或语境功能，因此不适合本题。 D「原因を明らかにすべく、昨日は休みだった」：错误。它不能满足「～べく」要求的接续、语义关系或语境功能，因此不适合本题。 涉及知识点：～べく。类似例句1：問題を解決すべく、専門家が集まった。 类似例句2：目標を達成するべく、計画を立て直した。",
+    "knowledgePointIds": [
+      "KP-GRA-BEKU-001"
+    ],
+    "knowledgePointTitles": [
+      "～べく"
+    ],
+    "difficulty": 4,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-BEKU-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-01T16:26:08.326Z",
+    "updatedAt": "2026-07-01T16:26:08.326Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint12",
+      "integrated",
+      "grammar"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-S12-0021",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_basic",
+    "prompt": "仕事が山ほどあって、旅行（　　）。",
+    "choices": {
+      "A": "どころではない",
+      "B": "ばかりか",
+      "C": "べきだ",
+      "D": "一方で"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～どころではない（根本不是……的时候；谈不上……）。接续：V辞书形／N＋どころではない。正确答案：A。正确理由：忙しすぎて旅行を考える余裕がないため「どころではない」が合う。 选项分析：A「どころではない」：正确。忙しすぎて旅行を考える余裕がないため「どころではない」が合う。 B「ばかりか」：错误。它不能满足「～どころではない」要求的接续、语义关系或语境功能，因此不适合本题。 C「べきだ」：错误。它不能满足「～どころではない」要求的接续、语义关系或语境功能，因此不适合本题。 D「一方で」：错误。它不能满足「～どころではない」要求的接续、语义关系或语境功能，因此不适合本题。 涉及知识点：～どころではない。类似例句1：仕事が忙しくて、旅行どころではない。 类似例句2：痛みがひどくて、歩くどころではなかった。",
+    "knowledgePointIds": [
+      "KP-GRA-DOKORODEWANAI-001"
+    ],
+    "knowledgePointTitles": [
+      "～どころではない"
+    ],
+    "difficulty": 2,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-DOKORODEWANAI-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-01T16:26:08.326Z",
+    "updatedAt": "2026-07-01T16:26:08.326Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint12",
+      "basic",
+      "grammar"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-S12-0022",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_distinction",
+    "prompt": "熱が高くて、勉強どころではない。近い意味はどれか。",
+    "choices": {
+      "A": "勉強できる状態ではない",
+      "B": "勉強するべきだ",
+      "C": "勉強するためだ",
+      "D": "勉強に加えて運動もする"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～どころではない（根本不是……的时候；谈不上……）。接续：V辞书形／N＋どころではない。正确答案：A。正确理由：ある行為をする余裕・状態ではないことを表している。 选项分析：A「勉強できる状態ではない」：正确。ある行為をする余裕・状態ではないことを表している。 B「勉強するべきだ」：错误。它不能满足「～どころではない」要求的接续、语义关系或语境功能，因此不适合本题。 C「勉強するためだ」：错误。它不能满足「～どころではない」要求的接续、语义关系或语境功能，因此不适合本题。 D「勉強に加えて運動もする」：错误。它不能满足「～どころではない」要求的接续、语义关系或语境功能，因此不适合本题。 涉及知识点：～どころではない。类似例句1：仕事が忙しくて、旅行どころではない。 类似例句2：痛みがひどくて、歩くどころではなかった。",
+    "knowledgePointIds": [
+      "KP-GRA-DOKORODEWANAI-001"
+    ],
+    "knowledgePointTitles": [
+      "～どころではない"
+    ],
+    "difficulty": 3,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-DOKORODEWANAI-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-01T16:26:08.326Z",
+    "updatedAt": "2026-07-01T16:26:08.326Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint12",
+      "distinction",
+      "grammar"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-S12-0023",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_context",
+    "prompt": "急なトラブルで、昼休みを取る（　　）。",
+    "choices": {
+      "A": "どころではなかった",
+      "B": "ほどではなかった",
+      "C": "反面ではなかった",
+      "D": "はずではなかった"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～どころではない（根本不是……的时候；谈不上……）。接续：V辞书形／N＋どころではない。正确答案：A。正确理由：トラブル対応で休憩する余裕がなかった状況に合う。 选项分析：A「どころではなかった」：正确。トラブル対応で休憩する余裕がなかった状況に合う。 B「ほどではなかった」：错误。它不能满足「～どころではない」要求的接续、语义关系或语境功能，因此不适合本题。 C「反面ではなかった」：错误。它不能满足「～どころではない」要求的接续、语义关系或语境功能，因此不适合本题。 D「はずではなかった」：错误。它不能满足「～どころではない」要求的接续、语义关系或语境功能，因此不适合本题。 涉及知识点：～どころではない。类似例句1：仕事が忙しくて、旅行どころではない。 类似例句2：痛みがひどくて、歩くどころではなかった。",
+    "knowledgePointIds": [
+      "KP-GRA-DOKORODEWANAI-001"
+    ],
+    "knowledgePointTitles": [
+      "～どころではない"
+    ],
+    "difficulty": 3,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-DOKORODEWANAI-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-01T16:26:08.326Z",
+    "updatedAt": "2026-07-01T16:26:08.326Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint12",
+      "context",
+      "grammar"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-S12-0024",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_integrated",
+    "prompt": "「どころではない」が適切な文はどれか。",
+    "choices": {
+      "A": "締切前で忙しく、映画を見るどころではない",
+      "B": "締切前で忙しく、映画を見るべく忙しい",
+      "C": "映画を見るどころではないので、映画を二本見た",
+      "D": "映画を見るどころではないばかりか、映画だけを見る"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～どころではない（根本不是……的时候；谈不上……）。接续：V辞书形／N＋どころではない。正确答案：A。正确理由：忙しさのため映画を見る余裕がないことを表している。 选项分析：A「締切前で忙しく、映画を見るどころではない」：正确。忙しさのため映画を見る余裕がないことを表している。 B「締切前で忙しく、映画を見るべく忙しい」：错误。它不能满足「～どころではない」要求的接续、语义关系或语境功能，因此不适合本题。 C「映画を見るどころではないので、映画を二本見た」：错误。它不能满足「～どころではない」要求的接续、语义关系或语境功能，因此不适合本题。 D「映画を見るどころではないばかりか、映画だけを見る」：错误。它不能满足「～どころではない」要求的接续、语义关系或语境功能，因此不适合本题。 涉及知识点：～どころではない。类似例句1：仕事が忙しくて、旅行どころではない。 类似例句2：痛みがひどくて、歩くどころではなかった。",
+    "knowledgePointIds": [
+      "KP-GRA-DOKORODEWANAI-001"
+    ],
+    "knowledgePointTitles": [
+      "～どころではない"
+    ],
+    "difficulty": 4,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-DOKORODEWANAI-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-01T16:26:08.326Z",
+    "updatedAt": "2026-07-01T16:26:08.326Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint12",
+      "integrated",
+      "grammar"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-S12-0025",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_basic",
+    "prompt": "都会は便利な（　　）、生活費が高い。",
+    "choices": {
+      "A": "反面",
+      "B": "あまり",
+      "C": "べく",
+      "D": "はず"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～反面（另一方面；反面）。接续：普通形＋反面（ナAな／である・Nである＋反面）。正确答案：A。正确理由：良い面と悪い面を対比して述べているため「反面」が合う。 选项分析：A「反面」：正确。良い面と悪い面を対比して述べているため「反面」が合う。 B「あまり」：错误。它不能满足「～反面」要求的接续、语义关系或语境功能，因此不适合本题。 C「べく」：错误。它不能满足「～反面」要求的接续、语义关系或语境功能，因此不适合本题。 D「はず」：错误。它不能满足「～反面」要求的接续、语义关系或语境功能，因此不适合本题。 涉及知识点：～反面。类似例句1：都会は便利な反面、生活費が高い。 类似例句2：この仕事は自由な反面、責任も重い。",
+    "knowledgePointIds": [
+      "KP-GRA-HANMEN-001"
+    ],
+    "knowledgePointTitles": [
+      "～反面"
+    ],
+    "difficulty": 2,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-HANMEN-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-01T16:26:08.326Z",
+    "updatedAt": "2026-07-01T16:26:08.326Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint12",
+      "basic",
+      "grammar"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-S12-0026",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_distinction",
+    "prompt": "この仕事は自由な反面、（　　）。",
+    "choices": {
+      "A": "責任も重い",
+      "B": "自由であるべきだ",
+      "C": "自由どころではない",
+      "D": "自由のあまりだ"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～反面（另一方面；反面）。接续：普通形＋反面（ナAな／である・Nである＋反面）。正确答案：A。正确理由：自由という利点と責任の重さという別面を対比している。 选项分析：A「責任も重い」：正确。自由という利点と責任の重さという別面を対比している。 B「自由であるべきだ」：错误。它不能满足「～反面」要求的接续、语义关系或语境功能，因此不适合本题。 C「自由どころではない」：错误。它不能满足「～反面」要求的接续、语义关系或语境功能，因此不适合本题。 D「自由のあまりだ」：错误。它不能满足「～反面」要求的接续、语义关系或语境功能，因此不适合本题。 涉及知识点：～反面。类似例句1：都会は便利な反面、生活費が高い。 类似例句2：この仕事は自由な反面、責任も重い。",
+    "knowledgePointIds": [
+      "KP-GRA-HANMEN-001"
+    ],
+    "knowledgePointTitles": [
+      "～反面"
+    ],
+    "difficulty": 3,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-HANMEN-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-01T16:26:08.326Z",
+    "updatedAt": "2026-07-01T16:26:08.326Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint12",
+      "distinction",
+      "grammar"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-S12-0027",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_context",
+    "prompt": "オンライン会議は移動時間が減る反面、雑談の機会が（　　）。",
+    "choices": {
+      "A": "少なくなる",
+      "B": "少なくするべく",
+      "C": "少ないはずだだけ",
+      "D": "少ないばかりか"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～反面（另一方面；反面）。接续：普通形＋反面（ナAな／である・Nである＋反面）。正确答案：A。正确理由：利点と欠点を対照的に述べる文として自然である。 选项分析：A「少なくなる」：正确。利点と欠点を対照的に述べる文として自然である。 B「少なくするべく」：错误。它不能满足「～反面」要求的接续、语义关系或语境功能，因此不适合本题。 C「少ないはずだだけ」：错误。它不能满足「～反面」要求的接续、语义关系或语境功能，因此不适合本题。 D「少ないばかりか」：错误。它不能满足「～反面」要求的接续、语义关系或语境功能，因此不适合本题。 涉及知识点：～反面。类似例句1：都会は便利な反面、生活費が高い。 类似例句2：この仕事は自由な反面、責任も重い。",
+    "knowledgePointIds": [
+      "KP-GRA-HANMEN-001"
+    ],
+    "knowledgePointTitles": [
+      "～反面"
+    ],
+    "difficulty": 3,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-HANMEN-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-01T16:26:08.326Z",
+    "updatedAt": "2026-07-01T16:26:08.326Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint12",
+      "context",
+      "grammar"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-S12-0028",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_integrated",
+    "prompt": "「反面」が最も自然な文はどれか。",
+    "choices": {
+      "A": "この方法は簡単な反面、細かい調整が難しい",
+      "B": "この方法は簡単な反面、簡単するべきだ",
+      "C": "この方法は簡単な反面、昨日始めた",
+      "D": "この方法は簡単な反面、簡単のあまりだ"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～反面（另一方面；反面）。接续：普通形＋反面（ナAな／である・Nである＋反面）。正确答案：A。正确理由：簡単さと調整の難しさという二面性を表している。 选项分析：A「この方法は簡単な反面、細かい調整が難しい」：正确。簡単さと調整の難しさという二面性を表している。 B「この方法は簡単な反面、簡単するべきだ」：错误。它不能满足「～反面」要求的接续、语义关系或语境功能，因此不适合本题。 C「この方法は簡単な反面、昨日始めた」：错误。它不能满足「～反面」要求的接续、语义关系或语境功能，因此不适合本题。 D「この方法は簡単な反面、簡単のあまりだ」：错误。它不能满足「～反面」要求的接续、语义关系或语境功能，因此不适合本题。 涉及知识点：～反面。类似例句1：都会は便利な反面、生活費が高い。 类似例句2：この仕事は自由な反面、責任も重い。",
+    "knowledgePointIds": [
+      "KP-GRA-HANMEN-001"
+    ],
+    "knowledgePointTitles": [
+      "～反面"
+    ],
+    "difficulty": 4,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-HANMEN-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-01T16:26:08.326Z",
+    "updatedAt": "2026-07-01T16:26:08.326Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint12",
+      "integrated",
+      "grammar"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-S12-0029",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_basic",
+    "prompt": "地図では駅はこの近くにある（　　）。",
+    "choices": {
+      "A": "はずだ",
+      "B": "べく",
+      "C": "反面",
+      "D": "どころではない"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～はずだ（按理应该……）。接续：普通形＋はずだ（ナAな／Nの＋はずだ）。正确答案：A。正确理由：根拠にもとづく当然の推量を述べるため「はずだ」が合う。 选项分析：A「はずだ」：正确。根拠にもとづく当然の推量を述べるため「はずだ」が合う。 B「べく」：错误。它不能满足「～はずだ」要求的接续、语义关系或语境功能，因此不适合本题。 C「反面」：错误。它不能满足「～はずだ」要求的接续、语义关系或语境功能，因此不适合本题。 D「どころではない」：错误。它不能满足「～はずだ」要求的接续、语义关系或语境功能，因此不适合本题。 涉及知识点：～はずだ。类似例句1：地図では駅はこの近くにあるはずだ。 类似例句2：彼は今日帰国するはずです。",
+    "knowledgePointIds": [
+      "KP-GRA-HAZUDA-001"
+    ],
+    "knowledgePointTitles": [
+      "～はずだ"
+    ],
+    "difficulty": 2,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-HAZUDA-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-01T16:26:08.326Z",
+    "updatedAt": "2026-07-01T16:26:08.326Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint12",
+      "basic",
+      "grammar"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-S12-0030",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_distinction",
+    "prompt": "彼は昨日出発したから、もう現地に着いているはずだ。近い意味はどれか。",
+    "choices": {
+      "A": "着いていると思われる",
+      "B": "着いてはいけない",
+      "C": "着くためだ",
+      "D": "着く余裕がない"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～はずだ（按理应该……）。接续：普通形＋はずだ（ナAな／Nの＋はずだ）。正确答案：A。正确理由：出発時刻という根拠から当然そうだと判断している。 选项分析：A「着いていると思われる」：正确。出発時刻という根拠から当然そうだと判断している。 B「着いてはいけない」：错误。它不能满足「～はずだ」要求的接续、语义关系或语境功能，因此不适合本题。 C「着くためだ」：错误。它不能满足「～はずだ」要求的接续、语义关系或语境功能，因此不适合本题。 D「着く余裕がない」：错误。它不能满足「～はずだ」要求的接续、语义关系或语境功能，因此不适合本题。 涉及知识点：～はずだ。类似例句1：地図では駅はこの近くにあるはずだ。 类似例句2：彼は今日帰国するはずです。",
+    "knowledgePointIds": [
+      "KP-GRA-HAZUDA-001"
+    ],
+    "knowledgePointTitles": [
+      "～はずだ"
+    ],
+    "difficulty": 3,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-HAZUDA-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-01T16:26:08.326Z",
+    "updatedAt": "2026-07-01T16:26:08.326Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint12",
+      "distinction",
+      "grammar"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-S12-0031",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_context",
+    "prompt": "予約確認メールが来ているので、席は確保されている（　　）。",
+    "choices": {
+      "A": "はずだ",
+      "B": "あまりだ",
+      "C": "ばかりか",
+      "D": "べきではない"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～はずだ（按理应该……）。接续：普通形＋はずだ（ナAな／Nの＋はずだ）。正确答案：A。正确理由：確認メールを根拠にした推量なので「はずだ」が自然である。 选项分析：A「はずだ」：正确。確認メールを根拠にした推量なので「はずだ」が自然である。 B「あまりだ」：错误。它不能满足「～はずだ」要求的接续、语义关系或语境功能，因此不适合本题。 C「ばかりか」：错误。它不能满足「～はずだ」要求的接续、语义关系或语境功能，因此不适合本题。 D「べきではない」：错误。它不能满足「～はずだ」要求的接续、语义关系或语境功能，因此不适合本题。 涉及知识点：～はずだ。类似例句1：地図では駅はこの近くにあるはずだ。 类似例句2：彼は今日帰国するはずです。",
+    "knowledgePointIds": [
+      "KP-GRA-HAZUDA-001"
+    ],
+    "knowledgePointTitles": [
+      "～はずだ"
+    ],
+    "difficulty": 3,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-HAZUDA-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-01T16:26:08.326Z",
+    "updatedAt": "2026-07-01T16:26:08.326Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint12",
+      "context",
+      "grammar"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-S12-0032",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_integrated",
+    "prompt": "「はずだ」が適切な文はどれか。",
+    "choices": {
+      "A": "今日は祝日だから、銀行は休みのはずだ",
+      "B": "今日は祝日だから、銀行は休むべく",
+      "C": "銀行は休みのはずだが、休むべきではない反面",
+      "D": "銀行は休みのはずだので、昨日休みだった"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～はずだ（按理应该……）。接续：普通形＋はずだ（ナAな／Nの＋はずだ）。正确答案：A。正确理由：祝日という根拠から銀行が休みだと判断している。 选项分析：A「今日は祝日だから、銀行は休みのはずだ」：正确。祝日という根拠から銀行が休みだと判断している。 B「今日は祝日だから、銀行は休むべく」：错误。它不能满足「～はずだ」要求的接续、语义关系或语境功能，因此不适合本题。 C「銀行は休みのはずだが、休むべきではない反面」：错误。它不能满足「～はずだ」要求的接续、语义关系或语境功能，因此不适合本题。 D「銀行は休みのはずだので、昨日休みだった」：错误。它不能满足「～はずだ」要求的接续、语义关系或语境功能，因此不适合本题。 涉及知识点：～はずだ。类似例句1：地図では駅はこの近くにあるはずだ。 类似例句2：彼は今日帰国するはずです。",
+    "knowledgePointIds": [
+      "KP-GRA-HAZUDA-001"
+    ],
+    "knowledgePointTitles": [
+      "～はずだ"
+    ],
+    "difficulty": 4,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-HAZUDA-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-01T16:26:08.326Z",
+    "updatedAt": "2026-07-01T16:26:08.326Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint12",
+      "integrated",
+      "grammar"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-S12-0033",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_basic",
+    "prompt": "声が出ない（　　）、驚いた。",
+    "choices": {
+      "A": "ほど",
+      "B": "べく",
+      "C": "ばかりか",
+      "D": "反面"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～ほど（达到……程度；越……越……）。接续：N／普通形＋ほど；～ば～ほど。正确答案：A。正确理由：驚きの程度が声が出ないくらい強いことを表すため「ほど」が合う。 选项分析：A「ほど」：正确。驚きの程度が声が出ないくらい強いことを表すため「ほど」が合う。 B「べく」：错误。它不能满足「～ほど」要求的接续、语义关系或语境功能，因此不适合本题。 C「ばかりか」：错误。它不能满足「～ほど」要求的接续、语义关系或语境功能，因此不适合本题。 D「反面」：错误。它不能满足「～ほど」要求的接续、语义关系或语境功能，因此不适合本题。 涉及知识点：～ほど。类似例句1：立っていられないほど疲れた。 类似例句2：練習すればするほど上手になる。",
+    "knowledgePointIds": [
+      "KP-GRA-HODO-001"
+    ],
+    "knowledgePointTitles": [
+      "～ほど"
+    ],
+    "difficulty": 2,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-HODO-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-01T16:26:08.326Z",
+    "updatedAt": "2026-07-01T16:26:08.326Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint12",
+      "basic",
+      "grammar"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-S12-0034",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_distinction",
+    "prompt": "練習すればするほど、（　　）。",
+    "choices": {
+      "A": "上達する",
+      "B": "練習するべきではない",
+      "C": "練習どころではない",
+      "D": "練習する反面だ"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～ほど（达到……程度；越……越……）。接续：N／普通形＋ほど；～ば～ほど。正确答案：A。正确理由：「～ば～ほど」は一方が進むにつれて他方も変化する関係を表す。 选项分析：A「上達する」：正确。「～ば～ほど」は一方が進むにつれて他方も変化する関係を表す。 B「練習するべきではない」：错误。它不能满足「～ほど」要求的接续、语义关系或语境功能，因此不适合本题。 C「練習どころではない」：错误。它不能满足「～ほど」要求的接续、语义关系或语境功能，因此不适合本题。 D「練習する反面だ」：错误。它不能满足「～ほど」要求的接续、语义关系或语境功能，因此不适合本题。 涉及知识点：～ほど。类似例句1：立っていられないほど疲れた。 类似例句2：練習すればするほど上手になる。",
+    "knowledgePointIds": [
+      "KP-GRA-HODO-001"
+    ],
+    "knowledgePointTitles": [
+      "～ほど"
+    ],
+    "difficulty": 3,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-HODO-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-01T16:26:08.326Z",
+    "updatedAt": "2026-07-01T16:26:08.326Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint12",
+      "distinction",
+      "grammar"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-S12-0035",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_context",
+    "prompt": "この坂は、息が切れるほど（　　）。",
+    "choices": {
+      "A": "とても急だ",
+      "B": "急ぐべく",
+      "C": "急なばかりか",
+      "D": "急なはずだった"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～ほど（达到……程度；越……越……）。接续：N／普通形＋ほど；～ば～ほど。正确答案：A。正确理由：息が切れるくらい坂の程度が强いことを表している。 选项分析：A「とても急だ」：正确。息が切れるくらい坂の程度が强いことを表している。 B「急ぐべく」：错误。它不能满足「～ほど」要求的接续、语义关系或语境功能，因此不适合本题。 C「急なばかりか」：错误。它不能满足「～ほど」要求的接续、语义关系或语境功能，因此不适合本题。 D「急なはずだった」：错误。它不能满足「～ほど」要求的接续、语义关系或语境功能，因此不适合本题。 涉及知识点：～ほど。类似例句1：立っていられないほど疲れた。 类似例句2：練習すればするほど上手になる。",
+    "knowledgePointIds": [
+      "KP-GRA-HODO-001"
+    ],
+    "knowledgePointTitles": [
+      "～ほど"
+    ],
+    "difficulty": 3,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-HODO-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-01T16:26:08.326Z",
+    "updatedAt": "2026-07-01T16:26:08.326Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint12",
+      "context",
+      "grammar"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-S12-0036",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_integrated",
+    "prompt": "「ほど」が最も自然な文はどれか。",
+    "choices": {
+      "A": "涙が出るほど感動した",
+      "B": "涙が出るほど、感動するべきではない",
+      "C": "涙が出るほど、感動どころではない",
+      "D": "涙が出るほど、感動すべく"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～ほど（达到……程度；越……越……）。接续：N／普通形＋ほど；～ば～ほど。正确答案：A。正确理由：感動の強さを程度で表している。 选项分析：A「涙が出るほど感動した」：正确。感動の強さを程度で表している。 B「涙が出るほど、感動するべきではない」：错误。它不能满足「～ほど」要求的接续、语义关系或语境功能，因此不适合本题。 C「涙が出るほど、感動どころではない」：错误。它不能满足「～ほど」要求的接续、语义关系或语境功能，因此不适合本题。 D「涙が出るほど、感動すべく」：错误。它不能满足「～ほど」要求的接续、语义关系或语境功能，因此不适合本题。 涉及知识点：～ほど。类似例句1：立っていられないほど疲れた。 类似例句2：練習すればするほど上手になる。",
+    "knowledgePointIds": [
+      "KP-GRA-HODO-001"
+    ],
+    "knowledgePointTitles": [
+      "～ほど"
+    ],
+    "difficulty": 4,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-HODO-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-01T16:26:08.326Z",
+    "updatedAt": "2026-07-01T16:26:08.326Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint12",
+      "integrated",
+      "grammar"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-S12-0037",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_basic",
+    "prompt": "この町は人口が減る（　　）、駅前では新しい店が増えている。",
+    "choices": {
+      "A": "一方で",
+      "B": "あまり",
+      "C": "べく",
+      "D": "ほど"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～一方で（另一方面；同时）。接续：普通形＋一方で（ナA／N＋である一方で）。正确答案：A。正确理由：一つの側面と別の側面を並べて対比するため「一方で」が合う。 选项分析：A「一方で」：正确。一つの側面と別の側面を並べて対比するため「一方で」が合う。 B「あまり」：错误。它不能满足「～一方で」要求的接续、语义关系或语境功能，因此不适合本题。 C「べく」：错误。它不能满足「～一方で」要求的接续、语义关系或语境功能，因此不适合本题。 D「ほど」：错误。它不能满足「～一方で」要求的接续、语义关系或语境功能，因此不适合本题。 涉及知识点：～一方で。类似例句1：オンライン授業は便利な一方で、集中しにくい面もある。 类似例句2：人口が減る地域がある一方で、都市部では増えている。",
+    "knowledgePointIds": [
+      "KP-GRA-IPPOUDE-001"
+    ],
+    "knowledgePointTitles": [
+      "～一方で"
+    ],
+    "difficulty": 2,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-IPPOUDE-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-01T16:26:08.326Z",
+    "updatedAt": "2026-07-01T16:26:08.326Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint12",
+      "basic",
+      "grammar"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-S12-0038",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_distinction",
+    "prompt": "オンライン授業は便利な一方で、（　　）。",
+    "choices": {
+      "A": "集中しにくい面もある",
+      "B": "便利であるべきだ",
+      "C": "便利どころではない",
+      "D": "便利のあまりだ"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～一方で（另一方面；同时）。接续：普通形＋一方で（ナA／N＋である一方で）。正确答案：A。正确理由：便利さと集中のしにくさという別側面を対比している。 选项分析：A「集中しにくい面もある」：正确。便利さと集中のしにくさという別側面を対比している。 B「便利であるべきだ」：错误。它不能满足「～一方で」要求的接续、语义关系或语境功能，因此不适合本题。 C「便利どころではない」：错误。它不能满足「～一方で」要求的接续、语义关系或语境功能，因此不适合本题。 D「便利のあまりだ」：错误。它不能满足「～一方で」要求的接续、语义关系或语境功能，因此不适合本题。 涉及知识点：～一方で。类似例句1：オンライン授業は便利な一方で、集中しにくい面もある。 类似例句2：人口が減る地域がある一方で、都市部では増えている。",
+    "knowledgePointIds": [
+      "KP-GRA-IPPOUDE-001"
+    ],
+    "knowledgePointTitles": [
+      "～一方で"
+    ],
+    "difficulty": 3,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-IPPOUDE-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-01T16:26:08.326Z",
+    "updatedAt": "2026-07-01T16:26:08.326Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint12",
+      "distinction",
+      "grammar"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-S12-0039",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_context",
+    "prompt": "この制度は負担を減らす一方で、新しい手続きも（　　）。",
+    "choices": {
+      "A": "増やしている",
+      "B": "増やすべく",
+      "C": "増やすべきではないほど",
+      "D": "増やすはずだだけ"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～一方で（另一方面；同时）。接续：普通形＋一方で（ナA／N＋である一方で）。正确答案：A。正确理由：負担軽減と手続き増加という二つの側面を述べている。 选项分析：A「増やしている」：正确。負担軽減と手続き増加という二つの側面を述べている。 B「増やすべく」：错误。它不能满足「～一方で」要求的接续、语义关系或语境功能，因此不适合本题。 C「増やすべきではないほど」：错误。它不能满足「～一方で」要求的接续、语义关系或语境功能，因此不适合本题。 D「増やすはずだだけ」：错误。它不能满足「～一方で」要求的接续、语义关系或语境功能，因此不适合本题。 涉及知识点：～一方で。类似例句1：オンライン授業は便利な一方で、集中しにくい面もある。 类似例句2：人口が減る地域がある一方で、都市部では増えている。",
+    "knowledgePointIds": [
+      "KP-GRA-IPPOUDE-001"
+    ],
+    "knowledgePointTitles": [
+      "～一方で"
+    ],
+    "difficulty": 3,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-IPPOUDE-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-01T16:26:08.326Z",
+    "updatedAt": "2026-07-01T16:26:08.326Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint12",
+      "context",
+      "grammar"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-S12-0040",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_integrated",
+    "prompt": "「一方で」が自然に使われている文はどれか。",
+    "choices": {
+      "A": "都市部では人口が増える一方で、地方では減少している",
+      "B": "人口が増える一方で、人口だけが増えるべきだ",
+      "C": "人口が増える一方で、増えたあまりだ",
+      "D": "人口が増える一方で、増えるどころではない"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～一方で（另一方面；同时）。接续：普通形＋一方で（ナA／N＋である一方で）。正确答案：A。正确理由：都市部と地方の対照的な状況を並べている。 选项分析：A「都市部では人口が増える一方で、地方では減少している」：正确。都市部と地方の対照的な状況を並べている。 B「人口が増える一方で、人口だけが増えるべきだ」：错误。它不能满足「～一方で」要求的接续、语义关系或语境功能，因此不适合本题。 C「人口が増える一方で、増えたあまりだ」：错误。它不能满足「～一方で」要求的接续、语义关系或语境功能，因此不适合本题。 D「人口が増える一方で、増えるどころではない」：错误。它不能满足「～一方で」要求的接续、语义关系或语境功能，因此不适合本题。 涉及知识点：～一方で。类似例句1：オンライン授業は便利な一方で、集中しにくい面もある。 类似例句2：人口が減る地域がある一方で、都市部では増えている。",
+    "knowledgePointIds": [
+      "KP-GRA-IPPOUDE-001"
+    ],
+    "knowledgePointTitles": [
+      "～一方で"
+    ],
+    "difficulty": 4,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-IPPOUDE-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-01T16:26:08.326Z",
+    "updatedAt": "2026-07-01T16:26:08.326Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint12",
+      "integrated",
+      "grammar"
+    ],
+    "estimatedTime": 60
   }
 ]
