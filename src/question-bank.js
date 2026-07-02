@@ -200,11 +200,12 @@ export function assertValidQuestionBank(questions, knowledgePoints, additionalKn
 }
 
 export async function loadQuestionBank(fetchImpl = globalThis.fetch) {
+  const requestOptions = { cache: "no-store" };
   const [questionsResponse, pointsResponse, grammarResponse, cardsResponse] = await Promise.all([
-    fetchImpl("data/questions.json"),
-    fetchImpl("data/knowledge-points.json"),
-    fetchImpl("knowledge/grammar/grammar-points.json"),
-    fetchImpl("data/knowledge-cards.json")
+    fetchImpl("data/questions.json", requestOptions),
+    fetchImpl("data/knowledge-points.json", requestOptions),
+    fetchImpl("knowledge/grammar/grammar-points.json", requestOptions),
+    fetchImpl("data/knowledge-cards.json", requestOptions)
   ]);
   if (!questionsResponse.ok) throw new Error(`题库加载失败（HTTP ${questionsResponse.status}）`);
   if (!pointsResponse.ok) throw new Error(`知识点加载失败（HTTP ${pointsResponse.status}）`);

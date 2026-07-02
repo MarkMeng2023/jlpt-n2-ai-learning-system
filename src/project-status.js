@@ -24,8 +24,8 @@ export function buildProjectStatus({ questions, basePoints, grammarPoints, knowl
 
 export async function loadProjectStatusData(questions, basePoints, fetchImpl = globalThis.fetch, loadedGrammarPoints = null, loadedKnowledgeCards = null) {
   const [versionResponse, grammarResponse] = await Promise.all([
-    fetchImpl("data/version.json"),
-    loadedGrammarPoints ? null : fetchImpl("knowledge/grammar/grammar-points.json")
+    fetchImpl("data/version.json", { cache: "no-store" }),
+    loadedGrammarPoints ? null : fetchImpl("knowledge/grammar/grammar-points.json", { cache: "no-store" })
   ]);
   if (!versionResponse.ok) throw new Error(`版本信息加载失败（HTTP ${versionResponse.status}）`);
   if (grammarResponse && !grammarResponse.ok) throw new Error(`Grammar Map 加载失败（HTTP ${grammarResponse.status}）`);

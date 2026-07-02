@@ -3,7 +3,7 @@ import { readFile } from "node:fs/promises";
 import test from "node:test";
 import { analyzeQuestionBankQuality } from "../src/question-bank-quality.js";
 import { buildQuestionFactoryPlan } from "../src/question-factory.js";
-import { buildProjectStatus } from "../src/project-status.js";
+import { buildProjectStatus, loadProjectStatusData } from "../src/project-status.js";
 import { validateQuestionBank } from "../src/question-bank.js";
 import { validateKnowledgeCards } from "../src/knowledge-card.js";
 
@@ -87,6 +87,18 @@ test("Project Status 自动统计 Sprint 12 当前数据", () => {
   assert.equal(status.knowledgeCardCoverage, 100);
   assert.equal(status.coverage, 24.26);
   assert.equal(status.questionTarget, 845);
+});
+
+test("Project Status 版本数据禁用缓存以避免跨 Sprint 混合状态", async () => {
+  const requests = [];
+  const fetchMock = async (url, options) => {
+    requests.push({ url, options });
+    return { ok: true, json: async () => version };
+  };
+  const status = await loadProjectStatusData(questions, basePoints, fetchMock, grammarPoints, cards);
+  assert.equal(status.version, "v1.12.0");
+  assert.equal(status.sprint, "Sprint 12");
+  assert.deepEqual(requests, [{ url: "data/version.json", options: { cache: "no-store" } }]);
 });
 
 test("Sprint 12 报告标题已中文化且质量启发式不退化", async () => {
