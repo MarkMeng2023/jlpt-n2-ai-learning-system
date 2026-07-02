@@ -6,7 +6,7 @@ import { buildQuestionFactoryPlan } from "../src/question-factory.js";
 import { validateQuestionBank } from "../src/question-bank.js";
 
 const questions = JSON.parse(await readFile(new URL("../data/questions.json", import.meta.url), "utf8"))
-  .filter((question) => !question.questionId.startsWith("Q-N2-FAC-S14-"));
+  .filter((question) => !question.questionId.startsWith("Q-N2-FAC-S14-") && !question.questionId.startsWith("Q-N2-FAC-S15-"));
 const points = JSON.parse(await readFile(new URL("../data/knowledge-points.json", import.meta.url), "utf8"));
 const grammar = JSON.parse(await readFile(new URL("../knowledge/grammar/grammar-points.json", import.meta.url), "utf8"));
 const sources = JSON.parse(await readFile(new URL("../data/knowledge-point-sources.json", import.meta.url), "utf8"));

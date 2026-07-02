@@ -6,7 +6,7 @@ import { GRAMMAR_REQUIRED_FIELDS, RELATION_TYPES, validateGrammarMap } from "../
 const points = JSON.parse(await readFile(new URL("../knowledge/grammar/grammar-points.json", import.meta.url), "utf8"));
 const relations = JSON.parse(await readFile(new URL("../knowledge/grammar/grammar-relations.json", import.meta.url), "utf8"));
 const questions = JSON.parse(await readFile(new URL("../data/questions.json", import.meta.url), "utf8"))
-  .filter((question) => !question.questionId.startsWith("Q-N2-FAC-S14-"));
+  .filter((question) => !question.questionId.startsWith("Q-N2-FAC-S14-") && !question.questionId.startsWith("Q-N2-FAC-S15-"));
 
 test("Grammar Master Map 包含 80 个结构完整的 N2 文法点", () => {
   assert.equal(points.length, 80);

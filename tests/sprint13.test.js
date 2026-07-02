@@ -8,7 +8,7 @@ const questions = JSON.parse(await readFile(new URL("../data/questions.json", im
 const cards = JSON.parse(await readFile(new URL("../data/knowledge-cards.json", import.meta.url), "utf8"));
 const grammarPoints = JSON.parse(await readFile(new URL("../knowledge/grammar/grammar-points.json", import.meta.url), "utf8"));
 const version = JSON.parse(await readFile(new URL("../data/version.json", import.meta.url), "utf8"));
-const sprint13Questions = questions.filter((question) => !question.questionId.startsWith("Q-N2-FAC-S14-"));
+const sprint13Questions = questions.filter((question) => !question.questionId.startsWith("Q-N2-FAC-S14-") && !question.questionId.startsWith("Q-N2-FAC-S15-"));
 const sprint13Version = { ...version, version: "v1.13.0", sprint: "Sprint 13" };
 const coverage = buildExamCoverage({ knowledgeCards: cards, questions: sprint13Questions, grammarPoints });
 
@@ -57,8 +57,8 @@ test("首页包含可展开的 N2 考试覆盖率 Dashboard", async () => {
     .forEach((text) => assert.match(html, new RegExp(text)));
   assert.match(app, /buildExamCoverage/);
   assert.match(app, /renderExamCoverage/);
-  assert.match(html, /styles\/main\.css\?v=1\.14\.0/);
-  assert.match(html, /src\/app\.js\?v=1\.14\.0/);
+  assert.match(html, /styles\/main\.css\?v=1\.15\.0/);
+  assert.match(html, /src\/app\.js\?v=1\.15\.0/);
 });
 
 test("Exam Coverage Report 包含全部风险与建议章节", async () => {

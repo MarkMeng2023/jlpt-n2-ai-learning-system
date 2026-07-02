@@ -26,12 +26,16 @@
       "Q-N2-VOC-0001",
       "Q-N2-VOC-0006",
       "Q-N2-VOC-0007",
-      "Q-N2-VOC-0008"
+      "Q-N2-VOC-0008",
+      "Q-N2-FAC-S15-0125",
+      "Q-N2-FAC-S15-0126",
+      "Q-N2-FAC-S15-0127",
+      "Q-N2-FAC-S15-0128"
     ],
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   },
   {
     "knowledgePointId": "KP-VOC-OU-001",
@@ -65,7 +69,7 @@
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   },
   {
     "knowledgePointId": "KP-VOC-YOSERU-001",
@@ -99,7 +103,7 @@
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   },
   {
     "knowledgePointId": "KP-VOC-TASSURU-001",
@@ -128,12 +132,16 @@
       "Q-N2-VOC-0004",
       "Q-N2-VOC-0015",
       "Q-N2-VOC-0016",
-      "Q-N2-VOC-0017"
+      "Q-N2-VOC-0017",
+      "Q-N2-FAC-S15-0085",
+      "Q-N2-FAC-S15-0086",
+      "Q-N2-FAC-S15-0087",
+      "Q-N2-FAC-S15-0088"
     ],
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   },
   {
     "knowledgePointId": "KP-VOC-KITASU-001",
@@ -162,12 +170,16 @@
       "Q-N2-VOC-0005",
       "Q-N2-VOC-0018",
       "Q-N2-VOC-0019",
-      "Q-N2-VOC-0020"
+      "Q-N2-VOC-0020",
+      "Q-N2-FAC-S15-0081",
+      "Q-N2-FAC-S15-0082",
+      "Q-N2-FAC-S15-0083",
+      "Q-N2-FAC-S15-0084"
     ],
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   },
   {
     "knowledgePointId": "KP-ADV-ARAKAJIME-001",
@@ -194,12 +206,16 @@
     "confusablePointIds": [],
     "linkedQuestionIds": [
       "Q-N2-ADV-0001",
-      "Q-N2-ADV-0006"
+      "Q-N2-ADV-0006",
+      "Q-N2-FAC-S15-0033",
+      "Q-N2-FAC-S15-0034",
+      "Q-N2-FAC-S15-0035",
+      "Q-N2-FAC-S15-0036"
     ],
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   },
   {
     "knowledgePointId": "KP-ADV-SHIKIRINI-001",
@@ -226,12 +242,16 @@
     "confusablePointIds": [],
     "linkedQuestionIds": [
       "Q-N2-ADV-0002",
-      "Q-N2-ADV-0007"
+      "Q-N2-ADV-0007",
+      "Q-N2-FAC-S15-0045",
+      "Q-N2-FAC-S15-0046",
+      "Q-N2-FAC-S15-0047",
+      "Q-N2-FAC-S15-0048"
     ],
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   },
   {
     "knowledgePointId": "KP-ADV-ROKUNI-001",
@@ -258,12 +278,16 @@
     "confusablePointIds": [],
     "linkedQuestionIds": [
       "Q-N2-ADV-0003",
-      "Q-N2-ADV-0008"
+      "Q-N2-ADV-0008",
+      "Q-N2-FAC-S15-0041",
+      "Q-N2-FAC-S15-0042",
+      "Q-N2-FAC-S15-0043",
+      "Q-N2-FAC-S15-0044"
     ],
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   },
   {
     "knowledgePointId": "KP-ADV-ISSO-001",
@@ -290,12 +314,16 @@
     "confusablePointIds": [],
     "linkedQuestionIds": [
       "Q-N2-ADV-0004",
-      "Q-N2-ADV-0009"
+      "Q-N2-ADV-0009",
+      "Q-N2-FAC-S15-0037",
+      "Q-N2-FAC-S15-0038",
+      "Q-N2-FAC-S15-0039",
+      "Q-N2-FAC-S15-0040"
     ],
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   },
   {
     "knowledgePointId": "KP-ADV-TAMATAMA-001",
@@ -322,12 +350,16 @@
     "confusablePointIds": [],
     "linkedQuestionIds": [
       "Q-N2-ADV-0005",
-      "Q-N2-ADV-0010"
+      "Q-N2-ADV-0010",
+      "Q-N2-FAC-S15-0049",
+      "Q-N2-FAC-S15-0050",
+      "Q-N2-FAC-S15-0051",
+      "Q-N2-FAC-S15-0052"
     ],
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   },
   {
     "knowledgePointId": "KP-SYN-OOYOSO-001",
@@ -362,7 +394,7 @@
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   },
   {
     "knowledgePointId": "KP-SYN-TADACHINI-001",
@@ -397,7 +429,7 @@
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   },
   {
     "knowledgePointId": "KP-SYN-METTANI-001",
@@ -432,7 +464,7 @@
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   },
   {
     "knowledgePointId": "KP-SYN-DATO-001",
@@ -467,7 +499,7 @@
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   },
   {
     "knowledgePointId": "KP-SYN-HABUKU-001",
@@ -502,7 +534,7 @@
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   },
   {
     "knowledgePointId": "KP-READ-NOTICE-001",
@@ -540,7 +572,7 @@
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   },
   {
     "knowledgePointId": "KP-READ-MEMO-001",
@@ -578,7 +610,7 @@
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   },
   {
     "knowledgePointId": "KP-READ-MAINIDEA-001",
@@ -616,7 +648,7 @@
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   },
   {
     "knowledgePointId": "KP-READ-GUIDE-001",
@@ -654,7 +686,7 @@
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   },
   {
     "knowledgePointId": "KP-READ-REASON-001",
@@ -692,7 +724,7 @@
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   },
   {
     "knowledgePointId": "KP-GRA-MONONO-001",
@@ -733,7 +765,7 @@
     "verificationStatus": "verified",
     "sourceType": "trusted_learning_site",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   },
   {
     "knowledgePointId": "KP-GRA-TOWAIE-001",
@@ -769,7 +801,7 @@
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   },
   {
     "knowledgePointId": "KP-GRA-NAGARAMO-001",
@@ -799,11 +831,16 @@
     "confusablePointIds": [
       "KP-GRA-TSUTSUMO-001"
     ],
-    "linkedQuestionIds": [],
+    "linkedQuestionIds": [
+      "Q-N2-FAC-S15-0001",
+      "Q-N2-FAC-S15-0002",
+      "Q-N2-FAC-S15-0003",
+      "Q-N2-FAC-S15-0004"
+    ],
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   },
   {
     "knowledgePointId": "KP-GRA-NIMOKAKAWARAZU-001",
@@ -842,7 +879,7 @@
     "verificationStatus": "verified",
     "sourceType": "trusted_learning_site",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   },
   {
     "knowledgePointId": "KP-GRA-KUSENI-001",
@@ -878,7 +915,7 @@
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   },
   {
     "knowledgePointId": "KP-GRA-TSUTSUMO-001",
@@ -907,11 +944,16 @@
     "confusablePointIds": [
       "KP-GRA-NAGARAMO-001"
     ],
-    "linkedQuestionIds": [],
+    "linkedQuestionIds": [
+      "Q-N2-FAC-S15-0121",
+      "Q-N2-FAC-S15-0122",
+      "Q-N2-FAC-S15-0123",
+      "Q-N2-FAC-S15-0124"
+    ],
     "verificationStatus": "verified",
     "sourceType": "trusted_learning_site",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   },
   {
     "knowledgePointId": "KP-GRA-HANMEN-001",
@@ -949,7 +991,7 @@
     "verificationStatus": "verified",
     "sourceType": "trusted_learning_site",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   },
   {
     "knowledgePointId": "KP-GRA-IPPOUDE-001",
@@ -987,7 +1029,7 @@
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   },
   {
     "knowledgePointId": "KP-GRA-NIHANSHITE-001",
@@ -1023,7 +1065,7 @@
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   },
   {
     "knowledgePointId": "KP-GRA-DOKOROKA-001",
@@ -1056,12 +1098,16 @@
     ],
     "linkedQuestionIds": [
       "Q-N2-GRM-0003",
-      "Q-N2-GRM-0008"
+      "Q-N2-GRM-0008",
+      "Q-N2-FAC-S15-0089",
+      "Q-N2-FAC-S15-0090",
+      "Q-N2-FAC-S15-0091",
+      "Q-N2-FAC-S15-0092"
     ],
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   },
   {
     "knowledgePointId": "KP-GRA-KOTOKARA-001",
@@ -1099,7 +1145,7 @@
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   },
   {
     "knowledgePointId": "KP-GRA-MONODAKARA-001",
@@ -1130,11 +1176,16 @@
       "KP-GRA-KOTOKARA-001",
       "KP-GRA-BAKARINI-001"
     ],
-    "linkedQuestionIds": [],
+    "linkedQuestionIds": [
+      "Q-N2-FAC-S15-0093",
+      "Q-N2-FAC-S15-0094",
+      "Q-N2-FAC-S15-0095",
+      "Q-N2-FAC-S15-0096"
+    ],
     "verificationStatus": "verified",
     "sourceType": "trusted_learning_site",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   },
   {
     "knowledgePointId": "KP-GRA-BAKARINI-001",
@@ -1174,7 +1225,7 @@
     "verificationStatus": "verified",
     "sourceType": "trusted_learning_site",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   },
   {
     "knowledgePointId": "KP-GRA-OKAGEDE-001",
@@ -1210,7 +1261,7 @@
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   },
   {
     "knowledgePointId": "KP-GRA-SEIDE-001",
@@ -1246,7 +1297,7 @@
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   },
   {
     "knowledgePointId": "KP-GRA-AMARI-001",
@@ -1282,7 +1333,7 @@
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   },
   {
     "knowledgePointId": "KP-GRA-AGEKU-001",
@@ -1318,7 +1369,7 @@
     "verificationStatus": "verified",
     "sourceType": "trusted_learning_site",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   },
   {
     "knowledgePointId": "KP-GRA-IJOUWA-001",
@@ -1354,7 +1405,7 @@
     "verificationStatus": "verified",
     "sourceType": "trusted_learning_site",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   },
   {
     "knowledgePointId": "KP-GRA-NICHIGAINAI-001",
@@ -1391,7 +1442,7 @@
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   },
   {
     "knowledgePointId": "KP-GRA-HAZUDA-001",
@@ -1427,7 +1478,7 @@
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   },
   {
     "knowledgePointId": "KP-GRA-WAKEGANAI-001",
@@ -1464,7 +1515,7 @@
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   },
   {
     "knowledgePointId": "KP-GRA-YOUDA-001",
@@ -1493,11 +1544,16 @@
     "confusablePointIds": [
       "KP-GRA-RASHII-001"
     ],
-    "linkedQuestionIds": [],
+    "linkedQuestionIds": [
+      "Q-N2-FAC-S15-0025",
+      "Q-N2-FAC-S15-0026",
+      "Q-N2-FAC-S15-0027",
+      "Q-N2-FAC-S15-0028"
+    ],
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   },
   {
     "knowledgePointId": "KP-GRA-RASHII-001",
@@ -1527,11 +1583,16 @@
     "confusablePointIds": [
       "KP-GRA-YOUDA-001"
     ],
-    "linkedQuestionIds": [],
+    "linkedQuestionIds": [
+      "Q-N2-FAC-S15-0009",
+      "Q-N2-FAC-S15-0010",
+      "Q-N2-FAC-S15-0011",
+      "Q-N2-FAC-S15-0012"
+    ],
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   },
   {
     "knowledgePointId": "KP-GRA-OSOREGAARU-001",
@@ -1569,7 +1630,7 @@
     "verificationStatus": "verified",
     "sourceType": "trusted_learning_site",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   },
   {
     "knowledgePointId": "KP-GRA-KANENAI-001",
@@ -1607,7 +1668,7 @@
     "verificationStatus": "verified",
     "sourceType": "trusted_learning_site",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   },
   {
     "knowledgePointId": "KP-GRA-MAI-001",
@@ -1634,11 +1695,16 @@
       "KP-GRA-WAKEGANAI-001"
     ],
     "confusablePointIds": [],
-    "linkedQuestionIds": [],
+    "linkedQuestionIds": [
+      "Q-N2-FAC-S15-0069",
+      "Q-N2-FAC-S15-0070",
+      "Q-N2-FAC-S15-0071",
+      "Q-N2-FAC-S15-0072"
+    ],
     "verificationStatus": "verified",
     "sourceType": "trusted_learning_site",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   },
   {
     "knowledgePointId": "KP-GRA-NIKIMATTEIRU-001",
@@ -1665,11 +1731,16 @@
       "KP-GRA-NICHIGAINAI-001"
     ],
     "confusablePointIds": [],
-    "linkedQuestionIds": [],
+    "linkedQuestionIds": [
+      "Q-N2-FAC-S15-0057",
+      "Q-N2-FAC-S15-0058",
+      "Q-N2-FAC-S15-0059",
+      "Q-N2-FAC-S15-0060"
+    ],
     "verificationStatus": "verified",
     "sourceType": "trusted_learning_site",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   },
   {
     "knowledgePointId": "KP-GRA-NIHOKANARANAI-001",
@@ -1703,7 +1774,7 @@
     "verificationStatus": "verified",
     "sourceType": "trusted_learning_site",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   },
   {
     "knowledgePointId": "KP-GRA-NISUGINAI-001",
@@ -1739,7 +1810,7 @@
     "verificationStatus": "verified",
     "sourceType": "trusted_learning_site",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   },
   {
     "knowledgePointId": "KP-GRA-SHIKANAI-001",
@@ -1777,7 +1848,7 @@
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   },
   {
     "knowledgePointId": "KP-GRA-SAE-001",
@@ -1813,7 +1884,7 @@
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   },
   {
     "knowledgePointId": "KP-GRA-BAKARIKA-001",
@@ -1853,7 +1924,7 @@
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   },
   {
     "knowledgePointId": "KP-GRA-NOMINARAZU-001",
@@ -1880,11 +1951,16 @@
       "KP-GRA-BAKARIKA-001"
     ],
     "confusablePointIds": [],
-    "linkedQuestionIds": [],
+    "linkedQuestionIds": [
+      "Q-N2-FAC-S15-0061",
+      "Q-N2-FAC-S15-0062",
+      "Q-N2-FAC-S15-0063",
+      "Q-N2-FAC-S15-0064"
+    ],
     "verificationStatus": "verified",
     "sourceType": "trusted_learning_site",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   },
   {
     "knowledgePointId": "KP-GRA-NIKAGITTE-001",
@@ -1913,11 +1989,16 @@
     "confusablePointIds": [
       "KP-GRA-NIKAGIRAZU-001"
     ],
-    "linkedQuestionIds": [],
+    "linkedQuestionIds": [
+      "Q-N2-FAC-S15-0105",
+      "Q-N2-FAC-S15-0106",
+      "Q-N2-FAC-S15-0107",
+      "Q-N2-FAC-S15-0108"
+    ],
     "verificationStatus": "verified",
     "sourceType": "trusted_learning_site",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   },
   {
     "knowledgePointId": "KP-GRA-NIKAGIRAZU-001",
@@ -1946,11 +2027,16 @@
     "confusablePointIds": [
       "KP-GRA-NIKAGITTE-001"
     ],
-    "linkedQuestionIds": [],
+    "linkedQuestionIds": [
+      "Q-N2-FAC-S15-0101",
+      "Q-N2-FAC-S15-0102",
+      "Q-N2-FAC-S15-0103",
+      "Q-N2-FAC-S15-0104"
+    ],
     "verificationStatus": "verified",
     "sourceType": "trusted_learning_site",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   },
   {
     "knowledgePointId": "KP-GRA-WAKEDEWANAI-001",
@@ -1981,12 +2067,16 @@
     ],
     "linkedQuestionIds": [
       "Q-N2-GRM-0001",
-      "Q-N2-GRM-0006"
+      "Q-N2-GRM-0006",
+      "Q-N2-FAC-S15-0077",
+      "Q-N2-FAC-S15-0078",
+      "Q-N2-FAC-S15-0079",
+      "Q-N2-FAC-S15-0080"
     ],
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   },
   {
     "knowledgePointId": "KP-GRA-SAEBA-001",
@@ -2022,7 +2112,7 @@
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   },
   {
     "knowledgePointId": "KP-GRA-MONONARA-001",
@@ -2051,11 +2141,16 @@
     "confusablePointIds": [
       "KP-GRA-YOUMONONARA-001"
     ],
-    "linkedQuestionIds": [],
+    "linkedQuestionIds": [
+      "Q-N2-FAC-S15-0097",
+      "Q-N2-FAC-S15-0098",
+      "Q-N2-FAC-S15-0099",
+      "Q-N2-FAC-S15-0100"
+    ],
     "verificationStatus": "verified",
     "sourceType": "trusted_learning_site",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   },
   {
     "knowledgePointId": "KP-GRA-YOUMONONARA-001",
@@ -2084,11 +2179,16 @@
     "confusablePointIds": [
       "KP-GRA-MONONARA-001"
     ],
-    "linkedQuestionIds": [],
+    "linkedQuestionIds": [
+      "Q-N2-FAC-S15-0029",
+      "Q-N2-FAC-S15-0030",
+      "Q-N2-FAC-S15-0031",
+      "Q-N2-FAC-S15-0032"
+    ],
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   },
   {
     "knowledgePointId": "KP-GRA-NAIKOTONIWA-001",
@@ -2124,7 +2224,7 @@
     "verificationStatus": "verified",
     "sourceType": "trusted_learning_site",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   },
   {
     "knowledgePointId": "KP-GRA-TOSHITARA-001",
@@ -2160,7 +2260,7 @@
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   },
   {
     "knowledgePointId": "KP-GRA-TOSUREBA-001",
@@ -2196,7 +2296,7 @@
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   },
   {
     "knowledgePointId": "KP-GRA-KAGIRI-001",
@@ -2233,7 +2333,7 @@
     "verificationStatus": "verified",
     "sourceType": "trusted_learning_site",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   },
   {
     "knowledgePointId": "KP-GRA-NAIKAGIRI-001",
@@ -2271,7 +2371,7 @@
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   },
   {
     "knowledgePointId": "KP-GRA-NAIKOTOWANAI-001",
@@ -2302,12 +2402,16 @@
     ],
     "linkedQuestionIds": [
       "Q-N2-GRM-0002",
-      "Q-N2-GRM-0007"
+      "Q-N2-GRM-0007",
+      "Q-N2-FAC-S15-0073",
+      "Q-N2-FAC-S15-0074",
+      "Q-N2-FAC-S15-0075",
+      "Q-N2-FAC-S15-0076"
     ],
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   },
   {
     "knowledgePointId": "KP-GRA-TAMENI-001",
@@ -2347,7 +2451,7 @@
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   },
   {
     "knowledgePointId": "KP-GRA-YOUNI-001",
@@ -2385,7 +2489,7 @@
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   },
   {
     "knowledgePointId": "KP-GRA-BEKU-001",
@@ -2421,7 +2525,7 @@
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   },
   {
     "knowledgePointId": "KP-GRA-NIMUKETE-001",
@@ -2458,7 +2562,7 @@
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   },
   {
     "knowledgePointId": "KP-GRA-NISONAETE-001",
@@ -2494,7 +2598,7 @@
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   },
   {
     "knowledgePointId": "KP-GRA-NITOMONATTE-001",
@@ -2534,7 +2638,7 @@
     "verificationStatus": "verified",
     "sourceType": "trusted_learning_site",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   },
   {
     "knowledgePointId": "KP-GRA-NITSURETE-001",
@@ -2575,7 +2679,7 @@
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   },
   {
     "knowledgePointId": "KP-GRA-NISHITAGATTE-001",
@@ -2613,7 +2717,7 @@
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   },
   {
     "knowledgePointId": "KP-GRA-TOTOMONI-001",
@@ -2642,11 +2746,16 @@
     "confusablePointIds": [
       "KP-GRA-NITOMONATTE-001"
     ],
-    "linkedQuestionIds": [],
+    "linkedQuestionIds": [
+      "Q-N2-FAC-S15-0017",
+      "Q-N2-FAC-S15-0018",
+      "Q-N2-FAC-S15-0019",
+      "Q-N2-FAC-S15-0020"
+    ],
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   },
   {
     "knowledgePointId": "KP-GRA-YOUNINARU-001",
@@ -2682,7 +2791,7 @@
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   },
   {
     "knowledgePointId": "KP-GRA-KOTONINARU-001",
@@ -2720,7 +2829,7 @@
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   },
   {
     "knowledgePointId": "KP-GRA-KOTONISURU-001",
@@ -2759,7 +2868,7 @@
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   },
   {
     "knowledgePointId": "KP-GRA-BAKARIDA-001",
@@ -2795,7 +2904,7 @@
     "verificationStatus": "verified",
     "sourceType": "trusted_learning_site",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   },
   {
     "knowledgePointId": "KP-GRA-ZARUOENAI-001",
@@ -2833,7 +2942,7 @@
     "verificationStatus": "verified",
     "sourceType": "trusted_learning_site",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   },
   {
     "knowledgePointId": "KP-GRA-NAIWAKENIHAIKANAI-001",
@@ -2871,7 +2980,7 @@
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   },
   {
     "knowledgePointId": "KP-GRA-BEKIDA-001",
@@ -2909,7 +3018,7 @@
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   },
   {
     "knowledgePointId": "KP-GRA-BEKIDEWANAI-001",
@@ -2947,7 +3056,7 @@
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   },
   {
     "knowledgePointId": "KP-GRA-KOTODA-001",
@@ -2974,11 +3083,16 @@
       "KP-GRA-BEKIDA-001"
     ],
     "confusablePointIds": [],
-    "linkedQuestionIds": [],
+    "linkedQuestionIds": [
+      "Q-N2-FAC-S15-0053",
+      "Q-N2-FAC-S15-0054",
+      "Q-N2-FAC-S15-0055",
+      "Q-N2-FAC-S15-0056"
+    ],
     "verificationStatus": "verified",
     "sourceType": "trusted_learning_site",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   },
   {
     "knowledgePointId": "KP-GRA-KOTOWANAI-001",
@@ -3014,7 +3128,7 @@
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   },
   {
     "knowledgePointId": "KP-GRA-TEWANARANAI-001",
@@ -3042,11 +3156,16 @@
       "KP-GRA-KOTONINATTEIRU-001"
     ],
     "confusablePointIds": [],
-    "linkedQuestionIds": [],
+    "linkedQuestionIds": [
+      "Q-N2-FAC-S15-0065",
+      "Q-N2-FAC-S15-0066",
+      "Q-N2-FAC-S15-0067",
+      "Q-N2-FAC-S15-0068"
+    ],
     "verificationStatus": "verified",
     "sourceType": "trusted_learning_site",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   },
   {
     "knowledgePointId": "KP-GRA-KOTONINATTEIRU-001",
@@ -3082,7 +3201,7 @@
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   },
   {
     "knowledgePointId": "KP-GRA-HODO-001",
@@ -3120,7 +3239,7 @@
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   },
   {
     "knowledgePointId": "KP-GRA-KURAI-001",
@@ -3158,7 +3277,7 @@
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   },
   {
     "knowledgePointId": "KP-GRA-NIKURABETE-001",
@@ -3196,7 +3315,7 @@
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   },
   {
     "knowledgePointId": "KP-GRA-NITAISHITE-001",
@@ -3234,7 +3353,7 @@
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   },
   {
     "knowledgePointId": "KP-GRA-WARINI-001",
@@ -3263,11 +3382,16 @@
     "confusablePointIds": [
       "KP-GRA-NISHITEWA-001"
     ],
-    "linkedQuestionIds": [],
+    "linkedQuestionIds": [
+      "Q-N2-FAC-S15-0021",
+      "Q-N2-FAC-S15-0022",
+      "Q-N2-FAC-S15-0023",
+      "Q-N2-FAC-S15-0024"
+    ],
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   },
   {
     "knowledgePointId": "KP-GRA-NISHITEWA-001",
@@ -3296,11 +3420,16 @@
     "confusablePointIds": [
       "KP-GRA-WARINI-001"
     ],
-    "linkedQuestionIds": [],
+    "linkedQuestionIds": [
+      "Q-N2-FAC-S15-0005",
+      "Q-N2-FAC-S15-0006",
+      "Q-N2-FAC-S15-0007",
+      "Q-N2-FAC-S15-0008"
+    ],
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   },
   {
     "knowledgePointId": "KP-GRA-DOKORODEWANAI-001",
@@ -3338,7 +3467,7 @@
     "verificationStatus": "verified",
     "sourceType": "trusted_learning_site",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   },
   {
     "knowledgePointId": "KP-GRA-UCHINI-001",
@@ -3374,7 +3503,7 @@
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   },
   {
     "knowledgePointId": "KP-GRA-SAICHUUNI-001",
@@ -3403,11 +3532,16 @@
     "confusablePointIds": [
       "KP-GRA-TOKORONI-001"
     ],
-    "linkedQuestionIds": [],
+    "linkedQuestionIds": [
+      "Q-N2-FAC-S15-0013",
+      "Q-N2-FAC-S15-0014",
+      "Q-N2-FAC-S15-0015",
+      "Q-N2-FAC-S15-0016"
+    ],
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   },
   {
     "knowledgePointId": "KP-GRA-TABINI-001",
@@ -3443,7 +3577,7 @@
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   },
   {
     "knowledgePointId": "KP-GRA-TOKORONI-001",
@@ -3472,11 +3606,16 @@
     "confusablePointIds": [
       "KP-GRA-SAICHUUNI-001"
     ],
-    "linkedQuestionIds": [],
+    "linkedQuestionIds": [
+      "Q-N2-FAC-S15-0117",
+      "Q-N2-FAC-S15-0118",
+      "Q-N2-FAC-S15-0119",
+      "Q-N2-FAC-S15-0120"
+    ],
     "verificationStatus": "verified",
     "sourceType": "trusted_learning_site",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   },
   {
     "knowledgePointId": "KP-GRA-TEIRAI-001",
@@ -3512,7 +3651,7 @@
     "verificationStatus": "verified",
     "sourceType": "trusted_learning_site",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   },
   {
     "knowledgePointId": "KP-GRA-NISAKIDATTE-001",
@@ -3541,11 +3680,16 @@
     "confusablePointIds": [
       "KP-GRA-NISAISHITE-001"
     ],
-    "linkedQuestionIds": [],
+    "linkedQuestionIds": [
+      "Q-N2-FAC-S15-0113",
+      "Q-N2-FAC-S15-0114",
+      "Q-N2-FAC-S15-0115",
+      "Q-N2-FAC-S15-0116"
+    ],
     "verificationStatus": "verified",
     "sourceType": "trusted_learning_site",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   },
   {
     "knowledgePointId": "KP-GRA-NISAISHITE-001",
@@ -3574,10 +3718,15 @@
     "confusablePointIds": [
       "KP-GRA-NISAKIDATTE-001"
     ],
-    "linkedQuestionIds": [],
+    "linkedQuestionIds": [
+      "Q-N2-FAC-S15-0109",
+      "Q-N2-FAC-S15-0110",
+      "Q-N2-FAC-S15-0111",
+      "Q-N2-FAC-S15-0112"
+    ],
     "verificationStatus": "verified",
     "sourceType": "trusted_learning_site",
     "version": 1,
-    "updatedAt": "2026-07-02T15:46:15.853Z"
+    "updatedAt": "2026-07-02T16:56:42.549Z"
   }
 ]

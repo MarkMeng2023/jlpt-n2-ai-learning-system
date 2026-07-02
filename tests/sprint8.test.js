@@ -11,7 +11,7 @@ import {
 const basePoints = JSON.parse(await readFile(new URL("../data/knowledge-points.json", import.meta.url), "utf8"));
 const grammarPoints = JSON.parse(await readFile(new URL("../knowledge/grammar/grammar-points.json", import.meta.url), "utf8"));
 const questions = JSON.parse(await readFile(new URL("../data/questions.json", import.meta.url), "utf8"))
-  .filter((question) => !question.questionId.startsWith("Q-N2-FAC-S14-"));
+  .filter((question) => !question.questionId.startsWith("Q-N2-FAC-S14-") && !question.questionId.startsWith("Q-N2-FAC-S15-"));
 const factory = buildQuestionFactoryPlan({ basePoints, grammarPoints, questions });
 
 test("Coverage Engine 按 ID 合并知识点并应用可配置目标", () => {

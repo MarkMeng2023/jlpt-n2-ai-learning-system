@@ -7,7 +7,7 @@ import { validateQuestionBank } from "../src/question-bank.js";
 import { buildProjectStatus, loadProjectStatusData } from "../src/project-status.js";
 
 const questions = JSON.parse(await readFile(new URL("../data/questions.json", import.meta.url), "utf8"))
-  .filter((question) => !question.questionId.startsWith("Q-N2-FAC-S14-"));
+  .filter((question) => !question.questionId.startsWith("Q-N2-FAC-S14-") && !question.questionId.startsWith("Q-N2-FAC-S15-"));
 const points = JSON.parse(await readFile(new URL("../data/knowledge-points.json", import.meta.url), "utf8"));
 const grammar = JSON.parse(await readFile(new URL("../knowledge/grammar/grammar-points.json", import.meta.url), "utf8"));
 const sources = JSON.parse(await readFile(new URL("../data/knowledge-point-sources.json", import.meta.url), "utf8"));
@@ -90,9 +90,9 @@ test("历史流水线与当前自动报告保持可用", async () => {
     readFile(new URL("../reports/question-bank-quality.md", import.meta.url), "utf8"),
     readFile(new URL("../package.json", import.meta.url), "utf8").then(JSON.parse)
   ]);
-  assert.match(coverage, /当前题目数：\*\*321\*\*/);
-  assert.match(coverage, /目标完成率：\*\*37\.99%\*\*/);
-  assert.match(plan, /建议新增关联数：\*\*524\*\*/);
-  assert.match(quality, /\| 题目数 \| 321 \|/);
+  assert.match(coverage, /当前题目数：\*\*449\*\*/);
+  assert.match(coverage, /目标完成率：\*\*53\.14%\*\*/);
+  assert.match(plan, /建议新增关联数：\*\*396\*\*/);
+  assert.match(quality, /\| 题目数 \| 449 \|/);
   assert.match(pkg.scripts["pipeline:sprint10"], /generate-sprint10-questions/);
 });
