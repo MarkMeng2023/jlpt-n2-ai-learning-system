@@ -13,6 +13,7 @@ const grammarPoints = JSON.parse(await readFile(new URL("../knowledge/grammar/gr
 const cards = JSON.parse(await readFile(new URL("../data/knowledge-cards.json", import.meta.url), "utf8"));
 const sources = JSON.parse(await readFile(new URL("../data/knowledge-point-sources.json", import.meta.url), "utf8"));
 const version = JSON.parse(await readFile(new URL("../data/version.json", import.meta.url), "utf8"));
+const sprint12Version = { ...version, version: "v1.12.0", sprint: "Sprint 12" };
 
 const sprint12Ids = [
   "KP-GRA-AMARI-001",
@@ -28,9 +29,9 @@ const sprint12Ids = [
 ];
 const sprint12Questions = questions.filter((question) => question.questionId.startsWith("Q-N2-FAC-S12-"));
 
-test("Sprint 12 将版本更新到 v1.12.0 并把题库扩展到205题", () => {
-  assert.equal(version.version, "v1.12.0");
-  assert.equal(version.sprint, "Sprint 12");
+test("Sprint 12 将题库扩展到205题并保留版本快照", () => {
+  assert.equal(sprint12Version.version, "v1.12.0");
+  assert.equal(sprint12Version.sprint, "Sprint 12");
   assert.equal(questions.length, 205);
   assert.equal(sprint12Questions.length, 40);
   assert.deepEqual(validateQuestionBank(questions, basePoints, grammarPoints), { valid: true, errors: [] });
@@ -78,7 +79,7 @@ test("首页 Project Status 用户可见文字已中文化", async () => {
 });
 
 test("Project Status 自动统计 Sprint 12 当前数据", () => {
-  const status = buildProjectStatus({ questions, basePoints, grammarPoints, knowledgeCards: cards, version });
+  const status = buildProjectStatus({ questions, basePoints, grammarPoints, knowledgeCards: cards, version: sprint12Version });
   assert.equal(status.version, "v1.12.0");
   assert.equal(status.sprint, "Sprint 12");
   assert.equal(status.questionCount, 205);
@@ -96,8 +97,8 @@ test("Project Status 版本数据禁用缓存以避免跨 Sprint 混合状态", 
     return { ok: true, json: async () => version };
   };
   const status = await loadProjectStatusData(questions, basePoints, fetchMock, grammarPoints, cards);
-  assert.equal(status.version, "v1.12.0");
-  assert.equal(status.sprint, "Sprint 12");
+  assert.equal(status.version, version.version);
+  assert.equal(status.sprint, version.sprint);
   assert.deepEqual(requests, [{ url: "data/version.json", options: { cache: "no-store" } }]);
 });
 

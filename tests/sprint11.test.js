@@ -46,8 +46,8 @@ test("Question Factory 使用 Knowledge Card 作为知识点数据源", () => {
 
 test("Project Status 显示 Knowledge Card 数量与覆盖率", () => {
   const status = buildProjectStatus({ questions, basePoints: points, grammarPoints: grammar, knowledgeCards: cards, version });
-  assert.equal(status.version, "v1.12.0");
-  assert.equal(status.sprint, "Sprint 12");
+  assert.equal(status.version, version.version);
+  assert.equal(status.sprint, version.sprint);
   assert.equal(status.knowledgeCardCount, 100);
   assert.equal(status.knowledgeCardCoverage, 100);
 });

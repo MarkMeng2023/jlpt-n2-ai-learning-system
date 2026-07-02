@@ -85,8 +85,9 @@ function distributeRecommendations(kind, gap) {
   return result.filter((plan) => plan.suggestedCount > 0);
 }
 
-export function buildQuestionFactoryPlan({ basePoints = [], grammarPoints = [], knowledgeCards = null, questions, coverageRules = DEFAULT_COVERAGE_RULES }) {
+export function buildQuestionFactoryPlan({ basePoints = [], grammarPoints = [], knowledgeCards = null, questions, coverageRules = DEFAULT_COVERAGE_RULES, examCoverage = null }) {
   const knowledgePoints = knowledgeCards || mergeKnowledgePoints(basePoints, grammarPoints);
+  const examScores = new Map((examCoverage?.points || []).map((point) => [point.knowledgePointId, point.coverageScore]));
   const questionCounts = new Map(knowledgePoints.map((point) => [point.knowledgePointId, 0]));
   const sourceTypes = new Map(knowledgePoints.map((point) => [point.knowledgePointId, new Set()]));
 
@@ -115,6 +116,7 @@ export function buildQuestionFactoryPlan({ basePoints = [], grammarPoints = [], 
       target,
       gap,
       coverageRate: Math.min(100, Math.round(current / target * 10000) / 100),
+      examCoverageScore: examScores.get(point.knowledgePointId) ?? null,
       hasOfficialQuestion: sources.has("official_sample"),
       hasAiQuestion: sources.has("ai_generated"),
       recommendations: distributeRecommendations(kind, gap)
@@ -123,7 +125,8 @@ export function buildQuestionFactoryPlan({ basePoints = [], grammarPoints = [], 
     return entry;
   });
 
-  coverage.sort((a, b) => b.gap - a.gap
+  coverage.sort((a, b) => (a.examCoverageScore ?? 101) - (b.examCoverageScore ?? 101)
+    || b.gap - a.gap
     || b.target - a.target
     || Number(b.status === "verified") - Number(a.status === "verified")
     || (b.examFrequency || 0) - (a.examFrequency || 0)

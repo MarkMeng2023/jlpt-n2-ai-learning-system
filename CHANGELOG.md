@@ -1,5 +1,12 @@
 # Changelog
 
+## Sprint 13
+
+- 新增 N2 Exam Coverage Engine，以题量、知识卡、题型与难度多样性、来源验证计算每个 Knowledge Point 的 Coverage Score。
+- 首页新增可展开的 N2 考试覆盖率 Dashboard，显示六类覆盖率及风险最高 Top20。
+- 新增 Exam Coverage Report 与 Coverage Validation；Question Factory 改为按 Coverage Score 优先补题。
+- 版本更新为 `v1.13.0` / `Sprint 13`，题库维持205题。
+
 ## Sprint 12
 
 - 首页用户可见文案完成简体中文化，Project Status 显示 `v1.12.0`、`Sprint 12`、题库总量、知识点、知识卡、覆盖率、目标题量和最后更新时间。

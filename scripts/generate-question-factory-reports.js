@@ -1,12 +1,15 @@
 #!/usr/bin/env node
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { buildQuestionFactoryPlan, DEFAULT_COVERAGE_RULES } from "../src/question-factory.js";
+import { buildExamCoverage } from "../src/exam-coverage.js";
 
-const [knowledgeCards, questions] = await Promise.all([
+const [knowledgeCards, questions, grammarPoints] = await Promise.all([
   readFile(new URL("../data/knowledge-cards.json", import.meta.url), "utf8").then(JSON.parse),
-  readFile(new URL("../data/questions.json", import.meta.url), "utf8").then(JSON.parse)
+  readFile(new URL("../data/questions.json", import.meta.url), "utf8").then(JSON.parse),
+  readFile(new URL("../knowledge/grammar/grammar-points.json", import.meta.url), "utf8").then(JSON.parse)
 ]);
-const result = buildQuestionFactoryPlan({ knowledgeCards, questions });
+const examCoverage = buildExamCoverage({ knowledgeCards, questions, grammarPoints });
+const result = buildQuestionFactoryPlan({ knowledgeCards, questions, examCoverage });
 const { summary, coverage, generationPlan } = result;
 const percent = (value) => `${value.toFixed(2)}%`;
 const yesNo = (value) => value ? "YES" : "NO";
@@ -60,9 +63,11 @@ const planReport = [
   "",
   "## 计划",
   "",
-  "| 优先级 | 知识点 | 标题 | 建议新增 | 题型与难度建议 | 已有真题 | 已有 AI 题 |",
-  "| --- | --- | --- | ---: | --- | --- | --- |",
-  ...generationPlan.map((entry) => `| ${entry.priority} | ${entry.knowledgePointId} | ${entry.title} | ${entry.gap} | ${recommendations(entry)} | ${yesNo(entry.hasOfficialQuestion)} | ${yesNo(entry.hasAiQuestion)} |`),
+  "Factory 已改为优先处理考试 Coverage Score 最低的 Knowledge Point；题量缺口用于确定建议新增数量。",
+  "",
+  "| 优先级 | 知识点 | 标题 | 考试覆盖率 | 建议新增 | 题型与难度建议 | 已有真题 | 已有 AI 题 |",
+  "| --- | --- | --- | ---: | ---: | --- | --- | --- |",
+  ...generationPlan.map((entry) => `| ${entry.priority} | ${entry.knowledgePointId} | ${entry.title} | ${percent(entry.examCoverageScore || 0)} | ${entry.gap} | ${recommendations(entry)} | ${yesNo(entry.hasOfficialQuestion)} | ${yesNo(entry.hasAiQuestion)} |`),
   "",
   "## 质量门禁",
   "",

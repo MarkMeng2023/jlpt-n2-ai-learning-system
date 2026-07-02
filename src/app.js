@@ -4,6 +4,7 @@ import { createSubmission } from "./records.js";
 import { ProgressStore, mergeAnsweredQuestionIds } from "./progress.js";
 import { loadQuestionBank } from "./question-bank.js";
 import { loadProjectStatusData } from "./project-status.js";
+import { buildExamCoverage } from "./exam-coverage.js";
 import {
   KNOWLEDGE_STATUS,
   buildKnowledgeProfiles,
@@ -24,7 +25,7 @@ const elements = Object.fromEntries([
   "sync-status", "sync-detail", "pending-count", "prompt-section", "chatgpt-prompt",
   "copy-button", "copy-status", "project-eyebrow", "project-status-sprint", "project-version", "project-question-count",
   "project-knowledge-count", "project-coverage", "project-question-target", "project-last-updated",
-  "project-card-count", "project-card-coverage"
+  "project-card-count", "project-card-coverage", "exam-coverage-score", "exam-category-coverage", "exam-risk-list"
 ].map((id) => [id.replaceAll("-", "_"), document.querySelector(`#${id}`)]));
 
 const queue = new SyncQueue(APP_CONFIG.queueStorageKey);
@@ -67,6 +68,7 @@ async function init() {
     questions = bank.questions;
     const projectStatus = await loadProjectStatusData(questions, bank.knowledgePoints, undefined, bank.grammarPoints, bank.knowledgeCards);
     renderProjectStatus(projectStatus);
+    renderExamCoverage(buildExamCoverage({ knowledgeCards: bank.knowledgeCards, questions, grammarPoints: bank.grammarPoints }));
 
     const pendingRecords = queue.getAll().map((operation) => operation.answerRecord).filter(Boolean);
     answerRecords = pendingRecords;
@@ -94,6 +96,27 @@ async function init() {
     showAppError(`${error.message}。请通过本地 HTTP 服务器打开本项目。`);
     document.querySelectorAll(".mode-card").forEach((button) => { button.disabled = true; });
   }
+}
+
+function renderExamCoverage(coverage) {
+  elements.exam_coverage_score.textContent = `${coverage.summary.coverageScore.toFixed(2)}%`;
+  elements.exam_category_coverage.replaceChildren(...coverage.categoryCoverage.map((entry) => {
+    const item = document.createElement("div");
+    const label = document.createElement("span");
+    const score = document.createElement("strong");
+    label.textContent = entry.label;
+    score.textContent = `${entry.coverageScore.toFixed(2)}%`;
+    item.append(label, score);
+    return item;
+  }));
+  const risks = [...coverage.points]
+    .sort((a, b) => a.coverageScore - b.coverageScore || a.knowledgePointId.localeCompare(b.knowledgePointId))
+    .slice(0, 20);
+  elements.exam_risk_list.replaceChildren(...risks.map((point) => {
+    const item = document.createElement("li");
+    item.textContent = `${point.title} · ${point.coverageScore.toFixed(2)}%`;
+    return item;
+  }));
 }
 
 function renderProjectStatus(status) {

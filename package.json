@@ -8,8 +8,10 @@
     "validate:grammar": "node scripts/validate-grammar-map.js",
     "generate:cards": "node scripts/generate-knowledge-cards.js",
     "validate:cards": "node scripts/validate-knowledge-cards.js",
+    "validate:coverage": "node scripts/validate-exam-coverage.js",
     "report:grammar": "node scripts/generate-grammar-reports.js",
     "report:factory": "node scripts/generate-question-factory-reports.js",
+    "report:coverage": "node scripts/generate-exam-coverage-report.js",
     "generate:sprint9": "node scripts/generate-sprint9-questions.js",
     "pipeline:sprint9": "node scripts/generate-sprint9-questions.js && node scripts/validate-question-bank.js && node scripts/validate-grammar-map.js && node scripts/generate-question-factory-reports.js && node scripts/report-question-bank-quality.js --output reports/question-bank-quality.md",
     "generate:sprint10": "node scripts/generate-sprint10-questions.js",
@@ -19,6 +21,6 @@
     "pipeline:sprint12": "node scripts/generate-sprint12-questions.js && node scripts/generate-knowledge-cards.js && node scripts/validate-question-bank.js && node scripts/validate-grammar-map.js && node scripts/validate-knowledge-cards.js && node scripts/generate-question-factory-reports.js && node scripts/report-question-bank-quality.js --output reports/question-bank-quality.md",
     "report:quality": "node scripts/report-question-bank-quality.js --output reports/question-bank-quality.md",
     "validate:quality": "node scripts/report-question-bank-quality.js --strict",
-    "test": "node scripts/validate-question-bank.js && node scripts/validate-grammar-map.js && node scripts/validate-knowledge-cards.js && node --test tests/*.test.js"
+    "test": "node scripts/validate-question-bank.js && node scripts/validate-grammar-map.js && node scripts/validate-knowledge-cards.js && node scripts/validate-exam-coverage.js && node --test tests/*.test.js"
   }
 }
