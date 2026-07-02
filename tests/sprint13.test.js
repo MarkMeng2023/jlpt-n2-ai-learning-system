@@ -55,6 +55,8 @@ test("首页包含可展开的 N2 考试覆盖率 Dashboard", async () => {
     .forEach((text) => assert.match(html, new RegExp(text)));
   assert.match(app, /buildExamCoverage/);
   assert.match(app, /renderExamCoverage/);
+  assert.match(html, /styles\/main\.css\?v=1\.13\.0/);
+  assert.match(html, /src\/app\.js\?v=1\.13\.0/);
 });
 
 test("Exam Coverage Report 包含全部风险与建议章节", async () => {
