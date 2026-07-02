@@ -1,5 +1,12 @@
 # Changelog
 
+## Sprint 14
+
+- 按 N2 Exam Coverage Score、考试频率和题型缺口，为29个低覆盖文法点新增116题，题库达到321题。
+- 每个知识点新增单句、对话、辨析、短文四类题，难度2/3/4/5与答案A/B/C/D均衡分布。
+- N2考试覆盖率由37.26%提升至48.86%，题量目标完成率由24.26%提升至37.99%。
+- 版本更新为 `v1.14.0` / `Sprint 14`，并刷新全部 Coverage、Factory 与 Quality 报告。
+
 ## Sprint 13
 
 - 新增 N2 Exam Coverage Engine，以题量、知识卡、题型与难度多样性、来源验证计算每个 Knowledge Point 的 Coverage Score。

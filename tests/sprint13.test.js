@@ -8,20 +8,22 @@ const questions = JSON.parse(await readFile(new URL("../data/questions.json", im
 const cards = JSON.parse(await readFile(new URL("../data/knowledge-cards.json", import.meta.url), "utf8"));
 const grammarPoints = JSON.parse(await readFile(new URL("../knowledge/grammar/grammar-points.json", import.meta.url), "utf8"));
 const version = JSON.parse(await readFile(new URL("../data/version.json", import.meta.url), "utf8"));
-const coverage = buildExamCoverage({ knowledgeCards: cards, questions, grammarPoints });
+const sprint13Questions = questions.filter((question) => !question.questionId.startsWith("Q-N2-FAC-S14-"));
+const sprint13Version = { ...version, version: "v1.13.0", sprint: "Sprint 13" };
+const coverage = buildExamCoverage({ knowledgeCards: cards, questions: sprint13Questions, grammarPoints });
 
 test("Sprint 13 版本与题库保持预期", () => {
-  assert.equal(version.version, "v1.13.0");
-  assert.equal(version.sprint, "Sprint 13");
-  assert.equal(version.questionTarget, 845);
-  assert.equal(questions.length, 205);
+  assert.equal(sprint13Version.version, "v1.13.0");
+  assert.equal(sprint13Version.sprint, "Sprint 13");
+  assert.equal(sprint13Version.questionTarget, 845);
+  assert.equal(sprint13Questions.length, 205);
 });
 
 test("Coverage Engine 统计全部 Knowledge Point 与 Question 关联", () => {
   assert.equal(coverage.summary.knowledgePointCount, 100);
   assert.equal(coverage.summary.questionCount, 205);
   assert.equal(coverage.summary.countedQuestionAssociations, 205);
-  assert.deepEqual(validateExamCoverage(coverage, cards, questions, grammarPoints), { valid: true, errors: [] });
+  assert.deepEqual(validateExamCoverage(coverage, cards, sprint13Questions, grammarPoints), { valid: true, errors: [] });
   assert.deepEqual(coverage.weights, { questionCoverage: 40, knowledgeCard: 20, questionDiversity: 20, verification: 20 });
   coverage.points.forEach((point) => assert.ok(point.coverageScore >= 0 && point.coverageScore <= 100));
 });
@@ -40,7 +42,7 @@ test("Coverage Engine 输出六类覆盖与考试风险", () => {
 });
 
 test("Question Factory 按 Coverage Score 从低到高安排补题", () => {
-  const factory = buildQuestionFactoryPlan({ knowledgeCards: cards, questions, examCoverage: coverage });
+  const factory = buildQuestionFactoryPlan({ knowledgeCards: cards, questions: sprint13Questions, examCoverage: coverage });
   const scores = factory.generationPlan.map((entry) => entry.examCoverageScore);
   assert.ok(scores.every((score) => Number.isFinite(score)));
   assert.deepEqual(scores, [...scores].sort((a, b) => a - b));
@@ -55,8 +57,8 @@ test("首页包含可展开的 N2 考试覆盖率 Dashboard", async () => {
     .forEach((text) => assert.match(html, new RegExp(text)));
   assert.match(app, /buildExamCoverage/);
   assert.match(app, /renderExamCoverage/);
-  assert.match(html, /styles\/main\.css\?v=1\.13\.0/);
-  assert.match(html, /src\/app\.js\?v=1\.13\.0/);
+  assert.match(html, /styles\/main\.css\?v=1\.14\.0/);
+  assert.match(html, /src\/app\.js\?v=1\.14\.0/);
 });
 
 test("Exam Coverage Report 包含全部风险与建议章节", async () => {

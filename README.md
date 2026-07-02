@@ -1,4 +1,4 @@
-# JLPT N2 AI Learning System — Sprint 13
+# JLPT N2 AI Learning System — Sprint 14
 
 Sprint 6 暂停扩题，建立题库来源、知识点证据和质量门禁。现有 80 道题与 30 个知识点保持不变；只有来源验证、解析质量与人工审核达标后，才进入 300 题扩充阶段。Sprint 5 的标准化题库与 Sprint 4 的 Review Engine 继续保留。
 
@@ -87,6 +87,15 @@ npm run report:factory
 ```
 
 考试覆盖报告位于 `knowledge/reports/exam-coverage-report.md`。当前页面应显示 `v1.13.0` 与 `Sprint 13`；Sprint 13 不新增题目，题库仍为205题。
+
+Sprint 14 Content Sprint 1 根据 Exam Coverage Score、考试频率、当前题数和题型缺口，为29个低覆盖文法点各补充4题。新增116题涵盖单句、对话、辨析和短文四种形式，题库达到321题：
+
+```bash
+npm run generate:sprint14
+npm run pipeline:sprint14
+```
+
+当前版本为 `v1.14.0` / `Sprint 14`，N2考试覆盖率为48.86%，题量目标完成率为37.99%。
 
 ## Review Engine 规则
 

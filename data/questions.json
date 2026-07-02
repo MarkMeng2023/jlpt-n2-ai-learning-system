@@ -7338,5 +7338,4529 @@
       "grammar"
     ],
     "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0001",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_sentence",
+    "prompt": "この建物では、入口で受付をする（　　）。",
+    "choices": {
+      "A": "ことになっている",
+      "B": "ところに／へ／を",
+      "C": "どころではない",
+      "D": "くらい／ぐらい"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～ことになっている（规定……；按计划……）。接续：V辞书形／ない形＋ことになっている。正确答案：A。正确理由：句中的接续与语义都符合「～ことになっている」：表示社会规定、组织安排或既定计划。 选项分析：A「ことになっている」：正确。句中的接续与语义都符合「～ことになっている」：表示社会规定、组织安排或既定计划。 B「ところに／へ／を」：错误。该选项对应「～ところに／へ／を」，含义是「正当……时；在……场合」，接续为「V辞书形／ている／た形＋ところに・へ・を」，与本题要求的「规定……；按计划……」不符。 C「どころではない」：错误。该选项对应「～どころではない」，含义是「根本不是……的时候；谈不上……」，接续为「V辞书形／N＋どころではない」，与本题要求的「规定……；按计划……」不符。 D「くらい／ぐらい」：错误。该选项对应「～くらい／ぐらい」，含义是「大约；达到……程度」，接续为「N／普通形＋くらい」，与本题要求的「规定……；按计划……」不符。 涉及知识点：～ことになっている。类似例句1：この建物では、入口で受付をすることになっている。 类似例句2：会議は毎月第一月曜日に開くことになっています。",
+    "knowledgePointIds": [
+      "KP-GRA-KOTONINATTEIRU-001"
+    ],
+    "knowledgePointTitles": [
+      "～ことになっている"
+    ],
+    "difficulty": 2,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-KOTONINATTEIRU-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "sentence",
+      "grammar",
+      "禁止/义务"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0002",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_meaning",
+    "subType": "question_factory_dialogue",
+    "prompt": "A「『会議は毎月第一月曜日に開くことになっています。』という文を見ました。」\nB「ここで使われた『ことになっている』は、どんな意味ですか。」",
+    "choices": {
+      "A": "一直……；越来越……",
+      "B": "规定……；按计划……",
+      "C": "由于……；从……来看",
+      "D": "决定……；结果是……"
+    },
+    "correctAnswer": "B",
+    "explanation": "知识点：～ことになっている（规定……；按计划……）。接续：V辞书形／ない形＋ことになっている。正确答案：B。正确理由：对话引用的例句表达「规定……；按计划……」，符合「～ことになっている」的用法。 选项分析：A「一直……；越来越……」：错误。该选项对应「～ばかりだ」，含义是「一直……；越来越……」，接续为「V辞书形＋ばかりだ」，与本题要求的「规定……；按计划……」不符。 B「规定……；按计划……」：正确。对话引用的例句表达「规定……；按计划……」，符合「～ことになっている」的用法。 C「由于……；从……来看」：错误。该选项对应「～ことから」，含义是「由于……；从……来看」，接续为「普通形＋ことから（ナA／N＋であることから）」，与本题要求的「规定……；按计划……」不符。 D「决定……；结果是……」：错误。该选项对应「～ことになる」，含义是「决定……；结果是……」，接续为「V辞书形／ない形＋ことになる」，与本题要求的「规定……；按计划……」不符。 涉及知识点：～ことになっている。类似例句1：この建物では、入口で受付をすることになっている。 类似例句2：会議は毎月第一月曜日に開くことになっています。",
+    "knowledgePointIds": [
+      "KP-GRA-KOTONINATTEIRU-001"
+    ],
+    "knowledgePointTitles": [
+      "～ことになっている"
+    ],
+    "difficulty": 3,
+    "reviewWeight": 1.1,
+    "knowledgePointId": "KP-GRA-KOTONINATTEIRU-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "dialogue",
+      "grammar",
+      "禁止/义务"
+    ],
+    "estimatedTime": 75
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0003",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_meaning",
+    "subType": "question_factory_distinction",
+    "prompt": "「～ことになっている」の用法として最も適切な説明はどれか。\n例：この建物では、入口で受付をすることになっている。",
+    "choices": {
+      "A": "正式表达规则、道德或制度上的禁止。",
+      "B": "根据事实、计划或逻辑作出合理预期。",
+      "C": "表示社会规定、组织安排或既定计划。",
+      "D": "表示否定推量，或说话人的否定意志。"
+    },
+    "correctAnswer": "C",
+    "explanation": "知识点：～ことになっている（规定……；按计划……）。接续：V辞书形／ない形＋ことになっている。正确答案：C。正确理由：该说明准确概括了「～ことになっている」的使用场景：表示社会规定、组织安排或既定计划。 选项分析：A「正式表达规则、道德或制度上的禁止。」：错误。该选项对应「～てはならない」，含义是「不得……」，接续为「Vて形＋はならない」，与本题要求的「规定……；按计划……」不符。 B「根据事实、计划或逻辑作出合理预期。」：错误。该选项对应「～はずだ」，含义是「按理应该……」，接续为「普通形＋はずだ（ナAな／Nの＋はずだ）」，与本题要求的「规定……；按计划……」不符。 C「表示社会规定、组织安排或既定计划。」：正确。该说明准确概括了「～ことになっている」的使用场景：表示社会规定、组织安排或既定计划。 D「表示否定推量，或说话人的否定意志。」：错误。该选项对应「～まい」，含义是「不会……吧；绝不……」，接续为「V辞书形＋まい（するまい／すまい）」，与本题要求的「规定……；按计划……」不符。 涉及知识点：～ことになっている。类似例句1：この建物では、入口で受付をすることになっている。 类似例句2：会議は毎月第一月曜日に開くことになっています。",
+    "knowledgePointIds": [
+      "KP-GRA-KOTONINATTEIRU-001"
+    ],
+    "knowledgePointTitles": [
+      "～ことになっている"
+    ],
+    "difficulty": 4,
+    "reviewWeight": 1.2,
+    "knowledgePointId": "KP-GRA-KOTONINATTEIRU-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "distinction",
+      "grammar",
+      "禁止/义务"
+    ],
+    "estimatedTime": 90
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0004",
+    "level": "N2",
+    "section": "reading",
+    "type": "short_reading",
+    "subType": "question_factory_short_reading",
+    "prompt": "次の短い説明を読んで、二つの文に共通する「～ことになっている」の働きを選びなさい。\n「この建物では、入口で受付をすることになっている。」また、「会議は毎月第一月曜日に開くことになっています。」という言い方もある。",
+    "choices": {
+      "A": "正式表达规则、道德或制度上的禁止。",
+      "B": "根据事实、计划或逻辑作出合理预期。",
+      "C": "表示否定推量，或说话人的否定意志。",
+      "D": "表示社会规定、组织安排或既定计划。"
+    },
+    "correctAnswer": "D",
+    "explanation": "知识点：～ことになっている（规定……；按计划……）。接续：V辞书形／ない形＋ことになっている。正确答案：D。正确理由：短文中的两个例子都使用「～ことになっている」表达「规定……；按计划……」。 选项分析：A「正式表达规则、道德或制度上的禁止。」：错误。该选项对应「～てはならない」，含义是「不得……」，接续为「Vて形＋はならない」，与本题要求的「规定……；按计划……」不符。 B「根据事实、计划或逻辑作出合理预期。」：错误。该选项对应「～はずだ」，含义是「按理应该……」，接续为「普通形＋はずだ（ナAな／Nの＋はずだ）」，与本题要求的「规定……；按计划……」不符。 C「表示否定推量，或说话人的否定意志。」：错误。该选项对应「～まい」，含义是「不会……吧；绝不……」，接续为「V辞书形＋まい（するまい／すまい）」，与本题要求的「规定……；按计划……」不符。 D「表示社会规定、组织安排或既定计划。」：正确。短文中的两个例子都使用「～ことになっている」表达「规定……；按计划……」。 涉及知识点：～ことになっている。类似例句1：この建物では、入口で受付をすることになっている。 类似例句2：会議は毎月第一月曜日に開くことになっています。",
+    "knowledgePointIds": [
+      "KP-GRA-KOTONINATTEIRU-001"
+    ],
+    "knowledgePointTitles": [
+      "～ことになっている"
+    ],
+    "difficulty": 5,
+    "reviewWeight": 1.3,
+    "knowledgePointId": "KP-GRA-KOTONINATTEIRU-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "short_reading",
+      "grammar",
+      "禁止/义务"
+    ],
+    "estimatedTime": 120
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0005",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_sentence",
+    "prompt": "謝ら（　　）、彼は許してくれないだろう。",
+    "choices": {
+      "A": "さえ～ば",
+      "B": "ない限り",
+      "C": "ばかりだ",
+      "D": "ばかりか"
+    },
+    "correctAnswer": "B",
+    "explanation": "知识点：～ない限り（除非……否则……）。接续：Vない形＋限り。正确答案：B。正确理由：句中的接续与语义都符合「～ない限り」：表示如果前项不实现，后项就不会成立。 选项分析：A「さえ～ば」：错误。该选项对应「～さえ～ば」，含义是「只要……就……」，接续为「Nさえ＋条件形／Vます形去ます＋さえすれば」，与本题要求的「除非……否则……」不符。 B「ない限り」：正确。句中的接续与语义都符合「～ない限り」：表示如果前项不实现，后项就不会成立。 C「ばかりだ」：错误。该选项对应「～ばかりだ」，含义是「一直……；越来越……」，接续为「V辞书形＋ばかりだ」，与本题要求的「除非……否则……」不符。 D「ばかりか」：错误。该选项对应「～ばかりか」，含义是「不但……而且……」，接续为「普通形／N＋ばかりか」，与本题要求的「除非……否则……」不符。 涉及知识点：～ない限り。类似例句1：謝らない限り、彼は許してくれないだろう。 类似例句2：雨がやまない限り、試合は始められない。",
+    "knowledgePointIds": [
+      "KP-GRA-NAIKAGIRI-001"
+    ],
+    "knowledgePointTitles": [
+      "～ない限り"
+    ],
+    "difficulty": 2,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-NAIKAGIRI-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "sentence",
+      "grammar",
+      "条件"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0006",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_meaning",
+    "subType": "question_factory_dialogue",
+    "prompt": "A「『雨がやまない限り、試合は始められない。』という文を見ました。」\nB「ここで使われた『ない限り』は、どんな意味ですか。」",
+    "choices": {
+      "A": "经过……最终……",
+      "B": "不但……而且……",
+      "C": "除非……否则……",
+      "D": "虽然……但是……"
+    },
+    "correctAnswer": "C",
+    "explanation": "知识点：～ない限り（除非……否则……）。接续：Vない形＋限り。正确答案：C。正确理由：对话引用的例句表达「除非……否则……」，符合「～ない限り」的用法。 选项分析：A「经过……最终……」：错误。该选项对应「～あげく」，含义是「经过……最终……」，接续为「Vた形／Nの＋あげく」，与本题要求的「除非……否则……」不符。 B「不但……而且……」：错误。该选项对应「～ばかりか」，含义是「不但……而且……」，接续为「普通形／N＋ばかりか」，与本题要求的「除非……否则……」不符。 C「除非……否则……」：正确。对话引用的例句表达「除非……否则……」，符合「～ない限り」的用法。 D「虽然……但是……」：错误。该选项对应「～ものの」，含义是「虽然……但是……」，接续为「V普通形／イA普通形／ナAな・である／Nである＋ものの」，与本题要求的「除非……否则……」不符。 涉及知识点：～ない限り。类似例句1：謝らない限り、彼は許してくれないだろう。 类似例句2：雨がやまない限り、試合は始められない。",
+    "knowledgePointIds": [
+      "KP-GRA-NAIKAGIRI-001"
+    ],
+    "knowledgePointTitles": [
+      "～ない限り"
+    ],
+    "difficulty": 3,
+    "reviewWeight": 1.1,
+    "knowledgePointId": "KP-GRA-NAIKAGIRI-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "dialogue",
+      "grammar",
+      "条件"
+    ],
+    "estimatedTime": 75
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0007",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_meaning",
+    "subType": "question_factory_distinction",
+    "prompt": "「～ない限り」の用法として最も適切な説明はどれか。\n例：謝らない限り、彼は許してくれないだろう。",
+    "choices": {
+      "A": "带主观解释语气说明原因，常用于辩解。",
+      "B": "表达说话人主观上十分确信，语气较强。",
+      "C": "表示朝目标、对象或时间节点推进准备。",
+      "D": "表示如果前项不实现，后项就不会成立。"
+    },
+    "correctAnswer": "D",
+    "explanation": "知识点：～ない限り（除非……否则……）。接续：Vない形＋限り。正确答案：D。正确理由：该说明准确概括了「～ない限り」的使用场景：表示如果前项不实现，后项就不会成立。 选项分析：A「带主观解释语气说明原因，常用于辩解。」：错误。该选项对应「～ものだから」，含义是「因为……（解释、辩解）」，接续为「普通形＋ものだから（ナAな／Nな＋ものだから）」，与本题要求的「除非……否则……」不符。 B「表达说话人主观上十分确信，语气较强。」：错误。该选项对应「～に決まっている」，含义是「肯定……；当然……」，接续为「普通形＋に決まっている（ナA／N＋に決まっている）」，与本题要求的「除非……否则……」不符。 C「表示朝目标、对象或时间节点推进准备。」：错误。该选项对应「～に向けて」，含义是「面向……；为……而」，接续为「N＋に向けて／に向けた＋N」，与本题要求的「除非……否则……」不符。 D「表示如果前项不实现，后项就不会成立。」：正确。该说明准确概括了「～ない限り」的使用场景：表示如果前项不实现，后项就不会成立。 涉及知识点：～ない限り。类似例句1：謝らない限り、彼は許してくれないだろう。 类似例句2：雨がやまない限り、試合は始められない。",
+    "knowledgePointIds": [
+      "KP-GRA-NAIKAGIRI-001"
+    ],
+    "knowledgePointTitles": [
+      "～ない限り"
+    ],
+    "difficulty": 4,
+    "reviewWeight": 1.2,
+    "knowledgePointId": "KP-GRA-NAIKAGIRI-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "distinction",
+      "grammar",
+      "条件"
+    ],
+    "estimatedTime": 90
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0008",
+    "level": "N2",
+    "section": "reading",
+    "type": "short_reading",
+    "subType": "question_factory_short_reading",
+    "prompt": "次の短い説明を読んで、二つの文に共通する「～ない限り」の働きを選びなさい。\n「謝らない限り、彼は許してくれないだろう。」また、「雨がやまない限り、試合は始められない。」という言い方もある。",
+    "choices": {
+      "A": "表示如果前项不实现，后项就不会成立。",
+      "B": "带主观解释语气说明原因，常用于辩解。",
+      "C": "表达说话人主观上十分确信，语气较强。",
+      "D": "表示朝目标、对象或时间节点推进准备。"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～ない限り（除非……否则……）。接续：Vない形＋限り。正确答案：A。正确理由：短文中的两个例子都使用「～ない限り」表达「除非……否则……」。 选项分析：A「表示如果前项不实现，后项就不会成立。」：正确。短文中的两个例子都使用「～ない限り」表达「除非……否则……」。 B「带主观解释语气说明原因，常用于辩解。」：错误。该选项对应「～ものだから」，含义是「因为……（解释、辩解）」，接续为「普通形＋ものだから（ナAな／Nな＋ものだから）」，与本题要求的「除非……否则……」不符。 C「表达说话人主观上十分确信，语气较强。」：错误。该选项对应「～に決まっている」，含义是「肯定……；当然……」，接续为「普通形＋に決まっている（ナA／N＋に決まっている）」，与本题要求的「除非……否则……」不符。 D「表示朝目标、对象或时间节点推进准备。」：错误。该选项对应「～に向けて」，含义是「面向……；为……而」，接续为「N＋に向けて／に向けた＋N」，与本题要求的「除非……否则……」不符。 涉及知识点：～ない限り。类似例句1：謝らない限り、彼は許してくれないだろう。 类似例句2：雨がやまない限り、試合は始められない。",
+    "knowledgePointIds": [
+      "KP-GRA-NAIKAGIRI-001"
+    ],
+    "knowledgePointTitles": [
+      "～ない限り"
+    ],
+    "difficulty": 5,
+    "reviewWeight": 1.3,
+    "knowledgePointId": "KP-GRA-NAIKAGIRI-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "short_reading",
+      "grammar",
+      "条件"
+    ],
+    "estimatedTime": 120
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0009",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_sentence",
+    "prompt": "この写真を見る（　　）、旅行を思い出す。",
+    "choices": {
+      "A": "あげく",
+      "B": "あまり",
+      "C": "たびに",
+      "D": "べきだ"
+    },
+    "correctAnswer": "C",
+    "explanation": "知识点：～たびに（每当……就……）。接续：V辞书形／Nの＋たびに。正确答案：C。正确理由：句中的接续与语义都符合「～たびに」：表示每次前项发生，后项也反复发生。 选项分析：A「あげく」：错误。该选项对应「～あげく」，含义是「经过……最终……」，接续为「Vた形／Nの＋あげく」，与本题要求的「每当……就……」不符。 B「あまり」：错误。该选项对应「～あまり」，含义是「由于过度……而……」，接续为「V普通形／ナAな／Nの＋あまり」，与本题要求的「每当……就……」不符。 C「たびに」：正确。句中的接续与语义都符合「～たびに」：表示每次前项发生，后项也反复发生。 D「べきだ」：错误。该选项对应「～べきだ」，含义是「应该……」，接续为「V辞书形＋べきだ（する→するべき／すべき）」，与本题要求的「每当……就……」不符。 涉及知识点：～たびに。类似例句1：この写真を見るたびに、旅行を思い出す。 类似例句2：出張のたびに、家族へ土産を買う。",
+    "knowledgePointIds": [
+      "KP-GRA-TABINI-001"
+    ],
+    "knowledgePointTitles": [
+      "～たびに"
+    ],
+    "difficulty": 2,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-TABINI-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "sentence",
+      "grammar",
+      "时间关系"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0010",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_meaning",
+    "subType": "question_factory_dialogue",
+    "prompt": "A「『出張のたびに、家族へ土産を買う。』という文を見ました。」\nB「ここで使われた『たびに』は、どんな意味ですか。」",
+    "choices": {
+      "A": "只因……而……",
+      "B": "另一方面；反面",
+      "C": "既然……就……",
+      "D": "每当……就……"
+    },
+    "correctAnswer": "D",
+    "explanation": "知识点：～たびに（每当……就……）。接续：V辞书形／Nの＋たびに。正确答案：D。正确理由：对话引用的例句表达「每当……就……」，符合「～たびに」的用法。 选项分析：A「只因……而……」：错误。该选项对应「～ばかりに」，含义是「只因……而……」，接续为「普通形＋ばかりに（ナAな／Nである＋ばかりに）」，与本题要求的「每当……就……」不符。 B「另一方面；反面」：错误。该选项对应「～反面」，含义是「另一方面；反面」，接续为「普通形＋反面（ナAな／である・Nである＋反面）」，与本题要求的「每当……就……」不符。 C「既然……就……」：错误。该选项对应「～以上（は）」，含义是「既然……就……」，接续为「V普通形／ナAである／Nである＋以上（は）」，与本题要求的「每当……就……」不符。 D「每当……就……」：正确。对话引用的例句表达「每当……就……」，符合「～たびに」的用法。 涉及知识点：～たびに。类似例句1：この写真を見るたびに、旅行を思い出す。 类似例句2：出張のたびに、家族へ土産を買う。",
+    "knowledgePointIds": [
+      "KP-GRA-TABINI-001"
+    ],
+    "knowledgePointTitles": [
+      "～たびに"
+    ],
+    "difficulty": 3,
+    "reviewWeight": 1.1,
+    "knowledgePointId": "KP-GRA-TABINI-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "dialogue",
+      "grammar",
+      "时间关系"
+    ],
+    "estimatedTime": 75
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0011",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_meaning",
+    "subType": "question_factory_distinction",
+    "prompt": "「～たびに」の用法として最も適切な説明はどれか。\n例：この写真を見るたびに、旅行を思い出す。",
+    "choices": {
+      "A": "表示每次前项发生，后项也反复发生。",
+      "B": "根据事实、计划或逻辑作出合理预期。",
+      "C": "表示社会规定、组织安排或既定计划。",
+      "D": "表示否定推量，或说话人的否定意志。"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～たびに（每当……就……）。接续：V辞书形／Nの＋たびに。正确答案：A。正确理由：该说明准确概括了「～たびに」的使用场景：表示每次前项发生，后项也反复发生。 选项分析：A「表示每次前项发生，后项也反复发生。」：正确。该说明准确概括了「～たびに」的使用场景：表示每次前项发生，后项也反复发生。 B「根据事实、计划或逻辑作出合理预期。」：错误。该选项对应「～はずだ」，含义是「按理应该……」，接续为「普通形＋はずだ（ナAな／Nの＋はずだ）」，与本题要求的「每当……就……」不符。 C「表示社会规定、组织安排或既定计划。」：错误。该选项对应「～ことになっている」，含义是「规定……；按计划……」，接续为「V辞书形／ない形＋ことになっている」，与本题要求的「每当……就……」不符。 D「表示否定推量，或说话人的否定意志。」：错误。该选项对应「～まい」，含义是「不会……吧；绝不……」，接续为「V辞书形＋まい（するまい／すまい）」，与本题要求的「每当……就……」不符。 涉及知识点：～たびに。类似例句1：この写真を見るたびに、旅行を思い出す。 类似例句2：出張のたびに、家族へ土産を買う。",
+    "knowledgePointIds": [
+      "KP-GRA-TABINI-001"
+    ],
+    "knowledgePointTitles": [
+      "～たびに"
+    ],
+    "difficulty": 4,
+    "reviewWeight": 1.2,
+    "knowledgePointId": "KP-GRA-TABINI-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "distinction",
+      "grammar",
+      "时间关系"
+    ],
+    "estimatedTime": 90
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0012",
+    "level": "N2",
+    "section": "reading",
+    "type": "short_reading",
+    "subType": "question_factory_short_reading",
+    "prompt": "次の短い説明を読んで、二つの文に共通する「～たびに」の働きを選びなさい。\n「この写真を見るたびに、旅行を思い出す。」また、「出張のたびに、家族へ土産を買う。」という言い方もある。",
+    "choices": {
+      "A": "根据事实、计划或逻辑作出合理预期。",
+      "B": "表示每次前项发生，后项也反复发生。",
+      "C": "表示社会规定、组织安排或既定计划。",
+      "D": "表示否定推量，或说话人的否定意志。"
+    },
+    "correctAnswer": "B",
+    "explanation": "知识点：～たびに（每当……就……）。接续：V辞书形／Nの＋たびに。正确答案：B。正确理由：短文中的两个例子都使用「～たびに」表达「每当……就……」。 选项分析：A「根据事实、计划或逻辑作出合理预期。」：错误。该选项对应「～はずだ」，含义是「按理应该……」，接续为「普通形＋はずだ（ナAな／Nの＋はずだ）」，与本题要求的「每当……就……」不符。 B「表示每次前项发生，后项也反复发生。」：正确。短文中的两个例子都使用「～たびに」表达「每当……就……」。 C「表示社会规定、组织安排或既定计划。」：错误。该选项对应「～ことになっている」，含义是「规定……；按计划……」，接续为「V辞书形／ない形＋ことになっている」，与本题要求的「每当……就……」不符。 D「表示否定推量，或说话人的否定意志。」：错误。该选项对应「～まい」，含义是「不会……吧；绝不……」，接续为「V辞书形＋まい（するまい／すまい）」，与本题要求的「每当……就……」不符。 涉及知识点：～たびに。类似例句1：この写真を見るたびに、旅行を思い出す。 类似例句2：出張のたびに、家族へ土産を買う。",
+    "knowledgePointIds": [
+      "KP-GRA-TABINI-001"
+    ],
+    "knowledgePointTitles": [
+      "～たびに"
+    ],
+    "difficulty": 5,
+    "reviewWeight": 1.3,
+    "knowledgePointId": "KP-GRA-TABINI-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "short_reading",
+      "grammar",
+      "时间关系"
+    ],
+    "estimatedTime": 120
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0013",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_sentence",
+    "prompt": "温かい（　　）、どうぞ食べてください。",
+    "choices": {
+      "A": "て以来",
+      "B": "あげく",
+      "C": "あまり",
+      "D": "うちに"
+    },
+    "correctAnswer": "D",
+    "explanation": "知识点：～うちに（趁着……；在……过程中）。接续：V辞书形／ている／ない形・イAい・ナAな・Nの＋うちに。正确答案：D。正确理由：句中的接续与语义都符合「～うちに」：表示状态改变前完成动作，或过程中自然发生变化。 选项分析：A「て以来」：错误。该选项对应「～て以来」，含义是「自从……以来」，接续为「Vて形＋以来」，与本题要求的「趁着……；在……过程中」不符。 B「あげく」：错误。该选项对应「～あげく」，含义是「经过……最终……」，接续为「Vた形／Nの＋あげく」，与本题要求的「趁着……；在……过程中」不符。 C「あまり」：错误。该选项对应「～あまり」，含义是「由于过度……而……」，接续为「V普通形／ナAな／Nの＋あまり」，与本题要求的「趁着……；在……过程中」不符。 D「うちに」：正确。句中的接续与语义都符合「～うちに」：表示状态改变前完成动作，或过程中自然发生变化。 涉及知识点：～うちに。类似例句1：温かいうちに、どうぞ食べてください。 类似例句2：日本にいるうちに、各地を旅行したい。",
+    "knowledgePointIds": [
+      "KP-GRA-UCHINI-001"
+    ],
+    "knowledgePointTitles": [
+      "～うちに"
+    ],
+    "difficulty": 2,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-UCHINI-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "sentence",
+      "grammar",
+      "时间关系"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0014",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_meaning",
+    "subType": "question_factory_dialogue",
+    "prompt": "A「『日本にいるうちに、各地を旅行したい。』という文を見ました。」\nB「ここで使われた『うちに』は、どんな意味ですか。」",
+    "choices": {
+      "A": "趁着……；在……过程中",
+      "B": "有可能发生……（坏事）",
+      "C": "因为……（解释、辩解）",
+      "D": "值此……之际；在……时"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～うちに（趁着……；在……过程中）。接续：V辞书形／ている／ない形・イAい・ナAな・Nの＋うちに。正确答案：A。正确理由：对话引用的例句表达「趁着……；在……过程中」，符合「～うちに」的用法。 选项分析：A「趁着……；在……过程中」：正确。对话引用的例句表达「趁着……；在……过程中」，符合「～うちに」的用法。 B「有可能发生……（坏事）」：错误。该选项对应「～かねない」，含义是「有可能发生……（坏事）」，接续为「Vます形去ます＋かねない」，与本题要求的「趁着……；在……过程中」不符。 C「因为……（解释、辩解）」：错误。该选项对应「～ものだから」，含义是「因为……（解释、辩解）」，接续为「普通形＋ものだから（ナAな／Nな＋ものだから）」，与本题要求的「趁着……；在……过程中」不符。 D「值此……之际；在……时」：错误。该选项对应「～に際して」，含义是「值此……之际；在……时」，接续为「N／V辞书形＋に際して／に際し」，与本题要求的「趁着……；在……过程中」不符。 涉及知识点：～うちに。类似例句1：温かいうちに、どうぞ食べてください。 类似例句2：日本にいるうちに、各地を旅行したい。",
+    "knowledgePointIds": [
+      "KP-GRA-UCHINI-001"
+    ],
+    "knowledgePointTitles": [
+      "～うちに"
+    ],
+    "difficulty": 3,
+    "reviewWeight": 1.1,
+    "knowledgePointId": "KP-GRA-UCHINI-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "dialogue",
+      "grammar",
+      "时间关系"
+    ],
+    "estimatedTime": 75
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0015",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_meaning",
+    "subType": "question_factory_distinction",
+    "prompt": "「～うちに」の用法として最も適切な説明はどれか。\n例：温かいうちに、どうぞ食べてください。",
+    "choices": {
+      "A": "表示变化持续朝某一方向发展，常用于不理想趋势。",
+      "B": "表示状态改变前完成动作，或过程中自然发生变化。",
+      "C": "强调后项不受前项条件影响，常含意外或批评语气。",
+      "D": "否定前项预想，并说明实际情况更甚或完全相反。"
+    },
+    "correctAnswer": "B",
+    "explanation": "知识点：～うちに（趁着……；在……过程中）。接续：V辞书形／ている／ない形・イAい・ナAな・Nの＋うちに。正确答案：B。正确理由：该说明准确概括了「～うちに」的使用场景：表示状态改变前完成动作，或过程中自然发生变化。 选项分析：A「表示变化持续朝某一方向发展，常用于不理想趋势。」：错误。该选项对应「～ばかりだ」，含义是「一直……；越来越……」，接续为「V辞书形＋ばかりだ」，与本题要求的「趁着……；在……过程中」不符。 B「表示状态改变前完成动作，或过程中自然发生变化。」：正确。该说明准确概括了「～うちに」的使用场景：表示状态改变前完成动作，或过程中自然发生变化。 C「强调后项不受前项条件影响，常含意外或批评语气。」：错误。该选项对应「～にもかかわらず」，含义是「尽管……仍然……」，接续为「普通形＋にもかかわらず（ナA／N＋であるにもかかわらず）」，与本题要求的「趁着……；在……过程中」不符。 D「否定前项预想，并说明实际情况更甚或完全相反。」：错误。该选项对应「～どころか」，含义是「别说……；非但不……反而……」，接续为「普通形／N＋どころか」，与本题要求的「趁着……；在……过程中」不符。 涉及知识点：～うちに。类似例句1：温かいうちに、どうぞ食べてください。 类似例句2：日本にいるうちに、各地を旅行したい。",
+    "knowledgePointIds": [
+      "KP-GRA-UCHINI-001"
+    ],
+    "knowledgePointTitles": [
+      "～うちに"
+    ],
+    "difficulty": 4,
+    "reviewWeight": 1.2,
+    "knowledgePointId": "KP-GRA-UCHINI-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "distinction",
+      "grammar",
+      "时间关系"
+    ],
+    "estimatedTime": 90
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0016",
+    "level": "N2",
+    "section": "reading",
+    "type": "short_reading",
+    "subType": "question_factory_short_reading",
+    "prompt": "次の短い説明を読んで、二つの文に共通する「～うちに」の働きを選びなさい。\n「温かいうちに、どうぞ食べてください。」また、「日本にいるうちに、各地を旅行したい。」という言い方もある。",
+    "choices": {
+      "A": "表示变化持续朝某一方向发展，常用于不理想趋势。",
+      "B": "强调后项不受前项条件影响，常含意外或批评语气。",
+      "C": "表示状态改变前完成动作，或过程中自然发生变化。",
+      "D": "否定前项预想，并说明实际情况更甚或完全相反。"
+    },
+    "correctAnswer": "C",
+    "explanation": "知识点：～うちに（趁着……；在……过程中）。接续：V辞书形／ている／ない形・イAい・ナAな・Nの＋うちに。正确答案：C。正确理由：短文中的两个例子都使用「～うちに」表达「趁着……；在……过程中」。 选项分析：A「表示变化持续朝某一方向发展，常用于不理想趋势。」：错误。该选项对应「～ばかりだ」，含义是「一直……；越来越……」，接续为「V辞书形＋ばかりだ」，与本题要求的「趁着……；在……过程中」不符。 B「强调后项不受前项条件影响，常含意外或批评语气。」：错误。该选项对应「～にもかかわらず」，含义是「尽管……仍然……」，接续为「普通形＋にもかかわらず（ナA／N＋であるにもかかわらず）」，与本题要求的「趁着……；在……过程中」不符。 C「表示状态改变前完成动作，或过程中自然发生变化。」：正确。短文中的两个例子都使用「～うちに」表达「趁着……；在……过程中」。 D「否定前项预想，并说明实际情况更甚或完全相反。」：错误。该选项对应「～どころか」，含义是「别说……；非但不……反而……」，接续为「普通形／N＋どころか」，与本题要求的「趁着……；在……过程中」不符。 涉及知识点：～うちに。类似例句1：温かいうちに、どうぞ食べてください。 类似例句2：日本にいるうちに、各地を旅行したい。",
+    "knowledgePointIds": [
+      "KP-GRA-UCHINI-001"
+    ],
+    "knowledgePointTitles": [
+      "～うちに"
+    ],
+    "difficulty": 5,
+    "reviewWeight": 1.3,
+    "knowledgePointId": "KP-GRA-UCHINI-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "short_reading",
+      "grammar",
+      "时间关系"
+    ],
+    "estimatedTime": 120
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0017",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_sentence",
+    "prompt": "こんな重い荷物を一人で運べる（　　）。",
+    "choices": {
+      "A": "わけがない",
+      "B": "以上（は）",
+      "C": "ことになる",
+      "D": "ことにする"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～わけがない（不可能……）。接续：普通形＋わけがない（ナAな／Nの＋わけがない）。正确答案：A。正确理由：句中的接续与语义都符合「～わけがない」：基于常识或事实强烈否定可能性。 选项分析：A「わけがない」：正确。句中的接续与语义都符合「～わけがない」：基于常识或事实强烈否定可能性。 B「以上（は）」：错误。该选项对应「～以上（は）」，含义是「既然……就……」，接续为「V普通形／ナAである／Nである＋以上（は）」，与本题要求的「不可能……」不符。 C「ことになる」：错误。该选项对应「～ことになる」，含义是「决定……；结果是……」，接续为「V辞书形／ない形＋ことになる」，与本题要求的「不可能……」不符。 D「ことにする」：错误。该选项对应「～ことにする」，含义是「决定……」，接续为「V辞书形／ない形＋ことにする」，与本题要求的「不可能……」不符。 涉及知识点：～わけがない。类似例句1：こんな重い荷物を一人で運べるわけがない。 类似例句2：彼がその約束を忘れるわけがない。",
+    "knowledgePointIds": [
+      "KP-GRA-WAKEGANAI-001"
+    ],
+    "knowledgePointTitles": [
+      "～わけがない"
+    ],
+    "difficulty": 2,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-WAKEGANAI-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "sentence",
+      "grammar",
+      "推量/判断"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0018",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_meaning",
+    "subType": "question_factory_dialogue",
+    "prompt": "A「『彼がその約束を忘れるわけがない。』という文を見ました。」\nB「ここで使われた『わけがない』は、どんな意味ですか。」",
+    "choices": {
+      "A": "不应该……",
+      "B": "不可能……",
+      "C": "没必要……",
+      "D": "与……相反"
+    },
+    "correctAnswer": "B",
+    "explanation": "知识点：～わけがない（不可能……）。接续：普通形＋わけがない（ナAな／Nの＋わけがない）。正确答案：B。正确理由：对话引用的例句表达「不可能……」，符合「～わけがない」的用法。 选项分析：A「不应该……」：错误。该选项对应「～べきではない」，含义是「不应该……」，接续为「V辞书形＋べきではない」，与本题要求的「不可能……」不符。 B「不可能……」：正确。对话引用的例句表达「不可能……」，符合「～わけがない」的用法。 C「没必要……」：错误。该选项对应「～ことはない」，含义是「没必要……」，接续为「V辞书形＋ことはない」，与本题要求的「不可能……」不符。 D「与……相反」：错误。该选项对应「～に反して」，含义是「与……相反」，接续为「N＋に反して／に反する＋N」，与本题要求的「不可能……」不符。 涉及知识点：～わけがない。类似例句1：こんな重い荷物を一人で運べるわけがない。 类似例句2：彼がその約束を忘れるわけがない。",
+    "knowledgePointIds": [
+      "KP-GRA-WAKEGANAI-001"
+    ],
+    "knowledgePointTitles": [
+      "～わけがない"
+    ],
+    "difficulty": 3,
+    "reviewWeight": 1.1,
+    "knowledgePointId": "KP-GRA-WAKEGANAI-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "dialogue",
+      "grammar",
+      "推量/判断"
+    ],
+    "estimatedTime": 75
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0019",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_meaning",
+    "subType": "question_factory_distinction",
+    "prompt": "「～わけがない」の用法として最も適切な説明はどれか。\n例：こんな重い荷物を一人で運べるわけがない。",
+    "choices": {
+      "A": "说明同一事物同时具有正反两面。",
+      "B": "表示大概数量，或举例说明程度。",
+      "C": "基于常识或事实强烈否定可能性。",
+      "D": "根据证据作出确信度很高的判断。"
+    },
+    "correctAnswer": "C",
+    "explanation": "知识点：～わけがない（不可能……）。接续：普通形＋わけがない（ナAな／Nの＋わけがない）。正确答案：C。正确理由：该说明准确概括了「～わけがない」的使用场景：基于常识或事实强烈否定可能性。 选项分析：A「说明同一事物同时具有正反两面。」：错误。该选项对应「～反面」，含义是「另一方面；反面」，接续为「普通形＋反面（ナAな／である・Nである＋反面）」，与本题要求的「不可能……」不符。 B「表示大概数量，或举例说明程度。」：错误。该选项对应「～くらい／ぐらい」，含义是「大约；达到……程度」，接续为「N／普通形＋くらい」，与本题要求的「不可能……」不符。 C「基于常识或事实强烈否定可能性。」：正确。该说明准确概括了「～わけがない」的使用场景：基于常识或事实强烈否定可能性。 D「根据证据作出确信度很高的判断。」：错误。该选项对应「～に違いない」，含义是「一定……；肯定……」，接续为「普通形＋に違いない（ナA／N＋に違いない）」，与本题要求的「不可能……」不符。 涉及知识点：～わけがない。类似例句1：こんな重い荷物を一人で運べるわけがない。 类似例句2：彼がその約束を忘れるわけがない。",
+    "knowledgePointIds": [
+      "KP-GRA-WAKEGANAI-001"
+    ],
+    "knowledgePointTitles": [
+      "～わけがない"
+    ],
+    "difficulty": 4,
+    "reviewWeight": 1.2,
+    "knowledgePointId": "KP-GRA-WAKEGANAI-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "distinction",
+      "grammar",
+      "推量/判断"
+    ],
+    "estimatedTime": 90
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0020",
+    "level": "N2",
+    "section": "reading",
+    "type": "short_reading",
+    "subType": "question_factory_short_reading",
+    "prompt": "次の短い説明を読んで、二つの文に共通する「～わけがない」の働きを選びなさい。\n「こんな重い荷物を一人で運べるわけがない。」また、「彼がその約束を忘れるわけがない。」という言い方もある。",
+    "choices": {
+      "A": "说明同一事物同时具有正反两面。",
+      "B": "表示大概数量，或举例说明程度。",
+      "C": "根据证据作出确信度很高的判断。",
+      "D": "基于常识或事实强烈否定可能性。"
+    },
+    "correctAnswer": "D",
+    "explanation": "知识点：～わけがない（不可能……）。接续：普通形＋わけがない（ナAな／Nの＋わけがない）。正确答案：D。正确理由：短文中的两个例子都使用「～わけがない」表达「不可能……」。 选项分析：A「说明同一事物同时具有正反两面。」：错误。该选项对应「～反面」，含义是「另一方面；反面」，接续为「普通形＋反面（ナAな／である・Nである＋反面）」，与本题要求的「不可能……」不符。 B「表示大概数量，或举例说明程度。」：错误。该选项对应「～くらい／ぐらい」，含义是「大约；达到……程度」，接续为「N／普通形＋くらい」，与本题要求的「不可能……」不符。 C「根据证据作出确信度很高的判断。」：错误。该选项对应「～に違いない」，含义是「一定……；肯定……」，接续为「普通形＋に違いない（ナA／N＋に違いない）」，与本题要求的「不可能……」不符。 D「基于常识或事实强烈否定可能性。」：正确。短文中的两个例子都使用「～わけがない」表达「不可能……」。 涉及知识点：～わけがない。类似例句1：こんな重い荷物を一人で運べるわけがない。 类似例句2：彼がその約束を忘れるわけがない。",
+    "knowledgePointIds": [
+      "KP-GRA-WAKEGANAI-001"
+    ],
+    "knowledgePointTitles": [
+      "～わけがない"
+    ],
+    "difficulty": 5,
+    "reviewWeight": 1.3,
+    "knowledgePointId": "KP-GRA-WAKEGANAI-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "short_reading",
+      "grammar",
+      "推量/判断"
+    ],
+    "estimatedTime": 120
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0021",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_sentence",
+    "prompt": "毎日練習して、速く読める（　　）。",
+    "choices": {
+      "A": "ことにする",
+      "B": "ようになる",
+      "C": "以上（は）",
+      "D": "ことになる"
+    },
+    "correctAnswer": "B",
+    "explanation": "知识点：～ようになる（变得能够……；开始……）。接续：V辞书形／ない形＋ようになる。正确答案：B。正确理由：句中的接续与语义都符合「～ようになる」：表示能力、习惯或状态经过变化后成立。 选项分析：A「ことにする」：错误。该选项对应「～ことにする」，含义是「决定……」，接续为「V辞书形／ない形＋ことにする」，与本题要求的「变得能够……；开始……」不符。 B「ようになる」：正确。句中的接续与语义都符合「～ようになる」：表示能力、习惯或状态经过变化后成立。 C「以上（は）」：错误。该选项对应「～以上（は）」，含义是「既然……就……」，接续为「V普通形／ナAである／Nである＋以上（は）」，与本题要求的「变得能够……；开始……」不符。 D「ことになる」：错误。该选项对应「～ことになる」，含义是「决定……；结果是……」，接续为「V辞书形／ない形＋ことになる」，与本题要求的「变得能够……；开始……」不符。 涉及知识点：～ようになる。类似例句1：毎日練習して、速く読めるようになった。 类似例句2：最近は甘い物を食べないようになった。",
+    "knowledgePointIds": [
+      "KP-GRA-YOUNINARU-001"
+    ],
+    "knowledgePointTitles": [
+      "～ようになる"
+    ],
+    "difficulty": 2,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-YOUNINARU-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "sentence",
+      "grammar",
+      "变化/结果"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0022",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_meaning",
+    "subType": "question_factory_dialogue",
+    "prompt": "A「『最近は甘い物を食べないようになった。』という文を見ました。」\nB「ここで使われた『ようになる』は、どんな意味ですか。」",
+    "choices": {
+      "A": "有可能发生……（坏事）",
+      "B": "因为……（解释、辩解）",
+      "C": "变得能够……；开始……",
+      "D": "值此……之际；在……时"
+    },
+    "correctAnswer": "C",
+    "explanation": "知识点：～ようになる（变得能够……；开始……）。接续：V辞书形／ない形＋ようになる。正确答案：C。正确理由：对话引用的例句表达「变得能够……；开始……」，符合「～ようになる」的用法。 选项分析：A「有可能发生……（坏事）」：错误。该选项对应「～かねない」，含义是「有可能发生……（坏事）」，接续为「Vます形去ます＋かねない」，与本题要求的「变得能够……；开始……」不符。 B「因为……（解释、辩解）」：错误。该选项对应「～ものだから」，含义是「因为……（解释、辩解）」，接续为「普通形＋ものだから（ナAな／Nな＋ものだから）」，与本题要求的「变得能够……；开始……」不符。 C「变得能够……；开始……」：正确。对话引用的例句表达「变得能够……；开始……」，符合「～ようになる」的用法。 D「值此……之际；在……时」：错误。该选项对应「～に際して」，含义是「值此……之际；在……时」，接续为「N／V辞书形＋に際して／に際し」，与本题要求的「变得能够……；开始……」不符。 涉及知识点：～ようになる。类似例句1：毎日練習して、速く読めるようになった。 类似例句2：最近は甘い物を食べないようになった。",
+    "knowledgePointIds": [
+      "KP-GRA-YOUNINARU-001"
+    ],
+    "knowledgePointTitles": [
+      "～ようになる"
+    ],
+    "difficulty": 3,
+    "reviewWeight": 1.1,
+    "knowledgePointId": "KP-GRA-YOUNINARU-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "dialogue",
+      "grammar",
+      "变化/结果"
+    ],
+    "estimatedTime": 75
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0023",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_meaning",
+    "subType": "question_factory_distinction",
+    "prompt": "「～ようになる」の用法として最も適切な説明はどれか。\n例：毎日練習して、速く読めるようになった。",
+    "choices": {
+      "A": "带主观解释语气说明原因，常用于辩解。",
+      "B": "表示如果前项不实现，后项就不会成立。",
+      "C": "表达说话人主观上十分确信，语气较强。",
+      "D": "表示能力、习惯或状态经过变化后成立。"
+    },
+    "correctAnswer": "D",
+    "explanation": "知识点：～ようになる（变得能够……；开始……）。接续：V辞书形／ない形＋ようになる。正确答案：D。正确理由：该说明准确概括了「～ようになる」的使用场景：表示能力、习惯或状态经过变化后成立。 选项分析：A「带主观解释语气说明原因，常用于辩解。」：错误。该选项对应「～ものだから」，含义是「因为……（解释、辩解）」，接续为「普通形＋ものだから（ナAな／Nな＋ものだから）」，与本题要求的「变得能够……；开始……」不符。 B「表示如果前项不实现，后项就不会成立。」：错误。该选项对应「～ない限り」，含义是「除非……否则……」，接续为「Vない形＋限り」，与本题要求的「变得能够……；开始……」不符。 C「表达说话人主观上十分确信，语气较强。」：错误。该选项对应「～に決まっている」，含义是「肯定……；当然……」，接续为「普通形＋に決まっている（ナA／N＋に決まっている）」，与本题要求的「变得能够……；开始……」不符。 D「表示能力、习惯或状态经过变化后成立。」：正确。该说明准确概括了「～ようになる」的使用场景：表示能力、习惯或状态经过变化后成立。 涉及知识点：～ようになる。类似例句1：毎日練習して、速く読めるようになった。 类似例句2：最近は甘い物を食べないようになった。",
+    "knowledgePointIds": [
+      "KP-GRA-YOUNINARU-001"
+    ],
+    "knowledgePointTitles": [
+      "～ようになる"
+    ],
+    "difficulty": 4,
+    "reviewWeight": 1.2,
+    "knowledgePointId": "KP-GRA-YOUNINARU-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "distinction",
+      "grammar",
+      "变化/结果"
+    ],
+    "estimatedTime": 90
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0024",
+    "level": "N2",
+    "section": "reading",
+    "type": "short_reading",
+    "subType": "question_factory_short_reading",
+    "prompt": "次の短い説明を読んで、二つの文に共通する「～ようになる」の働きを選びなさい。\n「毎日練習して、速く読めるようになった。」また、「最近は甘い物を食べないようになった。」という言い方もある。",
+    "choices": {
+      "A": "表示能力、习惯或状态经过变化后成立。",
+      "B": "带主观解释语气说明原因，常用于辩解。",
+      "C": "表示如果前项不实现，后项就不会成立。",
+      "D": "表达说话人主观上十分确信，语气较强。"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～ようになる（变得能够……；开始……）。接续：V辞书形／ない形＋ようになる。正确答案：A。正确理由：短文中的两个例子都使用「～ようになる」表达「变得能够……；开始……」。 选项分析：A「表示能力、习惯或状态经过变化后成立。」：正确。短文中的两个例子都使用「～ようになる」表达「变得能够……；开始……」。 B「带主观解释语气说明原因，常用于辩解。」：错误。该选项对应「～ものだから」，含义是「因为……（解释、辩解）」，接续为「普通形＋ものだから（ナAな／Nな＋ものだから）」，与本题要求的「变得能够……；开始……」不符。 C「表示如果前项不实现，后项就不会成立。」：错误。该选项对应「～ない限り」，含义是「除非……否则……」，接续为「Vない形＋限り」，与本题要求的「变得能够……；开始……」不符。 D「表达说话人主观上十分确信，语气较强。」：错误。该选项对应「～に決まっている」，含义是「肯定……；当然……」，接续为「普通形＋に決まっている（ナA／N＋に決まっている）」，与本题要求的「变得能够……；开始……」不符。 涉及知识点：～ようになる。类似例句1：毎日練習して、速く読めるようになった。 类似例句2：最近は甘い物を食べないようになった。",
+    "knowledgePointIds": [
+      "KP-GRA-YOUNINARU-001"
+    ],
+    "knowledgePointTitles": [
+      "～ようになる"
+    ],
+    "difficulty": 5,
+    "reviewWeight": 1.3,
+    "knowledgePointId": "KP-GRA-YOUNINARU-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "short_reading",
+      "grammar",
+      "变化/结果"
+    ],
+    "estimatedTime": 120
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0025",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_sentence",
+    "prompt": "まだ時間があるから、急ぐ（　　）。",
+    "choices": {
+      "A": "以上（は）",
+      "B": "ことになる",
+      "C": "ことはない",
+      "D": "ことにする"
+    },
+    "correctAnswer": "C",
+    "explanation": "知识点：～ことはない（没必要……）。接续：V辞书形＋ことはない。正确答案：C。正确理由：句中的接续与语义都符合「～ことはない」：表示没有必要采取某个行动，用于安慰或建议。 选项分析：A「以上（は）」：错误。该选项对应「～以上（は）」，含义是「既然……就……」，接续为「V普通形／ナAである／Nである＋以上（は）」，与本题要求的「没必要……」不符。 B「ことになる」：错误。该选项对应「～ことになる」，含义是「决定……；结果是……」，接续为「V辞书形／ない形＋ことになる」，与本题要求的「没必要……」不符。 C「ことはない」：正确。句中的接续与语义都符合「～ことはない」：表示没有必要采取某个行动，用于安慰或建议。 D「ことにする」：错误。该选项对应「～ことにする」，含义是「决定……」，接续为「V辞书形／ない形＋ことにする」，与本题要求的「没必要……」不符。 涉及知识点：～ことはない。类似例句1：まだ時間があるから、急ぐことはない。 类似例句2：一度の失敗で落ち込むことはありません。",
+    "knowledgePointIds": [
+      "KP-GRA-KOTOWANAI-001"
+    ],
+    "knowledgePointTitles": [
+      "～ことはない"
+    ],
+    "difficulty": 2,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-KOTOWANAI-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "sentence",
+      "grammar",
+      "禁止/义务"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0026",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_meaning",
+    "subType": "question_factory_dialogue",
+    "prompt": "A「『一度の失敗で落ち込むことはありません。』という文を見ました。」\nB「ここで使われた『ことはない』は、どんな意味ですか。」",
+    "choices": {
+      "A": "不应该……",
+      "B": "与……相反",
+      "C": "不限于……",
+      "D": "没必要……"
+    },
+    "correctAnswer": "D",
+    "explanation": "知识点：～ことはない（没必要……）。接续：V辞书形＋ことはない。正确答案：D。正确理由：对话引用的例句表达「没必要……」，符合「～ことはない」的用法。 选项分析：A「不应该……」：错误。该选项对应「～べきではない」，含义是「不应该……」，接续为「V辞书形＋べきではない」，与本题要求的「没必要……」不符。 B「与……相反」：错误。该选项对应「～に反して」，含义是「与……相反」，接续为「N＋に反して／に反する＋N」，与本题要求的「没必要……」不符。 C「不限于……」：错误。该选项对应「～に限らず」，含义是「不限于……」，接续为「N＋に限らず」，与本题要求的「没必要……」不符。 D「没必要……」：正确。对话引用的例句表达「没必要……」，符合「～ことはない」的用法。 涉及知识点：～ことはない。类似例句1：まだ時間があるから、急ぐことはない。 类似例句2：一度の失敗で落ち込むことはありません。",
+    "knowledgePointIds": [
+      "KP-GRA-KOTOWANAI-001"
+    ],
+    "knowledgePointTitles": [
+      "～ことはない"
+    ],
+    "difficulty": 3,
+    "reviewWeight": 1.1,
+    "knowledgePointId": "KP-GRA-KOTOWANAI-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "dialogue",
+      "grammar",
+      "禁止/义务"
+    ],
+    "estimatedTime": 75
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0027",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_meaning",
+    "subType": "question_factory_distinction",
+    "prompt": "「～ことはない」の用法として最も適切な説明はどれか。\n例：まだ時間があるから、急ぐことはない。",
+    "choices": {
+      "A": "表示没有必要采取某个行动，用于安慰或建议。",
+      "B": "表示仅因某原因而产生不理想结果，常含后悔。",
+      "C": "对具体对象提出忠告或建议，语气比命令缓和。",
+      "D": "假设实现难度较高的事情，常表达愿望或挑战。"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～ことはない（没必要……）。接续：V辞书形＋ことはない。正确答案：A。正确理由：该说明准确概括了「～ことはない」的使用场景：表示没有必要采取某个行动，用于安慰或建议。 选项分析：A「表示没有必要采取某个行动，用于安慰或建议。」：正确。该说明准确概括了「～ことはない」的使用场景：表示没有必要采取某个行动，用于安慰或建议。 B「表示仅因某原因而产生不理想结果，常含后悔。」：错误。该选项对应「～ばかりに」，含义是「只因……而……」，接续为「普通形＋ばかりに（ナAな／Nである＋ばかりに）」，与本题要求的「没必要……」不符。 C「对具体对象提出忠告或建议，语气比命令缓和。」：错误。该选项对应「～ことだ」，含义是「应该……；最好……」，接续为「V辞书形／ない形＋ことだ」，与本题要求的「没必要……」不符。 D「假设实现难度较高的事情，常表达愿望或挑战。」：错误。该选项对应「～ものなら」，含义是「如果能……的话」，接续为「V可能形＋ものなら」，与本题要求的「没必要……」不符。 涉及知识点：～ことはない。类似例句1：まだ時間があるから、急ぐことはない。 类似例句2：一度の失敗で落ち込むことはありません。",
+    "knowledgePointIds": [
+      "KP-GRA-KOTOWANAI-001"
+    ],
+    "knowledgePointTitles": [
+      "～ことはない"
+    ],
+    "difficulty": 4,
+    "reviewWeight": 1.2,
+    "knowledgePointId": "KP-GRA-KOTOWANAI-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "distinction",
+      "grammar",
+      "禁止/义务"
+    ],
+    "estimatedTime": 90
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0028",
+    "level": "N2",
+    "section": "reading",
+    "type": "short_reading",
+    "subType": "question_factory_short_reading",
+    "prompt": "次の短い説明を読んで、二つの文に共通する「～ことはない」の働きを選びなさい。\n「まだ時間があるから、急ぐことはない。」また、「一度の失敗で落ち込むことはありません。」という言い方もある。",
+    "choices": {
+      "A": "表示仅因某原因而产生不理想结果，常含后悔。",
+      "B": "表示没有必要采取某个行动，用于安慰或建议。",
+      "C": "对具体对象提出忠告或建议，语气比命令缓和。",
+      "D": "假设实现难度较高的事情，常表达愿望或挑战。"
+    },
+    "correctAnswer": "B",
+    "explanation": "知识点：～ことはない（没必要……）。接续：V辞书形＋ことはない。正确答案：B。正确理由：短文中的两个例子都使用「～ことはない」表达「没必要……」。 选项分析：A「表示仅因某原因而产生不理想结果，常含后悔。」：错误。该选项对应「～ばかりに」，含义是「只因……而……」，接续为「普通形＋ばかりに（ナAな／Nである＋ばかりに）」，与本题要求的「没必要……」不符。 B「表示没有必要采取某个行动，用于安慰或建议。」：正确。短文中的两个例子都使用「～ことはない」表达「没必要……」。 C「对具体对象提出忠告或建议，语气比命令缓和。」：错误。该选项对应「～ことだ」，含义是「应该……；最好……」，接续为「V辞书形／ない形＋ことだ」，与本题要求的「没必要……」不符。 D「假设实现难度较高的事情，常表达愿望或挑战。」：错误。该选项对应「～ものなら」，含义是「如果能……的话」，接续为「V可能形＋ものなら」，与本题要求的「没必要……」不符。 涉及知识点：～ことはない。类似例句1：まだ時間があるから、急ぐことはない。 类似例句2：一度の失敗で落ち込むことはありません。",
+    "knowledgePointIds": [
+      "KP-GRA-KOTOWANAI-001"
+    ],
+    "knowledgePointTitles": [
+      "～ことはない"
+    ],
+    "difficulty": 5,
+    "reviewWeight": 1.3,
+    "knowledgePointId": "KP-GRA-KOTOWANAI-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "short_reading",
+      "grammar",
+      "禁止/义务"
+    ],
+    "estimatedTime": 120
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0029",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_sentence",
+    "prompt": "予想（　　）、試験はそれほど難しくなかった。",
+    "choices": {
+      "A": "ばかりだ",
+      "B": "ばかりか",
+      "C": "ばかりに",
+      "D": "に反して"
+    },
+    "correctAnswer": "D",
+    "explanation": "知识点：～に反して（与……相反）。接续：N＋に反して／に反する＋N。正确答案：D。正确理由：句中的接续与语义都符合「～に反して」：表示结果、行动与预想、规则、意愿等相反。 选项分析：A「ばかりだ」：错误。该选项对应「～ばかりだ」，含义是「一直……；越来越……」，接续为「V辞书形＋ばかりだ」，与本题要求的「与……相反」不符。 B「ばかりか」：错误。该选项对应「～ばかりか」，含义是「不但……而且……」，接续为「普通形／N＋ばかりか」，与本题要求的「与……相反」不符。 C「ばかりに」：错误。该选项对应「～ばかりに」，含义是「只因……而……」，接续为「普通形＋ばかりに（ナAな／Nである＋ばかりに）」，与本题要求的「与……相反」不符。 D「に反して」：正确。句中的接续与语义都符合「～に反して」：表示结果、行动与预想、规则、意愿等相反。 涉及知识点：～に反して。类似例句1：予想に反して、試験はそれほど難しくなかった。 类似例句2：本人の意志に反して、計画が変更された。",
+    "knowledgePointIds": [
+      "KP-GRA-NIHANSHITE-001"
+    ],
+    "knowledgePointTitles": [
+      "～に反して"
+    ],
+    "difficulty": 2,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-NIHANSHITE-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "sentence",
+      "grammar",
+      "逆接/让步"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0030",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_meaning",
+    "subType": "question_factory_dialogue",
+    "prompt": "A「『本人の意志に反して、計画が変更された。』という文を見ました。」\nB「ここで使われた『に反して』は、どんな意味ですか。」",
+    "choices": {
+      "A": "与……相反",
+      "B": "不应该……",
+      "C": "没必要……",
+      "D": "不限于……"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～に反して（与……相反）。接续：N＋に反して／に反する＋N。正确答案：A。正确理由：对话引用的例句表达「与……相反」，符合「～に反して」的用法。 选项分析：A「与……相反」：正确。对话引用的例句表达「与……相反」，符合「～に反して」的用法。 B「不应该……」：错误。该选项对应「～べきではない」，含义是「不应该……」，接续为「V辞书形＋べきではない」，与本题要求的「与……相反」不符。 C「没必要……」：错误。该选项对应「～ことはない」，含义是「没必要……」，接续为「V辞书形＋ことはない」，与本题要求的「与……相反」不符。 D「不限于……」：错误。该选项对应「～に限らず」，含义是「不限于……」，接续为「N＋に限らず」，与本题要求的「与……相反」不符。 涉及知识点：～に反して。类似例句1：予想に反して、試験はそれほど難しくなかった。 类似例句2：本人の意志に反して、計画が変更された。",
+    "knowledgePointIds": [
+      "KP-GRA-NIHANSHITE-001"
+    ],
+    "knowledgePointTitles": [
+      "～に反して"
+    ],
+    "difficulty": 3,
+    "reviewWeight": 1.1,
+    "knowledgePointId": "KP-GRA-NIHANSHITE-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "dialogue",
+      "grammar",
+      "逆接/让步"
+    ],
+    "estimatedTime": 75
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0031",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_meaning",
+    "subType": "question_factory_distinction",
+    "prompt": "「～に反して」の用法として最も適切な説明はどれか。\n例：予想に反して、試験はそれほど難しくなかった。",
+    "choices": {
+      "A": "表示经历较长过程后得到通常不理想的结果。",
+      "B": "表示结果、行动与预想、规则、意愿等相反。",
+      "C": "表示情感或状态程度过高，导致非正常结果。",
+      "D": "表示因紧急情况或程度严重，无法进行前项。"
+    },
+    "correctAnswer": "B",
+    "explanation": "知识点：～に反して（与……相反）。接续：N＋に反して／に反する＋N。正确答案：B。正确理由：该说明准确概括了「～に反して」的使用场景：表示结果、行动与预想、规则、意愿等相反。 选项分析：A「表示经历较长过程后得到通常不理想的结果。」：错误。该选项对应「～あげく」，含义是「经过……最终……」，接续为「Vた形／Nの＋あげく」，与本题要求的「与……相反」不符。 B「表示结果、行动与预想、规则、意愿等相反。」：正确。该说明准确概括了「～に反して」的使用场景：表示结果、行动与预想、规则、意愿等相反。 C「表示情感或状态程度过高，导致非正常结果。」：错误。该选项对应「～あまり」，含义是「由于过度……而……」，接续为「V普通形／ナAな／Nの＋あまり」，与本题要求的「与……相反」不符。 D「表示因紧急情况或程度严重，无法进行前项。」：错误。该选项对应「～どころではない」，含义是「根本不是……的时候；谈不上……」，接续为「V辞书形／N＋どころではない」，与本题要求的「与……相反」不符。 涉及知识点：～に反して。类似例句1：予想に反して、試験はそれほど難しくなかった。 类似例句2：本人の意志に反して、計画が変更された。",
+    "knowledgePointIds": [
+      "KP-GRA-NIHANSHITE-001"
+    ],
+    "knowledgePointTitles": [
+      "～に反して"
+    ],
+    "difficulty": 4,
+    "reviewWeight": 1.2,
+    "knowledgePointId": "KP-GRA-NIHANSHITE-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "distinction",
+      "grammar",
+      "逆接/让步"
+    ],
+    "estimatedTime": 90
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0032",
+    "level": "N2",
+    "section": "reading",
+    "type": "short_reading",
+    "subType": "question_factory_short_reading",
+    "prompt": "次の短い説明を読んで、二つの文に共通する「～に反して」の働きを選びなさい。\n「予想に反して、試験はそれほど難しくなかった。」また、「本人の意志に反して、計画が変更された。」という言い方もある。",
+    "choices": {
+      "A": "表示经历较长过程后得到通常不理想的结果。",
+      "B": "表示情感或状态程度过高，导致非正常结果。",
+      "C": "表示结果、行动与预想、规则、意愿等相反。",
+      "D": "表示因紧急情况或程度严重，无法进行前项。"
+    },
+    "correctAnswer": "C",
+    "explanation": "知识点：～に反して（与……相反）。接续：N＋に反して／に反する＋N。正确答案：C。正确理由：短文中的两个例子都使用「～に反して」表达「与……相反」。 选项分析：A「表示经历较长过程后得到通常不理想的结果。」：错误。该选项对应「～あげく」，含义是「经过……最终……」，接续为「Vた形／Nの＋あげく」，与本题要求的「与……相反」不符。 B「表示情感或状态程度过高，导致非正常结果。」：错误。该选项对应「～あまり」，含义是「由于过度……而……」，接续为「V普通形／ナAな／Nの＋あまり」，与本题要求的「与……相反」不符。 C「表示结果、行动与预想、规则、意愿等相反。」：正确。短文中的两个例子都使用「～に反して」表达「与……相反」。 D「表示因紧急情况或程度严重，无法进行前项。」：错误。该选项对应「～どころではない」，含义是「根本不是……的时候；谈不上……」，接续为「V辞书形／N＋どころではない」，与本题要求的「与……相反」不符。 涉及知识点：～に反して。类似例句1：予想に反して、試験はそれほど難しくなかった。 类似例句2：本人の意志に反して、計画が変更された。",
+    "knowledgePointIds": [
+      "KP-GRA-NIHANSHITE-001"
+    ],
+    "knowledgePointTitles": [
+      "～に反して"
+    ],
+    "difficulty": 5,
+    "reviewWeight": 1.3,
+    "knowledgePointId": "KP-GRA-NIHANSHITE-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "short_reading",
+      "grammar",
+      "逆接/让步"
+    ],
+    "estimatedTime": 120
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0033",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_sentence",
+    "prompt": "大会（　　）、毎日練習している。",
+    "choices": {
+      "A": "に向けて",
+      "B": "に備えて",
+      "C": "ばかりだ",
+      "D": "ばかりか"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～に向けて（面向……；为……而）。接续：N＋に向けて／に向けた＋N。正确答案：A。正确理由：句中的接续与语义都符合「～に向けて」：表示朝目标、对象或时间节点推进准备。 选项分析：A「に向けて」：正确。句中的接续与语义都符合「～に向けて」：表示朝目标、对象或时间节点推进准备。 B「に備えて」：错误。该选项对应「～に備えて」，含义是「为……做准备」，接续为「N＋に備えて／に備えた＋N」，与本题要求的「面向……；为……而」不符。 C「ばかりだ」：错误。该选项对应「～ばかりだ」，含义是「一直……；越来越……」，接续为「V辞书形＋ばかりだ」，与本题要求的「面向……；为……而」不符。 D「ばかりか」：错误。该选项对应「～ばかりか」，含义是「不但……而且……」，接续为「普通形／N＋ばかりか」，与本题要求的「面向……；为……而」不符。 涉及知识点：～に向けて。类似例句1：大会に向けて、毎日練習している。 类似例句2：発売に向けた準備が進んでいる。",
+    "knowledgePointIds": [
+      "KP-GRA-NIMUKETE-001"
+    ],
+    "knowledgePointTitles": [
+      "～に向けて"
+    ],
+    "difficulty": 2,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-NIMUKETE-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "sentence",
+      "grammar",
+      "目的"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0034",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_meaning",
+    "subType": "question_factory_dialogue",
+    "prompt": "A「『発売に向けた準備が進んでいる。』という文を見ました。」\nB「ここで使われた『に向けて』は、どんな意味ですか。」",
+    "choices": {
+      "A": "由于过度……而……",
+      "B": "面向……；为……而",
+      "C": "应该……；最好……",
+      "D": "大约；达到……程度"
+    },
+    "correctAnswer": "B",
+    "explanation": "知识点：～に向けて（面向……；为……而）。接续：N＋に向けて／に向けた＋N。正确答案：B。正确理由：对话引用的例句表达「面向……；为……而」，符合「～に向けて」的用法。 选项分析：A「由于过度……而……」：错误。该选项对应「～あまり」，含义是「由于过度……而……」，接续为「V普通形／ナAな／Nの＋あまり」，与本题要求的「面向……；为……而」不符。 B「面向……；为……而」：正确。对话引用的例句表达「面向……；为……而」，符合「～に向けて」的用法。 C「应该……；最好……」：错误。该选项对应「～ことだ」，含义是「应该……；最好……」，接续为「V辞书形／ない形＋ことだ」，与本题要求的「面向……；为……而」不符。 D「大约；达到……程度」：错误。该选项对应「～くらい／ぐらい」，含义是「大约；达到……程度」，接续为「N／普通形＋くらい」，与本题要求的「面向……；为……而」不符。 涉及知识点：～に向けて。类似例句1：大会に向けて、毎日練習している。 类似例句2：発売に向けた準備が進んでいる。",
+    "knowledgePointIds": [
+      "KP-GRA-NIMUKETE-001"
+    ],
+    "knowledgePointTitles": [
+      "～に向けて"
+    ],
+    "difficulty": 3,
+    "reviewWeight": 1.1,
+    "knowledgePointId": "KP-GRA-NIMUKETE-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "dialogue",
+      "grammar",
+      "目的"
+    ],
+    "estimatedTime": 75
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0035",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_meaning",
+    "subType": "question_factory_distinction",
+    "prompt": "「～に向けて」の用法として最も適切な説明はどれか。\n例：大会に向けて、毎日練習している。",
+    "choices": {
+      "A": "带主观解释语气说明原因，常用于辩解。",
+      "B": "表示如果前项不实现，后项就不会成立。",
+      "C": "表示朝目标、对象或时间节点推进准备。",
+      "D": "表达说话人主观上十分确信，语气较强。"
+    },
+    "correctAnswer": "C",
+    "explanation": "知识点：～に向けて（面向……；为……而）。接续：N＋に向けて／に向けた＋N。正确答案：C。正确理由：该说明准确概括了「～に向けて」的使用场景：表示朝目标、对象或时间节点推进准备。 选项分析：A「带主观解释语气说明原因，常用于辩解。」：错误。该选项对应「～ものだから」，含义是「因为……（解释、辩解）」，接续为「普通形＋ものだから（ナAな／Nな＋ものだから）」，与本题要求的「面向……；为……而」不符。 B「表示如果前项不实现，后项就不会成立。」：错误。该选项对应「～ない限り」，含义是「除非……否则……」，接续为「Vない形＋限り」，与本题要求的「面向……；为……而」不符。 C「表示朝目标、对象或时间节点推进准备。」：正确。该说明准确概括了「～に向けて」的使用场景：表示朝目标、对象或时间节点推进准备。 D「表达说话人主观上十分确信，语气较强。」：错误。该选项对应「～に決まっている」，含义是「肯定……；当然……」，接续为「普通形＋に決まっている（ナA／N＋に決まっている）」，与本题要求的「面向……；为……而」不符。 涉及知识点：～に向けて。类似例句1：大会に向けて、毎日練習している。 类似例句2：発売に向けた準備が進んでいる。",
+    "knowledgePointIds": [
+      "KP-GRA-NIMUKETE-001"
+    ],
+    "knowledgePointTitles": [
+      "～に向けて"
+    ],
+    "difficulty": 4,
+    "reviewWeight": 1.2,
+    "knowledgePointId": "KP-GRA-NIMUKETE-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "distinction",
+      "grammar",
+      "目的"
+    ],
+    "estimatedTime": 90
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0036",
+    "level": "N2",
+    "section": "reading",
+    "type": "short_reading",
+    "subType": "question_factory_short_reading",
+    "prompt": "次の短い説明を読んで、二つの文に共通する「～に向けて」の働きを選びなさい。\n「大会に向けて、毎日練習している。」また、「発売に向けた準備が進んでいる。」という言い方もある。",
+    "choices": {
+      "A": "带主观解释语气说明原因，常用于辩解。",
+      "B": "表示如果前项不实现，后项就不会成立。",
+      "C": "表达说话人主观上十分确信，语气较强。",
+      "D": "表示朝目标、对象或时间节点推进准备。"
+    },
+    "correctAnswer": "D",
+    "explanation": "知识点：～に向けて（面向……；为……而）。接续：N＋に向けて／に向けた＋N。正确答案：D。正确理由：短文中的两个例子都使用「～に向けて」表达「面向……；为……而」。 选项分析：A「带主观解释语气说明原因，常用于辩解。」：错误。该选项对应「～ものだから」，含义是「因为……（解释、辩解）」，接续为「普通形＋ものだから（ナAな／Nな＋ものだから）」，与本题要求的「面向……；为……而」不符。 B「表示如果前项不实现，后项就不会成立。」：错误。该选项对应「～ない限り」，含义是「除非……否则……」，接续为「Vない形＋限り」，与本题要求的「面向……；为……而」不符。 C「表达说话人主观上十分确信，语气较强。」：错误。该选项对应「～に決まっている」，含义是「肯定……；当然……」，接续为「普通形＋に決まっている（ナA／N＋に決まっている）」，与本题要求的「面向……；为……而」不符。 D「表示朝目标、对象或时间节点推进准备。」：正确。短文中的两个例子都使用「～に向けて」表达「面向……；为……而」。 涉及知识点：～に向けて。类似例句1：大会に向けて、毎日練習している。 类似例句2：発売に向けた準備が進んでいる。",
+    "knowledgePointIds": [
+      "KP-GRA-NIMUKETE-001"
+    ],
+    "knowledgePointTitles": [
+      "～に向けて"
+    ],
+    "difficulty": 5,
+    "reviewWeight": 1.3,
+    "knowledgePointId": "KP-GRA-NIMUKETE-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "short_reading",
+      "grammar",
+      "目的"
+    ],
+    "estimatedTime": 120
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0037",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_sentence",
+    "prompt": "地震（　　）、水を用意している。",
+    "choices": {
+      "A": "に向けて",
+      "B": "に備えて",
+      "C": "ばかりだ",
+      "D": "ばかりか"
+    },
+    "correctAnswer": "B",
+    "explanation": "知识点：～に備えて（为……做准备）。接续：N＋に備えて／に備えた＋N。正确答案：B。正确理由：句中的接续与语义都符合「～に備えて」：针对将来可能发生的情况预先准备。 选项分析：A「に向けて」：错误。该选项对应「～に向けて」，含义是「面向……；为……而」，接续为「N＋に向けて／に向けた＋N」，与本题要求的「为……做准备」不符。 B「に備えて」：正确。句中的接续与语义都符合「～に備えて」：针对将来可能发生的情况预先准备。 C「ばかりだ」：错误。该选项对应「～ばかりだ」，含义是「一直……；越来越……」，接续为「V辞书形＋ばかりだ」，与本题要求的「为……做准备」不符。 D「ばかりか」：错误。该选项对应「～ばかりか」，含义是「不但……而且……」，接续为「普通形／N＋ばかりか」，与本题要求的「为……做准备」不符。 涉及知识点：～に備えて。类似例句1：地震に備えて、水を用意している。 类似例句2：試験に備えて、早めに復習を始めた。",
+    "knowledgePointIds": [
+      "KP-GRA-NISONAETE-001"
+    ],
+    "knowledgePointTitles": [
+      "～に備えて"
+    ],
+    "difficulty": 2,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-NISONAETE-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "sentence",
+      "grammar",
+      "目的"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0038",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_meaning",
+    "subType": "question_factory_dialogue",
+    "prompt": "A「『試験に備えて、早めに復習を始めた。』という文を見ました。」\nB「ここで使われた『に備えて』は、どんな意味ですか。」",
+    "choices": {
+      "A": "按理应该……",
+      "B": "并非不能……",
+      "C": "为……做准备",
+      "D": "自从……以来"
+    },
+    "correctAnswer": "C",
+    "explanation": "知识点：～に備えて（为……做准备）。接续：N＋に備えて／に備えた＋N。正确答案：C。正确理由：对话引用的例句表达「为……做准备」，符合「～に備えて」的用法。 选项分析：A「按理应该……」：错误。该选项对应「～はずだ」，含义是「按理应该……」，接续为「普通形＋はずだ（ナAな／Nの＋はずだ）」，与本题要求的「为……做准备」不符。 B「并非不能……」：错误。该选项对应「～ないことはない」，含义是「并非不能……」，接续为「Vない形＋ことはない」，与本题要求的「为……做准备」不符。 C「为……做准备」：正确。对话引用的例句表达「为……做准备」，符合「～に備えて」的用法。 D「自从……以来」：错误。该选项对应「～て以来」，含义是「自从……以来」，接续为「Vて形＋以来」，与本题要求的「为……做准备」不符。 涉及知识点：～に備えて。类似例句1：地震に備えて、水を用意している。 类似例句2：試験に備えて、早めに復習を始めた。",
+    "knowledgePointIds": [
+      "KP-GRA-NISONAETE-001"
+    ],
+    "knowledgePointTitles": [
+      "～に備えて"
+    ],
+    "difficulty": 3,
+    "reviewWeight": 1.1,
+    "knowledgePointId": "KP-GRA-NISONAETE-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "dialogue",
+      "grammar",
+      "目的"
+    ],
+    "estimatedTime": 75
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0039",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_meaning",
+    "subType": "question_factory_distinction",
+    "prompt": "「～に備えて」の用法として最も適切な説明はどれか。\n例：地震に備えて、水を用意している。",
+    "choices": {
+      "A": "根据道德、常识或责任提出强建议。",
+      "B": "表示某状态持续期间，后项也成立。",
+      "C": "表示随趋势变化，或遵照规则行动。",
+      "D": "针对将来可能发生的情况预先准备。"
+    },
+    "correctAnswer": "D",
+    "explanation": "知识点：～に備えて（为……做准备）。接续：N＋に備えて／に備えた＋N。正确答案：D。正确理由：该说明准确概括了「～に備えて」的使用场景：针对将来可能发生的情况预先准备。 选项分析：A「根据道德、常识或责任提出强建议。」：错误。该选项对应「～べきだ」，含义是「应该……」，接续为「V辞书形＋べきだ（する→するべき／すべき）」，与本题要求的「为……做准备」不符。 B「表示某状态持续期间，后项也成立。」：错误。该选项对应「～限り」，含义是「只要……就……；在……范围内」，接续为「V普通形／Nである＋限り」，与本题要求的「为……做准备」不符。 C「表示随趋势变化，或遵照规则行动。」：错误。该选项对应「～に従って」，含义是「随着……；按照……」，接续为「N／V辞书形＋に従って」，与本题要求的「为……做准备」不符。 D「针对将来可能发生的情况预先准备。」：正确。该说明准确概括了「～に備えて」的使用场景：针对将来可能发生的情况预先准备。 涉及知识点：～に備えて。类似例句1：地震に備えて、水を用意している。 类似例句2：試験に備えて、早めに復習を始めた。",
+    "knowledgePointIds": [
+      "KP-GRA-NISONAETE-001"
+    ],
+    "knowledgePointTitles": [
+      "～に備えて"
+    ],
+    "difficulty": 4,
+    "reviewWeight": 1.2,
+    "knowledgePointId": "KP-GRA-NISONAETE-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "distinction",
+      "grammar",
+      "目的"
+    ],
+    "estimatedTime": 90
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0040",
+    "level": "N2",
+    "section": "reading",
+    "type": "short_reading",
+    "subType": "question_factory_short_reading",
+    "prompt": "次の短い説明を読んで、二つの文に共通する「～に備えて」の働きを選びなさい。\n「地震に備えて、水を用意している。」また、「試験に備えて、早めに復習を始めた。」という言い方もある。",
+    "choices": {
+      "A": "针对将来可能发生的情况预先准备。",
+      "B": "根据道德、常识或责任提出强建议。",
+      "C": "表示某状态持续期间，后项也成立。",
+      "D": "表示随趋势变化，或遵照规则行动。"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～に備えて（为……做准备）。接续：N＋に備えて／に備えた＋N。正确答案：A。正确理由：短文中的两个例子都使用「～に備えて」表达「为……做准备」。 选项分析：A「针对将来可能发生的情况预先准备。」：正确。短文中的两个例子都使用「～に備えて」表达「为……做准备」。 B「根据道德、常识或责任提出强建议。」：错误。该选项对应「～べきだ」，含义是「应该……」，接续为「V辞书形＋べきだ（する→するべき／すべき）」，与本题要求的「为……做准备」不符。 C「表示某状态持续期间，后项也成立。」：错误。该选项对应「～限り」，含义是「只要……就……；在……范围内」，接续为「V普通形／Nである＋限り」，与本题要求的「为……做准备」不符。 D「表示随趋势变化，或遵照规则行动。」：错误。该选项对应「～に従って」，含义是「随着……；按照……」，接续为「N／V辞书形＋に従って」，与本题要求的「为……做准备」不符。 涉及知识点：～に備えて。类似例句1：地震に備えて、水を用意している。 类似例句2：試験に備えて、早めに復習を始めた。",
+    "knowledgePointIds": [
+      "KP-GRA-NISONAETE-001"
+    ],
+    "knowledgePointTitles": [
+      "～に備えて"
+    ],
+    "difficulty": 5,
+    "reviewWeight": 1.3,
+    "knowledgePointId": "KP-GRA-NISONAETE-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "short_reading",
+      "grammar",
+      "目的"
+    ],
+    "estimatedTime": 120
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0041",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_sentence",
+    "prompt": "先生の（　　）、試験に合格できた。",
+    "choices": {
+      "A": "ばかりだ",
+      "B": "ばかりか",
+      "C": "おかげで",
+      "D": "ばかりに"
+    },
+    "correctAnswer": "C",
+    "explanation": "知识点：～おかげで（多亏……；由于……）。接续：普通形＋おかげで（ナAな／Nの＋おかげで）。正确答案：C。正确理由：句中的接续与语义都符合「～おかげで」：通常表示积极结果，也可反讽。 选项分析：A「ばかりだ」：错误。该选项对应「～ばかりだ」，含义是「一直……；越来越……」，接续为「V辞书形＋ばかりだ」，与本题要求的「多亏……；由于……」不符。 B「ばかりか」：错误。该选项对应「～ばかりか」，含义是「不但……而且……」，接续为「普通形／N＋ばかりか」，与本题要求的「多亏……；由于……」不符。 C「おかげで」：正确。句中的接续与语义都符合「～おかげで」：通常表示积极结果，也可反讽。 D「ばかりに」：错误。该选项对应「～ばかりに」，含义是「只因……而……」，接续为「普通形＋ばかりに（ナAな／Nである＋ばかりに）」，与本题要求的「多亏……；由于……」不符。 涉及知识点：～おかげで。类似例句1：先生のおかげで、試験に合格できた。 类似例句2：電車が遅れたおかげで、会議に間に合わなかった。",
+    "knowledgePointIds": [
+      "KP-GRA-OKAGEDE-001"
+    ],
+    "knowledgePointTitles": [
+      "～おかげで"
+    ],
+    "difficulty": 2,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-OKAGEDE-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "sentence",
+      "grammar",
+      "原因/结果"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0042",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_meaning",
+    "subType": "question_factory_dialogue",
+    "prompt": "A「『電車が遅れたおかげで、会議に間に合わなかった。』という文を見ました。」\nB「ここで使われた『おかげで』は、どんな意味ですか。」",
+    "choices": {
+      "A": "都怪……；由于……",
+      "B": "由于过度……而……",
+      "C": "应该……；最好……",
+      "D": "多亏……；由于……"
+    },
+    "correctAnswer": "D",
+    "explanation": "知识点：～おかげで（多亏……；由于……）。接续：普通形＋おかげで（ナAな／Nの＋おかげで）。正确答案：D。正确理由：对话引用的例句表达「多亏……；由于……」，符合「～おかげで」的用法。 选项分析：A「都怪……；由于……」：错误。该选项对应「～せいで」，含义是「都怪……；由于……」，接续为「普通形＋せいで（ナAな／Nの＋せいで）」，与本题要求的「多亏……；由于……」不符。 B「由于过度……而……」：错误。该选项对应「～あまり」，含义是「由于过度……而……」，接续为「V普通形／ナAな／Nの＋あまり」，与本题要求的「多亏……；由于……」不符。 C「应该……；最好……」：错误。该选项对应「～ことだ」，含义是「应该……；最好……」，接续为「V辞书形／ない形＋ことだ」，与本题要求的「多亏……；由于……」不符。 D「多亏……；由于……」：正确。对话引用的例句表达「多亏……；由于……」，符合「～おかげで」的用法。 涉及知识点：～おかげで。类似例句1：先生のおかげで、試験に合格できた。 类似例句2：電車が遅れたおかげで、会議に間に合わなかった。",
+    "knowledgePointIds": [
+      "KP-GRA-OKAGEDE-001"
+    ],
+    "knowledgePointTitles": [
+      "～おかげで"
+    ],
+    "difficulty": 3,
+    "reviewWeight": 1.1,
+    "knowledgePointId": "KP-GRA-OKAGEDE-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "dialogue",
+      "grammar",
+      "原因/结果"
+    ],
+    "estimatedTime": 75
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0043",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_meaning",
+    "subType": "question_factory_distinction",
+    "prompt": "「～おかげで」の用法として最も適切な説明はどれか。\n例：先生のおかげで、試験に合格できた。",
+    "choices": {
+      "A": "通常表示积极结果，也可反讽。",
+      "B": "书面且正式地表示意图和目的。",
+      "C": "说明命名、判断或结果的依据。",
+      "D": "表示对象，或把两种性质对照。"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～おかげで（多亏……；由于……）。接续：普通形＋おかげで（ナAな／Nの＋おかげで）。正确答案：A。正确理由：该说明准确概括了「～おかげで」的使用场景：通常表示积极结果，也可反讽。 选项分析：A「通常表示积极结果，也可反讽。」：正确。该说明准确概括了「～おかげで」的使用场景：通常表示积极结果，也可反讽。 B「书面且正式地表示意图和目的。」：错误。该选项对应「～べく」，含义是「为了……」，接续为「V辞书形＋べく（する→するべく／すべく）」，与本题要求的「多亏……；由于……」不符。 C「说明命名、判断或结果的依据。」：错误。该选项对应「～ことから」，含义是「由于……；从……来看」，接续为「普通形＋ことから（ナA／N＋であることから）」，与本题要求的「多亏……；由于……」不符。 D「表示对象，或把两种性质对照。」：错误。该选项对应「～に対して」，含义是「相对于……；针对……」，接续为「N＋に対して／に対する＋N」，与本题要求的「多亏……；由于……」不符。 涉及知识点：～おかげで。类似例句1：先生のおかげで、試験に合格できた。 类似例句2：電車が遅れたおかげで、会議に間に合わなかった。",
+    "knowledgePointIds": [
+      "KP-GRA-OKAGEDE-001"
+    ],
+    "knowledgePointTitles": [
+      "～おかげで"
+    ],
+    "difficulty": 4,
+    "reviewWeight": 1.2,
+    "knowledgePointId": "KP-GRA-OKAGEDE-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "distinction",
+      "grammar",
+      "原因/结果"
+    ],
+    "estimatedTime": 90
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0044",
+    "level": "N2",
+    "section": "reading",
+    "type": "short_reading",
+    "subType": "question_factory_short_reading",
+    "prompt": "次の短い説明を読んで、二つの文に共通する「～おかげで」の働きを選びなさい。\n「先生のおかげで、試験に合格できた。」また、「電車が遅れたおかげで、会議に間に合わなかった。」という言い方もある。",
+    "choices": {
+      "A": "书面且正式地表示意图和目的。",
+      "B": "通常表示积极结果，也可反讽。",
+      "C": "说明命名、判断或结果的依据。",
+      "D": "表示对象，或把两种性质对照。"
+    },
+    "correctAnswer": "B",
+    "explanation": "知识点：～おかげで（多亏……；由于……）。接续：普通形＋おかげで（ナAな／Nの＋おかげで）。正确答案：B。正确理由：短文中的两个例子都使用「～おかげで」表达「多亏……；由于……」。 选项分析：A「书面且正式地表示意图和目的。」：错误。该选项对应「～べく」，含义是「为了……」，接续为「V辞书形＋べく（する→するべく／すべく）」，与本题要求的「多亏……；由于……」不符。 B「通常表示积极结果，也可反讽。」：正确。短文中的两个例子都使用「～おかげで」表达「多亏……；由于……」。 C「说明命名、判断或结果的依据。」：错误。该选项对应「～ことから」，含义是「由于……；从……来看」，接续为「普通形＋ことから（ナA／N＋であることから）」，与本题要求的「多亏……；由于……」不符。 D「表示对象，或把两种性质对照。」：错误。该选项对应「～に対して」，含义是「相对于……；针对……」，接续为「N＋に対して／に対する＋N」，与本题要求的「多亏……；由于……」不符。 涉及知识点：～おかげで。类似例句1：先生のおかげで、試験に合格できた。 类似例句2：電車が遅れたおかげで、会議に間に合わなかった。",
+    "knowledgePointIds": [
+      "KP-GRA-OKAGEDE-001"
+    ],
+    "knowledgePointTitles": [
+      "～おかげで"
+    ],
+    "difficulty": 5,
+    "reviewWeight": 1.3,
+    "knowledgePointId": "KP-GRA-OKAGEDE-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "short_reading",
+      "grammar",
+      "原因/结果"
+    ],
+    "estimatedTime": 120
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0045",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_sentence",
+    "prompt": "忙しくて昼ご飯を食べる時間（　　）なかった。",
+    "choices": {
+      "A": "べく",
+      "B": "反面",
+      "C": "ほど",
+      "D": "さえ"
+    },
+    "correctAnswer": "D",
+    "explanation": "知识点：～さえ（连……都……；只要……）。接续：N／助词＋さえ；Vます形去ます＋さえする。正确答案：D。正确理由：句中的接续与语义都符合「～さえ」：举出极端例子强调范围，或与条件形式组合。 选项分析：A「べく」：错误。该选项对应「～べく」，含义是「为了……」，接续为「V辞书形＋べく（する→するべく／すべく）」，与本题要求的「连……都……；只要……」不符。 B「反面」：错误。该选项对应「～反面」，含义是「另一方面；反面」，接续为「普通形＋反面（ナAな／である・Nである＋反面）」，与本题要求的「连……都……；只要……」不符。 C「ほど」：错误。该选项对应「～ほど」，含义是「达到……程度；越……越……」，接续为「N／普通形＋ほど；～ば～ほど」，与本题要求的「连……都……；只要……」不符。 D「さえ」：正确。句中的接续与语义都符合「～さえ」：举出极端例子强调范围，或与条件形式组合。 涉及知识点：～さえ。类似例句1：忙しくて昼ご飯を食べる時間さえなかった。 类似例句2：名前さえ分かれば、調べられます。",
+    "knowledgePointIds": [
+      "KP-GRA-SAE-001"
+    ],
+    "knowledgePointTitles": [
+      "～さえ"
+    ],
+    "difficulty": 2,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-SAE-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "sentence",
+      "grammar",
+      "限定/强调"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0046",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_meaning",
+    "subType": "question_factory_dialogue",
+    "prompt": "A「『名前さえ分かれば、調べられます。』という文を見ました。」\nB「ここで使われた『さえ』は、どんな意味ですか。」",
+    "choices": {
+      "A": "连……都……；只要……",
+      "B": "有可能发生……（坏事）",
+      "C": "因为……（解释、辩解）",
+      "D": "值此……之际；在……时"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～さえ（连……都……；只要……）。接续：N／助词＋さえ；Vます形去ます＋さえする。正确答案：A。正确理由：对话引用的例句表达「连……都……；只要……」，符合「～さえ」的用法。 选项分析：A「连……都……；只要……」：正确。对话引用的例句表达「连……都……；只要……」，符合「～さえ」的用法。 B「有可能发生……（坏事）」：错误。该选项对应「～かねない」，含义是「有可能发生……（坏事）」，接续为「Vます形去ます＋かねない」，与本题要求的「连……都……；只要……」不符。 C「因为……（解释、辩解）」：错误。该选项对应「～ものだから」，含义是「因为……（解释、辩解）」，接续为「普通形＋ものだから（ナAな／Nな＋ものだから）」，与本题要求的「连……都……；只要……」不符。 D「值此……之际；在……时」：错误。该选项对应「～に際して」，含义是「值此……之际；在……时」，接续为「N／V辞书形＋に際して／に際し」，与本题要求的「连……都……；只要……」不符。 涉及知识点：～さえ。类似例句1：忙しくて昼ご飯を食べる時間さえなかった。 类似例句2：名前さえ分かれば、調べられます。",
+    "knowledgePointIds": [
+      "KP-GRA-SAE-001"
+    ],
+    "knowledgePointTitles": [
+      "～さえ"
+    ],
+    "difficulty": 3,
+    "reviewWeight": 1.1,
+    "knowledgePointId": "KP-GRA-SAE-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "dialogue",
+      "grammar",
+      "限定/强调"
+    ],
+    "estimatedTime": 75
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0047",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_meaning",
+    "subType": "question_factory_distinction",
+    "prompt": "「～さえ」の用法として最も適切な説明はどれか。\n例：忙しくて昼ご飯を食べる時間さえなかった。",
+    "choices": {
+      "A": "表示经历较长过程后得到通常不理想的结果。",
+      "B": "举出极端例子强调范围，或与条件形式组合。",
+      "C": "表示情感或状态程度过高，导致非正常结果。",
+      "D": "表示因紧急情况或程度严重，无法进行前项。"
+    },
+    "correctAnswer": "B",
+    "explanation": "知识点：～さえ（连……都……；只要……）。接续：N／助词＋さえ；Vます形去ます＋さえする。正确答案：B。正确理由：该说明准确概括了「～さえ」的使用场景：举出极端例子强调范围，或与条件形式组合。 选项分析：A「表示经历较长过程后得到通常不理想的结果。」：错误。该选项对应「～あげく」，含义是「经过……最终……」，接续为「Vた形／Nの＋あげく」，与本题要求的「连……都……；只要……」不符。 B「举出极端例子强调范围，或与条件形式组合。」：正确。该说明准确概括了「～さえ」的使用场景：举出极端例子强调范围，或与条件形式组合。 C「表示情感或状态程度过高，导致非正常结果。」：错误。该选项对应「～あまり」，含义是「由于过度……而……」，接续为「V普通形／ナAな／Nの＋あまり」，与本题要求的「连……都……；只要……」不符。 D「表示因紧急情况或程度严重，无法进行前项。」：错误。该选项对应「～どころではない」，含义是「根本不是……的时候；谈不上……」，接续为「V辞书形／N＋どころではない」，与本题要求的「连……都……；只要……」不符。 涉及知识点：～さえ。类似例句1：忙しくて昼ご飯を食べる時間さえなかった。 类似例句2：名前さえ分かれば、調べられます。",
+    "knowledgePointIds": [
+      "KP-GRA-SAE-001"
+    ],
+    "knowledgePointTitles": [
+      "～さえ"
+    ],
+    "difficulty": 4,
+    "reviewWeight": 1.2,
+    "knowledgePointId": "KP-GRA-SAE-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "distinction",
+      "grammar",
+      "限定/强调"
+    ],
+    "estimatedTime": 90
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0048",
+    "level": "N2",
+    "section": "reading",
+    "type": "short_reading",
+    "subType": "question_factory_short_reading",
+    "prompt": "次の短い説明を読んで、二つの文に共通する「～さえ」の働きを選びなさい。\n「忙しくて昼ご飯を食べる時間さえなかった。」また、「名前さえ分かれば、調べられます。」という言い方もある。",
+    "choices": {
+      "A": "表示经历较长过程后得到通常不理想的结果。",
+      "B": "表示情感或状态程度过高，导致非正常结果。",
+      "C": "举出极端例子强调范围，或与条件形式组合。",
+      "D": "表示因紧急情况或程度严重，无法进行前项。"
+    },
+    "correctAnswer": "C",
+    "explanation": "知识点：～さえ（连……都……；只要……）。接续：N／助词＋さえ；Vます形去ます＋さえする。正确答案：C。正确理由：短文中的两个例子都使用「～さえ」表达「连……都……；只要……」。 选项分析：A「表示经历较长过程后得到通常不理想的结果。」：错误。该选项对应「～あげく」，含义是「经过……最终……」，接续为「Vた形／Nの＋あげく」，与本题要求的「连……都……；只要……」不符。 B「表示情感或状态程度过高，导致非正常结果。」：错误。该选项对应「～あまり」，含义是「由于过度……而……」，接续为「V普通形／ナAな／Nの＋あまり」，与本题要求的「连……都……；只要……」不符。 C「举出极端例子强调范围，或与条件形式组合。」：正确。短文中的两个例子都使用「～さえ」表达「连……都……；只要……」。 D「表示因紧急情况或程度严重，无法进行前项。」：错误。该选项对应「～どころではない」，含义是「根本不是……的时候；谈不上……」，接续为「V辞书形／N＋どころではない」，与本题要求的「连……都……；只要……」不符。 涉及知识点：～さえ。类似例句1：忙しくて昼ご飯を食べる時間さえなかった。 类似例句2：名前さえ分かれば、調べられます。",
+    "knowledgePointIds": [
+      "KP-GRA-SAE-001"
+    ],
+    "knowledgePointTitles": [
+      "～さえ"
+    ],
+    "difficulty": 5,
+    "reviewWeight": 1.3,
+    "knowledgePointId": "KP-GRA-SAE-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "short_reading",
+      "grammar",
+      "限定/强调"
+    ],
+    "estimatedTime": 120
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0049",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_sentence",
+    "prompt": "時間（　　）、旅行に行きたい。",
+    "choices": {
+      "A": "さえ～ば",
+      "B": "ない限り",
+      "C": "ばかりだ",
+      "D": "ばかりか"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～さえ～ば（只要……就……）。接续：Nさえ＋条件形／Vます形去ます＋さえすれば。正确答案：A。正确理由：句中的接续与语义都符合「～さえ～ば」：提出实现后项所需的最低条件。 选项分析：A「さえ～ば」：正确。句中的接续与语义都符合「～さえ～ば」：提出实现后项所需的最低条件。 B「ない限り」：错误。该选项对应「～ない限り」，含义是「除非……否则……」，接续为「Vない形＋限り」，与本题要求的「只要……就……」不符。 C「ばかりだ」：错误。该选项对应「～ばかりだ」，含义是「一直……；越来越……」，接续为「V辞书形＋ばかりだ」，与本题要求的「只要……就……」不符。 D「ばかりか」：错误。该选项对应「～ばかりか」，含义是「不但……而且……」，接续为「普通形／N＋ばかりか」，与本题要求的「只要……就……」不符。 涉及知识点：～さえ～ば。类似例句1：時間さえあれば、旅行に行きたい。 类似例句2：薬を飲みさえすれば、すぐ治るわけではない。",
+    "knowledgePointIds": [
+      "KP-GRA-SAEBA-001"
+    ],
+    "knowledgePointTitles": [
+      "～さえ～ば"
+    ],
+    "difficulty": 2,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-SAEBA-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "sentence",
+      "grammar",
+      "条件"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0050",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_meaning",
+    "subType": "question_factory_dialogue",
+    "prompt": "A「『薬を飲みさえすれば、すぐ治るわけではない。』という文を見ました。」\nB「ここで使われた『さえ～ば』は、どんな意味ですか。」",
+    "choices": {
+      "A": "只因……而……",
+      "B": "只要……就……",
+      "C": "另一方面；反面",
+      "D": "既然……就……"
+    },
+    "correctAnswer": "B",
+    "explanation": "知识点：～さえ～ば（只要……就……）。接续：Nさえ＋条件形／Vます形去ます＋さえすれば。正确答案：B。正确理由：对话引用的例句表达「只要……就……」，符合「～さえ～ば」的用法。 选项分析：A「只因……而……」：错误。该选项对应「～ばかりに」，含义是「只因……而……」，接续为「普通形＋ばかりに（ナAな／Nである＋ばかりに）」，与本题要求的「只要……就……」不符。 B「只要……就……」：正确。对话引用的例句表达「只要……就……」，符合「～さえ～ば」的用法。 C「另一方面；反面」：错误。该选项对应「～反面」，含义是「另一方面；反面」，接续为「普通形＋反面（ナAな／である・Nである＋反面）」，与本题要求的「只要……就……」不符。 D「既然……就……」：错误。该选项对应「～以上（は）」，含义是「既然……就……」，接续为「V普通形／ナAである／Nである＋以上（は）」，与本题要求的「只要……就……」不符。 涉及知识点：～さえ～ば。类似例句1：時間さえあれば、旅行に行きたい。 类似例句2：薬を飲みさえすれば、すぐ治るわけではない。",
+    "knowledgePointIds": [
+      "KP-GRA-SAEBA-001"
+    ],
+    "knowledgePointTitles": [
+      "～さえ～ば"
+    ],
+    "difficulty": 3,
+    "reviewWeight": 1.1,
+    "knowledgePointId": "KP-GRA-SAEBA-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "dialogue",
+      "grammar",
+      "条件"
+    ],
+    "estimatedTime": 75
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0051",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_meaning",
+    "subType": "question_factory_distinction",
+    "prompt": "「～さえ～ば」の用法として最も適切な説明はどれか。\n例：時間さえあれば、旅行に行きたい。",
+    "choices": {
+      "A": "书面且正式地表示意图和目的。",
+      "B": "说明命名、判断或结果的依据。",
+      "C": "提出实现后项所需的最低条件。",
+      "D": "表示对象，或把两种性质对照。"
+    },
+    "correctAnswer": "C",
+    "explanation": "知识点：～さえ～ば（只要……就……）。接续：Nさえ＋条件形／Vます形去ます＋さえすれば。正确答案：C。正确理由：该说明准确概括了「～さえ～ば」的使用场景：提出实现后项所需的最低条件。 选项分析：A「书面且正式地表示意图和目的。」：错误。该选项对应「～べく」，含义是「为了……」，接续为「V辞书形＋べく（する→するべく／すべく）」，与本题要求的「只要……就……」不符。 B「说明命名、判断或结果的依据。」：错误。该选项对应「～ことから」，含义是「由于……；从……来看」，接续为「普通形＋ことから（ナA／N＋であることから）」，与本题要求的「只要……就……」不符。 C「提出实现后项所需的最低条件。」：正确。该说明准确概括了「～さえ～ば」的使用场景：提出实现后项所需的最低条件。 D「表示对象，或把两种性质对照。」：错误。该选项对应「～に対して」，含义是「相对于……；针对……」，接续为「N＋に対して／に対する＋N」，与本题要求的「只要……就……」不符。 涉及知识点：～さえ～ば。类似例句1：時間さえあれば、旅行に行きたい。 类似例句2：薬を飲みさえすれば、すぐ治るわけではない。",
+    "knowledgePointIds": [
+      "KP-GRA-SAEBA-001"
+    ],
+    "knowledgePointTitles": [
+      "～さえ～ば"
+    ],
+    "difficulty": 4,
+    "reviewWeight": 1.2,
+    "knowledgePointId": "KP-GRA-SAEBA-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "distinction",
+      "grammar",
+      "条件"
+    ],
+    "estimatedTime": 90
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0052",
+    "level": "N2",
+    "section": "reading",
+    "type": "short_reading",
+    "subType": "question_factory_short_reading",
+    "prompt": "次の短い説明を読んで、二つの文に共通する「～さえ～ば」の働きを選びなさい。\n「時間さえあれば、旅行に行きたい。」また、「薬を飲みさえすれば、すぐ治るわけではない。」という言い方もある。",
+    "choices": {
+      "A": "书面且正式地表示意图和目的。",
+      "B": "说明命名、判断或结果的依据。",
+      "C": "表示对象，或把两种性质对照。",
+      "D": "提出实现后项所需的最低条件。"
+    },
+    "correctAnswer": "D",
+    "explanation": "知识点：～さえ～ば（只要……就……）。接续：Nさえ＋条件形／Vます形去ます＋さえすれば。正确答案：D。正确理由：短文中的两个例子都使用「～さえ～ば」表达「只要……就……」。 选项分析：A「书面且正式地表示意图和目的。」：错误。该选项对应「～べく」，含义是「为了……」，接续为「V辞书形＋べく（する→するべく／すべく）」，与本题要求的「只要……就……」不符。 B「说明命名、判断或结果的依据。」：错误。该选项对应「～ことから」，含义是「由于……；从……来看」，接续为「普通形＋ことから（ナA／N＋であることから）」，与本题要求的「只要……就……」不符。 C「表示对象，或把两种性质对照。」：错误。该选项对应「～に対して」，含义是「相对于……；针对……」，接续为「N＋に対して／に対する＋N」，与本题要求的「只要……就……」不符。 D「提出实现后项所需的最低条件。」：正确。短文中的两个例子都使用「～さえ～ば」表达「只要……就……」。 涉及知识点：～さえ～ば。类似例句1：時間さえあれば、旅行に行きたい。 类似例句2：薬を飲みさえすれば、すぐ治るわけではない。",
+    "knowledgePointIds": [
+      "KP-GRA-SAEBA-001"
+    ],
+    "knowledgePointTitles": [
+      "～さえ～ば"
+    ],
+    "difficulty": 5,
+    "reviewWeight": 1.3,
+    "knowledgePointId": "KP-GRA-SAEBA-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "short_reading",
+      "grammar",
+      "条件"
+    ],
+    "estimatedTime": 120
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0053",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_sentence",
+    "prompt": "寝不足の（　　）、今日は集中できない。",
+    "choices": {
+      "A": "あげく",
+      "B": "せいで",
+      "C": "あまり",
+      "D": "べきだ"
+    },
+    "correctAnswer": "B",
+    "explanation": "知识点：～せいで（都怪……；由于……）。接续：普通形＋せいで（ナAな／Nの＋せいで）。正确答案：B。正确理由：句中的接续与语义都符合「～せいで」：把不良结果归因于前项。 选项分析：A「あげく」：错误。该选项对应「～あげく」，含义是「经过……最终……」，接续为「Vた形／Nの＋あげく」，与本题要求的「都怪……；由于……」不符。 B「せいで」：正确。句中的接续与语义都符合「～せいで」：把不良结果归因于前项。 C「あまり」：错误。该选项对应「～あまり」，含义是「由于过度……而……」，接续为「V普通形／ナAな／Nの＋あまり」，与本题要求的「都怪……；由于……」不符。 D「べきだ」：错误。该选项对应「～べきだ」，含义是「应该……」，接续为「V辞书形＋べきだ（する→するべき／すべき）」，与本题要求的「都怪……；由于……」不符。 涉及知识点：～せいで。类似例句1：寝不足のせいで、今日は集中できない。 类似例句2：雨が続いたせいで、試合が延期された。",
+    "knowledgePointIds": [
+      "KP-GRA-SEIDE-001"
+    ],
+    "knowledgePointTitles": [
+      "～せいで"
+    ],
+    "difficulty": 2,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-SEIDE-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "sentence",
+      "grammar",
+      "原因/结果"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0054",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_meaning",
+    "subType": "question_factory_dialogue",
+    "prompt": "A「『雨が続いたせいで、試合が延期された。』という文を見ました。」\nB「ここで使われた『せいで』は、どんな意味ですか。」",
+    "choices": {
+      "A": "多亏……；由于……",
+      "B": "由于过度……而……",
+      "C": "都怪……；由于……",
+      "D": "应该……；最好……"
+    },
+    "correctAnswer": "C",
+    "explanation": "知识点：～せいで（都怪……；由于……）。接续：普通形＋せいで（ナAな／Nの＋せいで）。正确答案：C。正确理由：对话引用的例句表达「都怪……；由于……」，符合「～せいで」的用法。 选项分析：A「多亏……；由于……」：错误。该选项对应「～おかげで」，含义是「多亏……；由于……」，接续为「普通形＋おかげで（ナAな／Nの＋おかげで）」，与本题要求的「都怪……；由于……」不符。 B「由于过度……而……」：错误。该选项对应「～あまり」，含义是「由于过度……而……」，接续为「V普通形／ナAな／Nの＋あまり」，与本题要求的「都怪……；由于……」不符。 C「都怪……；由于……」：正确。对话引用的例句表达「都怪……；由于……」，符合「～せいで」的用法。 D「应该……；最好……」：错误。该选项对应「～ことだ」，含义是「应该……；最好……」，接续为「V辞书形／ない形＋ことだ」，与本题要求的「都怪……；由于……」不符。 涉及知识点：～せいで。类似例句1：寝不足のせいで、今日は集中できない。 类似例句2：雨が続いたせいで、試合が延期された。",
+    "knowledgePointIds": [
+      "KP-GRA-SEIDE-001"
+    ],
+    "knowledgePointTitles": [
+      "～せいで"
+    ],
+    "difficulty": 3,
+    "reviewWeight": 1.1,
+    "knowledgePointId": "KP-GRA-SEIDE-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "dialogue",
+      "grammar",
+      "原因/结果"
+    ],
+    "estimatedTime": 75
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0055",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_meaning",
+    "subType": "question_factory_distinction",
+    "prompt": "「～せいで」の用法として最も適切な説明はどれか。\n例：寝不足のせいで、今日は集中できない。",
+    "choices": {
+      "A": "以某对象为基准比较差异。",
+      "B": "根据传闻或典型迹象作判断。",
+      "C": "表示有意志行为的明确目的。",
+      "D": "把不良结果归因于前项。"
+    },
+    "correctAnswer": "D",
+    "explanation": "知识点：～せいで（都怪……；由于……）。接续：普通形＋せいで（ナAな／Nの＋せいで）。正确答案：D。正确理由：该说明准确概括了「～せいで」的使用场景：把不良结果归因于前项。 选项分析：A「以某对象为基准比较差异。」：错误。该选项对应「～に比べて」，含义是「与……相比」，接续为「N＋に比べて／に比べると」，与本题要求的「都怪……；由于……」不符。 B「根据传闻或典型迹象作判断。」：错误。该选项对应「～らしい」，含义是「听说……；似乎……」，接续为「普通形＋らしい（ナA／N＋らしい）」，与本题要求的「都怪……；由于……」不符。 C「表示有意志行为的明确目的。」：错误。该选项对应「～ために」，含义是「为了……」，接续为「V辞书形／Nの＋ために」，与本题要求的「都怪……；由于……」不符。 D「把不良结果归因于前项。」：正确。该说明准确概括了「～せいで」的使用场景：把不良结果归因于前项。 涉及知识点：～せいで。类似例句1：寝不足のせいで、今日は集中できない。 类似例句2：雨が続いたせいで、試合が延期された。",
+    "knowledgePointIds": [
+      "KP-GRA-SEIDE-001"
+    ],
+    "knowledgePointTitles": [
+      "～せいで"
+    ],
+    "difficulty": 4,
+    "reviewWeight": 1.2,
+    "knowledgePointId": "KP-GRA-SEIDE-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "distinction",
+      "grammar",
+      "原因/结果"
+    ],
+    "estimatedTime": 90
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0056",
+    "level": "N2",
+    "section": "reading",
+    "type": "short_reading",
+    "subType": "question_factory_short_reading",
+    "prompt": "次の短い説明を読んで、二つの文に共通する「～せいで」の働きを選びなさい。\n「寝不足のせいで、今日は集中できない。」また、「雨が続いたせいで、試合が延期された。」という言い方もある。",
+    "choices": {
+      "A": "把不良结果归因于前项。",
+      "B": "以某对象为基准比较差异。",
+      "C": "根据传闻或典型迹象作判断。",
+      "D": "表示有意志行为的明确目的。"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～せいで（都怪……；由于……）。接续：普通形＋せいで（ナAな／Nの＋せいで）。正确答案：A。正确理由：短文中的两个例子都使用「～せいで」表达「都怪……；由于……」。 选项分析：A「把不良结果归因于前项。」：正确。短文中的两个例子都使用「～せいで」表达「都怪……；由于……」。 B「以某对象为基准比较差异。」：错误。该选项对应「～に比べて」，含义是「与……相比」，接续为「N＋に比べて／に比べると」，与本题要求的「都怪……；由于……」不符。 C「根据传闻或典型迹象作判断。」：错误。该选项对应「～らしい」，含义是「听说……；似乎……」，接续为「普通形＋らしい（ナA／N＋らしい）」，与本题要求的「都怪……；由于……」不符。 D「表示有意志行为的明确目的。」：错误。该选项对应「～ために」，含义是「为了……」，接续为「V辞书形／Nの＋ために」，与本题要求的「都怪……；由于……」不符。 涉及知识点：～せいで。类似例句1：寝不足のせいで、今日は集中できない。 类似例句2：雨が続いたせいで、試合が延期された。",
+    "knowledgePointIds": [
+      "KP-GRA-SEIDE-001"
+    ],
+    "knowledgePointTitles": [
+      "～せいで"
+    ],
+    "difficulty": 5,
+    "reviewWeight": 1.3,
+    "knowledgePointId": "KP-GRA-SEIDE-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "short_reading",
+      "grammar",
+      "原因/结果"
+    ],
+    "estimatedTime": 120
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0057",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_sentence",
+    "prompt": "来年留学する（　　）、今から準備が必要だ。",
+    "choices": {
+      "A": "とすれば",
+      "B": "ばかりだ",
+      "C": "としたら",
+      "D": "ばかりか"
+    },
+    "correctAnswer": "C",
+    "explanation": "知识点：～としたら（如果……的话）。接续：普通形＋としたら。正确答案：C。正确理由：句中的接续与语义都符合「～としたら」：把未确定事实作为假设，讨论判断或行动。 选项分析：A「とすれば」：错误。该选项对应「～とすれば」，含义是「假如……；若从……来看」，接续为「普通形＋とすれば」，与本题要求的「如果……的话」不符。 B「ばかりだ」：错误。该选项对应「～ばかりだ」，含义是「一直……；越来越……」，接续为「V辞书形＋ばかりだ」，与本题要求的「如果……的话」不符。 C「としたら」：正确。句中的接续与语义都符合「～としたら」：把未确定事实作为假设，讨论判断或行动。 D「ばかりか」：错误。该选项对应「～ばかりか」，含义是「不但……而且……」，接续为「普通形／N＋ばかりか」，与本题要求的「如果……的话」不符。 涉及知识点：～としたら。类似例句1：来年留学するとしたら、今から準備が必要だ。 类似例句2：それが本当だとしたら、大きな問題だ。",
+    "knowledgePointIds": [
+      "KP-GRA-TOSHITARA-001"
+    ],
+    "knowledgePointTitles": [
+      "～としたら"
+    ],
+    "difficulty": 2,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-TOSHITARA-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "sentence",
+      "grammar",
+      "条件"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0058",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_meaning",
+    "subType": "question_factory_dialogue",
+    "prompt": "A「『それが本当だとしたら、大きな問題だ。』という文を見ました。」\nB「ここで使われた『としたら』は、どんな意味ですか。」",
+    "choices": {
+      "A": "按理应该……",
+      "B": "并非不能……",
+      "C": "为……做准备",
+      "D": "如果……的话"
+    },
+    "correctAnswer": "D",
+    "explanation": "知识点：～としたら（如果……的话）。接续：普通形＋としたら。正确答案：D。正确理由：对话引用的例句表达「如果……的话」，符合「～としたら」的用法。 选项分析：A「按理应该……」：错误。该选项对应「～はずだ」，含义是「按理应该……」，接续为「普通形＋はずだ（ナAな／Nの＋はずだ）」，与本题要求的「如果……的话」不符。 B「并非不能……」：错误。该选项对应「～ないことはない」，含义是「并非不能……」，接续为「Vない形＋ことはない」，与本题要求的「如果……的话」不符。 C「为……做准备」：错误。该选项对应「～に備えて」，含义是「为……做准备」，接续为「N＋に備えて／に備えた＋N」，与本题要求的「如果……的话」不符。 D「如果……的话」：正确。对话引用的例句表达「如果……的话」，符合「～としたら」的用法。 涉及知识点：～としたら。类似例句1：来年留学するとしたら、今から準備が必要だ。 类似例句2：それが本当だとしたら、大きな問題だ。",
+    "knowledgePointIds": [
+      "KP-GRA-TOSHITARA-001"
+    ],
+    "knowledgePointTitles": [
+      "～としたら"
+    ],
+    "difficulty": 3,
+    "reviewWeight": 1.1,
+    "knowledgePointId": "KP-GRA-TOSHITARA-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "dialogue",
+      "grammar",
+      "条件"
+    ],
+    "estimatedTime": 75
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0059",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_meaning",
+    "subType": "question_factory_distinction",
+    "prompt": "「～としたら」の用法として最も適切な説明はどれか。\n例：来年留学するとしたら、今から準備が必要だ。",
+    "choices": {
+      "A": "把未确定事实作为假设，讨论判断或行动。",
+      "B": "在前项基础上添加程度更高或意外的后项。",
+      "C": "从道德、常识或责任角度提出禁止性建议。",
+      "D": "表示程度、比较基准或随条件增强的变化。"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～としたら（如果……的话）。接续：普通形＋としたら。正确答案：A。正确理由：该说明准确概括了「～としたら」的使用场景：把未确定事实作为假设，讨论判断或行动。 选项分析：A「把未确定事实作为假设，讨论判断或行动。」：正确。该说明准确概括了「～としたら」的使用场景：把未确定事实作为假设，讨论判断或行动。 B「在前项基础上添加程度更高或意外的后项。」：错误。该选项对应「～ばかりか」，含义是「不但……而且……」，接续为「普通形／N＋ばかりか」，与本题要求的「如果……的话」不符。 C「从道德、常识或责任角度提出禁止性建议。」：错误。该选项对应「～べきではない」，含义是「不应该……」，接续为「V辞书形＋べきではない」，与本题要求的「如果……的话」不符。 D「表示程度、比较基准或随条件增强的变化。」：错误。该选项对应「～ほど」，含义是「达到……程度；越……越……」，接续为「N／普通形＋ほど；～ば～ほど」，与本题要求的「如果……的话」不符。 涉及知识点：～としたら。类似例句1：来年留学するとしたら、今から準備が必要だ。 类似例句2：それが本当だとしたら、大きな問題だ。",
+    "knowledgePointIds": [
+      "KP-GRA-TOSHITARA-001"
+    ],
+    "knowledgePointTitles": [
+      "～としたら"
+    ],
+    "difficulty": 4,
+    "reviewWeight": 1.2,
+    "knowledgePointId": "KP-GRA-TOSHITARA-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "distinction",
+      "grammar",
+      "条件"
+    ],
+    "estimatedTime": 90
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0060",
+    "level": "N2",
+    "section": "reading",
+    "type": "short_reading",
+    "subType": "question_factory_short_reading",
+    "prompt": "次の短い説明を読んで、二つの文に共通する「～としたら」の働きを選びなさい。\n「来年留学するとしたら、今から準備が必要だ。」また、「それが本当だとしたら、大きな問題だ。」という言い方もある。",
+    "choices": {
+      "A": "在前项基础上添加程度更高或意外的后项。",
+      "B": "把未确定事实作为假设，讨论判断或行动。",
+      "C": "从道德、常识或责任角度提出禁止性建议。",
+      "D": "表示程度、比较基准或随条件增强的变化。"
+    },
+    "correctAnswer": "B",
+    "explanation": "知识点：～としたら（如果……的话）。接续：普通形＋としたら。正确答案：B。正确理由：短文中的两个例子都使用「～としたら」表达「如果……的话」。 选项分析：A「在前项基础上添加程度更高或意外的后项。」：错误。该选项对应「～ばかりか」，含义是「不但……而且……」，接续为「普通形／N＋ばかりか」，与本题要求的「如果……的话」不符。 B「把未确定事实作为假设，讨论判断或行动。」：正确。短文中的两个例子都使用「～としたら」表达「如果……的话」。 C「从道德、常识或责任角度提出禁止性建议。」：错误。该选项对应「～べきではない」，含义是「不应该……」，接续为「V辞书形＋べきではない」，与本题要求的「如果……的话」不符。 D「表示程度、比较基准或随条件增强的变化。」：错误。该选项对应「～ほど」，含义是「达到……程度；越……越……」，接续为「N／普通形＋ほど；～ば～ほど」，与本题要求的「如果……的话」不符。 涉及知识点：～としたら。类似例句1：来年留学するとしたら、今から準備が必要だ。 类似例句2：それが本当だとしたら、大きな問題だ。",
+    "knowledgePointIds": [
+      "KP-GRA-TOSHITARA-001"
+    ],
+    "knowledgePointTitles": [
+      "～としたら"
+    ],
+    "difficulty": 5,
+    "reviewWeight": 1.3,
+    "knowledgePointId": "KP-GRA-TOSHITARA-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "short_reading",
+      "grammar",
+      "条件"
+    ],
+    "estimatedTime": 120
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0061",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_sentence",
+    "prompt": "予算が足りない（　　）、計画を見直す必要がある。",
+    "choices": {
+      "A": "としたら",
+      "B": "ばかりだ",
+      "C": "ばかりか",
+      "D": "とすれば"
+    },
+    "correctAnswer": "D",
+    "explanation": "知识点：～とすれば（假如……；若从……来看）。接续：普通形＋とすれば。正确答案：D。正确理由：句中的接续与语义都符合「～とすれば」：较书面地提出假设并进行逻辑推论。 选项分析：A「としたら」：错误。该选项对应「～としたら」，含义是「如果……的话」，接续为「普通形＋としたら」，与本题要求的「假如……；若从……来看」不符。 B「ばかりだ」：错误。该选项对应「～ばかりだ」，含义是「一直……；越来越……」，接续为「V辞书形＋ばかりだ」，与本题要求的「假如……；若从……来看」不符。 C「ばかりか」：错误。该选项对应「～ばかりか」，含义是「不但……而且……」，接续为「普通形／N＋ばかりか」，与本题要求的「假如……；若从……来看」不符。 D「とすれば」：正确。句中的接续与语义都符合「～とすれば」：较书面地提出假设并进行逻辑推论。 涉及知识点：～とすれば。类似例句1：予算が足りないとすれば、計画を見直す必要がある。 类似例句2：彼が来ないとすれば、誰に頼むべきだろう。",
+    "knowledgePointIds": [
+      "KP-GRA-TOSUREBA-001"
+    ],
+    "knowledgePointTitles": [
+      "～とすれば"
+    ],
+    "difficulty": 2,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-TOSUREBA-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "sentence",
+      "grammar",
+      "条件"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0062",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_meaning",
+    "subType": "question_factory_dialogue",
+    "prompt": "A「『彼が来ないとすれば、誰に頼むべきだろう。』という文を見ました。」\nB「ここで使われた『とすれば』は、どんな意味ですか。」",
+    "choices": {
+      "A": "假如……；若从……来看",
+      "B": "有可能发生……（坏事）",
+      "C": "因为……（解释、辩解）",
+      "D": "值此……之际；在……时"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～とすれば（假如……；若从……来看）。接续：普通形＋とすれば。正确答案：A。正确理由：对话引用的例句表达「假如……；若从……来看」，符合「～とすれば」的用法。 选项分析：A「假如……；若从……来看」：正确。对话引用的例句表达「假如……；若从……来看」，符合「～とすれば」的用法。 B「有可能发生……（坏事）」：错误。该选项对应「～かねない」，含义是「有可能发生……（坏事）」，接续为「Vます形去ます＋かねない」，与本题要求的「假如……；若从……来看」不符。 C「因为……（解释、辩解）」：错误。该选项对应「～ものだから」，含义是「因为……（解释、辩解）」，接续为「普通形＋ものだから（ナAな／Nな＋ものだから）」，与本题要求的「假如……；若从……来看」不符。 D「值此……之际；在……时」：错误。该选项对应「～に際して」，含义是「值此……之际；在……时」，接续为「N／V辞书形＋に際して／に際し」，与本题要求的「假如……；若从……来看」不符。 涉及知识点：～とすれば。类似例句1：予算が足りないとすれば、計画を見直す必要がある。 类似例句2：彼が来ないとすれば、誰に頼むべきだろう。",
+    "knowledgePointIds": [
+      "KP-GRA-TOSUREBA-001"
+    ],
+    "knowledgePointTitles": [
+      "～とすれば"
+    ],
+    "difficulty": 3,
+    "reviewWeight": 1.1,
+    "knowledgePointId": "KP-GRA-TOSUREBA-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "dialogue",
+      "grammar",
+      "条件"
+    ],
+    "estimatedTime": 75
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0063",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_meaning",
+    "subType": "question_factory_distinction",
+    "prompt": "「～とすれば」の用法として最も適切な説明はどれか。\n例：予算が足りないとすれば、計画を見直す必要がある。",
+    "choices": {
+      "A": "根据道德、常识或责任提出强建议。",
+      "B": "较书面地提出假设并进行逻辑推论。",
+      "C": "表示某状态持续期间，后项也成立。",
+      "D": "表示随趋势变化，或遵照规则行动。"
+    },
+    "correctAnswer": "B",
+    "explanation": "知识点：～とすれば（假如……；若从……来看）。接续：普通形＋とすれば。正确答案：B。正确理由：该说明准确概括了「～とすれば」的使用场景：较书面地提出假设并进行逻辑推论。 选项分析：A「根据道德、常识或责任提出强建议。」：错误。该选项对应「～べきだ」，含义是「应该……」，接续为「V辞书形＋べきだ（する→するべき／すべき）」，与本题要求的「假如……；若从……来看」不符。 B「较书面地提出假设并进行逻辑推论。」：正确。该说明准确概括了「～とすれば」的使用场景：较书面地提出假设并进行逻辑推论。 C「表示某状态持续期间，后项也成立。」：错误。该选项对应「～限り」，含义是「只要……就……；在……范围内」，接续为「V普通形／Nである＋限り」，与本题要求的「假如……；若从……来看」不符。 D「表示随趋势变化，或遵照规则行动。」：错误。该选项对应「～に従って」，含义是「随着……；按照……」，接续为「N／V辞书形＋に従って」，与本题要求的「假如……；若从……来看」不符。 涉及知识点：～とすれば。类似例句1：予算が足りないとすれば、計画を見直す必要がある。 类似例句2：彼が来ないとすれば、誰に頼むべきだろう。",
+    "knowledgePointIds": [
+      "KP-GRA-TOSUREBA-001"
+    ],
+    "knowledgePointTitles": [
+      "～とすれば"
+    ],
+    "difficulty": 4,
+    "reviewWeight": 1.2,
+    "knowledgePointId": "KP-GRA-TOSUREBA-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "distinction",
+      "grammar",
+      "条件"
+    ],
+    "estimatedTime": 90
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0064",
+    "level": "N2",
+    "section": "reading",
+    "type": "short_reading",
+    "subType": "question_factory_short_reading",
+    "prompt": "次の短い説明を読んで、二つの文に共通する「～とすれば」の働きを選びなさい。\n「予算が足りないとすれば、計画を見直す必要がある。」また、「彼が来ないとすれば、誰に頼むべきだろう。」という言い方もある。",
+    "choices": {
+      "A": "根据道德、常识或责任提出强建议。",
+      "B": "表示某状态持续期间，后项也成立。",
+      "C": "较书面地提出假设并进行逻辑推论。",
+      "D": "表示随趋势变化，或遵照规则行动。"
+    },
+    "correctAnswer": "C",
+    "explanation": "知识点：～とすれば（假如……；若从……来看）。接续：普通形＋とすれば。正确答案：C。正确理由：短文中的两个例子都使用「～とすれば」表达「假如……；若从……来看」。 选项分析：A「根据道德、常识或责任提出强建议。」：错误。该选项对应「～べきだ」，含义是「应该……」，接续为「V辞书形＋べきだ（する→するべき／すべき）」，与本题要求的「假如……；若从……来看」不符。 B「表示某状态持续期间，后项也成立。」：错误。该选项对应「～限り」，含义是「只要……就……；在……范围内」，接续为「V普通形／Nである＋限り」，与本题要求的「假如……；若从……来看」不符。 C「较书面地提出假设并进行逻辑推论。」：正确。短文中的两个例子都使用「～とすれば」表达「假如……；若从……来看」。 D「表示随趋势变化，或遵照规则行动。」：错误。该选项对应「～に従って」，含义是「随着……；按照……」，接续为「N／V辞书形＋に従って」，与本题要求的「假如……；若从……来看」不符。 涉及知识点：～とすれば。类似例句1：予算が足りないとすれば、計画を見直す必要がある。 类似例句2：彼が来ないとすれば、誰に頼むべきだろう。",
+    "knowledgePointIds": [
+      "KP-GRA-TOSUREBA-001"
+    ],
+    "knowledgePointTitles": [
+      "～とすれば"
+    ],
+    "difficulty": 5,
+    "reviewWeight": 1.3,
+    "knowledgePointId": "KP-GRA-TOSUREBA-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "short_reading",
+      "grammar",
+      "条件"
+    ],
+    "estimatedTime": 120
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0065",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_sentence",
+    "prompt": "春（　　）、朝晩はまだ寒い。",
+    "choices": {
+      "A": "とはいえ",
+      "B": "ばかりだ",
+      "C": "ばかりか",
+      "D": "ばかりに"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～とはいえ（虽说……但……）。接续：普通形＋とはいえ（ナA／N＋（だ）とはいえ）。正确答案：A。正确理由：句中的接续与语义都符合「～とはいえ」：先承认前项，再补充限制、例外或相反事实。 选项分析：A「とはいえ」：正确。句中的接续与语义都符合「～とはいえ」：先承认前项，再补充限制、例外或相反事实。 B「ばかりだ」：错误。该选项对应「～ばかりだ」，含义是「一直……；越来越……」，接续为「V辞书形＋ばかりだ」，与本题要求的「虽说……但……」不符。 C「ばかりか」：错误。该选项对应「～ばかりか」，含义是「不但……而且……」，接续为「普通形／N＋ばかりか」，与本题要求的「虽说……但……」不符。 D「ばかりに」：错误。该选项对应「～ばかりに」，含义是「只因……而……」，接续为「普通形＋ばかりに（ナAな／Nである＋ばかりに）」，与本题要求的「虽说……但……」不符。 涉及知识点：～とはいえ。类似例句1：春とはいえ、朝晩はまだ寒い。 类似例句2：簡単だとはいえ、油断はできない。",
+    "knowledgePointIds": [
+      "KP-GRA-TOWAIE-001"
+    ],
+    "knowledgePointTitles": [
+      "～とはいえ"
+    ],
+    "difficulty": 2,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-TOWAIE-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "sentence",
+      "grammar",
+      "逆接/让步"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0066",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_meaning",
+    "subType": "question_factory_dialogue",
+    "prompt": "A「『簡単だとはいえ、油断はできない。』という文を見ました。」\nB「ここで使われた『とはいえ』は、どんな意味ですか。」",
+    "choices": {
+      "A": "只因……而……",
+      "B": "虽说……但……",
+      "C": "另一方面；反面",
+      "D": "既然……就……"
+    },
+    "correctAnswer": "B",
+    "explanation": "知识点：～とはいえ（虽说……但……）。接续：普通形＋とはいえ（ナA／N＋（だ）とはいえ）。正确答案：B。正确理由：对话引用的例句表达「虽说……但……」，符合「～とはいえ」的用法。 选项分析：A「只因……而……」：错误。该选项对应「～ばかりに」，含义是「只因……而……」，接续为「普通形＋ばかりに（ナAな／Nである＋ばかりに）」，与本题要求的「虽说……但……」不符。 B「虽说……但……」：正确。对话引用的例句表达「虽说……但……」，符合「～とはいえ」的用法。 C「另一方面；反面」：错误。该选项对应「～反面」，含义是「另一方面；反面」，接续为「普通形＋反面（ナAな／である・Nである＋反面）」，与本题要求的「虽说……但……」不符。 D「既然……就……」：错误。该选项对应「～以上（は）」，含义是「既然……就……」，接续为「V普通形／ナAである／Nである＋以上（は）」，与本题要求的「虽说……但……」不符。 涉及知识点：～とはいえ。类似例句1：春とはいえ、朝晩はまだ寒い。 类似例句2：簡単だとはいえ、油断はできない。",
+    "knowledgePointIds": [
+      "KP-GRA-TOWAIE-001"
+    ],
+    "knowledgePointTitles": [
+      "～とはいえ"
+    ],
+    "difficulty": 3,
+    "reviewWeight": 1.1,
+    "knowledgePointId": "KP-GRA-TOWAIE-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "dialogue",
+      "grammar",
+      "逆接/让步"
+    ],
+    "estimatedTime": 75
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0067",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_meaning",
+    "subType": "question_factory_distinction",
+    "prompt": "「～とはいえ」の用法として最も適切な説明はどれか。\n例：春とはいえ、朝晩はまだ寒い。",
+    "choices": {
+      "A": "表示经历较长过程后得到通常不理想的结果。",
+      "B": "表示情感或状态程度过高，导致非正常结果。",
+      "C": "先承认前项，再补充限制、例外或相反事实。",
+      "D": "表示因紧急情况或程度严重，无法进行前项。"
+    },
+    "correctAnswer": "C",
+    "explanation": "知识点：～とはいえ（虽说……但……）。接续：普通形＋とはいえ（ナA／N＋（だ）とはいえ）。正确答案：C。正确理由：该说明准确概括了「～とはいえ」的使用场景：先承认前项，再补充限制、例外或相反事实。 选项分析：A「表示经历较长过程后得到通常不理想的结果。」：错误。该选项对应「～あげく」，含义是「经过……最终……」，接续为「Vた形／Nの＋あげく」，与本题要求的「虽说……但……」不符。 B「表示情感或状态程度过高，导致非正常结果。」：错误。该选项对应「～あまり」，含义是「由于过度……而……」，接续为「V普通形／ナAな／Nの＋あまり」，与本题要求的「虽说……但……」不符。 C「先承认前项，再补充限制、例外或相反事实。」：正确。该说明准确概括了「～とはいえ」的使用场景：先承认前项，再补充限制、例外或相反事实。 D「表示因紧急情况或程度严重，无法进行前项。」：错误。该选项对应「～どころではない」，含义是「根本不是……的时候；谈不上……」，接续为「V辞书形／N＋どころではない」，与本题要求的「虽说……但……」不符。 涉及知识点：～とはいえ。类似例句1：春とはいえ、朝晩はまだ寒い。 类似例句2：簡単だとはいえ、油断はできない。",
+    "knowledgePointIds": [
+      "KP-GRA-TOWAIE-001"
+    ],
+    "knowledgePointTitles": [
+      "～とはいえ"
+    ],
+    "difficulty": 4,
+    "reviewWeight": 1.2,
+    "knowledgePointId": "KP-GRA-TOWAIE-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "distinction",
+      "grammar",
+      "逆接/让步"
+    ],
+    "estimatedTime": 90
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0068",
+    "level": "N2",
+    "section": "reading",
+    "type": "short_reading",
+    "subType": "question_factory_short_reading",
+    "prompt": "次の短い説明を読んで、二つの文に共通する「～とはいえ」の働きを選びなさい。\n「春とはいえ、朝晩はまだ寒い。」また、「簡単だとはいえ、油断はできない。」という言い方もある。",
+    "choices": {
+      "A": "表示经历较长过程后得到通常不理想的结果。",
+      "B": "表示情感或状态程度过高，导致非正常结果。",
+      "C": "表示因紧急情况或程度严重，无法进行前项。",
+      "D": "先承认前项，再补充限制、例外或相反事实。"
+    },
+    "correctAnswer": "D",
+    "explanation": "知识点：～とはいえ（虽说……但……）。接续：普通形＋とはいえ（ナA／N＋（だ）とはいえ）。正确答案：D。正确理由：短文中的两个例子都使用「～とはいえ」表达「虽说……但……」。 选项分析：A「表示经历较长过程后得到通常不理想的结果。」：错误。该选项对应「～あげく」，含义是「经过……最终……」，接续为「Vた形／Nの＋あげく」，与本题要求的「虽说……但……」不符。 B「表示情感或状态程度过高，导致非正常结果。」：错误。该选项对应「～あまり」，含义是「由于过度……而……」，接续为「V普通形／ナAな／Nの＋あまり」，与本题要求的「虽说……但……」不符。 C「表示因紧急情况或程度严重，无法进行前项。」：错误。该选项对应「～どころではない」，含义是「根本不是……的时候；谈不上……」，接续为「V辞书形／N＋どころではない」，与本题要求的「虽说……但……」不符。 D「先承认前项，再补充限制、例外或相反事实。」：正确。短文中的两个例子都使用「～とはいえ」表达「虽说……但……」。 涉及知识点：～とはいえ。类似例句1：春とはいえ、朝晩はまだ寒い。 类似例句2：簡単だとはいえ、油断はできない。",
+    "knowledgePointIds": [
+      "KP-GRA-TOWAIE-001"
+    ],
+    "knowledgePointTitles": [
+      "～とはいえ"
+    ],
+    "difficulty": 5,
+    "reviewWeight": 1.3,
+    "knowledgePointId": "KP-GRA-TOWAIE-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "short_reading",
+      "grammar",
+      "逆接/让步"
+    ],
+    "estimatedTime": 120
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0069",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_sentence",
+    "prompt": "知っている（　　）、教えてくれなかった。",
+    "choices": {
+      "A": "ものの",
+      "B": "くせに",
+      "C": "あげく",
+      "D": "あまり"
+    },
+    "correctAnswer": "B",
+    "explanation": "知识点：～くせに（明明……却……）。接续：普通形＋くせに（ナAな／Nの＋くせに）。正确答案：B。正确理由：句中的接续与语义都符合「～くせに」：表达责备、不满或轻蔑，不宜对上级使用。 选项分析：A「ものの」：错误。该选项对应「～ものの」，含义是「虽然……但是……」，接续为「V普通形／イA普通形／ナAな・である／Nである＋ものの」，与本题要求的「明明……却……」不符。 B「くせに」：正确。句中的接续与语义都符合「～くせに」：表达责备、不满或轻蔑，不宜对上级使用。 C「あげく」：错误。该选项对应「～あげく」，含义是「经过……最终……」，接续为「Vた形／Nの＋あげく」，与本题要求的「明明……却……」不符。 D「あまり」：错误。该选项对应「～あまり」，含义是「由于过度……而……」，接续为「V普通形／ナAな／Nの＋あまり」，与本题要求的「明明……却……」不符。 涉及知识点：～くせに。类似例句1：知っているくせに、教えてくれなかった。 类似例句2：子どものくせに、ずいぶん難しい言葉を使う。",
+    "knowledgePointIds": [
+      "KP-GRA-KUSENI-001"
+    ],
+    "knowledgePointTitles": [
+      "～くせに"
+    ],
+    "difficulty": 2,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-KUSENI-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "sentence",
+      "grammar",
+      "逆接/让步"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0070",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_meaning",
+    "subType": "question_factory_dialogue",
+    "prompt": "A「『子どものくせに、ずいぶん難しい言葉を使う。』という文を見ました。」\nB「ここで使われた『くせに』は、どんな意味ですか。」",
+    "choices": {
+      "A": "只因……而……",
+      "B": "另一方面；反面",
+      "C": "明明……却……",
+      "D": "既然……就……"
+    },
+    "correctAnswer": "C",
+    "explanation": "知识点：～くせに（明明……却……）。接续：普通形＋くせに（ナAな／Nの＋くせに）。正确答案：C。正确理由：对话引用的例句表达「明明……却……」，符合「～くせに」的用法。 选项分析：A「只因……而……」：错误。该选项对应「～ばかりに」，含义是「只因……而……」，接续为「普通形＋ばかりに（ナAな／Nである＋ばかりに）」，与本题要求的「明明……却……」不符。 B「另一方面；反面」：错误。该选项对应「～反面」，含义是「另一方面；反面」，接续为「普通形＋反面（ナAな／である・Nである＋反面）」，与本题要求的「明明……却……」不符。 C「明明……却……」：正确。对话引用的例句表达「明明……却……」，符合「～くせに」的用法。 D「既然……就……」：错误。该选项对应「～以上（は）」，含义是「既然……就……」，接续为「V普通形／ナAである／Nである＋以上（は）」，与本题要求的「明明……却……」不符。 涉及知识点：～くせに。类似例句1：知っているくせに、教えてくれなかった。 类似例句2：子どものくせに、ずいぶん難しい言葉を使う。",
+    "knowledgePointIds": [
+      "KP-GRA-KUSENI-001"
+    ],
+    "knowledgePointTitles": [
+      "～くせに"
+    ],
+    "difficulty": 3,
+    "reviewWeight": 1.1,
+    "knowledgePointId": "KP-GRA-KUSENI-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "dialogue",
+      "grammar",
+      "逆接/让步"
+    ],
+    "estimatedTime": 75
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0071",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_meaning",
+    "subType": "question_factory_distinction",
+    "prompt": "「～くせに」の用法として最も適切な説明はどれか。\n例：知っているくせに、教えてくれなかった。",
+    "choices": {
+      "A": "在前项基础上添加程度更高或意外的后项。",
+      "B": "从道德、常识或责任角度提出禁止性建议。",
+      "C": "表示程度、比较基准或随条件增强的变化。",
+      "D": "表达责备、不满或轻蔑，不宜对上级使用。"
+    },
+    "correctAnswer": "D",
+    "explanation": "知识点：～くせに（明明……却……）。接续：普通形＋くせに（ナAな／Nの＋くせに）。正确答案：D。正确理由：该说明准确概括了「～くせに」的使用场景：表达责备、不满或轻蔑，不宜对上级使用。 选项分析：A「在前项基础上添加程度更高或意外的后项。」：错误。该选项对应「～ばかりか」，含义是「不但……而且……」，接续为「普通形／N＋ばかりか」，与本题要求的「明明……却……」不符。 B「从道德、常识或责任角度提出禁止性建议。」：错误。该选项对应「～べきではない」，含义是「不应该……」，接续为「V辞书形＋べきではない」，与本题要求的「明明……却……」不符。 C「表示程度、比较基准或随条件增强的变化。」：错误。该选项对应「～ほど」，含义是「达到……程度；越……越……」，接续为「N／普通形＋ほど；～ば～ほど」，与本题要求的「明明……却……」不符。 D「表达责备、不满或轻蔑，不宜对上级使用。」：正确。该说明准确概括了「～くせに」的使用场景：表达责备、不满或轻蔑，不宜对上级使用。 涉及知识点：～くせに。类似例句1：知っているくせに、教えてくれなかった。 类似例句2：子どものくせに、ずいぶん難しい言葉を使う。",
+    "knowledgePointIds": [
+      "KP-GRA-KUSENI-001"
+    ],
+    "knowledgePointTitles": [
+      "～くせに"
+    ],
+    "difficulty": 4,
+    "reviewWeight": 1.2,
+    "knowledgePointId": "KP-GRA-KUSENI-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "distinction",
+      "grammar",
+      "逆接/让步"
+    ],
+    "estimatedTime": 90
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0072",
+    "level": "N2",
+    "section": "reading",
+    "type": "short_reading",
+    "subType": "question_factory_short_reading",
+    "prompt": "次の短い説明を読んで、二つの文に共通する「～くせに」の働きを選びなさい。\n「知っているくせに、教えてくれなかった。」また、「子どものくせに、ずいぶん難しい言葉を使う。」という言い方もある。",
+    "choices": {
+      "A": "表达责备、不满或轻蔑，不宜对上级使用。",
+      "B": "在前项基础上添加程度更高或意外的后项。",
+      "C": "从道德、常识或责任角度提出禁止性建议。",
+      "D": "表示程度、比较基准或随条件增强的变化。"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～くせに（明明……却……）。接续：普通形＋くせに（ナAな／Nの＋くせに）。正确答案：A。正确理由：短文中的两个例子都使用「～くせに」表达「明明……却……」。 选项分析：A「表达责备、不满或轻蔑，不宜对上级使用。」：正确。短文中的两个例子都使用「～くせに」表达「明明……却……」。 B「在前项基础上添加程度更高或意外的后项。」：错误。该选项对应「～ばかりか」，含义是「不但……而且……」，接续为「普通形／N＋ばかりか」，与本题要求的「明明……却……」不符。 C「从道德、常识或责任角度提出禁止性建议。」：错误。该选项对应「～べきではない」，含义是「不应该……」，接续为「V辞书形＋べきではない」，与本题要求的「明明……却……」不符。 D「表示程度、比较基准或随条件增强的变化。」：错误。该选项对应「～ほど」，含义是「达到……程度；越……越……」，接续为「N／普通形＋ほど；～ば～ほど」，与本题要求的「明明……却……」不符。 涉及知识点：～くせに。类似例句1：知っているくせに、教えてくれなかった。 类似例句2：子どものくせに、ずいぶん難しい言葉を使う。",
+    "knowledgePointIds": [
+      "KP-GRA-KUSENI-001"
+    ],
+    "knowledgePointTitles": [
+      "～くせに"
+    ],
+    "difficulty": 5,
+    "reviewWeight": 1.3,
+    "knowledgePointId": "KP-GRA-KUSENI-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "short_reading",
+      "grammar",
+      "逆接/让步"
+    ],
+    "estimatedTime": 120
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0073",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_sentence",
+    "prompt": "来月から大阪で働く（　　）。",
+    "choices": {
+      "A": "ことにする",
+      "B": "以上（は）",
+      "C": "ことになる",
+      "D": "ことはない"
+    },
+    "correctAnswer": "C",
+    "explanation": "知识点：～ことになる（决定……；结果是……）。接续：V辞书形／ない形＋ことになる。正确答案：C。正确理由：句中的接续与语义都符合「～ことになる」：表示外部决定、规则或逻辑推导出的结果。 选项分析：A「ことにする」：错误。该选项对应「～ことにする」，含义是「决定……」，接续为「V辞书形／ない形＋ことにする」，与本题要求的「决定……；结果是……」不符。 B「以上（は）」：错误。该选项对应「～以上（は）」，含义是「既然……就……」，接续为「V普通形／ナAである／Nである＋以上（は）」，与本题要求的「决定……；结果是……」不符。 C「ことになる」：正确。句中的接续与语义都符合「～ことになる」：表示外部决定、规则或逻辑推导出的结果。 D「ことはない」：错误。该选项对应「～ことはない」，含义是「没必要……」，接续为「V辞书形＋ことはない」，与本题要求的「决定……；结果是……」不符。 涉及知识点：～ことになる。类似例句1：来月から大阪で働くことになった。 类似例句2：規則では、再提出することになります。",
+    "knowledgePointIds": [
+      "KP-GRA-KOTONINARU-001"
+    ],
+    "knowledgePointTitles": [
+      "～ことになる"
+    ],
+    "difficulty": 2,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-KOTONINARU-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "sentence",
+      "grammar",
+      "变化/结果"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0074",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_meaning",
+    "subType": "question_factory_dialogue",
+    "prompt": "A「『規則では、再提出することになります。』という文を見ました。」\nB「ここで使われた『ことになる』は、どんな意味ですか。」",
+    "choices": {
+      "A": "一直……；越来越……",
+      "B": "由于……；从……来看",
+      "C": "规定……；按计划……",
+      "D": "决定……；结果是……"
+    },
+    "correctAnswer": "D",
+    "explanation": "知识点：～ことになる（决定……；结果是……）。接续：V辞书形／ない形＋ことになる。正确答案：D。正确理由：对话引用的例句表达「决定……；结果是……」，符合「～ことになる」的用法。 选项分析：A「一直……；越来越……」：错误。该选项对应「～ばかりだ」，含义是「一直……；越来越……」，接续为「V辞书形＋ばかりだ」，与本题要求的「决定……；结果是……」不符。 B「由于……；从……来看」：错误。该选项对应「～ことから」，含义是「由于……；从……来看」，接续为「普通形＋ことから（ナA／N＋であることから）」，与本题要求的「决定……；结果是……」不符。 C「规定……；按计划……」：错误。该选项对应「～ことになっている」，含义是「规定……；按计划……」，接续为「V辞书形／ない形＋ことになっている」，与本题要求的「决定……；结果是……」不符。 D「决定……；结果是……」：正确。对话引用的例句表达「决定……；结果是……」，符合「～ことになる」的用法。 涉及知识点：～ことになる。类似例句1：来月から大阪で働くことになった。 类似例句2：規則では、再提出することになります。",
+    "knowledgePointIds": [
+      "KP-GRA-KOTONINARU-001"
+    ],
+    "knowledgePointTitles": [
+      "～ことになる"
+    ],
+    "difficulty": 3,
+    "reviewWeight": 1.1,
+    "knowledgePointId": "KP-GRA-KOTONINARU-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "dialogue",
+      "grammar",
+      "变化/结果"
+    ],
+    "estimatedTime": 75
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0075",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_meaning",
+    "subType": "question_factory_distinction",
+    "prompt": "「～ことになる」の用法として最も適切な説明はどれか。\n例：来月から大阪で働くことになった。",
+    "choices": {
+      "A": "表示外部决定、规则或逻辑推导出的结果。",
+      "B": "在前项基础上添加程度更高或意外的后项。",
+      "C": "从道德、常识或责任角度提出禁止性建议。",
+      "D": "表示程度、比较基准或随条件增强的变化。"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～ことになる（决定……；结果是……）。接续：V辞书形／ない形＋ことになる。正确答案：A。正确理由：该说明准确概括了「～ことになる」的使用场景：表示外部决定、规则或逻辑推导出的结果。 选项分析：A「表示外部决定、规则或逻辑推导出的结果。」：正确。该说明准确概括了「～ことになる」的使用场景：表示外部决定、规则或逻辑推导出的结果。 B「在前项基础上添加程度更高或意外的后项。」：错误。该选项对应「～ばかりか」，含义是「不但……而且……」，接续为「普通形／N＋ばかりか」，与本题要求的「决定……；结果是……」不符。 C「从道德、常识或责任角度提出禁止性建议。」：错误。该选项对应「～べきではない」，含义是「不应该……」，接续为「V辞书形＋べきではない」，与本题要求的「决定……；结果是……」不符。 D「表示程度、比较基准或随条件增强的变化。」：错误。该选项对应「～ほど」，含义是「达到……程度；越……越……」，接续为「N／普通形＋ほど；～ば～ほど」，与本题要求的「决定……；结果是……」不符。 涉及知识点：～ことになる。类似例句1：来月から大阪で働くことになった。 类似例句2：規則では、再提出することになります。",
+    "knowledgePointIds": [
+      "KP-GRA-KOTONINARU-001"
+    ],
+    "knowledgePointTitles": [
+      "～ことになる"
+    ],
+    "difficulty": 4,
+    "reviewWeight": 1.2,
+    "knowledgePointId": "KP-GRA-KOTONINARU-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "distinction",
+      "grammar",
+      "变化/结果"
+    ],
+    "estimatedTime": 90
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0076",
+    "level": "N2",
+    "section": "reading",
+    "type": "short_reading",
+    "subType": "question_factory_short_reading",
+    "prompt": "次の短い説明を読んで、二つの文に共通する「～ことになる」の働きを選びなさい。\n「来月から大阪で働くことになった。」また、「規則では、再提出することになります。」という言い方もある。",
+    "choices": {
+      "A": "在前项基础上添加程度更高或意外的后项。",
+      "B": "表示外部决定、规则或逻辑推导出的结果。",
+      "C": "从道德、常识或责任角度提出禁止性建议。",
+      "D": "表示程度、比较基准或随条件增强的变化。"
+    },
+    "correctAnswer": "B",
+    "explanation": "知识点：～ことになる（决定……；结果是……）。接续：V辞书形／ない形＋ことになる。正确答案：B。正确理由：短文中的两个例子都使用「～ことになる」表达「决定……；结果是……」。 选项分析：A「在前项基础上添加程度更高或意外的后项。」：错误。该选项对应「～ばかりか」，含义是「不但……而且……」，接续为「普通形／N＋ばかりか」，与本题要求的「决定……；结果是……」不符。 B「表示外部决定、规则或逻辑推导出的结果。」：正确。短文中的两个例子都使用「～ことになる」表达「决定……；结果是……」。 C「从道德、常识或责任角度提出禁止性建议。」：错误。该选项对应「～べきではない」，含义是「不应该……」，接续为「V辞书形＋べきではない」，与本题要求的「决定……；结果是……」不符。 D「表示程度、比较基准或随条件增强的变化。」：错误。该选项对应「～ほど」，含义是「达到……程度；越……越……」，接续为「N／普通形＋ほど；～ば～ほど」，与本题要求的「决定……；结果是……」不符。 涉及知识点：～ことになる。类似例句1：来月から大阪で働くことになった。 类似例句2：規則では、再提出することになります。",
+    "knowledgePointIds": [
+      "KP-GRA-KOTONINARU-001"
+    ],
+    "knowledgePointTitles": [
+      "～ことになる"
+    ],
+    "difficulty": 5,
+    "reviewWeight": 1.3,
+    "knowledgePointId": "KP-GRA-KOTONINARU-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "short_reading",
+      "grammar",
+      "变化/结果"
+    ],
+    "estimatedTime": 120
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0077",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_sentence",
+    "prompt": "今年は海外旅行をしない（　　）。",
+    "choices": {
+      "A": "ことになる",
+      "B": "ようになる",
+      "C": "以上（は）",
+      "D": "ことにする"
+    },
+    "correctAnswer": "D",
+    "explanation": "知识点：～ことにする（决定……）。接续：V辞书形／ない形＋ことにする。正确答案：D。正确理由：句中的接续与语义都符合「～ことにする」：表示说话人主动做出决定，也可表示习惯性规定。 选项分析：A「ことになる」：错误。该选项对应「～ことになる」，含义是「决定……；结果是……」，接续为「V辞书形／ない形＋ことになる」，与本题要求的「决定……」不符。 B「ようになる」：错误。该选项对应「～ようになる」，含义是「变得能够……；开始……」，接续为「V辞书形／ない形＋ようになる」，与本题要求的「决定……」不符。 C「以上（は）」：错误。该选项对应「～以上（は）」，含义是「既然……就……」，接续为「V普通形／ナAである／Nである＋以上（は）」，与本题要求的「决定……」不符。 D「ことにする」：正确。句中的接续与语义都符合「～ことにする」：表示说话人主动做出决定，也可表示习惯性规定。 涉及知识点：～ことにする。类似例句1：今年は海外旅行をしないことにした。 类似例句2：毎朝三十分歩くことにしています。",
+    "knowledgePointIds": [
+      "KP-GRA-KOTONISURU-001"
+    ],
+    "knowledgePointTitles": [
+      "～ことにする"
+    ],
+    "difficulty": 2,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-KOTONISURU-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "sentence",
+      "grammar",
+      "变化/结果"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0078",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_meaning",
+    "subType": "question_factory_dialogue",
+    "prompt": "A「『毎朝三十分歩くことにしています。』という文を見ました。」\nB「ここで使われた『ことにする』は、どんな意味ですか。」",
+    "choices": {
+      "A": "决定……",
+      "B": "应该……",
+      "C": "为了……",
+      "D": "不得……"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～ことにする（决定……）。接续：V辞书形／ない形＋ことにする。正确答案：A。正确理由：对话引用的例句表达「决定……」，符合「～ことにする」的用法。 选项分析：A「决定……」：正确。对话引用的例句表达「决定……」，符合「～ことにする」的用法。 B「应该……」：错误。该选项对应「～べきだ」，含义是「应该……」，接续为「V辞书形＋べきだ（する→するべき／すべき）」，与本题要求的「决定……」不符。 C「为了……」：错误。该选项对应「～べく」，含义是「为了……」，接续为「V辞书形＋べく（する→するべく／すべく）」，与本题要求的「决定……」不符。 D「不得……」：错误。该选项对应「～てはならない」，含义是「不得……」，接续为「Vて形＋はならない」，与本题要求的「决定……」不符。 涉及知识点：～ことにする。类似例句1：今年は海外旅行をしないことにした。 类似例句2：毎朝三十分歩くことにしています。",
+    "knowledgePointIds": [
+      "KP-GRA-KOTONISURU-001"
+    ],
+    "knowledgePointTitles": [
+      "～ことにする"
+    ],
+    "difficulty": 3,
+    "reviewWeight": 1.1,
+    "knowledgePointId": "KP-GRA-KOTONISURU-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "dialogue",
+      "grammar",
+      "变化/结果"
+    ],
+    "estimatedTime": 75
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0079",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_meaning",
+    "subType": "question_factory_distinction",
+    "prompt": "「～ことにする」の用法として最も適切な説明はどれか。\n例：今年は海外旅行をしないことにした。",
+    "choices": {
+      "A": "否定前项预想，并说明实际情况更甚或完全相反。",
+      "B": "表示说话人主动做出决定，也可表示习惯性规定。",
+      "C": "在保持前项状态的同时，出现与其不一致的结果。",
+      "D": "否定可能被推导出的整体结论，常用于部分否定。"
+    },
+    "correctAnswer": "B",
+    "explanation": "知识点：～ことにする（决定……）。接续：V辞书形／ない形＋ことにする。正确答案：B。正确理由：该说明准确概括了「～ことにする」的使用场景：表示说话人主动做出决定，也可表示习惯性规定。 选项分析：A「否定前项预想，并说明实际情况更甚或完全相反。」：错误。该选项对应「～どころか」，含义是「别说……；非但不……反而……」，接续为「普通形／N＋どころか」，与本题要求的「决定……」不符。 B「表示说话人主动做出决定，也可表示习惯性规定。」：正确。该说明准确概括了「～ことにする」的使用场景：表示说话人主动做出决定，也可表示习惯性规定。 C「在保持前项状态的同时，出现与其不一致的结果。」：错误。该选项对应「～ながらも」，含义是「虽然……却……」，接续为「Vます形去ます／イAい／ナA・N＋ながらも」，与本题要求的「决定……」不符。 D「否定可能被推导出的整体结论，常用于部分否定。」：错误。该选项对应「～わけではない」，含义是「并非……；并不是说……」，接续为「普通形＋わけではない（ナAな／Nの＋わけではない）」，与本题要求的「决定……」不符。 涉及知识点：～ことにする。类似例句1：今年は海外旅行をしないことにした。 类似例句2：毎朝三十分歩くことにしています。",
+    "knowledgePointIds": [
+      "KP-GRA-KOTONISURU-001"
+    ],
+    "knowledgePointTitles": [
+      "～ことにする"
+    ],
+    "difficulty": 4,
+    "reviewWeight": 1.2,
+    "knowledgePointId": "KP-GRA-KOTONISURU-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "distinction",
+      "grammar",
+      "变化/结果"
+    ],
+    "estimatedTime": 90
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0080",
+    "level": "N2",
+    "section": "reading",
+    "type": "short_reading",
+    "subType": "question_factory_short_reading",
+    "prompt": "次の短い説明を読んで、二つの文に共通する「～ことにする」の働きを選びなさい。\n「今年は海外旅行をしないことにした。」また、「毎朝三十分歩くことにしています。」という言い方もある。",
+    "choices": {
+      "A": "否定前项预想，并说明实际情况更甚或完全相反。",
+      "B": "在保持前项状态的同时，出现与其不一致的结果。",
+      "C": "表示说话人主动做出决定，也可表示习惯性规定。",
+      "D": "否定可能被推导出的整体结论，常用于部分否定。"
+    },
+    "correctAnswer": "C",
+    "explanation": "知识点：～ことにする（决定……）。接续：V辞书形／ない形＋ことにする。正确答案：C。正确理由：短文中的两个例子都使用「～ことにする」表达「决定……」。 选项分析：A「否定前项预想，并说明实际情况更甚或完全相反。」：错误。该选项对应「～どころか」，含义是「别说……；非但不……反而……」，接续为「普通形／N＋どころか」，与本题要求的「决定……」不符。 B「在保持前项状态的同时，出现与其不一致的结果。」：错误。该选项对应「～ながらも」，含义是「虽然……却……」，接续为「Vます形去ます／イAい／ナA・N＋ながらも」，与本题要求的「决定……」不符。 C「表示说话人主动做出决定，也可表示习惯性规定。」：正确。短文中的两个例子都使用「～ことにする」表达「决定……」。 D「否定可能被推导出的整体结论，常用于部分否定。」：错误。该选项对应「～わけではない」，含义是「并非……；并不是说……」，接续为「普通形＋わけではない（ナAな／Nの＋わけではない）」，与本题要求的「决定……」不符。 涉及知识点：～ことにする。类似例句1：今年は海外旅行をしないことにした。 类似例句2：毎朝三十分歩くことにしています。",
+    "knowledgePointIds": [
+      "KP-GRA-KOTONISURU-001"
+    ],
+    "knowledgePointTitles": [
+      "～ことにする"
+    ],
+    "difficulty": 5,
+    "reviewWeight": 1.3,
+    "knowledgePointId": "KP-GRA-KOTONISURU-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "short_reading",
+      "grammar",
+      "变化/结果"
+    ],
+    "estimatedTime": 120
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0081",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_sentence",
+    "prompt": "世話になった人の頼みを断ら（　　）。",
+    "choices": {
+      "A": "ないわけにはいかない",
+      "B": "ことになっている",
+      "C": "ところに／へ／を",
+      "D": "どころではない"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～ないわけにはいかない（不能不……；必须……）。接续：Vない形＋わけにはいかない。正确答案：A。正确理由：句中的接续与语义都符合「～ないわけにはいかない」：因责任、常识或社会立场而不能选择不做。 选项分析：A「ないわけにはいかない」：正确。句中的接续与语义都符合「～ないわけにはいかない」：因责任、常识或社会立场而不能选择不做。 B「ことになっている」：错误。该选项对应「～ことになっている」，含义是「规定……；按计划……」，接续为「V辞书形／ない形＋ことになっている」，与本题要求的「不能不……；必须……」不符。 C「ところに／へ／を」：错误。该选项对应「～ところに／へ／を」，含义是「正当……时；在……场合」，接续为「V辞书形／ている／た形＋ところに・へ・を」，与本题要求的「不能不……；必须……」不符。 D「どころではない」：错误。该选项对应「～どころではない」，含义是「根本不是……的时候；谈不上……」，接续为「V辞书形／N＋どころではない」，与本题要求的「不能不……；必须……」不符。 涉及知识点：～ないわけにはいかない。类似例句1：世話になった人の頼みを断らないわけにはいかない。 类似例句2：明日は試験だから、勉強しないわけにはいかない。",
+    "knowledgePointIds": [
+      "KP-GRA-NAIWAKENIHAIKANAI-001"
+    ],
+    "knowledgePointTitles": [
+      "～ないわけにはいかない"
+    ],
+    "difficulty": 2,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-NAIWAKENIHAIKANAI-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "sentence",
+      "grammar",
+      "禁止/义务"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0082",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_meaning",
+    "subType": "question_factory_dialogue",
+    "prompt": "A「『明日は試験だから、勉強しないわけにはいかない。』という文を見ました。」\nB「ここで使われた『ないわけにはいかない』は、どんな意味ですか。」",
+    "choices": {
+      "A": "一直……；越来越……",
+      "B": "不能不……；必须……",
+      "C": "由于……；从……来看",
+      "D": "决定……；结果是……"
+    },
+    "correctAnswer": "B",
+    "explanation": "知识点：～ないわけにはいかない（不能不……；必须……）。接续：Vない形＋わけにはいかない。正确答案：B。正确理由：对话引用的例句表达「不能不……；必须……」，符合「～ないわけにはいかない」的用法。 选项分析：A「一直……；越来越……」：错误。该选项对应「～ばかりだ」，含义是「一直……；越来越……」，接续为「V辞书形＋ばかりだ」，与本题要求的「不能不……；必须……」不符。 B「不能不……；必须……」：正确。对话引用的例句表达「不能不……；必须……」，符合「～ないわけにはいかない」的用法。 C「由于……；从……来看」：错误。该选项对应「～ことから」，含义是「由于……；从……来看」，接续为「普通形＋ことから（ナA／N＋であることから）」，与本题要求的「不能不……；必须……」不符。 D「决定……；结果是……」：错误。该选项对应「～ことになる」，含义是「决定……；结果是……」，接续为「V辞书形／ない形＋ことになる」，与本题要求的「不能不……；必须……」不符。 涉及知识点：～ないわけにはいかない。类似例句1：世話になった人の頼みを断らないわけにはいかない。 类似例句2：明日は試験だから、勉強しないわけにはいかない。",
+    "knowledgePointIds": [
+      "KP-GRA-NAIWAKENIHAIKANAI-001"
+    ],
+    "knowledgePointTitles": [
+      "～ないわけにはいかない"
+    ],
+    "difficulty": 3,
+    "reviewWeight": 1.1,
+    "knowledgePointId": "KP-GRA-NAIWAKENIHAIKANAI-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "dialogue",
+      "grammar",
+      "禁止/义务"
+    ],
+    "estimatedTime": 75
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0083",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_meaning",
+    "subType": "question_factory_distinction",
+    "prompt": "「～ないわけにはいかない」の用法として最も適切な説明はどれか。\n例：世話になった人の頼みを断らないわけにはいかない。",
+    "choices": {
+      "A": "在前项基础上添加程度更高或意外的后项。",
+      "B": "从道德、常识或责任角度提出禁止性建议。",
+      "C": "因责任、常识或社会立场而不能选择不做。",
+      "D": "表示程度、比较基准或随条件增强的变化。"
+    },
+    "correctAnswer": "C",
+    "explanation": "知识点：～ないわけにはいかない（不能不……；必须……）。接续：Vない形＋わけにはいかない。正确答案：C。正确理由：该说明准确概括了「～ないわけにはいかない」的使用场景：因责任、常识或社会立场而不能选择不做。 选项分析：A「在前项基础上添加程度更高或意外的后项。」：错误。该选项对应「～ばかりか」，含义是「不但……而且……」，接续为「普通形／N＋ばかりか」，与本题要求的「不能不……；必须……」不符。 B「从道德、常识或责任角度提出禁止性建议。」：错误。该选项对应「～べきではない」，含义是「不应该……」，接续为「V辞书形＋べきではない」，与本题要求的「不能不……；必须……」不符。 C「因责任、常识或社会立场而不能选择不做。」：正确。该说明准确概括了「～ないわけにはいかない」的使用场景：因责任、常识或社会立场而不能选择不做。 D「表示程度、比较基准或随条件增强的变化。」：错误。该选项对应「～ほど」，含义是「达到……程度；越……越……」，接续为「N／普通形＋ほど；～ば～ほど」，与本题要求的「不能不……；必须……」不符。 涉及知识点：～ないわけにはいかない。类似例句1：世話になった人の頼みを断らないわけにはいかない。 类似例句2：明日は試験だから、勉強しないわけにはいかない。",
+    "knowledgePointIds": [
+      "KP-GRA-NAIWAKENIHAIKANAI-001"
+    ],
+    "knowledgePointTitles": [
+      "～ないわけにはいかない"
+    ],
+    "difficulty": 4,
+    "reviewWeight": 1.2,
+    "knowledgePointId": "KP-GRA-NAIWAKENIHAIKANAI-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "distinction",
+      "grammar",
+      "禁止/义务"
+    ],
+    "estimatedTime": 90
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0084",
+    "level": "N2",
+    "section": "reading",
+    "type": "short_reading",
+    "subType": "question_factory_short_reading",
+    "prompt": "次の短い説明を読んで、二つの文に共通する「～ないわけにはいかない」の働きを選びなさい。\n「世話になった人の頼みを断らないわけにはいかない。」また、「明日は試験だから、勉強しないわけにはいかない。」という言い方もある。",
+    "choices": {
+      "A": "在前项基础上添加程度更高或意外的后项。",
+      "B": "从道德、常识或责任角度提出禁止性建议。",
+      "C": "表示程度、比较基准或随条件增强的变化。",
+      "D": "因责任、常识或社会立场而不能选择不做。"
+    },
+    "correctAnswer": "D",
+    "explanation": "知识点：～ないわけにはいかない（不能不……；必须……）。接续：Vない形＋わけにはいかない。正确答案：D。正确理由：短文中的两个例子都使用「～ないわけにはいかない」表达「不能不……；必须……」。 选项分析：A「在前项基础上添加程度更高或意外的后项。」：错误。该选项对应「～ばかりか」，含义是「不但……而且……」，接续为「普通形／N＋ばかりか」，与本题要求的「不能不……；必须……」不符。 B「从道德、常识或责任角度提出禁止性建议。」：错误。该选项对应「～べきではない」，含义是「不应该……」，接续为「V辞书形＋べきではない」，与本题要求的「不能不……；必须……」不符。 C「表示程度、比较基准或随条件增强的变化。」：错误。该选项对应「～ほど」，含义是「达到……程度；越……越……」，接续为「N／普通形＋ほど；～ば～ほど」，与本题要求的「不能不……；必须……」不符。 D「因责任、常识或社会立场而不能选择不做。」：正确。短文中的两个例子都使用「～ないわけにはいかない」表达「不能不……；必须……」。 涉及知识点：～ないわけにはいかない。类似例句1：世話になった人の頼みを断らないわけにはいかない。 类似例句2：明日は試験だから、勉強しないわけにはいかない。",
+    "knowledgePointIds": [
+      "KP-GRA-NAIWAKENIHAIKANAI-001"
+    ],
+    "knowledgePointTitles": [
+      "～ないわけにはいかない"
+    ],
+    "difficulty": 5,
+    "reviewWeight": 1.3,
+    "knowledgePointId": "KP-GRA-NAIWAKENIHAIKANAI-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "short_reading",
+      "grammar",
+      "禁止/义务"
+    ],
+    "estimatedTime": 120
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0085",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_sentence",
+    "prompt": "去年（　　）、今年は雨が少ない。",
+    "choices": {
+      "A": "に対して",
+      "B": "に比べて",
+      "C": "ばかりだ",
+      "D": "ばかりか"
+    },
+    "correctAnswer": "B",
+    "explanation": "知识点：～に比べて（与……相比）。接续：N＋に比べて／に比べると。正确答案：B。正确理由：句中的接续与语义都符合「～に比べて」：以某对象为基准比较差异。 选项分析：A「に対して」：错误。该选项对应「～に対して」，含义是「相对于……；针对……」，接续为「N＋に対して／に対する＋N」，与本题要求的「与……相比」不符。 B「に比べて」：正确。句中的接续与语义都符合「～に比べて」：以某对象为基准比较差异。 C「ばかりだ」：错误。该选项对应「～ばかりだ」，含义是「一直……；越来越……」，接续为「V辞书形＋ばかりだ」，与本题要求的「与……相比」不符。 D「ばかりか」：错误。该选项对应「～ばかりか」，含义是「不但……而且……」，接续为「普通形／N＋ばかりか」，与本题要求的「与……相比」不符。 涉及知识点：～に比べて。类似例句1：去年に比べて、今年は雨が少ない。 类似例句2：都会に比べると、この町は静かだ。",
+    "knowledgePointIds": [
+      "KP-GRA-NIKURABETE-001"
+    ],
+    "knowledgePointTitles": [
+      "～に比べて"
+    ],
+    "difficulty": 2,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-NIKURABETE-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "sentence",
+      "grammar",
+      "比较/程度"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0086",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_meaning",
+    "subType": "question_factory_dialogue",
+    "prompt": "A「『都会に比べると、この町は静かだ。』という文を見ました。」\nB「ここで使われた『に比べて』は、どんな意味ですか。」",
+    "choices": {
+      "A": "不应该……",
+      "B": "没必要……",
+      "C": "与……相比",
+      "D": "与……相反"
+    },
+    "correctAnswer": "C",
+    "explanation": "知识点：～に比べて（与……相比）。接续：N＋に比べて／に比べると。正确答案：C。正确理由：对话引用的例句表达「与……相比」，符合「～に比べて」的用法。 选项分析：A「不应该……」：错误。该选项对应「～べきではない」，含义是「不应该……」，接续为「V辞书形＋べきではない」，与本题要求的「与……相比」不符。 B「没必要……」：错误。该选项对应「～ことはない」，含义是「没必要……」，接续为「V辞书形＋ことはない」，与本题要求的「与……相比」不符。 C「与……相比」：正确。对话引用的例句表达「与……相比」，符合「～に比べて」的用法。 D「与……相反」：错误。该选项对应「～に反して」，含义是「与……相反」，接续为「N＋に反して／に反する＋N」，与本题要求的「与……相比」不符。 涉及知识点：～に比べて。类似例句1：去年に比べて、今年は雨が少ない。 类似例句2：都会に比べると、この町は静かだ。",
+    "knowledgePointIds": [
+      "KP-GRA-NIKURABETE-001"
+    ],
+    "knowledgePointTitles": [
+      "～に比べて"
+    ],
+    "difficulty": 3,
+    "reviewWeight": 1.1,
+    "knowledgePointId": "KP-GRA-NIKURABETE-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "dialogue",
+      "grammar",
+      "比较/程度"
+    ],
+    "estimatedTime": 75
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0087",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_meaning",
+    "subType": "question_factory_distinction",
+    "prompt": "「～に比べて」の用法として最も適切な説明はどれか。\n例：去年に比べて、今年は雨が少ない。",
+    "choices": {
+      "A": "根据传闻或典型迹象作判断。",
+      "B": "把不良结果归因于前项。",
+      "C": "表示有意志行为的明确目的。",
+      "D": "以某对象为基准比较差异。"
+    },
+    "correctAnswer": "D",
+    "explanation": "知识点：～に比べて（与……相比）。接续：N＋に比べて／に比べると。正确答案：D。正确理由：该说明准确概括了「～に比べて」的使用场景：以某对象为基准比较差异。 选项分析：A「根据传闻或典型迹象作判断。」：错误。该选项对应「～らしい」，含义是「听说……；似乎……」，接续为「普通形＋らしい（ナA／N＋らしい）」，与本题要求的「与……相比」不符。 B「把不良结果归因于前项。」：错误。该选项对应「～せいで」，含义是「都怪……；由于……」，接续为「普通形＋せいで（ナAな／Nの＋せいで）」，与本题要求的「与……相比」不符。 C「表示有意志行为的明确目的。」：错误。该选项对应「～ために」，含义是「为了……」，接续为「V辞书形／Nの＋ために」，与本题要求的「与……相比」不符。 D「以某对象为基准比较差异。」：正确。该说明准确概括了「～に比べて」的使用场景：以某对象为基准比较差异。 涉及知识点：～に比べて。类似例句1：去年に比べて、今年は雨が少ない。 类似例句2：都会に比べると、この町は静かだ。",
+    "knowledgePointIds": [
+      "KP-GRA-NIKURABETE-001"
+    ],
+    "knowledgePointTitles": [
+      "～に比べて"
+    ],
+    "difficulty": 4,
+    "reviewWeight": 1.2,
+    "knowledgePointId": "KP-GRA-NIKURABETE-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "distinction",
+      "grammar",
+      "比较/程度"
+    ],
+    "estimatedTime": 90
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0088",
+    "level": "N2",
+    "section": "reading",
+    "type": "short_reading",
+    "subType": "question_factory_short_reading",
+    "prompt": "次の短い説明を読んで、二つの文に共通する「～に比べて」の働きを選びなさい。\n「去年に比べて、今年は雨が少ない。」また、「都会に比べると、この町は静かだ。」という言い方もある。",
+    "choices": {
+      "A": "以某对象为基准比较差异。",
+      "B": "根据传闻或典型迹象作判断。",
+      "C": "把不良结果归因于前项。",
+      "D": "表示有意志行为的明确目的。"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～に比べて（与……相比）。接续：N＋に比べて／に比べると。正确答案：A。正确理由：短文中的两个例子都使用「～に比べて」表达「与……相比」。 选项分析：A「以某对象为基准比较差异。」：正确。短文中的两个例子都使用「～に比べて」表达「与……相比」。 B「根据传闻或典型迹象作判断。」：错误。该选项对应「～らしい」，含义是「听说……；似乎……」，接续为「普通形＋らしい（ナA／N＋らしい）」，与本题要求的「与……相比」不符。 C「把不良结果归因于前项。」：错误。该选项对应「～せいで」，含义是「都怪……；由于……」，接续为「普通形＋せいで（ナAな／Nの＋せいで）」，与本题要求的「与……相比」不符。 D「表示有意志行为的明确目的。」：错误。该选项对应「～ために」，含义是「为了……」，接续为「V辞书形／Nの＋ために」，与本题要求的「与……相比」不符。 涉及知识点：～に比べて。类似例句1：去年に比べて、今年は雨が少ない。 类似例句2：都会に比べると、この町は静かだ。",
+    "knowledgePointIds": [
+      "KP-GRA-NIKURABETE-001"
+    ],
+    "knowledgePointTitles": [
+      "～に比べて"
+    ],
+    "difficulty": 5,
+    "reviewWeight": 1.3,
+    "knowledgePointId": "KP-GRA-NIKURABETE-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "short_reading",
+      "grammar",
+      "比较/程度"
+    ],
+    "estimatedTime": 120
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0089",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_sentence",
+    "prompt": "技術が進歩する（　　）、生活も変わった。",
+    "choices": {
+      "A": "につれて",
+      "B": "ばかりだ",
+      "C": "に従って",
+      "D": "ばかりか"
+    },
+    "correctAnswer": "C",
+    "explanation": "知识点：～に従って（随着……；按照……）。接续：N／V辞书形＋に従って。正确答案：C。正确理由：句中的接续与语义都符合「～に従って」：表示随趋势变化，或遵照规则行动。 选项分析：A「につれて」：错误。该选项对应「～につれて」，含义是「随着……逐渐……」，接续为「N／V辞书形＋につれて」，与本题要求的「随着……；按照……」不符。 B「ばかりだ」：错误。该选项对应「～ばかりだ」，含义是「一直……；越来越……」，接续为「V辞书形＋ばかりだ」，与本题要求的「随着……；按照……」不符。 C「に従って」：正确。句中的接续与语义都符合「～に従って」：表示随趋势变化，或遵照规则行动。 D「ばかりか」：错误。该选项对应「～ばかりか」，含义是「不但……而且……」，接续为「普通形／N＋ばかりか」，与本题要求的「随着……；按照……」不符。 涉及知识点：～に従って。类似例句1：技術が進歩するに従って、生活も変わった。 类似例句2：説明書に従って、機械を操作してください。",
+    "knowledgePointIds": [
+      "KP-GRA-NISHITAGATTE-001"
+    ],
+    "knowledgePointTitles": [
+      "～に従って"
+    ],
+    "difficulty": 2,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-NISHITAGATTE-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "sentence",
+      "grammar",
+      "变化/结果"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0090",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_meaning",
+    "subType": "question_factory_dialogue",
+    "prompt": "A「『説明書に従って、機械を操作してください。』という文を見ました。」\nB「ここで使われた『に従って』は、どんな意味ですか。」",
+    "choices": {
+      "A": "由于过度……而……",
+      "B": "应该……；最好……",
+      "C": "大约；达到……程度",
+      "D": "随着……；按照……"
+    },
+    "correctAnswer": "D",
+    "explanation": "知识点：～に従って（随着……；按照……）。接续：N／V辞书形＋に従って。正确答案：D。正确理由：对话引用的例句表达「随着……；按照……」，符合「～に従って」的用法。 选项分析：A「由于过度……而……」：错误。该选项对应「～あまり」，含义是「由于过度……而……」，接续为「V普通形／ナAな／Nの＋あまり」，与本题要求的「随着……；按照……」不符。 B「应该……；最好……」：错误。该选项对应「～ことだ」，含义是「应该……；最好……」，接续为「V辞书形／ない形＋ことだ」，与本题要求的「随着……；按照……」不符。 C「大约；达到……程度」：错误。该选项对应「～くらい／ぐらい」，含义是「大约；达到……程度」，接续为「N／普通形＋くらい」，与本题要求的「随着……；按照……」不符。 D「随着……；按照……」：正确。对话引用的例句表达「随着……；按照……」，符合「～に従って」的用法。 涉及知识点：～に従って。类似例句1：技術が進歩するに従って、生活も変わった。 类似例句2：説明書に従って、機械を操作してください。",
+    "knowledgePointIds": [
+      "KP-GRA-NISHITAGATTE-001"
+    ],
+    "knowledgePointTitles": [
+      "～に従って"
+    ],
+    "difficulty": 3,
+    "reviewWeight": 1.1,
+    "knowledgePointId": "KP-GRA-NISHITAGATTE-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "dialogue",
+      "grammar",
+      "变化/结果"
+    ],
+    "estimatedTime": 75
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0091",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_meaning",
+    "subType": "question_factory_distinction",
+    "prompt": "「～に従って」の用法として最も適切な説明はどれか。\n例：技術が進歩するに従って、生活も変わった。",
+    "choices": {
+      "A": "表示随趋势变化，或遵照规则行动。",
+      "B": "根据道德、常识或责任提出强建议。",
+      "C": "表示某状态持续期间，后项也成立。",
+      "D": "针对将来可能发生的情况预先准备。"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～に従って（随着……；按照……）。接续：N／V辞书形＋に従って。正确答案：A。正确理由：该说明准确概括了「～に従って」的使用场景：表示随趋势变化，或遵照规则行动。 选项分析：A「表示随趋势变化，或遵照规则行动。」：正确。该说明准确概括了「～に従って」的使用场景：表示随趋势变化，或遵照规则行动。 B「根据道德、常识或责任提出强建议。」：错误。该选项对应「～べきだ」，含义是「应该……」，接续为「V辞书形＋べきだ（する→するべき／すべき）」，与本题要求的「随着……；按照……」不符。 C「表示某状态持续期间，后项也成立。」：错误。该选项对应「～限り」，含义是「只要……就……；在……范围内」，接续为「V普通形／Nである＋限り」，与本题要求的「随着……；按照……」不符。 D「针对将来可能发生的情况预先准备。」：错误。该选项对应「～に備えて」，含义是「为……做准备」，接续为「N＋に備えて／に備えた＋N」，与本题要求的「随着……；按照……」不符。 涉及知识点：～に従って。类似例句1：技術が進歩するに従って、生活も変わった。 类似例句2：説明書に従って、機械を操作してください。",
+    "knowledgePointIds": [
+      "KP-GRA-NISHITAGATTE-001"
+    ],
+    "knowledgePointTitles": [
+      "～に従って"
+    ],
+    "difficulty": 4,
+    "reviewWeight": 1.2,
+    "knowledgePointId": "KP-GRA-NISHITAGATTE-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "distinction",
+      "grammar",
+      "变化/结果"
+    ],
+    "estimatedTime": 90
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0092",
+    "level": "N2",
+    "section": "reading",
+    "type": "short_reading",
+    "subType": "question_factory_short_reading",
+    "prompt": "次の短い説明を読んで、二つの文に共通する「～に従って」の働きを選びなさい。\n「技術が進歩するに従って、生活も変わった。」また、「説明書に従って、機械を操作してください。」という言い方もある。",
+    "choices": {
+      "A": "根据道德、常识或责任提出强建议。",
+      "B": "表示随趋势变化，或遵照规则行动。",
+      "C": "表示某状态持续期间，后项也成立。",
+      "D": "针对将来可能发生的情况预先准备。"
+    },
+    "correctAnswer": "B",
+    "explanation": "知识点：～に従って（随着……；按照……）。接续：N／V辞书形＋に従って。正确答案：B。正确理由：短文中的两个例子都使用「～に従って」表达「随着……；按照……」。 选项分析：A「根据道德、常识或责任提出强建议。」：错误。该选项对应「～べきだ」，含义是「应该……」，接续为「V辞书形＋べきだ（する→するべき／すべき）」，与本题要求的「随着……；按照……」不符。 B「表示随趋势变化，或遵照规则行动。」：正确。短文中的两个例子都使用「～に従って」表达「随着……；按照……」。 C「表示某状态持续期间，后项也成立。」：错误。该选项对应「～限り」，含义是「只要……就……；在……范围内」，接续为「V普通形／Nである＋限り」，与本题要求的「随着……；按照……」不符。 D「针对将来可能发生的情况预先准备。」：错误。该选项对应「～に備えて」，含义是「为……做准备」，接续为「N＋に備えて／に備えた＋N」，与本题要求的「随着……；按照……」不符。 涉及知识点：～に従って。类似例句1：技術が進歩するに従って、生活も変わった。 类似例句2：説明書に従って、機械を操作してください。",
+    "knowledgePointIds": [
+      "KP-GRA-NISHITAGATTE-001"
+    ],
+    "knowledgePointTitles": [
+      "～に従って"
+    ],
+    "difficulty": 5,
+    "reviewWeight": 1.3,
+    "knowledgePointId": "KP-GRA-NISHITAGATTE-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "short_reading",
+      "grammar",
+      "变化/结果"
+    ],
+    "estimatedTime": 120
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0093",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_sentence",
+    "prompt": "兄が活発なの（　　）、弟はおとなしい。",
+    "choices": {
+      "A": "に比べて",
+      "B": "ばかりだ",
+      "C": "ばかりか",
+      "D": "に対して"
+    },
+    "correctAnswer": "D",
+    "explanation": "知识点：～に対して（相对于……；针对……）。接续：N＋に対して／に対する＋N。正确答案：D。正确理由：句中的接续与语义都符合「～に対して」：表示对象，或把两种性质对照。 选项分析：A「に比べて」：错误。该选项对应「～に比べて」，含义是「与……相比」，接续为「N＋に比べて／に比べると」，与本题要求的「相对于……；针对……」不符。 B「ばかりだ」：错误。该选项对应「～ばかりだ」，含义是「一直……；越来越……」，接续为「V辞书形＋ばかりだ」，与本题要求的「相对于……；针对……」不符。 C「ばかりか」：错误。该选项对应「～ばかりか」，含义是「不但……而且……」，接续为「普通形／N＋ばかりか」，与本题要求的「相对于……；针对……」不符。 D「に対して」：正确。句中的接续与语义都符合「～に対して」：表示对象，或把两种性质对照。 涉及知识点：～に対して。类似例句1：兄が活発なのに対して、弟はおとなしい。 类似例句2：質問に対して、丁寧に答えた。",
+    "knowledgePointIds": [
+      "KP-GRA-NITAISHITE-001"
+    ],
+    "knowledgePointTitles": [
+      "～に対して"
+    ],
+    "difficulty": 2,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-NITAISHITE-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "sentence",
+      "grammar",
+      "比较/程度"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0094",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_meaning",
+    "subType": "question_factory_dialogue",
+    "prompt": "A「『質問に対して、丁寧に答えた。』という文を見ました。」\nB「ここで使われた『に対して』は、どんな意味ですか。」",
+    "choices": {
+      "A": "相对于……；针对……",
+      "B": "一直……；越来越……",
+      "C": "由于……；从……来看",
+      "D": "决定……；结果是……"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～に対して（相对于……；针对……）。接续：N＋に対して／に対する＋N。正确答案：A。正确理由：对话引用的例句表达「相对于……；针对……」，符合「～に対して」的用法。 选项分析：A「相对于……；针对……」：正确。对话引用的例句表达「相对于……；针对……」，符合「～に対して」的用法。 B「一直……；越来越……」：错误。该选项对应「～ばかりだ」，含义是「一直……；越来越……」，接续为「V辞书形＋ばかりだ」，与本题要求的「相对于……；针对……」不符。 C「由于……；从……来看」：错误。该选项对应「～ことから」，含义是「由于……；从……来看」，接续为「普通形＋ことから（ナA／N＋であることから）」，与本题要求的「相对于……；针对……」不符。 D「决定……；结果是……」：错误。该选项对应「～ことになる」，含义是「决定……；结果是……」，接续为「V辞书形／ない形＋ことになる」，与本题要求的「相对于……；针对……」不符。 涉及知识点：～に対して。类似例句1：兄が活発なのに対して、弟はおとなしい。 类似例句2：質問に対して、丁寧に答えた。",
+    "knowledgePointIds": [
+      "KP-GRA-NITAISHITE-001"
+    ],
+    "knowledgePointTitles": [
+      "～に対して"
+    ],
+    "difficulty": 3,
+    "reviewWeight": 1.1,
+    "knowledgePointId": "KP-GRA-NITAISHITE-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "dialogue",
+      "grammar",
+      "比较/程度"
+    ],
+    "estimatedTime": 75
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0095",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_meaning",
+    "subType": "question_factory_distinction",
+    "prompt": "「～に対して」の用法として最も適切な説明はどれか。\n例：兄が活発なのに対して、弟はおとなしい。",
+    "choices": {
+      "A": "书面且正式地表示意图和目的。",
+      "B": "表示对象，或把两种性质对照。",
+      "C": "说明命名、判断或结果的依据。",
+      "D": "通常表示积极结果，也可反讽。"
+    },
+    "correctAnswer": "B",
+    "explanation": "知识点：～に対して（相对于……；针对……）。接续：N＋に対して／に対する＋N。正确答案：B。正确理由：该说明准确概括了「～に対して」的使用场景：表示对象，或把两种性质对照。 选项分析：A「书面且正式地表示意图和目的。」：错误。该选项对应「～べく」，含义是「为了……」，接续为「V辞书形＋べく（する→するべく／すべく）」，与本题要求的「相对于……；针对……」不符。 B「表示对象，或把两种性质对照。」：正确。该说明准确概括了「～に対して」的使用场景：表示对象，或把两种性质对照。 C「说明命名、判断或结果的依据。」：错误。该选项对应「～ことから」，含义是「由于……；从……来看」，接续为「普通形＋ことから（ナA／N＋であることから）」，与本题要求的「相对于……；针对……」不符。 D「通常表示积极结果，也可反讽。」：错误。该选项对应「～おかげで」，含义是「多亏……；由于……」，接续为「普通形＋おかげで（ナAな／Nの＋おかげで）」，与本题要求的「相对于……；针对……」不符。 涉及知识点：～に対して。类似例句1：兄が活発なのに対して、弟はおとなしい。 类似例句2：質問に対して、丁寧に答えた。",
+    "knowledgePointIds": [
+      "KP-GRA-NITAISHITE-001"
+    ],
+    "knowledgePointTitles": [
+      "～に対して"
+    ],
+    "difficulty": 4,
+    "reviewWeight": 1.2,
+    "knowledgePointId": "KP-GRA-NITAISHITE-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "distinction",
+      "grammar",
+      "比较/程度"
+    ],
+    "estimatedTime": 90
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0096",
+    "level": "N2",
+    "section": "reading",
+    "type": "short_reading",
+    "subType": "question_factory_short_reading",
+    "prompt": "次の短い説明を読んで、二つの文に共通する「～に対して」の働きを選びなさい。\n「兄が活発なのに対して、弟はおとなしい。」また、「質問に対して、丁寧に答えた。」という言い方もある。",
+    "choices": {
+      "A": "书面且正式地表示意图和目的。",
+      "B": "说明命名、判断或结果的依据。",
+      "C": "表示对象，或把两种性质对照。",
+      "D": "通常表示积极结果，也可反讽。"
+    },
+    "correctAnswer": "C",
+    "explanation": "知识点：～に対して（相对于……；针对……）。接续：N＋に対して／に対する＋N。正确答案：C。正确理由：短文中的两个例子都使用「～に対して」表达「相对于……；针对……」。 选项分析：A「书面且正式地表示意图和目的。」：错误。该选项对应「～べく」，含义是「为了……」，接续为「V辞书形＋べく（する→するべく／すべく）」，与本题要求的「相对于……；针对……」不符。 B「说明命名、判断或结果的依据。」：错误。该选项对应「～ことから」，含义是「由于……；从……来看」，接续为「普通形＋ことから（ナA／N＋であることから）」，与本题要求的「相对于……；针对……」不符。 C「表示对象，或把两种性质对照。」：正确。短文中的两个例子都使用「～に対して」表达「相对于……；针对……」。 D「通常表示积极结果，也可反讽。」：错误。该选项对应「～おかげで」，含义是「多亏……；由于……」，接续为「普通形＋おかげで（ナAな／Nの＋おかげで）」，与本题要求的「相对于……；针对……」不符。 涉及知识点：～に対して。类似例句1：兄が活発なのに対して、弟はおとなしい。 类似例句2：質問に対して、丁寧に答えた。",
+    "knowledgePointIds": [
+      "KP-GRA-NITAISHITE-001"
+    ],
+    "knowledgePointTitles": [
+      "～に対して"
+    ],
+    "difficulty": 5,
+    "reviewWeight": 1.3,
+    "knowledgePointId": "KP-GRA-NITAISHITE-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "short_reading",
+      "grammar",
+      "比较/程度"
+    ],
+    "estimatedTime": 120
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0097",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_sentence",
+    "prompt": "年を取る（　　）、健康が気になってきた。",
+    "choices": {
+      "A": "につれて",
+      "B": "ばかりだ",
+      "C": "に従って",
+      "D": "に伴って"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～につれて（随着……逐渐……）。接续：N／V辞书形＋につれて。正确答案：A。正确理由：句中的接续与语义都符合「～につれて」：表示前项连续变化时，后项也自然变化。 选项分析：A「につれて」：正确。句中的接续与语义都符合「～につれて」：表示前项连续变化时，后项也自然变化。 B「ばかりだ」：错误。该选项对应「～ばかりだ」，含义是「一直……；越来越……」，接续为「V辞书形＋ばかりだ」，与本题要求的「随着……逐渐……」不符。 C「に従って」：错误。该选项对应「～に従って」，含义是「随着……；按照……」，接续为「N／V辞书形＋に従って」，与本题要求的「随着……逐渐……」不符。 D「に伴って」：错误。该选项对应「～に伴って」，含义是「伴随着……」，接续为「N／V辞书形＋に伴って／に伴い」，与本题要求的「随着……逐渐……」不符。 涉及知识点：～につれて。类似例句1：年を取るにつれて、健康が気になってきた。 类似例句2：気温が上がるにつれて、雪が溶けていく。",
+    "knowledgePointIds": [
+      "KP-GRA-NITSURETE-001"
+    ],
+    "knowledgePointTitles": [
+      "～につれて"
+    ],
+    "difficulty": 2,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-NITSURETE-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "sentence",
+      "grammar",
+      "变化/结果"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0098",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_meaning",
+    "subType": "question_factory_dialogue",
+    "prompt": "A「『気温が上がるにつれて、雪が溶けていく。』という文を見ました。」\nB「ここで使われた『につれて』は、どんな意味ですか。」",
+    "choices": {
+      "A": "经过……最终……",
+      "B": "随着……逐渐……",
+      "C": "不但……而且……",
+      "D": "虽然……但是……"
+    },
+    "correctAnswer": "B",
+    "explanation": "知识点：～につれて（随着……逐渐……）。接续：N／V辞书形＋につれて。正确答案：B。正确理由：对话引用的例句表达「随着……逐渐……」，符合「～につれて」的用法。 选项分析：A「经过……最终……」：错误。该选项对应「～あげく」，含义是「经过……最终……」，接续为「Vた形／Nの＋あげく」，与本题要求的「随着……逐渐……」不符。 B「随着……逐渐……」：正确。对话引用的例句表达「随着……逐渐……」，符合「～につれて」的用法。 C「不但……而且……」：错误。该选项对应「～ばかりか」，含义是「不但……而且……」，接续为「普通形／N＋ばかりか」，与本题要求的「随着……逐渐……」不符。 D「虽然……但是……」：错误。该选项对应「～ものの」，含义是「虽然……但是……」，接续为「V普通形／イA普通形／ナAな・である／Nである＋ものの」，与本题要求的「随着……逐渐……」不符。 涉及知识点：～につれて。类似例句1：年を取るにつれて、健康が気になってきた。 类似例句2：気温が上がるにつれて、雪が溶けていく。",
+    "knowledgePointIds": [
+      "KP-GRA-NITSURETE-001"
+    ],
+    "knowledgePointTitles": [
+      "～につれて"
+    ],
+    "difficulty": 3,
+    "reviewWeight": 1.1,
+    "knowledgePointId": "KP-GRA-NITSURETE-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "dialogue",
+      "grammar",
+      "变化/结果"
+    ],
+    "estimatedTime": 75
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0099",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_meaning",
+    "subType": "question_factory_distinction",
+    "prompt": "「～につれて」の用法として最も適切な説明はどれか。\n例：年を取るにつれて、健康が気になってきた。",
+    "choices": {
+      "A": "带主观解释语气说明原因，常用于辩解。",
+      "B": "表示如果前项不实现，后项就不会成立。",
+      "C": "表示前项连续变化时，后项也自然变化。",
+      "D": "表达说话人主观上十分确信，语气较强。"
+    },
+    "correctAnswer": "C",
+    "explanation": "知识点：～につれて（随着……逐渐……）。接续：N／V辞书形＋につれて。正确答案：C。正确理由：该说明准确概括了「～につれて」的使用场景：表示前项连续变化时，后项也自然变化。 选项分析：A「带主观解释语气说明原因，常用于辩解。」：错误。该选项对应「～ものだから」，含义是「因为……（解释、辩解）」，接续为「普通形＋ものだから（ナAな／Nな＋ものだから）」，与本题要求的「随着……逐渐……」不符。 B「表示如果前项不实现，后项就不会成立。」：错误。该选项对应「～ない限り」，含义是「除非……否则……」，接续为「Vない形＋限り」，与本题要求的「随着……逐渐……」不符。 C「表示前项连续变化时，后项也自然变化。」：正确。该说明准确概括了「～につれて」的使用场景：表示前项连续变化时，后项也自然变化。 D「表达说话人主观上十分确信，语气较强。」：错误。该选项对应「～に決まっている」，含义是「肯定……；当然……」，接续为「普通形＋に決まっている（ナA／N＋に決まっている）」，与本题要求的「随着……逐渐……」不符。 涉及知识点：～につれて。类似例句1：年を取るにつれて、健康が気になってきた。 类似例句2：気温が上がるにつれて、雪が溶けていく。",
+    "knowledgePointIds": [
+      "KP-GRA-NITSURETE-001"
+    ],
+    "knowledgePointTitles": [
+      "～につれて"
+    ],
+    "difficulty": 4,
+    "reviewWeight": 1.2,
+    "knowledgePointId": "KP-GRA-NITSURETE-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "distinction",
+      "grammar",
+      "变化/结果"
+    ],
+    "estimatedTime": 90
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0100",
+    "level": "N2",
+    "section": "reading",
+    "type": "short_reading",
+    "subType": "question_factory_short_reading",
+    "prompt": "次の短い説明を読んで、二つの文に共通する「～につれて」の働きを選びなさい。\n「年を取るにつれて、健康が気になってきた。」また、「気温が上がるにつれて、雪が溶けていく。」という言い方もある。",
+    "choices": {
+      "A": "带主观解释语气说明原因，常用于辩解。",
+      "B": "表示如果前项不实现，后项就不会成立。",
+      "C": "表达说话人主观上十分确信，语气较强。",
+      "D": "表示前项连续变化时，后项也自然变化。"
+    },
+    "correctAnswer": "D",
+    "explanation": "知识点：～につれて（随着……逐渐……）。接续：N／V辞书形＋につれて。正确答案：D。正确理由：短文中的两个例子都使用「～につれて」表达「随着……逐渐……」。 选项分析：A「带主观解释语气说明原因，常用于辩解。」：错误。该选项对应「～ものだから」，含义是「因为……（解释、辩解）」，接续为「普通形＋ものだから（ナAな／Nな＋ものだから）」，与本题要求的「随着……逐渐……」不符。 B「表示如果前项不实现，后项就不会成立。」：错误。该选项对应「～ない限り」，含义是「除非……否则……」，接续为「Vない形＋限り」，与本题要求的「随着……逐渐……」不符。 C「表达说话人主观上十分确信，语气较强。」：错误。该选项对应「～に決まっている」，含义是「肯定……；当然……」，接续为「普通形＋に決まっている（ナA／N＋に決まっている）」，与本题要求的「随着……逐渐……」不符。 D「表示前项连续变化时，后项也自然变化。」：正确。短文中的两个例子都使用「～につれて」表达「随着……逐渐……」。 涉及知识点：～につれて。类似例句1：年を取るにつれて、健康が気になってきた。 类似例句2：気温が上がるにつれて、雪が溶けていく。",
+    "knowledgePointIds": [
+      "KP-GRA-NITSURETE-001"
+    ],
+    "knowledgePointTitles": [
+      "～につれて"
+    ],
+    "difficulty": 5,
+    "reviewWeight": 1.3,
+    "knowledgePointId": "KP-GRA-NITSURETE-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "short_reading",
+      "grammar",
+      "变化/结果"
+    ],
+    "estimatedTime": 120
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0101",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_sentence",
+    "prompt": "電車がないので、歩く（　　）。",
+    "choices": {
+      "A": "ばかりだ",
+      "B": "しかない",
+      "C": "ばかりか",
+      "D": "ばかりに"
+    },
+    "correctAnswer": "B",
+    "explanation": "知识点：～しかない（只有……；只好……）。接续：V辞书形＋しかない／N＋しかない。正确答案：B。正确理由：句中的接续与语义都符合「～しかない」：表示选择或数量受到严格限制。 选项分析：A「ばかりだ」：错误。该选项对应「～ばかりだ」，含义是「一直……；越来越……」，接续为「V辞书形＋ばかりだ」，与本题要求的「只有……；只好……」不符。 B「しかない」：正确。句中的接续与语义都符合「～しかない」：表示选择或数量受到严格限制。 C「ばかりか」：错误。该选项对应「～ばかりか」，含义是「不但……而且……」，接续为「普通形／N＋ばかりか」，与本题要求的「只有……；只好……」不符。 D「ばかりに」：错误。该选项对应「～ばかりに」，含义是「只因……而……」，接续为「普通形＋ばかりに（ナAな／Nである＋ばかりに）」，与本题要求的「只有……；只好……」不符。 涉及知识点：～しかない。类似例句1：電車がないので、歩くしかない。 类似例句2：残っている方法はこれしかない。",
+    "knowledgePointIds": [
+      "KP-GRA-SHIKANAI-001"
+    ],
+    "knowledgePointTitles": [
+      "～しかない"
+    ],
+    "difficulty": 2,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-SHIKANAI-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "sentence",
+      "grammar",
+      "限定/强调"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0102",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_meaning",
+    "subType": "question_factory_dialogue",
+    "prompt": "A「『残っている方法はこれしかない。』という文を見ました。」\nB「ここで使われた『しかない』は、どんな意味ですか。」",
+    "choices": {
+      "A": "由于过度……而……",
+      "B": "应该……；最好……",
+      "C": "只有……；只好……",
+      "D": "大约；达到……程度"
+    },
+    "correctAnswer": "C",
+    "explanation": "知识点：～しかない（只有……；只好……）。接续：V辞书形＋しかない／N＋しかない。正确答案：C。正确理由：对话引用的例句表达「只有……；只好……」，符合「～しかない」的用法。 选项分析：A「由于过度……而……」：错误。该选项对应「～あまり」，含义是「由于过度……而……」，接续为「V普通形／ナAな／Nの＋あまり」，与本题要求的「只有……；只好……」不符。 B「应该……；最好……」：错误。该选项对应「～ことだ」，含义是「应该……；最好……」，接续为「V辞书形／ない形＋ことだ」，与本题要求的「只有……；只好……」不符。 C「只有……；只好……」：正确。对话引用的例句表达「只有……；只好……」，符合「～しかない」的用法。 D「大约；达到……程度」：错误。该选项对应「～くらい／ぐらい」，含义是「大约；达到……程度」，接续为「N／普通形＋くらい」，与本题要求的「只有……；只好……」不符。 涉及知识点：～しかない。类似例句1：電車がないので、歩くしかない。 类似例句2：残っている方法はこれしかない。",
+    "knowledgePointIds": [
+      "KP-GRA-SHIKANAI-001"
+    ],
+    "knowledgePointTitles": [
+      "～しかない"
+    ],
+    "difficulty": 3,
+    "reviewWeight": 1.1,
+    "knowledgePointId": "KP-GRA-SHIKANAI-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "dialogue",
+      "grammar",
+      "限定/强调"
+    ],
+    "estimatedTime": 75
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0103",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_meaning",
+    "subType": "question_factory_distinction",
+    "prompt": "「～しかない」の用法として最も適切な説明はどれか。\n例：電車がないので、歩くしかない。",
+    "choices": {
+      "A": "书面且正式地表示意图和目的。",
+      "B": "说明命名、判断或结果的依据。",
+      "C": "表示对象，或把两种性质对照。",
+      "D": "表示选择或数量受到严格限制。"
+    },
+    "correctAnswer": "D",
+    "explanation": "知识点：～しかない（只有……；只好……）。接续：V辞书形＋しかない／N＋しかない。正确答案：D。正确理由：该说明准确概括了「～しかない」的使用场景：表示选择或数量受到严格限制。 选项分析：A「书面且正式地表示意图和目的。」：错误。该选项对应「～べく」，含义是「为了……」，接续为「V辞书形＋べく（する→するべく／すべく）」，与本题要求的「只有……；只好……」不符。 B「说明命名、判断或结果的依据。」：错误。该选项对应「～ことから」，含义是「由于……；从……来看」，接续为「普通形＋ことから（ナA／N＋であることから）」，与本题要求的「只有……；只好……」不符。 C「表示对象，或把两种性质对照。」：错误。该选项对应「～に対して」，含义是「相对于……；针对……」，接续为「N＋に対して／に対する＋N」，与本题要求的「只有……；只好……」不符。 D「表示选择或数量受到严格限制。」：正确。该说明准确概括了「～しかない」的使用场景：表示选择或数量受到严格限制。 涉及知识点：～しかない。类似例句1：電車がないので、歩くしかない。 类似例句2：残っている方法はこれしかない。",
+    "knowledgePointIds": [
+      "KP-GRA-SHIKANAI-001"
+    ],
+    "knowledgePointTitles": [
+      "～しかない"
+    ],
+    "difficulty": 4,
+    "reviewWeight": 1.2,
+    "knowledgePointId": "KP-GRA-SHIKANAI-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "distinction",
+      "grammar",
+      "限定/强调"
+    ],
+    "estimatedTime": 90
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0104",
+    "level": "N2",
+    "section": "reading",
+    "type": "short_reading",
+    "subType": "question_factory_short_reading",
+    "prompt": "次の短い説明を読んで、二つの文に共通する「～しかない」の働きを選びなさい。\n「電車がないので、歩くしかない。」また、「残っている方法はこれしかない。」という言い方もある。",
+    "choices": {
+      "A": "表示选择或数量受到严格限制。",
+      "B": "书面且正式地表示意图和目的。",
+      "C": "说明命名、判断或结果的依据。",
+      "D": "表示对象，或把两种性质对照。"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～しかない（只有……；只好……）。接续：V辞书形＋しかない／N＋しかない。正确答案：A。正确理由：短文中的两个例子都使用「～しかない」表达「只有……；只好……」。 选项分析：A「表示选择或数量受到严格限制。」：正确。短文中的两个例子都使用「～しかない」表达「只有……；只好……」。 B「书面且正式地表示意图和目的。」：错误。该选项对应「～べく」，含义是「为了……」，接续为「V辞书形＋べく（する→するべく／すべく）」，与本题要求的「只有……；只好……」不符。 C「说明命名、判断或结果的依据。」：错误。该选项对应「～ことから」，含义是「由于……；从……来看」，接续为「普通形＋ことから（ナA／N＋であることから）」，与本题要求的「只有……；只好……」不符。 D「表示对象，或把两种性质对照。」：错误。该选项对应「～に対して」，含义是「相对于……；针对……」，接续为「N＋に対して／に対する＋N」，与本题要求的「只有……；只好……」不符。 涉及知识点：～しかない。类似例句1：電車がないので、歩くしかない。 类似例句2：残っている方法はこれしかない。",
+    "knowledgePointIds": [
+      "KP-GRA-SHIKANAI-001"
+    ],
+    "knowledgePointTitles": [
+      "～しかない"
+    ],
+    "difficulty": 5,
+    "reviewWeight": 1.3,
+    "knowledgePointId": "KP-GRA-SHIKANAI-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "short_reading",
+      "grammar",
+      "限定/强调"
+    ],
+    "estimatedTime": 120
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0105",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_sentence",
+    "prompt": "資格を取る（　　）、毎日勉強している。",
+    "choices": {
+      "A": "ように",
+      "B": "あげく",
+      "C": "ために",
+      "D": "あまり"
+    },
+    "correctAnswer": "C",
+    "explanation": "知识点：～ために（为了……）。接续：V辞书形／Nの＋ために。正确答案：C。正确理由：句中的接续与语义都符合「～ために」：表示有意志行为的明确目的。 选项分析：A「ように」：错误。该选项对应「～ように」，含义是「为了能够……；以免……」，接续为「V辞书形／ない形＋ように」，与本题要求的「为了……」不符。 B「あげく」：错误。该选项对应「～あげく」，含义是「经过……最终……」，接续为「Vた形／Nの＋あげく」，与本题要求的「为了……」不符。 C「ために」：正确。句中的接续与语义都符合「～ために」：表示有意志行为的明确目的。 D「あまり」：错误。该选项对应「～あまり」，含义是「由于过度……而……」，接续为「V普通形／ナAな／Nの＋あまり」，与本题要求的「为了……」不符。 涉及知识点：～ために。类似例句1：資格を取るために、毎日勉強している。 类似例句2：健康のために、朝歩くことにした。",
+    "knowledgePointIds": [
+      "KP-GRA-TAMENI-001"
+    ],
+    "knowledgePointTitles": [
+      "～ために"
+    ],
+    "difficulty": 2,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-TAMENI-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "sentence",
+      "grammar",
+      "目的"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0106",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_meaning",
+    "subType": "question_factory_dialogue",
+    "prompt": "A「『健康のために、朝歩くことにした。』という文を見ました。」\nB「ここで使われた『ために』は、どんな意味ですか。」",
+    "choices": {
+      "A": "应该……",
+      "B": "决定……",
+      "C": "不得……",
+      "D": "为了……"
+    },
+    "correctAnswer": "D",
+    "explanation": "知识点：～ために（为了……）。接续：V辞书形／Nの＋ために。正确答案：D。正确理由：对话引用的例句表达「为了……」，符合「～ために」的用法。 选项分析：A「应该……」：错误。该选项对应「～べきだ」，含义是「应该……」，接续为「V辞书形＋べきだ（する→するべき／すべき）」，与本题要求的「为了……」不符。 B「决定……」：错误。该选项对应「～ことにする」，含义是「决定……」，接续为「V辞书形／ない形＋ことにする」，与本题要求的「为了……」不符。 C「不得……」：错误。该选项对应「～てはならない」，含义是「不得……」，接续为「Vて形＋はならない」，与本题要求的「为了……」不符。 D「为了……」：正确。对话引用的例句表达「为了……」，符合「～ために」的用法。 涉及知识点：～ために。类似例句1：資格を取るために、毎日勉強している。 类似例句2：健康のために、朝歩くことにした。",
+    "knowledgePointIds": [
+      "KP-GRA-TAMENI-001"
+    ],
+    "knowledgePointTitles": [
+      "～ために"
+    ],
+    "difficulty": 3,
+    "reviewWeight": 1.1,
+    "knowledgePointId": "KP-GRA-TAMENI-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "dialogue",
+      "grammar",
+      "目的"
+    ],
+    "estimatedTime": 75
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0107",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_meaning",
+    "subType": "question_factory_distinction",
+    "prompt": "「～ために」の用法として最も適切な説明はどれか。\n例：資格を取るために、毎日勉強している。",
+    "choices": {
+      "A": "表示有意志行为的明确目的。",
+      "B": "根据传闻或典型迹象作判断。",
+      "C": "书面且正式地表示意图和目的。",
+      "D": "说明命名、判断或结果的依据。"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～ために（为了……）。接续：V辞书形／Nの＋ために。正确答案：A。正确理由：该说明准确概括了「～ために」的使用场景：表示有意志行为的明确目的。 选项分析：A「表示有意志行为的明确目的。」：正确。该说明准确概括了「～ために」的使用场景：表示有意志行为的明确目的。 B「根据传闻或典型迹象作判断。」：错误。该选项对应「～らしい」，含义是「听说……；似乎……」，接续为「普通形＋らしい（ナA／N＋らしい）」，与本题要求的「为了……」不符。 C「书面且正式地表示意图和目的。」：错误。该选项对应「～べく」，含义是「为了……」，接续为「V辞书形＋べく（する→するべく／すべく）」，与本题要求的「为了……」不符。 D「说明命名、判断或结果的依据。」：错误。该选项对应「～ことから」，含义是「由于……；从……来看」，接续为「普通形＋ことから（ナA／N＋であることから）」，与本题要求的「为了……」不符。 涉及知识点：～ために。类似例句1：資格を取るために、毎日勉強している。 类似例句2：健康のために、朝歩くことにした。",
+    "knowledgePointIds": [
+      "KP-GRA-TAMENI-001"
+    ],
+    "knowledgePointTitles": [
+      "～ために"
+    ],
+    "difficulty": 4,
+    "reviewWeight": 1.2,
+    "knowledgePointId": "KP-GRA-TAMENI-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "distinction",
+      "grammar",
+      "目的"
+    ],
+    "estimatedTime": 90
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0108",
+    "level": "N2",
+    "section": "reading",
+    "type": "short_reading",
+    "subType": "question_factory_short_reading",
+    "prompt": "次の短い説明を読んで、二つの文に共通する「～ために」の働きを選びなさい。\n「資格を取るために、毎日勉強している。」また、「健康のために、朝歩くことにした。」という言い方もある。",
+    "choices": {
+      "A": "根据传闻或典型迹象作判断。",
+      "B": "表示有意志行为的明确目的。",
+      "C": "书面且正式地表示意图和目的。",
+      "D": "说明命名、判断或结果的依据。"
+    },
+    "correctAnswer": "B",
+    "explanation": "知识点：～ために（为了……）。接续：V辞书形／Nの＋ために。正确答案：B。正确理由：短文中的两个例子都使用「～ために」表达「为了……」。 选项分析：A「根据传闻或典型迹象作判断。」：错误。该选项对应「～らしい」，含义是「听说……；似乎……」，接续为「普通形＋らしい（ナA／N＋らしい）」，与本题要求的「为了……」不符。 B「表示有意志行为的明确目的。」：正确。短文中的两个例子都使用「～ために」表达「为了……」。 C「书面且正式地表示意图和目的。」：错误。该选项对应「～べく」，含义是「为了……」，接续为「V辞书形＋べく（する→するべく／すべく）」，与本题要求的「为了……」不符。 D「说明命名、判断或结果的依据。」：错误。该选项对应「～ことから」，含义是「由于……；从……来看」，接续为「普通形＋ことから（ナA／N＋であることから）」，与本题要求的「为了……」不符。 涉及知识点：～ために。类似例句1：資格を取るために、毎日勉強している。 类似例句2：健康のために、朝歩くことにした。",
+    "knowledgePointIds": [
+      "KP-GRA-TAMENI-001"
+    ],
+    "knowledgePointTitles": [
+      "～ために"
+    ],
+    "difficulty": 5,
+    "reviewWeight": 1.3,
+    "knowledgePointId": "KP-GRA-TAMENI-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "short_reading",
+      "grammar",
+      "目的"
+    ],
+    "estimatedTime": 120
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0109",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_sentence",
+    "prompt": "忘れない（　　）、メモしておきます。",
+    "choices": {
+      "A": "ために",
+      "B": "あげく",
+      "C": "あまり",
+      "D": "ように"
+    },
+    "correctAnswer": "D",
+    "explanation": "知识点：～ように（为了能够……；以免……）。接续：V辞书形／ない形＋ように。正确答案：D。正确理由：句中的接续与语义都符合「～ように」：用于能力、状态或非意志结果的目标。 选项分析：A「ために」：错误。该选项对应「～ために」，含义是「为了……」，接续为「V辞书形／Nの＋ために」，与本题要求的「为了能够……；以免……」不符。 B「あげく」：错误。该选项对应「～あげく」，含义是「经过……最终……」，接续为「Vた形／Nの＋あげく」，与本题要求的「为了能够……；以免……」不符。 C「あまり」：错误。该选项对应「～あまり」，含义是「由于过度……而……」，接续为「V普通形／ナAな／Nの＋あまり」，与本题要求的「为了能够……；以免……」不符。 D「ように」：正确。句中的接续与语义都符合「～ように」：用于能力、状态或非意志结果的目标。 涉及知识点：～ように。类似例句1：忘れないように、メモしておきます。 类似例句2：日本語が話せるように、毎日練習している。",
+    "knowledgePointIds": [
+      "KP-GRA-YOUNI-001"
+    ],
+    "knowledgePointTitles": [
+      "～ように"
+    ],
+    "difficulty": 2,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-YOUNI-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "sentence",
+      "grammar",
+      "目的"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0110",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_meaning",
+    "subType": "question_factory_dialogue",
+    "prompt": "A「『日本語が話せるように、毎日練習している。』という文を見ました。」\nB「ここで使われた『ように』は、どんな意味ですか。」",
+    "choices": {
+      "A": "为了能够……；以免……",
+      "B": "有可能发生……（坏事）",
+      "C": "因为……（解释、辩解）",
+      "D": "值此……之际；在……时"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～ように（为了能够……；以免……）。接续：V辞书形／ない形＋ように。正确答案：A。正确理由：对话引用的例句表达「为了能够……；以免……」，符合「～ように」的用法。 选项分析：A「为了能够……；以免……」：正确。对话引用的例句表达「为了能够……；以免……」，符合「～ように」的用法。 B「有可能发生……（坏事）」：错误。该选项对应「～かねない」，含义是「有可能发生……（坏事）」，接续为「Vます形去ます＋かねない」，与本题要求的「为了能够……；以免……」不符。 C「因为……（解释、辩解）」：错误。该选项对应「～ものだから」，含义是「因为……（解释、辩解）」，接续为「普通形＋ものだから（ナAな／Nな＋ものだから）」，与本题要求的「为了能够……；以免……」不符。 D「值此……之际；在……时」：错误。该选项对应「～に際して」，含义是「值此……之际；在……时」，接续为「N／V辞书形＋に際して／に際し」，与本题要求的「为了能够……；以免……」不符。 涉及知识点：～ように。类似例句1：忘れないように、メモしておきます。 类似例句2：日本語が話せるように、毎日練習している。",
+    "knowledgePointIds": [
+      "KP-GRA-YOUNI-001"
+    ],
+    "knowledgePointTitles": [
+      "～ように"
+    ],
+    "difficulty": 3,
+    "reviewWeight": 1.1,
+    "knowledgePointId": "KP-GRA-YOUNI-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "dialogue",
+      "grammar",
+      "目的"
+    ],
+    "estimatedTime": 75
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0111",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_meaning",
+    "subType": "question_factory_distinction",
+    "prompt": "「～ように」の用法として最も適切な説明はどれか。\n例：忘れないように、メモしておきます。",
+    "choices": {
+      "A": "根据事实、计划或逻辑作出合理预期。",
+      "B": "用于能力、状态或非意志结果的目标。",
+      "C": "表示社会规定、组织安排或既定计划。",
+      "D": "表示否定推量，或说话人的否定意志。"
+    },
+    "correctAnswer": "B",
+    "explanation": "知识点：～ように（为了能够……；以免……）。接续：V辞书形／ない形＋ように。正确答案：B。正确理由：该说明准确概括了「～ように」的使用场景：用于能力、状态或非意志结果的目标。 选项分析：A「根据事实、计划或逻辑作出合理预期。」：错误。该选项对应「～はずだ」，含义是「按理应该……」，接续为「普通形＋はずだ（ナAな／Nの＋はずだ）」，与本题要求的「为了能够……；以免……」不符。 B「用于能力、状态或非意志结果的目标。」：正确。该说明准确概括了「～ように」的使用场景：用于能力、状态或非意志结果的目标。 C「表示社会规定、组织安排或既定计划。」：错误。该选项对应「～ことになっている」，含义是「规定……；按计划……」，接续为「V辞书形／ない形＋ことになっている」，与本题要求的「为了能够……；以免……」不符。 D「表示否定推量，或说话人的否定意志。」：错误。该选项对应「～まい」，含义是「不会……吧；绝不……」，接续为「V辞书形＋まい（するまい／すまい）」，与本题要求的「为了能够……；以免……」不符。 涉及知识点：～ように。类似例句1：忘れないように、メモしておきます。 类似例句2：日本語が話せるように、毎日練習している。",
+    "knowledgePointIds": [
+      "KP-GRA-YOUNI-001"
+    ],
+    "knowledgePointTitles": [
+      "～ように"
+    ],
+    "difficulty": 4,
+    "reviewWeight": 1.2,
+    "knowledgePointId": "KP-GRA-YOUNI-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "distinction",
+      "grammar",
+      "目的"
+    ],
+    "estimatedTime": 90
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0112",
+    "level": "N2",
+    "section": "reading",
+    "type": "short_reading",
+    "subType": "question_factory_short_reading",
+    "prompt": "次の短い説明を読んで、二つの文に共通する「～ように」の働きを選びなさい。\n「忘れないように、メモしておきます。」また、「日本語が話せるように、毎日練習している。」という言い方もある。",
+    "choices": {
+      "A": "根据事实、计划或逻辑作出合理预期。",
+      "B": "表示社会规定、组织安排或既定计划。",
+      "C": "用于能力、状态或非意志结果的目标。",
+      "D": "表示否定推量，或说话人的否定意志。"
+    },
+    "correctAnswer": "C",
+    "explanation": "知识点：～ように（为了能够……；以免……）。接续：V辞书形／ない形＋ように。正确答案：C。正确理由：短文中的两个例子都使用「～ように」表达「为了能够……；以免……」。 选项分析：A「根据事实、计划或逻辑作出合理预期。」：错误。该选项对应「～はずだ」，含义是「按理应该……」，接续为「普通形＋はずだ（ナAな／Nの＋はずだ）」，与本题要求的「为了能够……；以免……」不符。 B「表示社会规定、组织安排或既定计划。」：错误。该选项对应「～ことになっている」，含义是「规定……；按计划……」，接续为「V辞书形／ない形＋ことになっている」，与本题要求的「为了能够……；以免……」不符。 C「用于能力、状态或非意志结果的目标。」：正确。短文中的两个例子都使用「～ように」表达「为了能够……；以免……」。 D「表示否定推量，或说话人的否定意志。」：错误。该选项对应「～まい」，含义是「不会……吧；绝不……」，接续为「V辞书形＋まい（するまい／すまい）」，与本题要求的「为了能够……；以免……」不符。 涉及知识点：～ように。类似例句1：忘れないように、メモしておきます。 类似例句2：日本語が話せるように、毎日練習している。",
+    "knowledgePointIds": [
+      "KP-GRA-YOUNI-001"
+    ],
+    "knowledgePointTitles": [
+      "～ように"
+    ],
+    "difficulty": 5,
+    "reviewWeight": 1.3,
+    "knowledgePointId": "KP-GRA-YOUNI-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "short_reading",
+      "grammar",
+      "目的"
+    ],
+    "estimatedTime": 120
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0113",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_choice",
+    "subType": "question_factory_sentence",
+    "prompt": "駅まで十分（　　）かかります。",
+    "choices": {
+      "A": "くらい／ぐらい",
+      "B": "どころではない",
+      "C": "ないことはない",
+      "D": "にほかならない"
+    },
+    "correctAnswer": "A",
+    "explanation": "知识点：～くらい／ぐらい（大约；达到……程度）。接续：N／普通形＋くらい。正确答案：A。正确理由：句中的接续与语义都符合「～くらい／ぐらい」：表示大概数量，或举例说明程度。 选项分析：A「くらい／ぐらい」：正确。句中的接续与语义都符合「～くらい／ぐらい」：表示大概数量，或举例说明程度。 B「どころではない」：错误。该选项对应「～どころではない」，含义是「根本不是……的时候；谈不上……」，接续为「V辞书形／N＋どころではない」，与本题要求的「大约；达到……程度」不符。 C「ないことはない」：错误。该选项对应「～ないことはない」，含义是「并非不能……」，接续为「Vない形＋ことはない」，与本题要求的「大约；达到……程度」不符。 D「にほかならない」：错误。该选项对应「～にほかならない」，含义是「正是……；无非是……」，接续为「N＋にほかならない」，与本题要求的「大约；达到……程度」不符。 涉及知识点：～くらい／ぐらい。类似例句1：駅まで十分くらいかかります。 类似例句2：声が出ないくらい緊張した。",
+    "knowledgePointIds": [
+      "KP-GRA-KURAI-001"
+    ],
+    "knowledgePointTitles": [
+      "～くらい／ぐらい"
+    ],
+    "difficulty": 2,
+    "reviewWeight": 1,
+    "knowledgePointId": "KP-GRA-KURAI-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "sentence",
+      "grammar",
+      "比较/程度"
+    ],
+    "estimatedTime": 60
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0114",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_meaning",
+    "subType": "question_factory_dialogue",
+    "prompt": "A「『声が出ないくらい緊張した。』という文を見ました。」\nB「ここで使われた『くらい／ぐらい』は、どんな意味ですか。」",
+    "choices": {
+      "A": "由于过度……而……",
+      "B": "大约；达到……程度",
+      "C": "应该……；最好……",
+      "D": "一定……；肯定……"
+    },
+    "correctAnswer": "B",
+    "explanation": "知识点：～くらい／ぐらい（大约；达到……程度）。接续：N／普通形＋くらい。正确答案：B。正确理由：对话引用的例句表达「大约；达到……程度」，符合「～くらい／ぐらい」的用法。 选项分析：A「由于过度……而……」：错误。该选项对应「～あまり」，含义是「由于过度……而……」，接续为「V普通形／ナAな／Nの＋あまり」，与本题要求的「大约；达到……程度」不符。 B「大约；达到……程度」：正确。对话引用的例句表达「大约；达到……程度」，符合「～くらい／ぐらい」的用法。 C「应该……；最好……」：错误。该选项对应「～ことだ」，含义是「应该……；最好……」，接续为「V辞书形／ない形＋ことだ」，与本题要求的「大约；达到……程度」不符。 D「一定……；肯定……」：错误。该选项对应「～に違いない」，含义是「一定……；肯定……」，接续为「普通形＋に違いない（ナA／N＋に違いない）」，与本题要求的「大约；达到……程度」不符。 涉及知识点：～くらい／ぐらい。类似例句1：駅まで十分くらいかかります。 类似例句2：声が出ないくらい緊張した。",
+    "knowledgePointIds": [
+      "KP-GRA-KURAI-001"
+    ],
+    "knowledgePointTitles": [
+      "～くらい／ぐらい"
+    ],
+    "difficulty": 3,
+    "reviewWeight": 1.1,
+    "knowledgePointId": "KP-GRA-KURAI-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "dialogue",
+      "grammar",
+      "比较/程度"
+    ],
+    "estimatedTime": 75
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0115",
+    "level": "N2",
+    "section": "grammar",
+    "type": "grammar_meaning",
+    "subType": "question_factory_distinction",
+    "prompt": "「～くらい／ぐらい」の用法として最も適切な説明はどれか。\n例：駅まで十分くらいかかります。",
+    "choices": {
+      "A": "说明同一事物同时具有正反两面。",
+      "B": "根据证据作出确信度很高的判断。",
+      "C": "表示大概数量，或举例说明程度。",
+      "D": "基于常识或事实强烈否定可能性。"
+    },
+    "correctAnswer": "C",
+    "explanation": "知识点：～くらい／ぐらい（大约；达到……程度）。接续：N／普通形＋くらい。正确答案：C。正确理由：该说明准确概括了「～くらい／ぐらい」的使用场景：表示大概数量，或举例说明程度。 选项分析：A「说明同一事物同时具有正反两面。」：错误。该选项对应「～反面」，含义是「另一方面；反面」，接续为「普通形＋反面（ナAな／である・Nである＋反面）」，与本题要求的「大约；达到……程度」不符。 B「根据证据作出确信度很高的判断。」：错误。该选项对应「～に違いない」，含义是「一定……；肯定……」，接续为「普通形＋に違いない（ナA／N＋に違いない）」，与本题要求的「大约；达到……程度」不符。 C「表示大概数量，或举例说明程度。」：正确。该说明准确概括了「～くらい／ぐらい」的使用场景：表示大概数量，或举例说明程度。 D「基于常识或事实强烈否定可能性。」：错误。该选项对应「～わけがない」，含义是「不可能……」，接续为「普通形＋わけがない（ナAな／Nの＋わけがない）」，与本题要求的「大约；达到……程度」不符。 涉及知识点：～くらい／ぐらい。类似例句1：駅まで十分くらいかかります。 类似例句2：声が出ないくらい緊張した。",
+    "knowledgePointIds": [
+      "KP-GRA-KURAI-001"
+    ],
+    "knowledgePointTitles": [
+      "～くらい／ぐらい"
+    ],
+    "difficulty": 4,
+    "reviewWeight": 1.2,
+    "knowledgePointId": "KP-GRA-KURAI-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "distinction",
+      "grammar",
+      "比较/程度"
+    ],
+    "estimatedTime": 90
+  },
+  {
+    "questionId": "Q-N2-FAC-S14-0116",
+    "level": "N2",
+    "section": "reading",
+    "type": "short_reading",
+    "subType": "question_factory_short_reading",
+    "prompt": "次の短い説明を読んで、二つの文に共通する「～くらい／ぐらい」の働きを選びなさい。\n「駅まで十分くらいかかります。」また、「声が出ないくらい緊張した。」という言い方もある。",
+    "choices": {
+      "A": "说明同一事物同时具有正反两面。",
+      "B": "根据证据作出确信度很高的判断。",
+      "C": "基于常识或事实强烈否定可能性。",
+      "D": "表示大概数量，或举例说明程度。"
+    },
+    "correctAnswer": "D",
+    "explanation": "知识点：～くらい／ぐらい（大约；达到……程度）。接续：N／普通形＋くらい。正确答案：D。正确理由：短文中的两个例子都使用「～くらい／ぐらい」表达「大约；达到……程度」。 选项分析：A「说明同一事物同时具有正反两面。」：错误。该选项对应「～反面」，含义是「另一方面；反面」，接续为「普通形＋反面（ナAな／である・Nである＋反面）」，与本题要求的「大约；达到……程度」不符。 B「根据证据作出确信度很高的判断。」：错误。该选项对应「～に違いない」，含义是「一定……；肯定……」，接续为「普通形＋に違いない（ナA／N＋に違いない）」，与本题要求的「大约；达到……程度」不符。 C「基于常识或事实强烈否定可能性。」：错误。该选项对应「～わけがない」，含义是「不可能……」，接续为「普通形＋わけがない（ナAな／Nの＋わけがない）」，与本题要求的「大约；达到……程度」不符。 D「表示大概数量，或举例说明程度。」：正确。短文中的两个例子都使用「～くらい／ぐらい」表达「大约；达到……程度」。 涉及知识点：～くらい／ぐらい。类似例句1：駅まで十分くらいかかります。 类似例句2：声が出ないくらい緊張した。",
+    "knowledgePointIds": [
+      "KP-GRA-KURAI-001"
+    ],
+    "knowledgePointTitles": [
+      "～くらい／ぐらい"
+    ],
+    "difficulty": 5,
+    "reviewWeight": 1.3,
+    "knowledgePointId": "KP-GRA-KURAI-001",
+    "generationType": "question_factory",
+    "sourceType": "ai_generated",
+    "version": 1,
+    "createdAt": "2026-07-02T15:46:15.789Z",
+    "updatedAt": "2026-07-02T15:46:15.789Z",
+    "sourceName": "JLPT N2 AI Learning System Question Factory",
+    "tags": [
+      "question_factory",
+      "sprint14",
+      "short_reading",
+      "grammar",
+      "比较/程度"
+    ],
+    "estimatedTime": 120
   }
 ]

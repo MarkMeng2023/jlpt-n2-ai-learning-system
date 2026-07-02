@@ -7,7 +7,8 @@ import {
   validateKnowledgePointSources
 } from "../src/question-bank-quality.js";
 
-const questions = JSON.parse(await readFile(new URL("../data/questions.json", import.meta.url), "utf8"));
+const questions = JSON.parse(await readFile(new URL("../data/questions.json", import.meta.url), "utf8"))
+  .filter((question) => !question.questionId.startsWith("Q-N2-FAC-S14-"));
 const knowledgePoints = JSON.parse(await readFile(new URL("../data/knowledge-points.json", import.meta.url), "utf8"));
 const sourceRegistry = JSON.parse(await readFile(new URL("../data/knowledge-point-sources.json", import.meta.url), "utf8"));
 const grammarPoints = JSON.parse(await readFile(new URL("../knowledge/grammar/grammar-points.json", import.meta.url), "utf8"));

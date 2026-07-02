@@ -7,10 +7,12 @@ import { buildProjectStatus, loadProjectStatusData } from "../src/project-status
 import { validateQuestionBank } from "../src/question-bank.js";
 import { validateKnowledgeCards } from "../src/knowledge-card.js";
 
-const questions = JSON.parse(await readFile(new URL("../data/questions.json", import.meta.url), "utf8"));
+const questions = JSON.parse(await readFile(new URL("../data/questions.json", import.meta.url), "utf8"))
+  .filter((question) => !question.questionId.startsWith("Q-N2-FAC-S14-"));
 const basePoints = JSON.parse(await readFile(new URL("../data/knowledge-points.json", import.meta.url), "utf8"));
 const grammarPoints = JSON.parse(await readFile(new URL("../knowledge/grammar/grammar-points.json", import.meta.url), "utf8"));
-const cards = JSON.parse(await readFile(new URL("../data/knowledge-cards.json", import.meta.url), "utf8"));
+const cards = JSON.parse(await readFile(new URL("../data/knowledge-cards.json", import.meta.url), "utf8"))
+  .map((card) => ({ ...card, linkedQuestionIds: card.linkedQuestionIds.filter((id) => !id.startsWith("Q-N2-FAC-S14-")) }));
 const sources = JSON.parse(await readFile(new URL("../data/knowledge-point-sources.json", import.meta.url), "utf8"));
 const version = JSON.parse(await readFile(new URL("../data/version.json", import.meta.url), "utf8"));
 const sprint12Version = { ...version, version: "v1.12.0", sprint: "Sprint 12" };

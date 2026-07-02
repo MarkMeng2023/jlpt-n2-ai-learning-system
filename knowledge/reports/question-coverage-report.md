@@ -5,12 +5,12 @@
 ## 摘要
 
 - 知识点总数：**100**
-- 当前题目数：**205**
-- 当前题目—知识点关联数：**205**
+- 当前题目数：**321**
+- 当前题目—知识点关联数：**321**
 - 理论目标关联数：**845**
-- 总缺口：**640**
-- 目标完成率：**24.26%**
-- 至少有 1 题的知识点：**50/100（50.00%）**
+- 总缺口：**524**
+- 目标完成率：**37.99%**
+- 至少有 1 题的知识点：**79/100（79.00%）**
 
 ## 覆盖规则
 
@@ -27,43 +27,14 @@
 
 | Knowledge Point | 标题 | 类型 | 当前 | 目标 | 缺口 | 完成率 |
 | --- | --- | --- | ---: | ---: | ---: | ---: |
-| KP-GRA-KOTONINATTEIRU-001 | ～ことになっている | grammar | 0 | 8 | 8 | 0.00% |
-| KP-GRA-KOTOWANAI-001 | ～ことはない | grammar | 0 | 8 | 8 | 0.00% |
-| KP-GRA-KUSENI-001 | ～くせに | grammar | 0 | 8 | 8 | 0.00% |
-| KP-GRA-NAIKAGIRI-001 | ～ない限り | grammar | 0 | 8 | 8 | 0.00% |
-| KP-GRA-NIHANSHITE-001 | ～に反して | grammar | 0 | 8 | 8 | 0.00% |
-| KP-GRA-NIMUKETE-001 | ～に向けて | grammar | 0 | 8 | 8 | 0.00% |
-| KP-GRA-NISONAETE-001 | ～に備えて | grammar | 0 | 8 | 8 | 0.00% |
-| KP-GRA-OKAGEDE-001 | ～おかげで | grammar | 0 | 8 | 8 | 0.00% |
-| KP-GRA-SAE-001 | ～さえ | grammar | 0 | 8 | 8 | 0.00% |
-| KP-GRA-SAEBA-001 | ～さえ～ば | grammar | 0 | 8 | 8 | 0.00% |
-| KP-GRA-SEIDE-001 | ～せいで | grammar | 0 | 8 | 8 | 0.00% |
-| KP-GRA-TABINI-001 | ～たびに | grammar | 0 | 8 | 8 | 0.00% |
-| KP-GRA-TOSHITARA-001 | ～としたら | grammar | 0 | 8 | 8 | 0.00% |
-| KP-GRA-TOSUREBA-001 | ～とすれば | grammar | 0 | 8 | 8 | 0.00% |
-| KP-GRA-TOWAIE-001 | ～とはいえ | grammar | 0 | 8 | 8 | 0.00% |
-| KP-GRA-UCHINI-001 | ～うちに | grammar | 0 | 8 | 8 | 0.00% |
-| KP-GRA-WAKEGANAI-001 | ～わけがない | grammar | 0 | 8 | 8 | 0.00% |
-| KP-GRA-YOUNINARU-001 | ～ようになる | grammar | 0 | 8 | 8 | 0.00% |
-| KP-GRA-KOTONINARU-001 | ～ことになる | grammar | 0 | 8 | 8 | 0.00% |
-| KP-GRA-KOTONISURU-001 | ～ことにする | grammar | 0 | 8 | 8 | 0.00% |
-| KP-GRA-KURAI-001 | ～くらい／ぐらい | grammar | 0 | 8 | 8 | 0.00% |
 | KP-GRA-NAGARAMO-001 | ～ながらも | grammar | 0 | 8 | 8 | 0.00% |
-| KP-GRA-NAIWAKENIHAIKANAI-001 | ～ないわけにはいかない | grammar | 0 | 8 | 8 | 0.00% |
-| KP-GRA-NIKURABETE-001 | ～に比べて | grammar | 0 | 8 | 8 | 0.00% |
-| KP-GRA-NISHITAGATTE-001 | ～に従って | grammar | 0 | 8 | 8 | 0.00% |
 | KP-GRA-NISHITEWA-001 | ～にしては | grammar | 0 | 8 | 8 | 0.00% |
-| KP-GRA-NITAISHITE-001 | ～に対して | grammar | 0 | 8 | 8 | 0.00% |
-| KP-GRA-NITSURETE-001 | ～につれて | grammar | 0 | 8 | 8 | 0.00% |
 | KP-GRA-RASHII-001 | ～らしい | grammar | 0 | 8 | 8 | 0.00% |
 | KP-GRA-SAICHUUNI-001 | ～最中に | grammar | 0 | 8 | 8 | 0.00% |
-| KP-GRA-SHIKANAI-001 | ～しかない | grammar | 0 | 8 | 8 | 0.00% |
-| KP-GRA-TAMENI-001 | ～ために | grammar | 0 | 8 | 8 | 0.00% |
 | KP-GRA-TOTOMONI-001 | ～とともに | grammar | 0 | 8 | 8 | 0.00% |
 | KP-GRA-WARINI-001 | ～わりに | grammar | 0 | 8 | 8 | 0.00% |
 | KP-GRA-YOUDA-001 | ～ようだ | grammar | 0 | 8 | 8 | 0.00% |
 | KP-GRA-YOUMONONARA-001 | ～ようものなら | grammar | 0 | 8 | 8 | 0.00% |
-| KP-GRA-YOUNI-001 | ～ように | grammar | 0 | 8 | 8 | 0.00% |
 | KP-ADV-ARAKAJIME-001 | あらかじめ | adverb | 2 | 8 | 6 | 25.00% |
 | KP-ADV-ISSO-001 | いっそう | adverb | 2 | 8 | 6 | 25.00% |
 | KP-ADV-ROKUNI-001 | ろくに～ない | adverb | 2 | 8 | 6 | 25.00% |
@@ -111,7 +82,36 @@
 | KP-GRA-HODO-001 | ～ほど | grammar | 4 | 8 | 4 | 50.00% |
 | KP-GRA-IPPOUDE-001 | ～一方で | grammar | 4 | 8 | 4 | 50.00% |
 | KP-GRA-NIHOKANARANAI-001 | ～にほかならない | grammar | 2 | 8 | 6 | 25.00% |
+| KP-GRA-KOTONINATTEIRU-001 | ～ことになっている | grammar | 4 | 8 | 4 | 50.00% |
+| KP-GRA-KOTOWANAI-001 | ～ことはない | grammar | 4 | 8 | 4 | 50.00% |
+| KP-GRA-KUSENI-001 | ～くせに | grammar | 4 | 8 | 4 | 50.00% |
+| KP-GRA-NAIKAGIRI-001 | ～ない限り | grammar | 4 | 8 | 4 | 50.00% |
+| KP-GRA-NIHANSHITE-001 | ～に反して | grammar | 4 | 8 | 4 | 50.00% |
+| KP-GRA-NIMUKETE-001 | ～に向けて | grammar | 4 | 8 | 4 | 50.00% |
+| KP-GRA-NISONAETE-001 | ～に備えて | grammar | 4 | 8 | 4 | 50.00% |
+| KP-GRA-OKAGEDE-001 | ～おかげで | grammar | 4 | 8 | 4 | 50.00% |
+| KP-GRA-SAE-001 | ～さえ | grammar | 4 | 8 | 4 | 50.00% |
+| KP-GRA-SAEBA-001 | ～さえ～ば | grammar | 4 | 8 | 4 | 50.00% |
+| KP-GRA-SEIDE-001 | ～せいで | grammar | 4 | 8 | 4 | 50.00% |
+| KP-GRA-TABINI-001 | ～たびに | grammar | 4 | 8 | 4 | 50.00% |
+| KP-GRA-TOSHITARA-001 | ～としたら | grammar | 4 | 8 | 4 | 50.00% |
+| KP-GRA-TOSUREBA-001 | ～とすれば | grammar | 4 | 8 | 4 | 50.00% |
+| KP-GRA-TOWAIE-001 | ～とはいえ | grammar | 4 | 8 | 4 | 50.00% |
+| KP-GRA-UCHINI-001 | ～うちに | grammar | 4 | 8 | 4 | 50.00% |
+| KP-GRA-WAKEGANAI-001 | ～わけがない | grammar | 4 | 8 | 4 | 50.00% |
+| KP-GRA-YOUNINARU-001 | ～ようになる | grammar | 4 | 8 | 4 | 50.00% |
 | KP-GRA-ZARUOENAI-001 | ～ざるを得ない | grammar | 2 | 8 | 6 | 25.00% |
+| KP-GRA-KOTONINARU-001 | ～ことになる | grammar | 4 | 8 | 4 | 50.00% |
+| KP-GRA-KOTONISURU-001 | ～ことにする | grammar | 4 | 8 | 4 | 50.00% |
+| KP-GRA-KURAI-001 | ～くらい／ぐらい | grammar | 4 | 8 | 4 | 50.00% |
+| KP-GRA-NAIWAKENIHAIKANAI-001 | ～ないわけにはいかない | grammar | 4 | 8 | 4 | 50.00% |
+| KP-GRA-NIKURABETE-001 | ～に比べて | grammar | 4 | 8 | 4 | 50.00% |
+| KP-GRA-NISHITAGATTE-001 | ～に従って | grammar | 4 | 8 | 4 | 50.00% |
+| KP-GRA-NITAISHITE-001 | ～に対して | grammar | 4 | 8 | 4 | 50.00% |
+| KP-GRA-NITSURETE-001 | ～につれて | grammar | 4 | 8 | 4 | 50.00% |
+| KP-GRA-SHIKANAI-001 | ～しかない | grammar | 4 | 8 | 4 | 50.00% |
+| KP-GRA-TAMENI-001 | ～ために | grammar | 4 | 8 | 4 | 50.00% |
+| KP-GRA-YOUNI-001 | ～ように | grammar | 4 | 8 | 4 | 50.00% |
 | KP-GRA-NITOMONATTE-001 | ～に伴って | grammar | 4 | 8 | 4 | 50.00% |
 | KP-GRA-AGEKU-001 | ～あげく | grammar | 4 | 8 | 4 | 50.00% |
 | KP-GRA-BAKARIDA-001 | ～ばかりだ | grammar | 4 | 8 | 4 | 50.00% |

@@ -1,6 +1,6 @@
 # 题库质量报告
 
-Generated: 2026-07-01T16:29:39.982Z
+Generated: 2026-07-02T15:46:15.968Z
 
 扩题门禁：**HOLD**
 
@@ -8,7 +8,7 @@ Generated: 2026-07-01T16:29:39.982Z
 
 | 指标 | 数量 |
 | --- | ---: |
-| 题目数 | 205 |
+| 题目数 | 321 |
 | 知识点数 | 30 |
 | 已验证知识点 | 5 |
 | 仅有 AI 来源的知识点 | 25 |
@@ -265,6 +265,122 @@ Generated: 2026-07-01T16:29:39.982Z
 | Q-N2-FAC-S12-0038 | ai_generated | JLPT N2 AI Learning System Question Factory |
 | Q-N2-FAC-S12-0039 | ai_generated | JLPT N2 AI Learning System Question Factory |
 | Q-N2-FAC-S12-0040 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0001 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0002 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0003 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0004 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0005 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0006 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0007 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0008 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0009 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0010 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0011 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0012 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0013 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0014 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0015 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0016 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0017 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0018 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0019 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0020 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0021 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0022 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0023 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0024 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0025 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0026 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0027 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0028 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0029 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0030 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0031 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0032 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0033 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0034 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0035 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0036 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0037 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0038 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0039 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0040 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0041 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0042 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0043 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0044 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0045 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0046 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0047 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0048 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0049 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0050 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0051 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0052 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0053 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0054 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0055 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0056 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0057 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0058 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0059 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0060 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0061 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0062 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0063 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0064 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0065 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0066 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0067 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0068 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0069 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0070 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0071 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0072 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0073 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0074 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0075 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0076 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0077 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0078 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0079 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0080 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0081 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0082 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0083 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0084 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0085 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0086 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0087 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0088 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0089 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0090 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0091 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0092 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0093 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0094 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0095 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0096 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0097 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0098 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0099 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0100 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0101 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0102 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0103 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0104 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0105 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0106 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0107 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0108 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0109 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0110 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0111 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0112 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0113 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0114 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0115 | ai_generated | JLPT N2 AI Learning System Question Factory |
+| Q-N2-FAC-S14-0116 | ai_generated | JLPT N2 AI Learning System Question Factory |
 
 ## 仅有 AI 来源的知识点
 
