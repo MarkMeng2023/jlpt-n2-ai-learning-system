@@ -6,9 +6,9 @@ import { buildQuestionFactoryPlan } from "../src/question-factory.js";
 import { buildProjectStatus } from "../src/project-status.js";
 
 const cards = JSON.parse(await readFile(new URL("../data/knowledge-cards.json", import.meta.url), "utf8"))
-  .map((card) => ({ ...card, linkedQuestionIds: card.linkedQuestionIds.filter((id) => !id.startsWith("Q-N2-FAC-S14-") && !id.startsWith("Q-N2-FAC-S15-")) }));
+  .map((card) => ({ ...card, linkedQuestionIds: card.linkedQuestionIds.filter((id) => !id.startsWith("Q-N2-FAC-S14-") && !id.startsWith("Q-N2-FAC-S15-") && !id.startsWith("Q-N2-FAC-S16-") && !id.startsWith("Q-N2-FAC-S17-")) }));
 const questions = JSON.parse(await readFile(new URL("../data/questions.json", import.meta.url), "utf8"))
-  .filter((question) => !question.questionId.startsWith("Q-N2-FAC-S14-") && !question.questionId.startsWith("Q-N2-FAC-S15-"));
+  .filter((question) => !question.questionId.startsWith("Q-N2-FAC-S14-") && !question.questionId.startsWith("Q-N2-FAC-S15-") && !question.questionId.startsWith("Q-N2-FAC-S16-") && !question.questionId.startsWith("Q-N2-FAC-S17-"));
 const points = JSON.parse(await readFile(new URL("../data/knowledge-points.json", import.meta.url), "utf8"));
 const grammar = JSON.parse(await readFile(new URL("../knowledge/grammar/grammar-points.json", import.meta.url), "utf8"));
 const version = JSON.parse(await readFile(new URL("../data/version.json", import.meta.url), "utf8"));

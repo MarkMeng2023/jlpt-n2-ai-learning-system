@@ -5,7 +5,7 @@ import { buildExamCoverage } from "../src/exam-coverage.js";
 import { analyzeQuestionBankQuality } from "../src/question-bank-quality.js";
 
 const questions = JSON.parse(await readFile(new URL("../data/questions.json", import.meta.url), "utf8"))
-  .filter((question) => !question.questionId.startsWith("Q-N2-FAC-S15-"));
+  .filter((question) => !question.questionId.startsWith("Q-N2-FAC-S15-") && !question.questionId.startsWith("Q-N2-FAC-S16-") && !question.questionId.startsWith("Q-N2-FAC-S17-"));
 const cards = JSON.parse(await readFile(new URL("../data/knowledge-cards.json", import.meta.url), "utf8"));
 const grammar = JSON.parse(await readFile(new URL("../knowledge/grammar/grammar-points.json", import.meta.url), "utf8"));
 const points = JSON.parse(await readFile(new URL("../data/knowledge-points.json", import.meta.url), "utf8"));
@@ -73,9 +73,9 @@ test("Sprint 14 报告已更新到321题", async () => {
     readFile(new URL("../reports/question-generation-plan.md", import.meta.url), "utf8"),
     readFile(new URL("../reports/question-bank-quality.md", import.meta.url), "utf8")
   ]);
-  assert.match(exam, /N2 考试覆盖率：\*\*59\.09%\*\*/);
-  assert.match(questionCoverage, /当前题目数：\*\*449\*\*/);
-  assert.match(questionCoverage, /目标完成率：\*\*53\.14%\*\*/);
-  assert.match(plan, /当前目标完成率：\*\*53\.14%\*\*/);
-  assert.match(quality, /\| 题目数 \| 449 \|/);
+  assert.match(exam, /N2 考试覆盖率：\*\*70\.90%\*\*/);
+  assert.match(questionCoverage, /当前题目数：\*\*705\*\*/);
+  assert.match(questionCoverage, /目标完成率：\*\*83\.43%\*\*/);
+  assert.match(plan, /当前目标完成率：\*\*83\.43%\*\*/);
+  assert.match(quality, /\| 题目数 \| 705 \|/);
 });

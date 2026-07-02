@@ -30,12 +30,16 @@
       "Q-N2-FAC-S15-0125",
       "Q-N2-FAC-S15-0126",
       "Q-N2-FAC-S15-0127",
-      "Q-N2-FAC-S15-0128"
+      "Q-N2-FAC-S15-0128",
+      "Q-N2-FAC-S17-0045",
+      "Q-N2-FAC-S17-0046",
+      "Q-N2-FAC-S17-0047",
+      "Q-N2-FAC-S17-0048"
     ],
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   },
   {
     "knowledgePointId": "KP-VOC-OU-001",
@@ -64,12 +68,20 @@
       "Q-N2-VOC-0002",
       "Q-N2-VOC-0009",
       "Q-N2-VOC-0010",
-      "Q-N2-VOC-0011"
+      "Q-N2-VOC-0011",
+      "Q-N2-FAC-S16-0001",
+      "Q-N2-FAC-S16-0002",
+      "Q-N2-FAC-S16-0003",
+      "Q-N2-FAC-S16-0004",
+      "Q-N2-FAC-S17-0057",
+      "Q-N2-FAC-S17-0058",
+      "Q-N2-FAC-S17-0059",
+      "Q-N2-FAC-S17-0060"
     ],
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   },
   {
     "knowledgePointId": "KP-VOC-YOSERU-001",
@@ -98,12 +110,20 @@
       "Q-N2-VOC-0003",
       "Q-N2-VOC-0012",
       "Q-N2-VOC-0013",
-      "Q-N2-VOC-0014"
+      "Q-N2-VOC-0014",
+      "Q-N2-FAC-S16-0005",
+      "Q-N2-FAC-S16-0006",
+      "Q-N2-FAC-S16-0007",
+      "Q-N2-FAC-S16-0008",
+      "Q-N2-FAC-S17-0049",
+      "Q-N2-FAC-S17-0050",
+      "Q-N2-FAC-S17-0051",
+      "Q-N2-FAC-S17-0052"
     ],
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   },
   {
     "knowledgePointId": "KP-VOC-TASSURU-001",
@@ -136,12 +156,16 @@
       "Q-N2-FAC-S15-0085",
       "Q-N2-FAC-S15-0086",
       "Q-N2-FAC-S15-0087",
-      "Q-N2-FAC-S15-0088"
+      "Q-N2-FAC-S15-0088",
+      "Q-N2-FAC-S17-0041",
+      "Q-N2-FAC-S17-0042",
+      "Q-N2-FAC-S17-0043",
+      "Q-N2-FAC-S17-0044"
     ],
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   },
   {
     "knowledgePointId": "KP-VOC-KITASU-001",
@@ -174,12 +198,16 @@
       "Q-N2-FAC-S15-0081",
       "Q-N2-FAC-S15-0082",
       "Q-N2-FAC-S15-0083",
-      "Q-N2-FAC-S15-0084"
+      "Q-N2-FAC-S15-0084",
+      "Q-N2-FAC-S17-0053",
+      "Q-N2-FAC-S17-0054",
+      "Q-N2-FAC-S17-0055",
+      "Q-N2-FAC-S17-0056"
     ],
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   },
   {
     "knowledgePointId": "KP-ADV-ARAKAJIME-001",
@@ -215,7 +243,7 @@
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   },
   {
     "knowledgePointId": "KP-ADV-SHIKIRINI-001",
@@ -246,12 +274,16 @@
       "Q-N2-FAC-S15-0045",
       "Q-N2-FAC-S15-0046",
       "Q-N2-FAC-S15-0047",
-      "Q-N2-FAC-S15-0048"
+      "Q-N2-FAC-S15-0048",
+      "Q-N2-FAC-S16-0109",
+      "Q-N2-FAC-S16-0110",
+      "Q-N2-FAC-S16-0111",
+      "Q-N2-FAC-S16-0112"
     ],
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   },
   {
     "knowledgePointId": "KP-ADV-ROKUNI-001",
@@ -287,7 +319,7 @@
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   },
   {
     "knowledgePointId": "KP-ADV-ISSO-001",
@@ -318,12 +350,16 @@
       "Q-N2-FAC-S15-0037",
       "Q-N2-FAC-S15-0038",
       "Q-N2-FAC-S15-0039",
-      "Q-N2-FAC-S15-0040"
+      "Q-N2-FAC-S15-0040",
+      "Q-N2-FAC-S16-0105",
+      "Q-N2-FAC-S16-0106",
+      "Q-N2-FAC-S16-0107",
+      "Q-N2-FAC-S16-0108"
     ],
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   },
   {
     "knowledgePointId": "KP-ADV-TAMATAMA-001",
@@ -359,7 +395,7 @@
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   },
   {
     "knowledgePointId": "KP-SYN-OOYOSO-001",
@@ -389,12 +425,20 @@
       "Q-N2-SYN-0006",
       "Q-N2-SYN-0020",
       "Q-N2-SYN-0021",
-      "Q-N2-SYN-0022"
+      "Q-N2-SYN-0022",
+      "Q-N2-FAC-S16-0021",
+      "Q-N2-FAC-S16-0022",
+      "Q-N2-FAC-S16-0023",
+      "Q-N2-FAC-S16-0024",
+      "Q-N2-FAC-S17-0025",
+      "Q-N2-FAC-S17-0026",
+      "Q-N2-FAC-S17-0027",
+      "Q-N2-FAC-S17-0028"
     ],
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   },
   {
     "knowledgePointId": "KP-SYN-TADACHINI-001",
@@ -424,12 +468,20 @@
       "Q-N2-SYN-0007",
       "Q-N2-SYN-0023",
       "Q-N2-SYN-0024",
-      "Q-N2-SYN-0025"
+      "Q-N2-SYN-0025",
+      "Q-N2-FAC-S16-0025",
+      "Q-N2-FAC-S16-0026",
+      "Q-N2-FAC-S16-0027",
+      "Q-N2-FAC-S16-0028",
+      "Q-N2-FAC-S17-0037",
+      "Q-N2-FAC-S17-0038",
+      "Q-N2-FAC-S17-0039",
+      "Q-N2-FAC-S17-0040"
     ],
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   },
   {
     "knowledgePointId": "KP-SYN-METTANI-001",
@@ -459,12 +511,20 @@
       "Q-N2-SYN-0008",
       "Q-N2-SYN-0017",
       "Q-N2-SYN-0018",
-      "Q-N2-SYN-0019"
+      "Q-N2-SYN-0019",
+      "Q-N2-FAC-S16-0017",
+      "Q-N2-FAC-S16-0018",
+      "Q-N2-FAC-S16-0019",
+      "Q-N2-FAC-S16-0020",
+      "Q-N2-FAC-S17-0033",
+      "Q-N2-FAC-S17-0034",
+      "Q-N2-FAC-S17-0035",
+      "Q-N2-FAC-S17-0036"
     ],
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   },
   {
     "knowledgePointId": "KP-SYN-DATO-001",
@@ -494,12 +554,20 @@
       "Q-N2-SYN-0009",
       "Q-N2-SYN-0011",
       "Q-N2-SYN-0012",
-      "Q-N2-SYN-0013"
+      "Q-N2-SYN-0013",
+      "Q-N2-FAC-S16-0009",
+      "Q-N2-FAC-S16-0010",
+      "Q-N2-FAC-S16-0011",
+      "Q-N2-FAC-S16-0012",
+      "Q-N2-FAC-S17-0029",
+      "Q-N2-FAC-S17-0030",
+      "Q-N2-FAC-S17-0031",
+      "Q-N2-FAC-S17-0032"
     ],
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   },
   {
     "knowledgePointId": "KP-SYN-HABUKU-001",
@@ -529,12 +597,20 @@
       "Q-N2-SYN-0010",
       "Q-N2-SYN-0014",
       "Q-N2-SYN-0015",
-      "Q-N2-SYN-0016"
+      "Q-N2-SYN-0016",
+      "Q-N2-FAC-S16-0013",
+      "Q-N2-FAC-S16-0014",
+      "Q-N2-FAC-S16-0015",
+      "Q-N2-FAC-S16-0016",
+      "Q-N2-FAC-S17-0021",
+      "Q-N2-FAC-S17-0022",
+      "Q-N2-FAC-S17-0023",
+      "Q-N2-FAC-S17-0024"
     ],
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   },
   {
     "knowledgePointId": "KP-READ-NOTICE-001",
@@ -567,12 +643,20 @@
       "Q-N2-READ-0031",
       "Q-N2-READ-0032",
       "Q-N2-READ-0033",
-      "Q-N2-READ-0034"
+      "Q-N2-READ-0034",
+      "Q-N2-FAC-S16-0045",
+      "Q-N2-FAC-S16-0046",
+      "Q-N2-FAC-S16-0047",
+      "Q-N2-FAC-S16-0048",
+      "Q-N2-FAC-S17-0017",
+      "Q-N2-FAC-S17-0018",
+      "Q-N2-FAC-S17-0019",
+      "Q-N2-FAC-S17-0020"
     ],
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   },
   {
     "knowledgePointId": "KP-READ-MEMO-001",
@@ -605,12 +689,20 @@
       "Q-N2-READ-0025",
       "Q-N2-READ-0026",
       "Q-N2-READ-0027",
-      "Q-N2-READ-0028"
+      "Q-N2-READ-0028",
+      "Q-N2-FAC-S16-0041",
+      "Q-N2-FAC-S16-0042",
+      "Q-N2-FAC-S16-0043",
+      "Q-N2-FAC-S16-0044",
+      "Q-N2-FAC-S17-0009",
+      "Q-N2-FAC-S17-0010",
+      "Q-N2-FAC-S17-0011",
+      "Q-N2-FAC-S17-0012"
     ],
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   },
   {
     "knowledgePointId": "KP-READ-MAINIDEA-001",
@@ -643,12 +735,20 @@
       "Q-N2-READ-0019",
       "Q-N2-READ-0020",
       "Q-N2-READ-0021",
-      "Q-N2-READ-0022"
+      "Q-N2-READ-0022",
+      "Q-N2-FAC-S16-0049",
+      "Q-N2-FAC-S16-0050",
+      "Q-N2-FAC-S16-0051",
+      "Q-N2-FAC-S16-0052",
+      "Q-N2-FAC-S17-0005",
+      "Q-N2-FAC-S17-0006",
+      "Q-N2-FAC-S17-0007",
+      "Q-N2-FAC-S17-0008"
     ],
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   },
   {
     "knowledgePointId": "KP-READ-GUIDE-001",
@@ -681,12 +781,20 @@
       "Q-N2-READ-0013",
       "Q-N2-READ-0014",
       "Q-N2-READ-0015",
-      "Q-N2-READ-0016"
+      "Q-N2-READ-0016",
+      "Q-N2-FAC-S16-0029",
+      "Q-N2-FAC-S16-0030",
+      "Q-N2-FAC-S16-0031",
+      "Q-N2-FAC-S16-0032",
+      "Q-N2-FAC-S17-0001",
+      "Q-N2-FAC-S17-0002",
+      "Q-N2-FAC-S17-0003",
+      "Q-N2-FAC-S17-0004"
     ],
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   },
   {
     "knowledgePointId": "KP-READ-REASON-001",
@@ -719,12 +827,20 @@
       "Q-N2-READ-0037",
       "Q-N2-READ-0038",
       "Q-N2-READ-0039",
-      "Q-N2-READ-0040"
+      "Q-N2-READ-0040",
+      "Q-N2-FAC-S16-0033",
+      "Q-N2-FAC-S16-0034",
+      "Q-N2-FAC-S16-0035",
+      "Q-N2-FAC-S16-0036",
+      "Q-N2-FAC-S17-0013",
+      "Q-N2-FAC-S17-0014",
+      "Q-N2-FAC-S17-0015",
+      "Q-N2-FAC-S17-0016"
     ],
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   },
   {
     "knowledgePointId": "KP-GRA-MONONO-001",
@@ -765,7 +881,7 @@
     "verificationStatus": "verified",
     "sourceType": "trusted_learning_site",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   },
   {
     "knowledgePointId": "KP-GRA-TOWAIE-001",
@@ -796,12 +912,16 @@
       "Q-N2-FAC-S14-0065",
       "Q-N2-FAC-S14-0066",
       "Q-N2-FAC-S14-0067",
-      "Q-N2-FAC-S14-0068"
+      "Q-N2-FAC-S14-0068",
+      "Q-N2-FAC-S17-0113",
+      "Q-N2-FAC-S17-0114",
+      "Q-N2-FAC-S17-0115",
+      "Q-N2-FAC-S17-0116"
     ],
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   },
   {
     "knowledgePointId": "KP-GRA-NAGARAMO-001",
@@ -840,7 +960,7 @@
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   },
   {
     "knowledgePointId": "KP-GRA-NIMOKAKAWARAZU-001",
@@ -879,7 +999,7 @@
     "verificationStatus": "verified",
     "sourceType": "trusted_learning_site",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   },
   {
     "knowledgePointId": "KP-GRA-KUSENI-001",
@@ -910,12 +1030,16 @@
       "Q-N2-FAC-S14-0069",
       "Q-N2-FAC-S14-0070",
       "Q-N2-FAC-S14-0071",
-      "Q-N2-FAC-S14-0072"
+      "Q-N2-FAC-S14-0072",
+      "Q-N2-FAC-S17-0117",
+      "Q-N2-FAC-S17-0118",
+      "Q-N2-FAC-S17-0119",
+      "Q-N2-FAC-S17-0120"
     ],
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   },
   {
     "knowledgePointId": "KP-GRA-TSUTSUMO-001",
@@ -953,7 +1077,7 @@
     "verificationStatus": "verified",
     "sourceType": "trusted_learning_site",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   },
   {
     "knowledgePointId": "KP-GRA-HANMEN-001",
@@ -991,7 +1115,7 @@
     "verificationStatus": "verified",
     "sourceType": "trusted_learning_site",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   },
   {
     "knowledgePointId": "KP-GRA-IPPOUDE-001",
@@ -1024,12 +1148,16 @@
       "Q-N2-FAC-S12-0037",
       "Q-N2-FAC-S12-0038",
       "Q-N2-FAC-S12-0039",
-      "Q-N2-FAC-S12-0040"
+      "Q-N2-FAC-S12-0040",
+      "Q-N2-FAC-S16-0101",
+      "Q-N2-FAC-S16-0102",
+      "Q-N2-FAC-S16-0103",
+      "Q-N2-FAC-S16-0104"
     ],
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   },
   {
     "knowledgePointId": "KP-GRA-NIHANSHITE-001",
@@ -1060,12 +1188,16 @@
       "Q-N2-FAC-S14-0029",
       "Q-N2-FAC-S14-0030",
       "Q-N2-FAC-S14-0031",
-      "Q-N2-FAC-S14-0032"
+      "Q-N2-FAC-S14-0032",
+      "Q-N2-FAC-S17-0077",
+      "Q-N2-FAC-S17-0078",
+      "Q-N2-FAC-S17-0079",
+      "Q-N2-FAC-S17-0080"
     ],
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   },
   {
     "knowledgePointId": "KP-GRA-DOKOROKA-001",
@@ -1107,7 +1239,7 @@
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   },
   {
     "knowledgePointId": "KP-GRA-KOTOKARA-001",
@@ -1140,12 +1272,16 @@
       "Q-N2-GRC-0005",
       "Q-N2-GRC-0018",
       "Q-N2-GRC-0019",
-      "Q-N2-GRC-0020"
+      "Q-N2-GRC-0020",
+      "Q-N2-FAC-S16-0089",
+      "Q-N2-FAC-S16-0090",
+      "Q-N2-FAC-S16-0091",
+      "Q-N2-FAC-S16-0092"
     ],
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   },
   {
     "knowledgePointId": "KP-GRA-MONODAKARA-001",
@@ -1185,7 +1321,7 @@
     "verificationStatus": "verified",
     "sourceType": "trusted_learning_site",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   },
   {
     "knowledgePointId": "KP-GRA-BAKARINI-001",
@@ -1225,7 +1361,7 @@
     "verificationStatus": "verified",
     "sourceType": "trusted_learning_site",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   },
   {
     "knowledgePointId": "KP-GRA-OKAGEDE-001",
@@ -1256,12 +1392,16 @@
       "Q-N2-FAC-S14-0041",
       "Q-N2-FAC-S14-0042",
       "Q-N2-FAC-S14-0043",
-      "Q-N2-FAC-S14-0044"
+      "Q-N2-FAC-S14-0044",
+      "Q-N2-FAC-S17-0089",
+      "Q-N2-FAC-S17-0090",
+      "Q-N2-FAC-S17-0091",
+      "Q-N2-FAC-S17-0092"
     ],
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   },
   {
     "knowledgePointId": "KP-GRA-SEIDE-001",
@@ -1292,12 +1432,16 @@
       "Q-N2-FAC-S14-0053",
       "Q-N2-FAC-S14-0054",
       "Q-N2-FAC-S14-0055",
-      "Q-N2-FAC-S14-0056"
+      "Q-N2-FAC-S14-0056",
+      "Q-N2-FAC-S17-0101",
+      "Q-N2-FAC-S17-0102",
+      "Q-N2-FAC-S17-0103",
+      "Q-N2-FAC-S17-0104"
     ],
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   },
   {
     "knowledgePointId": "KP-GRA-AMARI-001",
@@ -1328,12 +1472,16 @@
       "Q-N2-FAC-S12-0001",
       "Q-N2-FAC-S12-0002",
       "Q-N2-FAC-S12-0003",
-      "Q-N2-FAC-S12-0004"
+      "Q-N2-FAC-S12-0004",
+      "Q-N2-FAC-S16-0085",
+      "Q-N2-FAC-S16-0086",
+      "Q-N2-FAC-S16-0087",
+      "Q-N2-FAC-S16-0088"
     ],
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   },
   {
     "knowledgePointId": "KP-GRA-AGEKU-001",
@@ -1369,7 +1517,7 @@
     "verificationStatus": "verified",
     "sourceType": "trusted_learning_site",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   },
   {
     "knowledgePointId": "KP-GRA-IJOUWA-001",
@@ -1405,7 +1553,7 @@
     "verificationStatus": "verified",
     "sourceType": "trusted_learning_site",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   },
   {
     "knowledgePointId": "KP-GRA-NICHIGAINAI-001",
@@ -1437,12 +1585,16 @@
       "Q-N2-GRC-0002",
       "Q-N2-GRC-0009",
       "Q-N2-GRC-0010",
-      "Q-N2-GRC-0011"
+      "Q-N2-GRC-0011",
+      "Q-N2-FAC-S16-0037",
+      "Q-N2-FAC-S16-0038",
+      "Q-N2-FAC-S16-0039",
+      "Q-N2-FAC-S16-0040"
     ],
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   },
   {
     "knowledgePointId": "KP-GRA-HAZUDA-001",
@@ -1473,12 +1625,16 @@
       "Q-N2-FAC-S12-0029",
       "Q-N2-FAC-S12-0030",
       "Q-N2-FAC-S12-0031",
-      "Q-N2-FAC-S12-0032"
+      "Q-N2-FAC-S12-0032",
+      "Q-N2-FAC-S16-0077",
+      "Q-N2-FAC-S16-0078",
+      "Q-N2-FAC-S16-0079",
+      "Q-N2-FAC-S16-0080"
     ],
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   },
   {
     "knowledgePointId": "KP-GRA-WAKEGANAI-001",
@@ -1510,12 +1666,16 @@
       "Q-N2-FAC-S14-0017",
       "Q-N2-FAC-S14-0018",
       "Q-N2-FAC-S14-0019",
-      "Q-N2-FAC-S14-0020"
+      "Q-N2-FAC-S14-0020",
+      "Q-N2-FAC-S17-0065",
+      "Q-N2-FAC-S17-0066",
+      "Q-N2-FAC-S17-0067",
+      "Q-N2-FAC-S17-0068"
     ],
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   },
   {
     "knowledgePointId": "KP-GRA-YOUDA-001",
@@ -1553,7 +1713,7 @@
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   },
   {
     "knowledgePointId": "KP-GRA-RASHII-001",
@@ -1592,7 +1752,7 @@
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   },
   {
     "knowledgePointId": "KP-GRA-OSOREGAARU-001",
@@ -1630,7 +1790,7 @@
     "verificationStatus": "verified",
     "sourceType": "trusted_learning_site",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   },
   {
     "knowledgePointId": "KP-GRA-KANENAI-001",
@@ -1668,7 +1828,7 @@
     "verificationStatus": "verified",
     "sourceType": "trusted_learning_site",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   },
   {
     "knowledgePointId": "KP-GRA-MAI-001",
@@ -1704,7 +1864,7 @@
     "verificationStatus": "verified",
     "sourceType": "trusted_learning_site",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   },
   {
     "knowledgePointId": "KP-GRA-NIKIMATTEIRU-001",
@@ -1740,7 +1900,7 @@
     "verificationStatus": "verified",
     "sourceType": "trusted_learning_site",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   },
   {
     "knowledgePointId": "KP-GRA-NIHOKANARANAI-001",
@@ -1769,12 +1929,16 @@
     "confusablePointIds": [],
     "linkedQuestionIds": [
       "Q-N2-GRM-0004",
-      "Q-N2-GRM-0009"
+      "Q-N2-GRM-0009",
+      "Q-N2-FAC-S16-0113",
+      "Q-N2-FAC-S16-0114",
+      "Q-N2-FAC-S16-0115",
+      "Q-N2-FAC-S16-0116"
     ],
     "verificationStatus": "verified",
     "sourceType": "trusted_learning_site",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   },
   {
     "knowledgePointId": "KP-GRA-NISUGINAI-001",
@@ -1810,7 +1974,7 @@
     "verificationStatus": "verified",
     "sourceType": "trusted_learning_site",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   },
   {
     "knowledgePointId": "KP-GRA-SHIKANAI-001",
@@ -1848,7 +2012,7 @@
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   },
   {
     "knowledgePointId": "KP-GRA-SAE-001",
@@ -1879,12 +2043,16 @@
       "Q-N2-FAC-S14-0045",
       "Q-N2-FAC-S14-0046",
       "Q-N2-FAC-S14-0047",
-      "Q-N2-FAC-S14-0048"
+      "Q-N2-FAC-S14-0048",
+      "Q-N2-FAC-S17-0093",
+      "Q-N2-FAC-S17-0094",
+      "Q-N2-FAC-S17-0095",
+      "Q-N2-FAC-S17-0096"
     ],
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   },
   {
     "knowledgePointId": "KP-GRA-BAKARIKA-001",
@@ -1919,12 +2087,16 @@
       "Q-N2-FAC-S12-0005",
       "Q-N2-FAC-S12-0006",
       "Q-N2-FAC-S12-0007",
-      "Q-N2-FAC-S12-0008"
+      "Q-N2-FAC-S12-0008",
+      "Q-N2-FAC-S16-0093",
+      "Q-N2-FAC-S16-0094",
+      "Q-N2-FAC-S16-0095",
+      "Q-N2-FAC-S16-0096"
     ],
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   },
   {
     "knowledgePointId": "KP-GRA-NOMINARAZU-001",
@@ -1960,7 +2132,7 @@
     "verificationStatus": "verified",
     "sourceType": "trusted_learning_site",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   },
   {
     "knowledgePointId": "KP-GRA-NIKAGITTE-001",
@@ -1998,7 +2170,7 @@
     "verificationStatus": "verified",
     "sourceType": "trusted_learning_site",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   },
   {
     "knowledgePointId": "KP-GRA-NIKAGIRAZU-001",
@@ -2036,7 +2208,7 @@
     "verificationStatus": "verified",
     "sourceType": "trusted_learning_site",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   },
   {
     "knowledgePointId": "KP-GRA-WAKEDEWANAI-001",
@@ -2076,7 +2248,7 @@
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   },
   {
     "knowledgePointId": "KP-GRA-SAEBA-001",
@@ -2107,12 +2279,16 @@
       "Q-N2-FAC-S14-0049",
       "Q-N2-FAC-S14-0050",
       "Q-N2-FAC-S14-0051",
-      "Q-N2-FAC-S14-0052"
+      "Q-N2-FAC-S14-0052",
+      "Q-N2-FAC-S17-0097",
+      "Q-N2-FAC-S17-0098",
+      "Q-N2-FAC-S17-0099",
+      "Q-N2-FAC-S17-0100"
     ],
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   },
   {
     "knowledgePointId": "KP-GRA-MONONARA-001",
@@ -2150,7 +2326,7 @@
     "verificationStatus": "verified",
     "sourceType": "trusted_learning_site",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   },
   {
     "knowledgePointId": "KP-GRA-YOUMONONARA-001",
@@ -2183,12 +2359,16 @@
       "Q-N2-FAC-S15-0029",
       "Q-N2-FAC-S15-0030",
       "Q-N2-FAC-S15-0031",
-      "Q-N2-FAC-S15-0032"
+      "Q-N2-FAC-S15-0032",
+      "Q-N2-FAC-S16-0069",
+      "Q-N2-FAC-S16-0070",
+      "Q-N2-FAC-S16-0071",
+      "Q-N2-FAC-S16-0072"
     ],
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   },
   {
     "knowledgePointId": "KP-GRA-NAIKOTONIWA-001",
@@ -2224,7 +2404,7 @@
     "verificationStatus": "verified",
     "sourceType": "trusted_learning_site",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   },
   {
     "knowledgePointId": "KP-GRA-TOSHITARA-001",
@@ -2255,12 +2435,16 @@
       "Q-N2-FAC-S14-0057",
       "Q-N2-FAC-S14-0058",
       "Q-N2-FAC-S14-0059",
-      "Q-N2-FAC-S14-0060"
+      "Q-N2-FAC-S14-0060",
+      "Q-N2-FAC-S17-0105",
+      "Q-N2-FAC-S17-0106",
+      "Q-N2-FAC-S17-0107",
+      "Q-N2-FAC-S17-0108"
     ],
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   },
   {
     "knowledgePointId": "KP-GRA-TOSUREBA-001",
@@ -2291,12 +2475,16 @@
       "Q-N2-FAC-S14-0061",
       "Q-N2-FAC-S14-0062",
       "Q-N2-FAC-S14-0063",
-      "Q-N2-FAC-S14-0064"
+      "Q-N2-FAC-S14-0064",
+      "Q-N2-FAC-S17-0109",
+      "Q-N2-FAC-S17-0110",
+      "Q-N2-FAC-S17-0111",
+      "Q-N2-FAC-S17-0112"
     ],
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   },
   {
     "knowledgePointId": "KP-GRA-KAGIRI-001",
@@ -2333,7 +2521,7 @@
     "verificationStatus": "verified",
     "sourceType": "trusted_learning_site",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   },
   {
     "knowledgePointId": "KP-GRA-NAIKAGIRI-001",
@@ -2366,12 +2554,16 @@
       "Q-N2-FAC-S14-0005",
       "Q-N2-FAC-S14-0006",
       "Q-N2-FAC-S14-0007",
-      "Q-N2-FAC-S14-0008"
+      "Q-N2-FAC-S14-0008",
+      "Q-N2-FAC-S16-0121",
+      "Q-N2-FAC-S16-0122",
+      "Q-N2-FAC-S16-0123",
+      "Q-N2-FAC-S16-0124"
     ],
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   },
   {
     "knowledgePointId": "KP-GRA-NAIKOTOWANAI-001",
@@ -2411,7 +2603,7 @@
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   },
   {
     "knowledgePointId": "KP-GRA-TAMENI-001",
@@ -2451,7 +2643,7 @@
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   },
   {
     "knowledgePointId": "KP-GRA-YOUNI-001",
@@ -2489,7 +2681,7 @@
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   },
   {
     "knowledgePointId": "KP-GRA-BEKU-001",
@@ -2520,12 +2712,16 @@
       "Q-N2-FAC-S12-0017",
       "Q-N2-FAC-S12-0018",
       "Q-N2-FAC-S12-0019",
-      "Q-N2-FAC-S12-0020"
+      "Q-N2-FAC-S12-0020",
+      "Q-N2-FAC-S16-0053",
+      "Q-N2-FAC-S16-0054",
+      "Q-N2-FAC-S16-0055",
+      "Q-N2-FAC-S16-0056"
     ],
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   },
   {
     "knowledgePointId": "KP-GRA-NIMUKETE-001",
@@ -2557,12 +2753,16 @@
       "Q-N2-FAC-S14-0033",
       "Q-N2-FAC-S14-0034",
       "Q-N2-FAC-S14-0035",
-      "Q-N2-FAC-S14-0036"
+      "Q-N2-FAC-S14-0036",
+      "Q-N2-FAC-S17-0081",
+      "Q-N2-FAC-S17-0082",
+      "Q-N2-FAC-S17-0083",
+      "Q-N2-FAC-S17-0084"
     ],
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   },
   {
     "knowledgePointId": "KP-GRA-NISONAETE-001",
@@ -2593,12 +2793,16 @@
       "Q-N2-FAC-S14-0037",
       "Q-N2-FAC-S14-0038",
       "Q-N2-FAC-S14-0039",
-      "Q-N2-FAC-S14-0040"
+      "Q-N2-FAC-S14-0040",
+      "Q-N2-FAC-S17-0085",
+      "Q-N2-FAC-S17-0086",
+      "Q-N2-FAC-S17-0087",
+      "Q-N2-FAC-S17-0088"
     ],
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   },
   {
     "knowledgePointId": "KP-GRA-NITOMONATTE-001",
@@ -2638,7 +2842,7 @@
     "verificationStatus": "verified",
     "sourceType": "trusted_learning_site",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   },
   {
     "knowledgePointId": "KP-GRA-NITSURETE-001",
@@ -2679,7 +2883,7 @@
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   },
   {
     "knowledgePointId": "KP-GRA-NISHITAGATTE-001",
@@ -2717,7 +2921,7 @@
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   },
   {
     "knowledgePointId": "KP-GRA-TOTOMONI-001",
@@ -2755,7 +2959,7 @@
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   },
   {
     "knowledgePointId": "KP-GRA-YOUNINARU-001",
@@ -2786,12 +2990,16 @@
       "Q-N2-FAC-S14-0021",
       "Q-N2-FAC-S14-0022",
       "Q-N2-FAC-S14-0023",
-      "Q-N2-FAC-S14-0024"
+      "Q-N2-FAC-S14-0024",
+      "Q-N2-FAC-S17-0069",
+      "Q-N2-FAC-S17-0070",
+      "Q-N2-FAC-S17-0071",
+      "Q-N2-FAC-S17-0072"
     ],
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   },
   {
     "knowledgePointId": "KP-GRA-KOTONINARU-001",
@@ -2824,12 +3032,16 @@
       "Q-N2-FAC-S14-0073",
       "Q-N2-FAC-S14-0074",
       "Q-N2-FAC-S14-0075",
-      "Q-N2-FAC-S14-0076"
+      "Q-N2-FAC-S14-0076",
+      "Q-N2-FAC-S17-0125",
+      "Q-N2-FAC-S17-0126",
+      "Q-N2-FAC-S17-0127",
+      "Q-N2-FAC-S17-0128"
     ],
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   },
   {
     "knowledgePointId": "KP-GRA-KOTONISURU-001",
@@ -2868,7 +3080,7 @@
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   },
   {
     "knowledgePointId": "KP-GRA-BAKARIDA-001",
@@ -2904,7 +3116,7 @@
     "verificationStatus": "verified",
     "sourceType": "trusted_learning_site",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   },
   {
     "knowledgePointId": "KP-GRA-ZARUOENAI-001",
@@ -2937,12 +3149,16 @@
     ],
     "linkedQuestionIds": [
       "Q-N2-GRM-0005",
-      "Q-N2-GRM-0010"
+      "Q-N2-GRM-0010",
+      "Q-N2-FAC-S17-0121",
+      "Q-N2-FAC-S17-0122",
+      "Q-N2-FAC-S17-0123",
+      "Q-N2-FAC-S17-0124"
     ],
     "verificationStatus": "verified",
     "sourceType": "trusted_learning_site",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   },
   {
     "knowledgePointId": "KP-GRA-NAIWAKENIHAIKANAI-001",
@@ -2980,7 +3196,7 @@
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   },
   {
     "knowledgePointId": "KP-GRA-BEKIDA-001",
@@ -3013,12 +3229,16 @@
       "Q-N2-FAC-S12-0009",
       "Q-N2-FAC-S12-0010",
       "Q-N2-FAC-S12-0011",
-      "Q-N2-FAC-S12-0012"
+      "Q-N2-FAC-S12-0012",
+      "Q-N2-FAC-S16-0073",
+      "Q-N2-FAC-S16-0074",
+      "Q-N2-FAC-S16-0075",
+      "Q-N2-FAC-S16-0076"
     ],
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   },
   {
     "knowledgePointId": "KP-GRA-BEKIDEWANAI-001",
@@ -3051,12 +3271,16 @@
       "Q-N2-FAC-S12-0013",
       "Q-N2-FAC-S12-0014",
       "Q-N2-FAC-S12-0015",
-      "Q-N2-FAC-S12-0016"
+      "Q-N2-FAC-S12-0016",
+      "Q-N2-FAC-S16-0081",
+      "Q-N2-FAC-S16-0082",
+      "Q-N2-FAC-S16-0083",
+      "Q-N2-FAC-S16-0084"
     ],
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   },
   {
     "knowledgePointId": "KP-GRA-KOTODA-001",
@@ -3092,7 +3316,7 @@
     "verificationStatus": "verified",
     "sourceType": "trusted_learning_site",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   },
   {
     "knowledgePointId": "KP-GRA-KOTOWANAI-001",
@@ -3123,12 +3347,16 @@
       "Q-N2-FAC-S14-0025",
       "Q-N2-FAC-S14-0026",
       "Q-N2-FAC-S14-0027",
-      "Q-N2-FAC-S14-0028"
+      "Q-N2-FAC-S14-0028",
+      "Q-N2-FAC-S17-0073",
+      "Q-N2-FAC-S17-0074",
+      "Q-N2-FAC-S17-0075",
+      "Q-N2-FAC-S17-0076"
     ],
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   },
   {
     "knowledgePointId": "KP-GRA-TEWANARANAI-001",
@@ -3165,7 +3393,7 @@
     "verificationStatus": "verified",
     "sourceType": "trusted_learning_site",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   },
   {
     "knowledgePointId": "KP-GRA-KOTONINATTEIRU-001",
@@ -3196,12 +3424,16 @@
       "Q-N2-FAC-S14-0001",
       "Q-N2-FAC-S14-0002",
       "Q-N2-FAC-S14-0003",
-      "Q-N2-FAC-S14-0004"
+      "Q-N2-FAC-S14-0004",
+      "Q-N2-FAC-S16-0117",
+      "Q-N2-FAC-S16-0118",
+      "Q-N2-FAC-S16-0119",
+      "Q-N2-FAC-S16-0120"
     ],
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   },
   {
     "knowledgePointId": "KP-GRA-HODO-001",
@@ -3234,12 +3466,16 @@
       "Q-N2-FAC-S12-0033",
       "Q-N2-FAC-S12-0034",
       "Q-N2-FAC-S12-0035",
-      "Q-N2-FAC-S12-0036"
+      "Q-N2-FAC-S12-0036",
+      "Q-N2-FAC-S16-0097",
+      "Q-N2-FAC-S16-0098",
+      "Q-N2-FAC-S16-0099",
+      "Q-N2-FAC-S16-0100"
     ],
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   },
   {
     "knowledgePointId": "KP-GRA-KURAI-001",
@@ -3277,7 +3513,7 @@
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   },
   {
     "knowledgePointId": "KP-GRA-NIKURABETE-001",
@@ -3315,7 +3551,7 @@
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   },
   {
     "knowledgePointId": "KP-GRA-NITAISHITE-001",
@@ -3353,7 +3589,7 @@
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   },
   {
     "knowledgePointId": "KP-GRA-WARINI-001",
@@ -3386,12 +3622,16 @@
       "Q-N2-FAC-S15-0021",
       "Q-N2-FAC-S15-0022",
       "Q-N2-FAC-S15-0023",
-      "Q-N2-FAC-S15-0024"
+      "Q-N2-FAC-S15-0024",
+      "Q-N2-FAC-S16-0065",
+      "Q-N2-FAC-S16-0066",
+      "Q-N2-FAC-S16-0067",
+      "Q-N2-FAC-S16-0068"
     ],
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   },
   {
     "knowledgePointId": "KP-GRA-NISHITEWA-001",
@@ -3424,12 +3664,16 @@
       "Q-N2-FAC-S15-0005",
       "Q-N2-FAC-S15-0006",
       "Q-N2-FAC-S15-0007",
-      "Q-N2-FAC-S15-0008"
+      "Q-N2-FAC-S15-0008",
+      "Q-N2-FAC-S16-0057",
+      "Q-N2-FAC-S16-0058",
+      "Q-N2-FAC-S16-0059",
+      "Q-N2-FAC-S16-0060"
     ],
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   },
   {
     "knowledgePointId": "KP-GRA-DOKORODEWANAI-001",
@@ -3467,7 +3711,7 @@
     "verificationStatus": "verified",
     "sourceType": "trusted_learning_site",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   },
   {
     "knowledgePointId": "KP-GRA-UCHINI-001",
@@ -3498,12 +3742,16 @@
       "Q-N2-FAC-S14-0013",
       "Q-N2-FAC-S14-0014",
       "Q-N2-FAC-S14-0015",
-      "Q-N2-FAC-S14-0016"
+      "Q-N2-FAC-S14-0016",
+      "Q-N2-FAC-S17-0061",
+      "Q-N2-FAC-S17-0062",
+      "Q-N2-FAC-S17-0063",
+      "Q-N2-FAC-S17-0064"
     ],
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   },
   {
     "knowledgePointId": "KP-GRA-SAICHUUNI-001",
@@ -3536,12 +3784,16 @@
       "Q-N2-FAC-S15-0013",
       "Q-N2-FAC-S15-0014",
       "Q-N2-FAC-S15-0015",
-      "Q-N2-FAC-S15-0016"
+      "Q-N2-FAC-S15-0016",
+      "Q-N2-FAC-S16-0061",
+      "Q-N2-FAC-S16-0062",
+      "Q-N2-FAC-S16-0063",
+      "Q-N2-FAC-S16-0064"
     ],
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   },
   {
     "knowledgePointId": "KP-GRA-TABINI-001",
@@ -3572,12 +3824,16 @@
       "Q-N2-FAC-S14-0009",
       "Q-N2-FAC-S14-0010",
       "Q-N2-FAC-S14-0011",
-      "Q-N2-FAC-S14-0012"
+      "Q-N2-FAC-S14-0012",
+      "Q-N2-FAC-S16-0125",
+      "Q-N2-FAC-S16-0126",
+      "Q-N2-FAC-S16-0127",
+      "Q-N2-FAC-S16-0128"
     ],
     "verificationStatus": "unverified",
     "sourceType": "ai_structured",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   },
   {
     "knowledgePointId": "KP-GRA-TOKORONI-001",
@@ -3615,7 +3871,7 @@
     "verificationStatus": "verified",
     "sourceType": "trusted_learning_site",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   },
   {
     "knowledgePointId": "KP-GRA-TEIRAI-001",
@@ -3651,7 +3907,7 @@
     "verificationStatus": "verified",
     "sourceType": "trusted_learning_site",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   },
   {
     "knowledgePointId": "KP-GRA-NISAKIDATTE-001",
@@ -3689,7 +3945,7 @@
     "verificationStatus": "verified",
     "sourceType": "trusted_learning_site",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   },
   {
     "knowledgePointId": "KP-GRA-NISAISHITE-001",
@@ -3727,6 +3983,6 @@
     "verificationStatus": "verified",
     "sourceType": "trusted_learning_site",
     "version": 1,
-    "updatedAt": "2026-07-02T16:56:42.549Z"
+    "updatedAt": "2026-07-02T17:19:14.606Z"
   }
 ]
